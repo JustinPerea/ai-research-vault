@@ -1,0 +1,11 @@
+[
+  { "id": "arxiv:2605.00737", "url": "https://arxiv.org/abs/2605.00737", "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling", "date_covered": "2026-05-04" },
+  { "id": "arxiv:2604.27221", "url": "https://arxiv.org/abs/2604.27221", "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction", "date_covered": "2026-05-04" },
+  { "id": "arxiv:2605.00425", "url": "https://arxiv.org/abs/2605.00425", "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning", "date_covered": "2026-05-04" },
+  { "id": "arxiv:2605.00334", "url": "https://arxiv.org/abs/2605.00334", "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?", "date_covered": "2026-05-04" },
+  { "id": "arxiv:2605.00136", "url": "https://arxiv.org/abs/2605.00136", "title": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents", "date_covered": "2026-05-04" },
+  { "id": "mistral-news-2026-04-29-vibe-remote-agents-mistral-medium-3-5", "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5", "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5", "date_covered": "2026-05-04" },
+  { "id": "hf-blog-2026-04-29-ibm-granite-4-1", "url": "https://huggingface.co/blog/ibm-granite/granite-4-1", "title": "Granite 4.1 LLMs: How They're Built", "date_covered": "2026-05-04" },
+  { "id": "hf-blog-2026-04-29-evaleval-eval-costs-bottleneck", "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck", "title": "AI evals are becoming the new compute bottleneck", "date_covered": "2026-05-04" },
+  { "id": "anthropic-research-2026-04-29-biomysterybench", "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench", "title": "Evaluating Claude's bioinformatics research capabilities with BioMysteryBench", "date_covered": "2026-05-04" }
+]
