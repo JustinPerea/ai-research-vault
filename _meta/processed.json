@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.05191", "url": "https://arxiv.org/abs/2605.05191", "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.05066", "url": "https://arxiv.org/abs/2605.05066", "title": "The Impossibility Triangle of Long-Context Modeling", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.05007", "url": "https://arxiv.org/abs/2605.05007", "title": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.04785", "url": "https://arxiv.org/abs/2605.04785", "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.04361", "url": "https://arxiv.org/abs/2605.04361", "title": "When Context Hurts: The Crossover Effect of Knowledge Transfer on Multi-Agent Design Exploration", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.05170", "url": "https://arxiv.org/abs/2605.05170", "title": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours", "date_covered": "2026-05-07" },
+  { "id": "hf-blog-2026-05-06-vllm-correctness-before-corrections", "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections", "title": "vLLM V0 to V1: Correctness Before Corrections in RL", "date_covered": "2026-05-07" },
+  { "id": "anthropic-news-2026-05-05-finance-agents", "url": "https://www.anthropic.com/news/finance-agents", "title": "Agents for financial services", "date_covered": "2026-05-07" },
   { "id": "arxiv:2605.00737", "url": "https://arxiv.org/abs/2605.00737", "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling", "date_covered": "2026-05-04" },
   { "id": "arxiv:2604.27221", "url": "https://arxiv.org/abs/2604.27221", "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction", "date_covered": "2026-05-04" },
   { "id": "arxiv:2605.00425", "url": "https://arxiv.org/abs/2605.00425", "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning", "date_covered": "2026-05-04" },
