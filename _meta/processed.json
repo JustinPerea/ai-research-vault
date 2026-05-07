@@ -1,4 +1,11 @@
 [
+  { "id": "arxiv:2605.05191", "url": "https://arxiv.org/abs/2605.05191", "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.04050", "url": "https://arxiv.org/abs/2605.04050", "title": "LCM: Lossless Context Management", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.05007", "url": "https://arxiv.org/abs/2605.05007", "title": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.05138", "url": "https://arxiv.org/abs/2605.05138", "title": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.04624", "url": "https://arxiv.org/abs/2605.04624", "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.04785", "url": "https://arxiv.org/abs/2605.04785", "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use", "date_covered": "2026-05-07" },
+  { "id": "arxiv:2605.04018", "url": "https://arxiv.org/abs/2605.04018", "title": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems", "date_covered": "2026-05-07" },
   { "id": "arxiv:2605.00737", "url": "https://arxiv.org/abs/2605.00737", "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling", "date_covered": "2026-05-04" },
   { "id": "arxiv:2604.27221", "url": "https://arxiv.org/abs/2604.27221", "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction", "date_covered": "2026-05-04" },
   { "id": "arxiv:2605.00425", "url": "https://arxiv.org/abs/2605.00425", "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning", "date_covered": "2026-05-04" },
