@@ -1,4 +1,13 @@
 [
+  { "id": "arxiv:2605.06527", "url": "https://arxiv.org/abs/2605.06527", "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06132", "url": "https://arxiv.org/abs/2605.06132", "title": "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06078", "url": "https://arxiv.org/abs/2605.06078", "title": "BEACON: Milestone-Guided Policy Learning for Long-Horizon Language Agents", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06614", "url": "https://arxiv.org/abs/2605.06614", "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06623", "url": "https://arxiv.org/abs/2605.06623", "title": "MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06334", "url": "https://arxiv.org/abs/2605.06334", "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06635", "url": "https://arxiv.org/abs/2605.06635", "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents", "date_covered": "2026-05-08" },
+  { "id": "arxiv:2605.06326", "url": "https://arxiv.org/abs/2605.06326", "title": "Teaching Thinking Models to Reason with Tools: A Full-Pipeline Recipe for Tool-Integrated Reasoning", "date_covered": "2026-05-08" },
+  { "id": "anthropic-research-2026-05-07-natural-language-autoencoders", "url": "https://www.anthropic.com/research/natural-language-autoencoders", "title": "Natural Language Autoencoders: Turning Claude's thoughts into text", "date_covered": "2026-05-08" },
   { "id": "arxiv:2605.05191", "url": "https://arxiv.org/abs/2605.05191", "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents", "date_covered": "2026-05-07" },
   { "id": "arxiv:2605.04050", "url": "https://arxiv.org/abs/2605.04050", "title": "LCM: Lossless Context Management", "date_covered": "2026-05-07" },
   { "id": "arxiv:2605.05007", "url": "https://arxiv.org/abs/2605.05007", "title": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation", "date_covered": "2026-05-07" },
