@@ -1,4 +1,12 @@
 [
+  { "id": "anthropic-research-2026-05-08-teaching-claude-why", "url": "https://www.anthropic.com/research/teaching-claude-why", "title": "Teaching Claude why", "date_covered": "2026-05-09" },
+  { "id": "arxiv:2605.06651", "url": "https://arxiv.org/abs/2605.06651", "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI", "date_covered": "2026-05-09" },
+  { "id": "arxiv:2605.06642", "url": "https://arxiv.org/abs/2605.06642", "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction", "date_covered": "2026-05-09" },
+  { "id": "arxiv:2605.05242", "url": "https://arxiv.org/abs/2605.05242", "title": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction", "date_covered": "2026-05-09" },
+  { "id": "arxiv:2605.06285", "url": "https://arxiv.org/abs/2605.06285", "title": "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG", "date_covered": "2026-05-09" },
+  { "id": "arxiv:2605.06455", "url": "https://arxiv.org/abs/2605.06455", "title": "PrefixGuard: From LLM-Agent Traces to Online Failure-Warning Monitors", "date_covered": "2026-05-09" },
+  { "id": "arxiv:2605.06638", "url": "https://arxiv.org/abs/2605.06638", "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key", "date_covered": "2026-05-09" },
+  { "id": "hf-blog-2026-05-08-allenai-emo", "url": "https://huggingface.co/blog/allenai/emo", "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity", "date_covered": "2026-05-09" },
   { "id": "arxiv:2605.06527", "url": "https://arxiv.org/abs/2605.06527", "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?", "date_covered": "2026-05-08" },
   { "id": "arxiv:2605.06132", "url": "https://arxiv.org/abs/2605.06132", "title": "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval", "date_covered": "2026-05-08" },
   { "id": "arxiv:2605.06078", "url": "https://arxiv.org/abs/2605.06078", "title": "BEACON: Milestone-Guided Policy Learning for Long-Horizon Language Agents", "date_covered": "2026-05-08" },
