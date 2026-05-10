@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2604.15597", "url": "https://arxiv.org/abs/2604.15597", "title": "LLMs Corrupt Your Documents When You Delegate (DELEGATE-52)", "date_covered": "2026-05-10" },
+  { "id": "arxiv:2605.05413", "url": "https://arxiv.org/abs/2605.05413", "title": "From History to State: Constant-Context Skill Learning for LLM Agents", "date_covered": "2026-05-10" },
+  { "id": "arxiv:2605.05716", "url": "https://arxiv.org/abs/2605.05716", "title": "More Is Not Always Better: Cross-Component Interference in LLM Agent Scaffolding", "date_covered": "2026-05-10" },
+  { "id": "arxiv:2605.05245", "url": "https://arxiv.org/abs/2605.05245", "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop RAG", "date_covered": "2026-05-10" },
+  { "id": "arxiv:2605.04036", "url": "https://arxiv.org/abs/2605.04036", "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories", "date_covered": "2026-05-10" },
+  { "id": "arxiv:2605.05583", "url": "https://arxiv.org/abs/2605.05583", "title": "Belief Memory: Agent Memory Under Partial Observability", "date_covered": "2026-05-10" },
+  { "id": "arxiv:2605.03042", "url": "https://arxiv.org/abs/2605.03042", "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration", "date_covered": "2026-05-10" },
+  { "id": "anthropic-news-2026-05-05-finance-agents", "url": "https://www.anthropic.com/news/finance-agents", "title": "Agents for Financial Services", "date_covered": "2026-05-10" },
   { "id": "anthropic-research-2026-05-08-teaching-claude-why", "url": "https://www.anthropic.com/research/teaching-claude-why", "title": "Teaching Claude why", "date_covered": "2026-05-09" },
   { "id": "arxiv:2605.06651", "url": "https://arxiv.org/abs/2605.06651", "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI", "date_covered": "2026-05-09" },
   { "id": "arxiv:2605.06642", "url": "https://arxiv.org/abs/2605.06642", "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction", "date_covered": "2026-05-09" },
