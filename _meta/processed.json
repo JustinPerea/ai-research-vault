@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.08060", "url": "https://arxiv.org/abs/2605.08060", "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents", "date_covered": "2026-05-11" },
+  { "id": "arxiv:2605.07313", "url": "https://arxiv.org/abs/2605.07313", "title": "When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory", "date_covered": "2026-05-11" },
+  { "id": "arxiv:2605.07242", "url": "https://arxiv.org/abs/2605.07242", "title": "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory", "date_covered": "2026-05-11" },
+  { "id": "arxiv:2605.07990", "url": "https://arxiv.org/abs/2605.07990", "title": "Tool Calling is Linearly Readable and Steerable in Language Models", "date_covered": "2026-05-11" },
+  { "id": "arxiv:2605.07112", "url": "https://arxiv.org/abs/2605.07112", "title": "Switchcraft: AI Model Router for Agentic Tool Calling", "date_covered": "2026-05-11" },
+  { "id": "arxiv:2605.07161", "url": "https://arxiv.org/abs/2605.07161", "title": "SREGym: A Live Benchmark for AI SRE Agents with High-Fidelity Failure Scenarios", "date_covered": "2026-05-11" },
+  { "id": "arxiv:2605.08083", "url": "https://arxiv.org/abs/2605.08083", "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling (AutoTTS)", "date_covered": "2026-05-11" },
+  { "id": "anthropic-research-2026-05-07-donating-open-source-petri", "url": "https://www.anthropic.com/research/donating-open-source-petri", "title": "Donating our open-source alignment tool (Petri 3.0 to Meridian Labs)", "date_covered": "2026-05-11" },
   { "id": "arxiv:2604.15597", "url": "https://arxiv.org/abs/2604.15597", "title": "LLMs Corrupt Your Documents When You Delegate (DELEGATE-52)", "date_covered": "2026-05-10" },
   { "id": "arxiv:2605.05413", "url": "https://arxiv.org/abs/2605.05413", "title": "From History to State: Constant-Context Skill Learning for LLM Agents", "date_covered": "2026-05-10" },
   { "id": "arxiv:2605.05716", "url": "https://arxiv.org/abs/2605.05716", "title": "More Is Not Always Better: Cross-Component Interference in LLM Agent Scaffolding", "date_covered": "2026-05-10" },
