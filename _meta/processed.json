@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.10870", "url": "https://arxiv.org/abs/2605.10870", "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory (DeMem)", "date_covered": "2026-05-12" },
+  { "id": "arxiv:2605.10913", "url": "https://arxiv.org/abs/2605.10913", "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace", "date_covered": "2026-05-12" },
+  { "id": "arxiv:2605.10787", "url": "https://arxiv.org/abs/2605.10787", "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox", "date_covered": "2026-05-12" },
+  { "id": "microsoft-research-2026-05-11-socialreasoning-bench", "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/", "title": "SocialReasoning-Bench: Measuring whether AI agents act in users' best interests", "date_covered": "2026-05-12" },
+  { "id": "arxiv:2605.10828", "url": "https://arxiv.org/abs/2605.10828", "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning", "date_covered": "2026-05-12" },
+  { "id": "arxiv:2605.09649", "url": "https://arxiv.org/abs/2605.09649", "title": "Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction", "date_covered": "2026-05-12" },
+  { "id": "arxiv:2605.10448", "url": "https://arxiv.org/abs/2605.10448", "title": "Can Agent Benchmarks Support Their Scores? Evidence-Supported Bounds for Interactive-Agent Evaluation", "date_covered": "2026-05-12" },
+  { "id": "arxiv:2605.10805", "url": "https://arxiv.org/abs/2605.10805", "title": "Reasoning Is Not Free: Robust Adaptive Cost-Efficient Routing for LLM-as-a-Judge (RACER)", "date_covered": "2026-05-12" },
   { "id": "arxiv:2605.08060", "url": "https://arxiv.org/abs/2605.08060", "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents", "date_covered": "2026-05-11" },
   { "id": "arxiv:2605.07313", "url": "https://arxiv.org/abs/2605.07313", "title": "When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory", "date_covered": "2026-05-11" },
   { "id": "arxiv:2605.07242", "url": "https://arxiv.org/abs/2605.07242", "title": "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory", "date_covered": "2026-05-11" },
