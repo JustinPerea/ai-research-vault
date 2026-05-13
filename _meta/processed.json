@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.12477", "url": "https://arxiv.org/abs/2605.12477", "title": "MEME: Multi-entity & Evolving Memory Evaluation", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.12493", "url": "https://arxiv.org/abs/2605.12493", "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.12357", "url": "https://arxiv.org/abs/2605.12357", "title": "δ-mem: Efficient Online Memory for Large Language Models", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.09998", "url": "https://arxiv.org/abs/2605.09998", "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.12481", "url": "https://arxiv.org/abs/2605.12481", "title": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.11946", "url": "https://arxiv.org/abs/2605.11946", "title": "Counterfactual Trace Auditing of LLM Agent Skills", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.12131", "url": "https://arxiv.org/abs/2605.12131", "title": "Rollout Cards: A Reproducibility Standard for Agent Research", "date_covered": "2026-05-13" },
+  { "id": "arxiv:2605.12087", "url": "https://arxiv.org/abs/2605.12087", "title": "Intermediate Artifacts as First-Class Citizens: A Data Model for Durable Intermediate Artifacts in Agentic Systems", "date_covered": "2026-05-13" },
   { "id": "arxiv:2605.10870", "url": "https://arxiv.org/abs/2605.10870", "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory (DeMem)", "date_covered": "2026-05-12" },
   { "id": "arxiv:2605.10913", "url": "https://arxiv.org/abs/2605.10913", "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace", "date_covered": "2026-05-12" },
   { "id": "arxiv:2605.10787", "url": "https://arxiv.org/abs/2605.10787", "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox", "date_covered": "2026-05-12" },
