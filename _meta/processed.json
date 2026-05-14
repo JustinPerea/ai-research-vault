@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.12978", "url": "https://arxiv.org/abs/2605.12978", "title": "Useful Memories Become Faulty When Continuously Updated by LLMs", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.12922", "url": "https://arxiv.org/abs/2605.12922", "title": "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.13050", "url": "https://arxiv.org/abs/2605.13050", "title": "Context Training with Active Information Seeking", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.13037", "url": "https://arxiv.org/abs/2605.13037", "title": "MAP: A Map-then-Act Paradigm for Long-Horizon Interactive Agent Reasoning", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.12673", "url": "https://arxiv.org/abs/2605.12673", "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.12925", "url": "https://arxiv.org/abs/2605.12925", "title": "AgentLens: Revealing the Lucky Pass Problem in SWE-Agent Evaluation", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.12975", "url": "https://arxiv.org/abs/2605.12975", "title": "PyRAG: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation", "date_covered": "2026-05-14" },
+  { "id": "arxiv:2605.13301", "url": "https://arxiv.org/abs/2605.13301", "title": "SU-01: Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling", "date_covered": "2026-05-14" },
   { "id": "arxiv:2605.12477", "url": "https://arxiv.org/abs/2605.12477", "title": "MEME: Multi-entity & Evolving Memory Evaluation", "date_covered": "2026-05-13" },
   { "id": "arxiv:2605.12493", "url": "https://arxiv.org/abs/2605.12493", "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues", "date_covered": "2026-05-13" },
   { "id": "arxiv:2605.12357", "url": "https://arxiv.org/abs/2605.12357", "title": "δ-mem: Efficient Online Memory for Large Language Models", "date_covered": "2026-05-13" },
