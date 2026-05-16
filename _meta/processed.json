@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.15184", "url": "https://arxiv.org/abs/2605.15184", "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.14498", "url": "https://arxiv.org/abs/2605.14498", "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.13941", "url": "https://arxiv.org/abs/2605.13941", "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.15040", "url": "https://arxiv.org/abs/2605.15040", "title": "Orchard: An Open-Source Agentic Modeling Framework", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.14271", "url": "https://arxiv.org/abs/2605.14271", "title": "Auditing Agent Harness Safety (HarnessAudit-Bench)", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.15156", "url": "https://arxiv.org/abs/2605.15156", "title": "MeMo: Memory as a Model", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.13880", "url": "https://arxiv.org/abs/2605.13880", "title": "PREPING: Building Agent Memory without Tasks", "date_covered": "2026-05-16" },
+  { "id": "arxiv:2605.15077", "url": "https://arxiv.org/abs/2605.15077", "title": "Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs (AsyncFC)", "date_covered": "2026-05-16" },
   { "id": "arxiv:2605.12978", "url": "https://arxiv.org/abs/2605.12978", "title": "Useful Memories Become Faulty When Continuously Updated by LLMs", "date_covered": "2026-05-14" },
   { "id": "arxiv:2605.12922", "url": "https://arxiv.org/abs/2605.12922", "title": "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction", "date_covered": "2026-05-14" },
   { "id": "arxiv:2605.13050", "url": "https://arxiv.org/abs/2605.13050", "title": "Context Training with Active Information Seeking", "date_covered": "2026-05-14" },
