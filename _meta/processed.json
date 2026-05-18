@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.10912", "url": "https://arxiv.org/abs/2605.10912", "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation", "date_covered": "2026-05-17" },
+  { "id": "microsoft-research-2026-05-15-delegation-followup", "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/", "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability", "date_covered": "2026-05-17" },
+  { "id": "arxiv:2605.14906", "url": "https://arxiv.org/abs/2605.14906", "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models", "date_covered": "2026-05-17" },
+  { "id": "arxiv:2605.14457", "url": "https://arxiv.org/abs/2605.14457", "title": "Stateful Reasoning via Insight Replay", "date_covered": "2026-05-17" },
+  { "id": "arxiv:2605.15041", "url": "https://arxiv.org/abs/2605.15041", "title": "Case-Based Calibration of Adaptive Reasoning and Execution for LLM Tool Use (CAST)", "date_covered": "2026-05-17" },
+  { "id": "arxiv:2605.15177", "url": "https://arxiv.org/abs/2605.15177", "title": "OpenDeepThink: Parallel Reasoning via Bradley-Terry Aggregation", "date_covered": "2026-05-17" },
+  { "id": "arxiv:2605.14678", "url": "https://arxiv.org/abs/2605.14678", "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows", "date_covered": "2026-05-17" },
+  { "id": "arxiv:2605.15155", "url": "https://arxiv.org/abs/2605.15155", "title": "Self-Distilled Agentic Reinforcement Learning (SDAR)", "date_covered": "2026-05-17" },
   { "id": "arxiv:2605.15184", "url": "https://arxiv.org/abs/2605.15184", "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search", "date_covered": "2026-05-16" },
   { "id": "arxiv:2605.14498", "url": "https://arxiv.org/abs/2605.14498", "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations", "date_covered": "2026-05-16" },
   { "id": "arxiv:2605.13941", "url": "https://arxiv.org/abs/2605.13941", "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents", "date_covered": "2026-05-16" },
