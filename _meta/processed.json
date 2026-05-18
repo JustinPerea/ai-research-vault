@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.16045", "url": "https://arxiv.org/abs/2605.16045", "title": "RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.16233", "url": "https://arxiv.org/abs/2605.16233", "title": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.15759", "url": "https://arxiv.org/abs/2605.15759", "title": "DimMem: Dimensional Structuring for Efficient Long-Term Agent Memory", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.15315", "url": "https://arxiv.org/abs/2605.15315", "title": "LaMR: Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.16217", "url": "https://arxiv.org/abs/2605.16217", "title": "Argus: Evidence Assembly for Scalable Deep Research Agents", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.15514", "url": "https://arxiv.org/abs/2605.15514", "title": "RoPE Distinguishes Neither Positions Nor Tokens in Long Contexts, Provably", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.15777", "url": "https://arxiv.org/abs/2605.15777", "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?", "date_covered": "2026-05-18" },
+  { "id": "arxiv:2605.14386", "url": "https://arxiv.org/abs/2605.14386", "title": "Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning", "date_covered": "2026-05-18" },
   { "id": "arxiv:2605.15184", "url": "https://arxiv.org/abs/2605.15184", "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search", "date_covered": "2026-05-16" },
   { "id": "arxiv:2605.14498", "url": "https://arxiv.org/abs/2605.14498", "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations", "date_covered": "2026-05-16" },
   { "id": "arxiv:2605.13941", "url": "https://arxiv.org/abs/2605.13941", "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents", "date_covered": "2026-05-16" },
