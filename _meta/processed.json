@@ -1,4 +1,13 @@
 [
+  { "id": "anthropic-news-2026-05-18-acquires-stainless", "url": "https://www.anthropic.com/news/anthropic-acquires-stainless", "title": "Anthropic acquires Stainless", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.18565", "url": "https://arxiv.org/abs/2605.18565", "title": "LongMINT: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.18421", "url": "https://arxiv.org/abs/2605.18421", "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.17789", "url": "https://arxiv.org/abs/2605.17789", "title": "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.18401", "url": "https://arxiv.org/abs/2605.18401", "title": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.14038", "url": "https://arxiv.org/abs/2605.14038", "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.18703", "url": "https://arxiv.org/abs/2605.18703", "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environment Synthesis and Robust RL", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.18271", "url": "https://arxiv.org/abs/2605.18271", "title": "EPIC: Preference-Aligned Memory Construction for On-Device RAG (From Volume to Value)", "date_covered": "2026-05-19" },
+  { "id": "arxiv:2605.18643", "url": "https://arxiv.org/abs/2605.18643", "title": "ZEDA: Post-Trained MoE Can Skip Half Experts via Self-Distillation", "date_covered": "2026-05-19" },
   { "id": "arxiv:2605.10912", "url": "https://arxiv.org/abs/2605.10912", "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation", "date_covered": "2026-05-17" },
   { "id": "microsoft-research-2026-05-15-delegation-followup", "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/", "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability", "date_covered": "2026-05-17" },
   { "id": "arxiv:2605.14906", "url": "https://arxiv.org/abs/2605.14906", "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models", "date_covered": "2026-05-17" },
