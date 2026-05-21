@@ -1,4 +1,13 @@
 [
+  { "id": "arxiv:2605.21463", "url": "https://arxiv.org/abs/2605.21463", "title": "Mem-π: Adaptive Memory through Learning When and What to Generate", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.19660", "url": "https://arxiv.org/abs/2605.19660", "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.21226", "url": "https://arxiv.org/abs/2605.21226", "title": "OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under Optimal Squared Error Quantization", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.20315", "url": "https://arxiv.org/abs/2605.20315", "title": "Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.20630", "url": "https://arxiv.org/abs/2605.20630", "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.21384", "url": "https://arxiv.org/abs/2605.21384", "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.21468", "url": "https://arxiv.org/abs/2605.21468", "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories (RELEX)", "date_covered": "2026-05-21" },
+  { "id": "deepmind-blog-2026-05-19-co-scientist", "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/", "title": "Co-Scientist: A multi-agent AI partner to accelerate research", "date_covered": "2026-05-21" },
+  { "id": "arxiv:2605.20668", "url": "https://arxiv.org/abs/2605.20668", "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists", "date_covered": "2026-05-21" },
   { "id": "anthropic-news-2026-05-18-acquires-stainless", "url": "https://www.anthropic.com/news/anthropic-acquires-stainless", "title": "Anthropic acquires Stainless", "date_covered": "2026-05-19" },
   { "id": "arxiv:2605.18565", "url": "https://arxiv.org/abs/2605.18565", "title": "LongMINT: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems", "date_covered": "2026-05-19" },
   { "id": "arxiv:2605.18421", "url": "https://arxiv.org/abs/2605.18421", "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective", "date_covered": "2026-05-19" },
