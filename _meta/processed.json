@@ -1,4 +1,12 @@
 [
+  { "id": "blog-google-2026-05-19-gemini-3-5", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/", "title": "Gemini 3.5: frontier intelligence with action", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.23904", "url": "https://arxiv.org/abs/2605.23904", "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.23899", "url": "https://arxiv.org/abs/2605.23899", "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.23296", "url": "https://arxiv.org/abs/2605.23296", "title": "Parallel Context Compaction for Long-Horizon LLM Agent Serving", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.23723", "url": "https://arxiv.org/abs/2605.23723", "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.23311", "url": "https://arxiv.org/abs/2605.23311", "title": "DART: Semantic Recoverability for Structured Tool Agents", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.23590", "url": "https://arxiv.org/abs/2605.23590", "title": "Co-ReAct: Rubrics as Step-Level Collaborators for ReAct Agents", "date_covered": "2026-05-25" },
+  { "id": "arxiv:2605.22905", "url": "https://arxiv.org/abs/2605.22905", "title": "EVE-Agent: Evidence-Verifiable Self-Evolving Agents", "date_covered": "2026-05-25" },
   { "id": "microsoft-research-2026-05-21-magenticlite-fara15", "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/", "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models", "date_covered": "2026-05-23" },
   { "id": "anthropic-research-2026-05-22-glasswing-initial-update", "url": "https://www.anthropic.com/research/glasswing-initial-update", "title": "Project Glasswing: An initial update", "date_covered": "2026-05-23" },
   { "id": "arxiv:2605.21850", "url": "https://arxiv.org/abs/2605.21850", "title": "ACC: Compiling Agent Trajectories for Long-Context Training", "date_covered": "2026-05-23" },
