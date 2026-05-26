@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.23986", "url": "https://arxiv.org/abs/2605.23986", "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing", "date_covered": "2026-05-26" },
+  { "id": "arxiv:2605.25430", "url": "https://arxiv.org/abs/2605.25430", "title": "CODESKILL: Learning Self-Evolving Skills for Coding Agents", "date_covered": "2026-05-26" },
+  { "id": "arxiv:2605.25971", "url": "https://arxiv.org/abs/2605.25971", "title": "ProAct: Anticipate and Learn — Unleashing Idle-Time Compute in Proactive Agents", "date_covered": "2026-05-26" },
+  { "id": "arxiv:2605.24218", "url": "https://arxiv.org/abs/2605.24218", "title": "QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks", "date_covered": "2026-05-26" },
+  { "id": "arxiv:2605.26112", "url": "https://arxiv.org/abs/2605.26112", "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI", "date_covered": "2026-05-26" },
+  { "id": "arxiv:2605.26047", "url": "https://arxiv.org/abs/2605.26047", "title": "Retrying vs Resampling in AI Control", "date_covered": "2026-05-26" },
+  { "id": "arxiv:2605.25624", "url": "https://arxiv.org/abs/2605.25624", "title": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents", "date_covered": "2026-05-26" },
+  { "id": "hf-blog-2026-05-25-agent-glossary", "url": "https://huggingface.co/blog/agent-glossary", "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right", "date_covered": "2026-05-26" },
   { "id": "blog-google-2026-05-19-gemini-3-5", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/", "title": "Gemini 3.5: frontier intelligence with action", "date_covered": "2026-05-25" },
   { "id": "arxiv:2605.23904", "url": "https://arxiv.org/abs/2605.23904", "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills", "date_covered": "2026-05-25" },
   { "id": "arxiv:2605.23899", "url": "https://arxiv.org/abs/2605.23899", "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills", "date_covered": "2026-05-25" },
