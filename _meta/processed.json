@@ -1,4 +1,12 @@
 [
+  { "id": "arxiv:2605.26494", "url": "https://arxiv.org/abs/2605.26494", "title": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.27366", "url": "https://arxiv.org/abs/2605.27366", "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.26114", "url": "https://arxiv.org/abs/2605.26114", "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.24219", "url": "https://arxiv.org/abs/2605.24219", "title": "Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows (Trajel)", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.27328", "url": "https://arxiv.org/abs/2605.27328", "title": "Governed Evolution of Agent Runtimes through Executable Operational Cognition (HarnessMutation)", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.26178", "url": "https://arxiv.org/abs/2605.26178", "title": "ATOM: Instantiating Budget-Controllable Multi-Agent Collaboration via Nucleus-Electron Hierarchy", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.26952", "url": "https://arxiv.org/abs/2605.26952", "title": "Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement (AKBE)", "date_covered": "2026-05-27" },
+  { "id": "arxiv:2605.27081", "url": "https://arxiv.org/abs/2605.27081", "title": "ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference", "date_covered": "2026-05-27" },
   { "id": "arxiv:2605.23986", "url": "https://arxiv.org/abs/2605.23986", "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing", "date_covered": "2026-05-26" },
   { "id": "arxiv:2605.25430", "url": "https://arxiv.org/abs/2605.25430", "title": "CODESKILL: Learning Self-Evolving Skills for Coding Agents", "date_covered": "2026-05-26" },
   { "id": "arxiv:2605.25971", "url": "https://arxiv.org/abs/2605.25971", "title": "ProAct: Anticipate and Learn — Unleashing Idle-Time Compute in Proactive Agents", "date_covered": "2026-05-26" },
