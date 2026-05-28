@@ -1,4 +1,13 @@
 [
+  { "id": "arxiv:2605.28732", "url": "https://arxiv.org/abs/2605.28732", "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems", "date_covered": "2026-05-28" },
+  { "id": "arxiv:2605.28773", "url": "https://arxiv.org/abs/2605.28773", "title": "Rethinking Memory as Continuously Evolving Connectivity (FluxMem)", "date_covered": "2026-05-28" },
+  { "id": "arxiv:2605.26302", "url": "https://arxiv.org/abs/2605.26302", "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems (AgingBench)", "date_covered": "2026-05-28" },
+  { "id": "arxiv:2605.27787", "url": "https://arxiv.org/abs/2605.27787", "title": "Long Live the Librarian! A Persistent Search Sub-Agent for Energy-Efficient Multi-Agent Software Engineering Systems", "date_covered": "2026-05-28" },
+  { "id": "arxiv:2605.28721", "url": "https://arxiv.org/abs/2605.28721", "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?", "date_covered": "2026-05-28" },
+  { "id": "hf-blog-2026-05-27-ibm-itbench-aa", "url": "https://huggingface.co/blog/ibm-research/itbench-aa", "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks", "date_covered": "2026-05-28" },
+  { "id": "arxiv:2605.28775", "url": "https://arxiv.org/abs/2605.28775", "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents (LearnWeak)", "date_covered": "2026-05-28" },
+  { "id": "arxiv:2605.28398", "url": "https://arxiv.org/abs/2605.28398", "title": "HRBench: Benchmarking and Understanding Thinking-Mode Switch Strategies in Hybrid-Reasoning LLMs", "date_covered": "2026-05-28" },
+  { "id": "anthropic-research-2026-05-27-coding-agents-social-sciences", "url": "https://www.anthropic.com/research/coding-agents-social-sciences", "title": "Coding Agents in the Social Sciences", "date_covered": "2026-05-28" },
   { "id": "arxiv:2605.26494", "url": "https://arxiv.org/abs/2605.26494", "title": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence", "date_covered": "2026-05-27" },
   { "id": "arxiv:2605.27366", "url": "https://arxiv.org/abs/2605.27366", "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation", "date_covered": "2026-05-27" },
   { "id": "arxiv:2605.26114", "url": "https://arxiv.org/abs/2605.26114", "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research", "date_covered": "2026-05-27" },
