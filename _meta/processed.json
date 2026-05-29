@@ -1,152 +1,956 @@
 [
-  { "id": "arxiv:2605.28732", "url": "https://arxiv.org/abs/2605.28732", "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.28773", "url": "https://arxiv.org/abs/2605.28773", "title": "Rethinking Memory as Continuously Evolving Connectivity (FluxMem)", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.26302", "url": "https://arxiv.org/abs/2605.26302", "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems (AgingBench)", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.27787", "url": "https://arxiv.org/abs/2605.27787", "title": "Long Live the Librarian! A Persistent Search Sub-Agent for Energy-Efficient Multi-Agent Software Engineering Systems", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.28721", "url": "https://arxiv.org/abs/2605.28721", "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?", "date_covered": "2026-05-28" },
-  { "id": "hf-blog-2026-05-27-ibm-itbench-aa", "url": "https://huggingface.co/blog/ibm-research/itbench-aa", "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.28775", "url": "https://arxiv.org/abs/2605.28775", "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents (LearnWeak)", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.28398", "url": "https://arxiv.org/abs/2605.28398", "title": "HRBench: Benchmarking and Understanding Thinking-Mode Switch Strategies in Hybrid-Reasoning LLMs", "date_covered": "2026-05-28" },
-  { "id": "anthropic-research-2026-05-27-coding-agents-social-sciences", "url": "https://www.anthropic.com/research/coding-agents-social-sciences", "title": "Coding Agents in the Social Sciences", "date_covered": "2026-05-28" },
-  { "id": "arxiv:2605.26494", "url": "https://arxiv.org/abs/2605.26494", "title": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.27366", "url": "https://arxiv.org/abs/2605.27366", "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.26114", "url": "https://arxiv.org/abs/2605.26114", "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.24219", "url": "https://arxiv.org/abs/2605.24219", "title": "Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows (Trajel)", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.27328", "url": "https://arxiv.org/abs/2605.27328", "title": "Governed Evolution of Agent Runtimes through Executable Operational Cognition (HarnessMutation)", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.26178", "url": "https://arxiv.org/abs/2605.26178", "title": "ATOM: Instantiating Budget-Controllable Multi-Agent Collaboration via Nucleus-Electron Hierarchy", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.26952", "url": "https://arxiv.org/abs/2605.26952", "title": "Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement (AKBE)", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.27081", "url": "https://arxiv.org/abs/2605.27081", "title": "ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference", "date_covered": "2026-05-27" },
-  { "id": "arxiv:2605.23986", "url": "https://arxiv.org/abs/2605.23986", "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing", "date_covered": "2026-05-26" },
-  { "id": "arxiv:2605.25430", "url": "https://arxiv.org/abs/2605.25430", "title": "CODESKILL: Learning Self-Evolving Skills for Coding Agents", "date_covered": "2026-05-26" },
-  { "id": "arxiv:2605.25971", "url": "https://arxiv.org/abs/2605.25971", "title": "ProAct: Anticipate and Learn — Unleashing Idle-Time Compute in Proactive Agents", "date_covered": "2026-05-26" },
-  { "id": "arxiv:2605.24218", "url": "https://arxiv.org/abs/2605.24218", "title": "QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks", "date_covered": "2026-05-26" },
-  { "id": "arxiv:2605.26112", "url": "https://arxiv.org/abs/2605.26112", "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI", "date_covered": "2026-05-26" },
-  { "id": "arxiv:2605.26047", "url": "https://arxiv.org/abs/2605.26047", "title": "Retrying vs Resampling in AI Control", "date_covered": "2026-05-26" },
-  { "id": "arxiv:2605.25624", "url": "https://arxiv.org/abs/2605.25624", "title": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents", "date_covered": "2026-05-26" },
-  { "id": "hf-blog-2026-05-25-agent-glossary", "url": "https://huggingface.co/blog/agent-glossary", "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right", "date_covered": "2026-05-26" },
-  { "id": "blog-google-2026-05-19-gemini-3-5", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/", "title": "Gemini 3.5: frontier intelligence with action", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.23904", "url": "https://arxiv.org/abs/2605.23904", "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.23899", "url": "https://arxiv.org/abs/2605.23899", "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.23296", "url": "https://arxiv.org/abs/2605.23296", "title": "Parallel Context Compaction for Long-Horizon LLM Agent Serving", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.23723", "url": "https://arxiv.org/abs/2605.23723", "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.23311", "url": "https://arxiv.org/abs/2605.23311", "title": "DART: Semantic Recoverability for Structured Tool Agents", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.23590", "url": "https://arxiv.org/abs/2605.23590", "title": "Co-ReAct: Rubrics as Step-Level Collaborators for ReAct Agents", "date_covered": "2026-05-25" },
-  { "id": "arxiv:2605.22905", "url": "https://arxiv.org/abs/2605.22905", "title": "EVE-Agent: Evidence-Verifiable Self-Evolving Agents", "date_covered": "2026-05-25" },
-  { "id": "microsoft-research-2026-05-21-magenticlite-fara15", "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/", "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models", "date_covered": "2026-05-23" },
-  { "id": "anthropic-research-2026-05-22-glasswing-initial-update", "url": "https://www.anthropic.com/research/glasswing-initial-update", "title": "Project Glasswing: An initial update", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.21850", "url": "https://arxiv.org/abs/2605.21850", "title": "ACC: Compiling Agent Trajectories for Long-Context Training", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.22177", "url": "https://arxiv.org/abs/2605.22177", "title": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.22502", "url": "https://arxiv.org/abs/2605.22502", "title": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.22148", "url": "https://arxiv.org/abs/2605.22148", "title": "Ratchet: A Minimal Hygiene Recipe for Self-Evolving LLM Agents", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.22154", "url": "https://arxiv.org/abs/2605.22154", "title": "IdleSpec: Exploiting Idle Time via Speculative Planning for LLM Agents", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.22106", "url": "https://arxiv.org/abs/2605.22106", "title": "ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.22535", "url": "https://arxiv.org/abs/2605.22535", "title": "TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks", "date_covered": "2026-05-23" },
-  { "id": "hf-blog-2026-05-23-nvidia-nemotron-labs-diffusion", "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion", "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models", "date_covered": "2026-05-23" },
-  { "id": "arxiv:2605.21463", "url": "https://arxiv.org/abs/2605.21463", "title": "Mem-π: Adaptive Memory through Learning When and What to Generate", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.19660", "url": "https://arxiv.org/abs/2605.19660", "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.21226", "url": "https://arxiv.org/abs/2605.21226", "title": "OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under Optimal Squared Error Quantization", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.20315", "url": "https://arxiv.org/abs/2605.20315", "title": "Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.20630", "url": "https://arxiv.org/abs/2605.20630", "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.21384", "url": "https://arxiv.org/abs/2605.21384", "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.21468", "url": "https://arxiv.org/abs/2605.21468", "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories (RELEX)", "date_covered": "2026-05-21" },
-  { "id": "deepmind-blog-2026-05-19-co-scientist", "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/", "title": "Co-Scientist: A multi-agent AI partner to accelerate research", "date_covered": "2026-05-21" },
-  { "id": "arxiv:2605.20668", "url": "https://arxiv.org/abs/2605.20668", "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists", "date_covered": "2026-05-21" },
-  { "id": "anthropic-news-2026-05-18-acquires-stainless", "url": "https://www.anthropic.com/news/anthropic-acquires-stainless", "title": "Anthropic acquires Stainless", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.18565", "url": "https://arxiv.org/abs/2605.18565", "title": "LongMINT: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.18421", "url": "https://arxiv.org/abs/2605.18421", "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.17789", "url": "https://arxiv.org/abs/2605.17789", "title": "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.18401", "url": "https://arxiv.org/abs/2605.18401", "title": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.14038", "url": "https://arxiv.org/abs/2605.14038", "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.18703", "url": "https://arxiv.org/abs/2605.18703", "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environment Synthesis and Robust RL", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.18271", "url": "https://arxiv.org/abs/2605.18271", "title": "EPIC: Preference-Aligned Memory Construction for On-Device RAG (From Volume to Value)", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.18643", "url": "https://arxiv.org/abs/2605.18643", "title": "ZEDA: Post-Trained MoE Can Skip Half Experts via Self-Distillation", "date_covered": "2026-05-19" },
-  { "id": "arxiv:2605.10912", "url": "https://arxiv.org/abs/2605.10912", "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation", "date_covered": "2026-05-17" },
-  { "id": "microsoft-research-2026-05-15-delegation-followup", "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/", "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.14906", "url": "https://arxiv.org/abs/2605.14906", "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.14457", "url": "https://arxiv.org/abs/2605.14457", "title": "Stateful Reasoning via Insight Replay", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.15041", "url": "https://arxiv.org/abs/2605.15041", "title": "Case-Based Calibration of Adaptive Reasoning and Execution for LLM Tool Use (CAST)", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.15177", "url": "https://arxiv.org/abs/2605.15177", "title": "OpenDeepThink: Parallel Reasoning via Bradley-Terry Aggregation", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.14678", "url": "https://arxiv.org/abs/2605.14678", "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.15155", "url": "https://arxiv.org/abs/2605.15155", "title": "Self-Distilled Agentic Reinforcement Learning (SDAR)", "date_covered": "2026-05-17" },
-  { "id": "arxiv:2605.15184", "url": "https://arxiv.org/abs/2605.15184", "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.14498", "url": "https://arxiv.org/abs/2605.14498", "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.13941", "url": "https://arxiv.org/abs/2605.13941", "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.15040", "url": "https://arxiv.org/abs/2605.15040", "title": "Orchard: An Open-Source Agentic Modeling Framework", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.14271", "url": "https://arxiv.org/abs/2605.14271", "title": "Auditing Agent Harness Safety (HarnessAudit-Bench)", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.15156", "url": "https://arxiv.org/abs/2605.15156", "title": "MeMo: Memory as a Model", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.13880", "url": "https://arxiv.org/abs/2605.13880", "title": "PREPING: Building Agent Memory without Tasks", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.15077", "url": "https://arxiv.org/abs/2605.15077", "title": "Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs (AsyncFC)", "date_covered": "2026-05-16" },
-  { "id": "arxiv:2605.12978", "url": "https://arxiv.org/abs/2605.12978", "title": "Useful Memories Become Faulty When Continuously Updated by LLMs", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.12922", "url": "https://arxiv.org/abs/2605.12922", "title": "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.13050", "url": "https://arxiv.org/abs/2605.13050", "title": "Context Training with Active Information Seeking", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.13037", "url": "https://arxiv.org/abs/2605.13037", "title": "MAP: A Map-then-Act Paradigm for Long-Horizon Interactive Agent Reasoning", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.12673", "url": "https://arxiv.org/abs/2605.12673", "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.12925", "url": "https://arxiv.org/abs/2605.12925", "title": "AgentLens: Revealing the Lucky Pass Problem in SWE-Agent Evaluation", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.12975", "url": "https://arxiv.org/abs/2605.12975", "title": "PyRAG: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.13301", "url": "https://arxiv.org/abs/2605.13301", "title": "SU-01: Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling", "date_covered": "2026-05-14" },
-  { "id": "arxiv:2605.12477", "url": "https://arxiv.org/abs/2605.12477", "title": "MEME: Multi-entity & Evolving Memory Evaluation", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.12493", "url": "https://arxiv.org/abs/2605.12493", "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.12357", "url": "https://arxiv.org/abs/2605.12357", "title": "δ-mem: Efficient Online Memory for Large Language Models", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.09998", "url": "https://arxiv.org/abs/2605.09998", "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.12481", "url": "https://arxiv.org/abs/2605.12481", "title": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.11946", "url": "https://arxiv.org/abs/2605.11946", "title": "Counterfactual Trace Auditing of LLM Agent Skills", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.12131", "url": "https://arxiv.org/abs/2605.12131", "title": "Rollout Cards: A Reproducibility Standard for Agent Research", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.12087", "url": "https://arxiv.org/abs/2605.12087", "title": "Intermediate Artifacts as First-Class Citizens: A Data Model for Durable Intermediate Artifacts in Agentic Systems", "date_covered": "2026-05-13" },
-  { "id": "arxiv:2605.10870", "url": "https://arxiv.org/abs/2605.10870", "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory (DeMem)", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.10913", "url": "https://arxiv.org/abs/2605.10913", "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.10787", "url": "https://arxiv.org/abs/2605.10787", "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox", "date_covered": "2026-05-12" },
-  { "id": "microsoft-research-2026-05-11-socialreasoning-bench", "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/", "title": "SocialReasoning-Bench: Measuring whether AI agents act in users' best interests", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.10828", "url": "https://arxiv.org/abs/2605.10828", "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.09649", "url": "https://arxiv.org/abs/2605.09649", "title": "Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.10448", "url": "https://arxiv.org/abs/2605.10448", "title": "Can Agent Benchmarks Support Their Scores? Evidence-Supported Bounds for Interactive-Agent Evaluation", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.10805", "url": "https://arxiv.org/abs/2605.10805", "title": "Reasoning Is Not Free: Robust Adaptive Cost-Efficient Routing for LLM-as-a-Judge (RACER)", "date_covered": "2026-05-12" },
-  { "id": "arxiv:2605.08060", "url": "https://arxiv.org/abs/2605.08060", "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2605.07313", "url": "https://arxiv.org/abs/2605.07313", "title": "When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2605.07242", "url": "https://arxiv.org/abs/2605.07242", "title": "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2605.07990", "url": "https://arxiv.org/abs/2605.07990", "title": "Tool Calling is Linearly Readable and Steerable in Language Models", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2605.07112", "url": "https://arxiv.org/abs/2605.07112", "title": "Switchcraft: AI Model Router for Agentic Tool Calling", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2605.07161", "url": "https://arxiv.org/abs/2605.07161", "title": "SREGym: A Live Benchmark for AI SRE Agents with High-Fidelity Failure Scenarios", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2605.08083", "url": "https://arxiv.org/abs/2605.08083", "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling (AutoTTS)", "date_covered": "2026-05-11" },
-  { "id": "anthropic-research-2026-05-07-donating-open-source-petri", "url": "https://www.anthropic.com/research/donating-open-source-petri", "title": "Donating our open-source alignment tool (Petri 3.0 to Meridian Labs)", "date_covered": "2026-05-11" },
-  { "id": "arxiv:2604.15597", "url": "https://arxiv.org/abs/2604.15597", "title": "LLMs Corrupt Your Documents When You Delegate (DELEGATE-52)", "date_covered": "2026-05-10" },
-  { "id": "arxiv:2605.05413", "url": "https://arxiv.org/abs/2605.05413", "title": "From History to State: Constant-Context Skill Learning for LLM Agents", "date_covered": "2026-05-10" },
-  { "id": "arxiv:2605.05716", "url": "https://arxiv.org/abs/2605.05716", "title": "More Is Not Always Better: Cross-Component Interference in LLM Agent Scaffolding", "date_covered": "2026-05-10" },
-  { "id": "arxiv:2605.05245", "url": "https://arxiv.org/abs/2605.05245", "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop RAG", "date_covered": "2026-05-10" },
-  { "id": "arxiv:2605.04036", "url": "https://arxiv.org/abs/2605.04036", "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories", "date_covered": "2026-05-10" },
-  { "id": "arxiv:2605.05583", "url": "https://arxiv.org/abs/2605.05583", "title": "Belief Memory: Agent Memory Under Partial Observability", "date_covered": "2026-05-10" },
-  { "id": "arxiv:2605.03042", "url": "https://arxiv.org/abs/2605.03042", "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration", "date_covered": "2026-05-10" },
-  { "id": "anthropic-news-2026-05-05-finance-agents", "url": "https://www.anthropic.com/news/finance-agents", "title": "Agents for Financial Services", "date_covered": "2026-05-10" },
-  { "id": "anthropic-research-2026-05-08-teaching-claude-why", "url": "https://www.anthropic.com/research/teaching-claude-why", "title": "Teaching Claude why", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.06651", "url": "https://arxiv.org/abs/2605.06651", "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.06642", "url": "https://arxiv.org/abs/2605.06642", "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.05242", "url": "https://arxiv.org/abs/2605.05242", "title": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.06285", "url": "https://arxiv.org/abs/2605.06285", "title": "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.06455", "url": "https://arxiv.org/abs/2605.06455", "title": "PrefixGuard: From LLM-Agent Traces to Online Failure-Warning Monitors", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.06638", "url": "https://arxiv.org/abs/2605.06638", "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key", "date_covered": "2026-05-09" },
-  { "id": "hf-blog-2026-05-08-allenai-emo", "url": "https://huggingface.co/blog/allenai/emo", "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity", "date_covered": "2026-05-09" },
-  { "id": "arxiv:2605.06527", "url": "https://arxiv.org/abs/2605.06527", "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06132", "url": "https://arxiv.org/abs/2605.06132", "title": "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06078", "url": "https://arxiv.org/abs/2605.06078", "title": "BEACON: Milestone-Guided Policy Learning for Long-Horizon Language Agents", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06614", "url": "https://arxiv.org/abs/2605.06614", "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06623", "url": "https://arxiv.org/abs/2605.06623", "title": "MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06334", "url": "https://arxiv.org/abs/2605.06334", "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06635", "url": "https://arxiv.org/abs/2605.06635", "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.06326", "url": "https://arxiv.org/abs/2605.06326", "title": "Teaching Thinking Models to Reason with Tools: A Full-Pipeline Recipe for Tool-Integrated Reasoning", "date_covered": "2026-05-08" },
-  { "id": "anthropic-research-2026-05-07-natural-language-autoencoders", "url": "https://www.anthropic.com/research/natural-language-autoencoders", "title": "Natural Language Autoencoders: Turning Claude's thoughts into text", "date_covered": "2026-05-08" },
-  { "id": "arxiv:2605.05191", "url": "https://arxiv.org/abs/2605.05191", "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.04050", "url": "https://arxiv.org/abs/2605.04050", "title": "LCM: Lossless Context Management", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.05007", "url": "https://arxiv.org/abs/2605.05007", "title": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.05138", "url": "https://arxiv.org/abs/2605.05138", "title": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.04624", "url": "https://arxiv.org/abs/2605.04624", "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.04785", "url": "https://arxiv.org/abs/2605.04785", "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.04018", "url": "https://arxiv.org/abs/2605.04018", "title": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems", "date_covered": "2026-05-07" },
-  { "id": "arxiv:2605.00737", "url": "https://arxiv.org/abs/2605.00737", "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling", "date_covered": "2026-05-04" },
-  { "id": "arxiv:2604.27221", "url": "https://arxiv.org/abs/2604.27221", "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction", "date_covered": "2026-05-04" },
-  { "id": "arxiv:2605.00425", "url": "https://arxiv.org/abs/2605.00425", "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning", "date_covered": "2026-05-04" },
-  { "id": "arxiv:2605.00334", "url": "https://arxiv.org/abs/2605.00334", "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?", "date_covered": "2026-05-04" },
-  { "id": "arxiv:2605.00136", "url": "https://arxiv.org/abs/2605.00136", "title": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents", "date_covered": "2026-05-04" },
-  { "id": "mistral-news-2026-04-29-vibe-remote-agents-mistral-medium-3-5", "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5", "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5", "date_covered": "2026-05-04" },
-  { "id": "hf-blog-2026-04-29-ibm-granite-4-1", "url": "https://huggingface.co/blog/ibm-granite/granite-4-1", "title": "Granite 4.1 LLMs: How They're Built", "date_covered": "2026-05-04" },
-  { "id": "hf-blog-2026-04-29-evaleval-eval-costs-bottleneck", "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck", "title": "AI evals are becoming the new compute bottleneck", "date_covered": "2026-05-04" },
-  { "id": "anthropic-research-2026-04-29-biomysterybench", "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench", "title": "Evaluating Claude's bioinformatics research capabilities with BioMysteryBench", "date_covered": "2026-05-04" }
+  {
+    "id": "arxiv:2605.29341",
+    "url": "https://arxiv.org/abs/2605.29341",
+    "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.29250",
+    "url": "https://arxiv.org/abs/2605.29250",
+    "title": "OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.27995",
+    "url": "https://arxiv.org/abs/2605.27995",
+    "title": "AsyncTool: Evaluating the Asynchronous Function Calling Capability under Multi-Task Scenarios",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.30102",
+    "url": "https://arxiv.org/abs/2605.30102",
+    "title": "When Cloud Agents Meet Device Agents: Lessons from Hybrid Multi-Agent Systems",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.29559",
+    "url": "https://arxiv.org/abs/2605.29559",
+    "title": "LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.28424",
+    "url": "https://arxiv.org/abs/2605.28424",
+    "title": "Skill0.5: Joint Skill Internalization and Utilization for Out-of-Distribution Generalization in Agentic Reinforcement Learning",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.30219",
+    "url": "https://arxiv.org/abs/2605.30219",
+    "title": "When Should Models Change Their Minds? Contextual Belief Management in Large Language Models (BeliefTrack)",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.30314",
+    "url": "https://arxiv.org/abs/2605.30314",
+    "title": "SpecBench: Evaluating Specification-Level Reasoning for Software Engineering LLM Agents",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.29178",
+    "url": "https://arxiv.org/abs/2605.29178",
+    "title": "The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems",
+    "date_covered": "2026-05-29"
+  },
+  {
+    "id": "arxiv:2605.28732",
+    "url": "https://arxiv.org/abs/2605.28732",
+    "title": "MemTrace: Tracing and Attributing Errors in Large Language Model Memory Systems",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.28773",
+    "url": "https://arxiv.org/abs/2605.28773",
+    "title": "Rethinking Memory as Continuously Evolving Connectivity (FluxMem)",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.26302",
+    "url": "https://arxiv.org/abs/2605.26302",
+    "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems (AgingBench)",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.27787",
+    "url": "https://arxiv.org/abs/2605.27787",
+    "title": "Long Live the Librarian! A Persistent Search Sub-Agent for Energy-Efficient Multi-Agent Software Engineering Systems",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.28721",
+    "url": "https://arxiv.org/abs/2605.28721",
+    "title": "LiveBrowseComp: Are Search Agents Searching, or Just Verifying What They Already Know?",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "hf-blog-2026-05-27-ibm-itbench-aa",
+    "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+    "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.28775",
+    "url": "https://arxiv.org/abs/2605.28775",
+    "title": "Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents (LearnWeak)",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.28398",
+    "url": "https://arxiv.org/abs/2605.28398",
+    "title": "HRBench: Benchmarking and Understanding Thinking-Mode Switch Strategies in Hybrid-Reasoning LLMs",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "anthropic-research-2026-05-27-coding-agents-social-sciences",
+    "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+    "title": "Coding Agents in the Social Sciences",
+    "date_covered": "2026-05-28"
+  },
+  {
+    "id": "arxiv:2605.26494",
+    "url": "https://arxiv.org/abs/2605.26494",
+    "title": "The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.27366",
+    "url": "https://arxiv.org/abs/2605.27366",
+    "title": "MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.26114",
+    "url": "https://arxiv.org/abs/2605.26114",
+    "title": "MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.24219",
+    "url": "https://arxiv.org/abs/2605.24219",
+    "title": "Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows (Trajel)",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.27328",
+    "url": "https://arxiv.org/abs/2605.27328",
+    "title": "Governed Evolution of Agent Runtimes through Executable Operational Cognition (HarnessMutation)",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.26178",
+    "url": "https://arxiv.org/abs/2605.26178",
+    "title": "ATOM: Instantiating Budget-Controllable Multi-Agent Collaboration via Nucleus-Electron Hierarchy",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.26952",
+    "url": "https://arxiv.org/abs/2605.26952",
+    "title": "Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement (AKBE)",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.27081",
+    "url": "https://arxiv.org/abs/2605.27081",
+    "title": "ReMoE: Boosting Expert Reuse through Router Fine-Tuning in Memory-Constrained MoE LLM Inference",
+    "date_covered": "2026-05-27"
+  },
+  {
+    "id": "arxiv:2605.23986",
+    "url": "https://arxiv.org/abs/2605.23986",
+    "title": "MemForest: An Efficient Agent Memory System with Hierarchical Temporal Indexing",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "arxiv:2605.25430",
+    "url": "https://arxiv.org/abs/2605.25430",
+    "title": "CODESKILL: Learning Self-Evolving Skills for Coding Agents",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "arxiv:2605.25971",
+    "url": "https://arxiv.org/abs/2605.25971",
+    "title": "ProAct: Anticipate and Learn \u2014 Unleashing Idle-Time Compute in Proactive Agents",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "arxiv:2605.24218",
+    "url": "https://arxiv.org/abs/2605.24218",
+    "title": "QUEST: Training Frontier Deep Research Agents with Fully Synthetic Tasks",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "arxiv:2605.26112",
+    "url": "https://arxiv.org/abs/2605.26112",
+    "title": "From Model Scaling to System Scaling: Scaling the Harness in Agentic AI",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "arxiv:2605.26047",
+    "url": "https://arxiv.org/abs/2605.26047",
+    "title": "Retrying vs Resampling in AI Control",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "arxiv:2605.25624",
+    "url": "https://arxiv.org/abs/2605.25624",
+    "title": "CUA-Gym: Scaling Verifiable Training Environments and Tasks for Computer-Use Agents",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "hf-blog-2026-05-25-agent-glossary",
+    "url": "https://huggingface.co/blog/agent-glossary",
+    "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+    "date_covered": "2026-05-26"
+  },
+  {
+    "id": "blog-google-2026-05-19-gemini-3-5",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+    "title": "Gemini 3.5: frontier intelligence with action",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.23904",
+    "url": "https://arxiv.org/abs/2605.23904",
+    "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.23899",
+    "url": "https://arxiv.org/abs/2605.23899",
+    "title": "From Raw Experience to Skill Consumption: A Systematic Study of Model-Generated Agent Skills",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.23296",
+    "url": "https://arxiv.org/abs/2605.23296",
+    "title": "Parallel Context Compaction for Long-Horizon LLM Agent Serving",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.23723",
+    "url": "https://arxiv.org/abs/2605.23723",
+    "title": "MemAudit: Post-hoc Auditing of Poisoned Agent Memory via Causal Attribution and Structural Anomaly Detection",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.23311",
+    "url": "https://arxiv.org/abs/2605.23311",
+    "title": "DART: Semantic Recoverability for Structured Tool Agents",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.23590",
+    "url": "https://arxiv.org/abs/2605.23590",
+    "title": "Co-ReAct: Rubrics as Step-Level Collaborators for ReAct Agents",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "arxiv:2605.22905",
+    "url": "https://arxiv.org/abs/2605.22905",
+    "title": "EVE-Agent: Evidence-Verifiable Self-Evolving Agents",
+    "date_covered": "2026-05-25"
+  },
+  {
+    "id": "microsoft-research-2026-05-21-magenticlite-fara15",
+    "url": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+    "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "anthropic-research-2026-05-22-glasswing-initial-update",
+    "url": "https://www.anthropic.com/research/glasswing-initial-update",
+    "title": "Project Glasswing: An initial update",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.21850",
+    "url": "https://arxiv.org/abs/2605.21850",
+    "title": "ACC: Compiling Agent Trajectories for Long-Context Training",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.22177",
+    "url": "https://arxiv.org/abs/2605.22177",
+    "title": "Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.22502",
+    "url": "https://arxiv.org/abs/2605.22502",
+    "title": "Compiling Agentic Workflows into LLM Weights: Near-Frontier Quality at Two Orders of Magnitude Less Cost",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.22148",
+    "url": "https://arxiv.org/abs/2605.22148",
+    "title": "Ratchet: A Minimal Hygiene Recipe for Self-Evolving LLM Agents",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.22154",
+    "url": "https://arxiv.org/abs/2605.22154",
+    "title": "IdleSpec: Exploiting Idle Time via Speculative Planning for LLM Agents",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.22106",
+    "url": "https://arxiv.org/abs/2605.22106",
+    "title": "ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.22535",
+    "url": "https://arxiv.org/abs/2605.22535",
+    "title": "TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "hf-blog-2026-05-23-nvidia-nemotron-labs-diffusion",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+    "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+    "date_covered": "2026-05-23"
+  },
+  {
+    "id": "arxiv:2605.21463",
+    "url": "https://arxiv.org/abs/2605.21463",
+    "title": "Mem-\u03c0: Adaptive Memory through Learning When and What to Generate",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.19660",
+    "url": "https://arxiv.org/abs/2605.19660",
+    "title": "OScaR: The Occam's Razor for Extreme KV Cache Quantization in LLMs and Beyond",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.21226",
+    "url": "https://arxiv.org/abs/2605.21226",
+    "title": "OCTOPUS: Optimized KV Cache for Transformers via Octahedral Parametrization Under Optimal Squared Error Quantization",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.20315",
+    "url": "https://arxiv.org/abs/2605.20315",
+    "title": "Mix-Quant: Quantized Prefilling, Precise Decoding for Agentic LLMs",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.20630",
+    "url": "https://arxiv.org/abs/2605.20630",
+    "title": "Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.21384",
+    "url": "https://arxiv.org/abs/2605.21384",
+    "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.21468",
+    "url": "https://arxiv.org/abs/2605.21468",
+    "title": "You Only Need Minimal RLVR Training: Extrapolating LLMs via Rank-1 Trajectories (RELEX)",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "deepmind-blog-2026-05-19-co-scientist",
+    "url": "https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/",
+    "title": "Co-Scientist: A multi-agent AI partner to accelerate research",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "arxiv:2605.20668",
+    "url": "https://arxiv.org/abs/2605.20668",
+    "title": "On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists",
+    "date_covered": "2026-05-21"
+  },
+  {
+    "id": "anthropic-news-2026-05-18-acquires-stainless",
+    "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+    "title": "Anthropic acquires Stainless",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.18565",
+    "url": "https://arxiv.org/abs/2605.18565",
+    "title": "LongMINT: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.18421",
+    "url": "https://arxiv.org/abs/2605.18421",
+    "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.17789",
+    "url": "https://arxiv.org/abs/2605.17789",
+    "title": "SocialMemBench: Are AI Memory Systems Ready for Social Group Settings?",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.18401",
+    "url": "https://arxiv.org/abs/2605.18401",
+    "title": "SkillsVote: Lifecycle Governance of Agent Skills from Collection, Recommendation to Evolution",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.14038",
+    "url": "https://arxiv.org/abs/2605.14038",
+    "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.18703",
+    "url": "https://arxiv.org/abs/2605.18703",
+    "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environment Synthesis and Robust RL",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.18271",
+    "url": "https://arxiv.org/abs/2605.18271",
+    "title": "EPIC: Preference-Aligned Memory Construction for On-Device RAG (From Volume to Value)",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.18643",
+    "url": "https://arxiv.org/abs/2605.18643",
+    "title": "ZEDA: Post-Trained MoE Can Skip Half Experts via Self-Distillation",
+    "date_covered": "2026-05-19"
+  },
+  {
+    "id": "arxiv:2605.10912",
+    "url": "https://arxiv.org/abs/2605.10912",
+    "title": "WildClawBench: A Benchmark for Real-World, Long-Horizon Agent Evaluation",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "microsoft-research-2026-05-15-delegation-followup",
+    "url": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
+    "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.14906",
+    "url": "https://arxiv.org/abs/2605.14906",
+    "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.14457",
+    "url": "https://arxiv.org/abs/2605.14457",
+    "title": "Stateful Reasoning via Insight Replay",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.15041",
+    "url": "https://arxiv.org/abs/2605.15041",
+    "title": "Case-Based Calibration of Adaptive Reasoning and Execution for LLM Tool Use (CAST)",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.15177",
+    "url": "https://arxiv.org/abs/2605.15177",
+    "title": "OpenDeepThink: Parallel Reasoning via Bradley-Terry Aggregation",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.14678",
+    "url": "https://arxiv.org/abs/2605.14678",
+    "title": "\u03c0-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.15155",
+    "url": "https://arxiv.org/abs/2605.15155",
+    "title": "Self-Distilled Agentic Reinforcement Learning (SDAR)",
+    "date_covered": "2026-05-17"
+  },
+  {
+    "id": "arxiv:2605.15184",
+    "url": "https://arxiv.org/abs/2605.15184",
+    "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.14498",
+    "url": "https://arxiv.org/abs/2605.14498",
+    "title": "GroupMemBench: Benchmarking LLM Agent Memory in Multi-Party Conversations",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.13941",
+    "url": "https://arxiv.org/abs/2605.13941",
+    "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.15040",
+    "url": "https://arxiv.org/abs/2605.15040",
+    "title": "Orchard: An Open-Source Agentic Modeling Framework",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.14271",
+    "url": "https://arxiv.org/abs/2605.14271",
+    "title": "Auditing Agent Harness Safety (HarnessAudit-Bench)",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.15156",
+    "url": "https://arxiv.org/abs/2605.15156",
+    "title": "MeMo: Memory as a Model",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.13880",
+    "url": "https://arxiv.org/abs/2605.13880",
+    "title": "PREPING: Building Agent Memory without Tasks",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.15077",
+    "url": "https://arxiv.org/abs/2605.15077",
+    "title": "Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs (AsyncFC)",
+    "date_covered": "2026-05-16"
+  },
+  {
+    "id": "arxiv:2605.12978",
+    "url": "https://arxiv.org/abs/2605.12978",
+    "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.12922",
+    "url": "https://arxiv.org/abs/2605.12922",
+    "title": "When Attention Closes: How LLMs Lose the Thread in Multi-Turn Interaction",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.13050",
+    "url": "https://arxiv.org/abs/2605.13050",
+    "title": "Context Training with Active Information Seeking",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.13037",
+    "url": "https://arxiv.org/abs/2605.13037",
+    "title": "MAP: A Map-then-Act Paradigm for Long-Horizon Interactive Agent Reasoning",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.12673",
+    "url": "https://arxiv.org/abs/2605.12673",
+    "title": "Do Androids Dream of Breaking the Game? Systematically Auditing AI Agent Benchmarks with BenchJack",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.12925",
+    "url": "https://arxiv.org/abs/2605.12925",
+    "title": "AgentLens: Revealing the Lucky Pass Problem in SWE-Agent Evaluation",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.12975",
+    "url": "https://arxiv.org/abs/2605.12975",
+    "title": "PyRAG: Executable Multi-Hop Reasoning for Retrieval-Augmented Generation",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.13301",
+    "url": "https://arxiv.org/abs/2605.13301",
+    "title": "SU-01: Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling",
+    "date_covered": "2026-05-14"
+  },
+  {
+    "id": "arxiv:2605.12477",
+    "url": "https://arxiv.org/abs/2605.12477",
+    "title": "MEME: Multi-entity & Evolving Memory Evaluation",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.12493",
+    "url": "https://arxiv.org/abs/2605.12493",
+    "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.12357",
+    "url": "https://arxiv.org/abs/2605.12357",
+    "title": "\u03b4-mem: Efficient Online Memory for Large Language Models",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.09998",
+    "url": "https://arxiv.org/abs/2605.09998",
+    "title": "Continual Harness: Online Adaptation for Self-Improving Foundation Agents",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.12481",
+    "url": "https://arxiv.org/abs/2605.12481",
+    "title": "ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.11946",
+    "url": "https://arxiv.org/abs/2605.11946",
+    "title": "Counterfactual Trace Auditing of LLM Agent Skills",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.12131",
+    "url": "https://arxiv.org/abs/2605.12131",
+    "title": "Rollout Cards: A Reproducibility Standard for Agent Research",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.12087",
+    "url": "https://arxiv.org/abs/2605.12087",
+    "title": "Intermediate Artifacts as First-Class Citizens: A Data Model for Durable Intermediate Artifacts in Agentic Systems",
+    "date_covered": "2026-05-13"
+  },
+  {
+    "id": "arxiv:2605.10870",
+    "url": "https://arxiv.org/abs/2605.10870",
+    "title": "Remember the Decision, Not the Description: A Rate-Distortion Framework for Agent Memory (DeMem)",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.10913",
+    "url": "https://arxiv.org/abs/2605.10913",
+    "title": "Shepherd: A Runtime Substrate Empowering Meta-Agents with a Formalized Execution Trace",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.10787",
+    "url": "https://arxiv.org/abs/2605.10787",
+    "title": "ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "microsoft-research-2026-05-11-socialreasoning-bench",
+    "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
+    "title": "SocialReasoning-Bench: Measuring whether AI agents act in users' best interests",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.10828",
+    "url": "https://arxiv.org/abs/2605.10828",
+    "title": "The First Drop of Ink: Nonlinear Impact of Misleading Information in Long-Context Reasoning",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.09649",
+    "url": "https://arxiv.org/abs/2605.09649",
+    "title": "Make Each Token Count: Towards Improving Long-Context Performance with KV Cache Eviction",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.10448",
+    "url": "https://arxiv.org/abs/2605.10448",
+    "title": "Can Agent Benchmarks Support Their Scores? Evidence-Supported Bounds for Interactive-Agent Evaluation",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.10805",
+    "url": "https://arxiv.org/abs/2605.10805",
+    "title": "Reasoning Is Not Free: Robust Adaptive Cost-Efficient Routing for LLM-as-a-Judge (RACER)",
+    "date_covered": "2026-05-12"
+  },
+  {
+    "id": "arxiv:2605.08060",
+    "url": "https://arxiv.org/abs/2605.08060",
+    "title": "The Memory Curse: How Expanded Recall Erodes Cooperative Intent in LLM Agents",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2605.07313",
+    "url": "https://arxiv.org/abs/2605.07313",
+    "title": "When Stored Evidence Stops Being Usable: Scale-Conditioned Evaluation of Agent Memory",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2605.07242",
+    "url": "https://arxiv.org/abs/2605.07242",
+    "title": "MEMOREPAIR: Barrier-First Cascade Repair in Agentic Memory",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2605.07990",
+    "url": "https://arxiv.org/abs/2605.07990",
+    "title": "Tool Calling is Linearly Readable and Steerable in Language Models",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2605.07112",
+    "url": "https://arxiv.org/abs/2605.07112",
+    "title": "Switchcraft: AI Model Router for Agentic Tool Calling",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2605.07161",
+    "url": "https://arxiv.org/abs/2605.07161",
+    "title": "SREGym: A Live Benchmark for AI SRE Agents with High-Fidelity Failure Scenarios",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2605.08083",
+    "url": "https://arxiv.org/abs/2605.08083",
+    "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling (AutoTTS)",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "anthropic-research-2026-05-07-donating-open-source-petri",
+    "url": "https://www.anthropic.com/research/donating-open-source-petri",
+    "title": "Donating our open-source alignment tool (Petri 3.0 to Meridian Labs)",
+    "date_covered": "2026-05-11"
+  },
+  {
+    "id": "arxiv:2604.15597",
+    "url": "https://arxiv.org/abs/2604.15597",
+    "title": "LLMs Corrupt Your Documents When You Delegate (DELEGATE-52)",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "arxiv:2605.05413",
+    "url": "https://arxiv.org/abs/2605.05413",
+    "title": "From History to State: Constant-Context Skill Learning for LLM Agents",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "arxiv:2605.05716",
+    "url": "https://arxiv.org/abs/2605.05716",
+    "title": "More Is Not Always Better: Cross-Component Interference in LLM Agent Scaffolding",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "arxiv:2605.05245",
+    "url": "https://arxiv.org/abs/2605.05245",
+    "title": "AdaGATE: Adaptive Gap-Aware Token-Efficient Evidence Assembly for Multi-Hop RAG",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "arxiv:2605.04036",
+    "url": "https://arxiv.org/abs/2605.04036",
+    "title": "OpenSeeker-v2: Pushing the Limits of Search Agents with Informative and High-Difficulty Trajectories",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "arxiv:2605.05583",
+    "url": "https://arxiv.org/abs/2605.05583",
+    "title": "Belief Memory: Agent Memory Under Partial Observability",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "arxiv:2605.03042",
+    "url": "https://arxiv.org/abs/2605.03042",
+    "title": "ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "anthropic-news-2026-05-05-finance-agents",
+    "url": "https://www.anthropic.com/news/finance-agents",
+    "title": "Agents for Financial Services",
+    "date_covered": "2026-05-10"
+  },
+  {
+    "id": "anthropic-research-2026-05-08-teaching-claude-why",
+    "url": "https://www.anthropic.com/research/teaching-claude-why",
+    "title": "Teaching Claude why",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.06651",
+    "url": "https://arxiv.org/abs/2605.06651",
+    "title": "AI Co-Mathematician: Accelerating Mathematicians with Agentic AI",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.06642",
+    "url": "https://arxiv.org/abs/2605.06642",
+    "title": "StraTA: Incentivizing Agentic Reinforcement Learning with Strategic Trajectory Abstraction",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.05242",
+    "url": "https://arxiv.org/abs/2605.05242",
+    "title": "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.06285",
+    "url": "https://arxiv.org/abs/2605.06285",
+    "title": "LatentRAG: Latent Reasoning and Retrieval for Efficient Agentic RAG",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.06455",
+    "url": "https://arxiv.org/abs/2605.06455",
+    "title": "PrefixGuard: From LLM-Agent Traces to Online Failure-Warning Monitors",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.06638",
+    "url": "https://arxiv.org/abs/2605.06638",
+    "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "hf-blog-2026-05-08-allenai-emo",
+    "url": "https://huggingface.co/blog/allenai/emo",
+    "title": "EMO: Pretraining Mixture of Experts for Emergent Modularity",
+    "date_covered": "2026-05-09"
+  },
+  {
+    "id": "arxiv:2605.06527",
+    "url": "https://arxiv.org/abs/2605.06527",
+    "title": "STALE: Can LLM Agents Know When Their Memories Are No Longer Valid?",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06132",
+    "url": "https://arxiv.org/abs/2605.06132",
+    "title": "MemReranker: Reasoning-Aware Reranking for Agent Memory Retrieval",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06078",
+    "url": "https://arxiv.org/abs/2605.06078",
+    "title": "BEACON: Milestone-Guided Policy Learning for Long-Horizon Language Agents",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06614",
+    "url": "https://arxiv.org/abs/2605.06614",
+    "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06623",
+    "url": "https://arxiv.org/abs/2605.06623",
+    "title": "MASPO: Joint Prompt Optimization for LLM-based Multi-Agent Systems",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06334",
+    "url": "https://arxiv.org/abs/2605.06334",
+    "title": "MANTRA: Synthesizing SMT-Validated Compliance Benchmarks for Tool-Using LLM Agents",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06635",
+    "url": "https://arxiv.org/abs/2605.06635",
+    "title": "Cited but Not Verified: Parsing and Evaluating Source Attribution in LLM Deep Research Agents",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.06326",
+    "url": "https://arxiv.org/abs/2605.06326",
+    "title": "Teaching Thinking Models to Reason with Tools: A Full-Pipeline Recipe for Tool-Integrated Reasoning",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "anthropic-research-2026-05-07-natural-language-autoencoders",
+    "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+    "title": "Natural Language Autoencoders: Turning Claude's thoughts into text",
+    "date_covered": "2026-05-08"
+  },
+  {
+    "id": "arxiv:2605.05191",
+    "url": "https://arxiv.org/abs/2605.05191",
+    "title": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.04050",
+    "url": "https://arxiv.org/abs/2605.04050",
+    "title": "LCM: Lossless Context Management",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.05007",
+    "url": "https://arxiv.org/abs/2605.05007",
+    "title": "Uno-Orchestra: Parsimonious Agent Routing via Selective Delegation",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.05138",
+    "url": "https://arxiv.org/abs/2605.05138",
+    "title": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.04624",
+    "url": "https://arxiv.org/abs/2605.04624",
+    "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.04785",
+    "url": "https://arxiv.org/abs/2605.04785",
+    "title": "AgentTrust: Runtime Safety Evaluation and Interception for AI Agent Tool Use",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.04018",
+    "url": "https://arxiv.org/abs/2605.04018",
+    "title": "Rethinking Reasoning-Intensive Retrieval: Evaluating and Advancing Retrievers in Agentic Search Systems",
+    "date_covered": "2026-05-07"
+  },
+  {
+    "id": "arxiv:2605.00737",
+    "url": "https://arxiv.org/abs/2605.00737",
+    "title": "To Call or Not to Call: A Framework to Assess and Optimize LLM Tool Calling",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "arxiv:2604.27221",
+    "url": "https://arxiv.org/abs/2604.27221",
+    "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "arxiv:2605.00425",
+    "url": "https://arxiv.org/abs/2605.00425",
+    "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "arxiv:2605.00334",
+    "url": "https://arxiv.org/abs/2605.00334",
+    "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "arxiv:2605.00136",
+    "url": "https://arxiv.org/abs/2605.00136",
+    "title": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "mistral-news-2026-04-29-vibe-remote-agents-mistral-medium-3-5",
+    "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+    "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "hf-blog-2026-04-29-ibm-granite-4-1",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+    "title": "Granite 4.1 LLMs: How They're Built",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "hf-blog-2026-04-29-evaleval-eval-costs-bottleneck",
+    "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+    "title": "AI evals are becoming the new compute bottleneck",
+    "date_covered": "2026-05-04"
+  },
+  {
+    "id": "anthropic-research-2026-04-29-biomysterybench",
+    "url": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+    "title": "Evaluating Claude's bioinformatics research capabilities with BioMysteryBench",
+    "date_covered": "2026-05-04"
+  }
 ]
