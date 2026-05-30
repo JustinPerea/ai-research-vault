@@ -1,5 +1,53 @@
 [
   {
+    "id": "anthropic-news-2026-05-28-claude-opus-4-8",
+    "url": "https://www.anthropic.com/news/claude-opus-4-8",
+    "title": "Introducing Claude Opus 4.8",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "arxiv:2605.29682",
+    "url": "https://arxiv.org/abs/2605.29682",
+    "title": "Scaling Laws for Agent Harnesses via Effective Feedback Compute (EFC)",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "arxiv:2605.30152",
+    "url": "https://arxiv.org/abs/2605.30152",
+    "title": "Do Proactive Agents Really Need an LLM to Decide When to Wake and What to Anchor?",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "arxiv:2605.30159",
+    "url": "https://arxiv.org/abs/2605.30159",
+    "title": "Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents (MMPO)",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "arxiv:2605.29794",
+    "url": "https://arxiv.org/abs/2605.29794",
+    "title": "SkillsInjector: Dynamic Skill Context Construction for LLM Agents",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "hf-blog-2026-05-27-delta-weight-sync",
+    "url": "https://huggingface.co/blog/delta-weight-sync",
+    "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "hf-blog-2026-05-27-local-reachy-mini-conversation",
+    "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+    "title": "Reachy Mini goes fully local",
+    "date_covered": "2026-05-30"
+  },
+  {
+    "id": "arxiv:2605.30343",
+    "url": "https://arxiv.org/abs/2605.30343",
+    "title": "Unlocking the Working Memory of Large Language Models for Latent Reasoning (RiM)",
+    "date_covered": "2026-05-30"
+  },
+  {
     "id": "arxiv:2605.29341",
     "url": "https://arxiv.org/abs/2605.29341",
     "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
