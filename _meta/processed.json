@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2605.29087",
+    "url": "https://arxiv.org/abs/2605.29087",
+    "title": "Trace-Answer Dissociation in Reasoning Models",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.29068",
+    "url": "https://arxiv.org/abs/2605.29068",
+    "title": "COLAGUARD: Latent-Space Safety Reasoning at Classifier Latency",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.29612",
+    "url": "https://arxiv.org/abs/2605.29612",
+    "title": "CONCAT: Consensus- and Confidence-Driven Ad Hoc Teaming for Efficient LLM-Based Multi-Agent Systems",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.29790",
+    "url": "https://arxiv.org/abs/2605.29790",
+    "title": "Evolve as a Team: Collaborative Self-Evolution for LLM-based Multi-Agent Systems (Meta-Team)",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.29055",
+    "url": "https://arxiv.org/abs/2605.29055",
+    "title": "Hallucination Mitigation with Agentic AI, Nested Learning, and AI Sustainability via Semantic Caching",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.29119",
+    "url": "https://arxiv.org/abs/2605.29119",
+    "title": "PRO-CUA: Process-Reward Optimization for Computer Use Agents",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.29082",
+    "url": "https://arxiv.org/abs/2605.29082",
+    "title": "Redpanda Agentic Data Plane: Out-of-Band Governance for Agent Systems",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.30227",
+    "url": "https://arxiv.org/abs/2605.30227",
+    "title": "Unifying Temporal and Structural Credit Assignment in LLM-Based Multi-Agent Prompt Optimization",
+    "date_covered": "2026-05-31"
+  },
+  {
+    "id": "arxiv:2605.30260",
+    "url": "https://arxiv.org/abs/2605.30260",
+    "title": "How LoRA Remembers? A Parametric Memory Law for LLM Finetuning",
+    "date_covered": "2026-05-31"
+  },
+  {
     "id": "anthropic-news-2026-05-28-claude-opus-4-8",
     "url": "https://www.anthropic.com/news/claude-opus-4-8",
     "title": "Introducing Claude Opus 4.8",
