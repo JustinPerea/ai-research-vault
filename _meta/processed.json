@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2605.31075",
+    "url": "https://arxiv.org/abs/2605.31075",
+    "title": "Task-Focused Memorization for Multimodal Agents (TaskMem)",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "arxiv:2605.30785",
+    "url": "https://arxiv.org/abs/2605.30785",
+    "title": "Learning Agent-Compatible Context Management for Long-Horizon Tasks (AdaCoM)",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "arxiv:2605.31042",
+    "url": "https://arxiv.org/abs/2605.31042",
+    "title": "From Prompt Injection to Persistent Control: Defending Agentic Harness Against Trojan Backdoors (ClawTrojan + DASGuard)",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "arxiv:2605.30738",
+    "url": "https://arxiv.org/abs/2605.30738",
+    "title": "MAVEN: Improving Generalization in Agentic Tool Calling",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "arxiv:2605.30434",
+    "url": "https://arxiv.org/abs/2605.30434",
+    "title": "LongDS-Bench: On the Failure of Long-Horizon Agentic Data Analysis",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "arxiv:2605.30824",
+    "url": "https://arxiv.org/abs/2605.30824",
+    "title": "DecomposeR: Planner-Centric Reinforcement Learning for Deep Research with Structure-Aware Reward",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "arxiv:2605.30832",
+    "url": "https://arxiv.org/abs/2605.30832",
+    "title": "SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "hf-blog-2026-06-01-nvidia-cosmos-3",
+    "url": "https://huggingface.co/blog/nvidia/cosmos-3",
+    "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+    "date_covered": "2026-06-01"
+  },
+  {
+    "id": "mistral-news-2026-05-28-vibe-agent",
+    "url": "https://mistral.ai/news/vibe-agent",
+    "title": "Vibe gets to work (Mistral)",
+    "date_covered": "2026-06-01"
+  },
+  {
     "id": "arxiv:2605.29087",
     "url": "https://arxiv.org/abs/2605.29087",
     "title": "Trace-Answer Dissociation in Reasoning Models",
