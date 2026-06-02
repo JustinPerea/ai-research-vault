@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.02470",
+    "url": "https://arxiv.org/abs/2606.02470",
+    "title": "MCP-Persona: First MCP-Native Benchmark for Personalized Tools (ICML 2026)",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "arxiv:2606.02540",
+    "url": "https://arxiv.org/abs/2606.02540",
+    "title": "SkillHarm: Lifecycle-Aware Skill-Based Attacks via Automated Construction",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "arxiv:2606.02304",
+    "url": "https://arxiv.org/abs/2606.02304",
+    "title": "Unified Context Evolution (UCE): Typed Evolvable Context Units for LLM Agents",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "arxiv:2606.01533",
+    "url": "https://arxiv.org/abs/2606.01533",
+    "title": "Multi-Agent Computer Use (Manager-DAG + Parallel Subagents)",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "arxiv:2606.02060",
+    "url": "https://arxiv.org/abs/2606.02060",
+    "title": "DRIFT: Span-Level Error Localization in Deep-Research Agent Trajectories",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "arxiv:2606.02031",
+    "url": "https://arxiv.org/abs/2606.02031",
+    "title": "OpenWebRL: Online Multi-Turn RL for Visual Web Agents (4B, Microsoft)",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "arxiv:2606.02054",
+    "url": "https://arxiv.org/abs/2606.02054",
+    "title": "eMoT: Evolving Memory-of-Thought with Symbolic Anchoring",
+    "date_covered": "2026-06-02"
+  },
+  {
+    "id": "hf-blog-2026-06-01-jetbrains-mellum2-launch",
+    "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+    "title": "Introducing Mellum2: 12B / 2.5B-Active MoE Code-Focal Model (JetBrains, Apache 2.0)",
+    "date_covered": "2026-06-02"
+  },
+  {
     "id": "arxiv:2605.31075",
     "url": "https://arxiv.org/abs/2605.31075",
     "title": "Task-Focused Memorization for Multimodal Agents (TaskMem)",
