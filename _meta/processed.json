@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2606.03461",
+    "url": "https://arxiv.org/abs/2606.03461",
+    "title": "Terminal-Lego / Harness Engineering — Pedagogical Paradox (Qwen3-32B 24.3% Terminal-Bench 2.0 from 15.3k Trajectories)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "arxiv:2606.03979",
+    "url": "https://arxiv.org/abs/2606.03979",
+    "title": "Language Models Need Sleep — Knowledge Seeding + Dreaming (Behrouz/Mirrokni, Google)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "arxiv:2606.03463",
+    "url": "https://arxiv.org/abs/2606.03463",
+    "title": "DMF — Deterministic Memory Framework (5x-242x Fewer Tokens vs Mem0, No LLM in Loop)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "arxiv:2606.03657",
+    "url": "https://arxiv.org/abs/2606.03657",
+    "title": "NovelAPIBench — Diagnosing Knowledge Gaps in LLM Tool Use (Usage Examples = Strongest Standalone Signal)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "arxiv:2606.03467",
+    "url": "https://arxiv.org/abs/2606.03467",
+    "title": "StepFinder — Lightweight Failure Attribution Without LLM in Loop (79% Faster on Who&When)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "arxiv:2606.03692",
+    "url": "https://arxiv.org/abs/2606.03692",
+    "title": "SkillPyramid — Hierarchical Skill Consolidation (+38.0% Reward, -27.7% Steps, ALFWorld+WebShop+SciWorld)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "arxiv:2606.03841",
+    "url": "https://arxiv.org/abs/2606.03841",
+    "title": "EvoDS — Self-Evolving Autonomous Data Science Agent (+28.9% on 4 Benchmarks, KDD 2026)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "hf-blog-2026-06-02-hcompany-holo31",
+    "url": "https://huggingface.co/blog/Hcompany/holo31",
+    "title": "Hcompany Holo3.1 — Open Local CUA Family (Q4 GGUF Apple Silicon, 79.3% AndroidWorld at 35B-A3B)",
+    "date_covered": "2026-06-03"
+  },
+  {
+    "id": "anthropic-news-2026-06-02-expanding-project-glasswing",
+    "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+    "title": "Anthropic Expanding Project Glasswing — Claude Mythos Preview External Confirmation (>10K High/Critical Flaws)",
+    "date_covered": "2026-06-03"
+  },
+  {
     "id": "arxiv:2606.02470",
     "url": "https://arxiv.org/abs/2606.02470",
     "title": "MCP-Persona: First MCP-Native Benchmark for Personalized Tools (ICML 2026)",
