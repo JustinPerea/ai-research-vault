@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2606.04315",
+    "url": "https://arxiv.org/abs/2606.04315",
+    "title": "AutoMEM — Cross-Scenario Generality of Agentic Memory; Harness With Self-Managed File-Storage Tool Calls Wins Over 8 Memory Systems Across 5 Scenarios (Tang lab)",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.04555",
+    "url": "https://arxiv.org/abs/2606.04555",
+    "title": "SegTreeMem — Temporal-Ordered Segment Tree Memory With Online Update; Permutation Ablation Confirms Temporal Order Is the Win (Toronto)",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.04780",
+    "url": "https://arxiv.org/abs/2606.04780",
+    "title": "PersonaTree — Three-Level Lifecycle Person Tree With Evidence→Claim Support Paths; Ranks 1st in 12/18 Compact Scores Across 6 Benchmarks",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.04536",
+    "url": "https://arxiv.org/abs/2606.04536",
+    "title": "TMEM — In-Episode LoRA Fast-Weight Memory With SVD Init; RL-Optimizable Extraction Policy; Beats Summary/Retrieval Baselines on LoCoMo/LongMemEval-S/CL-Bench",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.04660",
+    "url": "https://arxiv.org/abs/2606.04660",
+    "title": "LifeSide — Lifelong Companion Benchmark (2k Personas × 111k Tasks, Memory-Emotion-Environment Loops); Memory-Saturating Models Still Fail Long-Horizon Companionship",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.04628",
+    "url": "https://arxiv.org/abs/2606.04628",
+    "title": "RAMPART — In-RAM Block Registry With Five Composable Memory Ops; Position-Effect Numbers on Qwen3-8B Q4 (Pos ~7 Cliff, Grouping Recovers Tens of pp, Gating = 67.8% Token Cut)",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.05080",
+    "url": "https://arxiv.org/abs/2606.05080",
+    "title": "AutoLab — Long-Horizon Engineering Benchmark (36 Tasks, 17 Models); Persistence > Initial Quality; Claude Opus 4.6 Wins",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "arxiv:2606.05158",
+    "url": "https://arxiv.org/abs/2606.05158",
+    "title": "StreamMA — Streaming Reasoning Steps Between Agents (Step-Level Scaling Law); +7.3pp Avg, +22.4pp HMMT 2026 (Opus 4.6-high), 8 Benchmarks × Chain/Tree/Graph",
+    "date_covered": "2026-06-04"
+  },
+  {
+    "id": "anthropic-news-2026-06-03-ai-enabled-cyber-threats-mitre-attack",
+    "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+    "title": "Anthropic Frontier Red Team — One Year of AI-Enabled Cyber Threats (832 Banned Accounts, MITRE ATT&CK Mapped, 67.3% Malware Dev, Risk-Tier Headcount ~1.7×)",
+    "date_covered": "2026-06-04"
+  },
+  {
     "id": "arxiv:2606.03461",
     "url": "https://arxiv.org/abs/2606.03461",
     "title": "Terminal-Lego / Harness Engineering — Pedagogical Paradox (Qwen3-32B 24.3% Terminal-Bench 2.0 from 15.3k Trajectories)",
