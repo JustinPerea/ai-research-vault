@@ -1,5 +1,71 @@
 [
   {
+    "id": "arxiv:2606.06448",
+    "url": "https://arxiv.org/abs/2606.06448",
+    "title": "Agent Memory — First Systems Characterization of Stateful Long-Horizon Workloads (Pentland/Verhelst/Tambe; 10 systems × 4 dims × 2 benchmark suites; 10 design recommendations)",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.06090",
+    "url": "https://arxiv.org/abs/2606.06090",
+    "title": "MAGE — Memory as Execution State Management (Hierarchical State Tree; Grow/Compress/Maintain/Revise; +7.8-20.4pp Success, -55.1% Tokens on MemoryArena)",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.06036",
+    "url": "https://arxiv.org/abs/2606.06036",
+    "title": "MRAgent — Memory is Reconstructed, Not Retrieved (Cue-Tag-Content Graph, LLM-Driven Path Walk; +23% LoCoMo/LongMemEval; Bryan Hooi NUS, ICML 2026)",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.05894",
+    "url": "https://arxiv.org/abs/2606.05894",
+    "title": "EMBER — Budgeted Evidence Retention With Learned Policy; EMBER-14B 0.3017 F1 vs 0.1765 Baseline at 8192-Token Budget (LongMemEval-RR, +71% Relative)",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.06054",
+    "url": "https://arxiv.org/abs/2606.06054",
+    "title": "MemGate — 9M-Param 35.1MB Query-Conditioned Gate Against Memory-Induced Jailbreaks; Drop-In Across A-Mem/Mem0/MemOS/OpenClaw",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.06055",
+    "url": "https://arxiv.org/abs/2606.06055",
+    "title": "RBI-Eval — Quantifying Sensitive-Memory Behavioral Divergence; GPT-5.4-mini 8.9-26.6%, Claude-Sonnet-4.6/DeepSeek-V4-Flash/Qwen3.5-9B 51.1-82.9% Separation",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.06087",
+    "url": "https://arxiv.org/abs/2606.06087",
+    "title": "LatentSkill — Hypernetwork Emits Plug-and-Play LoRAs From Textual Skills; +21.4pp ALFWorld Seen, -64.1% Prefill Tokens; Composable by Parameter Arithmetic",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.05922",
+    "url": "https://arxiv.org/abs/2606.05922",
+    "title": "RHO — Retrospective Harness Optimization (Self-Coreset + Self-Validation + Self-Preference); SWE-Bench Pro 59% → 78% in One Cycle, No External Grader",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.06284",
+    "url": "https://arxiv.org/abs/2606.06284",
+    "title": "CMTF (ToolChoiceConfusion) — Causal Minimal Tool Filtering; 100 Tools → 1 Visible Per Step, ~90% Token Cut on 102 Tasks × 4 LLM Backends × 2448 Runs",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "arxiv:2606.05976",
+    "url": "https://arxiv.org/abs/2606.05976",
+    "title": "Self-Correction Illusion — Chat-Template Artifact; Relabeling <thought> → External Role Lifts Correction Rate 23-93pp (p<0.001 in 10/13 Cells, 7 Model Families × 3 Domains)",
+    "date_covered": "2026-06-05"
+  },
+  {
+    "id": "hf-blog-2026-06-04-hf-cli-for-agents",
+    "url": "https://huggingface.co/blog/hf-cli-for-agents",
+    "title": "hf CLI for Agents — Dual-Mode Output + Next-Command Hints + Auto-Skill Reference; 94% Claude Code Pass vs 84% curl/Python, Up to 6x Fewer Tokens, ~30% Fewer Tool Calls",
+    "date_covered": "2026-06-05"
+  },
+  {
     "id": "arxiv:2606.04315",
     "url": "https://arxiv.org/abs/2606.04315",
     "title": "AutoMEM — Cross-Scenario Generality of Agentic Memory; Harness With Self-Managed File-Storage Tool Calls Wins Over 8 Memory Systems Across 5 Scenarios (Tang lab)",
