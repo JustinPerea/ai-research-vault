@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2606.06453",
+    "url": "https://arxiv.org/abs/2606.06453",
+    "title": "Vortex — Programmable Sparse Attention Serving for AI Agents; 3.46x Throughput vs Full Attention, 4.7x on MLA-Based GLM-4.7-Flash, 1.37x on 229B MiniMax-M2.7 (B200)",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "arxiv:2606.06302",
+    "url": "https://arxiv.org/abs/2606.06302",
+    "title": "Tangram — Non-Uniform KV Cache for Multi-Turn LLM Serving; Per-Head Budgeting + Grouped Pages + Static Balancing; 2.6x Throughput",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "arxiv:2606.06079",
+    "url": "https://arxiv.org/abs/2606.06079",
+    "title": "SkillComposer — Create/Improve/Merge Skill Operations; 4B Composer Lifts 27B Executor +4.5 on Agent Tasks (τ²-Bench / LiveCodeBench v6 / AppWorld), +3.4 on Code",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "research-google-blog-2026-06-05-gemini-enterprise-agentic-rag",
+    "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
+    "title": "Gemini Enterprise Agentic RAG — Five-Agent Pipeline (Orchestrator / Planner / Query Rewriter / Search Fanout / Sufficient Context Agent); 90.1% FramesQA Cross-Corpus (824 Multi-Hop, 2676 Docs, 4 Corpora)",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "arxiv:2606.04306",
+    "url": "https://arxiv.org/abs/2606.04306",
+    "title": "Organizational Control Layer (OCL) — Execution-Boundary Governance; Unsafe Executions 88% → ~0%, Valid Success 12% → 96% on Adversarial Buyer-Seller Negotiation",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "arxiv:2606.06492",
+    "url": "https://arxiv.org/abs/2606.06492",
+    "title": "Code2LoRA — Hypernetwork-Generated Per-Repo LoRA Adapters With GRU State for Codebase Evolution; +5.2pp Cross-Repo on RepoPeftBench Evolution Track (215K/87K Tasks)",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "arxiv:2606.05622",
+    "url": "https://arxiv.org/abs/2606.05622",
+    "title": "AdaPlanBench — 307 Household Tasks With Dual World/User Constraints Surfaced On Violation; 10 Frontier LLMs, Top Model 67.75%, User Constraints Harder Than World Constraints",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "hf-blog-2026-06-04-servicenow-eva-bench-data",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+    "title": "EVA-Bench Data 2.0 — Voice Agent Benchmark, 3 Enterprise Domains × 121 Tools × 213 Scenarios (Airline CSM 50 / ITSM 80 / HRSD 83); Multi-Intent + Adversarial + Unsatisfiable-Goal Subsets; MIT-Licensed",
+    "date_covered": "2026-06-06"
+  },
+  {
+    "id": "hf-blog-2026-06-04-nvidia-nemotron-3-5-content-safety",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+    "title": "Nemotron-3.5 Content Safety — 4B Multimodal Guard On Gemma-3-4B-IT + LoRA, THINK Mode, ~140 Languages; 96.5% Multilingual Aegis (12-Lang), 88.8% RTP-LX, 92.7% Combined, ~85% Multimodal; 3x Lower Latency vs LlamaGuard-4-12B",
+    "date_covered": "2026-06-06"
+  },
+  {
     "id": "arxiv:2606.06448",
     "url": "https://arxiv.org/abs/2606.06448",
     "title": "Agent Memory — First Systems Characterization of Stateful Long-Horizon Workloads (Pentland/Verhelst/Tambe; 10 systems × 4 dims × 2 benchmark suites; 10 design recommendations)",
