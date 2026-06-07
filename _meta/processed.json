@@ -1,5 +1,53 @@
 [
   {
+    "id": "anthropic-research-2026-06-05-making-claude-a-chemist",
+    "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+    "title": "Making Claude a Chemist — Opus 4.7 vs ChemDraw / MestReNova NMR Prediction; ±0.079 ppm H / ±1.37 ppm C, Sub-Peak Spacing ~80% vs 26–35%, 8/8 Perfect Inverse Structure Elucidation on Simple Problems",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.06203",
+    "url": "https://arxiv.org/abs/2606.06203",
+    "title": "Dense Contexts Are Hard Contexts — Lexical Density Limits Effective Context; <60% Retrieval at Higher Density Across 9B–685B Open-Weight Models on 12k-Token Tests",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.06337",
+    "url": "https://arxiv.org/abs/2606.06337",
+    "title": "TokenMizer — Open-Source Typed-Knowledge-Graph Session-Memory Proxy; 78-Token Resume Blocks (2× Smaller), 47.3% Token Reduction, +33pp Recall from Fuzzy Label Matching Alone (21 Sessions × 5 Domains)",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.06256",
+    "url": "https://arxiv.org/abs/2606.06256",
+    "title": "RedKnot — Head-Aware KV Reuse + SegPagedAttention; Position-Independent Reuse / Prefix Compression / Hot-Cold Separation / Distributed Placement Without Retraining",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.06099",
+    "url": "https://arxiv.org/abs/2606.06099",
+    "title": "CogManip — 15 Manipulation-Strategy Risks × 1000 Multi-Turn Scenarios × 13 Models (GPT-5.4 / DeepSeek-V3.2 Named); Significant Cross-Family Heterogeneity, DeepSeek-V3.2 Responsive Under Benign System Prompts",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.06447",
+    "url": "https://arxiv.org/abs/2606.06447",
+    "title": "NF-CoT — Continuous-State Latent Reasoning via Normalizing Flows; KV-Cache Compatible, Exact Likelihood for Latent Steps, Policy-Gradient Optimizable; Improves Pass Rate vs Explicit-CoT and Prior Latent-Reasoning Baselines on Code Generation",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.06416",
+    "url": "https://arxiv.org/abs/2606.06416",
+    "title": "DataCOPE — Unsupervised Skill Discovery for Data-Analysis Agents; Adaptive Checklist Verifier (Report-Style) + Answer Agreement Verifier (Reasoning-Style); +9.71% / +32.30% Across Four Backbones on Deep Data Research / DABStep",
+    "date_covered": "2026-06-07"
+  },
+  {
+    "id": "arxiv:2606.04896",
+    "url": "https://arxiv.org/abs/2606.04896",
+    "title": "Channel Fracture — Cron-Delegated Cross-Agent Memory Writes Fail Completely in Production (Hermes Agent, 525 Sim + 90 Real Runs); skip_memory=True Scheduler Default + Tool-Registration Order; CADVP v1.1 13-Dim Verification Protocol",
+    "date_covered": "2026-06-07"
+  },
+  {
     "id": "arxiv:2606.06453",
     "url": "https://arxiv.org/abs/2606.06453",
     "title": "Vortex — Programmable Sparse Attention Serving for AI Agents; 3.46x Throughput vs Full Attention, 4.7x on MLA-Based GLM-4.7-Flash, 1.37x on 229B MiniMax-M2.7 (B200)",
