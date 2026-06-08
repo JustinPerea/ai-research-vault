@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2606.05761",
+    "url": "https://arxiv.org/abs/2606.05761",
+    "title": "SubtleMemory — 1,522-Instance × 1,090-Variant Relational Memory Benchmark; 11 Systems Tested, All Weak on Fine-Grained Discrimination (Preservation / Retrieval / Reasoning)",
+    "date_covered": "2026-06-08"
+  },
+  {
+    "id": "arxiv:2606.05806",
+    "url": "https://arxiv.org/abs/2606.05806",
+    "title": "ToolMaze / When Tools Fail — Perturbation Recovery Rate Drops ~37% Under Implicit Semantic Failures; Fault Tolerance Scales 3.66× Slower Than Task Execution as Model Size Grows; 2×2 Failure Taxonomy × DAG Topology",
+    "date_covered": "2026-06-08"
+  },
+  {
+    "id": "nvidia-dev-blog-2026-06-04-nemotron-3-ultra",
+    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/",
+    "title": "NVIDIA Nemotron 3 Ultra — 550B-MoE / 55B-Active Hybrid Mamba-Transformer for Long-Running Agents; 5× Throughput, 30% Cost Cut on SWE-Bench + Terminal-Bench 2.0, 91% PinchBench, 95% Ruler @ 1M; MOPD Multi-Teacher On-Policy Distillation; OpenMDW-1.1 License",
+    "date_covered": "2026-06-08"
+  },
+  {
+    "id": "arxiv:2606.06741",
+    "url": "https://arxiv.org/abs/2606.06741",
+    "title": "OpenSkill — No-Supervision Open-World Self-Evolution; Skill + Verifier Bootstrapped From Docs/Repos/Web; Best Automated Pass Rate Across 3 Benchmarks × 2 Target Agents; Code Released (OpenLAIR/OpenSkill)",
+    "date_covered": "2026-06-08"
+  },
+  {
+    "id": "arxiv:2606.07412",
+    "url": "https://arxiv.org/abs/2606.07412",
+    "title": "Socratic-SWE — Self-Evolving Coding Agents via Trace-Derived Agent Skills (Failure Patterns + Repair Patterns); 50.40% SWE-Bench Verified After 3 Iterations; Consistent Improvement Over Self-Evolving Baselines at Equal Compute on SWE-Bench Lite / Pro + Terminal-Bench 2.0",
+    "date_covered": "2026-06-08"
+  },
+  {
+    "id": "arxiv:2606.04703",
+    "url": "https://arxiv.org/abs/2606.04703",
+    "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents — Principle-Level Durable / Instance-Level Causes Progressive Capability Collapse; Step-Wise > Global Injection; Off-Policy Context-Distillation > On-Policy (RUC / Yankai Lin)",
+    "date_covered": "2026-06-08"
+  },
+  {
+    "id": "arxiv:2606.06473",
+    "url": "https://arxiv.org/abs/2606.06473",
+    "title": "MLEvolve — Self-Evolving Multi-Agent Framework for Automated ML Algorithm Discovery; Progressive MCGS (Monte Carlo Graph Search) + Retrospective Memory + Adaptive Coding Modes; SOTA on MLE-Bench Under 12-Hour Budget (Half Standard Runtime); Outperforms AlphaEvolve on Math Optimization",
+    "date_covered": "2026-06-08"
+  },
+  {
     "id": "anthropic-research-2026-06-05-making-claude-a-chemist",
     "url": "https://www.anthropic.com/research/making-claude-a-chemist",
     "title": "Making Claude a Chemist — Opus 4.7 vs ChemDraw / MestReNova NMR Prediction; ±0.079 ppm H / ±1.37 ppm C, Sub-Peak Spacing ~80% vs 26–35%, 8/8 Perfect Inverse Structure Elucidation on Simple Problems",
