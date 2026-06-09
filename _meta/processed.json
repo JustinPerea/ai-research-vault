@@ -1,5 +1,53 @@
 [
   {
+    "id": "anthropic-research-2026-06-08-agents-in-biology",
+    "url": "https://www.anthropic.com/research/agents-in-biology",
+    "title": "Paving the Way for Agents in Biology — VirBench (120 queries × 40 pathogens); Raw Frontier Models 16.9–91.3%, gget virus Deterministic Layer Lifts All to >90% (Peak 99.7% GPT-5.5), Same-Query Run-to-Run Variability Eliminated",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "arxiv:2606.09483",
+    "url": "https://arxiv.org/abs/2606.09483",
+    "title": "DCPM / Memory Beyond Recall — Dual-Process (System1 / System2) Cognitive Memory for Self-Evolving Agents; Hierarchy: Inputs → Atomic Facts → Belief Trajectories → Identity → Schemas; +5.20 on PersonaMem-v2, Gains on LongMemEval Implicit-Reasoning, Minimal on Span Recall",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "arxiv:2606.09498",
+    "url": "https://arxiv.org/abs/2606.09498",
+    "title": "Self-Harness — Harnesses That Improve Themselves; Three-Stage Failure-Pattern → Harness-Edit → Regression-Test Loop; MiniMax M2.5 40.5→61.9, Qwen3.5-35B-A3B 23.8→38.1, GLM-5 42.9→57.1 on Terminal-Bench 2.0",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "arxiv:2606.09071",
+    "url": "https://arxiv.org/abs/2606.09071",
+    "title": "REFLECT — Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces; Diagnose → Controlled-Replay Patch → Outcome-Flip Contrastive Evidence; Best Same-Auditor Localization Across 4 Benchmarks; Largest Gains on Structured Tool-Use Traces; Works Without Ground Truth",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "arxiv:2606.09659",
+    "url": "https://arxiv.org/abs/2606.09659",
+    "title": "LCLMs / End-to-End Context Compression at Scale — Encoder-Decoder Latent Context Compression at 1:4 / 1:8 / 1:16; 0.6B-Encoder + 4B-Decoder Continually Pretrained on 350B+ Tokens; Long-Horizon Agents Compress Then Selectively Expand Relevant Segments",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "arxiv:2606.09316",
+    "url": "https://arxiv.org/abs/2606.09316",
+    "title": "Anything2Skill — Compiling External Knowledge Into Reusable, Executable Skills With Invocation Conditions / Action Sequences / Constraints / Confidence Scores; 98.85% qsv, 94.10% GitHub-CLI; Persistent SkillBank With Taxonomy-Aware Compilation and Lifecycle Tracking",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "arxiv:2606.09748",
+    "url": "https://arxiv.org/abs/2606.09748",
+    "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback — Self-Reflection ≈ 0 Net Gain; Process Feedback +8–15 pts Single Round at ~35–40% Incorporation; Up to 24% Regression on Previously-Satisfied Criteria Across Turns; Introduces Research Gap Inference (RGI); ICML 2026 SCALE Oral",
+    "date_covered": "2026-06-09"
+  },
+  {
+    "id": "hf-blog-2026-06-08-openenv-agentic-rl",
+    "url": "https://huggingface.co/blog/openenv-agentic-rl",
+    "title": "OpenEnv — Open Standard for Agentic-RL Environments; Gymnasium-Style API (reset / step / state) Over HTTP / WebSocket / MCP, Docker-Packaged; Coordinating Committee: Meta-PyTorch / Reflection / Unsloth / Modal / Prime Intellect / NVIDIA / Mercor / Fleet AI / Hugging Face + ~12 More Supporting Orgs",
+    "date_covered": "2026-06-09"
+  },
+  {
     "id": "arxiv:2606.05761",
     "url": "https://arxiv.org/abs/2606.05761",
     "title": "SubtleMemory — 1,522-Instance × 1,090-Variant Relational Memory Benchmark; 11 Systems Tested, All Weak on Fine-Grained Discrimination (Preservation / Retrieval / Reasoning)",
