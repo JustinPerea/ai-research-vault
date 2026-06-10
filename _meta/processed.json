@@ -1,5 +1,53 @@
 [
   {
+    "id": "anthropic-news-2026-06-09-claude-fable-5-mythos-5",
+    "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "title": "Claude Fable 5 + Claude Mythos 5 — 80.3% SWE-Bench Pro (+11 pts on field); 88.0% Terminal-Bench 2.1; 85.0% OSWorld-Verified; GDPval-AA ELO 1932; $10/$50; api id claude-fable-5; Persistent File-Based Memory; Three Classifier-Gated Fallback Paths to Opus 4.8",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.10677",
+    "url": "https://arxiv.org/abs/2606.10677",
+    "title": "Infini Memory — Maintainable Topic-Structured Documents for Long-Term LLM Agent Memory; Staging Buffer + Periodic Consolidation + Iterative Agentic Retrieval; 64.7% on MemoryAgentBench",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.10532",
+    "url": "https://arxiv.org/abs/2606.10532",
+    "title": "ActiveMem — Distributed Active Memory Decoupling Reasoning from Storage (PFC-Planner vs. Hippocampus-Distributed-Memory); SoTA on GAIA + BrowseComp-Plus with Significantly Reduced Overhead",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.10616",
+    "url": "https://arxiv.org/abs/2606.10616",
+    "title": "OSL-MR (Observability-Safe Memory Retention) — Memory Retention as Constrained Stochastic Optimization with Miss-Penalty/Reacquisition-Delay/Stale-Info Costs; Online-Observable vs. Offline-Available Supervision Split; Beats Recency + Generative-Agents Scoring on LOCOMO + LongMemEval",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.10933",
+    "url": "https://arxiv.org/abs/2606.10933",
+    "title": "Frontier Coding Agents Use Metaprogramming to Adapt to Unfamiliar Programming Languages — Claude Opus 4.6 / GPT-5.4 xhigh Write Python Generators for Brainfuck/Befunge-98; Forbidding Metaprogramming Causes Large Drops; Opus-Derived Python Helpers Lift Sonnet 4.6 / GPT-5.4 mini; SWE-Bench-Verified / Terminal-Bench-2.0 Compress These Differences",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.11042",
+    "url": "https://arxiv.org/abs/2606.11042",
+    "title": "Workflow-GYM — Long-Horizon Professional GUI Agent Benchmark Across Domain-Specific Software; SoTA Models Only Slightly Above 30%; Failure Modes: Stage Omission, Error Propagation, Objective Drift, Insufficient Pro-Software Understanding (57 authors, Liya Zhu / Jingzhe Ding)",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.11052",
+    "url": "https://arxiv.org/abs/2606.11052",
+    "title": "Attention Amnesia — CoT-SFT Breaks Long-Range Recall in Hybrid LLMs by Biasing Attention Gradients Toward Short-Range Patterns; HypeNet-9B NIAH-S2@256K Collapses 67.2% → 9.4%; QK-Restore Recovers 65.4% → 76.4% on HypeNet-5B S3@256K While Preserving Reasoning",
+    "date_covered": "2026-06-10"
+  },
+  {
+    "id": "arxiv:2606.11164",
+    "url": "https://arxiv.org/abs/2606.11164",
+    "title": "ReasonAlloc — Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models; Two-Level (Offline Layer-Wise Reasoning-Wave + Online Head-Wise); Training-Free / Plug-and-Play With R-KV / SnapKV / Pyramid-RKV; Largest Gains at 128-512 Token Budgets on MATH-500 + AIME 2024 (DeepSeek-R1-Distill-Llama-8B / DeepSeek-R1-Distill-Qwen-14B / AceReason-14B)",
+    "date_covered": "2026-06-10"
+  },
+  {
     "id": "anthropic-research-2026-06-08-agents-in-biology",
     "url": "https://www.anthropic.com/research/agents-in-biology",
     "title": "Paving the Way for Agents in Biology — VirBench (120 queries × 40 pathogens); Raw Frontier Models 16.9–91.3%, gget virus Deterministic Layer Lifts All to >90% (Peak 99.7% GPT-5.5), Same-Query Run-to-Run Variability Eliminated",
