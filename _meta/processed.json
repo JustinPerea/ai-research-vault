@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.12329",
+    "url": "https://arxiv.org/abs/2606.12329",
+    "title": "PROJECTMEM — Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents; Append-Only Plain-Text Event Log + Memory-as-Governance Pre-Action Gate + 14 MCP Tools / 19 CLI Commands; 5–20k Tokens Saved Per Session in 2-Month / 10-Project Self-Study (207 Events)",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.11680",
+    "url": "https://arxiv.org/abs/2606.11680",
+    "title": "HORMA (Organize then Retrieve) — Hierarchical File-System-Like Memory Linking Summaries to Detailed Trajectories + RL-Trained Navigator; Token Usage Reduced to 22.17% of Baseline on Long Conversations; Improves ALFWorld / LoCoMo / LongMemEval",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.11926",
+    "url": "https://arxiv.org/abs/2606.11926",
+    "title": "Arbor (Hypothesis-Tree Refinement) — Long-Lived Coordinator + Short-Lived Executors + HTR Linking Hypotheses↔Artifacts↔Evidence↔Insights; >2.5× Avg Relative Held-Out Gain Over Codex + Claude Code on Six Research Tasks; 86.36% Any Medal on MLE-Bench Lite (GPT-5.5)",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.10728",
+    "url": "https://arxiv.org/abs/2606.10728",
+    "title": "DeNovoSWE — 4,818-Instance Whole-Repository-Generation Dataset Built via Sandboxed Agentic Workflow (Divide-Conquer + Critic-Repair + Difficulty Filter, No Human Annotation); Fine-Tuning Qwen3-30B-A3B Lifts BeyondSWE-Doc2Repo 5.8% → 47.2%",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.11559",
+    "url": "https://arxiv.org/abs/2606.11559",
+    "title": "HERO (Hindsight-Enhanced Reflection from Environment Observations) — Converts Each Env Observation into Turn-Level Diagnostic for Self-Distillation; Beats Env-Feedback-Only Baselines + GRPO on TauBench + WebShop Under Limited-Rollout Budgets",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.12400",
+    "url": "https://arxiv.org/abs/2606.12400",
+    "title": "Doc-to-Atom — Per-Document Semantically Typed Knowledge Atoms Each Compiled into Independent Micro-LoRA Adapter + Lightweight Router; Outperforms Doc-to-LoRA Baselines on Six QA Benchmarks at Lower Memory Cost",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.12320",
+    "url": "https://arxiv.org/abs/2606.12320",
+    "title": "Five-Plane Reference Architecture for Runtime Governance of Production AI Agents — Reasoning Plane + 4 Enforcement Planes + 4 Composable Primitives (Stop-Anywhere Mediation, Composite Principals w/ Capability Attenuation, Structured Audit Substrate, Six Interruption Primitives); Single-Digit-Microsecond Adjudication; 7 Threats Foreclosed Across 5 Workflows",
+    "date_covered": "2026-06-11"
+  },
+  {
+    "id": "arxiv:2606.12191",
+    "url": "https://arxiv.org/abs/2606.12191",
+    "title": "Agentic Environment Engineering for LLMs — 63-Page Survey (15 Authors, CAS); Lifecycle Modeling→Synthesis→Evaluation→Application; 8 Attributes × 8 Domains Taxonomy; Symbolic vs Neural Synthesis Paradigms; Four Co-Evolution Pathways (Memory-Centric, Orchestration-Centric, Trajectory-Centric, Exploration-Centric)",
+    "date_covered": "2026-06-11"
+  },
+  {
     "id": "anthropic-news-2026-06-09-claude-fable-5-mythos-5",
     "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
     "title": "Claude Fable 5 + Claude Mythos 5 — 80.3% SWE-Bench Pro (+11 pts on field); 88.0% Terminal-Bench 2.1; 85.0% OSWorld-Verified; GDPval-AA ELO 1932; $10/$50; api id claude-fable-5; Persistent File-Based Memory; Three Classifier-Gated Fallback Paths to Opus 4.8",
