@@ -1,5 +1,53 @@
 [
   {
+    "id": "deepmind-blog-2026-06-10-diffusiongemma",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+    "title": "DiffusionGemma — Google DeepMind Open-Weight 26B-Total / 3.8B-Active MoE Text-Diffusion LM Built on Gemma 4 Backbone; 256 Tokens in Parallel Per Forward Pass + Bi-Directional Attention; 1000+ tok/s H100 / 700+ tok/s RTX 5090; ~18 GB at NVFP4 4-bit; MLX/vLLM/HF Transformers at Launch (llama.cpp Coming); Apache 2.0; Lower Quality vs AR Gemma 4 Acknowledged",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.13681",
+    "url": "https://arxiv.org/abs/2606.13681",
+    "title": "EvoArena + EvoMem — Benchmark Modeling Environment Change as Progressive Updates Across Terminal/Software/Social Domains + Memory System Tracking Structured Update Histories; Current Agents Avg 39.6% on EvoArena; EvoMem +1.5% EvoArena, +6.1% GAIA, +4.8% LoCoMo, +3.7% Chain-Level on Consecutive Evolutionary Subtasks",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.13663",
+    "url": "https://arxiv.org/abs/2606.13663",
+    "title": "HyperTool — MCP-Style Code-Block Tool Invocation Bundling Existing MCP Tool Calls + Value Manipulation + Local Intermediate-Result Passing into a Single Reasoning-Trace Unit; Names 'Execution-Granularity Mismatch'; Qwen3-32B 15.69→35.29% (+19.6pp) and Qwen3-8B 9.93→33.33% (+23.4pp) on MCP-Universe; Surpasses GPT-OSS + Kimi-k2.5",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.13003",
+    "url": "https://arxiv.org/abs/2606.13003",
+    "title": "The Illusion of Multi-Agent Advantage — Auto-Generated MAS Consistently Underperforms Chain-of-Thought + Self-Consistency Despite Up to 10× Cost Across Reasoning Datasets + BrowseComp-Plus; Expert-Architected MAS Beats Auto-MAS on Diagnostic Synthetic Dataset; Indicts Automated MAS Design as 'Architectural Bloat Prioritizing Superficial Complexity'",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.13662",
+    "url": "https://arxiv.org/abs/2606.13662",
+    "title": "EurekAgent ('Agent Environment Engineering is All You Need for Autonomous Scientific Discovery') — Engineers Environments Along 4 Dimensions (Permissions/Artifacts/Budgets/Human Oversight) Instead of Prescribing Workflows; SOTA on Math/Kernel/ML Tasks Incl. New SOTA 26-Circle Packing Result at ~$11 Total API Cost; Open-Sourced",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.12908",
+    "url": "https://arxiv.org/abs/2606.12908",
+    "title": "SENTINEL — Failure-Driven RL Training Framework with Controller–Proposer–Solver Loop That Mines Failure Patterns, Generates Targeted Tasks, Trains on Curated Curriculum (Failures-as-Curriculum); Qwen3-4B-Thinking-2507 Pass@1 66.4→74.9% (+8.5pp) on Tau2-Bench Retail; Outperforms Standard RL Across Pass@k on General Synthetic Tasks",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.13115",
+    "url": "https://arxiv.org/abs/2606.13115",
+    "title": "G-Long — Graph-Enhanced Long-Term Dialogue Memory via Fine-Tuned Small-LM Structured Triplet Extraction + Associative Graph Retrieval + Attention-Aware Importance Scoring (T5 Summarizer Signals); +9.8% Response Quality on MSC, 40.8% Retrieval Recall on LME; Substantially Lower Compute vs Baselines",
+    "date_covered": "2026-06-12"
+  },
+  {
+    "id": "arxiv:2606.13177",
+    "url": "https://arxiv.org/abs/2606.13177",
+    "title": "MemRefine — LLM-Guided Long-Term-Memory Compaction Using Similarity Only to Propose Candidate Pairs, Then Defers Delete/Merge/Preserve Decisions to LLM Judge Based on Factual Content; Iterates Until Budget Met While Preserving Downstream Performance; Beats Rule-Based Baselines Under Tight Budgets Across Multiple Memory Frameworks",
+    "date_covered": "2026-06-12"
+  },
+  {
     "id": "arxiv:2606.12329",
     "url": "https://arxiv.org/abs/2606.12329",
     "title": "PROJECTMEM — Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents; Append-Only Plain-Text Event Log + Memory-as-Governance Pre-Action Gate + 14 MCP Tools / 19 CLI Commands; 5–20k Tokens Saved Per Session in 2-Month / 10-Project Self-Study (207 Events)",
