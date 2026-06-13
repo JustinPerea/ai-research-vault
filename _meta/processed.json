@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.13643",
+    "url": "https://arxiv.org/abs/2606.13643",
+    "title": "Recursive Agent Harnesses (RAH) — Names the Pattern Between Recursive Language Models and Anthropic's Dynamic Workflows; Parent Agent Writes/Runs Executable Script That Spawns Full Sub-Agent Harnesses (Filesystem + Code Execution + Planning) in Parallel; Codex 71.75 → 81.36% on Oolong-Synthetic (199 Samples, 4M-Token Context); Claude Sonnet 4.5 Backbone 89.77%",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "arxiv:2606.13392",
+    "url": "https://arxiv.org/abs/2606.13392",
+    "title": "MiniMax Sparse Attention + MiniMax-M3 Release (~428B Total / ~23B Active MoE, 1M Context, Native Text+Image+Video) — Blockwise Sparse Attention via Index-Branch Top-k Selection + Main-Branch Block-Sparse Execution; 28.4× Attention-Compute Reduction at 1M Context, 14.2× Prefill Speedup, 7.6× Decoding Wall-Clock Speedup on H800; M3 Itself 9× Prefill / 15× Decode Speedup vs M2; Open-Source Kernel; MiniMax Community License",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "arxiv:2606.12882",
+    "url": "https://arxiv.org/abs/2606.12882",
+    "title": "HarnessBridge — Learnable Bidirectional Controller Replacing Hand-Engineered Agent Harnesses via End-to-End Instruction Tuning; Observation Projection (Trajectory→Compact State) + Action Projection (Proposed Action→Executable Transition or Trajectory-Grounded Rejection); Matches/Surpasses Specialized Harnesses on Terminal-Bench 2.0 + SWE-Bench Verified with Substantially Reduced Token Usage; Generalizes from Smaller Generators to Commercial Models",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "arxiv:2606.09426",
+    "url": "https://arxiv.org/abs/2606.09426",
+    "title": "WeaveBench — Long-Horizon Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces; 114 Tasks Across 8 Real-World Work Domains Grounded in Real User Requests + Publicly Verifiable Artifacts; Tasks Span Desktop GUI + CLI + Code Editing + Browsers + External Tools Simultaneously; Best Frontier Model-Runtime Combo Peaks at 41.2% PassRate; Trajectory-Aware Judge Over Deliverables/Files/Screenshots/Logs/Actions",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "arxiv:2606.13673",
+    "url": "https://arxiv.org/abs/2606.13673",
+    "title": "SpatialClaw — Code-as-Action Interface for Agentic Spatial Reasoning; Stateful Python Kernel Pre-Loaded with Input Frames + Perception/Geometry Primitives; VLM-Backed Agent Writes One Executable Cell Per Step Conditioned on Prior Outputs; 59.9% Avg Across 20 Spatial Benchmarks (+11.2pp Over Prior Spatial Agents); Consistent Across Six VLM Backbones from Two Model Families Without Adaptation",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "arxiv:2606.13473",
+    "url": "https://arxiv.org/abs/2606.13473",
+    "title": "MaxProof — Population-Level Test-Time Scaling for Math Proof on MiniMax-M3; Single Model Trained on Generation + Low-FPR Verification + Critique-Conditioned Repair via Defense-in-Depth Generative-Verifier RL; Same Model Serves as Generator+Verifier+Refiner+Ranker at Test Time, Tournament-Selects Across Candidate Population; IMO 2025 35/42 + USAMO 2026 36/42 (Both Above Human Gold-Medal Thresholds)",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "arxiv:2606.12087",
+    "url": "https://arxiv.org/abs/2606.12087",
+    "title": "FORT-Searcher — Shortcut-Resistant Training Data Synthesis for Deep Search Agents; Formalizes Gap Between Structural Difficulty and Realized Search Difficulty; Names Four Shortcut Risks (Evidence Co-Coverage, Single-Clue Selectivity, Exposed Constants, Prior-Knowledge Binding) + Trajectory Signatures (Solving Cost, Answer Hit Time, Prior-Shortcut Rate); Claims Best Overall on Deep-Search Benchmarks Among Comparable-Size Open-Source Search Agents",
+    "date_covered": "2026-06-13"
+  },
+  {
+    "id": "deepmind-blog-2026-06-11-multi-agent-safety-funding",
+    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+    "title": "Google DeepMind + Schmidt Sciences + Cooperative AI Foundation + ARIA + Google.org — Up-to-$10M Multi-Agent AI Safety Research Funding Call Across Four Areas (Sandboxes/Testbeds, Agent Network Science, Inter-Agent Protocol Infrastructure Security, Oversight Systems for Deployed Agent Populations); Aug 8 2026 Deadline; Awards Autumn 2026",
+    "date_covered": "2026-06-13"
+  },
+  {
     "id": "deepmind-blog-2026-06-10-diffusiongemma",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
     "title": "DiffusionGemma — Google DeepMind Open-Weight 26B-Total / 3.8B-Active MoE Text-Diffusion LM Built on Gemma 4 Backbone; 256 Tokens in Parallel Per Forward Pass + Bi-Directional Attention; 1000+ tok/s H100 / 700+ tok/s RTX 5090; ~18 GB at NVFP4 4-bit; MLX/vLLM/HF Transformers at Launch (llama.cpp Coming); Apache 2.0; Lower Quality vs AR Gemma 4 Acknowledged",
