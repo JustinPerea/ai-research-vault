@@ -1,5 +1,47 @@
 [
   {
+    "id": "nvidia-blog-2026-06-12-aa-agentperf",
+    "url": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/",
+    "title": "NVIDIA + Artificial Analysis — AA-AgentPerf: Industry's First Multi-Vendor Open Benchmark Profiling Real-World AI Agent Coding Trajectories; Measures Concurrent Agents Per Accelerator + Per Megawatt Under Model-Specific SLO Tiers; Prerecorded Trajectories Across 12+ Languages, 5K-131K Tokens (~27K Avg) with Interleaved Reasoning + Tool Use; DeepSeek-V4-Pro on GB300 NVL72 = 61.4K Agents/MW vs H200 = 2.6K (~20×)",
+    "date_covered": "2026-06-14"
+  },
+  {
+    "id": "allenai-blog-2026-06-12-olmo-eval",
+    "url": "https://huggingface.co/blog/allenai/olmo-eval",
+    "title": "Allen AI olmo-eval — OLMES Successor Evaluation Workbench for the Model Development Loop; Modular Task / Suite / Harness Architecture Decoupling Benchmark Logic from Runtime Policy; Pairwise Checkpoint Comparison View with Standard Error + Minimum Detectable Effect; Multi-Turn Tool-Using Evals Integrated from Day One; Containerized Sandbox + Capability-Routing Layer; Normalized Experiment Schema",
+    "date_covered": "2026-06-14"
+  },
+  {
+    "id": "arxiv:2606.13594",
+    "url": "https://arxiv.org/abs/2606.13594",
+    "title": "See What I See, Know What I Think — Dense Latent Communication Across Heterogeneous Agents via KV-Cache Exchange Instead of Text Tokens; Lightweight Cache Transformation + Two-Phase Training (Reconstruction → Generation) Aligns Hidden States Across Qwen3-4B/8B/14B in All Six Directional Pairings; Matches/Surpasses Text Communication at ~2-3× Lower Compute; Effective In-Domain + Out-of-Domain; Beats Heterogeneous-Comm Baselines Especially in Context-Unaware Transfer",
+    "date_covered": "2026-06-14"
+  },
+  {
+    "id": "arxiv:2606.13598",
+    "url": "https://arxiv.org/abs/2606.13598",
+    "title": "OrchRM — Self-Supervised Reward Modeling for the Orchestrator Role in Multi-Agent LLM Systems; Trains Orchestrator Without Sub-Agent Rollouts + Without Human Annotation via Bradley-Terry Pairs Directly at Orchestration-Decision Level Over Execution Artifacts; ~10× Training-Token Efficiency vs Sub-Agent-Rollout Baselines; +8% Accuracy at Multi-Agent Test-Time Scaling Across Math/Web-QA/Multi-Hop-QA",
+    "date_covered": "2026-06-14"
+  },
+  {
+    "id": "arxiv:2606.13608",
+    "url": "https://arxiv.org/abs/2606.13608",
+    "title": "AgentBeats — Agentified Agent Assessment (AAA) Where Judge Agents Evaluate Subject Agents Over Standardized A2A (Task Delivery) + MCP (Tool Access) Protocols Rather than Fixed Scaffolded Benchmarks; 5-Month Open Competition with 298 Judge Agents + 467 Subject Agents Across 12 Categories Including Coding-Agent Case Study; Frames Fixed Benchmarks as Suffering 'Test-Production Mismatch' Preventing Fair Cross-Design Comparison",
+    "date_covered": "2026-06-14"
+  },
+  {
+    "id": "arxiv:2606.13106",
+    "url": "https://arxiv.org/abs/2606.13106",
+    "title": "SWITCH — Boundary-Tokenized Switchable Latent Reasoning Compatible with On-Policy RL; Explicit <swi></swi> Boundary Tokens Make Policy Ratio Well-Defined at Decision Points (Unlocks GRPO-Style On-Policy RL for Latent CoT); Visible-to-Latent Curriculum + Switch-GRPO Objective; Mechanistic Probing Shows Boundary Tokens Implement Learned Switching (Not Stylistic Markers) + Latent Steps Perform Problem-Specific Computation Concentrated at Single Hidden-State Transition Upon Entry",
+    "date_covered": "2026-06-14"
+  },
+  {
+    "id": "arxiv:2606.13669",
+    "url": "https://arxiv.org/abs/2606.13669",
+    "title": "Agents-K1 — Agent-Native Scientific Knowledge Orchestration; Multimodal Parser (Entities + Evidence + Citations + Relationships Across Full Papers) + 4B IE Backbone Trained with GRPO + Rule-Based Rewards + GraphAnything CLI (Web Search + Multimodal Graph Retrieval + Cross-Document Traversal); Releases Scholar-KG Dataset (1M-Paper Subset of Full 2.46M Across 6 Subjects); Claims Superior Performance on Scientific IE + KG Construction + Multi-Hop Scientific Reasoning",
+    "date_covered": "2026-06-14"
+  },
+  {
     "id": "arxiv:2606.13643",
     "url": "https://arxiv.org/abs/2606.13643",
     "title": "Recursive Agent Harnesses (RAH) — Names the Pattern Between Recursive Language Models and Anthropic's Dynamic Workflows; Parent Agent Writes/Runs Executable Script That Spawns Full Sub-Agent Harnesses (Filesystem + Code Execution + Planning) in Parallel; Codex 71.75 → 81.36% on Oolong-Synthetic (199 Samples, 4M-Token Context); Claude Sonnet 4.5 Backbone 89.77%",
