@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2606.14470",
+    "url": "https://arxiv.org/abs/2606.14470",
+    "title": "GitOfThoughts — Version-Controlled Reasoning + Agent Memory You Can Replay/Diff/Merge; Treats Reasoning as Git Repo (Thoughts=Commits, Scores=Annotations, Outcomes=Tags); Pre-Registered Replications Across 2 Benchmarks, 2 Model Scales, 5 Memory Substrates (None/Markdown/Vector/Graph/Git); KEY FINDING: Memory Does Not Reliably Help on Novel Problems — Accuracy Improves Sharply Only at ≥0.8 Similarity (Near-Duplicates); 4.5× Larger Model Doubles Near-Duplicate Payoff But Cannot Extract Transferable Methods; Only Test-Time Sampling Reliably Improves; Documents Retracted Result + Refuted Hypothesis",
+    "date_covered": "2026-06-15"
+  },
+  {
+    "id": "arxiv:2606.14571",
+    "url": "https://arxiv.org/abs/2606.14571",
+    "title": "StreamMemBench — Streaming Evaluation of Agent Memory for Future-Oriented Assistance; Two-Task Sequences from Egocentric Video Streams; Four Diagnostic Metrics (Evidence Recall, Evidence Application, Feedback Integration, Follow-Up Reuse); 8 Memory Systems × 2 Backbones; Finds Agents Can Store/Process Locally But Fail to Translate to Consistent Future Behavior; Open Code/Data",
+    "date_covered": "2026-06-15"
+  },
+  {
+    "id": "arxiv:2606.14106",
+    "url": "https://arxiv.org/abs/2606.14106",
+    "title": "AGMem (Action-Grounded Visual Memory) — Failure-Mode Study of GUI Agents Shows Naive Visual Memory is Not Enough; Identifies 4 Failure Modes (Cognitive, Visual State Misunderstanding, Hidden Operation Blindness, Grounding Error); Full-Image Memory Reduces State-Level Failures But Worsens Action-Level Failures; AGMem Stores Cropped Image Regions of Successful Actions Only; +33.3% Task Success on OSWorld vs Full-Image Memory; ICML 2026 Workshop",
+    "date_covered": "2026-06-15"
+  },
+  {
+    "id": "arxiv:2606.14672",
+    "url": "https://arxiv.org/abs/2606.14672",
+    "title": "Parallel-Synthesis — Synthesizer Directly Consumes KV Caches from Parallel Worker Agent Branches Instead of Concatenated Text; Cache Mapper Aligns Independently Generated Caches + Synthesizer Adapter Fine-Tuned for Non-Sequential Cache Interface; Training Mixes Parallel-Cache Exposure + Cross-Branch Aggregation + Distillation from Text-Concatenation Baselines; Matches/Beats Text Synthesis on 7 of 9 Downstream Datasets (Math, Science QA, Code, GAIA, Multi-Agent DB Diagnosis); 2.5×–11× Lower Time-to-First-Token",
+    "date_covered": "2026-06-15"
+  },
+  {
+    "id": "arxiv:2606.14249",
+    "url": "https://arxiv.org/abs/2606.14249",
+    "title": "HarnessX — Composable / Adaptive / Evolvable Agent Harness Foundry; Typed Harness Primitives Assembled via Substitution Algebra + AEGIS Engine Bridges Symbolic Adaptation + RL via Execution Traces; Closed Loop Converts Trajectories Into Harness Improvements + Model Training Signals; +14.5% Average / +44.0% Max Across ALFWorld + GAIA + WebShop + τ³-Bench + SWE-Bench Verified; Largest Gains Where Baseline Was Weakest; Codebase Release Promised",
+    "date_covered": "2026-06-15"
+  },
+  {
+    "id": "arxiv:2606.13715",
+    "url": "https://arxiv.org/abs/2606.13715",
+    "title": "WorkBench Revisited — Two-Year Longitudinal Re-Run of Workplace Agent Benchmark (Original arXiv:2405.00823); GPT-4 March 2024: 43% Task Completion + 26% Unintended Harmful Side-Effects; Claude Opus 4.8 June 2026: 89% Completion + 2.5% Harmful Side-Effects; Capability + Safety Improved Together Rather Than Trading Off; Frontier Models Still Occasionally Commit Irreversible Errors; Open-Weight Models Closed Cost-Per-Task Gap Substantially; Updated Benchmark + Code Released",
+    "date_covered": "2026-06-15"
+  },
+  {
+    "id": "arxiv:2606.14179",
+    "url": "https://arxiv.org/abs/2606.14179",
+    "title": "CacheRL — Small (4B) Tool-Calling Agent Training; Hybrid Thinking Trajectory Pipeline (Distills Reasoning from Large LLMs) + CacheAgentLoop (Three-Tier Fuzzy Cache for RL Over Cached Environments Instead of Live Tools, Token-Level Masking) + Cache-Tier-Aware Reward; Qwen3-4B-Thinking Validation Reward 0.43 → 0.78; 92% Process Accuracy on Multi-Step Tool Calling vs GPT-5 94% at ~100× Less Compute; Removing Knowledge Transfer Drops Performance 41%, Cache-Aware Reward Adds 17%; RL Improved Training Stability But Limited Gains Beyond Strong SFT",
+    "date_covered": "2026-06-15"
+  },
+  {
     "id": "nvidia-blog-2026-06-12-aa-agentperf",
     "url": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/",
     "title": "NVIDIA + Artificial Analysis — AA-AgentPerf: Industry's First Multi-Vendor Open Benchmark Profiling Real-World AI Agent Coding Trajectories; Measures Concurrent Agents Per Accelerator + Per Megawatt Under Model-Specific SLO Tiers; Prerecorded Trajectories Across 12+ Languages, 5K-131K Tokens (~27K Avg) with Interleaved Reasoning + Tool Use; DeepSeek-V4-Pro on GB300 NVL72 = 61.4K Agents/MW vs H200 = 2.6K (~20×)",
