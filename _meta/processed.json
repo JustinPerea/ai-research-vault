@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2606.16707",
+    "url": "https://arxiv.org/abs/2606.16707",
+    "title": "User as Code (UaC) — Agent's User Model as a Living Software Project (Typed Python Objects + Functions); Append-Only Event Log Periodically Checkpointed into Typed Code; Representation + Reasoning in One Executable Medium; 78.8% LOCOMO Recall (Matches Retrieval Baselines); 99% Accuracy on Aggregate Questions ('How Many International Trips Last Year?') vs 6-43% for Retrieval-Based Systems; Proactive Safety Alerts (Drug-Allergy Conflicts) via Deterministic Rule Execution",
+    "date_covered": "2026-06-16"
+  },
+  {
+    "id": "arxiv:2606.16591",
+    "url": "https://arxiv.org/abs/2606.16591",
+    "title": "SING (Synthetic Intention Graph) — Scalable Active Tool Discovery in LLM Agents; Intention-Tool Graph Links User Intentions ↔ Tool Capabilities ↔ Tool Collaboration Patterns; Dynamic Retrieval Tracks Evolving Task State (Not Just Initial Query); 3 Real-World Benchmarks Across 7,471 Tools; Global Recall@5 +59.8%; Downstream Success Rate +28.9%; 99.8% Reduction in Full-Corpus Tool-Schema Exposure",
+    "date_covered": "2026-06-16"
+  },
+  {
+    "id": "arxiv:2606.16813",
+    "url": "https://arxiv.org/abs/2606.16813",
+    "title": "GIST-CMTF (Goal-State Inference for Causal Minimal Tool Filtering) — Adds Goal-State Inference Layer to Predict Candidate Symbolic Goals + Estimate Ambiguity Before Applying CMTF Filter; Above-Threshold Ambiguity Prompts User for Clarification; 7 Model Backends × 6 Filtering Methods × 120 Controlled Tasks; Task Success 97.0% vs 80.1% Baseline CMTF; Wrong-Goal Execution Reduced from 19.4% to 2.5%",
+    "date_covered": "2026-06-16"
+  },
+  {
+    "id": "arxiv:2606.17016",
+    "url": "https://arxiv.org/abs/2606.17016",
+    "title": "TokenPilot — Dual-Granularity Cache-Efficient Context Management for LLM Agents (LightMem2 Framework); Ingestion-Aware Compaction Stabilizes Prompt Prefix (KV-Cache-Friendly) + Lifecycle-Aware Eviction Offloads by Task Relevance Not Recency; 61% / 56% Cost Reduction in Isolated Mode + 61% / 87% in Continuous Mode with Competitive Task Performance",
+    "date_covered": "2026-06-16"
+  },
+  {
+    "id": "arxiv:2606.16769",
+    "url": "https://arxiv.org/abs/2606.16769",
+    "title": "Skill-to-LoRA — Replaces Runtime Skill Text with Skill-Specific LoRA Adapters Dynamically Loaded at Execution; Procedural Documents Converted to Learnable Behavioral Modules; Qwen3.6-27B on 21-Skill SWE-Skills-Bench Subset: +2.9pp vs No-Skill / +5.2pp vs Full-Text Baselines; Per-Step Token Cost −6.6% vs Full-Text Prompting; Matches/Beats Full-Text on 18 of 21 Skills; Control Confirms Adapter-Alignment Dependence; Fourth Per-X-LoRA Paper in 3 Weeks",
+    "date_covered": "2026-06-16"
+  },
+  {
+    "id": "arxiv:2606.14066",
+    "url": "https://arxiv.org/abs/2606.14066",
+    "title": "FastContext (Microsoft) — Specialized Repository-Exploration Subagent for Coding Agents; Operates Independently from Main Solving Component; 4B-30B Exploration Models Trained via Reference Trajectories + Task-Grounded Rewards; Parallel Tool Calls Output Concise File Paths + Line Ranges; Integrated into Mini-SWE-Agent: Up to +5.5% End-to-End Resolution on SWE-bench Multilingual / SWE-bench Pro / SWE-QA; Up to −60% Token Consumption; Code at github.com/microsoft/fastcontext",
+    "date_covered": "2026-06-16"
+  },
+  {
+    "id": "arxiv:2606.15300",
+    "url": "https://arxiv.org/abs/2606.15300",
+    "title": "CODA-BENCH (ICML 2026) — Can Code Agents Handle Data-Intensive Tasks? Linux Sandbox with Hundreds of Kaggle Datasets; 1,009 Tasks Across 31 Communities; Environments Average 980 Files; Top Systems Achieve Only 61.1% Success Rate; Failure Mode is Data Discovery + Code Execution Integration (Not Codegen); 37 Pages, 11 Figures; Project Page + Code + Dataset on GitHub + Hugging Face",
+    "date_covered": "2026-06-16"
+  },
+  {
     "id": "arxiv:2606.14470",
     "url": "https://arxiv.org/abs/2606.14470",
     "title": "GitOfThoughts — Version-Controlled Reasoning + Agent Memory You Can Replay/Diff/Merge; Treats Reasoning as Git Repo (Thoughts=Commits, Scores=Annotations, Outcomes=Tags); Pre-Registered Replications Across 2 Benchmarks, 2 Model Scales, 5 Memory Substrates (None/Markdown/Vector/Graph/Git); KEY FINDING: Memory Does Not Reliably Help on Novel Problems — Accuracy Improves Sharply Only at ≥0.8 Similarity (Near-Duplicates); 4.5× Larger Model Doubles Near-Duplicate Payoff But Cannot Extract Transferable Methods; Only Test-Time Sampling Reliably Improves; Documents Retracted Result + Refuted Hypothesis",
