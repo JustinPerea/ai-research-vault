@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2606.17929",
+    "url": "https://arxiv.org/abs/2606.17929",
+    "title": "PreAct (Bojie Li, single-author) — Computer-Using Agents That Get Faster on Repeated Tasks; Compiles Successful Runs into Small State-Machine Programs (States Check Screen Conditions, Transitions Execute UI Actions); Replays 8.5–13× Faster Without Per-Step LM Calls; Screen-State Verification Per Action + Fallback to Agent on Divergence; Only Programs Passing Independent Clean Re-Run Verification Are Stored; +1.75–2.6 Tasks Per Benchmark vs No-Guardrail Baseline; Prompt Wording / Runtime Safeguards / Retrieval Method Had Minimal Effect — Compile-and-Verify Primitive Is the Leverage; Day-Two of Compile-to-Executable-Substrate Thesis (Same Author as User as Code)",
+    "date_covered": "2026-06-17"
+  },
+  {
+    "id": "arxiv:2606.18037",
+    "url": "https://arxiv.org/abs/2606.18037",
+    "title": "ProvenanceGuard (Alvarez / Rajan / Mugel / Orús) — First MCP-Specific Source-Aware Factuality Verifier; Decomposes Agent Answers into Atomic Claims; Routes Each Claim to Source-Specific Evidence via MCP Trace; Verifies Both Factuality and Proper Source Attribution; Names Novel Failure Mode 'Cross-Source Conflation' (Right Evidence, Wrong Source); 281 Medical-Domain MCP Traces + 2,325 LLM-Assisted Claim Labels (266-Trace Subset) + 361 Held-Out Human Labels; 40-Trace Held-Out Block F1 0.802 + Source Accuracy 0.858 (260 Source-Eligible Claims); Multi-Source Block F1 0.846; 100% Detection on 50 Controlled Clinical Conflation Probes",
+    "date_covered": "2026-06-17"
+  },
+  {
+    "id": "arxiv:2606.17628",
+    "url": "https://arxiv.org/abs/2606.17628",
+    "title": "OPD-Evolver (Zhang / Xu / Yue / Su / Zhou / Hu / Yan) — Two-Loop Agent Self-Evolution Framework; Fast Loop: Agent ↔ Four-Level Memory Hierarchy (Read / Use / Write / Maintain); Slow Loop: Outcome-Calibrated Memory Attribution + Privileged Hindsight Distillation Back into Deployable Policy; +11.5% vs ReasoningBank; +5.8% vs Skill0-Class Training Methods; OPD-Evolver-9B Challenges Qwen3.5-397B-A17B + Step-3.5-Flash on Multi-Domain Benchmarks",
+    "date_covered": "2026-06-17"
+  },
+  {
+    "id": "arxiv:2606.18023",
+    "url": "https://arxiv.org/abs/2606.18023",
+    "title": "LoopCoder-v2 (Yang / Guo / W. Zhang / Zheng et al.) — Parallel Loop Transformers (PLT) with Cross-Loop Position Offsets (CLP) + Shared-KV Gated Sliding-Window Attention; Makes Loop Count a Practical Inference-Time-Compute Knob Without Sequential Latency / KV-Cache Blow-Up; 7B Base / 18T Training Tokens; SWE-Bench Verified 43.0 → 64.4; Multi-SWE 14.0 → 31.0; Two Loops Optimal, Diminishing Returns After",
+    "date_covered": "2026-06-17"
+  },
+  {
+    "id": "arxiv:2606.17591",
+    "url": "https://arxiv.org/abs/2606.17591",
+    "title": "Verbal RL Feedback Loop (Cui / X. Zhang / Y. Zhang / Shao / Shi / G. Wang / He) — Training-Free Verbal Reinforcement Learning from World Feedback (Task Outcomes / Market Returns / Demand Forecasts); Names 'Retention-Forgetting Dilemma' in Non-Stationary Environments; Three-Layer Architecture (Rules / Evidence / Skills) Connected by Feedback-Driven Curation Loop; Skills Layer Governs Which Rules Apply + Conflict Resolution + Abstention; Tested on Financial Forecasting; Same Accumulated Experience Either Degrades Below Zero-Shot OR Dramatically Improves Accuracy + Risk-Adjusted Returns Depending on Curation Loop Presence",
+    "date_covered": "2026-06-17"
+  },
+  {
+    "id": "arxiv:2606.17645",
+    "url": "https://arxiv.org/abs/2606.17645",
+    "title": "SkillMigrator (He / Cui / Wu / Ma / Lu / Li / Ding / Chowdhury) — Transferable Interaction Patterns (TIPs) for Web Agent Skill Library; Stores Each Skill Paired with Structural Sketch of Page Snapshot at Induction Time; At Deployment Retrieves Skills via Layout Similarity (Not Instruction / Site Metadata) Then Grounds References to Live Page; 8–10% Reduction in Average LM-Action Count on Successful Trajectories; WebArena + Mind2Web Benchmarks; Argues Skill Retrieval Key Should Be Layout Topology Not Site Identity",
+    "date_covered": "2026-06-17"
+  },
+  {
+    "id": "arxiv:2606.17546",
+    "url": "https://arxiv.org/abs/2606.17546",
+    "title": "SEAGym (Zheng / Xue / Liang / Yang / C. Zhang) — Multi-View Evaluation Framework for Agent Harness Improvements; Measures Updates Across Training + Validation + Held-Out + Replay Diagnostics + Operational Costs; Tested ACE / TF-GRPO / AHE on Terminal-Bench 2.0 + HLE; Findings: (a) 'Frequent Updates May Fail to Improve Held-Out Performance' (Self-Evolving Curves Partly Overfit Recent Batch); (b) Model Backend Can Affect Harness Reliability (Harness Tuned for One Base May Not Transfer); Methodological Counter to Recent Self-Evolution Cluster",
+    "date_covered": "2026-06-17"
+  },
+  {
     "id": "arxiv:2606.16707",
     "url": "https://arxiv.org/abs/2606.16707",
     "title": "User as Code (UaC) — Agent's User Model as a Living Software Project (Typed Python Objects + Functions); Append-Only Event Log Periodically Checkpointed into Typed Code; Representation + Reasoning in One Executable Medium; 78.8% LOCOMO Recall (Matches Retrieval Baselines); 99% Accuracy on Aggregate Questions ('How Many International Trips Last Year?') vs 6-43% for Retrieval-Based Systems; Proactive Safety Alerts (Drug-Allergy Conflicts) via Deterministic Rule Execution",
