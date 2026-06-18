@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.19172",
+    "url": "https://arxiv.org/abs/2606.19172",
+    "title": "User as Engram (Bojie Li, single-author, day-three of compile-to-executable-substrate program) — Internalizing Per-User Memory as Local Parametric Edits to Hash-Keyed Memory Tables + Shared Reasoning Adapter; ~33,000× Smaller Footprint Than Per-User LoRA; 5.6× Higher Indirect-Reasoning Accuracy on Average; Never Degrades Base-Model Reasoning for Any User (per-user LoRA cannot guarantee this); Edits Compose Additively and Losslessly in Shared Hash Tables; Past ~100 Facts Per-User Engram Tables Outperform Retrieval Pipelines on Models 2.5× Larger; Glass-Box Lookups Switched on at Specific Triggers Without Contaminating Unrelated Text; Hippocampus / Neocortex Biological Analogy",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "arxiv:2606.18947",
+    "url": "https://arxiv.org/abs/2606.18947",
+    "title": "DSG / Decoupled Search Grounding (Boateng / MacDonald / Kumar / Kodwani / Das) — MCP-Compatible Gateway That Moves Grounding Outside the Reasoning Model; Exposes Provider Routing / Source-Aware Context Rendering / Configured Fallback / Retrieval-Depth Control / Exact + Semantic Caching as First-Class Controls; Across Five Frontier Models on SimpleQA / FreshQA / HotpotQA — Native Search Wins on Recency-Sensitive FreshQA; SimpleQA 86.1% vs 87.7% Native at 91% Lower Cost; 99.4% Warm-Cache Hit Rate + 68% Lower Latency; Production E-Commerce QIU Workload Matches or Slightly Exceeds Native Search Accuracy at >98% Cost Reduction; Real-Time Grounding Is an Optimizable Interface Boundary Not a Fixed Model Feature",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "arxiv:2606.18543",
+    "url": "https://arxiv.org/abs/2606.18543",
+    "title": "CEO-Bench (Chen / Narasimhan / Liu) — 500-Day Startup Simulation Benchmark Testing Long-Horizon Uncertainty + Noisy-Environment Information Acquisition + Adaptation + Multi-Part Orchestration Together; Agent Manages Pricing / Marketing / Budgeting Through Programmable Python Interface; Strongest Agents Write Code That Simulates Customer Cohorts to Forecast Cash and Mines Negotiation History for Hidden Customer Preferences; Only Claude Opus 4.8 and GPT-5.5 Finish Above $1M Starting Balance + Neither Consistently Turns a Profit; First Bench That Cleanly Exposes Long-Horizon Autonomous-Loop Ceiling vs Short-Horizon Leaderboard Movement",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "arxiv:2606.18890",
+    "url": "https://arxiv.org/abs/2606.18890",
+    "title": "SGCD / Skill-Guided Continuation Distillation (Fan / Yu / Shen / Yan / Peng / Peng / Zhang / Zhang / Tan / Ge / Zhang / Jiang) — Iterative Self-Improvement Framework Generating Successful Continuations From Realistic Off-Trajectory States to Augment Training Data; Skill Extraction From Both Successful and Failed Rollouts (Continuation Plans / Critical Targets / Failure Traps / Success Criteria); Hybrid Training Mixing Expert Trajectories With Model-Generated Continuations; OSWorld-Verified Three Base Models From Low-30% Range to Over 50%; Base-Model-Agnostic Transfer Across Architectures",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "arxiv:2606.19047",
+    "url": "https://arxiv.org/abs/2606.19047",
+    "title": "RODS / Reward-Driven Online Data Synthesis (Fang / Lu / Zhuang / Lin) — Multi-Turn Tool-Use RL Bottlenecked by Static-Dataset Sample Depletion (GRPO Gradient Signal Concentrates on Tasks at Capability Boundary Per Popoviciu Upper Bound); Uses Progress Reward Variance as Zero-Cost Boundary Detector (No Extra Inference Beyond Training Rollouts); Synthesizes New Multi-Turn Variants Matching Structural Complexity (API Topology / Dependency Depth) via Skill-Aligned Resampling Pipeline; Dynamic Replay Buffer Co-Evolving With Policy; 400 Human Seeds + ~800 Active Samples Matches 17K-Sample Offline Pipeline at ~20× Fewer Trajectories; Beats Fixed-Data RL and Environment Augmentation",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "arxiv:2606.18781",
+    "url": "https://arxiv.org/abs/2606.18781",
+    "title": "DICE / Evidence Dilution Index (Lyu / Wang / Cai / Guo / Liu) — Names Document-Side Early Compression as Failure Mode in Long-Document Dense Retrieval (Single-Vector Encoding Dilutes Important Spans); EDI Metric Measures Gap Between Document-Level and Chunk-Level Representations; DICE Training-Free Method Segments Documents Into Chunks + Encodes Independently + Aggregates Into Single Vector; LongEmbed Benchmark — Dream/Passkey >4k Tokens 30.0→90.0 + Dream/Needle >4k 23.3→74.0; Lower EDI Than Baseline on 92.8% of 12,779 Filtered Samples; Consistent Across Four Backbones; Public GitHub Available",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "anthropic-research-2026-06-16-agentic-coding-expertise",
+    "url": "https://www.anthropic.com/research/claude-code-expertise",
+    "title": "Anthropic Economic Research — Agentic Coding and Persistent Returns to Expertise (June 16, 2026); Privacy-Preserving Analysis of ~400,000 Interactive Claude Code Sessions From ~235,000 Users Oct 2025–Apr 2026; Experts Trigger ~12 Claude Actions Per Prompt vs ~5 for Novices; Verified Success 28–33% (Intermediate/Expert) vs 15% (Novice); Recovery From Troubled Sessions 15% (Experts) vs 4% (Novices); Novice Abandonment Rate on Difficult Sessions 19% vs 5–7% Others; All Major Occupations Achieve 27–34% Verified Success Within Seven Percentage Points of Software Engineers; Average Session Value +27% Over Seven-Month Period; Domain Expertise (Not Coding Background) Is the Differentiator",
+    "date_covered": "2026-06-18"
+  },
+  {
+    "id": "anthropic-news-2026-06-17-seoul-office",
+    "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+    "title": "Anthropic Opens Seoul Office + Announces Korean AI Ecosystem Partnerships (Business-Only, No Technical Content) — KiYoung Choi Leads Seoul Office; MOU With Korean Ministry of Science and ICT (AI Safety + Cybersecurity + Korean-Language Model Safety Evaluation); NAVER Deploys Claude Code Across Engineering Org; Samsung SDS / LG CNS / Hanwha Solutions Roll Out Claude to Thousands of Employees; Nexon Uses Claude Code for Live-Service Game Development; Channel Corp Integrates Claude Into Customer Service Platform (230,000+ Companies); National AI Research Lab Partnership Provides Claude Access to ~60 Researchers Across Four Universities; Korea Among Top Dozen Countries for Claude.ai Use",
+    "date_covered": "2026-06-18"
+  },
+  {
     "id": "arxiv:2606.17929",
     "url": "https://arxiv.org/abs/2606.17929",
     "title": "PreAct (Bojie Li, single-author) — Computer-Using Agents That Get Faster on Repeated Tasks; Compiles Successful Runs into Small State-Machine Programs (States Check Screen Conditions, Transitions Execute UI Actions); Replays 8.5–13× Faster Without Per-Step LM Calls; Screen-State Verification Per Action + Fallback to Agent on Divergence; Only Programs Passing Independent Clean Re-Run Verification Are Stored; +1.75–2.6 Tasks Per Benchmark vs No-Guardrail Baseline; Prompt Wording / Runtime Safeguards / Retrieval Method Had Minimal Effect — Compile-and-Verify Primitive Is the Leverage; Day-Two of Compile-to-Executable-Substrate Thesis (Same Author as User as Code)",
