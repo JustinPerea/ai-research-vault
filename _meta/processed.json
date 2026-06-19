@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.19348",
+    "url": "https://arxiv.org/abs/2606.19348",
+    "title": "DeepSeek-V4 (DeepSeek-AI, 319 authors, submitted by Wenfeng Liang) — Preview Release of MoE Pair Supporting 1M-Token Context; V4-Pro 1.6T Parameters / 49B Activated + V4-Flash 284B Parameters / 13B Activated; Three Architectural Innovations (Hybrid Attention Combining Compressed Sparse Attention + Heavily Compressed Attention / Manifold-Constrained Hyper-Connections / Muon Optimizer); 32T+ Pretraining Tokens with Full Post-Training; At 1M-Token Context vs V3.2 — 27% of Single-Token Inference FLOPs + 10% of KV Cache; Strongest Single-Paper Push on Long-Context KV-Cache Axis Since V3.2; Weights on Hugging Face deepseek-ai/deepseek-v4",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "arxiv:2606.19847",
+    "url": "https://arxiv.org/abs/2606.19847",
+    "title": "AtomMem (Yao / S. Li / Z. Zheng / H. Zheng / Q. Liu / Xu / Chen) — Long-Term Memory System for LLM Agents via Atomic Facts; Four-Stage Pipeline (Fact Executor Extracts High-Value Atomic Facts → Hierarchical Event Structures → Temporal Profiles Tracking Dynamically Evolving User Attributes → Associative Memory Graph Activated at Retrieval); State-of-the-Art on LoCoMo Benchmark Across Reasoning Tasks; Fourth Per-User Memory Substrate in Five Days (vs UaC Typed Code / PreAct State-Machine Programs / Engram Parametric Hash-Keyed Edits); Stays in Context Tier But Adds Hierarchical-Event + Temporal-Profile Layer; 19 Pages 10 Figures 5 Tables",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "arxiv:2606.19667",
+    "url": "https://arxiv.org/abs/2606.19667",
+    "title": "CacheWeaver (Tan / Gu / M. Li) — Cache-Aware Evidence Ordering for Grounded RAG; Diagnoses That Adjacent Queries Retrieve Overlapping Evidence in Different Orders So Set Overlap Doesn't Translate to Prefix Overlap; Prompt-Layer Scheduler (Engine + Retrieval Untouched) Maintains Prefix Tree Over Recently Served Evidence Sequences + Greedy Walk Places Most Reusable Prefix First; Across Three vLLM Configs — Median TTFT Down 20–33% vs Retrieval-Order Prefix Caching With No Quality Drop; Greedy Policy Reaches 97.5% of Oracle Ordering's Median TTFT Gain; Most Reusable Prefix Locality Recoverable by Simple Scheduling Without Changing Serving Engine",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "arxiv:2606.20097",
+    "url": "https://arxiv.org/abs/2606.20097",
+    "title": "HydraHead (Tan / W. Chen / Shen / Y. Liu / X. Shen / Y. Wu / Ye) — Head-Axis Hybridization of Full Attention + Linear Attention Instead of Layer-Wise; Interpretability Analysis Shows Layers Block-Wise Functionally Similar But Individual Heads Within Same Layer Display Distinct Specialization; Two Innovations (Interpretability-Driven Selection Strategy Identifies Retrieval-Critical Heads Preserving FA Only for Them + Scale-Normalized Fusion Module Reconciles FA/LA Distributional Gap); Three-Stage Transfer Pipeline With Parameter Reuse + Distillation; Trained on Only 15B Tokens; +69% Over Baseline at 512K Context Length Approaching Qwen3.5 (256K Native) at Comparable Size; Matches 3:1 Layer-Wise Hybrid Performance at 7:1 LA-to-FA Ratio",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "anthropic-research-2026-06-18-project-fetch-phase-two",
+    "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+    "title": "Anthropic Frontier Red Team — Project Fetch: Phase Two (Ilie / Freeman / Troy, June 18, 2026); Claude Opus 4.7 Autonomously Controls Robotic Quadruped Through Code (Connects to Sensors / Writes Control Programs / Detects Objects); Three Trials With Adaptive Thinking at Maximum Effort in Claude Code; Human Involvement Limited to Laptop Setup + Initial Prompting + Task Approvals; ~20× Faster Than Fastest Human Team; On Four Shared Tasks — 37.7× Faster Than Non-Claude Humans + 18.9× Faster Than Claude-Assisted Humans + 1,045 LOC vs 10,309 LOC for Human-Claude Team at Equal-or-Better Results; Minimal Variance Across Three Trial Runs; Anthropic Explicitly Disclaims 'LLMs Have Solved Robotics' Framing (Closed-Loop Control Like Beach-Ball Retrieval Still Breaks); First Frontier-Model Robotics Win Not Going Through Behavior Cloning or Vision-Language-Action Model",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "arxiv:2606.20058",
+    "url": "https://arxiv.org/abs/2606.20058",
+    "title": "Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale (Dhanyamraju / Raghav / Lee) — DAG Plan-and-Execute vs ReAct Across 208 Production-Derived Enterprise Scenarios at Three Scales (Persona <10 Agents / Department 20–80 / Enterprise 200); Task Manager Introduced for Continuous Operation via Priority Inference + Related-Event Merging + Preemption; KEY FINDINGS: (a) Scale Dominates Orchestration Performance Not Task Complexity (Agent Discovery Noise Is Primary Bottleneck at Enterprise Scale); (b) Counterintuitive Direction — Simple Tasks Degrade More Sharply Than Complex Ones; (c) DAG Plan-and-Execute Precise + Structured at Small Scale But Overhead-Worsened at Enterprise Scale; (d) ReAct Degrades More Gracefully via Incremental Failure Handling; Task Manager Cuts High-Priority Queue Latency 14–75% + Improves Related-Event Correctness >20 Percentage Points at Enterprise Scale",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "arxiv:2606.19659",
+    "url": "https://arxiv.org/abs/2606.19659",
+    "title": "SAGE-OPD (Y. Zhou / Lizhu Zhang / Y. Wu / Mingyi Wang / Bo Peng / Jiayi Liu / Xiangjun Fan / Zhuokai Zhao) — Verifier-Free Selective Intervention Framework for Multi-Turn On-Policy Distillation; Diagnoses Four Failure Modes (Early Errors Compound Across Trajectory / Dense Token-Level OPD Over-Penalizes Semantically Valid Alternatives / Repeated-Action Local Degeneracies Get Reinforced / Teacher Supervision Unreliable on Off-Distribution Histories); Three Mechanisms (Observe Environment Feedback First Then Decide Skip/Intervene Per Turn / Token-Level Distillation Weighted by Teacher Confidence on Off-Distribution Histories / Loss Normalization Preserves Standard-OPD Loss Scale); Up to +13.3% Relative Improvement in ALFWorld Unseen Success Rate Over Standard OPD",
+    "date_covered": "2026-06-19"
+  },
+  {
+    "id": "arxiv:2606.19704",
+    "url": "https://arxiv.org/abs/2606.19704",
+    "title": "Beyond Static Leaderboards (Patel / El Maghraoui / Lin et al., IBM, 61 Authors) — Aggregate-Score Leaderboards (HELM + Successors) Systematically Underspecify Deployed-Agent Evaluation; Rankings From Aggregate Scores Fail to Transfer to OOD Settings (Competition Retrospectives Show Rank Instability); Three Contributions (Methodological Shift From In-Sample Mean Scores to Predictive Validity = Correlation Between In-Sample + OOD Rank / Twelve-Tier Measurement Framework Exposing Deployment-Relevant Dimensions / Three Falsifiable OOD Criteria + Pre-Registered Pilot Design); Fourteen Parallel Implementation Studies on MCP-Based Industrial Agent Benchmark Varying Asset Classes + Orchestrations + Retrieval Strategies + Reasoning Modes + Infrastructure Optimizations; Largest Coordinated Evaluation-Methodology Study Published in 2026",
+    "date_covered": "2026-06-19"
+  },
+  {
     "id": "arxiv:2606.19172",
     "url": "https://arxiv.org/abs/2606.19172",
     "title": "User as Engram (Bojie Li, single-author, day-three of compile-to-executable-substrate program) — Internalizing Per-User Memory as Local Parametric Edits to Hash-Keyed Memory Tables + Shared Reasoning Adapter; ~33,000× Smaller Footprint Than Per-User LoRA; 5.6× Higher Indirect-Reasoning Accuracy on Average; Never Degrades Base-Model Reasoning for Any User (per-user LoRA cannot guarantee this); Edits Compose Additively and Losslessly in Shared Hash Tables; Past ~100 Facts Per-User Engram Tables Outperform Retrieval Pipelines on Models 2.5× Larger; Glass-Box Lookups Switched on at Specific Triggers Without Contaminating Unrelated Text; Hippocampus / Neocortex Biological Analogy",
