@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.20529",
+    "url": "https://arxiv.org/abs/2606.20529",
+    "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents (Md Nayem Uddin, Amir Saeidi, Eduardo Blanco, Chitta Baral) — Inference-time wrapper maintains task state in a separate ledger rendered into the prompt; validates state-dependent policy constraints before environment-changing tool calls; improves average pass^k across four customer-service domains with largest gains under stricter multi-trial consistency metrics",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "arxiv:2606.19911",
+    "url": "https://arxiv.org/abs/2606.19911",
+    "title": "Multi-Agent Transactive Memory (MATM, To Eun Kim, Xuhong He, Dishank Jain, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz) — Producer agents contribute completed task trajectories to a shared store; consumer agents retrieve them as procedural knowledge with no joint training or coordination protocol; reports improvements on ALFWorld and WebArena including reduced interaction steps; raw-trajectory pattern avoids LLM-consolidation step that triggers consolidation-decay",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "arxiv:2606.20487",
+    "url": "https://arxiv.org/abs/2606.20487",
+    "title": "H-RePlan + HeraBench: Hierarchical Recovery for Cross-Device Agent Systems (Shu Yao, Yuhua Luo, Qian Long, Jingru Fan, Zhuoyuan Yu, Yuheng Wang, Lin Wu, Yufan Dang, Huatao Li, Chen Qian) — Separates device-local strategy recovery from orchestrator-level replanning via compact cross-layer failure abstraction; interchangeable execution strategies per device; HeraBench is fault-injected cross-device workflow benchmark on Linux + Android; higher completion / perfect-pass / lower token cost vs global-replan baselines",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "arxiv:2606.19605",
+    "url": "https://arxiv.org/abs/2606.19605",
+    "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines (Paul Kassianik, Baturay Saglam, Huaibo Zhao, Blaine Nelson, Supriti Vijay, Aman Priyanshu, Amin Karbasi, Cisco Foundation AI) — Pipeline-aware optimizer diagnoses retrieval/reasoning/formatting bottlenecks; prompt edits first, escalates to structural changes when attribution analysis flags architectural constraints; beats GEPA on 15/18 model-benchmark comparisons; mean +14.1 pp where ranges are non-overlapping; +33.8 pp mean on HoVer + IFBench (structural-change tasks); +2.0 to +7.1 pp on CTIBench-RCM security tasks",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "hf-blog-2026-06-18-is-it-agentic-enough",
+    "url": "https://huggingface.co/blog/is-it-agentic-enough",
+    "title": "Is It Agentic Enough? Benchmarking Open Models on Your Own Tooling (HuggingFace) — Three-tier harness (Bare = pip-installed transformers / Clone = full repo source / Skill = packaged docs + task examples in context); large models (Kimi-K2.6, GLM-5.1, MiniMax-M2.7) reduce turns + time under CLI+Skill despite initial input-token spike; small models break catastrophically — Qwen3-14B collapses 100% → 0% on sentiment classification under Skill variant by treating CLI docs as executable tool; agent-facing APIs require capability-spectrum evaluation",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "arxiv:2606.20363",
+    "url": "https://arxiv.org/abs/2606.20363",
+    "title": "Automating SKILL.md Generation for Computer-Using Agents via Interaction Trajectory Mining (Yuexing Hao, Xiaomin Li) — Three-stage pipeline (segment GUI trajectories → cluster into candidate skills → train skill-aware policies via GRPO); five of eight clusters reach ≥0.95 purity against InteraSkill Workflows labels; GRPO improves InteraSkill skill-step accuracy 18.5% → 20.5% only, negligible on BrowseComp+, and method underperforms trivial frequency priors on key source-domain metrics; framed as diagnostic — auto skill mining is interpretable but not yet reliable policy-improvement substrate; boundary detector / segment representation / offline reward model identified as bottlenecks",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "deepmind-blog-2026-06-18-ai-control-roadmap",
+    "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+    "title": "Securing the Future of AI Agents: AI Control Roadmap (Google DeepMind security + Gemini Spark teams, June 18 2026) — Defense-in-depth framework treating internal AI agents as potentially-misaligned insiders; MITRE ATT&CK-adapted threat modeling; trusted AI supervisors monitor agent reasoning/actions with pre-execution blocking; capability scaling tied to AI advancement levels; analyzed one million coding-agent trajectories finding most flagged events come from agent misinterpretation/overeagerness rather than adversarial intent; informed live monitoring for Gemini Spark; first public production-scale base rate on agent overreach vs. attack; two artifacts: AI Control Roadmap technical report + Three Layers of Agent Security policy framework",
+    "date_covered": "2026-06-20"
+  },
+  {
+    "id": "arxiv:2606.19544",
+    "url": "https://arxiv.org/abs/2606.19544",
+    "title": "Reliability without Validity: A Systematic, Large-Scale Evaluation of LLM-as-a-Judge (Justin D. Norman, Michael U. Rivera, D. Alex Hughes) — 21 judges from 9 providers across MT-Bench / JudgeBench / RewardBench; 118 runs, ~541,000 individual judgments, three protocols (agreement, consistency, bias); universal 33–41 pp gap between exact-match agreement and Cohen's kappa on MT-Bench (most LLM-judge numbers chance-inflated); judge rankings shift up to 14 positions across benchmarks; consistency-bias paradox — two production judges show >0.95 test-retest reliability simultaneously with >0.10 position bias; verbosity bias minimal (<0.011) under single pairwise rubrics; proposes Minimum Viable Validation Protocol",
+    "date_covered": "2026-06-20"
+  },
+  {
     "id": "arxiv:2606.19348",
     "url": "https://arxiv.org/abs/2606.19348",
     "title": "DeepSeek-V4 (DeepSeek-AI, 319 authors, submitted by Wenfeng Liang) — Preview Release of MoE Pair Supporting 1M-Token Context; V4-Pro 1.6T Parameters / 49B Activated + V4-Flash 284B Parameters / 13B Activated; Three Architectural Innovations (Hybrid Attention Combining Compressed Sparse Attention + Heavily Compressed Attention / Manifold-Constrained Hyper-Connections / Muon Optimizer); 32T+ Pretraining Tokens with Full Post-Training; At 1M-Token Context vs V3.2 — 27% of Single-Token Inference FLOPs + 10% of KV Cache; Strongest Single-Paper Push on Long-Context KV-Cache Axis Since V3.2; Weights on Hugging Face deepseek-ai/deepseek-v4",
