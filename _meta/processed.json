@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.20474",
+    "url": "https://arxiv.org/abs/2606.20474",
+    "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents (Chakrabarti, Limpus, Rana, Bao, Tiwari, Crepaldi, Sirasao — AMD + UCLA + Purdue) — Walsh-Hadamard rotation + codebook quantization with asymmetric K/V treatment and AMD-specific decode-attention kernels anchored against FP8 KV baseline; 3.47x P50 TTFT in cache-pressured late rounds, 2.3x TTFT across all rounds, 1.63x output throughput; framed for multi-round context-heavy agent workflows",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "arxiv:2606.20537",
+    "url": "https://arxiv.org/abs/2606.20537",
+    "title": "Execution-State Capsules / FlashRT (Liang Su) — Graph-bound checkpoint and restore mechanism for complete restorable execution state (KV caches + recurrent states + convolution states + metadata); FlashRT runtime supports snapshot, restore, fork, rollback at committed boundaries; tested RTX 5090, Jetson AGX Thor, DGX Spark; TTFT speedup 3.9x at 2K tokens to 27x at 16K tokens; sub-millisecond snapshot/restore on GPU-resident state; targets low-latency small-batch on-device interactive AI agents / speech / robot policies",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "gh:nex-crm/wuphf",
+    "url": "https://github.com/nex-crm/wuphf",
+    "title": "WUPHF (nex-crm YC S26) — Go + React multi-agent collaborative office with dual memory (per-agent private notebooks + shared git-native markdown wiki); push-driven broker eliminates idle polling; per-agent MCP scoping (4 tools DM / 27 full office); claimed 97% Claude prompt-cache hit rate + flat ~40k billed tokens/turn across 10 turns vs traditional orchestrators growing 124k to 484k over 8 turns; wiki has entity-fact typed triplets, append-only audit logs, archivist-identity LLM-synthesized briefs, /lookup cited-answer retrieval, /lint contradiction detection; multi-LLM support including Ollama; Sustainable Use License",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "arxiv:2606.20475",
+    "url": "https://arxiv.org/abs/2606.20475",
+    "title": "Marginal Advantage Accumulation / MAA (Mingyu Yang, Keye Zheng, Congchao Cheng, Yujie Liu, Xingkang Lu, Fan Jiang, Yefei Zheng) — Memory-driven agent self-evolution; diagnoses that batch-style trace distillation gives conflicting feedback to same memory operations across batches; constructs differential signals comparable across batches and accumulates signed evidence per operation via EMA with semantic identity merging; post-processing layer on top of existing memory systems; best in 14/16 settings across 4 benchmarks x 4 target models; ~75% optimization-phase token reduction vs online alternatives; fourth distinct memory-self-evolution mechanism in five days",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "arxiv:2606.20493",
+    "url": "https://arxiv.org/abs/2606.20493",
+    "title": "Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems (Zewen Liu) — Formal framework for measuring systematic evaluator bias spread through multi-agent networks; three DeepSeek-chat agents with structured / balanced / evidence-based evaluation approaches; homogeneous contagion coefficients 0.157-0.352 vs cross-model 0.85-1.3 (3-5x stronger); expanding evaluator committee 1 to 3 cuts contagion 72.4%; three propagation regimes identified via spectral radius; 20 pages 4 figures 4 tables; code released",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "arxiv:2606.20560",
+    "url": "https://arxiv.org/abs/2606.20560",
+    "title": "How Transparent is DiffusionGemma? (Joshua Engels, Callum McDougall, Bilal Chughtai, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q. Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue, Joao Gabriel Lopes de Oliveira, Rohin Shah, Neel Nanda — Google DeepMind interpretability team) — Decomposes transparency into variable transparency (intermediate computational states) + algorithmic transparency (reasoning reconstruction); DiffusionGemma opaque serial depth 28.6x Gemma 4 by default; interpretable token bottleneck brings ratio to 1.1x with no downstream-task performance loss; identifies diffusion-specific phenomena (non-chronological reasoning, token/sequence smearing, intermediate-context reasoning)",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "arxiv:2606.20113",
+    "url": "https://arxiv.org/abs/2606.20113",
+    "title": "When Does Streaming Tool Use Help? Characterizing Tool-Intent Stabilization in Streaming RAG (Elroy Galbraith) — Frames speculative-fire-on-partial-query as tool-intent stabilization; CRAG benchmark 1371 validation questions; at realistic operating point (L=600ms, delta=3w/s, theta=0.8): 73.9% of queries admit substantial latency hiding; 21.3% have verbatim-present gold evidence; 95.2% streamability on favorable slice; Kruskal-Wallis p=0.017 epsilon-squared=0.04 for question-type effects",
+    "date_covered": "2026-06-21"
+  },
+  {
+    "id": "arxiv:2606.20517",
+    "url": "https://arxiv.org/abs/2606.20517",
+    "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages (Maria Ivanova, Pavel Zadorozhny, Rodion Levichev, Ivan Petrov, Adamenko Pavel, Ivan Lopatin, Alexey Kutalev, Dmitrii Babaev; ICLR 2026) — Extends LiveCodeBench from Python-only to 12 additional programming languages by translating tasks while preserving contamination controls; auto-tracks upstream LCB feed; evaluates 24 LLMs; finds Python overfitting + language-specific contamination + substantial cross-language disparities",
+    "date_covered": "2026-06-21"
+  },
+  {
     "id": "arxiv:2606.20529",
     "url": "https://arxiv.org/abs/2606.20529",
     "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents (Md Nayem Uddin, Amir Saeidi, Eduardo Blanco, Chitta Baral) — Inference-time wrapper maintains task state in a separate ledger rendered into the prompt; validates state-dependent policy constraints before environment-changing tool calls; improves average pass^k across four customer-service domains with largest gains under stricter multi-trial consistency metrics",
