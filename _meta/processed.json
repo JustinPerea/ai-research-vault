@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.20002",
+    "url": "https://arxiv.org/abs/2606.20002",
+    "title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents (Yanxi Chen, Weijie Shi, Yuexiang Xie, Boyi Hu, Yaliang Li, Bolin Ding, Jingren Zhou — Alibaba) — End-to-end RL recipe trains base LLM with two-phase rollouts (task-solving + context-updating) and GRPO variant with fine-grained credit assignment; meta-capability for long-lifecycle agent deployment baked into weights rather than wrapped post-hoc; custom environments engineered to isolate meta-skill from domain skill; reports cross-domain generalization plus transfer from Connect the Dots scenarios to Ralph-loop settings; code released on GitHub; marked work-in-progress",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "arxiv:2606.18829",
+    "url": "https://arxiv.org/abs/2606.18829",
+    "title": "GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents (Zhe Ren, Yibo Yang, Yimeng Chen, Zijun Zhao, Benshuo Fu, Zhihao Shu, Bingjie Zhang, Yangyang Xu, Dandan Guo, Shuicheng Yan) — First benchmark assuming multiple users share common memory pools (medical / office / education / household); jointly evaluates utility (long-horizon recall under state updates) + access control (authorization across roles) + active forgetting (reliable deletion on request); headline finding: no method simultaneously achieves strong utility + robust access control + reliable forgetting; long-context wins governance at high compute cost; retrieval/external-memory reduces cost but still leaks unauthorized or deleted information; code + dataset released on GitHub + HuggingFace",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "arxiv:2606.16140",
+    "url": "https://arxiv.org/abs/2606.16140",
+    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models (WeiboAI) — 3B dense reasoning model trained via Spectrum-to-Signal post-training (curriculum SFT + multi-domain RL + offline self-distillation); reports AIME26 94.3 / 97.1 with TTS, LiveCodeBench v6 80.2 Pass@1, LeetCode 96.1% acceptance on unseen, IFEval 93.4; claims match/exceed DeepSeek V3.2 + GLM-5 + Gemini 3 Pro at orders-of-magnitude smaller scale; proposes Parametric Compression-Coverage Hypothesis (verifiable reasoning compresses into small models, general knowledge requires broader parameter coverage); model availability not specified in abstract",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "openai-product-2026-06-18-codex-record-and-replay",
+    "url": "https://developers.openai.com/codex/record-and-replay",
+    "title": "OpenAI Codex Record & Replay (2026-06-18 product launch) — macOS-only feature observing user GUI workflow + window content during recording; Codex inspects captured workflow and drafts reusable Skill with use conditions + inputs + steps + verification criteria; Skill becomes reusable context for subsequent Codex tasks executing against Computer Use + browser actions + connected plugins; teams share recorded skills broadly; requires Computer Use enabled; initial availability excludes EEA/UK/Switzerland; first production-deployed implementation of demonstration-to-skill induction at general-purpose scope — sidesteps SKILL.md auto-mining failure mode by keeping human in demonstration loop and LLM drafting Skill text rather than learning policy",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "gh:raiyanyahya/recall",
+    "url": "https://github.com/raiyanyahya/recall",
+    "title": "Recall: Local project memory for Claude Code (Raiyan Yahya — HN front page 2026-06-21, 96 points) — Claude Code plugin capturing session activity (prompts/responses/files/commands) into append-only .recall/history.md; regenerates .recall/context.md (1-2K-token compact digest: goal + status + next steps + recent git info) via deterministic TF-IDF + TextRank summarization — no LLM API call, no network, no token cost; surfaces prior context on session start with resume prompt; fences context.md as untrusted reference data; MIT-licensed; Python stdlib core with NumPy optional; distributed via Claude Code plugin marketplace; episodic memory pattern that avoids consolidation-decay failure mode by trading retrieval recall for monotonic correctness",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "anthropic-product-2026-06-19-claude-code-2.1.183-2.1.185",
+    "url": "https://releasebot.io/updates/anthropic",
+    "title": "Anthropic Claude Code v2.1.183 (2026-06-19) + v2.1.185 (2026-06-21) + Enterprise-Managed MCP Authorization (2026-06-18 beta) — v2.1.183 hardens auto mode by blocking destructive git and infrastructure commands before they fire + adds explicit model-deprecation warnings + /config help; v2.1.185 increases stream-stall retry threshold from 10s to 20s of silence + improves messaging to distinguish thinking from stalled (eliminates spurious retries in scheduled autonomous routines); Enterprise MCP authorization via Okta provides centrally-administrable MCP connector provisioning with zero-touch first-login across Claude chat + Claude Code + Cowork; first vendor-supplied guardrail for long-running autonomous Claude Code loops",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "arxiv:2606.19808",
+    "url": "https://arxiv.org/abs/2606.19808",
+    "title": "Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning (Sajib Acharjee Dip, Dawei Zhou, Liqing Zhang) — SEVRA (Selective Verification for Reasoning Allocation) decides per-example whether to verify initial answer or accept; diagnoses extra reasoning as non-uniformly valuable (repairs failures + wastes compute on correct answers + introduces harmful answer changes via verifier-induced regression); MATH-500 76.3% accuracy at -26.8% post-generation tokens; GSM8K transfer verifies only 3% of examples improving 93.4% → 94.5% accuracy at -91.2% verification tokens; recommendation: tune initial reasoning budget first then apply selective recovery only when explicit checks/bounded retries/auditability/regression-risk control matter",
+    "date_covered": "2026-06-22"
+  },
+  {
+    "id": "apertus-mini-2026-06-15",
+    "url": "https://arxiv.org/abs/2605.29128",
+    "title": "Apertus Mini (Andrei Panferov, Davit Melikidze, Martin Jaggi, Dan Alistarh — Swiss AI Initiative, released 2026-06-15) — Distilled Apertus-v1.1 family up to 4B parameters trained on 1.7T permissive-license tokens via pre-training distillation from Apertus-8B teacher logits; 24 new checkpoints (3 base + 3 instruct + 8 NVIDIA-quantized + 10 Apple-device-quantized) using Quantization-Aware Distillation (QAD) as short recovery stage on fully-trained models; first multi-billion-parameter open model family explicitly distilled-and-quantized for Apple Silicon rather than post-hoc converted; cost <20% of teacher training; HN re-surfaced 2026-06-21",
+    "date_covered": "2026-06-22"
+  },
+  {
     "id": "arxiv:2606.20474",
     "url": "https://arxiv.org/abs/2606.20474",
     "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents (Chakrabarti, Limpus, Rana, Bao, Tiwari, Crepaldi, Sirasao — AMD + UCLA + Purdue) — Walsh-Hadamard rotation + codebook quantization with asymmetric K/V treatment and AMD-specific decode-attention kernels anchored against FP8 KV baseline; 3.47x P50 TTFT in cache-pressured late rounds, 2.3x TTFT across all rounds, 1.63x output throughput; framed for multi-round context-heavy agent workflows",
