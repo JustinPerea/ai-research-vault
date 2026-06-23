@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.23525",
+    "url": "https://arxiv.org/abs/2606.23525",
+    "title": "Self-Compacting Language Model Agents (Tianjian Li, Jingyu Zhang, William Jurayj, Xi Wang, Chuanyang Jin, Mehrdad Farajtabar, Eric Nalisnick, Daniel Khashabi — JHU + Apple) — SelfCompact gives the agent a compaction tool plus a decision rubric for when to invoke (at task completion or convergence, not mid-derivation); matches or surpasses fixed-interval summarization at 30–70% lower per-question cost; +18.1 pts on math, +5–9 pts on agentic search across six benchmarks and seven models; identifies meta-cognitive gap (unprompted models can't recognize context degradation; lightweight scaffolding closes it); no fine-tuning or external supervision",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "arxiv:2606.21649",
+    "url": "https://arxiv.org/abs/2606.21649",
+    "title": "EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory (Chang Nie, Chaoyou Fu, Junlan Feng, Caifeng Shan — Nanjing University) — Embedding model maintaining continuously-updated latent memory while processing sequential inputs; EvoTrain-180K dataset, memory-queue mechanism prevents representation collapse, segment-batching for 3.8x training acceleration; outperforms Qwen3-Embedding-8B and KaLM-Embedding-Gemma3-12B on long-context retrieval; generalizes to contexts 10x longer than training window; claims naive RAG with EvoEmbedding surpasses dedicated agentic memory systems — directly comparable to GateMem (arxiv:2606.18829) governance thesis and Recall (gh:raiyanyahya/recall) local-ledger thesis",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "arxiv:2606.22388",
+    "url": "https://arxiv.org/abs/2606.22388",
+    "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems (Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür — UIUC) — 327 retail tasks over 1,665 tools with blocking mechanism simulating missing/failing tool functions; evaluates iterative tool retrieval + intermediate evidence under retrieval-limited tool visibility; GPT-5.4 hits 51.90% standard but drops to 11.36% under severe blocking; agents struggle when errors lack explicit signals or recovery requires longer alternative tool sequences; formalizes silent-failure regime in MCP/tool agent stacks",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "arxiv:2606.19409",
+    "url": "https://arxiv.org/abs/2606.19409",
+    "title": "OpenRath: Session-Centered Runtime State for Agent Systems (Fukang Wen, Zhijie Wang, Ruilin Xu) — PyTorch-inspired programming model for agent runtime; Session is central abstraction (records conversation, sandbox placement, lineage metadata, token usage, tool evidence) and is branchable, inspectable, replayable, backend-aware, composable; companion abstractions Sandbox, Tool, Agent, Memory, Workflow, Selector (Selector converts control flow into runtime-routed decisions); enables explicit fork/merge/replay without reconstructing state from external traces; evaluation deferred to future work — controlled runtime properties only",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "arxiv:2606.22883",
+    "url": "https://arxiv.org/abs/2606.22883",
+    "title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents (Zhanbo Hua, Yifan Yao, Weihao Xie, Yongchi Zhao, Minghao Liu, Ruizhi Qiu, Zhewei Huang, Zun Wang, Yiyan Ji, Yunhai Ye, Letian Zhu, Xinping Lei, Han Li, Zhiyuan Ma, Zili Wang, Zhaoxiang Zhang, Jiaheng Liu — NJU-LINK Lab) — Systematic synthesis pipeline generates trajectories across multiple capability dimensions, grounds them in technical materials, verifies in Docker; ~2/3 candidates filtered; releases CLI-Universe-6K (6,000 verified trajectories); Qwen3-32B fine-tuned on it hits 33.4% on Terminal-Bench 2.0 — claimed SOTA for open models ≤32B, beats models an order of magnitude larger; Qwen3-32B Q4 fits comfortably on M5 Max 64GB unified memory",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "openai-product-2026-06-22-daybreak-gpt-5.5-cyber",
+    "url": "https://openai.com/index/daybreak-securing-the-world/",
+    "title": "OpenAI Daybreak Expansion + Full GPT-5.5-Cyber + Patch the Planet (2026-06-22 product launch) — Full GPT-5.5-Cyber release sets SOTA on three defensive benchmarks: CyberGym 85.6% (vs 81.8% base GPT-5.5), ExploitGym 39.5% (vs 25.95%), SEC-bench Pro 69.8% (vs 63.1%); Patch the Planet co-founded with Trail of Bits ships open-source patching pipeline targeting cURL, Go, Python, Sigstore, pyca/cryptography (30+ projects committed); Codex Security plugin adds severity reports + attack-path tracing + codebase-specific patch generation; launch partners Accenture/Cisco/CrowdStrike/IBM/Okta/Palo Alto Networks/Wiz; first quantified-benchmark frontier release of a defensive coding agent",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "oak-space-2026-06-22",
+    "url": "https://oak.space",
+    "title": "Oak: Version Control System for AI Coding Agents (Zach Geier + Adam Morse — HN front page 2026-06-22, 172 points) — Purpose-built VCS for autonomous coding agents; lazy filesystem-mount of remote repos (files hydrate on first access, no full clone); branch-per-task with description-as-squash-message; parallel tasks on separate mounts without .git corruption; content-defined chunking deduplicates across versions (single tensor change in 4GB file uploads only modified chunks); reports up to 95% lower median latency vs git on snapshots and large-file ops, initial snapshot 29.7s → 1.4s on many-small-files repos; oak export replays into standard git; source at oak.space/oak/oak, license not stated on landing page",
+    "date_covered": "2026-06-23"
+  },
+  {
+    "id": "arxiv:2606.22877",
+    "url": "https://arxiv.org/abs/2606.22877",
+    "title": "DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings (Wenya Xie et al. incl. Vladimir Braverman, Ali Payani, Zirui Liu — 12 authors) — Simulates 15 months of activity per user across 16 applications (e-commerce/fitness/social), 2.2M tokens and 1,772 events per user on average, five quarterly checkpoints; systems must infer user attributes/habits/preferences from scattered implicit signals; three killer findings: (a) profile reconstruction degrades as history lengthens while service-task accuracy stays flat, (b) no system maintains stable facts while updating changed ones (errors concentrate on preferences and entity names), (c) >93% of failures stem from memory retrieval rather than response generation — independent support for EvoEmbedding (arxiv:2606.21649) thesis that retrieval layer has the most leverage",
+    "date_covered": "2026-06-23"
+  },
+  {
     "id": "arxiv:2606.20002",
     "url": "https://arxiv.org/abs/2606.20002",
     "title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents (Yanxi Chen, Weijie Shi, Yuexiang Xie, Boyi Hu, Yaliang Li, Bolin Ding, Jingren Zhou — Alibaba) — End-to-end RL recipe trains base LLM with two-phase rollouts (task-solving + context-updating) and GRPO variant with fine-grained credit assignment; meta-capability for long-lifecycle agent deployment baked into weights rather than wrapped post-hoc; custom environments engineered to isolate meta-skill from domain skill; reports cross-domain generalization plus transfer from Connect the Dots scenarios to Ralph-loop settings; code released on GitHub; marked work-in-progress",
