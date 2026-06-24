@@ -1,1016 +1,1076 @@
 [
   {
+    "id": "arxiv:2606.24775",
+    "url": "https://arxiv.org/abs/2606.24775",
+    "title": "Are We Ready For An Agent-Native Memory System? (Wei Zhou, Xuanhe Zhou, Shaokun Han, Hongming Xu, Guoliang Li, Zhiyu Li, Feiyu Xiong, Fan Wu) \u2014 systematic data-management evaluation of 12 memory systems + 2 baselines across 5 workloads / 11 datasets; four-module decomposition (representation+storage, extraction, retrieval+routing, maintenance); no single architecture dominates \u2014 effectiveness depends on workload-bottleneck alignment; localized maintenance > global reorganization on cost-performance; code at OpenDataBox/MemoryData",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24535",
+    "url": "https://arxiv.org/abs/2606.24535",
+    "title": "Governed Shared Memory for Multi-Agent LLM Systems / MemClaw + ArgusFleet (Margalit, Cohen-Inger, Avram, Taig, Margalit \u2014 BGU+IBM inferred) \u2014 formalizes fleet-memory problem with four failure modes (unauthorized leakage, stale propagation, contradiction persistence, provenance collapse) + four primitives (scoped retrieval, temporal supersession, provenance tracking, policy-governed propagation); MemClaw production multi-tenant service eval'd via ArgusFleet harness; 100% reconstruction of depth-4 derivation chains, zero cross-fleet leakage, sub-second per-hop provenance; discovered two production failures \u2014 sub-tenant scope bypass on direct GET-by-id (disclosed+remediated), pipeline-ordering conflict where sync near-duplicate gate rejects contradictory writes before async detector evaluates; thesis: long-context retrieval alone insufficient for production multi-agent memory",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24437",
+    "url": "https://arxiv.org/abs/2606.24437",
+    "title": "ReM-MoA: Reasoning Memory Sustains Mixture-of-Agents Scaling (Heng Ping, Arijit Bhattacharjee, Peiyu Zhang, Shixuan Li, Wei Yang, Ali Jannesari, Nesreen Ahmed, Paul Bogdan) \u2014 prior MoA degrades/plateaus/saturates with depth; ReM-MoA adds Ranked Reasoning Memory (Reviewer Agent comparative ranking of traces from all layers) + Curated Diversified Memory Routing (distinct success/failure trace mixes per agent); optional multi-domain Reviewer distillation pipeline pulls frontier-model supervision; 5 reasoning benchmarks (math, formal logic, code, knowledge, commonsense); advantage widens with depth; positioned as 'key missing mechanism for scalable multi-agent inference'",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24595",
+    "url": "https://arxiv.org/abs/2606.24595",
+    "title": "MEMPROBE: Probing Long-Term Agent Memory via Hidden User-State Recovery (Enze Ma, Yufan Zhou, Wei-Chieh Huang, Jie Yang, Huanhuan Ma, Zixuan Wang, Chengze Li, Chunyu Miao, Philip S. Yu, Zhen Wang) \u2014 evaluates memory as auditable post-interaction artifact rather than via downstream task success; 50 simulated users \u00d7 31 hidden dimensions = 1,550 recovery targets; 5 memory systems tested; task completion nearly saturates (even for memoryless baseline) while category-balanced recovery sits ~0.6 and drops further under top-k; demonstrates that successful assistance and recoverable memory are distinct capabilities",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24597",
+    "url": "https://arxiv.org/abs/2606.24597",
+    "title": "Qwen-AgentWorld: Language World Models for General Agents (Qwen team, 33 authors led by Yuxin Zuo, Zikai Xiao, Li Sheng, Fei Huang) \u2014 Qwen-AgentWorld-35B-A3B + 397B-A17B trained on 10M+ environment trajectories across 7 domains; three-stage training (CPT inject world modeling capability, SFT activate next-state-prediction reasoning, RL with hybrid rubric+rule rewards); AgentWorldBench from real interactions of 5 frontier models on 9 benchmarks; claims to significantly outperform existing frontier models; two deployment paradigms \u2014 (a) decoupled simulator for agentic RL (beats real-env training alone), (b) world-model training as warm-up for downstream agent fine-tunes (improves across 7 agentic benchmarks); 35B-A3B variant is M5 Max-local-fit",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24530",
+    "url": "https://arxiv.org/abs/2606.24530",
+    "title": "NatureBench: Can Coding Agents Match the Published SOTA of Nature-Family Papers? (Yuru Wang, Lejun Cheng, Yuxin Zuo, Sihang Zeng, Bingxiang He, et al. \u2014 17 authors, Frontis AI) \u2014 90 tasks distilled from peer-reviewed Nature-family publications; NatureGym auto-builds per-task containerized environments addressing env-fragmentation; strict web-search-disabled protocol; best of 10 frontier agent configurations matches SOTA on 17.8% of tasks (g>0.1 criterion); agents succeed via methodological translation (converting scientific tasks into supervised prediction problems) not invention; failures dominated by wrong method choice + insufficient compute budget, not task misunderstanding; benchmark + NatureGym pipeline + public leaderboard released",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24033",
+    "url": "https://arxiv.org/abs/2606.24033",
+    "title": "Block-GTQ: RoPE-Aware Bit Allocation for KV-Cache Quantization (Fengfeng Liang, Yuechen Zhang, Jiaya Jia \u2014 JIA-Lab) \u2014 RoPE decomposes key contribution into position-dependent 2D frequency blocks; Block-GTQ computes label-free per-block energy score and greedily allocates integer bit-widths by marginal gain; built on TurboQuant-MSE; per-layer MAE drops 32-80% at 2-3 b/dim K-only, wins all 367/367 layer comparisons vs uniform TQ-MSE; Llama-3.1-8B-Instruct K2V2: NIAH 70.6\u219297.4, LongBench-EN 36.87\u219253.31; DeepSeek-R1-Distill-Qwen-7B AIME K3V2: 51.7/37.5 vs fp16 54.2/37.9 (uniform TQ-MSE: 0.0/0.0); Qwen2.5-3B-Instruct K3V3 on H800: 3.24x KV compression, 1.34x faster than fp16 FlashAttention2 at 128K, peak memory 56.31 GB\u219219.85 GB, feasible at 256K/512K where fp16 OOMs; code at JIA-Lab-research/blockgtq",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24626",
+    "url": "https://arxiv.org/abs/2606.24626",
+    "title": "SAFARI: Scaling Long-Horizon Agentic Fault Attribution via Active Investigation (Chenyang Zhu, Jiayu Yao, Kushal Chawla, Youbing Yin, Nathan Wolfe, Pengshan Cai, Jingyu Wu, Spencer Hong, Sangwoo Cho, Shi-Xiong Zhang, Daben Liu, Sambit Sahu, Erin Babinsky) \u2014 replaces full-trajectory-into-context with tool-augmented diagnostic loop; specialized tools to read+search trajectory segments + persistent Short-Term Memory for cross-turn reasoning; decouples diagnostic accuracy from native context window; +20% over SOTA on Who&When at 1M token budget, +19% on TRAIL GAIA subset at 25K budget; 0.58 precision when fault sits 5x beyond model's native context window (where traditional evaluators fail entirely)",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "arxiv:2606.24855",
+    "url": "https://arxiv.org/abs/2606.24855",
+    "title": "OpenThoughts-Agent: Data Recipes for Agentic Models (OpenThoughts consortium, 50 authors \u2014 Negin Raoof lead; Richard Zhuang, Marianna Nezhurina, Etash Guha et al.) \u2014 fully open data-curation pipeline for training generalist agent models; 100+ controlled ablations across pipeline stages on task sources + diversity + mixing; 100K-example training set; Qwen3-32B fine-tune: 44.8% avg across seven agentic benchmarks (+3.9 pts over Nemotron-Terminal-32B 40.9%); outperforms alternative open datasets at every training size in compute-controlled comparisons; training sets + pipeline + experiment logs + models released at openthoughts.ai",
+    "date_covered": "2026-06-24"
+  },
+  {
+    "id": "anthropic-2026-06-23-claude-tag",
+    "url": "https://www.anthropic.com/news/introducing-claude-tag",
+    "title": "Anthropic \u2014 Introducing Claude Tag (June 23, 2026) \u2014 Slack-native multi-user Claude agent on Opus 4.8; beta for Enterprise + Team plans; replaces Claude-in-Slack app over 30-day migration; scoped identities with separate memories per use case (admin-controlled tool+data access per channel); proactive 'ambient' mode flags relevant info across connected channels; multiplayer pickup (anyone in channel can continue); asynchronous autonomous work over extended periods; Anthropic reports their internal version writes 65% of product team's code",
+    "date_covered": "2026-06-24"
+  },
+  {
     "id": "arxiv:2606.23525",
     "url": "https://arxiv.org/abs/2606.23525",
-    "title": "Self-Compacting Language Model Agents (Tianjian Li, Jingyu Zhang, William Jurayj, Xi Wang, Chuanyang Jin, Mehrdad Farajtabar, Eric Nalisnick, Daniel Khashabi — JHU + Apple) — SelfCompact gives the agent a compaction tool plus a decision rubric for when to invoke (at task completion or convergence, not mid-derivation); matches or surpasses fixed-interval summarization at 30–70% lower per-question cost; +18.1 pts on math, +5–9 pts on agentic search across six benchmarks and seven models; identifies meta-cognitive gap (unprompted models can't recognize context degradation; lightweight scaffolding closes it); no fine-tuning or external supervision",
+    "title": "Self-Compacting Language Model Agents (Tianjian Li, Jingyu Zhang, William Jurayj, Xi Wang, Chuanyang Jin, Mehrdad Farajtabar, Eric Nalisnick, Daniel Khashabi \u2014 JHU + Apple) \u2014 SelfCompact gives the agent a compaction tool plus a decision rubric for when to invoke (at task completion or convergence, not mid-derivation); matches or surpasses fixed-interval summarization at 30\u201370% lower per-question cost; +18.1 pts on math, +5\u20139 pts on agentic search across six benchmarks and seven models; identifies meta-cognitive gap (unprompted models can't recognize context degradation; lightweight scaffolding closes it); no fine-tuning or external supervision",
     "date_covered": "2026-06-23"
   },
   {
     "id": "arxiv:2606.21649",
     "url": "https://arxiv.org/abs/2606.21649",
-    "title": "EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory (Chang Nie, Chaoyou Fu, Junlan Feng, Caifeng Shan — Nanjing University) — Embedding model maintaining continuously-updated latent memory while processing sequential inputs; EvoTrain-180K dataset, memory-queue mechanism prevents representation collapse, segment-batching for 3.8x training acceleration; outperforms Qwen3-Embedding-8B and KaLM-Embedding-Gemma3-12B on long-context retrieval; generalizes to contexts 10x longer than training window; claims naive RAG with EvoEmbedding surpasses dedicated agentic memory systems — directly comparable to GateMem (arxiv:2606.18829) governance thesis and Recall (gh:raiyanyahya/recall) local-ledger thesis",
+    "title": "EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory (Chang Nie, Chaoyou Fu, Junlan Feng, Caifeng Shan \u2014 Nanjing University) \u2014 Embedding model maintaining continuously-updated latent memory while processing sequential inputs; EvoTrain-180K dataset, memory-queue mechanism prevents representation collapse, segment-batching for 3.8x training acceleration; outperforms Qwen3-Embedding-8B and KaLM-Embedding-Gemma3-12B on long-context retrieval; generalizes to contexts 10x longer than training window; claims naive RAG with EvoEmbedding surpasses dedicated agentic memory systems \u2014 directly comparable to GateMem (arxiv:2606.18829) governance thesis and Recall (gh:raiyanyahya/recall) local-ledger thesis",
     "date_covered": "2026-06-23"
   },
   {
     "id": "arxiv:2606.22388",
     "url": "https://arxiv.org/abs/2606.22388",
-    "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems (Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-Tür — UIUC) — 327 retail tasks over 1,665 tools with blocking mechanism simulating missing/failing tool functions; evaluates iterative tool retrieval + intermediate evidence under retrieval-limited tool visibility; GPT-5.4 hits 51.90% standard but drops to 11.36% under severe blocking; agents struggle when errors lack explicit signals or recovery requires longer alternative tool sequences; formalizes silent-failure regime in MCP/tool agent stacks",
+    "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems (Jiayu Liu, Qihan Lin, Cheng Qian, Rui Wang, Emre Can Acikgoz, Xiaocheng Yang, Jiateng Liu, Zhenhailong Wang, Xiusi Chen, Heng Ji, Dilek Hakkani-T\u00fcr \u2014 UIUC) \u2014 327 retail tasks over 1,665 tools with blocking mechanism simulating missing/failing tool functions; evaluates iterative tool retrieval + intermediate evidence under retrieval-limited tool visibility; GPT-5.4 hits 51.90% standard but drops to 11.36% under severe blocking; agents struggle when errors lack explicit signals or recovery requires longer alternative tool sequences; formalizes silent-failure regime in MCP/tool agent stacks",
     "date_covered": "2026-06-23"
   },
   {
     "id": "arxiv:2606.19409",
     "url": "https://arxiv.org/abs/2606.19409",
-    "title": "OpenRath: Session-Centered Runtime State for Agent Systems (Fukang Wen, Zhijie Wang, Ruilin Xu) — PyTorch-inspired programming model for agent runtime; Session is central abstraction (records conversation, sandbox placement, lineage metadata, token usage, tool evidence) and is branchable, inspectable, replayable, backend-aware, composable; companion abstractions Sandbox, Tool, Agent, Memory, Workflow, Selector (Selector converts control flow into runtime-routed decisions); enables explicit fork/merge/replay without reconstructing state from external traces; evaluation deferred to future work — controlled runtime properties only",
+    "title": "OpenRath: Session-Centered Runtime State for Agent Systems (Fukang Wen, Zhijie Wang, Ruilin Xu) \u2014 PyTorch-inspired programming model for agent runtime; Session is central abstraction (records conversation, sandbox placement, lineage metadata, token usage, tool evidence) and is branchable, inspectable, replayable, backend-aware, composable; companion abstractions Sandbox, Tool, Agent, Memory, Workflow, Selector (Selector converts control flow into runtime-routed decisions); enables explicit fork/merge/replay without reconstructing state from external traces; evaluation deferred to future work \u2014 controlled runtime properties only",
     "date_covered": "2026-06-23"
   },
   {
     "id": "arxiv:2606.22883",
     "url": "https://arxiv.org/abs/2606.22883",
-    "title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents (Zhanbo Hua, Yifan Yao, Weihao Xie, Yongchi Zhao, Minghao Liu, Ruizhi Qiu, Zhewei Huang, Zun Wang, Yiyan Ji, Yunhai Ye, Letian Zhu, Xinping Lei, Han Li, Zhiyuan Ma, Zili Wang, Zhaoxiang Zhang, Jiaheng Liu — NJU-LINK Lab) — Systematic synthesis pipeline generates trajectories across multiple capability dimensions, grounds them in technical materials, verifies in Docker; ~2/3 candidates filtered; releases CLI-Universe-6K (6,000 verified trajectories); Qwen3-32B fine-tuned on it hits 33.4% on Terminal-Bench 2.0 — claimed SOTA for open models ≤32B, beats models an order of magnitude larger; Qwen3-32B Q4 fits comfortably on M5 Max 64GB unified memory",
+    "title": "CLI-Universe: Towards Verifiable Task Synthesis Engine for Terminal Agents (Zhanbo Hua, Yifan Yao, Weihao Xie, Yongchi Zhao, Minghao Liu, Ruizhi Qiu, Zhewei Huang, Zun Wang, Yiyan Ji, Yunhai Ye, Letian Zhu, Xinping Lei, Han Li, Zhiyuan Ma, Zili Wang, Zhaoxiang Zhang, Jiaheng Liu \u2014 NJU-LINK Lab) \u2014 Systematic synthesis pipeline generates trajectories across multiple capability dimensions, grounds them in technical materials, verifies in Docker; ~2/3 candidates filtered; releases CLI-Universe-6K (6,000 verified trajectories); Qwen3-32B fine-tuned on it hits 33.4% on Terminal-Bench 2.0 \u2014 claimed SOTA for open models \u226432B, beats models an order of magnitude larger; Qwen3-32B Q4 fits comfortably on M5 Max 64GB unified memory",
     "date_covered": "2026-06-23"
   },
   {
     "id": "openai-product-2026-06-22-daybreak-gpt-5.5-cyber",
     "url": "https://openai.com/index/daybreak-securing-the-world/",
-    "title": "OpenAI Daybreak Expansion + Full GPT-5.5-Cyber + Patch the Planet (2026-06-22 product launch) — Full GPT-5.5-Cyber release sets SOTA on three defensive benchmarks: CyberGym 85.6% (vs 81.8% base GPT-5.5), ExploitGym 39.5% (vs 25.95%), SEC-bench Pro 69.8% (vs 63.1%); Patch the Planet co-founded with Trail of Bits ships open-source patching pipeline targeting cURL, Go, Python, Sigstore, pyca/cryptography (30+ projects committed); Codex Security plugin adds severity reports + attack-path tracing + codebase-specific patch generation; launch partners Accenture/Cisco/CrowdStrike/IBM/Okta/Palo Alto Networks/Wiz; first quantified-benchmark frontier release of a defensive coding agent",
+    "title": "OpenAI Daybreak Expansion + Full GPT-5.5-Cyber + Patch the Planet (2026-06-22 product launch) \u2014 Full GPT-5.5-Cyber release sets SOTA on three defensive benchmarks: CyberGym 85.6% (vs 81.8% base GPT-5.5), ExploitGym 39.5% (vs 25.95%), SEC-bench Pro 69.8% (vs 63.1%); Patch the Planet co-founded with Trail of Bits ships open-source patching pipeline targeting cURL, Go, Python, Sigstore, pyca/cryptography (30+ projects committed); Codex Security plugin adds severity reports + attack-path tracing + codebase-specific patch generation; launch partners Accenture/Cisco/CrowdStrike/IBM/Okta/Palo Alto Networks/Wiz; first quantified-benchmark frontier release of a defensive coding agent",
     "date_covered": "2026-06-23"
   },
   {
     "id": "oak-space-2026-06-22",
     "url": "https://oak.space",
-    "title": "Oak: Version Control System for AI Coding Agents (Zach Geier + Adam Morse — HN front page 2026-06-22, 172 points) — Purpose-built VCS for autonomous coding agents; lazy filesystem-mount of remote repos (files hydrate on first access, no full clone); branch-per-task with description-as-squash-message; parallel tasks on separate mounts without .git corruption; content-defined chunking deduplicates across versions (single tensor change in 4GB file uploads only modified chunks); reports up to 95% lower median latency vs git on snapshots and large-file ops, initial snapshot 29.7s → 1.4s on many-small-files repos; oak export replays into standard git; source at oak.space/oak/oak, license not stated on landing page",
+    "title": "Oak: Version Control System for AI Coding Agents (Zach Geier + Adam Morse \u2014 HN front page 2026-06-22, 172 points) \u2014 Purpose-built VCS for autonomous coding agents; lazy filesystem-mount of remote repos (files hydrate on first access, no full clone); branch-per-task with description-as-squash-message; parallel tasks on separate mounts without .git corruption; content-defined chunking deduplicates across versions (single tensor change in 4GB file uploads only modified chunks); reports up to 95% lower median latency vs git on snapshots and large-file ops, initial snapshot 29.7s \u2192 1.4s on many-small-files repos; oak export replays into standard git; source at oak.space/oak/oak, license not stated on landing page",
     "date_covered": "2026-06-23"
   },
   {
     "id": "arxiv:2606.22877",
     "url": "https://arxiv.org/abs/2606.22877",
-    "title": "DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings (Wenya Xie et al. incl. Vladimir Braverman, Ali Payani, Zirui Liu — 12 authors) — Simulates 15 months of activity per user across 16 applications (e-commerce/fitness/social), 2.2M tokens and 1,772 events per user on average, five quarterly checkpoints; systems must infer user attributes/habits/preferences from scattered implicit signals; three killer findings: (a) profile reconstruction degrades as history lengthens while service-task accuracy stays flat, (b) no system maintains stable facts while updating changed ones (errors concentrate on preferences and entity names), (c) >93% of failures stem from memory retrieval rather than response generation — independent support for EvoEmbedding (arxiv:2606.21649) thesis that retrieval layer has the most leverage",
+    "title": "DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings (Wenya Xie et al. incl. Vladimir Braverman, Ali Payani, Zirui Liu \u2014 12 authors) \u2014 Simulates 15 months of activity per user across 16 applications (e-commerce/fitness/social), 2.2M tokens and 1,772 events per user on average, five quarterly checkpoints; systems must infer user attributes/habits/preferences from scattered implicit signals; three killer findings: (a) profile reconstruction degrades as history lengthens while service-task accuracy stays flat, (b) no system maintains stable facts while updating changed ones (errors concentrate on preferences and entity names), (c) >93% of failures stem from memory retrieval rather than response generation \u2014 independent support for EvoEmbedding (arxiv:2606.21649) thesis that retrieval layer has the most leverage",
     "date_covered": "2026-06-23"
   },
   {
     "id": "arxiv:2606.20002",
     "url": "https://arxiv.org/abs/2606.20002",
-    "title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents (Yanxi Chen, Weijie Shi, Yuexiang Xie, Boyi Hu, Yaliang Li, Bolin Ding, Jingren Zhou — Alibaba) — End-to-end RL recipe trains base LLM with two-phase rollouts (task-solving + context-updating) and GRPO variant with fine-grained credit assignment; meta-capability for long-lifecycle agent deployment baked into weights rather than wrapped post-hoc; custom environments engineered to isolate meta-skill from domain skill; reports cross-domain generalization plus transfer from Connect the Dots scenarios to Ralph-loop settings; code released on GitHub; marked work-in-progress",
+    "title": "Connect the Dots: Training LLMs for Long-Lifecycle Agents (Yanxi Chen, Weijie Shi, Yuexiang Xie, Boyi Hu, Yaliang Li, Bolin Ding, Jingren Zhou \u2014 Alibaba) \u2014 End-to-end RL recipe trains base LLM with two-phase rollouts (task-solving + context-updating) and GRPO variant with fine-grained credit assignment; meta-capability for long-lifecycle agent deployment baked into weights rather than wrapped post-hoc; custom environments engineered to isolate meta-skill from domain skill; reports cross-domain generalization plus transfer from Connect the Dots scenarios to Ralph-loop settings; code released on GitHub; marked work-in-progress",
     "date_covered": "2026-06-22"
   },
   {
     "id": "arxiv:2606.18829",
     "url": "https://arxiv.org/abs/2606.18829",
-    "title": "GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents (Zhe Ren, Yibo Yang, Yimeng Chen, Zijun Zhao, Benshuo Fu, Zhihao Shu, Bingjie Zhang, Yangyang Xu, Dandan Guo, Shuicheng Yan) — First benchmark assuming multiple users share common memory pools (medical / office / education / household); jointly evaluates utility (long-horizon recall under state updates) + access control (authorization across roles) + active forgetting (reliable deletion on request); headline finding: no method simultaneously achieves strong utility + robust access control + reliable forgetting; long-context wins governance at high compute cost; retrieval/external-memory reduces cost but still leaks unauthorized or deleted information; code + dataset released on GitHub + HuggingFace",
+    "title": "GateMem: Benchmarking Memory Governance in Multi-Principal Shared-Memory Agents (Zhe Ren, Yibo Yang, Yimeng Chen, Zijun Zhao, Benshuo Fu, Zhihao Shu, Bingjie Zhang, Yangyang Xu, Dandan Guo, Shuicheng Yan) \u2014 First benchmark assuming multiple users share common memory pools (medical / office / education / household); jointly evaluates utility (long-horizon recall under state updates) + access control (authorization across roles) + active forgetting (reliable deletion on request); headline finding: no method simultaneously achieves strong utility + robust access control + reliable forgetting; long-context wins governance at high compute cost; retrieval/external-memory reduces cost but still leaks unauthorized or deleted information; code + dataset released on GitHub + HuggingFace",
     "date_covered": "2026-06-22"
   },
   {
     "id": "arxiv:2606.16140",
     "url": "https://arxiv.org/abs/2606.16140",
-    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models (WeiboAI) — 3B dense reasoning model trained via Spectrum-to-Signal post-training (curriculum SFT + multi-domain RL + offline self-distillation); reports AIME26 94.3 / 97.1 with TTS, LiveCodeBench v6 80.2 Pass@1, LeetCode 96.1% acceptance on unseen, IFEval 93.4; claims match/exceed DeepSeek V3.2 + GLM-5 + Gemini 3 Pro at orders-of-magnitude smaller scale; proposes Parametric Compression-Coverage Hypothesis (verifiable reasoning compresses into small models, general knowledge requires broader parameter coverage); model availability not specified in abstract",
+    "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models (WeiboAI) \u2014 3B dense reasoning model trained via Spectrum-to-Signal post-training (curriculum SFT + multi-domain RL + offline self-distillation); reports AIME26 94.3 / 97.1 with TTS, LiveCodeBench v6 80.2 Pass@1, LeetCode 96.1% acceptance on unseen, IFEval 93.4; claims match/exceed DeepSeek V3.2 + GLM-5 + Gemini 3 Pro at orders-of-magnitude smaller scale; proposes Parametric Compression-Coverage Hypothesis (verifiable reasoning compresses into small models, general knowledge requires broader parameter coverage); model availability not specified in abstract",
     "date_covered": "2026-06-22"
   },
   {
     "id": "openai-product-2026-06-18-codex-record-and-replay",
     "url": "https://developers.openai.com/codex/record-and-replay",
-    "title": "OpenAI Codex Record & Replay (2026-06-18 product launch) — macOS-only feature observing user GUI workflow + window content during recording; Codex inspects captured workflow and drafts reusable Skill with use conditions + inputs + steps + verification criteria; Skill becomes reusable context for subsequent Codex tasks executing against Computer Use + browser actions + connected plugins; teams share recorded skills broadly; requires Computer Use enabled; initial availability excludes EEA/UK/Switzerland; first production-deployed implementation of demonstration-to-skill induction at general-purpose scope — sidesteps SKILL.md auto-mining failure mode by keeping human in demonstration loop and LLM drafting Skill text rather than learning policy",
+    "title": "OpenAI Codex Record & Replay (2026-06-18 product launch) \u2014 macOS-only feature observing user GUI workflow + window content during recording; Codex inspects captured workflow and drafts reusable Skill with use conditions + inputs + steps + verification criteria; Skill becomes reusable context for subsequent Codex tasks executing against Computer Use + browser actions + connected plugins; teams share recorded skills broadly; requires Computer Use enabled; initial availability excludes EEA/UK/Switzerland; first production-deployed implementation of demonstration-to-skill induction at general-purpose scope \u2014 sidesteps SKILL.md auto-mining failure mode by keeping human in demonstration loop and LLM drafting Skill text rather than learning policy",
     "date_covered": "2026-06-22"
   },
   {
     "id": "gh:raiyanyahya/recall",
     "url": "https://github.com/raiyanyahya/recall",
-    "title": "Recall: Local project memory for Claude Code (Raiyan Yahya — HN front page 2026-06-21, 96 points) — Claude Code plugin capturing session activity (prompts/responses/files/commands) into append-only .recall/history.md; regenerates .recall/context.md (1-2K-token compact digest: goal + status + next steps + recent git info) via deterministic TF-IDF + TextRank summarization — no LLM API call, no network, no token cost; surfaces prior context on session start with resume prompt; fences context.md as untrusted reference data; MIT-licensed; Python stdlib core with NumPy optional; distributed via Claude Code plugin marketplace; episodic memory pattern that avoids consolidation-decay failure mode by trading retrieval recall for monotonic correctness",
+    "title": "Recall: Local project memory for Claude Code (Raiyan Yahya \u2014 HN front page 2026-06-21, 96 points) \u2014 Claude Code plugin capturing session activity (prompts/responses/files/commands) into append-only .recall/history.md; regenerates .recall/context.md (1-2K-token compact digest: goal + status + next steps + recent git info) via deterministic TF-IDF + TextRank summarization \u2014 no LLM API call, no network, no token cost; surfaces prior context on session start with resume prompt; fences context.md as untrusted reference data; MIT-licensed; Python stdlib core with NumPy optional; distributed via Claude Code plugin marketplace; episodic memory pattern that avoids consolidation-decay failure mode by trading retrieval recall for monotonic correctness",
     "date_covered": "2026-06-22"
   },
   {
     "id": "anthropic-product-2026-06-19-claude-code-2.1.183-2.1.185",
     "url": "https://releasebot.io/updates/anthropic",
-    "title": "Anthropic Claude Code v2.1.183 (2026-06-19) + v2.1.185 (2026-06-21) + Enterprise-Managed MCP Authorization (2026-06-18 beta) — v2.1.183 hardens auto mode by blocking destructive git and infrastructure commands before they fire + adds explicit model-deprecation warnings + /config help; v2.1.185 increases stream-stall retry threshold from 10s to 20s of silence + improves messaging to distinguish thinking from stalled (eliminates spurious retries in scheduled autonomous routines); Enterprise MCP authorization via Okta provides centrally-administrable MCP connector provisioning with zero-touch first-login across Claude chat + Claude Code + Cowork; first vendor-supplied guardrail for long-running autonomous Claude Code loops",
+    "title": "Anthropic Claude Code v2.1.183 (2026-06-19) + v2.1.185 (2026-06-21) + Enterprise-Managed MCP Authorization (2026-06-18 beta) \u2014 v2.1.183 hardens auto mode by blocking destructive git and infrastructure commands before they fire + adds explicit model-deprecation warnings + /config help; v2.1.185 increases stream-stall retry threshold from 10s to 20s of silence + improves messaging to distinguish thinking from stalled (eliminates spurious retries in scheduled autonomous routines); Enterprise MCP authorization via Okta provides centrally-administrable MCP connector provisioning with zero-touch first-login across Claude chat + Claude Code + Cowork; first vendor-supplied guardrail for long-running autonomous Claude Code loops",
     "date_covered": "2026-06-22"
   },
   {
     "id": "arxiv:2606.19808",
     "url": "https://arxiv.org/abs/2606.19808",
-    "title": "Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning (Sajib Acharjee Dip, Dawei Zhou, Liqing Zhang) — SEVRA (Selective Verification for Reasoning Allocation) decides per-example whether to verify initial answer or accept; diagnoses extra reasoning as non-uniformly valuable (repairs failures + wastes compute on correct answers + introduces harmful answer changes via verifier-induced regression); MATH-500 76.3% accuracy at -26.8% post-generation tokens; GSM8K transfer verifies only 3% of examples improving 93.4% → 94.5% accuracy at -91.2% verification tokens; recommendation: tune initial reasoning budget first then apply selective recovery only when explicit checks/bounded retries/auditability/regression-risk control matter",
+    "title": "Think Again or Think Longer? Selective Verification for Budget-Aware Reasoning (Sajib Acharjee Dip, Dawei Zhou, Liqing Zhang) \u2014 SEVRA (Selective Verification for Reasoning Allocation) decides per-example whether to verify initial answer or accept; diagnoses extra reasoning as non-uniformly valuable (repairs failures + wastes compute on correct answers + introduces harmful answer changes via verifier-induced regression); MATH-500 76.3% accuracy at -26.8% post-generation tokens; GSM8K transfer verifies only 3% of examples improving 93.4% \u2192 94.5% accuracy at -91.2% verification tokens; recommendation: tune initial reasoning budget first then apply selective recovery only when explicit checks/bounded retries/auditability/regression-risk control matter",
     "date_covered": "2026-06-22"
   },
   {
     "id": "apertus-mini-2026-06-15",
     "url": "https://arxiv.org/abs/2605.29128",
-    "title": "Apertus Mini (Andrei Panferov, Davit Melikidze, Martin Jaggi, Dan Alistarh — Swiss AI Initiative, released 2026-06-15) — Distilled Apertus-v1.1 family up to 4B parameters trained on 1.7T permissive-license tokens via pre-training distillation from Apertus-8B teacher logits; 24 new checkpoints (3 base + 3 instruct + 8 NVIDIA-quantized + 10 Apple-device-quantized) using Quantization-Aware Distillation (QAD) as short recovery stage on fully-trained models; first multi-billion-parameter open model family explicitly distilled-and-quantized for Apple Silicon rather than post-hoc converted; cost <20% of teacher training; HN re-surfaced 2026-06-21",
+    "title": "Apertus Mini (Andrei Panferov, Davit Melikidze, Martin Jaggi, Dan Alistarh \u2014 Swiss AI Initiative, released 2026-06-15) \u2014 Distilled Apertus-v1.1 family up to 4B parameters trained on 1.7T permissive-license tokens via pre-training distillation from Apertus-8B teacher logits; 24 new checkpoints (3 base + 3 instruct + 8 NVIDIA-quantized + 10 Apple-device-quantized) using Quantization-Aware Distillation (QAD) as short recovery stage on fully-trained models; first multi-billion-parameter open model family explicitly distilled-and-quantized for Apple Silicon rather than post-hoc converted; cost <20% of teacher training; HN re-surfaced 2026-06-21",
     "date_covered": "2026-06-22"
   },
   {
     "id": "arxiv:2606.20474",
     "url": "https://arxiv.org/abs/2606.20474",
-    "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents (Chakrabarti, Limpus, Rana, Bao, Tiwari, Crepaldi, Sirasao — AMD + UCLA + Purdue) — Walsh-Hadamard rotation + codebook quantization with asymmetric K/V treatment and AMD-specific decode-attention kernels anchored against FP8 KV baseline; 3.47x P50 TTFT in cache-pressured late rounds, 2.3x TTFT across all rounds, 1.63x output throughput; framed for multi-round context-heavy agent workflows",
+    "title": "UltraQuant: 4-bit KV Caching for Context-Heavy Agents (Chakrabarti, Limpus, Rana, Bao, Tiwari, Crepaldi, Sirasao \u2014 AMD + UCLA + Purdue) \u2014 Walsh-Hadamard rotation + codebook quantization with asymmetric K/V treatment and AMD-specific decode-attention kernels anchored against FP8 KV baseline; 3.47x P50 TTFT in cache-pressured late rounds, 2.3x TTFT across all rounds, 1.63x output throughput; framed for multi-round context-heavy agent workflows",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20537",
     "url": "https://arxiv.org/abs/2606.20537",
-    "title": "Execution-State Capsules / FlashRT (Liang Su) — Graph-bound checkpoint and restore mechanism for complete restorable execution state (KV caches + recurrent states + convolution states + metadata); FlashRT runtime supports snapshot, restore, fork, rollback at committed boundaries; tested RTX 5090, Jetson AGX Thor, DGX Spark; TTFT speedup 3.9x at 2K tokens to 27x at 16K tokens; sub-millisecond snapshot/restore on GPU-resident state; targets low-latency small-batch on-device interactive AI agents / speech / robot policies",
+    "title": "Execution-State Capsules / FlashRT (Liang Su) \u2014 Graph-bound checkpoint and restore mechanism for complete restorable execution state (KV caches + recurrent states + convolution states + metadata); FlashRT runtime supports snapshot, restore, fork, rollback at committed boundaries; tested RTX 5090, Jetson AGX Thor, DGX Spark; TTFT speedup 3.9x at 2K tokens to 27x at 16K tokens; sub-millisecond snapshot/restore on GPU-resident state; targets low-latency small-batch on-device interactive AI agents / speech / robot policies",
     "date_covered": "2026-06-21"
   },
   {
     "id": "gh:nex-crm/wuphf",
     "url": "https://github.com/nex-crm/wuphf",
-    "title": "WUPHF (nex-crm YC S26) — Go + React multi-agent collaborative office with dual memory (per-agent private notebooks + shared git-native markdown wiki); push-driven broker eliminates idle polling; per-agent MCP scoping (4 tools DM / 27 full office); claimed 97% Claude prompt-cache hit rate + flat ~40k billed tokens/turn across 10 turns vs traditional orchestrators growing 124k to 484k over 8 turns; wiki has entity-fact typed triplets, append-only audit logs, archivist-identity LLM-synthesized briefs, /lookup cited-answer retrieval, /lint contradiction detection; multi-LLM support including Ollama; Sustainable Use License",
+    "title": "WUPHF (nex-crm YC S26) \u2014 Go + React multi-agent collaborative office with dual memory (per-agent private notebooks + shared git-native markdown wiki); push-driven broker eliminates idle polling; per-agent MCP scoping (4 tools DM / 27 full office); claimed 97% Claude prompt-cache hit rate + flat ~40k billed tokens/turn across 10 turns vs traditional orchestrators growing 124k to 484k over 8 turns; wiki has entity-fact typed triplets, append-only audit logs, archivist-identity LLM-synthesized briefs, /lookup cited-answer retrieval, /lint contradiction detection; multi-LLM support including Ollama; Sustainable Use License",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20475",
     "url": "https://arxiv.org/abs/2606.20475",
-    "title": "Marginal Advantage Accumulation / MAA (Mingyu Yang, Keye Zheng, Congchao Cheng, Yujie Liu, Xingkang Lu, Fan Jiang, Yefei Zheng) — Memory-driven agent self-evolution; diagnoses that batch-style trace distillation gives conflicting feedback to same memory operations across batches; constructs differential signals comparable across batches and accumulates signed evidence per operation via EMA with semantic identity merging; post-processing layer on top of existing memory systems; best in 14/16 settings across 4 benchmarks x 4 target models; ~75% optimization-phase token reduction vs online alternatives; fourth distinct memory-self-evolution mechanism in five days",
+    "title": "Marginal Advantage Accumulation / MAA (Mingyu Yang, Keye Zheng, Congchao Cheng, Yujie Liu, Xingkang Lu, Fan Jiang, Yefei Zheng) \u2014 Memory-driven agent self-evolution; diagnoses that batch-style trace distillation gives conflicting feedback to same memory operations across batches; constructs differential signals comparable across batches and accumulates signed evidence per operation via EMA with semantic identity merging; post-processing layer on top of existing memory systems; best in 14/16 settings across 4 benchmarks x 4 target models; ~75% optimization-phase token reduction vs online alternatives; fourth distinct memory-self-evolution mechanism in five days",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20493",
     "url": "https://arxiv.org/abs/2606.20493",
-    "title": "Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems (Zewen Liu) — Formal framework for measuring systematic evaluator bias spread through multi-agent networks; three DeepSeek-chat agents with structured / balanced / evidence-based evaluation approaches; homogeneous contagion coefficients 0.157-0.352 vs cross-model 0.85-1.3 (3-5x stronger); expanding evaluator committee 1 to 3 cuts contagion 72.4%; three propagation regimes identified via spectral radius; 20 pages 4 figures 4 tables; code released",
+    "title": "Contagion Networks: Evaluator Bias Propagation in Multi-Agent LLM Systems (Zewen Liu) \u2014 Formal framework for measuring systematic evaluator bias spread through multi-agent networks; three DeepSeek-chat agents with structured / balanced / evidence-based evaluation approaches; homogeneous contagion coefficients 0.157-0.352 vs cross-model 0.85-1.3 (3-5x stronger); expanding evaluator committee 1 to 3 cuts contagion 72.4%; three propagation regimes identified via spectral radius; 20 pages 4 figures 4 tables; code released",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20560",
     "url": "https://arxiv.org/abs/2606.20560",
-    "title": "How Transparent is DiffusionGemma? (Joshua Engels, Callum McDougall, Bilal Chughtai, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q. Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue, Joao Gabriel Lopes de Oliveira, Rohin Shah, Neel Nanda — Google DeepMind interpretability team) — Decomposes transparency into variable transparency (intermediate computational states) + algorithmic transparency (reasoning reconstruction); DiffusionGemma opaque serial depth 28.6x Gemma 4 by default; interpretable token bottleneck brings ratio to 1.1x with no downstream-task performance loss; identifies diffusion-specific phenomena (non-chronological reasoning, token/sequence smearing, intermediate-context reasoning)",
+    "title": "How Transparent is DiffusionGemma? (Joshua Engels, Callum McDougall, Bilal Chughtai, Janos Kramar, Senthoran Rajamanoharan, Cindy Wu, Arthur Conmy, Asic Q. Chen, Jean Tarbouriech, Min Ma, Brendan O'Donoghue, Joao Gabriel Lopes de Oliveira, Rohin Shah, Neel Nanda \u2014 Google DeepMind interpretability team) \u2014 Decomposes transparency into variable transparency (intermediate computational states) + algorithmic transparency (reasoning reconstruction); DiffusionGemma opaque serial depth 28.6x Gemma 4 by default; interpretable token bottleneck brings ratio to 1.1x with no downstream-task performance loss; identifies diffusion-specific phenomena (non-chronological reasoning, token/sequence smearing, intermediate-context reasoning)",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20113",
     "url": "https://arxiv.org/abs/2606.20113",
-    "title": "When Does Streaming Tool Use Help? Characterizing Tool-Intent Stabilization in Streaming RAG (Elroy Galbraith) — Frames speculative-fire-on-partial-query as tool-intent stabilization; CRAG benchmark 1371 validation questions; at realistic operating point (L=600ms, delta=3w/s, theta=0.8): 73.9% of queries admit substantial latency hiding; 21.3% have verbatim-present gold evidence; 95.2% streamability on favorable slice; Kruskal-Wallis p=0.017 epsilon-squared=0.04 for question-type effects",
+    "title": "When Does Streaming Tool Use Help? Characterizing Tool-Intent Stabilization in Streaming RAG (Elroy Galbraith) \u2014 Frames speculative-fire-on-partial-query as tool-intent stabilization; CRAG benchmark 1371 validation questions; at realistic operating point (L=600ms, delta=3w/s, theta=0.8): 73.9% of queries admit substantial latency hiding; 21.3% have verbatim-present gold evidence; 95.2% streamability on favorable slice; Kruskal-Wallis p=0.017 epsilon-squared=0.04 for question-type effects",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20517",
     "url": "https://arxiv.org/abs/2606.20517",
-    "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages (Maria Ivanova, Pavel Zadorozhny, Rodion Levichev, Ivan Petrov, Adamenko Pavel, Ivan Lopatin, Alexey Kutalev, Dmitrii Babaev; ICLR 2026) — Extends LiveCodeBench from Python-only to 12 additional programming languages by translating tasks while preserving contamination controls; auto-tracks upstream LCB feed; evaluates 24 LLMs; finds Python overfitting + language-specific contamination + substantial cross-language disparities",
+    "title": "Multi-LCB: Extending LiveCodeBench to Multiple Programming Languages (Maria Ivanova, Pavel Zadorozhny, Rodion Levichev, Ivan Petrov, Adamenko Pavel, Ivan Lopatin, Alexey Kutalev, Dmitrii Babaev; ICLR 2026) \u2014 Extends LiveCodeBench from Python-only to 12 additional programming languages by translating tasks while preserving contamination controls; auto-tracks upstream LCB feed; evaluates 24 LLMs; finds Python overfitting + language-specific contamination + substantial cross-language disparities",
     "date_covered": "2026-06-21"
   },
   {
     "id": "arxiv:2606.20529",
     "url": "https://arxiv.org/abs/2606.20529",
-    "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents (Md Nayem Uddin, Amir Saeidi, Eduardo Blanco, Chitta Baral) — Inference-time wrapper maintains task state in a separate ledger rendered into the prompt; validates state-dependent policy constraints before environment-changing tool calls; improves average pass^k across four customer-service domains with largest gains under stricter multi-trial consistency metrics",
+    "title": "LedgerAgent: Structured State for Policy-Adherent Tool-Calling Agents (Md Nayem Uddin, Amir Saeidi, Eduardo Blanco, Chitta Baral) \u2014 Inference-time wrapper maintains task state in a separate ledger rendered into the prompt; validates state-dependent policy constraints before environment-changing tool calls; improves average pass^k across four customer-service domains with largest gains under stricter multi-trial consistency metrics",
     "date_covered": "2026-06-20"
   },
   {
     "id": "arxiv:2606.19911",
     "url": "https://arxiv.org/abs/2606.19911",
-    "title": "Multi-Agent Transactive Memory (MATM, To Eun Kim, Xuhong He, Dishank Jain, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz) — Producer agents contribute completed task trajectories to a shared store; consumer agents retrieve them as procedural knowledge with no joint training or coordination protocol; reports improvements on ALFWorld and WebArena including reduced interaction steps; raw-trajectory pattern avoids LLM-consolidation step that triggers consolidation-decay",
+    "title": "Multi-Agent Transactive Memory (MATM, To Eun Kim, Xuhong He, Dishank Jain, Ambuj Agrawal, Negar Arabzadeh, Fernando Diaz) \u2014 Producer agents contribute completed task trajectories to a shared store; consumer agents retrieve them as procedural knowledge with no joint training or coordination protocol; reports improvements on ALFWorld and WebArena including reduced interaction steps; raw-trajectory pattern avoids LLM-consolidation step that triggers consolidation-decay",
     "date_covered": "2026-06-20"
   },
   {
     "id": "arxiv:2606.20487",
     "url": "https://arxiv.org/abs/2606.20487",
-    "title": "H-RePlan + HeraBench: Hierarchical Recovery for Cross-Device Agent Systems (Shu Yao, Yuhua Luo, Qian Long, Jingru Fan, Zhuoyuan Yu, Yuheng Wang, Lin Wu, Yufan Dang, Huatao Li, Chen Qian) — Separates device-local strategy recovery from orchestrator-level replanning via compact cross-layer failure abstraction; interchangeable execution strategies per device; HeraBench is fault-injected cross-device workflow benchmark on Linux + Android; higher completion / perfect-pass / lower token cost vs global-replan baselines",
+    "title": "H-RePlan + HeraBench: Hierarchical Recovery for Cross-Device Agent Systems (Shu Yao, Yuhua Luo, Qian Long, Jingru Fan, Zhuoyuan Yu, Yuheng Wang, Lin Wu, Yufan Dang, Huatao Li, Chen Qian) \u2014 Separates device-local strategy recovery from orchestrator-level replanning via compact cross-layer failure abstraction; interchangeable execution strategies per device; HeraBench is fault-injected cross-device workflow benchmark on Linux + Android; higher completion / perfect-pass / lower token cost vs global-replan baselines",
     "date_covered": "2026-06-20"
   },
   {
     "id": "arxiv:2606.19605",
     "url": "https://arxiv.org/abs/2606.19605",
-    "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines (Paul Kassianik, Baturay Saglam, Huaibo Zhao, Blaine Nelson, Supriti Vijay, Aman Priyanshu, Amin Karbasi, Cisco Foundation AI) — Pipeline-aware optimizer diagnoses retrieval/reasoning/formatting bottlenecks; prompt edits first, escalates to structural changes when attribution analysis flags architectural constraints; beats GEPA on 15/18 model-benchmark comparisons; mean +14.1 pp where ranges are non-overlapping; +33.8 pp mean on HoVer + IFBench (structural-change tasks); +2.0 to +7.1 pp on CTIBench-RCM security tasks",
+    "title": "FAPO: Fully Autonomous Prompt Optimization of Multi-Step LLM Pipelines (Paul Kassianik, Baturay Saglam, Huaibo Zhao, Blaine Nelson, Supriti Vijay, Aman Priyanshu, Amin Karbasi, Cisco Foundation AI) \u2014 Pipeline-aware optimizer diagnoses retrieval/reasoning/formatting bottlenecks; prompt edits first, escalates to structural changes when attribution analysis flags architectural constraints; beats GEPA on 15/18 model-benchmark comparisons; mean +14.1 pp where ranges are non-overlapping; +33.8 pp mean on HoVer + IFBench (structural-change tasks); +2.0 to +7.1 pp on CTIBench-RCM security tasks",
     "date_covered": "2026-06-20"
   },
   {
     "id": "hf-blog-2026-06-18-is-it-agentic-enough",
     "url": "https://huggingface.co/blog/is-it-agentic-enough",
-    "title": "Is It Agentic Enough? Benchmarking Open Models on Your Own Tooling (HuggingFace) — Three-tier harness (Bare = pip-installed transformers / Clone = full repo source / Skill = packaged docs + task examples in context); large models (Kimi-K2.6, GLM-5.1, MiniMax-M2.7) reduce turns + time under CLI+Skill despite initial input-token spike; small models break catastrophically — Qwen3-14B collapses 100% → 0% on sentiment classification under Skill variant by treating CLI docs as executable tool; agent-facing APIs require capability-spectrum evaluation",
+    "title": "Is It Agentic Enough? Benchmarking Open Models on Your Own Tooling (HuggingFace) \u2014 Three-tier harness (Bare = pip-installed transformers / Clone = full repo source / Skill = packaged docs + task examples in context); large models (Kimi-K2.6, GLM-5.1, MiniMax-M2.7) reduce turns + time under CLI+Skill despite initial input-token spike; small models break catastrophically \u2014 Qwen3-14B collapses 100% \u2192 0% on sentiment classification under Skill variant by treating CLI docs as executable tool; agent-facing APIs require capability-spectrum evaluation",
     "date_covered": "2026-06-20"
   },
   {
     "id": "arxiv:2606.20363",
     "url": "https://arxiv.org/abs/2606.20363",
-    "title": "Automating SKILL.md Generation for Computer-Using Agents via Interaction Trajectory Mining (Yuexing Hao, Xiaomin Li) — Three-stage pipeline (segment GUI trajectories → cluster into candidate skills → train skill-aware policies via GRPO); five of eight clusters reach ≥0.95 purity against InteraSkill Workflows labels; GRPO improves InteraSkill skill-step accuracy 18.5% → 20.5% only, negligible on BrowseComp+, and method underperforms trivial frequency priors on key source-domain metrics; framed as diagnostic — auto skill mining is interpretable but not yet reliable policy-improvement substrate; boundary detector / segment representation / offline reward model identified as bottlenecks",
+    "title": "Automating SKILL.md Generation for Computer-Using Agents via Interaction Trajectory Mining (Yuexing Hao, Xiaomin Li) \u2014 Three-stage pipeline (segment GUI trajectories \u2192 cluster into candidate skills \u2192 train skill-aware policies via GRPO); five of eight clusters reach \u22650.95 purity against InteraSkill Workflows labels; GRPO improves InteraSkill skill-step accuracy 18.5% \u2192 20.5% only, negligible on BrowseComp+, and method underperforms trivial frequency priors on key source-domain metrics; framed as diagnostic \u2014 auto skill mining is interpretable but not yet reliable policy-improvement substrate; boundary detector / segment representation / offline reward model identified as bottlenecks",
     "date_covered": "2026-06-20"
   },
   {
     "id": "deepmind-blog-2026-06-18-ai-control-roadmap",
     "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-    "title": "Securing the Future of AI Agents: AI Control Roadmap (Google DeepMind security + Gemini Spark teams, June 18 2026) — Defense-in-depth framework treating internal AI agents as potentially-misaligned insiders; MITRE ATT&CK-adapted threat modeling; trusted AI supervisors monitor agent reasoning/actions with pre-execution blocking; capability scaling tied to AI advancement levels; analyzed one million coding-agent trajectories finding most flagged events come from agent misinterpretation/overeagerness rather than adversarial intent; informed live monitoring for Gemini Spark; first public production-scale base rate on agent overreach vs. attack; two artifacts: AI Control Roadmap technical report + Three Layers of Agent Security policy framework",
+    "title": "Securing the Future of AI Agents: AI Control Roadmap (Google DeepMind security + Gemini Spark teams, June 18 2026) \u2014 Defense-in-depth framework treating internal AI agents as potentially-misaligned insiders; MITRE ATT&CK-adapted threat modeling; trusted AI supervisors monitor agent reasoning/actions with pre-execution blocking; capability scaling tied to AI advancement levels; analyzed one million coding-agent trajectories finding most flagged events come from agent misinterpretation/overeagerness rather than adversarial intent; informed live monitoring for Gemini Spark; first public production-scale base rate on agent overreach vs. attack; two artifacts: AI Control Roadmap technical report + Three Layers of Agent Security policy framework",
     "date_covered": "2026-06-20"
   },
   {
     "id": "arxiv:2606.19544",
     "url": "https://arxiv.org/abs/2606.19544",
-    "title": "Reliability without Validity: A Systematic, Large-Scale Evaluation of LLM-as-a-Judge (Justin D. Norman, Michael U. Rivera, D. Alex Hughes) — 21 judges from 9 providers across MT-Bench / JudgeBench / RewardBench; 118 runs, ~541,000 individual judgments, three protocols (agreement, consistency, bias); universal 33–41 pp gap between exact-match agreement and Cohen's kappa on MT-Bench (most LLM-judge numbers chance-inflated); judge rankings shift up to 14 positions across benchmarks; consistency-bias paradox — two production judges show >0.95 test-retest reliability simultaneously with >0.10 position bias; verbosity bias minimal (<0.011) under single pairwise rubrics; proposes Minimum Viable Validation Protocol",
+    "title": "Reliability without Validity: A Systematic, Large-Scale Evaluation of LLM-as-a-Judge (Justin D. Norman, Michael U. Rivera, D. Alex Hughes) \u2014 21 judges from 9 providers across MT-Bench / JudgeBench / RewardBench; 118 runs, ~541,000 individual judgments, three protocols (agreement, consistency, bias); universal 33\u201341 pp gap between exact-match agreement and Cohen's kappa on MT-Bench (most LLM-judge numbers chance-inflated); judge rankings shift up to 14 positions across benchmarks; consistency-bias paradox \u2014 two production judges show >0.95 test-retest reliability simultaneously with >0.10 position bias; verbosity bias minimal (<0.011) under single pairwise rubrics; proposes Minimum Viable Validation Protocol",
     "date_covered": "2026-06-20"
   },
   {
     "id": "arxiv:2606.19348",
     "url": "https://arxiv.org/abs/2606.19348",
-    "title": "DeepSeek-V4 (DeepSeek-AI, 319 authors, submitted by Wenfeng Liang) — Preview Release of MoE Pair Supporting 1M-Token Context; V4-Pro 1.6T Parameters / 49B Activated + V4-Flash 284B Parameters / 13B Activated; Three Architectural Innovations (Hybrid Attention Combining Compressed Sparse Attention + Heavily Compressed Attention / Manifold-Constrained Hyper-Connections / Muon Optimizer); 32T+ Pretraining Tokens with Full Post-Training; At 1M-Token Context vs V3.2 — 27% of Single-Token Inference FLOPs + 10% of KV Cache; Strongest Single-Paper Push on Long-Context KV-Cache Axis Since V3.2; Weights on Hugging Face deepseek-ai/deepseek-v4",
+    "title": "DeepSeek-V4 (DeepSeek-AI, 319 authors, submitted by Wenfeng Liang) \u2014 Preview Release of MoE Pair Supporting 1M-Token Context; V4-Pro 1.6T Parameters / 49B Activated + V4-Flash 284B Parameters / 13B Activated; Three Architectural Innovations (Hybrid Attention Combining Compressed Sparse Attention + Heavily Compressed Attention / Manifold-Constrained Hyper-Connections / Muon Optimizer); 32T+ Pretraining Tokens with Full Post-Training; At 1M-Token Context vs V3.2 \u2014 27% of Single-Token Inference FLOPs + 10% of KV Cache; Strongest Single-Paper Push on Long-Context KV-Cache Axis Since V3.2; Weights on Hugging Face deepseek-ai/deepseek-v4",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.19847",
     "url": "https://arxiv.org/abs/2606.19847",
-    "title": "AtomMem (Yao / S. Li / Z. Zheng / H. Zheng / Q. Liu / Xu / Chen) — Long-Term Memory System for LLM Agents via Atomic Facts; Four-Stage Pipeline (Fact Executor Extracts High-Value Atomic Facts → Hierarchical Event Structures → Temporal Profiles Tracking Dynamically Evolving User Attributes → Associative Memory Graph Activated at Retrieval); State-of-the-Art on LoCoMo Benchmark Across Reasoning Tasks; Fourth Per-User Memory Substrate in Five Days (vs UaC Typed Code / PreAct State-Machine Programs / Engram Parametric Hash-Keyed Edits); Stays in Context Tier But Adds Hierarchical-Event + Temporal-Profile Layer; 19 Pages 10 Figures 5 Tables",
+    "title": "AtomMem (Yao / S. Li / Z. Zheng / H. Zheng / Q. Liu / Xu / Chen) \u2014 Long-Term Memory System for LLM Agents via Atomic Facts; Four-Stage Pipeline (Fact Executor Extracts High-Value Atomic Facts \u2192 Hierarchical Event Structures \u2192 Temporal Profiles Tracking Dynamically Evolving User Attributes \u2192 Associative Memory Graph Activated at Retrieval); State-of-the-Art on LoCoMo Benchmark Across Reasoning Tasks; Fourth Per-User Memory Substrate in Five Days (vs UaC Typed Code / PreAct State-Machine Programs / Engram Parametric Hash-Keyed Edits); Stays in Context Tier But Adds Hierarchical-Event + Temporal-Profile Layer; 19 Pages 10 Figures 5 Tables",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.19667",
     "url": "https://arxiv.org/abs/2606.19667",
-    "title": "CacheWeaver (Tan / Gu / M. Li) — Cache-Aware Evidence Ordering for Grounded RAG; Diagnoses That Adjacent Queries Retrieve Overlapping Evidence in Different Orders So Set Overlap Doesn't Translate to Prefix Overlap; Prompt-Layer Scheduler (Engine + Retrieval Untouched) Maintains Prefix Tree Over Recently Served Evidence Sequences + Greedy Walk Places Most Reusable Prefix First; Across Three vLLM Configs — Median TTFT Down 20–33% vs Retrieval-Order Prefix Caching With No Quality Drop; Greedy Policy Reaches 97.5% of Oracle Ordering's Median TTFT Gain; Most Reusable Prefix Locality Recoverable by Simple Scheduling Without Changing Serving Engine",
+    "title": "CacheWeaver (Tan / Gu / M. Li) \u2014 Cache-Aware Evidence Ordering for Grounded RAG; Diagnoses That Adjacent Queries Retrieve Overlapping Evidence in Different Orders So Set Overlap Doesn't Translate to Prefix Overlap; Prompt-Layer Scheduler (Engine + Retrieval Untouched) Maintains Prefix Tree Over Recently Served Evidence Sequences + Greedy Walk Places Most Reusable Prefix First; Across Three vLLM Configs \u2014 Median TTFT Down 20\u201333% vs Retrieval-Order Prefix Caching With No Quality Drop; Greedy Policy Reaches 97.5% of Oracle Ordering's Median TTFT Gain; Most Reusable Prefix Locality Recoverable by Simple Scheduling Without Changing Serving Engine",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.20097",
     "url": "https://arxiv.org/abs/2606.20097",
-    "title": "HydraHead (Tan / W. Chen / Shen / Y. Liu / X. Shen / Y. Wu / Ye) — Head-Axis Hybridization of Full Attention + Linear Attention Instead of Layer-Wise; Interpretability Analysis Shows Layers Block-Wise Functionally Similar But Individual Heads Within Same Layer Display Distinct Specialization; Two Innovations (Interpretability-Driven Selection Strategy Identifies Retrieval-Critical Heads Preserving FA Only for Them + Scale-Normalized Fusion Module Reconciles FA/LA Distributional Gap); Three-Stage Transfer Pipeline With Parameter Reuse + Distillation; Trained on Only 15B Tokens; +69% Over Baseline at 512K Context Length Approaching Qwen3.5 (256K Native) at Comparable Size; Matches 3:1 Layer-Wise Hybrid Performance at 7:1 LA-to-FA Ratio",
+    "title": "HydraHead (Tan / W. Chen / Shen / Y. Liu / X. Shen / Y. Wu / Ye) \u2014 Head-Axis Hybridization of Full Attention + Linear Attention Instead of Layer-Wise; Interpretability Analysis Shows Layers Block-Wise Functionally Similar But Individual Heads Within Same Layer Display Distinct Specialization; Two Innovations (Interpretability-Driven Selection Strategy Identifies Retrieval-Critical Heads Preserving FA Only for Them + Scale-Normalized Fusion Module Reconciles FA/LA Distributional Gap); Three-Stage Transfer Pipeline With Parameter Reuse + Distillation; Trained on Only 15B Tokens; +69% Over Baseline at 512K Context Length Approaching Qwen3.5 (256K Native) at Comparable Size; Matches 3:1 Layer-Wise Hybrid Performance at 7:1 LA-to-FA Ratio",
     "date_covered": "2026-06-19"
   },
   {
     "id": "anthropic-research-2026-06-18-project-fetch-phase-two",
     "url": "https://www.anthropic.com/research/project-fetch-phase-two",
-    "title": "Anthropic Frontier Red Team — Project Fetch: Phase Two (Ilie / Freeman / Troy, June 18, 2026); Claude Opus 4.7 Autonomously Controls Robotic Quadruped Through Code (Connects to Sensors / Writes Control Programs / Detects Objects); Three Trials With Adaptive Thinking at Maximum Effort in Claude Code; Human Involvement Limited to Laptop Setup + Initial Prompting + Task Approvals; ~20× Faster Than Fastest Human Team; On Four Shared Tasks — 37.7× Faster Than Non-Claude Humans + 18.9× Faster Than Claude-Assisted Humans + 1,045 LOC vs 10,309 LOC for Human-Claude Team at Equal-or-Better Results; Minimal Variance Across Three Trial Runs; Anthropic Explicitly Disclaims 'LLMs Have Solved Robotics' Framing (Closed-Loop Control Like Beach-Ball Retrieval Still Breaks); First Frontier-Model Robotics Win Not Going Through Behavior Cloning or Vision-Language-Action Model",
+    "title": "Anthropic Frontier Red Team \u2014 Project Fetch: Phase Two (Ilie / Freeman / Troy, June 18, 2026); Claude Opus 4.7 Autonomously Controls Robotic Quadruped Through Code (Connects to Sensors / Writes Control Programs / Detects Objects); Three Trials With Adaptive Thinking at Maximum Effort in Claude Code; Human Involvement Limited to Laptop Setup + Initial Prompting + Task Approvals; ~20\u00d7 Faster Than Fastest Human Team; On Four Shared Tasks \u2014 37.7\u00d7 Faster Than Non-Claude Humans + 18.9\u00d7 Faster Than Claude-Assisted Humans + 1,045 LOC vs 10,309 LOC for Human-Claude Team at Equal-or-Better Results; Minimal Variance Across Three Trial Runs; Anthropic Explicitly Disclaims 'LLMs Have Solved Robotics' Framing (Closed-Loop Control Like Beach-Ball Retrieval Still Breaks); First Frontier-Model Robotics Win Not Going Through Behavior Cloning or Vision-Language-Action Model",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.20058",
     "url": "https://arxiv.org/abs/2606.20058",
-    "title": "Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale (Dhanyamraju / Raghav / Lee) — DAG Plan-and-Execute vs ReAct Across 208 Production-Derived Enterprise Scenarios at Three Scales (Persona <10 Agents / Department 20–80 / Enterprise 200); Task Manager Introduced for Continuous Operation via Priority Inference + Related-Event Merging + Preemption; KEY FINDINGS: (a) Scale Dominates Orchestration Performance Not Task Complexity (Agent Discovery Noise Is Primary Bottleneck at Enterprise Scale); (b) Counterintuitive Direction — Simple Tasks Degrade More Sharply Than Complex Ones; (c) DAG Plan-and-Execute Precise + Structured at Small Scale But Overhead-Worsened at Enterprise Scale; (d) ReAct Degrades More Gracefully via Incremental Failure Handling; Task Manager Cuts High-Priority Queue Latency 14–75% + Improves Related-Event Correctness >20 Percentage Points at Enterprise Scale",
+    "title": "Autonomous Event-Driven Multi-Agent Orchestration for Enterprise AI at Scale (Dhanyamraju / Raghav / Lee) \u2014 DAG Plan-and-Execute vs ReAct Across 208 Production-Derived Enterprise Scenarios at Three Scales (Persona <10 Agents / Department 20\u201380 / Enterprise 200); Task Manager Introduced for Continuous Operation via Priority Inference + Related-Event Merging + Preemption; KEY FINDINGS: (a) Scale Dominates Orchestration Performance Not Task Complexity (Agent Discovery Noise Is Primary Bottleneck at Enterprise Scale); (b) Counterintuitive Direction \u2014 Simple Tasks Degrade More Sharply Than Complex Ones; (c) DAG Plan-and-Execute Precise + Structured at Small Scale But Overhead-Worsened at Enterprise Scale; (d) ReAct Degrades More Gracefully via Incremental Failure Handling; Task Manager Cuts High-Priority Queue Latency 14\u201375% + Improves Related-Event Correctness >20 Percentage Points at Enterprise Scale",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.19659",
     "url": "https://arxiv.org/abs/2606.19659",
-    "title": "SAGE-OPD (Y. Zhou / Lizhu Zhang / Y. Wu / Mingyi Wang / Bo Peng / Jiayi Liu / Xiangjun Fan / Zhuokai Zhao) — Verifier-Free Selective Intervention Framework for Multi-Turn On-Policy Distillation; Diagnoses Four Failure Modes (Early Errors Compound Across Trajectory / Dense Token-Level OPD Over-Penalizes Semantically Valid Alternatives / Repeated-Action Local Degeneracies Get Reinforced / Teacher Supervision Unreliable on Off-Distribution Histories); Three Mechanisms (Observe Environment Feedback First Then Decide Skip/Intervene Per Turn / Token-Level Distillation Weighted by Teacher Confidence on Off-Distribution Histories / Loss Normalization Preserves Standard-OPD Loss Scale); Up to +13.3% Relative Improvement in ALFWorld Unseen Success Rate Over Standard OPD",
+    "title": "SAGE-OPD (Y. Zhou / Lizhu Zhang / Y. Wu / Mingyi Wang / Bo Peng / Jiayi Liu / Xiangjun Fan / Zhuokai Zhao) \u2014 Verifier-Free Selective Intervention Framework for Multi-Turn On-Policy Distillation; Diagnoses Four Failure Modes (Early Errors Compound Across Trajectory / Dense Token-Level OPD Over-Penalizes Semantically Valid Alternatives / Repeated-Action Local Degeneracies Get Reinforced / Teacher Supervision Unreliable on Off-Distribution Histories); Three Mechanisms (Observe Environment Feedback First Then Decide Skip/Intervene Per Turn / Token-Level Distillation Weighted by Teacher Confidence on Off-Distribution Histories / Loss Normalization Preserves Standard-OPD Loss Scale); Up to +13.3% Relative Improvement in ALFWorld Unseen Success Rate Over Standard OPD",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.19704",
     "url": "https://arxiv.org/abs/2606.19704",
-    "title": "Beyond Static Leaderboards (Patel / El Maghraoui / Lin et al., IBM, 61 Authors) — Aggregate-Score Leaderboards (HELM + Successors) Systematically Underspecify Deployed-Agent Evaluation; Rankings From Aggregate Scores Fail to Transfer to OOD Settings (Competition Retrospectives Show Rank Instability); Three Contributions (Methodological Shift From In-Sample Mean Scores to Predictive Validity = Correlation Between In-Sample + OOD Rank / Twelve-Tier Measurement Framework Exposing Deployment-Relevant Dimensions / Three Falsifiable OOD Criteria + Pre-Registered Pilot Design); Fourteen Parallel Implementation Studies on MCP-Based Industrial Agent Benchmark Varying Asset Classes + Orchestrations + Retrieval Strategies + Reasoning Modes + Infrastructure Optimizations; Largest Coordinated Evaluation-Methodology Study Published in 2026",
+    "title": "Beyond Static Leaderboards (Patel / El Maghraoui / Lin et al., IBM, 61 Authors) \u2014 Aggregate-Score Leaderboards (HELM + Successors) Systematically Underspecify Deployed-Agent Evaluation; Rankings From Aggregate Scores Fail to Transfer to OOD Settings (Competition Retrospectives Show Rank Instability); Three Contributions (Methodological Shift From In-Sample Mean Scores to Predictive Validity = Correlation Between In-Sample + OOD Rank / Twelve-Tier Measurement Framework Exposing Deployment-Relevant Dimensions / Three Falsifiable OOD Criteria + Pre-Registered Pilot Design); Fourteen Parallel Implementation Studies on MCP-Based Industrial Agent Benchmark Varying Asset Classes + Orchestrations + Retrieval Strategies + Reasoning Modes + Infrastructure Optimizations; Largest Coordinated Evaluation-Methodology Study Published in 2026",
     "date_covered": "2026-06-19"
   },
   {
     "id": "arxiv:2606.19172",
     "url": "https://arxiv.org/abs/2606.19172",
-    "title": "User as Engram (Bojie Li, single-author, day-three of compile-to-executable-substrate program) — Internalizing Per-User Memory as Local Parametric Edits to Hash-Keyed Memory Tables + Shared Reasoning Adapter; ~33,000× Smaller Footprint Than Per-User LoRA; 5.6× Higher Indirect-Reasoning Accuracy on Average; Never Degrades Base-Model Reasoning for Any User (per-user LoRA cannot guarantee this); Edits Compose Additively and Losslessly in Shared Hash Tables; Past ~100 Facts Per-User Engram Tables Outperform Retrieval Pipelines on Models 2.5× Larger; Glass-Box Lookups Switched on at Specific Triggers Without Contaminating Unrelated Text; Hippocampus / Neocortex Biological Analogy",
+    "title": "User as Engram (Bojie Li, single-author, day-three of compile-to-executable-substrate program) \u2014 Internalizing Per-User Memory as Local Parametric Edits to Hash-Keyed Memory Tables + Shared Reasoning Adapter; ~33,000\u00d7 Smaller Footprint Than Per-User LoRA; 5.6\u00d7 Higher Indirect-Reasoning Accuracy on Average; Never Degrades Base-Model Reasoning for Any User (per-user LoRA cannot guarantee this); Edits Compose Additively and Losslessly in Shared Hash Tables; Past ~100 Facts Per-User Engram Tables Outperform Retrieval Pipelines on Models 2.5\u00d7 Larger; Glass-Box Lookups Switched on at Specific Triggers Without Contaminating Unrelated Text; Hippocampus / Neocortex Biological Analogy",
     "date_covered": "2026-06-18"
   },
   {
     "id": "arxiv:2606.18947",
     "url": "https://arxiv.org/abs/2606.18947",
-    "title": "DSG / Decoupled Search Grounding (Boateng / MacDonald / Kumar / Kodwani / Das) — MCP-Compatible Gateway That Moves Grounding Outside the Reasoning Model; Exposes Provider Routing / Source-Aware Context Rendering / Configured Fallback / Retrieval-Depth Control / Exact + Semantic Caching as First-Class Controls; Across Five Frontier Models on SimpleQA / FreshQA / HotpotQA — Native Search Wins on Recency-Sensitive FreshQA; SimpleQA 86.1% vs 87.7% Native at 91% Lower Cost; 99.4% Warm-Cache Hit Rate + 68% Lower Latency; Production E-Commerce QIU Workload Matches or Slightly Exceeds Native Search Accuracy at >98% Cost Reduction; Real-Time Grounding Is an Optimizable Interface Boundary Not a Fixed Model Feature",
+    "title": "DSG / Decoupled Search Grounding (Boateng / MacDonald / Kumar / Kodwani / Das) \u2014 MCP-Compatible Gateway That Moves Grounding Outside the Reasoning Model; Exposes Provider Routing / Source-Aware Context Rendering / Configured Fallback / Retrieval-Depth Control / Exact + Semantic Caching as First-Class Controls; Across Five Frontier Models on SimpleQA / FreshQA / HotpotQA \u2014 Native Search Wins on Recency-Sensitive FreshQA; SimpleQA 86.1% vs 87.7% Native at 91% Lower Cost; 99.4% Warm-Cache Hit Rate + 68% Lower Latency; Production E-Commerce QIU Workload Matches or Slightly Exceeds Native Search Accuracy at >98% Cost Reduction; Real-Time Grounding Is an Optimizable Interface Boundary Not a Fixed Model Feature",
     "date_covered": "2026-06-18"
   },
   {
     "id": "arxiv:2606.18543",
     "url": "https://arxiv.org/abs/2606.18543",
-    "title": "CEO-Bench (Chen / Narasimhan / Liu) — 500-Day Startup Simulation Benchmark Testing Long-Horizon Uncertainty + Noisy-Environment Information Acquisition + Adaptation + Multi-Part Orchestration Together; Agent Manages Pricing / Marketing / Budgeting Through Programmable Python Interface; Strongest Agents Write Code That Simulates Customer Cohorts to Forecast Cash and Mines Negotiation History for Hidden Customer Preferences; Only Claude Opus 4.8 and GPT-5.5 Finish Above $1M Starting Balance + Neither Consistently Turns a Profit; First Bench That Cleanly Exposes Long-Horizon Autonomous-Loop Ceiling vs Short-Horizon Leaderboard Movement",
+    "title": "CEO-Bench (Chen / Narasimhan / Liu) \u2014 500-Day Startup Simulation Benchmark Testing Long-Horizon Uncertainty + Noisy-Environment Information Acquisition + Adaptation + Multi-Part Orchestration Together; Agent Manages Pricing / Marketing / Budgeting Through Programmable Python Interface; Strongest Agents Write Code That Simulates Customer Cohorts to Forecast Cash and Mines Negotiation History for Hidden Customer Preferences; Only Claude Opus 4.8 and GPT-5.5 Finish Above $1M Starting Balance + Neither Consistently Turns a Profit; First Bench That Cleanly Exposes Long-Horizon Autonomous-Loop Ceiling vs Short-Horizon Leaderboard Movement",
     "date_covered": "2026-06-18"
   },
   {
     "id": "arxiv:2606.18890",
     "url": "https://arxiv.org/abs/2606.18890",
-    "title": "SGCD / Skill-Guided Continuation Distillation (Fan / Yu / Shen / Yan / Peng / Peng / Zhang / Zhang / Tan / Ge / Zhang / Jiang) — Iterative Self-Improvement Framework Generating Successful Continuations From Realistic Off-Trajectory States to Augment Training Data; Skill Extraction From Both Successful and Failed Rollouts (Continuation Plans / Critical Targets / Failure Traps / Success Criteria); Hybrid Training Mixing Expert Trajectories With Model-Generated Continuations; OSWorld-Verified Three Base Models From Low-30% Range to Over 50%; Base-Model-Agnostic Transfer Across Architectures",
+    "title": "SGCD / Skill-Guided Continuation Distillation (Fan / Yu / Shen / Yan / Peng / Peng / Zhang / Zhang / Tan / Ge / Zhang / Jiang) \u2014 Iterative Self-Improvement Framework Generating Successful Continuations From Realistic Off-Trajectory States to Augment Training Data; Skill Extraction From Both Successful and Failed Rollouts (Continuation Plans / Critical Targets / Failure Traps / Success Criteria); Hybrid Training Mixing Expert Trajectories With Model-Generated Continuations; OSWorld-Verified Three Base Models From Low-30% Range to Over 50%; Base-Model-Agnostic Transfer Across Architectures",
     "date_covered": "2026-06-18"
   },
   {
     "id": "arxiv:2606.19047",
     "url": "https://arxiv.org/abs/2606.19047",
-    "title": "RODS / Reward-Driven Online Data Synthesis (Fang / Lu / Zhuang / Lin) — Multi-Turn Tool-Use RL Bottlenecked by Static-Dataset Sample Depletion (GRPO Gradient Signal Concentrates on Tasks at Capability Boundary Per Popoviciu Upper Bound); Uses Progress Reward Variance as Zero-Cost Boundary Detector (No Extra Inference Beyond Training Rollouts); Synthesizes New Multi-Turn Variants Matching Structural Complexity (API Topology / Dependency Depth) via Skill-Aligned Resampling Pipeline; Dynamic Replay Buffer Co-Evolving With Policy; 400 Human Seeds + ~800 Active Samples Matches 17K-Sample Offline Pipeline at ~20× Fewer Trajectories; Beats Fixed-Data RL and Environment Augmentation",
+    "title": "RODS / Reward-Driven Online Data Synthesis (Fang / Lu / Zhuang / Lin) \u2014 Multi-Turn Tool-Use RL Bottlenecked by Static-Dataset Sample Depletion (GRPO Gradient Signal Concentrates on Tasks at Capability Boundary Per Popoviciu Upper Bound); Uses Progress Reward Variance as Zero-Cost Boundary Detector (No Extra Inference Beyond Training Rollouts); Synthesizes New Multi-Turn Variants Matching Structural Complexity (API Topology / Dependency Depth) via Skill-Aligned Resampling Pipeline; Dynamic Replay Buffer Co-Evolving With Policy; 400 Human Seeds + ~800 Active Samples Matches 17K-Sample Offline Pipeline at ~20\u00d7 Fewer Trajectories; Beats Fixed-Data RL and Environment Augmentation",
     "date_covered": "2026-06-18"
   },
   {
     "id": "arxiv:2606.18781",
     "url": "https://arxiv.org/abs/2606.18781",
-    "title": "DICE / Evidence Dilution Index (Lyu / Wang / Cai / Guo / Liu) — Names Document-Side Early Compression as Failure Mode in Long-Document Dense Retrieval (Single-Vector Encoding Dilutes Important Spans); EDI Metric Measures Gap Between Document-Level and Chunk-Level Representations; DICE Training-Free Method Segments Documents Into Chunks + Encodes Independently + Aggregates Into Single Vector; LongEmbed Benchmark — Dream/Passkey >4k Tokens 30.0→90.0 + Dream/Needle >4k 23.3→74.0; Lower EDI Than Baseline on 92.8% of 12,779 Filtered Samples; Consistent Across Four Backbones; Public GitHub Available",
+    "title": "DICE / Evidence Dilution Index (Lyu / Wang / Cai / Guo / Liu) \u2014 Names Document-Side Early Compression as Failure Mode in Long-Document Dense Retrieval (Single-Vector Encoding Dilutes Important Spans); EDI Metric Measures Gap Between Document-Level and Chunk-Level Representations; DICE Training-Free Method Segments Documents Into Chunks + Encodes Independently + Aggregates Into Single Vector; LongEmbed Benchmark \u2014 Dream/Passkey >4k Tokens 30.0\u219290.0 + Dream/Needle >4k 23.3\u219274.0; Lower EDI Than Baseline on 92.8% of 12,779 Filtered Samples; Consistent Across Four Backbones; Public GitHub Available",
     "date_covered": "2026-06-18"
   },
   {
     "id": "anthropic-research-2026-06-16-agentic-coding-expertise",
     "url": "https://www.anthropic.com/research/claude-code-expertise",
-    "title": "Anthropic Economic Research — Agentic Coding and Persistent Returns to Expertise (June 16, 2026); Privacy-Preserving Analysis of ~400,000 Interactive Claude Code Sessions From ~235,000 Users Oct 2025–Apr 2026; Experts Trigger ~12 Claude Actions Per Prompt vs ~5 for Novices; Verified Success 28–33% (Intermediate/Expert) vs 15% (Novice); Recovery From Troubled Sessions 15% (Experts) vs 4% (Novices); Novice Abandonment Rate on Difficult Sessions 19% vs 5–7% Others; All Major Occupations Achieve 27–34% Verified Success Within Seven Percentage Points of Software Engineers; Average Session Value +27% Over Seven-Month Period; Domain Expertise (Not Coding Background) Is the Differentiator",
+    "title": "Anthropic Economic Research \u2014 Agentic Coding and Persistent Returns to Expertise (June 16, 2026); Privacy-Preserving Analysis of ~400,000 Interactive Claude Code Sessions From ~235,000 Users Oct 2025\u2013Apr 2026; Experts Trigger ~12 Claude Actions Per Prompt vs ~5 for Novices; Verified Success 28\u201333% (Intermediate/Expert) vs 15% (Novice); Recovery From Troubled Sessions 15% (Experts) vs 4% (Novices); Novice Abandonment Rate on Difficult Sessions 19% vs 5\u20137% Others; All Major Occupations Achieve 27\u201334% Verified Success Within Seven Percentage Points of Software Engineers; Average Session Value +27% Over Seven-Month Period; Domain Expertise (Not Coding Background) Is the Differentiator",
     "date_covered": "2026-06-18"
   },
   {
     "id": "anthropic-news-2026-06-17-seoul-office",
     "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-    "title": "Anthropic Opens Seoul Office + Announces Korean AI Ecosystem Partnerships (Business-Only, No Technical Content) — KiYoung Choi Leads Seoul Office; MOU With Korean Ministry of Science and ICT (AI Safety + Cybersecurity + Korean-Language Model Safety Evaluation); NAVER Deploys Claude Code Across Engineering Org; Samsung SDS / LG CNS / Hanwha Solutions Roll Out Claude to Thousands of Employees; Nexon Uses Claude Code for Live-Service Game Development; Channel Corp Integrates Claude Into Customer Service Platform (230,000+ Companies); National AI Research Lab Partnership Provides Claude Access to ~60 Researchers Across Four Universities; Korea Among Top Dozen Countries for Claude.ai Use",
+    "title": "Anthropic Opens Seoul Office + Announces Korean AI Ecosystem Partnerships (Business-Only, No Technical Content) \u2014 KiYoung Choi Leads Seoul Office; MOU With Korean Ministry of Science and ICT (AI Safety + Cybersecurity + Korean-Language Model Safety Evaluation); NAVER Deploys Claude Code Across Engineering Org; Samsung SDS / LG CNS / Hanwha Solutions Roll Out Claude to Thousands of Employees; Nexon Uses Claude Code for Live-Service Game Development; Channel Corp Integrates Claude Into Customer Service Platform (230,000+ Companies); National AI Research Lab Partnership Provides Claude Access to ~60 Researchers Across Four Universities; Korea Among Top Dozen Countries for Claude.ai Use",
     "date_covered": "2026-06-18"
   },
   {
     "id": "arxiv:2606.17929",
     "url": "https://arxiv.org/abs/2606.17929",
-    "title": "PreAct (Bojie Li, single-author) — Computer-Using Agents That Get Faster on Repeated Tasks; Compiles Successful Runs into Small State-Machine Programs (States Check Screen Conditions, Transitions Execute UI Actions); Replays 8.5–13× Faster Without Per-Step LM Calls; Screen-State Verification Per Action + Fallback to Agent on Divergence; Only Programs Passing Independent Clean Re-Run Verification Are Stored; +1.75–2.6 Tasks Per Benchmark vs No-Guardrail Baseline; Prompt Wording / Runtime Safeguards / Retrieval Method Had Minimal Effect — Compile-and-Verify Primitive Is the Leverage; Day-Two of Compile-to-Executable-Substrate Thesis (Same Author as User as Code)",
+    "title": "PreAct (Bojie Li, single-author) \u2014 Computer-Using Agents That Get Faster on Repeated Tasks; Compiles Successful Runs into Small State-Machine Programs (States Check Screen Conditions, Transitions Execute UI Actions); Replays 8.5\u201313\u00d7 Faster Without Per-Step LM Calls; Screen-State Verification Per Action + Fallback to Agent on Divergence; Only Programs Passing Independent Clean Re-Run Verification Are Stored; +1.75\u20132.6 Tasks Per Benchmark vs No-Guardrail Baseline; Prompt Wording / Runtime Safeguards / Retrieval Method Had Minimal Effect \u2014 Compile-and-Verify Primitive Is the Leverage; Day-Two of Compile-to-Executable-Substrate Thesis (Same Author as User as Code)",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.18037",
     "url": "https://arxiv.org/abs/2606.18037",
-    "title": "ProvenanceGuard (Alvarez / Rajan / Mugel / Orús) — First MCP-Specific Source-Aware Factuality Verifier; Decomposes Agent Answers into Atomic Claims; Routes Each Claim to Source-Specific Evidence via MCP Trace; Verifies Both Factuality and Proper Source Attribution; Names Novel Failure Mode 'Cross-Source Conflation' (Right Evidence, Wrong Source); 281 Medical-Domain MCP Traces + 2,325 LLM-Assisted Claim Labels (266-Trace Subset) + 361 Held-Out Human Labels; 40-Trace Held-Out Block F1 0.802 + Source Accuracy 0.858 (260 Source-Eligible Claims); Multi-Source Block F1 0.846; 100% Detection on 50 Controlled Clinical Conflation Probes",
+    "title": "ProvenanceGuard (Alvarez / Rajan / Mugel / Or\u00fas) \u2014 First MCP-Specific Source-Aware Factuality Verifier; Decomposes Agent Answers into Atomic Claims; Routes Each Claim to Source-Specific Evidence via MCP Trace; Verifies Both Factuality and Proper Source Attribution; Names Novel Failure Mode 'Cross-Source Conflation' (Right Evidence, Wrong Source); 281 Medical-Domain MCP Traces + 2,325 LLM-Assisted Claim Labels (266-Trace Subset) + 361 Held-Out Human Labels; 40-Trace Held-Out Block F1 0.802 + Source Accuracy 0.858 (260 Source-Eligible Claims); Multi-Source Block F1 0.846; 100% Detection on 50 Controlled Clinical Conflation Probes",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.17628",
     "url": "https://arxiv.org/abs/2606.17628",
-    "title": "OPD-Evolver (Zhang / Xu / Yue / Su / Zhou / Hu / Yan) — Two-Loop Agent Self-Evolution Framework; Fast Loop: Agent ↔ Four-Level Memory Hierarchy (Read / Use / Write / Maintain); Slow Loop: Outcome-Calibrated Memory Attribution + Privileged Hindsight Distillation Back into Deployable Policy; +11.5% vs ReasoningBank; +5.8% vs Skill0-Class Training Methods; OPD-Evolver-9B Challenges Qwen3.5-397B-A17B + Step-3.5-Flash on Multi-Domain Benchmarks",
+    "title": "OPD-Evolver (Zhang / Xu / Yue / Su / Zhou / Hu / Yan) \u2014 Two-Loop Agent Self-Evolution Framework; Fast Loop: Agent \u2194 Four-Level Memory Hierarchy (Read / Use / Write / Maintain); Slow Loop: Outcome-Calibrated Memory Attribution + Privileged Hindsight Distillation Back into Deployable Policy; +11.5% vs ReasoningBank; +5.8% vs Skill0-Class Training Methods; OPD-Evolver-9B Challenges Qwen3.5-397B-A17B + Step-3.5-Flash on Multi-Domain Benchmarks",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.18023",
     "url": "https://arxiv.org/abs/2606.18023",
-    "title": "LoopCoder-v2 (Yang / Guo / W. Zhang / Zheng et al.) — Parallel Loop Transformers (PLT) with Cross-Loop Position Offsets (CLP) + Shared-KV Gated Sliding-Window Attention; Makes Loop Count a Practical Inference-Time-Compute Knob Without Sequential Latency / KV-Cache Blow-Up; 7B Base / 18T Training Tokens; SWE-Bench Verified 43.0 → 64.4; Multi-SWE 14.0 → 31.0; Two Loops Optimal, Diminishing Returns After",
+    "title": "LoopCoder-v2 (Yang / Guo / W. Zhang / Zheng et al.) \u2014 Parallel Loop Transformers (PLT) with Cross-Loop Position Offsets (CLP) + Shared-KV Gated Sliding-Window Attention; Makes Loop Count a Practical Inference-Time-Compute Knob Without Sequential Latency / KV-Cache Blow-Up; 7B Base / 18T Training Tokens; SWE-Bench Verified 43.0 \u2192 64.4; Multi-SWE 14.0 \u2192 31.0; Two Loops Optimal, Diminishing Returns After",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.17591",
     "url": "https://arxiv.org/abs/2606.17591",
-    "title": "Verbal RL Feedback Loop (Cui / X. Zhang / Y. Zhang / Shao / Shi / G. Wang / He) — Training-Free Verbal Reinforcement Learning from World Feedback (Task Outcomes / Market Returns / Demand Forecasts); Names 'Retention-Forgetting Dilemma' in Non-Stationary Environments; Three-Layer Architecture (Rules / Evidence / Skills) Connected by Feedback-Driven Curation Loop; Skills Layer Governs Which Rules Apply + Conflict Resolution + Abstention; Tested on Financial Forecasting; Same Accumulated Experience Either Degrades Below Zero-Shot OR Dramatically Improves Accuracy + Risk-Adjusted Returns Depending on Curation Loop Presence",
+    "title": "Verbal RL Feedback Loop (Cui / X. Zhang / Y. Zhang / Shao / Shi / G. Wang / He) \u2014 Training-Free Verbal Reinforcement Learning from World Feedback (Task Outcomes / Market Returns / Demand Forecasts); Names 'Retention-Forgetting Dilemma' in Non-Stationary Environments; Three-Layer Architecture (Rules / Evidence / Skills) Connected by Feedback-Driven Curation Loop; Skills Layer Governs Which Rules Apply + Conflict Resolution + Abstention; Tested on Financial Forecasting; Same Accumulated Experience Either Degrades Below Zero-Shot OR Dramatically Improves Accuracy + Risk-Adjusted Returns Depending on Curation Loop Presence",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.17645",
     "url": "https://arxiv.org/abs/2606.17645",
-    "title": "SkillMigrator (He / Cui / Wu / Ma / Lu / Li / Ding / Chowdhury) — Transferable Interaction Patterns (TIPs) for Web Agent Skill Library; Stores Each Skill Paired with Structural Sketch of Page Snapshot at Induction Time; At Deployment Retrieves Skills via Layout Similarity (Not Instruction / Site Metadata) Then Grounds References to Live Page; 8–10% Reduction in Average LM-Action Count on Successful Trajectories; WebArena + Mind2Web Benchmarks; Argues Skill Retrieval Key Should Be Layout Topology Not Site Identity",
+    "title": "SkillMigrator (He / Cui / Wu / Ma / Lu / Li / Ding / Chowdhury) \u2014 Transferable Interaction Patterns (TIPs) for Web Agent Skill Library; Stores Each Skill Paired with Structural Sketch of Page Snapshot at Induction Time; At Deployment Retrieves Skills via Layout Similarity (Not Instruction / Site Metadata) Then Grounds References to Live Page; 8\u201310% Reduction in Average LM-Action Count on Successful Trajectories; WebArena + Mind2Web Benchmarks; Argues Skill Retrieval Key Should Be Layout Topology Not Site Identity",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.17546",
     "url": "https://arxiv.org/abs/2606.17546",
-    "title": "SEAGym (Zheng / Xue / Liang / Yang / C. Zhang) — Multi-View Evaluation Framework for Agent Harness Improvements; Measures Updates Across Training + Validation + Held-Out + Replay Diagnostics + Operational Costs; Tested ACE / TF-GRPO / AHE on Terminal-Bench 2.0 + HLE; Findings: (a) 'Frequent Updates May Fail to Improve Held-Out Performance' (Self-Evolving Curves Partly Overfit Recent Batch); (b) Model Backend Can Affect Harness Reliability (Harness Tuned for One Base May Not Transfer); Methodological Counter to Recent Self-Evolution Cluster",
+    "title": "SEAGym (Zheng / Xue / Liang / Yang / C. Zhang) \u2014 Multi-View Evaluation Framework for Agent Harness Improvements; Measures Updates Across Training + Validation + Held-Out + Replay Diagnostics + Operational Costs; Tested ACE / TF-GRPO / AHE on Terminal-Bench 2.0 + HLE; Findings: (a) 'Frequent Updates May Fail to Improve Held-Out Performance' (Self-Evolving Curves Partly Overfit Recent Batch); (b) Model Backend Can Affect Harness Reliability (Harness Tuned for One Base May Not Transfer); Methodological Counter to Recent Self-Evolution Cluster",
     "date_covered": "2026-06-17"
   },
   {
     "id": "arxiv:2606.16707",
     "url": "https://arxiv.org/abs/2606.16707",
-    "title": "User as Code (UaC) — Agent's User Model as a Living Software Project (Typed Python Objects + Functions); Append-Only Event Log Periodically Checkpointed into Typed Code; Representation + Reasoning in One Executable Medium; 78.8% LOCOMO Recall (Matches Retrieval Baselines); 99% Accuracy on Aggregate Questions ('How Many International Trips Last Year?') vs 6-43% for Retrieval-Based Systems; Proactive Safety Alerts (Drug-Allergy Conflicts) via Deterministic Rule Execution",
+    "title": "User as Code (UaC) \u2014 Agent's User Model as a Living Software Project (Typed Python Objects + Functions); Append-Only Event Log Periodically Checkpointed into Typed Code; Representation + Reasoning in One Executable Medium; 78.8% LOCOMO Recall (Matches Retrieval Baselines); 99% Accuracy on Aggregate Questions ('How Many International Trips Last Year?') vs 6-43% for Retrieval-Based Systems; Proactive Safety Alerts (Drug-Allergy Conflicts) via Deterministic Rule Execution",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.16591",
     "url": "https://arxiv.org/abs/2606.16591",
-    "title": "SING (Synthetic Intention Graph) — Scalable Active Tool Discovery in LLM Agents; Intention-Tool Graph Links User Intentions ↔ Tool Capabilities ↔ Tool Collaboration Patterns; Dynamic Retrieval Tracks Evolving Task State (Not Just Initial Query); 3 Real-World Benchmarks Across 7,471 Tools; Global Recall@5 +59.8%; Downstream Success Rate +28.9%; 99.8% Reduction in Full-Corpus Tool-Schema Exposure",
+    "title": "SING (Synthetic Intention Graph) \u2014 Scalable Active Tool Discovery in LLM Agents; Intention-Tool Graph Links User Intentions \u2194 Tool Capabilities \u2194 Tool Collaboration Patterns; Dynamic Retrieval Tracks Evolving Task State (Not Just Initial Query); 3 Real-World Benchmarks Across 7,471 Tools; Global Recall@5 +59.8%; Downstream Success Rate +28.9%; 99.8% Reduction in Full-Corpus Tool-Schema Exposure",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.16813",
     "url": "https://arxiv.org/abs/2606.16813",
-    "title": "GIST-CMTF (Goal-State Inference for Causal Minimal Tool Filtering) — Adds Goal-State Inference Layer to Predict Candidate Symbolic Goals + Estimate Ambiguity Before Applying CMTF Filter; Above-Threshold Ambiguity Prompts User for Clarification; 7 Model Backends × 6 Filtering Methods × 120 Controlled Tasks; Task Success 97.0% vs 80.1% Baseline CMTF; Wrong-Goal Execution Reduced from 19.4% to 2.5%",
+    "title": "GIST-CMTF (Goal-State Inference for Causal Minimal Tool Filtering) \u2014 Adds Goal-State Inference Layer to Predict Candidate Symbolic Goals + Estimate Ambiguity Before Applying CMTF Filter; Above-Threshold Ambiguity Prompts User for Clarification; 7 Model Backends \u00d7 6 Filtering Methods \u00d7 120 Controlled Tasks; Task Success 97.0% vs 80.1% Baseline CMTF; Wrong-Goal Execution Reduced from 19.4% to 2.5%",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.17016",
     "url": "https://arxiv.org/abs/2606.17016",
-    "title": "TokenPilot — Dual-Granularity Cache-Efficient Context Management for LLM Agents (LightMem2 Framework); Ingestion-Aware Compaction Stabilizes Prompt Prefix (KV-Cache-Friendly) + Lifecycle-Aware Eviction Offloads by Task Relevance Not Recency; 61% / 56% Cost Reduction in Isolated Mode + 61% / 87% in Continuous Mode with Competitive Task Performance",
+    "title": "TokenPilot \u2014 Dual-Granularity Cache-Efficient Context Management for LLM Agents (LightMem2 Framework); Ingestion-Aware Compaction Stabilizes Prompt Prefix (KV-Cache-Friendly) + Lifecycle-Aware Eviction Offloads by Task Relevance Not Recency; 61% / 56% Cost Reduction in Isolated Mode + 61% / 87% in Continuous Mode with Competitive Task Performance",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.16769",
     "url": "https://arxiv.org/abs/2606.16769",
-    "title": "Skill-to-LoRA — Replaces Runtime Skill Text with Skill-Specific LoRA Adapters Dynamically Loaded at Execution; Procedural Documents Converted to Learnable Behavioral Modules; Qwen3.6-27B on 21-Skill SWE-Skills-Bench Subset: +2.9pp vs No-Skill / +5.2pp vs Full-Text Baselines; Per-Step Token Cost −6.6% vs Full-Text Prompting; Matches/Beats Full-Text on 18 of 21 Skills; Control Confirms Adapter-Alignment Dependence; Fourth Per-X-LoRA Paper in 3 Weeks",
+    "title": "Skill-to-LoRA \u2014 Replaces Runtime Skill Text with Skill-Specific LoRA Adapters Dynamically Loaded at Execution; Procedural Documents Converted to Learnable Behavioral Modules; Qwen3.6-27B on 21-Skill SWE-Skills-Bench Subset: +2.9pp vs No-Skill / +5.2pp vs Full-Text Baselines; Per-Step Token Cost \u22126.6% vs Full-Text Prompting; Matches/Beats Full-Text on 18 of 21 Skills; Control Confirms Adapter-Alignment Dependence; Fourth Per-X-LoRA Paper in 3 Weeks",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.14066",
     "url": "https://arxiv.org/abs/2606.14066",
-    "title": "FastContext (Microsoft) — Specialized Repository-Exploration Subagent for Coding Agents; Operates Independently from Main Solving Component; 4B-30B Exploration Models Trained via Reference Trajectories + Task-Grounded Rewards; Parallel Tool Calls Output Concise File Paths + Line Ranges; Integrated into Mini-SWE-Agent: Up to +5.5% End-to-End Resolution on SWE-bench Multilingual / SWE-bench Pro / SWE-QA; Up to −60% Token Consumption; Code at github.com/microsoft/fastcontext",
+    "title": "FastContext (Microsoft) \u2014 Specialized Repository-Exploration Subagent for Coding Agents; Operates Independently from Main Solving Component; 4B-30B Exploration Models Trained via Reference Trajectories + Task-Grounded Rewards; Parallel Tool Calls Output Concise File Paths + Line Ranges; Integrated into Mini-SWE-Agent: Up to +5.5% End-to-End Resolution on SWE-bench Multilingual / SWE-bench Pro / SWE-QA; Up to \u221260% Token Consumption; Code at github.com/microsoft/fastcontext",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.15300",
     "url": "https://arxiv.org/abs/2606.15300",
-    "title": "CODA-BENCH (ICML 2026) — Can Code Agents Handle Data-Intensive Tasks? Linux Sandbox with Hundreds of Kaggle Datasets; 1,009 Tasks Across 31 Communities; Environments Average 980 Files; Top Systems Achieve Only 61.1% Success Rate; Failure Mode is Data Discovery + Code Execution Integration (Not Codegen); 37 Pages, 11 Figures; Project Page + Code + Dataset on GitHub + Hugging Face",
+    "title": "CODA-BENCH (ICML 2026) \u2014 Can Code Agents Handle Data-Intensive Tasks? Linux Sandbox with Hundreds of Kaggle Datasets; 1,009 Tasks Across 31 Communities; Environments Average 980 Files; Top Systems Achieve Only 61.1% Success Rate; Failure Mode is Data Discovery + Code Execution Integration (Not Codegen); 37 Pages, 11 Figures; Project Page + Code + Dataset on GitHub + Hugging Face",
     "date_covered": "2026-06-16"
   },
   {
     "id": "arxiv:2606.14470",
     "url": "https://arxiv.org/abs/2606.14470",
-    "title": "GitOfThoughts — Version-Controlled Reasoning + Agent Memory You Can Replay/Diff/Merge; Treats Reasoning as Git Repo (Thoughts=Commits, Scores=Annotations, Outcomes=Tags); Pre-Registered Replications Across 2 Benchmarks, 2 Model Scales, 5 Memory Substrates (None/Markdown/Vector/Graph/Git); KEY FINDING: Memory Does Not Reliably Help on Novel Problems — Accuracy Improves Sharply Only at ≥0.8 Similarity (Near-Duplicates); 4.5× Larger Model Doubles Near-Duplicate Payoff But Cannot Extract Transferable Methods; Only Test-Time Sampling Reliably Improves; Documents Retracted Result + Refuted Hypothesis",
+    "title": "GitOfThoughts \u2014 Version-Controlled Reasoning + Agent Memory You Can Replay/Diff/Merge; Treats Reasoning as Git Repo (Thoughts=Commits, Scores=Annotations, Outcomes=Tags); Pre-Registered Replications Across 2 Benchmarks, 2 Model Scales, 5 Memory Substrates (None/Markdown/Vector/Graph/Git); KEY FINDING: Memory Does Not Reliably Help on Novel Problems \u2014 Accuracy Improves Sharply Only at \u22650.8 Similarity (Near-Duplicates); 4.5\u00d7 Larger Model Doubles Near-Duplicate Payoff But Cannot Extract Transferable Methods; Only Test-Time Sampling Reliably Improves; Documents Retracted Result + Refuted Hypothesis",
     "date_covered": "2026-06-15"
   },
   {
     "id": "arxiv:2606.14571",
     "url": "https://arxiv.org/abs/2606.14571",
-    "title": "StreamMemBench — Streaming Evaluation of Agent Memory for Future-Oriented Assistance; Two-Task Sequences from Egocentric Video Streams; Four Diagnostic Metrics (Evidence Recall, Evidence Application, Feedback Integration, Follow-Up Reuse); 8 Memory Systems × 2 Backbones; Finds Agents Can Store/Process Locally But Fail to Translate to Consistent Future Behavior; Open Code/Data",
+    "title": "StreamMemBench \u2014 Streaming Evaluation of Agent Memory for Future-Oriented Assistance; Two-Task Sequences from Egocentric Video Streams; Four Diagnostic Metrics (Evidence Recall, Evidence Application, Feedback Integration, Follow-Up Reuse); 8 Memory Systems \u00d7 2 Backbones; Finds Agents Can Store/Process Locally But Fail to Translate to Consistent Future Behavior; Open Code/Data",
     "date_covered": "2026-06-15"
   },
   {
     "id": "arxiv:2606.14106",
     "url": "https://arxiv.org/abs/2606.14106",
-    "title": "AGMem (Action-Grounded Visual Memory) — Failure-Mode Study of GUI Agents Shows Naive Visual Memory is Not Enough; Identifies 4 Failure Modes (Cognitive, Visual State Misunderstanding, Hidden Operation Blindness, Grounding Error); Full-Image Memory Reduces State-Level Failures But Worsens Action-Level Failures; AGMem Stores Cropped Image Regions of Successful Actions Only; +33.3% Task Success on OSWorld vs Full-Image Memory; ICML 2026 Workshop",
+    "title": "AGMem (Action-Grounded Visual Memory) \u2014 Failure-Mode Study of GUI Agents Shows Naive Visual Memory is Not Enough; Identifies 4 Failure Modes (Cognitive, Visual State Misunderstanding, Hidden Operation Blindness, Grounding Error); Full-Image Memory Reduces State-Level Failures But Worsens Action-Level Failures; AGMem Stores Cropped Image Regions of Successful Actions Only; +33.3% Task Success on OSWorld vs Full-Image Memory; ICML 2026 Workshop",
     "date_covered": "2026-06-15"
   },
   {
     "id": "arxiv:2606.14672",
     "url": "https://arxiv.org/abs/2606.14672",
-    "title": "Parallel-Synthesis — Synthesizer Directly Consumes KV Caches from Parallel Worker Agent Branches Instead of Concatenated Text; Cache Mapper Aligns Independently Generated Caches + Synthesizer Adapter Fine-Tuned for Non-Sequential Cache Interface; Training Mixes Parallel-Cache Exposure + Cross-Branch Aggregation + Distillation from Text-Concatenation Baselines; Matches/Beats Text Synthesis on 7 of 9 Downstream Datasets (Math, Science QA, Code, GAIA, Multi-Agent DB Diagnosis); 2.5×–11× Lower Time-to-First-Token",
+    "title": "Parallel-Synthesis \u2014 Synthesizer Directly Consumes KV Caches from Parallel Worker Agent Branches Instead of Concatenated Text; Cache Mapper Aligns Independently Generated Caches + Synthesizer Adapter Fine-Tuned for Non-Sequential Cache Interface; Training Mixes Parallel-Cache Exposure + Cross-Branch Aggregation + Distillation from Text-Concatenation Baselines; Matches/Beats Text Synthesis on 7 of 9 Downstream Datasets (Math, Science QA, Code, GAIA, Multi-Agent DB Diagnosis); 2.5\u00d7\u201311\u00d7 Lower Time-to-First-Token",
     "date_covered": "2026-06-15"
   },
   {
     "id": "arxiv:2606.14249",
     "url": "https://arxiv.org/abs/2606.14249",
-    "title": "HarnessX — Composable / Adaptive / Evolvable Agent Harness Foundry; Typed Harness Primitives Assembled via Substitution Algebra + AEGIS Engine Bridges Symbolic Adaptation + RL via Execution Traces; Closed Loop Converts Trajectories Into Harness Improvements + Model Training Signals; +14.5% Average / +44.0% Max Across ALFWorld + GAIA + WebShop + τ³-Bench + SWE-Bench Verified; Largest Gains Where Baseline Was Weakest; Codebase Release Promised",
+    "title": "HarnessX \u2014 Composable / Adaptive / Evolvable Agent Harness Foundry; Typed Harness Primitives Assembled via Substitution Algebra + AEGIS Engine Bridges Symbolic Adaptation + RL via Execution Traces; Closed Loop Converts Trajectories Into Harness Improvements + Model Training Signals; +14.5% Average / +44.0% Max Across ALFWorld + GAIA + WebShop + \u03c4\u00b3-Bench + SWE-Bench Verified; Largest Gains Where Baseline Was Weakest; Codebase Release Promised",
     "date_covered": "2026-06-15"
   },
   {
     "id": "arxiv:2606.13715",
     "url": "https://arxiv.org/abs/2606.13715",
-    "title": "WorkBench Revisited — Two-Year Longitudinal Re-Run of Workplace Agent Benchmark (Original arXiv:2405.00823); GPT-4 March 2024: 43% Task Completion + 26% Unintended Harmful Side-Effects; Claude Opus 4.8 June 2026: 89% Completion + 2.5% Harmful Side-Effects; Capability + Safety Improved Together Rather Than Trading Off; Frontier Models Still Occasionally Commit Irreversible Errors; Open-Weight Models Closed Cost-Per-Task Gap Substantially; Updated Benchmark + Code Released",
+    "title": "WorkBench Revisited \u2014 Two-Year Longitudinal Re-Run of Workplace Agent Benchmark (Original arXiv:2405.00823); GPT-4 March 2024: 43% Task Completion + 26% Unintended Harmful Side-Effects; Claude Opus 4.8 June 2026: 89% Completion + 2.5% Harmful Side-Effects; Capability + Safety Improved Together Rather Than Trading Off; Frontier Models Still Occasionally Commit Irreversible Errors; Open-Weight Models Closed Cost-Per-Task Gap Substantially; Updated Benchmark + Code Released",
     "date_covered": "2026-06-15"
   },
   {
     "id": "arxiv:2606.14179",
     "url": "https://arxiv.org/abs/2606.14179",
-    "title": "CacheRL — Small (4B) Tool-Calling Agent Training; Hybrid Thinking Trajectory Pipeline (Distills Reasoning from Large LLMs) + CacheAgentLoop (Three-Tier Fuzzy Cache for RL Over Cached Environments Instead of Live Tools, Token-Level Masking) + Cache-Tier-Aware Reward; Qwen3-4B-Thinking Validation Reward 0.43 → 0.78; 92% Process Accuracy on Multi-Step Tool Calling vs GPT-5 94% at ~100× Less Compute; Removing Knowledge Transfer Drops Performance 41%, Cache-Aware Reward Adds 17%; RL Improved Training Stability But Limited Gains Beyond Strong SFT",
+    "title": "CacheRL \u2014 Small (4B) Tool-Calling Agent Training; Hybrid Thinking Trajectory Pipeline (Distills Reasoning from Large LLMs) + CacheAgentLoop (Three-Tier Fuzzy Cache for RL Over Cached Environments Instead of Live Tools, Token-Level Masking) + Cache-Tier-Aware Reward; Qwen3-4B-Thinking Validation Reward 0.43 \u2192 0.78; 92% Process Accuracy on Multi-Step Tool Calling vs GPT-5 94% at ~100\u00d7 Less Compute; Removing Knowledge Transfer Drops Performance 41%, Cache-Aware Reward Adds 17%; RL Improved Training Stability But Limited Gains Beyond Strong SFT",
     "date_covered": "2026-06-15"
   },
   {
     "id": "nvidia-blog-2026-06-12-aa-agentperf",
     "url": "https://developer.nvidia.com/blog/nvidia-achieves-leading-agentic-coding-performance-on-first-agentic-ai-benchmark/",
-    "title": "NVIDIA + Artificial Analysis — AA-AgentPerf: Industry's First Multi-Vendor Open Benchmark Profiling Real-World AI Agent Coding Trajectories; Measures Concurrent Agents Per Accelerator + Per Megawatt Under Model-Specific SLO Tiers; Prerecorded Trajectories Across 12+ Languages, 5K-131K Tokens (~27K Avg) with Interleaved Reasoning + Tool Use; DeepSeek-V4-Pro on GB300 NVL72 = 61.4K Agents/MW vs H200 = 2.6K (~20×)",
+    "title": "NVIDIA + Artificial Analysis \u2014 AA-AgentPerf: Industry's First Multi-Vendor Open Benchmark Profiling Real-World AI Agent Coding Trajectories; Measures Concurrent Agents Per Accelerator + Per Megawatt Under Model-Specific SLO Tiers; Prerecorded Trajectories Across 12+ Languages, 5K-131K Tokens (~27K Avg) with Interleaved Reasoning + Tool Use; DeepSeek-V4-Pro on GB300 NVL72 = 61.4K Agents/MW vs H200 = 2.6K (~20\u00d7)",
     "date_covered": "2026-06-14"
   },
   {
     "id": "allenai-blog-2026-06-12-olmo-eval",
     "url": "https://huggingface.co/blog/allenai/olmo-eval",
-    "title": "Allen AI olmo-eval — OLMES Successor Evaluation Workbench for the Model Development Loop; Modular Task / Suite / Harness Architecture Decoupling Benchmark Logic from Runtime Policy; Pairwise Checkpoint Comparison View with Standard Error + Minimum Detectable Effect; Multi-Turn Tool-Using Evals Integrated from Day One; Containerized Sandbox + Capability-Routing Layer; Normalized Experiment Schema",
+    "title": "Allen AI olmo-eval \u2014 OLMES Successor Evaluation Workbench for the Model Development Loop; Modular Task / Suite / Harness Architecture Decoupling Benchmark Logic from Runtime Policy; Pairwise Checkpoint Comparison View with Standard Error + Minimum Detectable Effect; Multi-Turn Tool-Using Evals Integrated from Day One; Containerized Sandbox + Capability-Routing Layer; Normalized Experiment Schema",
     "date_covered": "2026-06-14"
   },
   {
     "id": "arxiv:2606.13594",
     "url": "https://arxiv.org/abs/2606.13594",
-    "title": "See What I See, Know What I Think — Dense Latent Communication Across Heterogeneous Agents via KV-Cache Exchange Instead of Text Tokens; Lightweight Cache Transformation + Two-Phase Training (Reconstruction → Generation) Aligns Hidden States Across Qwen3-4B/8B/14B in All Six Directional Pairings; Matches/Surpasses Text Communication at ~2-3× Lower Compute; Effective In-Domain + Out-of-Domain; Beats Heterogeneous-Comm Baselines Especially in Context-Unaware Transfer",
+    "title": "See What I See, Know What I Think \u2014 Dense Latent Communication Across Heterogeneous Agents via KV-Cache Exchange Instead of Text Tokens; Lightweight Cache Transformation + Two-Phase Training (Reconstruction \u2192 Generation) Aligns Hidden States Across Qwen3-4B/8B/14B in All Six Directional Pairings; Matches/Surpasses Text Communication at ~2-3\u00d7 Lower Compute; Effective In-Domain + Out-of-Domain; Beats Heterogeneous-Comm Baselines Especially in Context-Unaware Transfer",
     "date_covered": "2026-06-14"
   },
   {
     "id": "arxiv:2606.13598",
     "url": "https://arxiv.org/abs/2606.13598",
-    "title": "OrchRM — Self-Supervised Reward Modeling for the Orchestrator Role in Multi-Agent LLM Systems; Trains Orchestrator Without Sub-Agent Rollouts + Without Human Annotation via Bradley-Terry Pairs Directly at Orchestration-Decision Level Over Execution Artifacts; ~10× Training-Token Efficiency vs Sub-Agent-Rollout Baselines; +8% Accuracy at Multi-Agent Test-Time Scaling Across Math/Web-QA/Multi-Hop-QA",
+    "title": "OrchRM \u2014 Self-Supervised Reward Modeling for the Orchestrator Role in Multi-Agent LLM Systems; Trains Orchestrator Without Sub-Agent Rollouts + Without Human Annotation via Bradley-Terry Pairs Directly at Orchestration-Decision Level Over Execution Artifacts; ~10\u00d7 Training-Token Efficiency vs Sub-Agent-Rollout Baselines; +8% Accuracy at Multi-Agent Test-Time Scaling Across Math/Web-QA/Multi-Hop-QA",
     "date_covered": "2026-06-14"
   },
   {
     "id": "arxiv:2606.13608",
     "url": "https://arxiv.org/abs/2606.13608",
-    "title": "AgentBeats — Agentified Agent Assessment (AAA) Where Judge Agents Evaluate Subject Agents Over Standardized A2A (Task Delivery) + MCP (Tool Access) Protocols Rather than Fixed Scaffolded Benchmarks; 5-Month Open Competition with 298 Judge Agents + 467 Subject Agents Across 12 Categories Including Coding-Agent Case Study; Frames Fixed Benchmarks as Suffering 'Test-Production Mismatch' Preventing Fair Cross-Design Comparison",
+    "title": "AgentBeats \u2014 Agentified Agent Assessment (AAA) Where Judge Agents Evaluate Subject Agents Over Standardized A2A (Task Delivery) + MCP (Tool Access) Protocols Rather than Fixed Scaffolded Benchmarks; 5-Month Open Competition with 298 Judge Agents + 467 Subject Agents Across 12 Categories Including Coding-Agent Case Study; Frames Fixed Benchmarks as Suffering 'Test-Production Mismatch' Preventing Fair Cross-Design Comparison",
     "date_covered": "2026-06-14"
   },
   {
     "id": "arxiv:2606.13106",
     "url": "https://arxiv.org/abs/2606.13106",
-    "title": "SWITCH — Boundary-Tokenized Switchable Latent Reasoning Compatible with On-Policy RL; Explicit <swi></swi> Boundary Tokens Make Policy Ratio Well-Defined at Decision Points (Unlocks GRPO-Style On-Policy RL for Latent CoT); Visible-to-Latent Curriculum + Switch-GRPO Objective; Mechanistic Probing Shows Boundary Tokens Implement Learned Switching (Not Stylistic Markers) + Latent Steps Perform Problem-Specific Computation Concentrated at Single Hidden-State Transition Upon Entry",
+    "title": "SWITCH \u2014 Boundary-Tokenized Switchable Latent Reasoning Compatible with On-Policy RL; Explicit <swi></swi> Boundary Tokens Make Policy Ratio Well-Defined at Decision Points (Unlocks GRPO-Style On-Policy RL for Latent CoT); Visible-to-Latent Curriculum + Switch-GRPO Objective; Mechanistic Probing Shows Boundary Tokens Implement Learned Switching (Not Stylistic Markers) + Latent Steps Perform Problem-Specific Computation Concentrated at Single Hidden-State Transition Upon Entry",
     "date_covered": "2026-06-14"
   },
   {
     "id": "arxiv:2606.13669",
     "url": "https://arxiv.org/abs/2606.13669",
-    "title": "Agents-K1 — Agent-Native Scientific Knowledge Orchestration; Multimodal Parser (Entities + Evidence + Citations + Relationships Across Full Papers) + 4B IE Backbone Trained with GRPO + Rule-Based Rewards + GraphAnything CLI (Web Search + Multimodal Graph Retrieval + Cross-Document Traversal); Releases Scholar-KG Dataset (1M-Paper Subset of Full 2.46M Across 6 Subjects); Claims Superior Performance on Scientific IE + KG Construction + Multi-Hop Scientific Reasoning",
+    "title": "Agents-K1 \u2014 Agent-Native Scientific Knowledge Orchestration; Multimodal Parser (Entities + Evidence + Citations + Relationships Across Full Papers) + 4B IE Backbone Trained with GRPO + Rule-Based Rewards + GraphAnything CLI (Web Search + Multimodal Graph Retrieval + Cross-Document Traversal); Releases Scholar-KG Dataset (1M-Paper Subset of Full 2.46M Across 6 Subjects); Claims Superior Performance on Scientific IE + KG Construction + Multi-Hop Scientific Reasoning",
     "date_covered": "2026-06-14"
   },
   {
     "id": "arxiv:2606.13643",
     "url": "https://arxiv.org/abs/2606.13643",
-    "title": "Recursive Agent Harnesses (RAH) — Names the Pattern Between Recursive Language Models and Anthropic's Dynamic Workflows; Parent Agent Writes/Runs Executable Script That Spawns Full Sub-Agent Harnesses (Filesystem + Code Execution + Planning) in Parallel; Codex 71.75 → 81.36% on Oolong-Synthetic (199 Samples, 4M-Token Context); Claude Sonnet 4.5 Backbone 89.77%",
+    "title": "Recursive Agent Harnesses (RAH) \u2014 Names the Pattern Between Recursive Language Models and Anthropic's Dynamic Workflows; Parent Agent Writes/Runs Executable Script That Spawns Full Sub-Agent Harnesses (Filesystem + Code Execution + Planning) in Parallel; Codex 71.75 \u2192 81.36% on Oolong-Synthetic (199 Samples, 4M-Token Context); Claude Sonnet 4.5 Backbone 89.77%",
     "date_covered": "2026-06-13"
   },
   {
     "id": "arxiv:2606.13392",
     "url": "https://arxiv.org/abs/2606.13392",
-    "title": "MiniMax Sparse Attention + MiniMax-M3 Release (~428B Total / ~23B Active MoE, 1M Context, Native Text+Image+Video) — Blockwise Sparse Attention via Index-Branch Top-k Selection + Main-Branch Block-Sparse Execution; 28.4× Attention-Compute Reduction at 1M Context, 14.2× Prefill Speedup, 7.6× Decoding Wall-Clock Speedup on H800; M3 Itself 9× Prefill / 15× Decode Speedup vs M2; Open-Source Kernel; MiniMax Community License",
+    "title": "MiniMax Sparse Attention + MiniMax-M3 Release (~428B Total / ~23B Active MoE, 1M Context, Native Text+Image+Video) \u2014 Blockwise Sparse Attention via Index-Branch Top-k Selection + Main-Branch Block-Sparse Execution; 28.4\u00d7 Attention-Compute Reduction at 1M Context, 14.2\u00d7 Prefill Speedup, 7.6\u00d7 Decoding Wall-Clock Speedup on H800; M3 Itself 9\u00d7 Prefill / 15\u00d7 Decode Speedup vs M2; Open-Source Kernel; MiniMax Community License",
     "date_covered": "2026-06-13"
   },
   {
     "id": "arxiv:2606.12882",
     "url": "https://arxiv.org/abs/2606.12882",
-    "title": "HarnessBridge — Learnable Bidirectional Controller Replacing Hand-Engineered Agent Harnesses via End-to-End Instruction Tuning; Observation Projection (Trajectory→Compact State) + Action Projection (Proposed Action→Executable Transition or Trajectory-Grounded Rejection); Matches/Surpasses Specialized Harnesses on Terminal-Bench 2.0 + SWE-Bench Verified with Substantially Reduced Token Usage; Generalizes from Smaller Generators to Commercial Models",
+    "title": "HarnessBridge \u2014 Learnable Bidirectional Controller Replacing Hand-Engineered Agent Harnesses via End-to-End Instruction Tuning; Observation Projection (Trajectory\u2192Compact State) + Action Projection (Proposed Action\u2192Executable Transition or Trajectory-Grounded Rejection); Matches/Surpasses Specialized Harnesses on Terminal-Bench 2.0 + SWE-Bench Verified with Substantially Reduced Token Usage; Generalizes from Smaller Generators to Commercial Models",
     "date_covered": "2026-06-13"
   },
   {
     "id": "arxiv:2606.09426",
     "url": "https://arxiv.org/abs/2606.09426",
-    "title": "WeaveBench — Long-Horizon Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces; 114 Tasks Across 8 Real-World Work Domains Grounded in Real User Requests + Publicly Verifiable Artifacts; Tasks Span Desktop GUI + CLI + Code Editing + Browsers + External Tools Simultaneously; Best Frontier Model-Runtime Combo Peaks at 41.2% PassRate; Trajectory-Aware Judge Over Deliverables/Files/Screenshots/Logs/Actions",
+    "title": "WeaveBench \u2014 Long-Horizon Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces; 114 Tasks Across 8 Real-World Work Domains Grounded in Real User Requests + Publicly Verifiable Artifacts; Tasks Span Desktop GUI + CLI + Code Editing + Browsers + External Tools Simultaneously; Best Frontier Model-Runtime Combo Peaks at 41.2% PassRate; Trajectory-Aware Judge Over Deliverables/Files/Screenshots/Logs/Actions",
     "date_covered": "2026-06-13"
   },
   {
     "id": "arxiv:2606.13673",
     "url": "https://arxiv.org/abs/2606.13673",
-    "title": "SpatialClaw — Code-as-Action Interface for Agentic Spatial Reasoning; Stateful Python Kernel Pre-Loaded with Input Frames + Perception/Geometry Primitives; VLM-Backed Agent Writes One Executable Cell Per Step Conditioned on Prior Outputs; 59.9% Avg Across 20 Spatial Benchmarks (+11.2pp Over Prior Spatial Agents); Consistent Across Six VLM Backbones from Two Model Families Without Adaptation",
+    "title": "SpatialClaw \u2014 Code-as-Action Interface for Agentic Spatial Reasoning; Stateful Python Kernel Pre-Loaded with Input Frames + Perception/Geometry Primitives; VLM-Backed Agent Writes One Executable Cell Per Step Conditioned on Prior Outputs; 59.9% Avg Across 20 Spatial Benchmarks (+11.2pp Over Prior Spatial Agents); Consistent Across Six VLM Backbones from Two Model Families Without Adaptation",
     "date_covered": "2026-06-13"
   },
   {
     "id": "arxiv:2606.13473",
     "url": "https://arxiv.org/abs/2606.13473",
-    "title": "MaxProof — Population-Level Test-Time Scaling for Math Proof on MiniMax-M3; Single Model Trained on Generation + Low-FPR Verification + Critique-Conditioned Repair via Defense-in-Depth Generative-Verifier RL; Same Model Serves as Generator+Verifier+Refiner+Ranker at Test Time, Tournament-Selects Across Candidate Population; IMO 2025 35/42 + USAMO 2026 36/42 (Both Above Human Gold-Medal Thresholds)",
+    "title": "MaxProof \u2014 Population-Level Test-Time Scaling for Math Proof on MiniMax-M3; Single Model Trained on Generation + Low-FPR Verification + Critique-Conditioned Repair via Defense-in-Depth Generative-Verifier RL; Same Model Serves as Generator+Verifier+Refiner+Ranker at Test Time, Tournament-Selects Across Candidate Population; IMO 2025 35/42 + USAMO 2026 36/42 (Both Above Human Gold-Medal Thresholds)",
     "date_covered": "2026-06-13"
   },
   {
     "id": "arxiv:2606.12087",
     "url": "https://arxiv.org/abs/2606.12087",
-    "title": "FORT-Searcher — Shortcut-Resistant Training Data Synthesis for Deep Search Agents; Formalizes Gap Between Structural Difficulty and Realized Search Difficulty; Names Four Shortcut Risks (Evidence Co-Coverage, Single-Clue Selectivity, Exposed Constants, Prior-Knowledge Binding) + Trajectory Signatures (Solving Cost, Answer Hit Time, Prior-Shortcut Rate); Claims Best Overall on Deep-Search Benchmarks Among Comparable-Size Open-Source Search Agents",
+    "title": "FORT-Searcher \u2014 Shortcut-Resistant Training Data Synthesis for Deep Search Agents; Formalizes Gap Between Structural Difficulty and Realized Search Difficulty; Names Four Shortcut Risks (Evidence Co-Coverage, Single-Clue Selectivity, Exposed Constants, Prior-Knowledge Binding) + Trajectory Signatures (Solving Cost, Answer Hit Time, Prior-Shortcut Rate); Claims Best Overall on Deep-Search Benchmarks Among Comparable-Size Open-Source Search Agents",
     "date_covered": "2026-06-13"
   },
   {
     "id": "deepmind-blog-2026-06-11-multi-agent-safety-funding",
     "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "title": "Google DeepMind + Schmidt Sciences + Cooperative AI Foundation + ARIA + Google.org — Up-to-$10M Multi-Agent AI Safety Research Funding Call Across Four Areas (Sandboxes/Testbeds, Agent Network Science, Inter-Agent Protocol Infrastructure Security, Oversight Systems for Deployed Agent Populations); Aug 8 2026 Deadline; Awards Autumn 2026",
+    "title": "Google DeepMind + Schmidt Sciences + Cooperative AI Foundation + ARIA + Google.org \u2014 Up-to-$10M Multi-Agent AI Safety Research Funding Call Across Four Areas (Sandboxes/Testbeds, Agent Network Science, Inter-Agent Protocol Infrastructure Security, Oversight Systems for Deployed Agent Populations); Aug 8 2026 Deadline; Awards Autumn 2026",
     "date_covered": "2026-06-13"
   },
   {
     "id": "deepmind-blog-2026-06-10-diffusiongemma",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
-    "title": "DiffusionGemma — Google DeepMind Open-Weight 26B-Total / 3.8B-Active MoE Text-Diffusion LM Built on Gemma 4 Backbone; 256 Tokens in Parallel Per Forward Pass + Bi-Directional Attention; 1000+ tok/s H100 / 700+ tok/s RTX 5090; ~18 GB at NVFP4 4-bit; MLX/vLLM/HF Transformers at Launch (llama.cpp Coming); Apache 2.0; Lower Quality vs AR Gemma 4 Acknowledged",
+    "title": "DiffusionGemma \u2014 Google DeepMind Open-Weight 26B-Total / 3.8B-Active MoE Text-Diffusion LM Built on Gemma 4 Backbone; 256 Tokens in Parallel Per Forward Pass + Bi-Directional Attention; 1000+ tok/s H100 / 700+ tok/s RTX 5090; ~18 GB at NVFP4 4-bit; MLX/vLLM/HF Transformers at Launch (llama.cpp Coming); Apache 2.0; Lower Quality vs AR Gemma 4 Acknowledged",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.13681",
     "url": "https://arxiv.org/abs/2606.13681",
-    "title": "EvoArena + EvoMem — Benchmark Modeling Environment Change as Progressive Updates Across Terminal/Software/Social Domains + Memory System Tracking Structured Update Histories; Current Agents Avg 39.6% on EvoArena; EvoMem +1.5% EvoArena, +6.1% GAIA, +4.8% LoCoMo, +3.7% Chain-Level on Consecutive Evolutionary Subtasks",
+    "title": "EvoArena + EvoMem \u2014 Benchmark Modeling Environment Change as Progressive Updates Across Terminal/Software/Social Domains + Memory System Tracking Structured Update Histories; Current Agents Avg 39.6% on EvoArena; EvoMem +1.5% EvoArena, +6.1% GAIA, +4.8% LoCoMo, +3.7% Chain-Level on Consecutive Evolutionary Subtasks",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.13663",
     "url": "https://arxiv.org/abs/2606.13663",
-    "title": "HyperTool — MCP-Style Code-Block Tool Invocation Bundling Existing MCP Tool Calls + Value Manipulation + Local Intermediate-Result Passing into a Single Reasoning-Trace Unit; Names 'Execution-Granularity Mismatch'; Qwen3-32B 15.69→35.29% (+19.6pp) and Qwen3-8B 9.93→33.33% (+23.4pp) on MCP-Universe; Surpasses GPT-OSS + Kimi-k2.5",
+    "title": "HyperTool \u2014 MCP-Style Code-Block Tool Invocation Bundling Existing MCP Tool Calls + Value Manipulation + Local Intermediate-Result Passing into a Single Reasoning-Trace Unit; Names 'Execution-Granularity Mismatch'; Qwen3-32B 15.69\u219235.29% (+19.6pp) and Qwen3-8B 9.93\u219233.33% (+23.4pp) on MCP-Universe; Surpasses GPT-OSS + Kimi-k2.5",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.13003",
     "url": "https://arxiv.org/abs/2606.13003",
-    "title": "The Illusion of Multi-Agent Advantage — Auto-Generated MAS Consistently Underperforms Chain-of-Thought + Self-Consistency Despite Up to 10× Cost Across Reasoning Datasets + BrowseComp-Plus; Expert-Architected MAS Beats Auto-MAS on Diagnostic Synthetic Dataset; Indicts Automated MAS Design as 'Architectural Bloat Prioritizing Superficial Complexity'",
+    "title": "The Illusion of Multi-Agent Advantage \u2014 Auto-Generated MAS Consistently Underperforms Chain-of-Thought + Self-Consistency Despite Up to 10\u00d7 Cost Across Reasoning Datasets + BrowseComp-Plus; Expert-Architected MAS Beats Auto-MAS on Diagnostic Synthetic Dataset; Indicts Automated MAS Design as 'Architectural Bloat Prioritizing Superficial Complexity'",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.13662",
     "url": "https://arxiv.org/abs/2606.13662",
-    "title": "EurekAgent ('Agent Environment Engineering is All You Need for Autonomous Scientific Discovery') — Engineers Environments Along 4 Dimensions (Permissions/Artifacts/Budgets/Human Oversight) Instead of Prescribing Workflows; SOTA on Math/Kernel/ML Tasks Incl. New SOTA 26-Circle Packing Result at ~$11 Total API Cost; Open-Sourced",
+    "title": "EurekAgent ('Agent Environment Engineering is All You Need for Autonomous Scientific Discovery') \u2014 Engineers Environments Along 4 Dimensions (Permissions/Artifacts/Budgets/Human Oversight) Instead of Prescribing Workflows; SOTA on Math/Kernel/ML Tasks Incl. New SOTA 26-Circle Packing Result at ~$11 Total API Cost; Open-Sourced",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.12908",
     "url": "https://arxiv.org/abs/2606.12908",
-    "title": "SENTINEL — Failure-Driven RL Training Framework with Controller–Proposer–Solver Loop That Mines Failure Patterns, Generates Targeted Tasks, Trains on Curated Curriculum (Failures-as-Curriculum); Qwen3-4B-Thinking-2507 Pass@1 66.4→74.9% (+8.5pp) on Tau2-Bench Retail; Outperforms Standard RL Across Pass@k on General Synthetic Tasks",
+    "title": "SENTINEL \u2014 Failure-Driven RL Training Framework with Controller\u2013Proposer\u2013Solver Loop That Mines Failure Patterns, Generates Targeted Tasks, Trains on Curated Curriculum (Failures-as-Curriculum); Qwen3-4B-Thinking-2507 Pass@1 66.4\u219274.9% (+8.5pp) on Tau2-Bench Retail; Outperforms Standard RL Across Pass@k on General Synthetic Tasks",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.13115",
     "url": "https://arxiv.org/abs/2606.13115",
-    "title": "G-Long — Graph-Enhanced Long-Term Dialogue Memory via Fine-Tuned Small-LM Structured Triplet Extraction + Associative Graph Retrieval + Attention-Aware Importance Scoring (T5 Summarizer Signals); +9.8% Response Quality on MSC, 40.8% Retrieval Recall on LME; Substantially Lower Compute vs Baselines",
+    "title": "G-Long \u2014 Graph-Enhanced Long-Term Dialogue Memory via Fine-Tuned Small-LM Structured Triplet Extraction + Associative Graph Retrieval + Attention-Aware Importance Scoring (T5 Summarizer Signals); +9.8% Response Quality on MSC, 40.8% Retrieval Recall on LME; Substantially Lower Compute vs Baselines",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.13177",
     "url": "https://arxiv.org/abs/2606.13177",
-    "title": "MemRefine — LLM-Guided Long-Term-Memory Compaction Using Similarity Only to Propose Candidate Pairs, Then Defers Delete/Merge/Preserve Decisions to LLM Judge Based on Factual Content; Iterates Until Budget Met While Preserving Downstream Performance; Beats Rule-Based Baselines Under Tight Budgets Across Multiple Memory Frameworks",
+    "title": "MemRefine \u2014 LLM-Guided Long-Term-Memory Compaction Using Similarity Only to Propose Candidate Pairs, Then Defers Delete/Merge/Preserve Decisions to LLM Judge Based on Factual Content; Iterates Until Budget Met While Preserving Downstream Performance; Beats Rule-Based Baselines Under Tight Budgets Across Multiple Memory Frameworks",
     "date_covered": "2026-06-12"
   },
   {
     "id": "arxiv:2606.12329",
     "url": "https://arxiv.org/abs/2606.12329",
-    "title": "PROJECTMEM — Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents; Append-Only Plain-Text Event Log + Memory-as-Governance Pre-Action Gate + 14 MCP Tools / 19 CLI Commands; 5–20k Tokens Saved Per Session in 2-Month / 10-Project Self-Study (207 Events)",
+    "title": "PROJECTMEM \u2014 Local-First, Event-Sourced Memory and Judgment Layer for AI Coding Agents; Append-Only Plain-Text Event Log + Memory-as-Governance Pre-Action Gate + 14 MCP Tools / 19 CLI Commands; 5\u201320k Tokens Saved Per Session in 2-Month / 10-Project Self-Study (207 Events)",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.11680",
     "url": "https://arxiv.org/abs/2606.11680",
-    "title": "HORMA (Organize then Retrieve) — Hierarchical File-System-Like Memory Linking Summaries to Detailed Trajectories + RL-Trained Navigator; Token Usage Reduced to 22.17% of Baseline on Long Conversations; Improves ALFWorld / LoCoMo / LongMemEval",
+    "title": "HORMA (Organize then Retrieve) \u2014 Hierarchical File-System-Like Memory Linking Summaries to Detailed Trajectories + RL-Trained Navigator; Token Usage Reduced to 22.17% of Baseline on Long Conversations; Improves ALFWorld / LoCoMo / LongMemEval",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.11926",
     "url": "https://arxiv.org/abs/2606.11926",
-    "title": "Arbor (Hypothesis-Tree Refinement) — Long-Lived Coordinator + Short-Lived Executors + HTR Linking Hypotheses↔Artifacts↔Evidence↔Insights; >2.5× Avg Relative Held-Out Gain Over Codex + Claude Code on Six Research Tasks; 86.36% Any Medal on MLE-Bench Lite (GPT-5.5)",
+    "title": "Arbor (Hypothesis-Tree Refinement) \u2014 Long-Lived Coordinator + Short-Lived Executors + HTR Linking Hypotheses\u2194Artifacts\u2194Evidence\u2194Insights; >2.5\u00d7 Avg Relative Held-Out Gain Over Codex + Claude Code on Six Research Tasks; 86.36% Any Medal on MLE-Bench Lite (GPT-5.5)",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.10728",
     "url": "https://arxiv.org/abs/2606.10728",
-    "title": "DeNovoSWE — 4,818-Instance Whole-Repository-Generation Dataset Built via Sandboxed Agentic Workflow (Divide-Conquer + Critic-Repair + Difficulty Filter, No Human Annotation); Fine-Tuning Qwen3-30B-A3B Lifts BeyondSWE-Doc2Repo 5.8% → 47.2%",
+    "title": "DeNovoSWE \u2014 4,818-Instance Whole-Repository-Generation Dataset Built via Sandboxed Agentic Workflow (Divide-Conquer + Critic-Repair + Difficulty Filter, No Human Annotation); Fine-Tuning Qwen3-30B-A3B Lifts BeyondSWE-Doc2Repo 5.8% \u2192 47.2%",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.11559",
     "url": "https://arxiv.org/abs/2606.11559",
-    "title": "HERO (Hindsight-Enhanced Reflection from Environment Observations) — Converts Each Env Observation into Turn-Level Diagnostic for Self-Distillation; Beats Env-Feedback-Only Baselines + GRPO on TauBench + WebShop Under Limited-Rollout Budgets",
+    "title": "HERO (Hindsight-Enhanced Reflection from Environment Observations) \u2014 Converts Each Env Observation into Turn-Level Diagnostic for Self-Distillation; Beats Env-Feedback-Only Baselines + GRPO on TauBench + WebShop Under Limited-Rollout Budgets",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.12400",
     "url": "https://arxiv.org/abs/2606.12400",
-    "title": "Doc-to-Atom — Per-Document Semantically Typed Knowledge Atoms Each Compiled into Independent Micro-LoRA Adapter + Lightweight Router; Outperforms Doc-to-LoRA Baselines on Six QA Benchmarks at Lower Memory Cost",
+    "title": "Doc-to-Atom \u2014 Per-Document Semantically Typed Knowledge Atoms Each Compiled into Independent Micro-LoRA Adapter + Lightweight Router; Outperforms Doc-to-LoRA Baselines on Six QA Benchmarks at Lower Memory Cost",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.12320",
     "url": "https://arxiv.org/abs/2606.12320",
-    "title": "Five-Plane Reference Architecture for Runtime Governance of Production AI Agents — Reasoning Plane + 4 Enforcement Planes + 4 Composable Primitives (Stop-Anywhere Mediation, Composite Principals w/ Capability Attenuation, Structured Audit Substrate, Six Interruption Primitives); Single-Digit-Microsecond Adjudication; 7 Threats Foreclosed Across 5 Workflows",
+    "title": "Five-Plane Reference Architecture for Runtime Governance of Production AI Agents \u2014 Reasoning Plane + 4 Enforcement Planes + 4 Composable Primitives (Stop-Anywhere Mediation, Composite Principals w/ Capability Attenuation, Structured Audit Substrate, Six Interruption Primitives); Single-Digit-Microsecond Adjudication; 7 Threats Foreclosed Across 5 Workflows",
     "date_covered": "2026-06-11"
   },
   {
     "id": "arxiv:2606.12191",
     "url": "https://arxiv.org/abs/2606.12191",
-    "title": "Agentic Environment Engineering for LLMs — 63-Page Survey (15 Authors, CAS); Lifecycle Modeling→Synthesis→Evaluation→Application; 8 Attributes × 8 Domains Taxonomy; Symbolic vs Neural Synthesis Paradigms; Four Co-Evolution Pathways (Memory-Centric, Orchestration-Centric, Trajectory-Centric, Exploration-Centric)",
+    "title": "Agentic Environment Engineering for LLMs \u2014 63-Page Survey (15 Authors, CAS); Lifecycle Modeling\u2192Synthesis\u2192Evaluation\u2192Application; 8 Attributes \u00d7 8 Domains Taxonomy; Symbolic vs Neural Synthesis Paradigms; Four Co-Evolution Pathways (Memory-Centric, Orchestration-Centric, Trajectory-Centric, Exploration-Centric)",
     "date_covered": "2026-06-11"
   },
   {
     "id": "anthropic-news-2026-06-09-claude-fable-5-mythos-5",
     "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-    "title": "Claude Fable 5 + Claude Mythos 5 — 80.3% SWE-Bench Pro (+11 pts on field); 88.0% Terminal-Bench 2.1; 85.0% OSWorld-Verified; GDPval-AA ELO 1932; $10/$50; api id claude-fable-5; Persistent File-Based Memory; Three Classifier-Gated Fallback Paths to Opus 4.8",
+    "title": "Claude Fable 5 + Claude Mythos 5 \u2014 80.3% SWE-Bench Pro (+11 pts on field); 88.0% Terminal-Bench 2.1; 85.0% OSWorld-Verified; GDPval-AA ELO 1932; $10/$50; api id claude-fable-5; Persistent File-Based Memory; Three Classifier-Gated Fallback Paths to Opus 4.8",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.10677",
     "url": "https://arxiv.org/abs/2606.10677",
-    "title": "Infini Memory — Maintainable Topic-Structured Documents for Long-Term LLM Agent Memory; Staging Buffer + Periodic Consolidation + Iterative Agentic Retrieval; 64.7% on MemoryAgentBench",
+    "title": "Infini Memory \u2014 Maintainable Topic-Structured Documents for Long-Term LLM Agent Memory; Staging Buffer + Periodic Consolidation + Iterative Agentic Retrieval; 64.7% on MemoryAgentBench",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.10532",
     "url": "https://arxiv.org/abs/2606.10532",
-    "title": "ActiveMem — Distributed Active Memory Decoupling Reasoning from Storage (PFC-Planner vs. Hippocampus-Distributed-Memory); SoTA on GAIA + BrowseComp-Plus with Significantly Reduced Overhead",
+    "title": "ActiveMem \u2014 Distributed Active Memory Decoupling Reasoning from Storage (PFC-Planner vs. Hippocampus-Distributed-Memory); SoTA on GAIA + BrowseComp-Plus with Significantly Reduced Overhead",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.10616",
     "url": "https://arxiv.org/abs/2606.10616",
-    "title": "OSL-MR (Observability-Safe Memory Retention) — Memory Retention as Constrained Stochastic Optimization with Miss-Penalty/Reacquisition-Delay/Stale-Info Costs; Online-Observable vs. Offline-Available Supervision Split; Beats Recency + Generative-Agents Scoring on LOCOMO + LongMemEval",
+    "title": "OSL-MR (Observability-Safe Memory Retention) \u2014 Memory Retention as Constrained Stochastic Optimization with Miss-Penalty/Reacquisition-Delay/Stale-Info Costs; Online-Observable vs. Offline-Available Supervision Split; Beats Recency + Generative-Agents Scoring on LOCOMO + LongMemEval",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.10933",
     "url": "https://arxiv.org/abs/2606.10933",
-    "title": "Frontier Coding Agents Use Metaprogramming to Adapt to Unfamiliar Programming Languages — Claude Opus 4.6 / GPT-5.4 xhigh Write Python Generators for Brainfuck/Befunge-98; Forbidding Metaprogramming Causes Large Drops; Opus-Derived Python Helpers Lift Sonnet 4.6 / GPT-5.4 mini; SWE-Bench-Verified / Terminal-Bench-2.0 Compress These Differences",
+    "title": "Frontier Coding Agents Use Metaprogramming to Adapt to Unfamiliar Programming Languages \u2014 Claude Opus 4.6 / GPT-5.4 xhigh Write Python Generators for Brainfuck/Befunge-98; Forbidding Metaprogramming Causes Large Drops; Opus-Derived Python Helpers Lift Sonnet 4.6 / GPT-5.4 mini; SWE-Bench-Verified / Terminal-Bench-2.0 Compress These Differences",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.11042",
     "url": "https://arxiv.org/abs/2606.11042",
-    "title": "Workflow-GYM — Long-Horizon Professional GUI Agent Benchmark Across Domain-Specific Software; SoTA Models Only Slightly Above 30%; Failure Modes: Stage Omission, Error Propagation, Objective Drift, Insufficient Pro-Software Understanding (57 authors, Liya Zhu / Jingzhe Ding)",
+    "title": "Workflow-GYM \u2014 Long-Horizon Professional GUI Agent Benchmark Across Domain-Specific Software; SoTA Models Only Slightly Above 30%; Failure Modes: Stage Omission, Error Propagation, Objective Drift, Insufficient Pro-Software Understanding (57 authors, Liya Zhu / Jingzhe Ding)",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.11052",
     "url": "https://arxiv.org/abs/2606.11052",
-    "title": "Attention Amnesia — CoT-SFT Breaks Long-Range Recall in Hybrid LLMs by Biasing Attention Gradients Toward Short-Range Patterns; HypeNet-9B NIAH-S2@256K Collapses 67.2% → 9.4%; QK-Restore Recovers 65.4% → 76.4% on HypeNet-5B S3@256K While Preserving Reasoning",
+    "title": "Attention Amnesia \u2014 CoT-SFT Breaks Long-Range Recall in Hybrid LLMs by Biasing Attention Gradients Toward Short-Range Patterns; HypeNet-9B NIAH-S2@256K Collapses 67.2% \u2192 9.4%; QK-Restore Recovers 65.4% \u2192 76.4% on HypeNet-5B S3@256K While Preserving Reasoning",
     "date_covered": "2026-06-10"
   },
   {
     "id": "arxiv:2606.11164",
     "url": "https://arxiv.org/abs/2606.11164",
-    "title": "ReasonAlloc — Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models; Two-Level (Offline Layer-Wise Reasoning-Wave + Online Head-Wise); Training-Free / Plug-and-Play With R-KV / SnapKV / Pyramid-RKV; Largest Gains at 128-512 Token Budgets on MATH-500 + AIME 2024 (DeepSeek-R1-Distill-Llama-8B / DeepSeek-R1-Distill-Qwen-14B / AceReason-14B)",
+    "title": "ReasonAlloc \u2014 Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models; Two-Level (Offline Layer-Wise Reasoning-Wave + Online Head-Wise); Training-Free / Plug-and-Play With R-KV / SnapKV / Pyramid-RKV; Largest Gains at 128-512 Token Budgets on MATH-500 + AIME 2024 (DeepSeek-R1-Distill-Llama-8B / DeepSeek-R1-Distill-Qwen-14B / AceReason-14B)",
     "date_covered": "2026-06-10"
   },
   {
     "id": "anthropic-research-2026-06-08-agents-in-biology",
     "url": "https://www.anthropic.com/research/agents-in-biology",
-    "title": "Paving the Way for Agents in Biology — VirBench (120 queries × 40 pathogens); Raw Frontier Models 16.9–91.3%, gget virus Deterministic Layer Lifts All to >90% (Peak 99.7% GPT-5.5), Same-Query Run-to-Run Variability Eliminated",
+    "title": "Paving the Way for Agents in Biology \u2014 VirBench (120 queries \u00d7 40 pathogens); Raw Frontier Models 16.9\u201391.3%, gget virus Deterministic Layer Lifts All to >90% (Peak 99.7% GPT-5.5), Same-Query Run-to-Run Variability Eliminated",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.09483",
     "url": "https://arxiv.org/abs/2606.09483",
-    "title": "DCPM / Memory Beyond Recall — Dual-Process (System1 / System2) Cognitive Memory for Self-Evolving Agents; Hierarchy: Inputs → Atomic Facts → Belief Trajectories → Identity → Schemas; +5.20 on PersonaMem-v2, Gains on LongMemEval Implicit-Reasoning, Minimal on Span Recall",
+    "title": "DCPM / Memory Beyond Recall \u2014 Dual-Process (System1 / System2) Cognitive Memory for Self-Evolving Agents; Hierarchy: Inputs \u2192 Atomic Facts \u2192 Belief Trajectories \u2192 Identity \u2192 Schemas; +5.20 on PersonaMem-v2, Gains on LongMemEval Implicit-Reasoning, Minimal on Span Recall",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.09498",
     "url": "https://arxiv.org/abs/2606.09498",
-    "title": "Self-Harness — Harnesses That Improve Themselves; Three-Stage Failure-Pattern → Harness-Edit → Regression-Test Loop; MiniMax M2.5 40.5→61.9, Qwen3.5-35B-A3B 23.8→38.1, GLM-5 42.9→57.1 on Terminal-Bench 2.0",
+    "title": "Self-Harness \u2014 Harnesses That Improve Themselves; Three-Stage Failure-Pattern \u2192 Harness-Edit \u2192 Regression-Test Loop; MiniMax M2.5 40.5\u219261.9, Qwen3.5-35B-A3B 23.8\u219238.1, GLM-5 42.9\u219257.1 on Terminal-Bench 2.0",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.09071",
     "url": "https://arxiv.org/abs/2606.09071",
-    "title": "REFLECT — Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces; Diagnose → Controlled-Replay Patch → Outcome-Flip Contrastive Evidence; Best Same-Auditor Localization Across 4 Benchmarks; Largest Gains on Structured Tool-Use Traces; Works Without Ground Truth",
+    "title": "REFLECT \u2014 Intervention-Supported Error Attribution for Silent Failures in LLM Agent Traces; Diagnose \u2192 Controlled-Replay Patch \u2192 Outcome-Flip Contrastive Evidence; Best Same-Auditor Localization Across 4 Benchmarks; Largest Gains on Structured Tool-Use Traces; Works Without Ground Truth",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.09659",
     "url": "https://arxiv.org/abs/2606.09659",
-    "title": "LCLMs / End-to-End Context Compression at Scale — Encoder-Decoder Latent Context Compression at 1:4 / 1:8 / 1:16; 0.6B-Encoder + 4B-Decoder Continually Pretrained on 350B+ Tokens; Long-Horizon Agents Compress Then Selectively Expand Relevant Segments",
+    "title": "LCLMs / End-to-End Context Compression at Scale \u2014 Encoder-Decoder Latent Context Compression at 1:4 / 1:8 / 1:16; 0.6B-Encoder + 4B-Decoder Continually Pretrained on 350B+ Tokens; Long-Horizon Agents Compress Then Selectively Expand Relevant Segments",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.09316",
     "url": "https://arxiv.org/abs/2606.09316",
-    "title": "Anything2Skill — Compiling External Knowledge Into Reusable, Executable Skills With Invocation Conditions / Action Sequences / Constraints / Confidence Scores; 98.85% qsv, 94.10% GitHub-CLI; Persistent SkillBank With Taxonomy-Aware Compilation and Lifecycle Tracking",
+    "title": "Anything2Skill \u2014 Compiling External Knowledge Into Reusable, Executable Skills With Invocation Conditions / Action Sequences / Constraints / Confidence Scores; 98.85% qsv, 94.10% GitHub-CLI; Persistent SkillBank With Taxonomy-Aware Compilation and Lifecycle Tracking",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.09748",
     "url": "https://arxiv.org/abs/2606.09748",
-    "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback — Self-Reflection ≈ 0 Net Gain; Process Feedback +8–15 pts Single Round at ~35–40% Incorporation; Up to 24% Regression on Previously-Satisfied Criteria Across Turns; Introduces Research Gap Inference (RGI); ICML 2026 SCALE Oral",
+    "title": "Multi-Turn Evaluation of Deep Research Agents Under Process-Level Feedback \u2014 Self-Reflection \u2248 0 Net Gain; Process Feedback +8\u201315 pts Single Round at ~35\u201340% Incorporation; Up to 24% Regression on Previously-Satisfied Criteria Across Turns; Introduces Research Gap Inference (RGI); ICML 2026 SCALE Oral",
     "date_covered": "2026-06-09"
   },
   {
     "id": "hf-blog-2026-06-08-openenv-agentic-rl",
     "url": "https://huggingface.co/blog/openenv-agentic-rl",
-    "title": "OpenEnv — Open Standard for Agentic-RL Environments; Gymnasium-Style API (reset / step / state) Over HTTP / WebSocket / MCP, Docker-Packaged; Coordinating Committee: Meta-PyTorch / Reflection / Unsloth / Modal / Prime Intellect / NVIDIA / Mercor / Fleet AI / Hugging Face + ~12 More Supporting Orgs",
+    "title": "OpenEnv \u2014 Open Standard for Agentic-RL Environments; Gymnasium-Style API (reset / step / state) Over HTTP / WebSocket / MCP, Docker-Packaged; Coordinating Committee: Meta-PyTorch / Reflection / Unsloth / Modal / Prime Intellect / NVIDIA / Mercor / Fleet AI / Hugging Face + ~12 More Supporting Orgs",
     "date_covered": "2026-06-09"
   },
   {
     "id": "arxiv:2606.05761",
     "url": "https://arxiv.org/abs/2606.05761",
-    "title": "SubtleMemory — 1,522-Instance × 1,090-Variant Relational Memory Benchmark; 11 Systems Tested, All Weak on Fine-Grained Discrimination (Preservation / Retrieval / Reasoning)",
+    "title": "SubtleMemory \u2014 1,522-Instance \u00d7 1,090-Variant Relational Memory Benchmark; 11 Systems Tested, All Weak on Fine-Grained Discrimination (Preservation / Retrieval / Reasoning)",
     "date_covered": "2026-06-08"
   },
   {
     "id": "arxiv:2606.05806",
     "url": "https://arxiv.org/abs/2606.05806",
-    "title": "ToolMaze / When Tools Fail — Perturbation Recovery Rate Drops ~37% Under Implicit Semantic Failures; Fault Tolerance Scales 3.66× Slower Than Task Execution as Model Size Grows; 2×2 Failure Taxonomy × DAG Topology",
+    "title": "ToolMaze / When Tools Fail \u2014 Perturbation Recovery Rate Drops ~37% Under Implicit Semantic Failures; Fault Tolerance Scales 3.66\u00d7 Slower Than Task Execution as Model Size Grows; 2\u00d72 Failure Taxonomy \u00d7 DAG Topology",
     "date_covered": "2026-06-08"
   },
   {
     "id": "nvidia-dev-blog-2026-06-04-nemotron-3-ultra",
     "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/",
-    "title": "NVIDIA Nemotron 3 Ultra — 550B-MoE / 55B-Active Hybrid Mamba-Transformer for Long-Running Agents; 5× Throughput, 30% Cost Cut on SWE-Bench + Terminal-Bench 2.0, 91% PinchBench, 95% Ruler @ 1M; MOPD Multi-Teacher On-Policy Distillation; OpenMDW-1.1 License",
+    "title": "NVIDIA Nemotron 3 Ultra \u2014 550B-MoE / 55B-Active Hybrid Mamba-Transformer for Long-Running Agents; 5\u00d7 Throughput, 30% Cost Cut on SWE-Bench + Terminal-Bench 2.0, 91% PinchBench, 95% Ruler @ 1M; MOPD Multi-Teacher On-Policy Distillation; OpenMDW-1.1 License",
     "date_covered": "2026-06-08"
   },
   {
     "id": "arxiv:2606.06741",
     "url": "https://arxiv.org/abs/2606.06741",
-    "title": "OpenSkill — No-Supervision Open-World Self-Evolution; Skill + Verifier Bootstrapped From Docs/Repos/Web; Best Automated Pass Rate Across 3 Benchmarks × 2 Target Agents; Code Released (OpenLAIR/OpenSkill)",
+    "title": "OpenSkill \u2014 No-Supervision Open-World Self-Evolution; Skill + Verifier Bootstrapped From Docs/Repos/Web; Best Automated Pass Rate Across 3 Benchmarks \u00d7 2 Target Agents; Code Released (OpenLAIR/OpenSkill)",
     "date_covered": "2026-06-08"
   },
   {
     "id": "arxiv:2606.07412",
     "url": "https://arxiv.org/abs/2606.07412",
-    "title": "Socratic-SWE — Self-Evolving Coding Agents via Trace-Derived Agent Skills (Failure Patterns + Repair Patterns); 50.40% SWE-Bench Verified After 3 Iterations; Consistent Improvement Over Self-Evolving Baselines at Equal Compute on SWE-Bench Lite / Pro + Terminal-Bench 2.0",
+    "title": "Socratic-SWE \u2014 Self-Evolving Coding Agents via Trace-Derived Agent Skills (Failure Patterns + Repair Patterns); 50.40% SWE-Bench Verified After 3 Iterations; Consistent Improvement Over Self-Evolving Baselines at Equal Compute on SWE-Bench Lite / Pro + Terminal-Bench 2.0",
     "date_covered": "2026-06-08"
   },
   {
     "id": "arxiv:2606.04703",
     "url": "https://arxiv.org/abs/2606.04703",
-    "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents — Principle-Level Durable / Instance-Level Causes Progressive Capability Collapse; Step-Wise > Global Injection; Off-Policy Context-Distillation > On-Policy (RUC / Yankai Lin)",
+    "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents \u2014 Principle-Level Durable / Instance-Level Causes Progressive Capability Collapse; Step-Wise > Global Injection; Off-Policy Context-Distillation > On-Policy (RUC / Yankai Lin)",
     "date_covered": "2026-06-08"
   },
   {
     "id": "arxiv:2606.06473",
     "url": "https://arxiv.org/abs/2606.06473",
-    "title": "MLEvolve — Self-Evolving Multi-Agent Framework for Automated ML Algorithm Discovery; Progressive MCGS (Monte Carlo Graph Search) + Retrospective Memory + Adaptive Coding Modes; SOTA on MLE-Bench Under 12-Hour Budget (Half Standard Runtime); Outperforms AlphaEvolve on Math Optimization",
+    "title": "MLEvolve \u2014 Self-Evolving Multi-Agent Framework for Automated ML Algorithm Discovery; Progressive MCGS (Monte Carlo Graph Search) + Retrospective Memory + Adaptive Coding Modes; SOTA on MLE-Bench Under 12-Hour Budget (Half Standard Runtime); Outperforms AlphaEvolve on Math Optimization",
     "date_covered": "2026-06-08"
   },
   {
     "id": "anthropic-research-2026-06-05-making-claude-a-chemist",
     "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-    "title": "Making Claude a Chemist — Opus 4.7 vs ChemDraw / MestReNova NMR Prediction; ±0.079 ppm H / ±1.37 ppm C, Sub-Peak Spacing ~80% vs 26–35%, 8/8 Perfect Inverse Structure Elucidation on Simple Problems",
+    "title": "Making Claude a Chemist \u2014 Opus 4.7 vs ChemDraw / MestReNova NMR Prediction; \u00b10.079 ppm H / \u00b11.37 ppm C, Sub-Peak Spacing ~80% vs 26\u201335%, 8/8 Perfect Inverse Structure Elucidation on Simple Problems",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06203",
     "url": "https://arxiv.org/abs/2606.06203",
-    "title": "Dense Contexts Are Hard Contexts — Lexical Density Limits Effective Context; <60% Retrieval at Higher Density Across 9B–685B Open-Weight Models on 12k-Token Tests",
+    "title": "Dense Contexts Are Hard Contexts \u2014 Lexical Density Limits Effective Context; <60% Retrieval at Higher Density Across 9B\u2013685B Open-Weight Models on 12k-Token Tests",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06337",
     "url": "https://arxiv.org/abs/2606.06337",
-    "title": "TokenMizer — Open-Source Typed-Knowledge-Graph Session-Memory Proxy; 78-Token Resume Blocks (2× Smaller), 47.3% Token Reduction, +33pp Recall from Fuzzy Label Matching Alone (21 Sessions × 5 Domains)",
+    "title": "TokenMizer \u2014 Open-Source Typed-Knowledge-Graph Session-Memory Proxy; 78-Token Resume Blocks (2\u00d7 Smaller), 47.3% Token Reduction, +33pp Recall from Fuzzy Label Matching Alone (21 Sessions \u00d7 5 Domains)",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06256",
     "url": "https://arxiv.org/abs/2606.06256",
-    "title": "RedKnot — Head-Aware KV Reuse + SegPagedAttention; Position-Independent Reuse / Prefix Compression / Hot-Cold Separation / Distributed Placement Without Retraining",
+    "title": "RedKnot \u2014 Head-Aware KV Reuse + SegPagedAttention; Position-Independent Reuse / Prefix Compression / Hot-Cold Separation / Distributed Placement Without Retraining",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06099",
     "url": "https://arxiv.org/abs/2606.06099",
-    "title": "CogManip — 15 Manipulation-Strategy Risks × 1000 Multi-Turn Scenarios × 13 Models (GPT-5.4 / DeepSeek-V3.2 Named); Significant Cross-Family Heterogeneity, DeepSeek-V3.2 Responsive Under Benign System Prompts",
+    "title": "CogManip \u2014 15 Manipulation-Strategy Risks \u00d7 1000 Multi-Turn Scenarios \u00d7 13 Models (GPT-5.4 / DeepSeek-V3.2 Named); Significant Cross-Family Heterogeneity, DeepSeek-V3.2 Responsive Under Benign System Prompts",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06447",
     "url": "https://arxiv.org/abs/2606.06447",
-    "title": "NF-CoT — Continuous-State Latent Reasoning via Normalizing Flows; KV-Cache Compatible, Exact Likelihood for Latent Steps, Policy-Gradient Optimizable; Improves Pass Rate vs Explicit-CoT and Prior Latent-Reasoning Baselines on Code Generation",
+    "title": "NF-CoT \u2014 Continuous-State Latent Reasoning via Normalizing Flows; KV-Cache Compatible, Exact Likelihood for Latent Steps, Policy-Gradient Optimizable; Improves Pass Rate vs Explicit-CoT and Prior Latent-Reasoning Baselines on Code Generation",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06416",
     "url": "https://arxiv.org/abs/2606.06416",
-    "title": "DataCOPE — Unsupervised Skill Discovery for Data-Analysis Agents; Adaptive Checklist Verifier (Report-Style) + Answer Agreement Verifier (Reasoning-Style); +9.71% / +32.30% Across Four Backbones on Deep Data Research / DABStep",
+    "title": "DataCOPE \u2014 Unsupervised Skill Discovery for Data-Analysis Agents; Adaptive Checklist Verifier (Report-Style) + Answer Agreement Verifier (Reasoning-Style); +9.71% / +32.30% Across Four Backbones on Deep Data Research / DABStep",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.04896",
     "url": "https://arxiv.org/abs/2606.04896",
-    "title": "Channel Fracture — Cron-Delegated Cross-Agent Memory Writes Fail Completely in Production (Hermes Agent, 525 Sim + 90 Real Runs); skip_memory=True Scheduler Default + Tool-Registration Order; CADVP v1.1 13-Dim Verification Protocol",
+    "title": "Channel Fracture \u2014 Cron-Delegated Cross-Agent Memory Writes Fail Completely in Production (Hermes Agent, 525 Sim + 90 Real Runs); skip_memory=True Scheduler Default + Tool-Registration Order; CADVP v1.1 13-Dim Verification Protocol",
     "date_covered": "2026-06-07"
   },
   {
     "id": "arxiv:2606.06453",
     "url": "https://arxiv.org/abs/2606.06453",
-    "title": "Vortex — Programmable Sparse Attention Serving for AI Agents; 3.46x Throughput vs Full Attention, 4.7x on MLA-Based GLM-4.7-Flash, 1.37x on 229B MiniMax-M2.7 (B200)",
+    "title": "Vortex \u2014 Programmable Sparse Attention Serving for AI Agents; 3.46x Throughput vs Full Attention, 4.7x on MLA-Based GLM-4.7-Flash, 1.37x on 229B MiniMax-M2.7 (B200)",
     "date_covered": "2026-06-06"
   },
   {
     "id": "arxiv:2606.06302",
     "url": "https://arxiv.org/abs/2606.06302",
-    "title": "Tangram — Non-Uniform KV Cache for Multi-Turn LLM Serving; Per-Head Budgeting + Grouped Pages + Static Balancing; 2.6x Throughput",
+    "title": "Tangram \u2014 Non-Uniform KV Cache for Multi-Turn LLM Serving; Per-Head Budgeting + Grouped Pages + Static Balancing; 2.6x Throughput",
     "date_covered": "2026-06-06"
   },
   {
     "id": "arxiv:2606.06079",
     "url": "https://arxiv.org/abs/2606.06079",
-    "title": "SkillComposer — Create/Improve/Merge Skill Operations; 4B Composer Lifts 27B Executor +4.5 on Agent Tasks (τ²-Bench / LiveCodeBench v6 / AppWorld), +3.4 on Code",
+    "title": "SkillComposer \u2014 Create/Improve/Merge Skill Operations; 4B Composer Lifts 27B Executor +4.5 on Agent Tasks (\u03c4\u00b2-Bench / LiveCodeBench v6 / AppWorld), +3.4 on Code",
     "date_covered": "2026-06-06"
   },
   {
     "id": "research-google-blog-2026-06-05-gemini-enterprise-agentic-rag",
     "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag/",
-    "title": "Gemini Enterprise Agentic RAG — Five-Agent Pipeline (Orchestrator / Planner / Query Rewriter / Search Fanout / Sufficient Context Agent); 90.1% FramesQA Cross-Corpus (824 Multi-Hop, 2676 Docs, 4 Corpora)",
+    "title": "Gemini Enterprise Agentic RAG \u2014 Five-Agent Pipeline (Orchestrator / Planner / Query Rewriter / Search Fanout / Sufficient Context Agent); 90.1% FramesQA Cross-Corpus (824 Multi-Hop, 2676 Docs, 4 Corpora)",
     "date_covered": "2026-06-06"
   },
   {
     "id": "arxiv:2606.04306",
     "url": "https://arxiv.org/abs/2606.04306",
-    "title": "Organizational Control Layer (OCL) — Execution-Boundary Governance; Unsafe Executions 88% → ~0%, Valid Success 12% → 96% on Adversarial Buyer-Seller Negotiation",
+    "title": "Organizational Control Layer (OCL) \u2014 Execution-Boundary Governance; Unsafe Executions 88% \u2192 ~0%, Valid Success 12% \u2192 96% on Adversarial Buyer-Seller Negotiation",
     "date_covered": "2026-06-06"
   },
   {
     "id": "arxiv:2606.06492",
     "url": "https://arxiv.org/abs/2606.06492",
-    "title": "Code2LoRA — Hypernetwork-Generated Per-Repo LoRA Adapters With GRU State for Codebase Evolution; +5.2pp Cross-Repo on RepoPeftBench Evolution Track (215K/87K Tasks)",
+    "title": "Code2LoRA \u2014 Hypernetwork-Generated Per-Repo LoRA Adapters With GRU State for Codebase Evolution; +5.2pp Cross-Repo on RepoPeftBench Evolution Track (215K/87K Tasks)",
     "date_covered": "2026-06-06"
   },
   {
     "id": "arxiv:2606.05622",
     "url": "https://arxiv.org/abs/2606.05622",
-    "title": "AdaPlanBench — 307 Household Tasks With Dual World/User Constraints Surfaced On Violation; 10 Frontier LLMs, Top Model 67.75%, User Constraints Harder Than World Constraints",
+    "title": "AdaPlanBench \u2014 307 Household Tasks With Dual World/User Constraints Surfaced On Violation; 10 Frontier LLMs, Top Model 67.75%, User Constraints Harder Than World Constraints",
     "date_covered": "2026-06-06"
   },
   {
     "id": "hf-blog-2026-06-04-servicenow-eva-bench-data",
     "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-    "title": "EVA-Bench Data 2.0 — Voice Agent Benchmark, 3 Enterprise Domains × 121 Tools × 213 Scenarios (Airline CSM 50 / ITSM 80 / HRSD 83); Multi-Intent + Adversarial + Unsatisfiable-Goal Subsets; MIT-Licensed",
+    "title": "EVA-Bench Data 2.0 \u2014 Voice Agent Benchmark, 3 Enterprise Domains \u00d7 121 Tools \u00d7 213 Scenarios (Airline CSM 50 / ITSM 80 / HRSD 83); Multi-Intent + Adversarial + Unsatisfiable-Goal Subsets; MIT-Licensed",
     "date_covered": "2026-06-06"
   },
   {
     "id": "hf-blog-2026-06-04-nvidia-nemotron-3-5-content-safety",
     "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-    "title": "Nemotron-3.5 Content Safety — 4B Multimodal Guard On Gemma-3-4B-IT + LoRA, THINK Mode, ~140 Languages; 96.5% Multilingual Aegis (12-Lang), 88.8% RTP-LX, 92.7% Combined, ~85% Multimodal; 3x Lower Latency vs LlamaGuard-4-12B",
+    "title": "Nemotron-3.5 Content Safety \u2014 4B Multimodal Guard On Gemma-3-4B-IT + LoRA, THINK Mode, ~140 Languages; 96.5% Multilingual Aegis (12-Lang), 88.8% RTP-LX, 92.7% Combined, ~85% Multimodal; 3x Lower Latency vs LlamaGuard-4-12B",
     "date_covered": "2026-06-06"
   },
   {
     "id": "arxiv:2606.06448",
     "url": "https://arxiv.org/abs/2606.06448",
-    "title": "Agent Memory — First Systems Characterization of Stateful Long-Horizon Workloads (Pentland/Verhelst/Tambe; 10 systems × 4 dims × 2 benchmark suites; 10 design recommendations)",
+    "title": "Agent Memory \u2014 First Systems Characterization of Stateful Long-Horizon Workloads (Pentland/Verhelst/Tambe; 10 systems \u00d7 4 dims \u00d7 2 benchmark suites; 10 design recommendations)",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.06090",
     "url": "https://arxiv.org/abs/2606.06090",
-    "title": "MAGE — Memory as Execution State Management (Hierarchical State Tree; Grow/Compress/Maintain/Revise; +7.8-20.4pp Success, -55.1% Tokens on MemoryArena)",
+    "title": "MAGE \u2014 Memory as Execution State Management (Hierarchical State Tree; Grow/Compress/Maintain/Revise; +7.8-20.4pp Success, -55.1% Tokens on MemoryArena)",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.06036",
     "url": "https://arxiv.org/abs/2606.06036",
-    "title": "MRAgent — Memory is Reconstructed, Not Retrieved (Cue-Tag-Content Graph, LLM-Driven Path Walk; +23% LoCoMo/LongMemEval; Bryan Hooi NUS, ICML 2026)",
+    "title": "MRAgent \u2014 Memory is Reconstructed, Not Retrieved (Cue-Tag-Content Graph, LLM-Driven Path Walk; +23% LoCoMo/LongMemEval; Bryan Hooi NUS, ICML 2026)",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.05894",
     "url": "https://arxiv.org/abs/2606.05894",
-    "title": "EMBER — Budgeted Evidence Retention With Learned Policy; EMBER-14B 0.3017 F1 vs 0.1765 Baseline at 8192-Token Budget (LongMemEval-RR, +71% Relative)",
+    "title": "EMBER \u2014 Budgeted Evidence Retention With Learned Policy; EMBER-14B 0.3017 F1 vs 0.1765 Baseline at 8192-Token Budget (LongMemEval-RR, +71% Relative)",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.06054",
     "url": "https://arxiv.org/abs/2606.06054",
-    "title": "MemGate — 9M-Param 35.1MB Query-Conditioned Gate Against Memory-Induced Jailbreaks; Drop-In Across A-Mem/Mem0/MemOS/OpenClaw",
+    "title": "MemGate \u2014 9M-Param 35.1MB Query-Conditioned Gate Against Memory-Induced Jailbreaks; Drop-In Across A-Mem/Mem0/MemOS/OpenClaw",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.06055",
     "url": "https://arxiv.org/abs/2606.06055",
-    "title": "RBI-Eval — Quantifying Sensitive-Memory Behavioral Divergence; GPT-5.4-mini 8.9-26.6%, Claude-Sonnet-4.6/DeepSeek-V4-Flash/Qwen3.5-9B 51.1-82.9% Separation",
+    "title": "RBI-Eval \u2014 Quantifying Sensitive-Memory Behavioral Divergence; GPT-5.4-mini 8.9-26.6%, Claude-Sonnet-4.6/DeepSeek-V4-Flash/Qwen3.5-9B 51.1-82.9% Separation",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.06087",
     "url": "https://arxiv.org/abs/2606.06087",
-    "title": "LatentSkill — Hypernetwork Emits Plug-and-Play LoRAs From Textual Skills; +21.4pp ALFWorld Seen, -64.1% Prefill Tokens; Composable by Parameter Arithmetic",
+    "title": "LatentSkill \u2014 Hypernetwork Emits Plug-and-Play LoRAs From Textual Skills; +21.4pp ALFWorld Seen, -64.1% Prefill Tokens; Composable by Parameter Arithmetic",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.05922",
     "url": "https://arxiv.org/abs/2606.05922",
-    "title": "RHO — Retrospective Harness Optimization (Self-Coreset + Self-Validation + Self-Preference); SWE-Bench Pro 59% → 78% in One Cycle, No External Grader",
+    "title": "RHO \u2014 Retrospective Harness Optimization (Self-Coreset + Self-Validation + Self-Preference); SWE-Bench Pro 59% \u2192 78% in One Cycle, No External Grader",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.06284",
     "url": "https://arxiv.org/abs/2606.06284",
-    "title": "CMTF (ToolChoiceConfusion) — Causal Minimal Tool Filtering; 100 Tools → 1 Visible Per Step, ~90% Token Cut on 102 Tasks × 4 LLM Backends × 2448 Runs",
+    "title": "CMTF (ToolChoiceConfusion) \u2014 Causal Minimal Tool Filtering; 100 Tools \u2192 1 Visible Per Step, ~90% Token Cut on 102 Tasks \u00d7 4 LLM Backends \u00d7 2448 Runs",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.05976",
     "url": "https://arxiv.org/abs/2606.05976",
-    "title": "Self-Correction Illusion — Chat-Template Artifact; Relabeling <thought> → External Role Lifts Correction Rate 23-93pp (p<0.001 in 10/13 Cells, 7 Model Families × 3 Domains)",
+    "title": "Self-Correction Illusion \u2014 Chat-Template Artifact; Relabeling <thought> \u2192 External Role Lifts Correction Rate 23-93pp (p<0.001 in 10/13 Cells, 7 Model Families \u00d7 3 Domains)",
     "date_covered": "2026-06-05"
   },
   {
     "id": "hf-blog-2026-06-04-hf-cli-for-agents",
     "url": "https://huggingface.co/blog/hf-cli-for-agents",
-    "title": "hf CLI for Agents — Dual-Mode Output + Next-Command Hints + Auto-Skill Reference; 94% Claude Code Pass vs 84% curl/Python, Up to 6x Fewer Tokens, ~30% Fewer Tool Calls",
+    "title": "hf CLI for Agents \u2014 Dual-Mode Output + Next-Command Hints + Auto-Skill Reference; 94% Claude Code Pass vs 84% curl/Python, Up to 6x Fewer Tokens, ~30% Fewer Tool Calls",
     "date_covered": "2026-06-05"
   },
   {
     "id": "arxiv:2606.04315",
     "url": "https://arxiv.org/abs/2606.04315",
-    "title": "AutoMEM — Cross-Scenario Generality of Agentic Memory; Harness With Self-Managed File-Storage Tool Calls Wins Over 8 Memory Systems Across 5 Scenarios (Tang lab)",
+    "title": "AutoMEM \u2014 Cross-Scenario Generality of Agentic Memory; Harness With Self-Managed File-Storage Tool Calls Wins Over 8 Memory Systems Across 5 Scenarios (Tang lab)",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.04555",
     "url": "https://arxiv.org/abs/2606.04555",
-    "title": "SegTreeMem — Temporal-Ordered Segment Tree Memory With Online Update; Permutation Ablation Confirms Temporal Order Is the Win (Toronto)",
+    "title": "SegTreeMem \u2014 Temporal-Ordered Segment Tree Memory With Online Update; Permutation Ablation Confirms Temporal Order Is the Win (Toronto)",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.04780",
     "url": "https://arxiv.org/abs/2606.04780",
-    "title": "PersonaTree — Three-Level Lifecycle Person Tree With Evidence→Claim Support Paths; Ranks 1st in 12/18 Compact Scores Across 6 Benchmarks",
+    "title": "PersonaTree \u2014 Three-Level Lifecycle Person Tree With Evidence\u2192Claim Support Paths; Ranks 1st in 12/18 Compact Scores Across 6 Benchmarks",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.04536",
     "url": "https://arxiv.org/abs/2606.04536",
-    "title": "TMEM — In-Episode LoRA Fast-Weight Memory With SVD Init; RL-Optimizable Extraction Policy; Beats Summary/Retrieval Baselines on LoCoMo/LongMemEval-S/CL-Bench",
+    "title": "TMEM \u2014 In-Episode LoRA Fast-Weight Memory With SVD Init; RL-Optimizable Extraction Policy; Beats Summary/Retrieval Baselines on LoCoMo/LongMemEval-S/CL-Bench",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.04660",
     "url": "https://arxiv.org/abs/2606.04660",
-    "title": "LifeSide — Lifelong Companion Benchmark (2k Personas × 111k Tasks, Memory-Emotion-Environment Loops); Memory-Saturating Models Still Fail Long-Horizon Companionship",
+    "title": "LifeSide \u2014 Lifelong Companion Benchmark (2k Personas \u00d7 111k Tasks, Memory-Emotion-Environment Loops); Memory-Saturating Models Still Fail Long-Horizon Companionship",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.04628",
     "url": "https://arxiv.org/abs/2606.04628",
-    "title": "RAMPART — In-RAM Block Registry With Five Composable Memory Ops; Position-Effect Numbers on Qwen3-8B Q4 (Pos ~7 Cliff, Grouping Recovers Tens of pp, Gating = 67.8% Token Cut)",
+    "title": "RAMPART \u2014 In-RAM Block Registry With Five Composable Memory Ops; Position-Effect Numbers on Qwen3-8B Q4 (Pos ~7 Cliff, Grouping Recovers Tens of pp, Gating = 67.8% Token Cut)",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.05080",
     "url": "https://arxiv.org/abs/2606.05080",
-    "title": "AutoLab — Long-Horizon Engineering Benchmark (36 Tasks, 17 Models); Persistence > Initial Quality; Claude Opus 4.6 Wins",
+    "title": "AutoLab \u2014 Long-Horizon Engineering Benchmark (36 Tasks, 17 Models); Persistence > Initial Quality; Claude Opus 4.6 Wins",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.05158",
     "url": "https://arxiv.org/abs/2606.05158",
-    "title": "StreamMA — Streaming Reasoning Steps Between Agents (Step-Level Scaling Law); +7.3pp Avg, +22.4pp HMMT 2026 (Opus 4.6-high), 8 Benchmarks × Chain/Tree/Graph",
+    "title": "StreamMA \u2014 Streaming Reasoning Steps Between Agents (Step-Level Scaling Law); +7.3pp Avg, +22.4pp HMMT 2026 (Opus 4.6-high), 8 Benchmarks \u00d7 Chain/Tree/Graph",
     "date_covered": "2026-06-04"
   },
   {
     "id": "anthropic-news-2026-06-03-ai-enabled-cyber-threats-mitre-attack",
     "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-    "title": "Anthropic Frontier Red Team — One Year of AI-Enabled Cyber Threats (832 Banned Accounts, MITRE ATT&CK Mapped, 67.3% Malware Dev, Risk-Tier Headcount ~1.7×)",
+    "title": "Anthropic Frontier Red Team \u2014 One Year of AI-Enabled Cyber Threats (832 Banned Accounts, MITRE ATT&CK Mapped, 67.3% Malware Dev, Risk-Tier Headcount ~1.7\u00d7)",
     "date_covered": "2026-06-04"
   },
   {
     "id": "arxiv:2606.03461",
     "url": "https://arxiv.org/abs/2606.03461",
-    "title": "Terminal-Lego / Harness Engineering — Pedagogical Paradox (Qwen3-32B 24.3% Terminal-Bench 2.0 from 15.3k Trajectories)",
+    "title": "Terminal-Lego / Harness Engineering \u2014 Pedagogical Paradox (Qwen3-32B 24.3% Terminal-Bench 2.0 from 15.3k Trajectories)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "arxiv:2606.03979",
     "url": "https://arxiv.org/abs/2606.03979",
-    "title": "Language Models Need Sleep — Knowledge Seeding + Dreaming (Behrouz/Mirrokni, Google)",
+    "title": "Language Models Need Sleep \u2014 Knowledge Seeding + Dreaming (Behrouz/Mirrokni, Google)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "arxiv:2606.03463",
     "url": "https://arxiv.org/abs/2606.03463",
-    "title": "DMF — Deterministic Memory Framework (5x-242x Fewer Tokens vs Mem0, No LLM in Loop)",
+    "title": "DMF \u2014 Deterministic Memory Framework (5x-242x Fewer Tokens vs Mem0, No LLM in Loop)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "arxiv:2606.03657",
     "url": "https://arxiv.org/abs/2606.03657",
-    "title": "NovelAPIBench — Diagnosing Knowledge Gaps in LLM Tool Use (Usage Examples = Strongest Standalone Signal)",
+    "title": "NovelAPIBench \u2014 Diagnosing Knowledge Gaps in LLM Tool Use (Usage Examples = Strongest Standalone Signal)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "arxiv:2606.03467",
     "url": "https://arxiv.org/abs/2606.03467",
-    "title": "StepFinder — Lightweight Failure Attribution Without LLM in Loop (79% Faster on Who&When)",
+    "title": "StepFinder \u2014 Lightweight Failure Attribution Without LLM in Loop (79% Faster on Who&When)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "arxiv:2606.03692",
     "url": "https://arxiv.org/abs/2606.03692",
-    "title": "SkillPyramid — Hierarchical Skill Consolidation (+38.0% Reward, -27.7% Steps, ALFWorld+WebShop+SciWorld)",
+    "title": "SkillPyramid \u2014 Hierarchical Skill Consolidation (+38.0% Reward, -27.7% Steps, ALFWorld+WebShop+SciWorld)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "arxiv:2606.03841",
     "url": "https://arxiv.org/abs/2606.03841",
-    "title": "EvoDS — Self-Evolving Autonomous Data Science Agent (+28.9% on 4 Benchmarks, KDD 2026)",
+    "title": "EvoDS \u2014 Self-Evolving Autonomous Data Science Agent (+28.9% on 4 Benchmarks, KDD 2026)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "hf-blog-2026-06-02-hcompany-holo31",
     "url": "https://huggingface.co/blog/Hcompany/holo31",
-    "title": "Hcompany Holo3.1 — Open Local CUA Family (Q4 GGUF Apple Silicon, 79.3% AndroidWorld at 35B-A3B)",
+    "title": "Hcompany Holo3.1 \u2014 Open Local CUA Family (Q4 GGUF Apple Silicon, 79.3% AndroidWorld at 35B-A3B)",
     "date_covered": "2026-06-03"
   },
   {
     "id": "anthropic-news-2026-06-02-expanding-project-glasswing",
     "url": "https://www.anthropic.com/news/expanding-project-glasswing",
-    "title": "Anthropic Expanding Project Glasswing — Claude Mythos Preview External Confirmation (>10K High/Critical Flaws)",
+    "title": "Anthropic Expanding Project Glasswing \u2014 Claude Mythos Preview External Confirmation (>10K High/Critical Flaws)",
     "date_covered": "2026-06-03"
   },
   {
