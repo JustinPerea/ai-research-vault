@@ -1,5 +1,65 @@
 [
   {
+    "id": "arxiv:2606.24151",
+    "url": "https://arxiv.org/abs/2606.24151",
+    "title": "Metis: Bridging Text and Code Memory for Self-Evolving Agents (Zijie Dai, Siuhin He, Hui Li, Qihui Zhou, Jiajun Li, Mingcong Song, Guoping Long, Hongjie Si, Xin Yao, Lin Zhang, James Cheng, Xiao Yan) — controlled comparison of text- vs code-based memory representations followed by hierarchical dual-representation system; text memory stores execution plans / environment facts / common pitfalls while recurring patterns selectively promoted to executable tools; AppWorld evaluation: +20.6 pts task accuracy over ReAct baseline at -22.8% execution cost; outperforms other self-evolving agent systems across accuracy, efficiency, and construction cost",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.24428",
+    "url": "https://arxiv.org/abs/2606.24428",
+    "title": "EDV / Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning (Shiding Zhu, Yudi Qi, Yajie Wang, Jiaze Li, Chao Song, Yaorui Shi, Yibo Miao, Hanqi Gao, Kai Zhang) — identifies self-confirmation trap (single-agent experience learning reinforces own mistakes); three-role decomposition: Execute (multiple heterogeneous agents in parallel) -> Distill (dedicated third-party agent comparatively analyzes trajectories) -> Verify (executor group validates by consensus before memory write); consistent improvements on tau2-bench, Mind2Web, MMTB; code at shidingz/EDV",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.24515",
+    "url": "https://arxiv.org/abs/2606.24515",
+    "title": "Reinforcement Learning for Computer-Use Agents with Autonomous Evaluation (Marta Sumyk, Oleksandr Kosovan) — GLOW @ IJCAI 2026; VLM-as-judge compares final screenshot to instruction emitting binary completion signal; models as noisy binary reward channel and derives noise-corrected estimator for PPO; +12.6 pts over zero-shot, +5.1 pts over raw evaluator fine-tuning across macOSWorld / Windows Agent Arena / OSWorld; noise correction is the actual contribution (VLM-as-judge tried before; explicit noise model makes PPO-stable)",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.24453",
+    "url": "https://arxiv.org/abs/2606.24453",
+    "title": "Bayesian Control for Coding Agents (Theodore Papamarkou, Vladislav Smirnov, Viktor Mazanov, Artem Vazhentsev, Preslav Nakov, Timothy Baldwin, Artem Shelmanov) — reframes coding-agent tool orchestration as cost-sensitive sequential hypothesis testing; controller maintains Bayesian belief about code correctness and adaptively decides whether to gather evidence / refine / verify / stop; six code generators × nine benchmarks; Bayesian belief state outperforms token-probability and raw tool-success baselines for uncertainty quantification; largest gains when verification is expensive but informative",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.20023",
+    "url": "https://arxiv.org/abs/2606.20023",
+    "title": "ToolPrivBench / When Lower Privileges Suffice: Investigating Over-Privileged Tool Selection in LLM Agents (Kaiyue Yang, Yuyan Bu, Jingwei Yi, Yuchi Wang, Biyu Zhou, Juntao Dai, Songlin Hu, Yaodong Yang) — defines and measures over-privileged tool selection; eight domains, five risk patterns, tests initial selection + escalation behavior; over-privileged selection common across mainstream agents; prompt-level controls fail under transient tool failures (agent escalates when low-privilege call errors); general safety training does NOT transfer to least-privilege decisions; proposes privilege-aware post-training defense; code at AISafetyHub/agent-tool-selection-bias",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.24623",
+    "url": "https://arxiv.org/abs/2606.24623",
+    "title": "Privacy-Preserving RAG via Multi-Agent Semantic Rewriting (Yuanhe Zhao, Tianyu Zhang, Huafei Xing, Derek F. Wong, Jianbin Li, Tao Fang) — Elsevier Information Processing & Management accepted; three-agent framework (privacy extraction + semantic analysis + reconstruction) sanitizes RAG context as offline preprocessing; LLaMA-3-8B leak instances 144 -> 1 under targeted attacks; BLEU-1 0.122 vs SAGE 0.117 (slight quality gain); zero added latency at inference time; ChatDoctor + Wiki-PII across six LLMs; code at foursoils/Privacy-Preserving-RAG",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.25996",
+    "url": "https://arxiv.org/abs/2606.25996",
+    "title": "Autodata: An Agentic Data Scientist to Create High Quality Synthetic Data (Ilia Kulikov, Chenxi Whitehouse, Tianhao Wu, Yixin Nie, Swarnadeep Saha, Eryk Helenowski, Weizhe Yuan, Olga Golovneva, Jack Lanchantin, Yoram Bachrach, Jakob Foerster, Xian Li, Han Fang, Sainbayar Sukhbaatar, Jason Weston — Meta FAIR) — Agentic Self-Instruct paradigm: agent system functions as autonomous data scientist generating synthetic training+eval datasets, can be meta-optimized to improve own data-creation; CS research / legal reasoning / mathematical reasoning with objects; improvements over classical synthetic dataset creation methods, meta-optimization gives larger uplift; concrete benchmark numbers not in abstract",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "arxiv:2606.24839",
+    "url": "https://arxiv.org/abs/2606.24839",
+    "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System (Tian Zheng, Kai-Tai Hsu) — applied LAMBDA to 153 QRData tasks; three-layer grading cascade (regex + LLM-lenient + human snippet inspection) distinguishes real disagreement from grading artifacts; both automated graders achieve 100% observed precision (0 false positives / 70 cases); lenient grader 97% recall vs human; keyword-anchored extraction +60 pts to strict grader recall; iterative nudging raises grading success 36% -> 97%; lenient-pass 16% -> 46%",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "hf-blog:ibm-research-cuga-apps-2026-06-23",
+    "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+    "title": "CUGA (Configurable Generalist Agent): Apache-2.0 production agent harness from IBM Research with 24 working single-file FastAPI example apps — handles planning, state, tool orchestration, declarative guardrails (Intent Guards, Tool Approval, Playbooks), multi-agent delegation, model-agnostic provider switching, three reasoning modes (Fast / Balanced / Accurate), interchangeable tool layer (OpenAPI / MCP / LangChain); examples include IBM Cloud advisor, Paper Scout, Wiki Dive, PDF/audio/video document RAG, Ouroboros (seven-agent lead-gen), Meetup Finder (Playwright browser automation); pip install cuga; repos cuga-project/cuga-agent + cuga-project/cuga-apps; open-source analog to Claude Tag",
+    "date_covered": "2026-06-25"
+  },
+  {
+    "id": "hf-blog:kogai-laneformer-2b-2026-06-24",
+    "url": "https://huggingface.co/blog/kogai/kog-laneformer-2b-the-latency-first-model",
+    "title": "Kog Laneformer 2B: The Latency-First Model Behind Kog Inference Engine (Kog AI) — kogai/laneformer-2b-it; 2.3B-parameter instruction-tuned coding model trained from scratch with novel Delayed Tensor Parallelism 8-lane architecture; 15 decoder layers with Grouped-Query Attention (32 query heads / 16 KV heads); Sliding Window Attention on 10 layers; 4096-token context; Apache-2.0 model code (Llama-2 community license on tokenizer); ~4T pretrain + ~2T mid-train + ~210M instruction-tune tokens, ~21 days × 192 H100s; HumanEval+ 45.1% / MBPP+ 51.6% (below Qwen2.5-Coder-7B's ~80%); 3000 tok/s on 8×MI300X, 2100 tok/s on 8×H200; latency is the selling point, not quality",
+    "date_covered": "2026-06-25"
+  },
+  {
     "id": "arxiv:2606.24775",
     "url": "https://arxiv.org/abs/2606.24775",
     "title": "Are We Ready For An Agent-Native Memory System? (Wei Zhou, Xuanhe Zhou, Shaokun Han, Hongming Xu, Guoliang Li, Zhiyu Li, Feiyu Xiong, Fan Wu) \u2014 systematic data-management evaluation of 12 memory systems + 2 baselines across 5 workloads / 11 datasets; four-module decomposition (representation+storage, extraction, retrieval+routing, maintenance); no single architecture dominates \u2014 effectiveness depends on workload-bottleneck alignment; localized maintenance > global reorganization on cost-performance; code at OpenDataBox/MemoryData",
