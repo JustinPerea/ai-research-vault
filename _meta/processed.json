@@ -1,5 +1,71 @@
 [
   {
+    "id": "arxiv:2606.26806",
+    "url": "https://arxiv.org/abs/2606.26806",
+    "title": "Memory Depth, Not Memory Access: Selective Parametric Consolidation for Long-Running Language Agents / EVAF (Haoliang Han) — argues retrieval is access only; long-running agents also need durable goal-conditioned tendencies in a small parametric store; surprise- and valence-gated LoRA consolidation; loop-drift protocol tests recovery after parametric store reload; tested GPT-2 / TinyLlama / Mistral-7B; retrieval accuracy 0.956-0.973 on factual recall; EVAF 0.812-0.904 on goal persistence and post-unload recovery; parametric efficiency 2-3 writes per 200 events",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.27009",
+    "url": "https://arxiv.org/abs/2606.27009",
+    "title": "Semantic Early-Stopping for Iterative LLM Agent Loops (Sahil Shrivastava) — judge-free stopping rule halting when consecutive draft embeddings stop changing in meaning; machine-checked theoretical guarantees + evaluation protocol replaying policies over cached outputs; HotpotQA: -38% operational tokens vs fixed-iteration baseline at parity quality (delta-IS=-0.004, p=0.81); quality-gated variant counterproductive due to per-round judging cost; oracle best-round selection +0.115 IS advantage over all practical policies (p~4e-11); open-source impl + reproducible harness",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.27288",
+    "url": "https://arxiv.org/abs/2606.27288",
+    "title": "Co-Failure Ceiling on Routing/Voting/Mixture-of-Agents (Josef Chen) — defines beta = rate at which every model in ensemble wrong on same query; proves accuracy bounded by 1-beta; 67 frontier models / 21 providers; math beta=0.052 (2.5x higher than Gaussian copula prediction 0.023), code execution beta=0.079, GPQA-Diamond beta=0.127 when reformatted MCQ->free-response; gains come from models failing on different questions not from adding more models; heterogeneous low-correlation ensembles outperform Self-MoA at matched quality",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.26300",
+    "url": "https://arxiv.org/abs/2606.26300",
+    "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards (Binghai Wang / Chenlong Zhang / Dayiheng Liu / Jiajun Zhang / Jiawei Chen / Mouxiang Chen / Rongyao Fang / Siyuan Zhang / Xuwu Wang / Yuheng Jing / Zeyao Ma / Zeyu Cui — Qwen/Alibaba) — examines four reward constructions (test verifiers / rubric verifiers / user-as-verifier / automated agent verifiers); core thesis no fixed reward function remains effective as policy capability grows, verification must co-evolve with the generator; intent underspecification and reward hacking as structural challenges; significant gains across multiple internal and public benchmarks; concrete numbers not in abstract",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.26027",
+    "url": "https://arxiv.org/abs/2606.26027",
+    "title": "Why Multi-Step Tool-Use RL Collapses and How Supervisory Signals Fix It (Yupu Hao / Zhuoran Jin / Huanxuan Liao / Kang Liu / Jun Zhao — CASIA) — diagnoses catastrophic collapse in multi-step tool-use RL: performance abruptly drops and tool-invocation structure fails mid-training; mechanism is unexpected probability spikes in control tokens not lost capability; tests off-policy supervision, hint-based guidance, erroneous-example supervision; interleaving SFT with RL substantially improves stability; OOD degradation persists; code at hypasd-art/Tool-RL-Box",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.26669",
+    "url": "https://arxiv.org/abs/2606.26669",
+    "title": "SKILL-DISCO: Distilling and Compiling Agent Traces into Reusable Procedural Skills (Zhongxin Guo / Danrui Qi / Hanwen Gu / Peng Cheng / Yongqiang Xiong) — agents repeatedly solve similar task instances from scratch; mines reusable procedural subgraphs from successful traces and compiles into callable skills the agent invokes as composite tools; ALFWorld + WebArena; improves success rates and reduces agent turns across benchmarks and model scales; concrete deltas not in abstract",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.26836",
+    "url": "https://arxiv.org/abs/2606.26836",
+    "title": "The Capability Frontier: Benchmarks Miss 82% of Model Performance (Bradley Fowler / Ryan Smith / Daniel Thi Graviet / William Myers / Joshua Greaves / Narmeen Fatimah Oozeer / Antia Garcia / Philip Quirke / Amirali Abdullah / Fazl Barez / Shriyash Kaustubh Upadhyay) — Capability Frontier framework measures optimal achievable accuracy at each cost level under (a) single-model bias correction (b) single-run sampling correction; 21 LLMs x 16 benchmarks (coding/reasoning/medicine/factuality/instruction-following/agentic); 54% error-rate reduction from single-model bias correction; 82% error-rate reduction when also correcting single-run sampling; 85% cost reduction to match SOTA accuracy; traditional benchmarks systematically underestimate collective LLM capabilities",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.27226",
+    "url": "https://arxiv.org/abs/2606.27226",
+    "title": "Ask Don't Judge / BINEVAL (Sangwoo Cho / Kushal Chawla / Pengshan Cai / Zefang Liu / Chenyang Zhu / Shi-Xiong Zhang / Sambit Sahu) — decomposes LLM-as-judge into atomic binary questions auto-generated via meta-prompt then aggregates per-question verdicts into multi-dimensional scores; SummEval / Topical-Chat / QAGS matches or exceeds UniEval / G-Eval baselines; especially strong on factual-consistency QAGS; better matches human score distributions than prior LLM judges; improved iterative prompt optimization on summarization + IFBench; ICML 2026 Workshop on Compositional Learning",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.26649",
+    "url": "https://arxiv.org/abs/2606.26649",
+    "title": "Autoformalization of Agent Instructions into Policy-as-Code (Adam Mondl / Matthew Maisel / John H. Brock) — autoformalization pipeline translates agent prompts / MCP tool descriptions / NL policy documents into formally verified policies in Cedar Policy Language via LLM-driven loop; MedAgentBench: autoformalized policies achieve substantially greater coverage of source NL specification vs hand-coded symbolic enforcement from prior work; probabilistic safety can't give guarantees Cedar evaluator can; ICML 2026 Workshop on Agents in the Wild (AIWILD)",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "arxiv:2606.27188",
+    "url": "https://arxiv.org/abs/2606.27188",
+    "title": "CUGA FLO / Process Harness for Uplifting Legacy Workflows to Agentic BPM (Fabiana Fournier / Lior Limonad — IBM Research) — process harness wraps policy-governed agentic layer around existing deterministic workflow engine without replacing it; Task-Decision-Flow (TDF) model with three policy-governed agent types (TaskAgent / DecisionAgent / FlowAgent) invoked at designated control points; loan-approval workflow demonstration with regulatory-override behavior; reconciles imperative requirements (deterministic execution) with normative requirements (agentic autonomy at policy-framed control points); design paper, no quantitative benchmarks; CUGA follow-up",
+    "date_covered": "2026-06-26"
+  },
+  {
+    "id": "hf-blog:allenai-hybrid-token-prediction-2026-06-25",
+    "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+    "title": "Which Tokens Does a Hybrid Model Predict Better? (Kyle Wiggers / Ai2Comms for Allen Institute for AI) — controlled comparison Olmo 3 (7B transformer) vs Olmo Hybrid (7B attention+recurrence) trained on identical data/tokenizer/recipe; token-level loss decomposition shows hybrid wins on content words (nouns/verbs/adjectives loss gap ~0.04) + state-tracking tokens (pronouns); transformers win on verbatim repetition (hybrid advantage approaches zero) + bracket-matching (closing braces); additional 1B-parameter triple (transformer/hybrid/pure RNN) for finer analysis; single aggregate loss obscures architectural strengths",
+    "date_covered": "2026-06-26"
+  },
+  {
     "id": "arxiv:2606.24151",
     "url": "https://arxiv.org/abs/2606.24151",
     "title": "Metis: Bridging Text and Code Memory for Self-Evolving Agents (Zijie Dai, Siuhin He, Hui Li, Qihui Zhou, Jiajun Li, Mingcong Song, Guoping Long, Hongjie Si, Xin Yao, Lin Zhang, James Cheng, Xiao Yan) — controlled comparison of text- vs code-based memory representations followed by hierarchical dual-representation system; text memory stores execution plans / environment facts / common pitfalls while recurring patterns selectively promoted to executable tools; AppWorld evaluation: +20.6 pts task accuracy over ReAct baseline at -22.8% execution cost; outperforms other self-evolving agent systems across accuracy, efficiency, and construction cost",
