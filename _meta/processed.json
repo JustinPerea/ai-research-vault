@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2606.26511",
+    "url": "https://arxiv.org/abs/2606.26511",
+    "title": "MemStrata / Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents (Neeraj Yadav) — bi-temporal retrieval memory; (subject,relation,object) supersession rule retires stale values via deterministic ledger; cosine similarity 0.59 AUROC on contradicted-fact vs duplicate (barely above chance); evolving knowledge accuracy 0.95-1.00 vs RAG 0.20-0.47; stale-fact error rate 15-40% -> ~0%; retrieval latency ~2.1s vs 16-18s for LLM-rerank baselines; code + evaluation datasets + marker-free protocol released",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "arxiv:2606.27136",
+    "url": "https://arxiv.org/abs/2606.27136",
+    "title": "JERP / Joint Learning of Experiential Rules and Policies for LLM Agents (Shicheng Ye, Chao Yu) — couples long-term experiential rule pool with policy on the same interaction trajectories; both updated per episode by comparing current vs successful reference; AlfWorld + WebShop consistent decision gains over rules-only and policy-only baselines",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "arxiv:2606.26875",
+    "url": "https://arxiv.org/abs/2606.26875",
+    "title": "InfoKV / Information-Aware KV Cache Compression for Long Reasoning (Jushi Kai, Zhuiri Xiao, Alexandra Birch, Zhouhan Lin) — Forward Influence metric measures how compressed tokens affect distant future contexts; attention-selected tokens primarily near-future influence, high predictive uncertainty tokens substantially stronger distant-future influence; combines entropy + attention scores during prefill+decode; consistently outperforms attention-only baselines on Llama-3.1 / Llama-3.2 / DeepSeek-R1 long-context reasoning",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "arxiv:2606.26666",
+    "url": "https://arxiv.org/abs/2606.26666",
+    "title": "PersistentKV / Page-Aware Decode Scheduling for Long-Context LLM Serving (Muhammad Ahmed) — native block-table decode attention engine for GQA; schedules work by KV-head group with tile reuse across query heads; native page tables + compact workqueue + executes only non-empty row-KV-head-sequence-split tasks; RTX 3060 FP16 Hq=32 Hkv=8 d=128 page=16: 1.063-1.265x B8 bimodal/uniform/Zipf, 1.399x B1 bucketed workloads; 7-page workshop paper",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "google-research-2026-06-26-frozen-mtp",
+    "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
+    "title": "Frozen Multi-Token Prediction on Gemini Nano (Pixel 9/10) — Google Research blog 2026-06-26; retrofits dense transformer MTP head onto frozen pre-trained Gemini Nano v3 backbone; MTP head cross-attends directly to main model's frozen KV cache (zero-copy late-exit design); predicts ~2 additional tokens per inference pass; 50%+ speedup on Pixel 9, 130MB memory savings vs standalone drafter, up to 55% token-acceptance improvement on predictable text; bit-for-bit identical to main model output",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "google-research-2026-06-24-thinking-to-recall",
+    "url": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms/",
+    "title": "Thinking to Recall / How Reasoning Unlocks Parametric Knowledge in LLMs (Zorik Gekhman, Jonathan Herzig, Google Research; blog 2026-06-24 linking arxiv:2603.09906) — two mechanisms enabling reasoning to help single-hop factual recall: (1) computational buffer = extra forward passes for latent computation refining internal state; (2) factual priming = generates topically related facts as semantic warm-up (spreading activation analog); Gemini-2.5 Flash/Pro + Qwen3-32B on SimpleQA Verified + EntityQuestions; reasoning-on recovers answers virtually unrecoverable with reasoning off; hallucinated intermediate facts significantly degrade final accuracy",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "arxiv:2606.26935",
+    "url": "https://arxiv.org/abs/2606.26935",
+    "title": "Where Do CoT Training Gains Land in LLM-Based Agents? (Jingyu Liu / Zhiwen Wang / Yuxin Jing / Huanyu Zhou / Yong Liu) — CoT training does not widen advantage of CoT-action over prompt-action; only improves prompt-action quality; later checkpoints decreased likelihood of revising action based on generated reasoning; proposes selective action-token-supervision masking for OOD generalization",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "arxiv:2606.27154",
+    "url": "https://arxiv.org/abs/2606.27154",
+    "title": "OpenRCA 2.0 / From Outcome Labels to Causal Process Supervision (Aoyang Fang et al.) — PAVE step-wise labeling protocol annotates causal propagation paths rather than just root causes; 500 cross-system instances; outcome-only 76.0% identify correct root-cause service vs process-supervision 61.5% ground in verified causal path; exact root-cause recovery 20.7% across 11 frontier LLMs; fault-injection-driven causal-chain reconstruction; work in progress",
+    "date_covered": "2026-06-27"
+  },
+  {
+    "id": "arxiv:2606.26790",
+    "url": "https://arxiv.org/abs/2606.26790",
+    "title": "OPID / On-Policy Skill Distillation for Agentic RL (Shuo Yang / Jinyang Wu / Zhengxi Lu / Yuhao Shen / Fan Zhang / Lang Feng / Shuai Zhang / Haoran Luo / Zheng Lian / Zhengqi Wen / Jianhua Tao) — extracts hierarchical skills from completed on-policy trajectories (episode-level workflows + step-level critical decisions); critical-first routing selects skill guidance and injects into interaction history; policy re-scores under original + skill-augmented contexts giving token-level self-distillation advantage combined with outcome advantage; ALFWorld / WebShop / Search-QA improvements in success, sample efficiency, robustness vs outcome-only RL baselines; code released",
+    "date_covered": "2026-06-27"
+  },
+  {
     "id": "arxiv:2606.26806",
     "url": "https://arxiv.org/abs/2606.26806",
     "title": "Memory Depth, Not Memory Access: Selective Parametric Consolidation for Long-Running Language Agents / EVAF (Haoliang Han) — argues retrieval is access only; long-running agents also need durable goal-conditioned tendencies in a small parametric store; surprise- and valence-gated LoRA consolidation; loop-drift protocol tests recovery after parametric store reload; tested GPT-2 / TinyLlama / Mistral-7B; retrieval accuracy 0.956-0.973 on factual recall; EVAF 0.812-0.904 on goal persistence and post-unload recovery; parametric efficiency 2-3 writes per 200 events",
