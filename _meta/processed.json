@@ -1,5 +1,65 @@
 [
   {
+    "id": "arxiv:2606.27369",
+    "url": "https://arxiv.org/abs/2606.27369",
+    "title": "RiVER / Reinforcement Learning without Ground-Truth Solutions can Improve LLMs (Yingyu Lin / Qiyue Gao / Nikki Lijing Kuang / Xunpeng Huang / Kun Zhou / Tongtong Liang / Zhewei Yao / Yi-An Ma / Yuxiong He) — trains LLMs via group-relative RL on score-based optimization tasks using deterministic execution feedback as continuous-valued supervision; addresses scale dominance (uncalibrated score magnitudes distort updates) + frequency dominance (suboptimal solutions repeatedly sampled outweigh rare strong ones); calibrated reward shaping with instance-wise comparisons emphasizing top-ranked solvers; trained on 12 AtCoder Heuristic Contest tasks; Qwen3-8B + GLM-Z1-9B-0414; ALE rating-rank +8.9%/+9.4%; LiveCodeBench +2.4pp; USACO +3.5pp",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.27237",
+    "url": "https://arxiv.org/abs/2606.27237",
+    "title": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis (Amit Elhelo / Amir Globerson / Mor Geva) — behavioral + mechanistic analysis; facts acquired on one task frequently fail to co-emerge on others during training; parameter localization shows distinct parameter subsets underlie different tasks for the same fact; chain-of-thought reasoning draws part of its effectiveness from engaging task-specific parameters beyond those tied to the evaluation task; what the model knows and how it is asked are intertwined in parameter space; undermines knowledge base analogy",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.26744",
+    "url": "https://arxiv.org/abs/2606.26744",
+    "title": "HyperDFlash / MHC-Aligned Block Speculative Decoding with Gated Residual Reduction for DeepSeek-V4 (Luxi Lin / Shuang Peng / Rui Ma / Junhao Hua / Shuwei Fan / Zhengda Qin / Qiang Wang / Hongjian Sun / Fangmin Chen / Songwei Liu) — native MTP module draft accuracy degrades sharply at later positions from error accumulation; DFlash one-pass block drafting cannot directly adapt due to MHC multi-path residual stream feature misalignment; pre-collapse residual states as exclusive conditioning signal preserves multi-path structural info; gated residual reducer inherits params from built-in hyper-connection head (3 orders of magnitude fewer params than generic linear compressor); targeted KL distillation on LM-head; substantial accepted-draft-length + decoding speedup over MTP and vanilla DFlash on math/code/conversational benchmarks",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.27306",
+    "url": "https://arxiv.org/abs/2606.27306",
+    "title": "Multilingual Reasoning Cascades Need More Context (Arnav Mazumder / Dengjia Zhang / Shuyue Stella Li / Yulia Tsvetkov / Niyati Bafna) — translation cascades for multilingual reasoning are competitive but structurally lossy at each stage boundary; training-free context-aware cascade additionally provides original-language question + English-translated question + English reasoning trace to final translation module; 9 multilingual benchmarks x 3 backbones x 285 high/mid/low-resource languages; strong gains on open-ended generation across models and resource regimes; ablation: original-language question carries most of the beneficial context",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.26797",
+    "url": "https://arxiv.org/abs/2606.26797",
+    "title": "Reasoning Quality Emerges Early: Data Curation for Reasoning Models (Hongyi Henry Jin / Wenhan Yang / Meysam Ghaffari / Carlos Morato / Baharan Mirzasoleiman) — diverse and challenging reasoning SFT examples identifiable from initial reasoning tokens; difficult problems reliably detectable from loss of first 100 reasoning tokens at a randomly perturbed checkpoint of the pretrained model; examples with similar loss patterns over first 1k tokens across small number of perturbed checkpoints provably induce similar gradients; Qwen2.5-7B + Llama3.1-8B on M23K medical + OpenThoughts-Math; outperforms baselines by up to 1.7%; 91% more token-efficient curation",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.27330",
+    "url": "https://arxiv.org/abs/2606.27330",
+    "title": "PEEU + TDHAF / Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning (Tianyi Men / Zhuoran Jin / Pengfei Cao / Yubo Chen / Kang Liu / Jun Zhao — ACL 2026 Main) — small open MLLMs autonomously explore environments to discover experiences; hindsight experience synthesizes strictly aligned high-level training data; Task Decomposition Hierarchical Analysis Framework examines compositional generalization across three granularity levels; mastering foundational skills does not guarantee higher-level planning competence; 7B model achieves 30.6% accuracy on real-world GUI benchmarks, outperforms Qwen2.5-VL-32B baseline",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.26918",
+    "url": "https://arxiv.org/abs/2606.26918",
+    "title": "Diagnosing Task Insensitivity in Language Agents (Jingyu Liu / Xiaopeng Wu / Kehan Chen / Chuan Yu / Yong Liu) — identifies task insensitivity as key OOD failure mode: agents apply patterns learned during training and fail to solve task at hand; models continue with actions aligned to original task even when instruction is semantically corrupted; replacing task description with similar-but-distinct task often produces same action; accompanied by consistent training-time attention drift away from task tokens and toward local observations suggesting optimization bias toward shortcuts; proposes Task-Perturbed NLL Optimization lightweight contrastive regularizer encouraging action dependence on task instruction; improves task sensitivity + OOD generalization + attention stability",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.26904",
+    "url": "https://arxiv.org/abs/2606.26904",
+    "title": "Robust-TO / Confidence-Aware Tool Orchestration for Robust Video Understanding (Yangfan He / Yujin Choi / Jaehong Yoon — NTU Singapore) — Blind Trust Problem: video reasoning models suffer 15-30pp accuracy drops under realistic perturbations while unaware visual evidence has degraded; agentic framework organizes heterogeneous visual tools under unified evidence interface returning {prediction, temporal grounding, calibrated reliability score}; reliability-relevance score for frame selection per tool sub-query; three-tier (high/medium/low) synthesis; confidence-cost GRPO reward jointly optimizes correctness + reliability + efficiency; clean accuracy 56.4% (+10.6pp over best open-source, beats Gemini-2.5-Pro 46.2%); corrupted-input accuracy 54.3% (+5.8pp); smallest clean-to-corrupted drop of all methods",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "arxiv:2606.27229",
+    "url": "https://arxiv.org/abs/2606.27229",
+    "title": "CARVE / Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention (Sayak Dutta) — recurrent models must forget to remember but GDN-2 erase gate sees only arriving token not the memory being modified; performs erasure on key axis not value axis to maintain mathematical validity for WY-form triangular chunk solver; reuses recurrent output tensor as content signal for erase gate; replaces per-value write-gate projections with single scalar per head; 1.3B params / 100B tokens; WikiText perplexity 15.72 (-0.18 vs GDN-2 at 4.5-sigma); leads recurrent baselines on 9 commonsense reasoning benchmarks; SOTA on RULER retrieval probes; 0.4% throughput overhead, 13% lower peak memory, 19% fewer parameters",
+    "date_covered": "2026-06-28"
+  },
+  {
+    "id": "nvidia-developer-2026-06-26-nemotron-3-ultra-nvfp4",
+    "url": "https://developer.nvidia.com/blog/creating-the-nvidia-nemotron-3-ultra-nvfp4-checkpoint-with-nvidia-model-optimizer/",
+    "title": "Nemotron 3 Ultra NVFP4 Checkpoint (NVIDIA Developer Blog, 2026-06-26; Seonghee Lee / Sachin Beldona / Carlo del Mundo / Chris Hoge / Trenton Starkey) — 550B-param model compressed BF16 1,121 GB -> NVFP4 352.3 GB (3.2x compression); NVFP4 = 4-bit float format on Blackwell with 8 representable positive values (0, 0.5, 1, 1.5, 2, 3, 4, 6); decode-heavy throughput up to 5.9x vs GLM-5.1 754B FP4; 98.5% median accuracy recovery vs BF16 across benchmarks; identifies 5.03 BPE as compression-vs-accuracy sweet spot",
+    "date_covered": "2026-06-28"
+  },
+  {
     "id": "arxiv:2606.26511",
     "url": "https://arxiv.org/abs/2606.26511",
     "title": "MemStrata / Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for AI Agents (Neeraj Yadav) — bi-temporal retrieval memory; (subject,relation,object) supersession rule retires stale values via deterministic ledger; cosine similarity 0.59 AUROC on contradicted-fact vs duplicate (barely above chance); evolving knowledge accuracy 0.95-1.00 vs RAG 0.20-0.47; stale-fact error rate 15-40% -> ~0%; retrieval latency ~2.1s vs 16-18s for LLM-rerank baselines; code + evaluation datasets + marker-free protocol released",
