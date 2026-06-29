@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2606.27472",
+    "url": "https://arxiv.org/abs/2606.27472",
+    "title": "Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents (Vedant Patel) — isolates knowledge-update failure mode on LongMemEval supersession subset; bounded self-maintained memory drops gpt-5.4 from 92% → 77% (paired McNemar p<0.005); over 24x conversation growth accuracy collapses 68% → 28%; doubling memory budget yields no recovery (28% → 28%, n=25) — bottleneck is update policy not storage capacity; GRPO on Qwen2.5-3B on supersession environment nearly doubles held-out unseen-conversation supersession (9.0% → 16.7%); code, env, model, dataset open-sourced",
+    "date_covered": "2026-06-29"
+  },
+  {
+    "id": "arxiv:2606.27409",
+    "url": "https://arxiv.org/abs/2606.27409",
+    "title": "Delayed Verification Destabilizes Multi-Agent LLM Belief: Instability Thresholds and Optimal Corrector Placement (Igor Itkin) — formalizes multi-agent verifier loops as delayed consensus on a graph with grounded corrector nodes; spectral analysis yields closed-form stability thresholds; worst regime is when communication delay = verification delay; at delay=2 critical verifier strength is inverse golden ratio (1/φ ≈ 0.618); supermodular placement objective enables greedy (1-1/e)-approximation; validated on 5 open models with predicted oscillation patterns; grounded factual answering eliminates instability — effect specific to signed-belief tasks; 20 pages, 5 figures",
+    "date_covered": "2026-06-29"
+  },
+  {
+    "id": "arxiv:2606.27814",
+    "url": "https://arxiv.org/abs/2606.27814",
+    "title": "ATOD: Annealed Turn-aware On-policy Distillation (Qitai Tan / Zefang Zong / Yang Li / Peng Chen) — anneals imitation→RL on shared trajectory budget; Turn-level Disagreement-Uncertainty Reweighting upweights critical decision turns where teacher-student divergence is highest; ALFWorld + WebShop + Search-QA: +3.03 pts avg success vs on-policy distillation baseline, +23.62 pts vs GRPO baseline; surpasses corresponding teacher models by +2.16 pts across three student sizes",
+    "date_covered": "2026-06-29"
+  },
+  {
+    "id": "google-blog:2026-06-26-gemini-3-5-flash-computer-use",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+    "title": "Gemini 3.5 Flash Computer Use built-in tool (Google DeepMind, Jun 26 2026) — computer use as first-party tool in Gemini API; cross-browser/mobile/desktop with one API call; Google claims best-yet OSWorld (number not in post — ledger has 78.4 OSWorld-Verified from [arxiv:2606.24515]); first-party safeguards: required-confirmation on sensitive actions + automatic task termination on prompt-injection detection; available via Gemini API (ai.google.dev), Gemini Enterprise Agent Platform (GCP console), Browserbase-hosted demo; pricing and latency not specified",
+    "date_covered": "2026-06-29"
+  },
+  {
+    "id": "arxiv:2606.27483",
+    "url": "https://arxiv.org/abs/2606.27483",
+    "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning (Xuan Zhang / Zhijian Zhou / Lingfeng Qiao / Yulei Qin / Ke Li / Xing Sun / Xiaoyu Tan / Chao Qu / Yuan Qi) — trains single autoregressive model to predict future states + estimate success probabilities (textual Q-value analog); identifies format-capability gap (naive SFT on traces with foresight tokens yields surface mimicry without action grounding); three-stage capability-first pipeline: World Model Agentic Mid-Training (WM-AMT) → Format-Eliciting SFT (FE-SFT) → Foresight-Conditioned RL (FC-RL); outperforms training baselines on search + math reasoning",
+    "date_covered": "2026-06-29"
+  },
+  {
+    "id": "arxiv:2606.27492",
+    "url": "https://arxiv.org/abs/2606.27492",
+    "title": "QueenBee Planner: Skill-Evolving Communication Topologies for Token-Efficient LLM Multi-Agent Systems (Congjia Tian / Yuhang Yao / Jiaming Cui) — outer LLM planner generates temporal communication DAGs (who-sends-to-whom by round) refined across execution traces via Preserve/Modify/Avoid actions; safeguards include held-out acceptance gates, variance-aware credit, motif-level attribution, transfer trust, insight falsification, structural deduplication; Count-Frequency aggregation: best learned topology cuts RMSE from 12.53 → 7.87 while simultaneously reducing messages, model calls, and token cost; similar gains on Silo-Bench-style distributed coordination",
+    "date_covered": "2026-06-29"
+  },
+  {
+    "id": "arxiv:2606.27416",
+    "url": "https://arxiv.org/abs/2606.27416",
+    "title": "Glite ARF: Verifier-Driven Research with Parallel LLM Coding Agents (Vassili Philippov / Pavel Katunin / Dmitry Andreev / Igor Ostanin / Anton Nikolaev) — open-source Python framework for parallel LLM coding agents on research projects; three-role split (human picks hypotheses, agents execute within fixed params, deterministic Python verifiers enforce process rules — task isolation, work immutability); BEA 2026 Vocabulary-Difficulty Task: 1st place closed track / 2nd place open track across Spanish/German/Mandarin; +29.9% closed / +35.9% open RMSE reduction; 273 tasks across 146 runs / 129 feature sets; ~$498 total LLM spend; ~1% framework wall-clock overhead",
+    "date_covered": "2026-06-29"
+  },
+  {
     "id": "arxiv:2606.27369",
     "url": "https://arxiv.org/abs/2606.27369",
     "title": "RiVER / Reinforcement Learning without Ground-Truth Solutions can Improve LLMs (Yingyu Lin / Qiyue Gao / Nikki Lijing Kuang / Xunpeng Huang / Kun Zhou / Tongtong Liang / Zhewei Yao / Yi-An Ma / Yuxiong He) — trains LLMs via group-relative RL on score-based optimization tasks using deterministic execution feedback as continuous-valued supervision; addresses scale dominance (uncalibrated score magnitudes distort updates) + frequency dominance (suboptimal solutions repeatedly sampled outweigh rare strong ones); calibrated reward shaping with instance-wise comparisons emphasizing top-ranked solvers; trained on 12 AtCoder Heuristic Contest tasks; Qwen3-8B + GLM-Z1-9B-0414; ALE rating-rank +8.9%/+9.4%; LiveCodeBench +2.4pp; USACO +3.5pp",
