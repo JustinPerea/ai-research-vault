@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2606.29537",
+    "url": "https://arxiv.org/abs/2606.29537",
+    "title": "OSWorld 2.0: Benchmarking Computer-Use Agents on Long-Horizon Real-World Tasks (36 authors, eq-contrib Mengqi Yuan / Zilong Zhou / Xinzhuang Xiong; also Frederic Sala / Yu Su / Siva Reddy / Tao Yu) — 108 long-horizon CUA workflows averaging 318 tool calls and 1.6 hours of human work each (vs ~30 tool calls in original OSWorld); Claude Opus 4.8 (max thinking) reaches 20.6% binary completion / 54.8% partial score at 500 steps, GPT-5.5 plateaus near 13% (more token-efficient, doesn't close gap); named failure modes: lose track of constraints, miss mid-task information, struggle when task hinges on hidden state to recover; HF Daily Papers leading at 104 upvotes",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.30005",
+    "url": "https://arxiv.org/abs/2606.30005",
+    "title": "VISTA / LLM Agents Are Latent Context Managers (Binyan Xu / Haitao Li / Kehuan Zhang) — coins the proprioceptively blind frame for context management; argues capable models already have latent policy but lack interface to see per-block token usage / recency / access history; training-free, model-agnostic layer represents working memory as typed addressable blocks + runtime dashboard + recoverable full-fidelity archive; on LOCA-Bench (1M-scale), BrowseComp-Plus (100K-scale), GAIA (10K-scale), same untrained interface transfers across four backbones; lifts Gemini-3-Flash 22.7% → 50.7% on LOCA-Bench; lift grows with context pressure; ablations confirm dashboard matters beyond archive/recovery alone",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.29824",
+    "url": "https://arxiv.org/abs/2606.29824",
+    "title": "Neural Procedural Memory / Empowering LLM Agents with Implicit Activation Steering (Chengfeng Zhao / Yuqiao Tan / Shizhu He / Yequan Wang / Jun Zhao / Kang Liu) — names text-action disconnect failure of RAG-based procedural memory (model reads instruction without activating mechanisms that execute task); training-free framework distills procedural skills from historical contrastive experiences into steering vectors in activation space; across four agent benchmarks performs comparably to explicit-instruction baselines; combining implicit steering with explicit workflows is strictly better than either alone; representational analysis shows steering vectors encode consistent task logic forming organized structures in activation space",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.29914",
+    "url": "https://arxiv.org/abs/2606.29914",
+    "title": "MemDelta: Controlled Baselines and Hidden Confounds in Agent Memory Evaluation (Kuan Wang) — controlled evaluation protocol on LongMemEval-S (500 questions, 50+ sessions, three model families); (1) verbatim RAG matches full-context on GPT-4o-mini (47.2% vs 49.8%, p=0.34) but ranking reverses across families (Gemini gains +14pp from full context, Sonnet gains +31pp from RAG); (2) swapping embedding model alone shifts accuracy ±6.2pp (n=500, p=0.004); Mem0 beats MiniLM-RAG by +11pp but underperforms cloud RAG; (3) agent self-memory underperforms basic retrieval 42% vs 47%; (4) Mem0 matches cloud RAG on 2 of 6 question types (n=88, 72.7% vs 73.9%, p=1.0) at 50x cost; prescribes fixed embedding model across comparisons, stratify by family, report write-path costs",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.30616",
+    "url": "https://arxiv.org/abs/2606.30616",
+    "title": "Agents-A1 / Scaling the Horizon Not the Parameters (Lei Bai / Zongsheng Cao / Yang Chen + 47 others, InternScience) — 35B Mixture-of-Experts agentic model matching trillion-parameter Kimi-K2.6 / DeepSeek-V4-pro on long-horizon agent benchmarks; long-horizon knowledge-action infrastructure produces trajectories averaging 45K tokens; three-stage recipe — full-domain SFT → domain-level RL teachers → Multi-Teacher Domain-Routed On-Policy Distillation with Salient Vocabulary Alignment fusing six domains into one student; SEAL-0 56.4, IFBench 80.6, HiPhO 46.4, FrontierScience-Olympiad 79.0, MolBench-Bind 56.8, SciCode 44.3, HLE 47.6, BrowseComp 75.5; weights open-sourced at huggingface.co/collections/InternScience/agents-a1 + github.com/InternScience/Agents-A1",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.30531",
+    "url": "https://arxiv.org/abs/2606.30531",
+    "title": "Entity Binding Failures in Tool-Augmented Agents (Rahul Suresh Babu / Shashank Indukuri) — formalizes wrong-entity errors as distinct failure mode from tool selection; agent picks the right tool, fires it against wrong external entity (email to wrong Alex, update wrong CRM row, reply in wrong thread); across 60 tasks × 5 model backends × 6 tool-use approaches: tool selection accuracy 0.0% error, entity binding failure rates 24.0–26.0% in action-oriented baselines; proposes entity-resolution preconditions, confidence-based binding, clarification queries; entity-aware safeguards eliminate wrong-entity errors but raise deferral rate",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.29270",
+    "url": "https://arxiv.org/abs/2606.29270",
+    "title": "Minority Sentinel: When to Overturn Majority Voting in Multi-Agent LLM Debates (Chuan He / Zebin Chen / Zhengyi Yang / Shaobo Qiao / Mingchen Ju / Jiate Liu / Dong Wen / Guanfeng Liu) — Multi-Agent Debate + Majority Voting rests on Condorcet Jury Theorem assumption of independent errors; modern LLMs share pretraining corpora so errors are heavily correlated → majority systematically suppresses correct minorities (Minority Truth); across three heterogeneous LLMs × six benchmarks ~25% of divergent cases have minority correct (10pp theoretical recovery margin); lightweight non-LLM meta-classifier (LightGBM on multi-dimensional debate fingerprint) achieves 81.2% Flip Precision with positive Net Gain across all six datasets and 20 random seeds; LLM-as-Judge baseline yields negative Net Gain despite higher recall — flip safety not recovery volume determines intervention value",
+    "date_covered": "2026-06-30"
+  },
+  {
+    "id": "arxiv:2606.30306",
+    "url": "https://arxiv.org/abs/2606.30306",
+    "title": "Always-OnAgents: A Survey of Persistent Memory, State, and Governance in LLM Agents (Tianyu Ding / Aditya Nannapaneni / Bingfan Liu / Ling Zhang — Cornell) — first systematic survey of persistent-state agent systems covering 435 works; encompasses retrievable memories, task ledgers, permissions, credentials, commitments, provenance/audit records, shared state, triggers, externally committed effects; six diagnostic axes (authority, scope, mutability, provenance, recoverability, actionability) + nine-stage lifecycle (writing → validating → organizing → retrieving → acting upon → updating → forgetting → auditing → rollback); headline observation: field overwhelmingly emphasizes accumulating and retrieving state, underweights governance / recovery / relinquishment; introduces Always-On Evaluation Protocol (AOEP-v0) scoring state mutation and recovery obligations not just answer quality",
+    "date_covered": "2026-06-30"
+  },
+  {
     "id": "arxiv:2606.27472",
     "url": "https://arxiv.org/abs/2606.27472",
     "title": "Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents (Vedant Patel) — isolates knowledge-update failure mode on LongMemEval supersession subset; bounded self-maintained memory drops gpt-5.4 from 92% → 77% (paired McNemar p<0.005); over 24x conversation growth accuracy collapses 68% → 28%; doubling memory budget yields no recovery (28% → 28%, n=25) — bottleneck is update policy not storage capacity; GRPO on Qwen2.5-3B on supersession environment nearly doubles held-out unseen-conversation supersession (9.0% → 16.7%); code, env, model, dataset open-sourced",
