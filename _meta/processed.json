@@ -1,5 +1,53 @@
 [
   {
+    "id": "anthropic-news-2026-06-30-claude-sonnet-5",
+    "url": "https://www.anthropic.com/news/claude-sonnet-5",
+    "title": "Introducing Claude Sonnet 5 (Anthropic) — new Sonnet-tier release positioned as close to Opus 4.8 performance at lower pricing; API model ID claude-sonnet-5; pricing $2/M input + $10/M output introductory through Aug 31 2026, standard $3/$15; available Free/Pro/Max/Team/Enterprise/Claude Code/Claude Platform/API; updated tokenizer requires 1.0–1.35x more tokens vs Sonnet 4.6 for equivalent content (offsets sticker-price cut); cybersecurity capability substantially poorer than Opus 4.8 by design (0.0% on Firefox exploit development, framed as safety tradeoff); comparison references BrowseComp / OSWorld-Verified (Sonnet 4.6 updated to 78.5% under methodology adjustment) / Humanity's Last Exam (Sonnet 4.6 updated to 34.6% no-tools / 46.8% with-tools); Sonnet 5 headline numbers not published inline in launch post",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "anthropic-news-2026-06-30-redeploying-fable-5",
+    "url": "https://www.anthropic.com/news/redeploying-fable-5",
+    "title": "Redeploying Fable 5 (Anthropic) — U.S. export controls on Fable 5 and Mythos 5 lifted; global availability resumes July 1 across Claude Platform / Claude.ai / Claude Code / Claude Cowork; original June 12 suspension triggered by Amazon research report demonstrating safeguard bypass extracting vulnerability-ID code; post-hoc analysis found every peer model tested (Opus 4.8, GPT-5.5, Kimi K2.7, Haiku 4.5, Sonnet 4.6, multiple Opus versions) could produce the same demonstration — Amazon bypass did not expose unique Mythos-level cyber capabilities; new safety classifier blocks specific reported bypass in >99% of cases via defense-in-depth (larger safety margin, blocks some benign requests to prevent jailbreaks); cloud re-enablement on AWS / Google Cloud / Microsoft Foundry underway; Pro/Max/Team/Select Enterprise included through July 7 (up to 50% of weekly usage), then usage-credit-billed",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "arxiv:2606.31121",
+    "url": "https://arxiv.org/abs/2606.31121",
+    "title": "The Past Is Prologue: A Plug-in Controller for Selective Updates in Sequentially Evolving LLM Memory / Janus (Zihan Chen / Songwei Dong / Chengshuai Shi / Peng Wang / Song Wang / Cong Shen / Jundong Li) — frames memory-update problem: updates that help current task may overwrite useful knowledge, introduce over-specific rules, or bias final memory toward recent examples; Janus is method-agnostic plug-in controller sitting on top of any existing memory-update system deciding whether to accept each proposed write; Memory Momentum Trigger watches for suspicious deviations + hybrid test set evaluates proposed changes using representative task samples not full historical replay; +2.7 to +4.6pp accuracy over base updaters across six datasets, two backbone LLMs, two different memory updaters",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "arxiv:2606.28436",
+    "url": "https://arxiv.org/abs/2606.28436",
+    "title": "Dockerless: Environment-Free Program Verifier for Coding Agents (Wenhao Zeng / Yuling Shi / Xiaodong Gu / Chao Hu / Chaofan Wang / Yuhao Cui / Hongting Zhou / Mengnan Qi / Jianqiao Wangni / Zhaojian Yu / Shuzheng Gao / Kai Cai / Shilin He — ByteDance) — verifier for coding-agent patches judging correctness via evidence gathered through agentic repository exploration, no execution environment; SWE-bench Verified 62.0% resolve rate, SWE-bench Multilingual 50.0%, SWE-bench Pro 35.2%; outperforms leading open-source verifier by 14.3 AUC points; surpasses Qwen3.5-9B baseline by 2.4/8.7/2.9 points across three benchmarks; matches environment-based post-training performance; enables coding-agent training pipelines that don't require Docker or per-repo environment setup",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "arxiv:2606.30931",
+    "url": "https://arxiv.org/abs/2606.30931",
+    "title": "RoPoLL: Robust Panel of LLM Judges (Anish Acharya / Kris W Pan / Brian Verkhovsky) — proves conventional PoLL (mean/majority aggregation of LLM judges) incurs unbounded bias under any positive contamination when individual judges exhibit mode collapse / safety refusal / drift; RoPoLL replaces aggregation with geometric median (robust mean estimator, optimal breakdown point 1/2, no tuning knobs); 3-judge RoPoLL committee at 38B parameters beats Mistral-Large-3 (675B) by 1.31x on HelpSteer-2 under 30% bimodal-random corruption; dominates PoLL by ~19% on cross-dimensional attacks; tested across 13 open-weight judges (4B-675B) and four corruption regimes up to 50%; 18x parameter advantage at better accuracy",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "arxiv:2606.31046",
+    "url": "https://arxiv.org/abs/2606.31046",
+    "title": "OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents (Atsushi Masumori / Itsuki Doi / Norihiro Maruyama / Ryosuke Takata / Takashi Ikegami — ALIFE 2026) — six LLM-driven agents run on open internet for ~12 weeks with budget-based metabolism (persistent operation gated on maintaining resources); architecture is society of asynchronous processes — memory / perception / evaluation — not one smart agent; agents equipped with persistent memory, tool access, financial capabilities; open-vocabulary LLM judgment replaces scalar reward; reports behavioral shifts, agent individuation, emergent social dynamics, and first self-earned external income; authors do not claim artificial life realized but that open-world ALIFE is viable experimental paradigm",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "hf-blog-2026-06-30-scarfbench",
+    "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+    "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration (IBM Research) — open benchmark for cross-framework migration in Enterprise Java (Spring / Jakarta EE / Quarkus) measuring whether migrated applications actually build, deploy, preserve original behavior; 34 applications, 102 framework implementations, 204 migration tasks, ~151K LoC, ~2000 source and test files, 1331 expert-written tests; even strongest current agents achieve <10% behavioral success; compile-success mirage — Claude reported 29/30 successful builds while only 22 actually built; failure modes span build systems, deployment environments, dependency injection, databases, endpoints, assertions, infrastructure, Docker inconsistencies, port connectivity, Maven tooling; GitHub github.com/scarfbench/scarfbench, leaderboard scarfbench.info, dataset huggingface.co/datasets/ibm-research/ScarfBench",
+    "date_covered": "2026-07-01"
+  },
+  {
+    "id": "arxiv:2606.30863",
+    "url": "https://arxiv.org/abs/2606.30863",
+    "title": "Beyond expert users: agents should help users construct preferences, not just elicit them / CoShop (Irena Saracay / Ludwig Schmidt / Carlos Guestrin) — attacks hidden assumption in interactive-agent design that users arrive with well-formed preferences; draws on Information Economics Search / Experience / Credence framework to formalize CoPref, in which users often don't know what they want and agent's job is to expand user's understanding of option space; CoShop is interactive benchmark for recommender-style tasks where user lacks domain expertise; no frontier agent exceeds 56% accuracy across five turns; named failure mode is agents re-ask clarifying questions about pre-existing preferences instead of expanding user's knowledge",
+    "date_covered": "2026-07-01"
+  },
+  {
     "id": "arxiv:2606.29537",
     "url": "https://arxiv.org/abs/2606.29537",
     "title": "OSWorld 2.0: Benchmarking Computer-Use Agents on Long-Horizon Real-World Tasks (36 authors, eq-contrib Mengqi Yuan / Zilong Zhou / Xinzhuang Xiong; also Frederic Sala / Yu Su / Siva Reddy / Tao Yu) — 108 long-horizon CUA workflows averaging 318 tool calls and 1.6 hours of human work each (vs ~30 tool calls in original OSWorld); Claude Opus 4.8 (max thinking) reaches 20.6% binary completion / 54.8% partial score at 500 steps, GPT-5.5 plateaus near 13% (more token-efficient, doesn't close gap); named failure modes: lose track of constraints, miss mid-task information, struggle when task hinges on hidden state to recover; HF Daily Papers leading at 104 upvotes",
