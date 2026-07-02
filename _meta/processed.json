@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.01224",
+    "url": "https://arxiv.org/abs/2607.01224",
+    "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill (Shengguang Wu / Hao Zhu / Yuhui Zhang / Xiaohan Wang / Serena Yeung-Levy — Stanford) — frames memory management as metamemory: two-loop optimization where strong LLM iteratively refines memory schemas / prompts / action vocabulary from agent trajectories (outer loop), then high-quality memory decisions from successful episodes train the target model to internalize memory proficiency (inner loop); treats file-system operations (create/read/update/delete on typed memory objects) as first-class trainable actions alongside task actions; on Crafter / MiniHack / NetHack (three procedurally generated long-horizon tasks) achieves ~2x-4x base agent performance improvement from memory optimization alone; 32B open-weight model reaches competitive performance with Claude Opus 4.5 and Gemini 3.1 Pro Thinking; positions memory management as independently learnable high-leverage skill for long-horizon tasks",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "microsoft-research-2026-06-30-skillopt",
+    "url": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
+    "title": "SkillOpt: Agent skills as trainable parameters (Yifan Yang / Xuemei Gao / Qi Dai / Bei Liu / Kai Qiu / Dongdong Chen / Chong Luo — Microsoft Research) — treats Claude-Code-style natural-language agent skill files as trainable parameters outside the frozen base model; structured optimization loop: forward pass runs task with current skill, backward pass has optimizer LLM propose bounded text edits (add/delete/replace), validation gating only accepts candidates that beat held-out validation, rejected-edit buffer informs future updates, epoch-wise slow updates consolidate; on six benchmarks × seven models × three execution modes (52 evaluation cells): GPT-5.5 direct chat 58.8% -> 82.3% (+23.5pp), SpreadsheetBench 41.8% -> 80.7%, OfficeQA 33.1% -> 72.1%; Qwen3.5-4B with trained skill outperforms larger baselines without fine-tuning; skills transfer across model scales and execution harnesses; open source at github.com/microsoft/SkillOpt",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "arxiv:2607.00692",
+    "url": "https://arxiv.org/abs/2607.00692",
+    "title": "Self-GC: Self-Governing Context for Long-Horizon LLM Agents (Xubin Hao / Hongjin Meng / Xin Yin / Jiawei Zhu / Chenpeng Cao) — reframes context management as runtime lifecycle control over indexed recoverable objects rather than post-hoc text cleanup; turns user interactions / tool operations / skill states into indexed objects, planner recommends compression actions, recoverable sidecars with cache-aware commits preserve rollback + prompt-cache economics; on 33-session test set 43.95% prefix token pruning while preserving 84.85% of future continuations (vs baselines 54.55%-69.70% pruning at unstated preservation); production 332 sessions no-impact rates 91.27%-94.58% (baselines 77.71%-87.46%); real-world daytime input-token reduction 10-15%, peak approaching 20%",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "arxiv:2607.01071",
+    "url": "https://arxiv.org/abs/2607.01071",
+    "title": "MemSyco-Bench: Benchmarking Sycophancy in Agent Memory (Zhishang Xiang / Zerui Chen / Yunbo Tang / Zhimin Wei / Ruqin Ning / Yujie Lin / Qinggang Zhang / Jinsong Su) — first benchmark separating retrieval quality from downstream decision quality in presence of memory; names memory-induced sycophancy as failure mode where faithful memory causes agent to over-align with user at cost of factual accuracy; five tasks: (1) reject memory as factual evidence when it shouldn't be, (2) respect memory's applicable scope, (3) resolve conflicts between memory and objective evidence, (4) track memory updates, (5) use valid memory for personalization; public GitHub",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "arxiv:2607.00269",
+    "url": "https://arxiv.org/abs/2607.00269",
+    "title": "Mnemosyne: Agentic Transaction Processing for Validating and Repairing AI-generated Workflows (Edward Y. Chang / Longling Geng / Emily J. Chang) — runtime for validating and repairing AI-generated agent actions before they commit; framing: agent actions may be syntactically correct but outdated / impossible / contradictory / destructive, so 'anything may propose but only the runtime admits and commits'; append-only transition log + effective-state projection + dependency-safe compensation + active commitment records; proves 4 safety properties; rejects targeted violations across 9 falsification tests while accepting valid operations; <6% overhead for projection+validation; localized repair edits ~10x fewer operations than global recomputation; open source",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "arxiv:2607.00871",
+    "url": "https://arxiv.org/abs/2607.00871",
+    "title": "Self-Evolving Agents with Anytime-Valid Certificates / SEA (Biswa Sengupta) — restricts self-modification to small steering adapter + versioned harness around frozen base model, uses anytime-valid gates to audit changes against error budget; certificates constrain modifications to those the frozen model can already produce; five verification mechanisms: best-of-N selection / micro-step search / self-authored reproduction oracles / search-layer control / self-repair — all without external grading, extracting signal from issue text alone; on SWE-Bench Verified subset (52 instances x 4 models) GLM 24 -> 28 (+4), GPT 29 -> 34 (+5, '65% best'); base-model capability dominates gain; event logs confirm mechanisms fired without regressions",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "arxiv:2607.00725",
+    "url": "https://arxiv.org/abs/2607.00725",
+    "title": "What Survives Into Context: A Diagnostic for Budget-Constrained Multi-Hop RAG (Ananto Nayan Bala) — attacks document-recall-as-RAG-metric under budget constraints; introduces 'answer-in-context' (does gold answer survive as contiguous span in packed context) as counter-metric that predicts answer F1 substantially better than recall (r=0.39-0.55 vs 0.31); documents 4.6x performance gap on HotpotQA even when all relevant evidence was retrieved — evidence retrieved, answer didn't survive packing; proposes submodular maximization packing algorithm jointly optimizing relevance/query-coverage/representativeness/diversity — +5.1 F1 on HotpotQA at 160-token budgets vs heuristic baselines; caveat: gains conditional on multi-hop structure + moderate budgets + weak readers",
+    "date_covered": "2026-07-02"
+  },
+  {
+    "id": "arxiv:2607.00502",
+    "url": "https://arxiv.org/abs/2607.00502",
+    "title": "A Task-State Representation for Long-Horizon Mobile GUI Agents / TSR (Yujie Zheng / Zikang Liu / Xin Zhao / Ji-Rong Wen — Renmin University of China) — training-free wrapper around any base agent maintaining three structured elements: global instruction summary + dynamic subgoal progress tracker + transition-aware action verifier that continuously updates from before/after visual comparisons; addresses conflation of persistent task requirements with ephemeral screen states in long-horizon mobile GUI agents; up to +12 absolute point success-rate improvement on cross-application and memory-intensive tasks across four mobile-GUI benchmarks",
+    "date_covered": "2026-07-02"
+  },
+  {
     "id": "anthropic-news-2026-06-30-claude-sonnet-5",
     "url": "https://www.anthropic.com/news/claude-sonnet-5",
     "title": "Introducing Claude Sonnet 5 (Anthropic) — new Sonnet-tier release positioned as close to Opus 4.8 performance at lower pricing; API model ID claude-sonnet-5; pricing $2/M input + $10/M output introductory through Aug 31 2026, standard $3/$15; available Free/Pro/Max/Team/Enterprise/Claude Code/Claude Platform/API; updated tokenizer requires 1.0–1.35x more tokens vs Sonnet 4.6 for equivalent content (offsets sticker-price cut); cybersecurity capability substantially poorer than Opus 4.8 by design (0.0% on Firefox exploit development, framed as safety tradeoff); comparison references BrowseComp / OSWorld-Verified (Sonnet 4.6 updated to 78.5% under methodology adjustment) / Humanity's Last Exam (Sonnet 4.6 updated to 34.6% no-tools / 46.8% with-tools); Sonnet 5 headline numbers not published inline in launch post",
