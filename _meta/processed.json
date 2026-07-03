@@ -1,5 +1,53 @@
 [
   {
+    "id": "anthropic-2026-07-02-fable-safeguards-jailbreak-framework",
+    "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "title": "More details on Fable 5's cyber safeguards and our jailbreak framework (Anthropic) — two-part release: (1) four-tier cyber-use taxonomy backing Fable 5 safety classifiers: Prohibited Use (asymmetric-risk-to-attackers: ransomware / defense evasion / C2 / BGP hijacking) / High-Risk Dual Use (pentest / priv-esc / exploit dev / ICS) / Low-Risk Dual Use (OSINT / vuln-ID matching existing tools) / Benign Use (secure coding / patch mgmt / incident response); classifiers run with enlarged safety margin blocking some benign requests as precaution against high-risk dual use; classifiers are one layer alongside access controls / training / offline monitoring; (2) Cyber-Jailbreak-Severity (CJS) framework — first public quantitative jailbreak severity scoring: four axes summed to 5 severity bands (CJS-0 Informational / CJS-1 Low 1-3.5 / CJS-2 Medium 4-6.5 / CJS-3 High 7-8.5 / CJS-4 Critical 9-10); axes: Capability Gain 0-4 (score 0 auto-terminates as informational), Breadth of Capability Gain 0-2 (universality across targets/tasks), Ease of Weaponization 0-2 (0 = skilled live prompting required, 2 = turnkey), Discoverability 0-2 (0 = trusted confidential report, 2 = already public/actively used); initial scores are floors; final severity may be raised (never lowered) for novel zero-days in widely deployed software / long-remediation-timeline exploits / combinatorial risk",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "microsoft-research-2026-06-29-memora",
+    "url": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
+    "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity (Microsoft Research) — agentic memory system decoupling what is stored (rich memory content) from how it is retrieved (lightweight abstractions + cue anchors); three-layer design: Primary Abstractions (short 6-8 word phrases capturing memory essence, only these are embedded for semantic search) + Memory Values (rich detailed content preserved unchanged, retrieved by ID after abstraction lookup) + Cue Anchors (context-aware tags providing alternative retrieval paths without predefined ontology); retrieval uses policy-guided iterative refinement traversing cue anchors for multi-hop reasoning; LoCoMo 86.3% LLM-judge accuracy; LongMemEval 87.4% accuracy; up to 98% fewer tokens than full-context approaches; stores 344 entries vs competing systems' 651; puts fourth axis (representation) on the memory cluster alongside skill (AutoMem) / write-gate (Janus) / write-cost (MemDelta)",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "arxiv:2607.01480",
+    "url": "https://arxiv.org/abs/2607.01480",
+    "title": "Procedural Memory Distillation: Online Reflection for Self-Improving Language Models / PMD (Ye Liu / Srijan Bansal / Bo Pang / Yang Li / Zeyu Leo Liu / Yifei Ming / Zixuan Ke / Shafiq Joty / Semih Yavuz) — converts cross-episode signals from RLVR / SDPO training (which strategies consistently pass verification, which failure modes persist, which patterns recur) into reusable procedural memory distilled into policy weights during training; memory functions as training scaffold absorbed into policy itself yielding memory-free model at inference; three levels of abstraction: raw trajectories + self-reflected strategies+lessons + higher-level behavioral patterns recurring across problems; memory-conditioned self-teacher supervises student on its own rollouts; co-evolution: policy generates rollouts that update memory, memory shapes supervision that updates policy; on Qwen3-8B and OLMo3-Instruct-7B: +3.8-5.5% on SCIKNOWEVAL, +7.9-13.6% on LIVECODEBENCH vs SDPO baseline; ablation: freezing memory or policy trails PMD by >10% across SCIKNOWEVAL domains — co-evolution is load-bearing",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "arxiv:2607.01538",
+    "url": "https://arxiv.org/abs/2607.01538",
+    "title": "BlockSearch & In-Context Retrieval at Million-Token Scale (Siddharth Gollapudi / Nilesh Gupta / Prasann Singhal / Sewon Min) — first systematic study of in-context retrieval at million-token corpora and length-generalization far beyond training sizes; BlockSearch is 0.6B LM retriever with architectural + training modifications that length-generalize up to 10x beyond training regime; names and characterizes attention dilution effect: as corpus grows irrelevant docs dominate softmax denominator, reducing normalized mass on gold document even when pre-softmax scores remain high; proposes length-aware softmax adjustments and document-level sparse attention; at million-token scale matches dense retrieval on MS MARCO and NQ at 7x smaller than concurrent MSA baseline; 3x higher scores than dense retrieval on LIMIT tasks",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "arxiv:2607.01523",
+    "url": "https://arxiv.org/abs/2607.01523",
+    "title": "Multi-Head Recurrent Memory Agents / MHM (Jiatong Li / Samuel Yeh / Sharon Li) — identifies retention as dominant bottleneck in recurrent memory agents at scale (existing designs maintain memory as monolithic text blocks where updates risk overwriting retained content); training-free framework partitioning memory into independent heads with select-then-update strategy — update targets one head leaving others untouched; MHM-LRU variant (least-recently-updated head selection) guarantees uniform head utilization at zero additional token overhead; on RULER-HQA at 896K tokens memory retention rate improves from <30% to 73.96%; tested across 100K-1M token range; wrapper composes with any existing memory scheme",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "arxiv:2607.01236",
+    "url": "https://arxiv.org/abs/2607.01236",
+    "title": "ProvenanceGuard: Detecting LLM Agent Misalignment via Traceable Evidence in Agent Context (Yining She / Yiliang Liang / Eunsuk Kang) — provenance-based misalignment detection replacing LLM-as-judge default; every proposed tool call must be supported by traceable evidence in agent context — if tool-call arguments can't be provenance-anchored to something in context, call is flagged as misaligned; multi-stage pipeline detects three misalignment types; on Agent-SafetyBench error rate on misaligned traces drops from 42.9% to 1.8%; on WorkBench 32.1% -> 17.3%; intervention burden on successful tasks drops from 30.5% to 12.8% (reduces false-positive interruptions on legitimate flows); tested across 10 backbone LLMs; no statistically significant increase in unnecessary interventions on aligned traces; fifth convergent instance of gate-before-commit design pattern in three weeks — audit primitive is evidence-provenance-in-context",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "arxiv:2607.02032",
+    "url": "https://arxiv.org/abs/2607.02032",
+    "title": "PACE: A Proxy for Agentic Capability Evaluation (Yueqi Song / Lintang Sutawika / Jiarui Liu / Lindia Tjuatja / Jiayi Geng / Yunze Xiao / Daniel Lee / Aditya Bharat Soni / Vincent Lo / Xiang Yue / Graham Neubig) — constructs proxy benchmarks from existing non-agentic evaluations to predict performance on costly agent benchmarks (SWE-Bench / GAIA / etc); two complementary selection strategies: target-relevance local selection (align with target benchmark distribution) + globally informative global selection (discriminate models across broad capability space); leave-one-out cross-validation MAE <4%, Spearman correlation >0.80, pairwise model-ranking accuracy ~85% at <1% of full agentic evaluation cost; evaluated across 4 target agentic benchmarks (including SWE-Bench and GAIA), 19 source non-agentic benchmarks, 14 models",
+    "date_covered": "2026-07-03"
+  },
+  {
+    "id": "arxiv:2607.01792",
+    "url": "https://arxiv.org/abs/2607.01792",
+    "title": "PartRep: Learning What to Repeat for Decoder-Only LLMs (Andikawati P Widjaja / Yongjun Kim / Hyounghun Kim / Jaeho Lee) — prompt repetition (appending second copy of prompt before generation) redistributes grounding across positions in decoder-only causal-attention and improves reasoning but doubles KV cache + prefill cost; PartRep replaces full repetition with selective repetition of high-value tokens identified by token-wise negative log-likelihood (unpredictable tokens benefit most from late-position repetition); lightweight gate predicts high-NLL tokens from early-layer representations enabling mid-prefill selection via early exit; across 8 benchmarks (MMLU / GSM8K / RULER) and 3 model families (Qwen2.5 / Llama3.2 / Gemma4) retains most benefits of full repetition at 59.4% of KV cache and 79.0% of prefill FLOPs vs full repetition",
+    "date_covered": "2026-07-03"
+  },
+  {
     "id": "arxiv:2607.01224",
     "url": "https://arxiv.org/abs/2607.01224",
     "title": "AutoMem: Automated Learning of Memory as a Cognitive Skill (Shengguang Wu / Hao Zhu / Yuhui Zhang / Xiaohan Wang / Serena Yeung-Levy — Stanford) — frames memory management as metamemory: two-loop optimization where strong LLM iteratively refines memory schemas / prompts / action vocabulary from agent trajectories (outer loop), then high-quality memory decisions from successful episodes train the target model to internalize memory proficiency (inner loop); treats file-system operations (create/read/update/delete on typed memory objects) as first-class trainable actions alongside task actions; on Crafter / MiniHack / NetHack (three procedurally generated long-horizon tasks) achieves ~2x-4x base agent performance improvement from memory optimization alone; 32B open-weight model reaches competitive performance with Claude Opus 4.5 and Gemini 3.1 Pro Thinking; positions memory management as independently learnable high-leverage skill for long-horizon tasks",
