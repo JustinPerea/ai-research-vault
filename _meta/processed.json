@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.02389",
+    "url": "https://arxiv.org/abs/2607.02389",
+    "title": "Steerability via constraints: a substrate for scalable oversight of coding agents (Thomas Winninger) — argues substrate-level engineering-team controls (access control + network policies + strict coding conventions enforced by tooling) apply to LLM coding agents more cost-effectively than agent scaffolding; controlled experiment on a Python codebase with 11 inserted backdoors using Gemma 4 e4b as reviewer: unconstrained baseline 54.5% recall vs constrained substrate + ~200-LoC docs CLI 90.9% recall; substrate and tool contributions are independent; Python chosen because substrate-level oversight gains are largest where the language gives fewest guarantees by default; directly composes with the six-instance gate-before-commit stack (Janus/SkillOpt/Mnemosyne/RoPoLL/ProvenanceGuard/ContextNest) as the how-to-scaffold-the-checker layer",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.02032",
+    "url": "https://arxiv.org/abs/2607.02032",
+    "title": "PACE: A Proxy for Agentic Capability Evaluation (Yueqi Song / Lintang Sutawika / Jiarui Liu / Lindia Tjuatja / Jiayi Geng / Yunze Xiao / Daniel Lee / Aditya Bharat Soni / Vincent Lo / Xiang Yue / Graham Neubig — CMU) — constructs proxy benchmarks by selecting instances from existing non-agentic evaluations whose aggregate scores most reliably predict model performance on agentic benchmarks; regression fitting + two instance-selection strategies; evaluated on 14 models x 4 agentic benchmark targets (SWE-Bench + GAIA + two others); leave-one-out cross-validation MAE < 4% + Spearman > 0.80 + pairwise model-ranking accuracy ~85% at < 1% of full evaluation cost; directly changes cost of model shootouts (SWE-Bench for 14 models takes weeks; PACE proxy takes an afternoon)",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.01308",
+    "url": "https://arxiv.org/abs/2607.01308",
+    "title": "Cache Merging as a Convergent Replicated State for Multi-Agent Latent Reasoning (Carlos Baquero / Luís Brito) — CanonicalMerge orders KV-caches by mean K-norm at a middle layer rendering merged cache byte-identical under any input permutation; treats multi-agent latent-cache state as a CvRDT with set-union semantics (set of content-addressed latent fragments); verified on Qwen 1.7B and 4B; on partitioned-reasoning tasks matches best BagMerge orderings across all regime-budget-ordering combinations without requiring ordering knowledge; limitation at k > 2 agents: transports and colocates latent traces but does not by itself compose them; first inter-agent-state-coordination primitive in the memory cluster (orthogonal to A-TMA's intra-agent state coordination)",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.02073",
+    "url": "https://arxiv.org/abs/2607.02073",
+    "title": "Maven: Evidence-State Rewards for Long-Context Reasoning (Ya Gao / Pekka Marttinen — Aalto) — RL framework with editable evidence memory and granular action-level rewards: add-via-marginal-gain + link-via-synergy + drop-via-improved-support; optimized inside GRPO so evidence navigation is stateful RL rather than one-shot extraction; on Llama and Qwen across LongBench v2 + LongReason + RULER outperforms outcome-only RL and evidence-identification baselines with more sufficient evidence sets and lower distractor retention; RL companion to training-free [arxiv:2607.02509] ReContext — both attack context-access-vs-utilization gap using same evidence-graph ontology (add / link / drop) at different layers of stack",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.02072",
+    "url": "https://arxiv.org/abs/2607.02072",
+    "title": "kNNGuard: Turning LLM Hidden Activations into a Training-Free Configurable Guardrail (Mahmoud Abdelfattah / Hamid Nasiri / Peter Garraghan — Lancaster) — uses activation space of off-the-shelf LLM without fine-tuning; small bank of ~50 safe/unsafe prompts + multi-layer kNN classification combining activation-space and embedding-space scores across layers; competitive-or-superior F1 vs fine-tuned SOTA guardrails; 2.7x faster than best comparable guardrail; 10x faster than fine-tuned safety classifier; domain adaptation in <10 seconds (several orders of magnitude faster than established guardrails); evaluated across six domains covering topical and security-related prompts; third instance of training-free-wrapper family alongside ReContext + BlockSearch",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.02134",
+    "url": "https://arxiv.org/abs/2607.02134",
+    "title": "Coding-agents can replicate scientific machine learning papers (Atharva Hans / Ilias Bilionis — Purdue) — introduces Paper-replication workflow: transforms scientific ML paper claims into testable targets with documented evidence; agent runs paper's method + records outputs against claimed numbers + produces workspace where each claim is matched-to-evidence or flagged-as-unmet; completion validated by workspace evidence + predicate checks rather than agent's final response; across 4 scientific ML papers x 12 independent runs: all 12 workspaces cleared completion validation gate + all 158 recorded claims matched with corresponding report coverage; third instance of verification-as-code-predicate family (alongside Mnemosyne workflow-action-constraint + Vera safety-verification)",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.02453",
+    "url": "https://arxiv.org/abs/2607.02453",
+    "title": "Adoption and Ecosystem Health: A Longitudinal Analysis of Open-Source Multi-Agent Frameworks (Xi Zhang / Papi Menon / Vivian Chu / Koray Cosguner — Cisco + Indiana University) — longitudinal analysis of 15 major open-source AI agent frameworks (AutoGPT + LangChain + Pydantic-AI + MetaGPT + LangFlow + Openai-agents-python and others) from late 2022 through early 2026; corpus ~808k stars + ~74k PRs + ~86k commits + ~1M user profiles; three findings: (1) star counts reflect hype cycles and inorganic activity not ecosystem health — AutoGPT hit 111,967 stars in one month with only 9 contributors per 1,000 stars vs LangChain's 41 (contributor density metric); (2) LangChain attracted 82.5% of cross-ecosystem contributors positioning it as shared infrastructure; (3) contributor retention drops most within first 30 days, stabilizes near 90 days; refutes star-count-as-adoption assumption",
+    "date_covered": "2026-07-05"
+  },
+  {
+    "id": "arxiv:2607.02390",
+    "url": "https://arxiv.org/abs/2607.02390",
+    "title": "DecompRL: Solving Harder Problems by Learning Modular Code Generation (Juliette Decugis / Fabian Gloeckle / Francis Bach / Taco Cohen / Gabriel Synnaeve — Meta + ENS + Inria) — RL algorithm learns hierarchical code decomposition and implementation strategies; once decomposed into k implementations across n modules composed solution space is k^n candidates enumerated on CPU rather than sampled on GPU; reported to reduce GPU token cost by ~50x on hard problems; on LiveCodeBench and CodeContests with Qwen 2.5 7B and Code World Model 32B outperforms standard and diversity-optimized RL baselines when token budgets exceed 10^5 per problem; solves problems conventional generation methods cannot reach; coding-agent parallel to yesterday's ATG explicit task-DAG at planner layer — both attack monolithic ceiling from different levels of stack",
+    "date_covered": "2026-07-05"
+  },
+  {
     "id": "mistral-news-2026-07-02-leanstral-1-5",
     "url": "https://mistral.ai/news/leanstral-1-5",
     "title": "Leanstral 1.5: Proof Abundance for All (Mistral AI) \u2014 open-weight Apache-2.0 formal verification model for Lean 4 theorem proving + code-agent workflows with filesystem operations; 119B total parameters / 6B active MoE; three-stage training (mid-training + SFT + RL with CISPO); saturates miniF2F (100% val + test); solves 587/672 PutnamBench problems; FATE-H 87% (SOTA); FATE-X 34% (SOTA); FLTEval 28.9 pass@1 / 43.2 pass@8; test-time scaling monotonic (44 problems at 50k tokens/problem -> 587 at 4M tokens/problem, individual proofs consume millions of tokens across refinement iterations); found 5 previously unknown bugs across 57 real repositories including critical integer overflow in varinteger's sign function; free leanstral-1-5 API endpoint + HuggingFace weights",
