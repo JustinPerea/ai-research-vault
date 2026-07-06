@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2607.01520",
+    "url": "https://arxiv.org/abs/2607.01520",
+    "title": "The Risk of KV Cache Compression (Lukas Haverbeck / Carmen Amo Alonso / Andres Felipe Posada-Moreno / Sebastian Trimpe / Marco Pavone) — first theoretical spine for KV cache compression under causal masking; establishes minimax risk characterizations for cache compression on long-sequence transformer inference; derives design principles for algorithms operating under causal masking that achieve minimax-optimal risk mapping efficiently to prefill + autoregressive decoding; prior work either showed worst-case impossibility or shipped ad-hoc practical instances with no theoretical guidance on which parts of cache are actually compressible; characterizes intrinsic compressibility of caches; reports promising performance on LongBench in targeted experiments (framework is the contribution); paired same-day with Kara [arxiv:2607.01237] as theory+practice compression release",
+    "date_covered": "2026-07-06"
+  },
+  {
+    "id": "arxiv:2607.01237",
+    "url": "https://arxiv.org/abs/2607.01237",
+    "title": "Kara: Efficient Reasoning LLM Serving via Sliding-Window KV Cache Compression (Shen Han / Yuyang Wu) — attacks two failure modes of existing KV cache compression: threshold-based policies eliminate whole sequence blocks hurting throughput + rigid retention of isolated pairs or fixed-size chunks loses correlated context; operates on recently-generated context via sliding window with bidirectional attention scoring for importance ranking then Token2Chunk module expands each selected pair into variable-sized segment flexibly preserving locally-correlated stretches rather than isolated tokens; ships KvLLM inference framework built on vLLM with PagedAttention integration so compression is production-shape rather than research-only; reports consistent performance improvements on reasoning-LLM serving across memory + throughput axes; concrete practical companion to KV Cache Compression Risk minimax framework [arxiv:2607.01520]",
+    "date_covered": "2026-07-06"
+  },
+  {
+    "id": "arxiv:2607.01415",
+    "url": "https://arxiv.org/abs/2607.01415",
+    "title": "The Rollout Infrastructure Tax in Coding-Agent Reinforcement Learning (Daniel Thi Graviet / Lovre Pesut / Ivan Dagelic / Vedran Jukic / Ivan Burazin) — frames execution infrastructure for coding-agent RL as first-class optimization variable not deployment plumbing; four execution substrates compared training on one million 150-step coding-agent trajectories: 110× variation in cold-start latency across the four platforms + 1.8× spread in projected worker-hours for the same training run; meta-thesis: coding-agent RL development should actively optimize execution substrates as part of training system itself since small per-rollout savings compound catastrophically at 10^6-trajectory scale; infrastructure-side companion to DecompRL [arxiv:2607.02390] GPU→CPU computation shape shift — both argue shape of computation dominates total amount for coding agents",
+    "date_covered": "2026-07-06"
+  },
+  {
+    "id": "arxiv:2607.01470",
+    "url": "https://arxiv.org/abs/2607.01470",
+    "title": "World Feedback for Clinical Agents: Diagnosing RL in FHIR Environments (Ananya Mantravadi / Harshit Rajgarhia / Prasanna Desikan / Abhishek Mukherji) — MedAgentBench-v3 with 508 tasks across 20 task types in FHIR environment for clinical decision agents; previous benchmark (v2) had 41.7% silent-finish ceiling where inaction became dominant strategy because failing loudly cost more reward than doing nothing; v3 restructures reward signals reducing silent-finish to 8.9%; on v3 pure RL 18.2% pass@1 vs rule-based SFT 34.1% + RL+SFT hybrid outperforms both; 15.9pp gap fully attributable to two structural barriers — capability ceiling (10/20 task types 0% base performance RL cannot bootstrap) + format-knowledge barrier (3/20 task types require exact clinical codes RL policy cannot invent); silent-finish ceiling emerging as named failure-mode metric for agentic RL on structured protocols; process-quality companion is SkillCoach [arxiv:2607.01874]",
+    "date_covered": "2026-07-06"
+  },
+  {
+    "id": "arxiv:2607.01874",
+    "url": "https://arxiv.org/abs/2607.01874",
+    "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use (Jiayin Zhu / Kelong Mao / Yudong Guo / Dengbo He / Sulong Xu / Simiu Gu / Yutao Yue) — attacks the wrong-skill-from-overlapping-repository outcome-only-eval blind spot; self-evolving rubric framework generates evaluation criteria from actual agent trajectories measuring four process-quality axes: skill selection + skill adherence + skill integration + skill-based reflection; then uses evolved rubrics as training supervision filtering rollouts by rubric quality rather than outcome success; outperforms outcome-only evaluation by exposing hidden failures masked by final accuracy and outperforms outcome-only rollout filtering as training signal; rubric-as-training-signal is evaluation-side analog of Maven [arxiv:2607.02073] evidence-state RL rewards — third convergent instance of name-a-quality-axis-and-reward-it-directly pattern (Janus write-gate + Maven evidence + SkillCoach rubric)",
+    "date_covered": "2026-07-06"
+  },
+  {
+    "id": "arxiv:2607.01661",
+    "url": "https://arxiv.org/abs/2607.01661",
+    "title": "InfoDelphi: Diverse Evidence Better Forecasts — Multi-Agent Deliberation Under Information Asymmetry (Yuante Li / Yicheng Tao / Kate Zhang / Taozhi Wang / Gefei Gu / Yaxin Zhou) — when multiple LLM agents receive identical evidence deliberation collapses into herding rather than genuine belief revision (proven as first-order failure of standard multi-agent debate setup); solves via partitioning evidence into shared public + private disjoint subsets so each agent starts with different information — deliberation then produces genuine belief updates as agents share private evidence; three components: relevance-aware evidence routing + rationale-based iterative deliberation + confidence-weighted aggregation; on PolyGym (375 binary forecasting questions from prediction markets) delivers 12-18% Brier score improvement + 4-8pp accuracy gain vs strongest baselines; ablation confirms removing information asymmetry eliminates most deliberation benefit — private-evidence partition is load-bearing not bonus; contradicts the identical-evidence multi-agent debate premise extending [arxiv:2607.02507] dual-channel divergence + [arxiv:2607.02453] LangChain 82.5% cross-ecosystem findings — third finding this week that naive multi-agent architecture assumptions are wrong in specifiable ways",
+    "date_covered": "2026-07-06"
+  },
+  {
+    "id": "arxiv:2606.31227",
+    "url": "https://arxiv.org/abs/2606.31227",
+    "title": "AI-Infra-Guard: Securing the AI Agent — Unified Framework for Multi-Layer Agent Red Teaming (Yong Yang / Xing Zheng / Huiyu Wu / Huangsheng Cheng / Xiaorong Shi / Jing Guo / Bo Yang / Yi Zhou / Xiangfan Wu / Zonghao Ying — Tencent) — first open-source (CC-BY 4.0) multi-layer MCP-audit framework; structured across four attack layers (infrastructure + protocol/tool + agent behavior + model) with different detection paradigm per layer — layer-paradigm matching is meta-thesis (uniform detection strategies don't work against stratified attack surface); deterministic rule matching across 75+ components with 1,400+ vulnerability rules + LLM-driven auditing of Model Context Protocol (MCP) servers (first framework explicitly auditing MCP servers) + multi-turn adversarial testing of agents + 26+ jailbreak attack operators evaluated across 16 datasets (416 attack combinations); adds supply-chain security of agent skills as explicit target; operational realization of safety-verification convergence — detection-side companion to Vera [arxiv:2607.01793] threat baseline + Steerability [arxiv:2607.02389] substrate mitigation",
+    "date_covered": "2026-07-06"
+  },
+  {
     "id": "arxiv:2607.02389",
     "url": "https://arxiv.org/abs/2607.02389",
     "title": "Steerability via constraints: a substrate for scalable oversight of coding agents (Thomas Winninger) — argues substrate-level engineering-team controls (access control + network policies + strict coding conventions enforced by tooling) apply to LLM coding agents more cost-effectively than agent scaffolding; controlled experiment on a Python codebase with 11 inserted backdoors using Gemma 4 e4b as reviewer: unconstrained baseline 54.5% recall vs constrained substrate + ~200-LoC docs CLI 90.9% recall; substrate and tool contributions are independent; Python chosen because substrate-level oversight gains are largest where the language gives fewest guarantees by default; directly composes with the six-instance gate-before-commit stack (Janus/SkillOpt/Mnemosyne/RoPoLL/ProvenanceGuard/ContextNest) as the how-to-scaffold-the-checker layer",
