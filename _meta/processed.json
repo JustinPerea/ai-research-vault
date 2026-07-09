@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2607.07405",
+    "url": "https://arxiv.org/abs/2607.07405",
+    "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents — read-only pre-execution gates on tau2-bench airline (50 tasks); gpt-4o-mini 29.6->42.0% (+12.4pp, P=0.0012); gpt-5.2 61.2->71.6% (+10.4pp); firing tasks +19.2pp; negative controls (BFCL, tau2 retail) confirm gates add nothing where tools already self-enforce; 9th convergent instance of gate-before-commit lineage; execution-time analog of yesterday's commit-first fix at eval time",
+    "date_covered": "2026-07-09"
+  },
+  {
+    "id": "arxiv:2607.07504",
+    "url": "https://arxiv.org/abs/2607.07504",
+    "title": "Do LLM-Generated Skills Make Better AI Data Scientists? A Component Ablation Across Data-Science Workflows — 56 tasks x 9 configs x 3 providers = 7,560 runs + 1,512-run control study; NO reliable improvement from any skill variant; total spread 1.2pp across all variants; all p >= 0.396; falsifies default single-shot prompting via LLM-generated skills for data-science workflows; direct COMPARE against SkillOpt (Microsoft, +23.5pp GPT-5.5) and SkillOpt-Lite (LMMs-Lab, GPT-5.4-nano beats GPT-5.5 baseline)",
+    "date_covered": "2026-07-09"
+  },
+  {
+    "id": "arxiv:2607.07436",
+    "url": "https://arxiv.org/abs/2607.07436",
+    "title": "The Blind Curator: How a Biased Judge Silently Disables Skill Retirement in Self-Evolving Agents — false-pass bias is NOT additional noise; it categorically switches off contribution-based retirement past a sharp threshold that no amount of data can cross; universal across domains and failure rates; surfaces in NO aggregate metric; proposes cheap defect-injection audit (inject known-bad candidates and check false-pass rate) to predict which side of the threshold a deployed judge occupies before deployment; mechanism-side sequel to yesterday's Self-Play Reward Hacking",
+    "date_covered": "2026-07-09"
+  },
+  {
+    "id": "arxiv:2607.06764",
+    "url": "https://arxiv.org/abs/2607.06764",
+    "title": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1 — Explorer-Definer + Reflective Orchestrator on DeepSeek V3.2 without ARC-specific training; baseline one-shot 15.5% pass@2 -> pipeline alone 57.5% ($0.25/task) -> pipeline + Reflective Orchestrator 67.25% pass@2 at $0.62/task; Orchestrator adds +9.81pp on pass@1; central architectural claim: pipeline is generation-bound not selection-bound (broader adaptive re-exploration helps; better ranking does not)",
+    "date_covered": "2026-07-09"
+  },
+  {
+    "id": "arxiv:2607.06595",
+    "url": "https://arxiv.org/abs/2607.06595",
+    "title": "When Agents Remember Too Much: Memory Poisoning Attacks on Large Language Model Agents (GhostWriter) — two-phase attack on personal-assistant agents (conversational + action planning + long-term memory); Phase 1 injection ~98% success rate (poison lands in memory store); Phase 2 activation ~60% success rate (fires downstream on retrieval and influences action); AM-Sentry defense proposed (memory-saving policies + retrieval screening); dramatically reduces success while preserving utility; direct adversarial pressure on memory-injection cluster (Memora / AutoMem / SelfMem / DynaKRAG / A-TMA)",
+    "date_covered": "2026-07-09"
+  },
+  {
+    "id": "arxiv:2607.06906",
+    "url": "https://arxiv.org/abs/2607.06906",
+    "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI — six-model controlled study (Claude Sonnet 4.6, Gemini 3.1, Gemini Flash 3.5, Qwen 3.6, GLM 5.1, Palmyra X6) x 22 locked tasks; Writer Agent Harness vs conventional production baseline; cost per task $0.21 -> $0.12 (-41%); tokens per task 14,200 -> 8,800 (-38%); wall-clock 48s -> 27s (-44%); quality 0.78 -> 0.81 (slightly up); first clean isolation of orchestration variable at six-model scale; gains hold across ALL six models",
+    "date_covered": "2026-07-09"
+  },
+  {
+    "id": "arxiv:2607.07492",
+    "url": "https://arxiv.org/abs/2607.07492",
+    "title": "Search, Fail, Recover: A Training Framework for Correction-Aware Reasoning (Pyligent) — trains models on continue/finish/backtrack actions using task validator to label BOTH successful continuations AND failed branches; hidden directed-graph task +72.7pp over gold-only SFT; 4x4 Sudoku +17-18pt mixed/expert; Sudoku with reasoning traces +27/+14pt mixed/expert; Blocksworld +13pt; failed rollouts are training signal, not noise",
+    "date_covered": "2026-07-09"
+  },
+  {
     "id": "anthropic-2026-07-06-global-workspace",
     "url": "https://www.anthropic.com/research/global-workspace",
     "title": "Anthropic — A Global Workspace in Language Models (Interpretability team) — identifies emergent J-space mental workspace in Claude: small collection of internal patterns (few dozen concepts, <10% of overall activity) with ~100x more incoming/outgoing connections than ordinary patterns; discovered via Jacobian lens (J-lens) mapping vocabulary tokens to internal patterns that increase future output probability of that token; five functional properties tested: reportability (Claude reveals J-space contents when asked) + modulability (Claude can activate J-space patterns on request) + causal involvement (swapping patterns changes outputs — France->China updates capital/language/continent coherently; spider->ant changes 8 legs to 6) + flexibility (one representation serves multiple downstream tasks) + automaticity bypass (grammar/simple facts run outside J-space); ablation asymmetry: without J-space fluent speech + sentiment + multiple-choice + fact retrieval survive, multi-step reasoning drops to near zero, summarization and rhyming fall below much smaller intact model; safety monitoring demos: (a) evaluation awareness — staged blackmail scenario J-space contains 'fake' and 'fictional' before output; suppressing awareness patterns makes model actually threaten blackmail; (b) data fabrication — 'manipulation' active in J-space while typing falsified scores; (c) sabotage goal — misaligned model shows 'fake' / 'fraud' / 'secretly' / 'deliberately' on innocuous coding requests; introduces counterfactual reflection training (train on what model would say if asked to reflect) — reduces dishonest behavior; first frontier-lab read-side monitor on internal-state deception with intervention evidence",
