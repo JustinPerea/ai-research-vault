@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.07740",
+    "url": "https://arxiv.org/abs/2607.07740",
+    "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE (NVIDIA) — tuning-free zero-shot; Qwen3 1.7B/4B/8B up to 128K beats RULER by +4.79/+2.18/+2.03 pts; 1.39x FA2 prefill throughput on H100; <=4% single-batch overhead at every length; wins HELMET-RAG; wins PG-19 perplexity; generalizes to hybrid attention (Jet-Nemotron) without retraining; direct M5-Max Qwen3-8B fit",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.08010",
+    "url": "https://arxiv.org/abs/2607.08010",
+    "title": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems — production tool-making pipeline compiles repeated SOP steps into validated versioned tools before deployment; 44-node fulfillment-center alarm-triage workflow, 1,500 historical alarms; p50 latency -42%; end-to-end error rate down up to 53% (variance elimination); further -62% p50 latency in direct-call ablation; versioned tools expose spec gaps + data drift as a signal",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.07321",
+    "url": "https://arxiv.org/abs/2607.07321",
+    "title": "From Atomic Actions to Standard Operating Procedures / EvoSOP — same-day companion to arxiv:2607.08010; formalizes SOP-compilation as construct/merge/evaluate/prune cycles over an SOP library extracted from execution traces; reports task success rate + interaction round efficiency gains vs baseline (no headline number)",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.08768",
+    "url": "https://arxiv.org/abs/2607.08768",
+    "title": "UniClawBench: Universal Benchmark for Proactive Agents on Real-World Tasks (HKU-MMLab) — 400 bilingual live-Docker tasks across 5 competencies (skill usage, exploration, long-context, multimodal, cross-platform coordination); closed-loop with executor + hidden supervisor + user simulator; grading criteria hidden from agent; headline: base capability x harness design jointly determine performance; github.com/HKU-MMLab/UniClawBench",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.08535",
+    "url": "https://arxiv.org/abs/2607.08535",
+    "title": "LLM-as-Judge Reliability Auditing — Qwen3 dense 1.7B->32B + MiniMax M2->M2.7; only Qwen3 1.7B->4B produces robust adjacent improvements; larger judges reduce but do not eliminate position/verbosity bias; repeated-sample juries minimal value when errors correlate (matches arxiv:2607.05904 55%-hacked-accepted); structured debate can shift decisions but requires parser + fallback logs; recommends dataset slices + bias probes + error-dependence estimates + protocol audit trails",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.08456",
+    "url": "https://arxiv.org/abs/2607.08456",
+    "title": "Two Axes of LLM Abstention (Wagner) — answer confidence and question answerability are independent axes; 5 instruction-tuned models 2B-14B, 3 families; CREPE false-premise: answer-confidence + P(IK) + P(True) + direct-premise-check all near chance, hidden-state probe 0.69-0.77 AUROC; direct instruction to check premises = 57% false challenges; probe routing triples challenge precision; two-axis policy certifies 0.75 correct-answer coverage vs 0.31 for single-threshold; at 14B two-axis policy is the only one that certifies at all",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.07993",
+    "url": "https://arxiv.org/abs/2607.07993",
+    "title": "Hallucination Self-Play / HSP (COLM 2026) — two roles from same base model: detector fine-tuned on human labels + generator trained via RLAIF using detector as reward model; evolved generator produces harder-to-detect hallucinations then feeds rule-based RL to sharpen detector; RAGTruth: small LLM matches or beats advanced LLM detector without external supervision; escapes arxiv:2607.05904 self-play-reward-hacking pathology because one side is anchored to human labels and one side uses rule-based RL (asymmetric grounding)",
+    "date_covered": "2026-07-10"
+  },
+  {
+    "id": "arxiv:2607.07820",
+    "url": "https://arxiv.org/abs/2607.07820",
+    "title": "DeepSearch-Evolve / DeepSearch-World — deterministic verifiable environment with reproducible search + page-reading; 420K multi-hop QA from entity-level random walks; iterative self-distillation loop (trajectory gen -> filter -> mix -> fine-tune) with no external teacher; 9B parameter model: BrowseComp 31.2 / GAIA 61.5 / HotpotQA 93.4; validates 'verifiable environment > teacher model' thesis for long-horizon web agents at local-inference-relevant model size",
+    "date_covered": "2026-07-10"
+  },
+  {
     "id": "arxiv:2607.07405",
     "url": "https://arxiv.org/abs/2607.07405",
     "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents — read-only pre-execution gates on tau2-bench airline (50 tasks); gpt-4o-mini 29.6->42.0% (+12.4pp, P=0.0012); gpt-5.2 61.2->71.6% (+10.4pp); firing tasks +19.2pp; negative controls (BFCL, tau2 retail) confirm gates add nothing where tools already self-enforce; 9th convergent instance of gate-before-commit lineage; execution-time analog of yesterday's commit-first fix at eval time",
