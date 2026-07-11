@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2607.08716",
+    "url": "https://arxiv.org/abs/2607.08716",
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents (Meta) — proactive memory agent runs alongside action agent + selectively injects context reminders to prevent behavioral state decay; Qwen3.5-27B memory agent trained via SFT+GRPO on SETA; Terminal-Bench 2.0 pass@1 +8.3 pp, tau^2-Bench pass@1 +6.8 pp; beats passive retrieval + continuous injection + advisor-only + general RAG; plug-and-play with frontier action agents; CC BY 4.0; memory-as-interventionist thesis vs memory-as-store",
+    "date_covered": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2607.07964",
+    "url": "https://arxiv.org/abs/2607.07964",
+    "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian (COLM 2026) — post-training weight-only quantization; Kronecker-factored Hessian + gradient covariance + bidirectional incoherence + gradient-informed mixed-precision allocation; 2-bit LLaMA-3-70B WikiText-2 PPL 7.93 vs GPTQ/GPTAQ >2000 at same 2-bit budget; makes 70B usable-quality on M5 Max 64 GB with ~18-20 GB weights + KV headroom",
+    "date_covered": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2607.08028",
+    "url": "https://arxiv.org/abs/2607.08028",
+    "title": "From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents — moves behavioral enforcement from prompts into code + manifests + validators; contract taxonomy: source-grounding/entity-routing/trace/output-hygiene/recommendation; 3-model substitution (270 runs) isolates failures to model-composed layer; head-to-head: prompt-only permits safety violations, bolt-on guardrail over-refuses (88/120 utility), harness scores 120/120 utility with zero safety violations; deployment-time complement to Reason-Less-Verify-More (arxiv:2607.07405)",
+    "date_covered": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2607.07989",
+    "url": "https://arxiv.org/abs/2607.07989",
+    "title": "AgentLocate: Who Broke the System? Failure Localization in LLM-Based Multi-Agent Systems (COLM 2026) — LLM judge + independent evaluators + confidence-weighted aggregation + adaptive fine-tuning; identifies BOTH responsible agent AND earliest decisive step; beats prior failure-localization methods on two benchmarks with lower token cost + wall-clock; missing root-cause primitive for autonomous multi-subagent loops",
+    "date_covered": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2607.08662",
+    "url": "https://arxiv.org/abs/2607.08662",
+    "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search (RUC + Kwai) — first probes how information is organized on web to seed fan-out; dynamically instantiates child search nodes with per-node objective + search mode; reuses process-level experience across homogeneous sibling nodes; consistently beats single-agent + prior multi-agent baselines on BrowseComp-Plus, WideSearch, DeepWideSearch, GISA; sibling process-trace reuse is the load-bearing primitive",
+    "date_covered": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2607.08284",
+    "url": "https://arxiv.org/abs/2607.08284",
+    "title": "PredicateLongBench: Understanding Axes of Difficulty For Long Context Tasks — conceptually simple LLM-judge-free task (find longest contiguous subsequence satisfying a predicate like lexicographic ordering); both synthetic and natural-document-preserving pipelines; explicit difficulty axes (titratable, not one scalar); frontier models degrade cleanly as difficulty scales along axes; anti-saturation benchmark long-context has been missing; natural pairing with Jet-Long (arxiv:2607.07740); CC BY 4.0",
+    "date_covered": "2026-07-11"
+  },
+  {
+    "id": "arxiv:2607.08642",
+    "url": "https://arxiv.org/abs/2607.08642",
+    "title": "DominoTree: Conditional Tree-Structured Drafting with Domino for Speculative Decoding — training-free; tree-drafting + Domino GRU causal correction; Qwen3-4B up to 6.6x speedup vs autoregressive; mean accept length 10.7 tokens/round (highest of any evaluated method); +9-10% throughput over Domino decoder overall, +22% on Alpaca; +24% over DDTree/CaDDTree at T=0 on Qwen3-8B; GitHub repo confirmed; 8 benchmarks across temperatures; direct M5 Max local-fit",
+    "date_covered": "2026-07-11"
+  },
+  {
     "id": "arxiv:2607.07740",
     "url": "https://arxiv.org/abs/2607.07740",
     "title": "Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE (NVIDIA) — tuning-free zero-shot; Qwen3 1.7B/4B/8B up to 128K beats RULER by +4.79/+2.18/+2.03 pts; 1.39x FA2 prefill throughput on H100; <=4% single-batch overhead at every length; wins HELMET-RAG; wins PG-19 perplexity; generalizes to hybrid attention (Jet-Nemotron) without retraining; direct M5-Max Qwen3-8B fit",
