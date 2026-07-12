@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.08032",
+    "url": "https://arxiv.org/abs/2607.08032",
+    "title": "What to Keep, What to Forget: A Rate-Distortion View of Memory Compaction in LLMs and Agents (Colaco, Lahjouji) — unifies KV cache management + prompt pruning + architectural state bounding + agent memory consolidation as one rate-distortion problem; names attention-magnitude/recency as universal failure mode; measurement-gap flag: repeated compaction that agents actually perform is almost never measured; taxonomy + benchmarking-protocol contribution; theoretical spine for memory cluster (Memora/AutoMem/Janus/MemDelta/A-TMA/CanonicalMerge/SelfMem)",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "arxiv:2607.08066",
+    "url": "https://arxiv.org/abs/2607.08066",
+    "title": "Persuasion Attacks Can Decrease Effectiveness of CoT Monitoring (Za, Bainiaksina, Ostrovsky, Chopra, Krakovna @ Google DeepMind) — monitor access to agent CoT INCREASES approval of harmful actions by 9.5% (persuasion channel); 40 policy-violating proposal tasks; fix — model-diverse fact-checker (Claude 3.7 Sonnet monitor + GPT-4.1 fact-checker) cuts harmful approvals 45% vs 6% same-family; refutes CoT-monitoring-as-safety default",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "arxiv:2607.08065",
+    "url": "https://arxiv.org/abs/2607.08065",
+    "title": "When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement (Ding) — 265K samples x 53 runners on GPQA Diamond + AIME; agreement is positive but weak predictor r=0.20-0.59; frontier models 77% agreement / ~half wrong on GPQA; agreement performs best for mid-tier unsaturated models, fails for frontier; self-consistency is conditional proxy for correctness not standalone confidence score; fourth convergent refutation of within-family agreement metric (Blind Curator + Huang null + LLM-as-Judge Reliability + this)",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "arxiv:2607.08700",
+    "url": "https://arxiv.org/abs/2607.08700",
+    "title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution (Leung, Lumer, Feld, Huber, Subbiah, Paul) — 8 judges x 1248 rubric decisions incl 378 hard cases from judge disagreements; two dims: source relevance + factual support; GPT-5-mini strongest source-relevance pass-class F1 0.908; warning: scalar F1 obscures directional bias exactly what downstream RL loop would reinforce; cheap-judge sufficient at inference time / dangerous as RL reward signal",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "arxiv:2607.08186",
+    "url": "https://arxiv.org/abs/2607.08186",
+    "title": "Hidden Decoding at Scale: Latent Computation Scaling for Large Language Models (Aiwei Liu + 46 co-authors, WeLM team) — per-token latent computation scaling; expands each token into n independent streams with separate embedding tables + KV caching; Stream-Factorized Attention keeps mostly linear cost; validated at WeLM-HD4-80B and WeLM-HD4-617B with n=4; first successful sequence-width scaling demo at 100B+ MoE scale; expand-frozen-model architectural extension (companion to HiLS-Attention arxiv:2607.02980 + Frozen MTP google-research-2026-06-26)",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "arxiv:2607.08601",
+    "url": "https://arxiv.org/abs/2607.08601",
+    "title": "It Takes a MAESTRO To Prune Bad Experts (Goel, Maheshwari, Chakraborty) — models autoregressive expert activation trajectories as Ergodic Markov chains with stationary distributions encoding cross-layer dependencies; globally-aware routing importance metric replaces local heuristics; at 50% compression outperforms SOTA baselines by up to 10.61% average performance retention across Safety/Bias/Ethics; substantially lower cross-task variance; direct M5-Max local-fit for Qwen3.6-A3B / Gemma 4-A4B / Leanstral 6B-A when llama.cpp or MLX PR lands",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "arxiv:2607.08403",
+    "url": "https://arxiv.org/abs/2607.08403",
+    "title": "Game Theory Driven Multi-Agent Framework Mitigates LLM Hallucination / G-Frame -> OmniChem (Liu, Bie, Wang, Ma, Yexin Liu, Li, Yang, Yang, Cao, Tao) — Bayesian + team-game closed-loop for data synthesis + training; 363,045 CoTs + 199,589 QA pairs synthesized; OmniChem 7B matches GPT-4o-mini on custom + ChemBench; 79.46% hallucination reduction vs base; chemistry domain evidence but training-protocol contribution domain-generic; needs cross-domain reproduction",
+    "date_covered": "2026-07-12"
+  },
+  {
+    "id": "mistral-news-2026-07-09-prompts-and-skills",
+    "url": "https://mistral.ai/news/manage-prompts-and-skills-in-studio",
+    "title": "Mistral Studio — Prompts and Skills as System of Record (Mistral AI, 2026-07-09) — versioned prompt + skill management with immutable versions (a version that shipped cant be quietly changed), rollback with diff, named ownership, classification labels (Production/Staging), audit logs of every change (who + when), skills exposed as MCP servers from Studio so production execution matches governed version; productizes seven-instance gate-before-commit / provenance-tracking cluster (Janus/SkillOpt/Mnemosyne/RoPoLL+Minority Sentinel/ProvenanceGuard/ContextNest/Reason-Less-Verify-More + arxiv:2607.08028 From Prompts to Contracts)",
+    "date_covered": "2026-07-12"
+  },
+  {
     "id": "arxiv:2607.08716",
     "url": "https://arxiv.org/abs/2607.08716",
     "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents (Meta) — proactive memory agent runs alongside action agent + selectively injects context reminders to prevent behavioral state decay; Qwen3.5-27B memory agent trained via SFT+GRPO on SETA; Terminal-Bench 2.0 pass@1 +8.3 pp, tau^2-Bench pass@1 +6.8 pp; beats passive retrieval + continuous injection + advisor-only + general RAG; plug-and-play with frontier action agents; CC BY 4.0; memory-as-interventionist thesis vs memory-as-store",
