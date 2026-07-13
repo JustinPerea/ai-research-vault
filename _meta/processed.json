@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2607.08964",
+    "url": "https://arxiv.org/abs/2607.08964",
+    "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading (Tencent Hunyuan) — 46 tasks x 9 categories with dense per-checkpoint partial credit; frontier best 15.2% at high reward threshold, all-model average 4.3%; average ~10M tokens + ~85 minutes wall-clock per task; dense-reward instrumentation extension of Terminal-Bench 2.0 line",
+    "date_covered": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2607.09415",
+    "url": "https://arxiv.org/abs/2607.09415",
+    "title": "Self-Guided Test-Time Training for Long-Context LLMs (Zhu, Xu, Wei, Pu, Tian, Sun, Rangadurai, Zhi, Shyu, Pandey, Simon, Meng, Liu) — TTT on random spans HURTS LongBench-v2 accuracy while TTT on oracle spans substantially helps; Self-Guided TTT has the model identify evidence spans before applying LM-loss training on those spans only; up to 15% relative improvement on Qwen3-4B-Thinking-2507 and Llama-3.1-8B-Instruct on LongBench-v2 + LongBench-Pro; span-quality-sensitivity is the load-bearing insight; direct M5-Max local-fit",
+    "date_covered": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2607.09424",
+    "url": "https://arxiv.org/abs/2607.09424",
+    "title": "Soofi S 30B-A3B: A Sovereign, Open-Source Foundation Model for German and English (Soofi-Team, 30 members: Droste, Fitzek, Haerle, Frey, Gurgurov, Luebbering et al. — German Industrial AI Cloud / Deutsche Telekom) — sovereign fully-open MoE hybrid Mamba-Transformer, 30B/3B-A, ~27T tokens with German upweighting; matches dense 14-27B on combined DE-EN, highest English AND German scores among fully-open models beating Olmo 3 32B and Apertus 70B; permissive open-access with weights + checkpoints + training code + data docs; third fully-open hybrid-Mamba MoE (after Nemotron 3 Ultra + Agents-A1); direct M5-Max local-fit",
+    "date_covered": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2607.09328",
+    "url": "https://arxiv.org/abs/2607.09328",
+    "title": "WILDTRACE: Benchmarking Natural Evidence Trails in Long-Context Reasoning (Chen, Liu, Li, Sheng, Tu, Deng, Huang, Shum, Liu, Qu) — 481 tasks from 214 real long-form sources (technical incident reports + literary narratives); all evidence trails arise from the document's own causal/temporal/narrative logic (not planted needles); seven distinct evidence patterns under Pearl's causal hierarchy; explicit companion to PredicateLongBench (arxiv:2607.08284) + Jet-Long (arxiv:2607.07740) in the naturalistic long-context benchmark cluster",
+    "date_covered": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2607.08393",
+    "url": "https://arxiv.org/abs/2607.08393",
+    "title": "Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning / Knowing-Using Gap (Dai, Rao, Wang, Wang, Liu, Xiong — HKUST) — self-patching to track memorized representations through model layers; memorized reps can exist internally but fail to route to computation-effective layers (knowledge-circuit misalignment); diagnostic strategy recovers 58-75% of the generalization gap in failure cases; explains SFT-recall-vs-usage divergence",
+    "date_covered": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2607.07953",
+    "url": "https://arxiv.org/abs/2607.07953",
+    "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing (Cerruti, Rieder, Rowlands, Jin, Schlag — ETH Zurich) — head-to-head DeltaNet / Gated DeltaNet / Kimi Delta Attention / Gated DeltaNet-2 under shared notation at 350M-3B on 15B tokens; Kimi Delta Attention + Muon wins validation loss, Gated DeltaNet + AdamW wins throughput; introduces Cross-Layer Value Routing (CLVR) — forwarding the write value across layers — as lightweight routing signal lowering final validation loss for both DeltaNet and Gated DeltaNet",
+    "date_covered": "2026-07-13"
+  },
+  {
+    "id": "arxiv:2607.08093",
+    "url": "https://arxiv.org/abs/2607.08093",
+    "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents (Leban, Sun — University of Michigan) — bridges symbolic-causal-benches-without-data + data-benches-without-causal-structure gap; each instance ships a structural causal model + observational data + grounded natural-language narrative + empirically-informed real distributions; covers all three Pearl levels; abstention (recognizing an unanswerable question) as first-class scored outcome; jointly evaluates symbolic causal reasoning + data science + uncertainty quantification + abstention + tool-use/coding; second reference-benchmark this month scoring abstention (after Two Axes of Abstention arxiv:2607.08456)",
+    "date_covered": "2026-07-13"
+  },
+  {
     "id": "arxiv:2607.08032",
     "url": "https://arxiv.org/abs/2607.08032",
     "title": "What to Keep, What to Forget: A Rate-Distortion View of Memory Compaction in LLMs and Agents (Colaco, Lahjouji) — unifies KV cache management + prompt pruning + architectural state bounding + agent memory consolidation as one rate-distortion problem; names attention-magnitude/recency as universal failure mode; measurement-gap flag: repeated compaction that agents actually perform is almost never measured; taxonomy + benchmarking-protocol contribution; theoretical spine for memory cluster (Memora/AutoMem/Janus/MemDelta/A-TMA/CanonicalMerge/SelfMem)",
