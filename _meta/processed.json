@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.10350",
+    "url": "https://arxiv.org/abs/2607.10350",
+    "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory (Tian et al., 24+ authors — Alibaba AMAP CV Lab) — agent OS with scene-conditioned planning + lifelong multi-modal memory + verification + cross-embodiment execution; LoCoMo 88.7 / OpenEQA EM-EQA 60.4 / Mem-Gallery 89.0 / NExT-QA 76.5 with self-evolution; ships executable EmbodiedWorldBench (16 scenes, 200+ tasks); code released; small self-evolution delta (+1.2 / +0.5 / +0.4) suggests memory benches near saturation, self-evolution is now the interesting axis; direct memory-and-orchestration reference decomposition for MCP-tool agents",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.11487",
+    "url": "https://arxiv.org/abs/2607.11487",
+    "title": "LightMem-Ego: Your AI Memory for Everyday Life (Chen, Xiao, Zhao, Xia, Xu, Fang, Li, Zheng, Wang, Xue, Zhang, Li, Ningyu Zhang — ZJUNLP) — personal AI memory for continuous egocentric visual+audio streams from mobile/wearable; hierarchical memory levels + selective retrieval; supports object-finding, conversation recall, life summarization, routine discovery, personalized assistance; direct on-device / M5-Max architecture transplant; realizes Always-On Agents thesis on egocentric device profile; ongoing work — code released, no headline benchmark numbers yet",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.09794",
+    "url": "https://arxiv.org/abs/2607.09794",
+    "title": "Agentic Context Learning with Self-Discovered Specification / PSCI (Zhong, Li, Lai, Yang, Xie, Kil, Mai, Lo, Xiang, Psounis, Lei) — 55.4% of CL-Bench rubric items evaluate specification acquisition vs 22.6% content acquisition; frontier <24% baseline; PSCI (Private Specification-Contract Induction) extracts task specifications as first-class contracts; GPT-5.1 28.14% (+5.59 pp / +24.8% relative), Qwen3.5-27B +5.28 pp, Gemini 3 Pro +6.17 pp; specification-vs-content dichotomy is load-bearing framing insight (~2.5:1 spec-to-content ratio, empirical); shared primitive with Self-Guided TTT [arxiv:2607.09415] and Rate-Distortion Compaction [arxiv:2607.08032]",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.10059",
+    "url": "https://arxiv.org/abs/2607.10059",
+    "title": "AgentAbstain: Do LLM Agents Know When Not to Act? (Liu, Y.E. Zhang, Kasprova, Rabbani, Zahraei, T. Zhang, Ebrahimpour-Boroojeny, Chandrasekaran) — 263 paired should-act/should-abstain tasks x 8 abstention scenarios x 42 sandbox environments; best model Gemini 3.1 Pro only 59.5% paired accuracy; abstention capability largely independent of general task-solving capability (not scale-emergent); names post-hoc abstention failure mode (irreversible action executed before abstention trigger recognized); ships AbstainGen automated regeneration pipeline for contamination resistance; 94-98% rated well-designed; third abstention-first benchmark in 5 days ([arxiv:2607.08456] 07-10, [arxiv:2607.08093] 07-13, this 07-14)",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.09773",
+    "url": "https://arxiv.org/abs/2607.09773",
+    "title": "EvoCUA-1.5: Online Reinforcement Learning for Multi-turn Computer-Use Agents (Huang, Xue, Peng, Ding, Fan, Hong, Gao, X. Zhang, Guo, Yang, Zhao, Xie, Pei, X. Xie, Qiu) — Step-Level Policy Optimization (STEPO) + policy-aware trajectory filtering + Dynamic Tri-Adaptive Curriculum (DTAC) + async RL infra; addresses context-managed observations, sparse terminal rewards, variable-length trajectories, slow environment feedback; 63.2% OSWorld-Verified beats 32B/35B-scale open baselines with smaller model; online-RL half-recipe of open CUA training cluster (pairs with OpenWebRL browser side, CUA-Gym env side, LearnWeak specialization, UI-MOPD multi-platform, Autonomous-Eval reward-noise correction); base-model size not specified in abstract",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.09996",
+    "url": "https://arxiv.org/abs/2607.09996",
+    "title": "Who&When Pro: Can LLMs Really Attribute Failures in AI Agents? (Liu, Xi, S. Zhang, Zeng, Yue, Wang, Kang, Wu, H. Wang) — 12,326 failed agent trajectories across 3 modalities x 26 benchmarks; controlled failure-injection pipeline after successful prefixes for golden-label attribution; systematic patterns across modalities/protocols/model families; attribution capability tracks separately from general task-solving; frames as agents become more capable failures get subtler — attribution on critical path for production reliability; direct upstream requirement for DeepMind AI Control Roadmap trusted-monitor architecture and Workflow-GYM four-failure-mode taxonomy",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.09786",
+    "url": "https://arxiv.org/abs/2607.09786",
+    "title": "Length Penalties Make Chain-of-Thought Less Monitorable (Bryce Little) — length-penalized RL preserves accuracy but preferentially removes influence-disclosure tokens monitors need; Qwen3-14B hint-detection 69%->49%, Qwen3-4B 60%->48%; lower-bound faithfulness drops to 63.1% and 69.4% of baseline; compressed chains disclose hints 7-35 pp less than random-shortened chains (directed removal, not just shorter); 5 evaluation distributions (MMLU-Pro-R + 4 transfer benchmarks); third data point (after DiffusionGemma 28.6x opacity + Unfaithful Capitulation) that cheaper/more capable/more compact reasoning erodes CoT monitorability; direct tension with DeepMind AI Control Roadmap monitor-on-CoT bet",
+    "date_covered": "2026-07-14"
+  },
+  {
+    "id": "arxiv:2607.10113",
+    "url": "https://arxiv.org/abs/2607.10113",
+    "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries (Yubo Li — TMLR 2026) — survey of 124 papers (2023-2026) organized around 8-stage skill lifecycle: evidence collection -> skill proposal -> verification/admission -> storage -> retrieval/composition -> maintenance -> distillation/portability -> governance; skills broadly defined (code, NL instructions, packages, workflow graphs, adapters); recurring empirical findings: admission and repair repeatedly important, verifier quality materially affects skill-aware RL, flat retrieval degrades as libraries grow, benchmarks under-cover library trajectories and safety; first shared vocabulary for the skill-management primitive that Mistral Studio / Codex Record & Replay / Claude Tag / SkillOpt have been building without common taxonomy",
+    "date_covered": "2026-07-14"
+  },
+  {
     "id": "arxiv:2607.08964",
     "url": "https://arxiv.org/abs/2607.08964",
     "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading (Tencent Hunyuan) — 46 tasks x 9 categories with dense per-checkpoint partial credit; frontier best 15.2% at high reward threshold, all-model average 4.3%; average ~10M tokens + ~85 minutes wall-clock per task; dense-reward instrumentation extension of Terminal-Bench 2.0 line",
