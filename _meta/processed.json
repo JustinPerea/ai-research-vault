@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.12385",
+    "url": "https://arxiv.org/abs/2607.12385",
+    "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents (Genglin Liu, Saadia Gabriel — COLM 2026) — first LLM adaptation of cognitive science Virtual Week paradigm testing deferred-intent execution over a simulated 7-day horizon across 8 frontier LLMs and varied memory strategies (no-memory / scratchpad / structured episodic / retrieval); best system 65.1% F1 leaving >30% gap; no single memory strategy dominates across models — plug-and-play mem0 wrappers insufficient; new time-deferred dimension extending memory-benchmark cluster (LoCoMo, LongMemEval, Mem-Gallery)",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "arxiv:2607.12893",
+    "url": "https://arxiv.org/abs/2607.12893",
+    "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations (Xixuan Hao, Zeyu Zhang, Zehao Lin) — reframes conversational memory as sequence of lifecycle operations (remember / forget / update / reflect) with structured traces (trigger, target, scope, state transitions, evidence); six operation-level probe categories under adjacent-evidence and long-context settings; session-level retrieval beats turn-level; long-context models struggle to reconstruct ordered memory-state trajectories; moves eval from final-answer scoring to interpretable operation-level diagnosis",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "arxiv:2607.09493",
+    "url": "https://arxiv.org/abs/2607.09493",
+    "title": "Shared Selective Persistent Memory for Agentic LLM Systems (Sanjana Pedada, Aditya Dhavala, Neelraj Patil) — retains four reusable categories (task specs, data schemas, tool configs, output constraints) while discarding session-specific reasoning traces; role-based access, git-versioned artifacts, zero-token refresh mechanism; 96% task completion vs 79% no-memory vs 71% full-history (over-context penalty first-class evidence); 14x task-time reduction from zero-token refresh, 97x per-invocation token savings vs raw data injection, 12/12 zero-token refresh trials",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "arxiv:2607.12550",
+    "url": "https://arxiv.org/abs/2607.12550",
+    "title": "A JoLT for the KV Cache: Near-Lossless KV Cache Compression via Joint Tucker and JL-Residual Allocation (Rahul Krishnan, Volker Schulz) — treats KV cache as third-order tensor with partial Tucker decomposition on token/feature axes + JL-rotated low-bit residual for truncated energy; one Lagrangian dual jointly allocates Tucker ranks + residual bit-widths per layer group, separately for K and V, under single byte budget; FlashJoLT kernel 5-13x faster to compress; 2-3x near-lossless KV compression on Mistral-7B-v0.3 and LLaMA-2-13B; Frobenius error 0.009 (K) / 0.006 (V) at 2x (order of magnitude below cross-layer SVD and 4-bit quant baselines); perplexity/GSM8K/RULER preserved; 9,125 tok/s throughput",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "arxiv:2607.11388",
+    "url": "https://arxiv.org/abs/2607.11388",
+    "title": "StructAgent: Harness Long-horizon Digital Agents with Unified Causal Structure (Wenyi Wu, Sibo Zhu, Kun Zhou) — state-centered computer-use framework replacing raw interaction history with compact verifiable task-progress state + structured workflow of verifier-backed transitions; explicit progress checkpointing, evidence-driven completion, targeted failure recovery; OSWorld-Verified Qwen3.5-9B 27.0->46.9%, Qwen3.5-27B 31.6->62.2%, MiniMax-M3 78.9% new open-source SOTA; wrapper matters more than backbone swap; eleventh convergent gate-before-commit instance in the vault",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "arxiv:2607.12236",
+    "url": "https://arxiv.org/abs/2607.12236",
+    "title": "Speculate with Memory: Lossless Acceleration for LLM Agents (Yu Li, Qinyuan Ye, Prafulla Kumar Choubey) — turns stateless speculator into memory-augmented predictor with three online stores (contrastive transition table for action-sequence statistics + episodic memory for similar past segments + confusion tracker suppressing recurring mistakes); all speculation runs during environment idle time so wall-clock-free and lossless; 19-39% relative action-prediction accuracy gain, up to 2.5x on observation prediction in repetitive action spaces, six benchmarks; gains grow monotonically with accumulated memory",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "arxiv:2607.12463",
+    "url": "https://arxiv.org/abs/2607.12463",
+    "title": "Function-Aware Fill-in-the-Middle Mid-Training for Coding Agents (Yubo Wang, Jiarong Liang, Yuxuan Zhang) — action-observation-continuation loop isomorphic to function call site; self-supervised FIM objective masks functions selected by program-dependency-graph analysis under complexity-inferability criterion; mid-trains on 2.6B decontaminated tokens from 968 GitHub repos; SWE-Bench-Verified +2.8/+3.0/+3.2 on Qwen2.5-Coder 7B/14B and Qwen3-8B; SWE-Bench-Lite +3.7/+4.0/+5.4; also mitigates capability erosion from agentic post-training on LiveCodeBench, tau-bench, BFCL (rare evidence collateral damage is addressable not intrinsic)",
+    "date_covered": "2026-07-15"
+  },
+  {
+    "id": "nvidia-blog-2026-07-14-autoresearch-rl-agent-skills-nemo",
+    "url": "https://developer.nvidia.com/blog/how-to-run-an-autoresearch-workflow-with-rl-agent-skills-and-nvidia-nemo/",
+    "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo (NVIDIA Nemotron / NeMo team, 2026-07-14) — durable ML-research loop with agent skills (Brev-etiquette, session-memory, autoresearch) encoding ops context + reusable procedures; Codex (GPT-5.5) orchestrates setup / experiments / paper-to-code; NeMo RL + NeMo Gym for VLM training; Qwen3-VL-2B improved 25%->96.9% on custom visual-counting task; OAPL algorithm beat DAPO baselines on math reasoning; applied convergence of skill-as-first-class-artifact + long-running autonomous loop + coding-agent-managed-ML-experiment themes",
+    "date_covered": "2026-07-15"
+  },
+  {
     "id": "arxiv:2607.10350",
     "url": "https://arxiv.org/abs/2607.10350",
     "title": "ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory (Tian et al., 24+ authors — Alibaba AMAP CV Lab) — agent OS with scene-conditioned planning + lifelong multi-modal memory + verification + cross-embodiment execution; LoCoMo 88.7 / OpenEQA EM-EQA 60.4 / Mem-Gallery 89.0 / NExT-QA 76.5 with self-evolution; ships executable EmbodiedWorldBench (16 scenes, 200+ tasks); code released; small self-evolution delta (+1.2 / +0.5 / +0.4) suggests memory benches near saturation, self-evolution is now the interesting axis; direct memory-and-orchestration reference decomposition for MCP-tool agents",
