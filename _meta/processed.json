@@ -1,5 +1,59 @@
 [
   {
+    "id": "hf-blog-2026-07-15-thinkingmachines-inkling",
+    "url": "https://huggingface.co/blog/thinkingmachines-inkling",
+    "title": "Welcome Inkling by Thinking Machines (Burtenshaw, Merve, Cuenca, Roy Gosthipaty — HF launch post; Thinking Machines model) — open-source multimodal decoder-only MoE, 975B total / 41B active, 66 layers, 256 experts, hybrid attention (5:1 sliding-window : global), short conv + relative attention, 1M-token context, trained on 45T tokens across text+image+audio; Apache 2.0; day-one Transformers/SGLang/vLLM/TokenSpeed/Unsloth support with NVFP4 variant and 1-bit GGUF via Unsloth (UD-IQ1_S) at launch (retains ~74.2% of top-1% accuracy at ~86% smaller); benchmarks — SWE-Bench Verified 77.6%, SWE-Bench Pro Public 54.3%, AIME 2026 97.1%, GPQA Diamond 87.2%, MMMU Pro 73.3%, Charxiv RQ 78.1%, VoiceBench 91.4%, Global-MMLU-Lite 88.7%; first natively-audio ~1T-scale open-weight release",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13157",
+    "url": "https://arxiv.org/abs/2607.13157",
+    "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents (Alake, Bernardis, Cayet, Engel, Hilloulin, Hong, Hosler, Kavantzas, Kossyk, Le, Patra, Talamadupula, Venzin — Oracle) — database-native memory system on Oracle Database with full lifecycle (ingestion / extraction / consolidation / retrieval / removal), layered active-vs-passive architecture with explicit scope controls, evaluated by task accuracy + memory-specific metrics (retrieval quality, latency); 93.8% LongMemEval accuracy at ~10.7x fewer tokens than flat-history baselines; joins Shared Selective Persistent Memory (2607.09493) and MemOps (2607.12893) as third memory paper in 48 hours flipping the naive full-history default; over-context penalty primitive",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13591",
+    "url": "https://arxiv.org/abs/2607.13591",
+    "title": "Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents / MemCon (Eric Hanchen Jiang, Zhi Zhang, Yuchen Wu, Levina Li, Dong Liu, Xiao Liang, Rui Sun, Yubei Li, Edward Sun, Haozheng Luo, Zhaolu Kang, Aylin Caliskan, Kai-Wei Chang, Ying Nian Wu — UCLA + collaborators) — models memory operations (retrieve/inject/consolidate) as MDP; learns per-context policy via lightweight tabular contextual bandit with UCB exploration; task-level binary feedback only, no LLM in policy loop, converges within tens of tasks across memory backends; +15.2pp task success and 5-20% token reduction across 6 benchmarks x 3 agent frameworks x 3 backbones; first Pareto win (accuracy up AND tokens down) with a memory policy learner light enough for MCP loops; refutes implicit mem0/LangMem/Letta assumption that memory policies need an LLM",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13884",
+    "url": "https://arxiv.org/abs/2607.13884",
+    "title": "Experience Memory Graph: One-Shot Error Correction for Agents (Wenjun Wang, Yuchen Fang, Fengrui Liu, Zibo Liang, Kai Zheng) — converts failed AND successful trajectories into directed action decision graphs; mines common successful workflows; derives graph-edit paths (action add/delete/relabel) transforming failing trajectory into successful one; at inference graph-match against memory graph and apply edit path — single-pass, no reflection loop; beats reflection baselines on ALFWorld and ScienceWorld on success rate and average reward with zero test-time trial-and-error; reframes error recovery as graph matching over trajectory memory instead of prompt-based critique-retry",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13205",
+    "url": "https://arxiv.org/abs/2607.13205",
+    "title": "Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference (Soumil Mandal) — diagnoses H2O and other attention-mass eviction policies over-retain structural KEY tokens (delimiters, whitespace, JSON braces) at ~1.8x the rate of answer-carrying VALUE tokens; on schema-dense inputs H2O accuracy collapses from 88% -> 0% at 5% memory budget; fix is a 15 MB linear probe that role-classifies tokens (KEY/VALUE/sink) and applies role-conditional retention on top of SnapKV-style windowed scoring; retraining-free, single hyperparameter, recovers 63-98% of accuracy loss; direct silent-failure diagnosis for long-context tool-response distributions (MCP JSON)",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.14004",
+    "url": "https://arxiv.org/abs/2607.14004",
+    "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0 (Wenxiao Wang, Priyatham Kattakinda, Soheil Feizi — RELAI) — two-phase continual-learning evaluation on Terminal-Bench 2.0 comparing GEPA / Meta Harness / RELAI-VCL at identical optimization budgets with re-optimization on newly-introduced tasks in phase two; RELAI-VCL 76.4% lifelong pass, GEPA 66.0%, Meta Harness 64.6%, unoptimized baseline 58.7%; load-bearing finding: optimization gains compound ONLY when regression control is built into the optimization loop; optimizers without regression control get shortcut-solved and undo their own prior wins; direct extension of Long-Horizon-Terminal-Bench (2607.08964) thread with a lifelong framing; fourth gate-before-commit datapoint of the month",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13683",
+    "url": "https://arxiv.org/abs/2607.13683",
+    "title": "Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity (Xiaotian Luo, Fengxingyu Wang, Chuanrui Hu, Dizhan Xue, Yafeng Deng) — automated agent-harness improvement (prompts / knowledge / runtime control / config, no weight updates) that separates change proposal from change crediting; LLM diagnoses failures + proposes patches, deterministic code measures whether patch helps under significance testing; quality-diversity archive keyed on failure pathology (WHERE x WHY) rather than task — anti-overfitting inductive bias; +9 to +15.5pp on training domains, 86-147% of that gain retained on sealed test set (>100% retention indicates pathology-keyed patches generalize better than they train); pathology > task as design principle; third harness-evolution paper in-window",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13285",
+    "url": "https://arxiv.org/abs/2607.13285",
+    "title": "Harness Handbook: Making Evolving Agent Harnesses Readable, Navigable, and Editable (Ruhan Wang, Yucheng Shi, Zongxia Li, Zhongzhi Li, Yue Yu, Junyao Yang, Kishan Panaganti, Haitao Mi, Dongruo Zhou, Leoweiliang) — behavior-centric map of agent harness auto-synthesized via static analysis + LLM structuring linking each observable behavior to source-code sites that implement it; paired with Behavior-Guided Progressive Disclosure (BGPD) — navigation policy starting from target behavior and progressively surfacing implementation details while validating candidate edit sites against current source before committing; evaluated on modification requests across two open-source harnesses; Handbook-Assisted improves behavior localization and edit-plan quality using fewer planner tokens, largest gains on scattered sites, rarely executed paths, and cross-module interactions; addresses the pre-optimization step (where to edit) that no prior harness-evolution work instrumented",
+    "date_covered": "2026-07-16"
+  },
+  {
+    "id": "arxiv:2607.13705",
+    "url": "https://arxiv.org/abs/2607.13705",
+    "title": "AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities (Zichen Ding + 22 co-authors) — open-source lightweight extensible infrastructure for evaluating LLM-based agents; decouples evaluation into three independent components (Benchmark / Harness / Environment) enabling flexible configurations; asynchronous fault-tolerant runtime, trajectory analysis tools for diagnosing failure modes including reward-hacking; supports 20+ benchmarks across five capability dimensions; released CC BY 4.0; first open-source infra spanning the current benchmark cluster (Terminal-Bench 2.0, tau-bench, OSWorld, etc.) instead of hand-rolled per-suite runners",
+    "date_covered": "2026-07-16"
+  },
+  {
     "id": "arxiv:2607.12385",
     "url": "https://arxiv.org/abs/2607.12385",
     "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents (Genglin Liu, Saadia Gabriel — COLM 2026) — first LLM adaptation of cognitive science Virtual Week paradigm testing deferred-intent execution over a simulated 7-day horizon across 8 frontier LLMs and varied memory strategies (no-memory / scratchpad / structured episodic / retrieval); best system 65.1% F1 leaving >30% gap; no single memory strategy dominates across models — plug-and-play mem0 wrappers insufficient; new time-deferred dimension extending memory-benchmark cluster (LoCoMo, LongMemEval, Mem-Gallery)",
