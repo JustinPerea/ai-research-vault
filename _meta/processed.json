@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2607.14275",
+    "url": "https://arxiv.org/abs/2607.14275",
+    "title": "AI Agents Do Not Fail Alone: The Context Fails First (Bousetouane) — validates seven context-engineering dimensions (role clarity / guardrail coverage / instruction consistency / tool schema quality / grounding sufficiency / injection hardening / token efficiency) as independent leading indicators of agent reliability under LLM-held-constant experiments; ProofAgent-Harness multi-juror consensus scoring; each dimension maps to specific behavior (grounding->hallucination, guardrails->manipulation, tool-schema->tool-use, instruction consistency->instruction following); positions context measurement as auditable preflight signal / governance layer",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.14431",
+    "url": "https://arxiv.org/abs/2607.14431",
+    "title": "Byte-Exact KV-Cache Grafting: Smarter and Cheaper at Once (Schelpe) — stores verified KV state as byte-exact artifact and restores it into fresh inference contexts on frozen models; SHA-256-identical logits vs fresh computation, zero KL divergence, 100% argmax agreement over 50 samples; two scales (12B, 31B); frozen Gemma-4-12B on AIME 2025: 80.0->93.3%; 8 previously-unsolved problems answered in 61 tokens vs 401,026 (6,574x reduction, ~8,700x less energy); usable context extended 32,768->2,854,766 tokens with no additional accelerator memory; engine proprietary but metrics ship with input/output hashes",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.14159",
+    "url": "https://arxiv.org/abs/2607.14159",
+    "title": "MemoHarness: Agent Harnesses That Learn from Experience (Huang / Wang / Bao / Ma / Luo / Nian / Zhuang / Liu / Zhao / Zhang) — decomposes harness into six editable control dimensions with dual-layer experience bank (case-specific diagnoses + broader patterns); no test-time labels; evaluated on shell agents / code generation / analytical reasoning; outperforms fixed-harness baselines; selective transfer to unseen benchmarks + different base models; cost competitive via cacheable context",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.14443",
+    "url": "https://arxiv.org/abs/2607.14443",
+    "title": "Tactile: Giving Computer-Using Agents Hands and Feet (Liu / Zhong / Shi) — open-source desktop-agent tool layer fusing OS accessibility semantics + OCR-grounded text + visual fallback regions into action-grounded interface states with verifiable affordances + source provenance; Success@100 41.1->50.0% (+8.9pp) with Codex on full benchmark; 45.2->55.3% on accessibility-adapted tasks; cross-agent tested on Codex + Claude Code + OpenCode + Goose on 96-task subset with consistent gains; direct data point for wrapper > backbone thesis on computer-use",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.15257",
+    "url": "https://arxiv.org/abs/2607.15257",
+    "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration (Zhang / Gao / Wu / Fan / J. Zhang / Ma / Yao / Qi / Jin / Ma / Xu / Yang / Wen / Dou) — reformulates open-domain info seeking as relational schema completion with cited evidence; externalizes system state into four persistent shared artifacts (Frontier Task, Evidence Graph, Coverage Map, Failure Memory); pipeline-parallel scheduling overlaps sub-agents while targeting coverage gaps; Search Tool Middleware Harness intercepts every tool interaction to record evidence and block repeated failed patterns; beats single- and multi-agent baselines on WideSearch + GISA; GitHub available",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.14408",
+    "url": "https://arxiv.org/abs/2607.14408",
+    "title": "Reward-Free Evolving Agents via Pairwise Validator (M. Liu / Y. Wang / J. Wang / W. Wei) — replaces scalar reward with frozen pairwise validator LLM judging parent vs child agent candidates; integrated into GEPA + ADRS + ShinkaEvolve; two modes (Adaptive Focus keeps validation-set parent selection; Soft Elo lets validator drive selection); matches or exceeds full-reward baseline on majority of settings across prompt and code substrates; validator-family robust (judge swap doesn't break wins); pairwise judgment more stable due to contrastive nature (no scale calibration)",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.14145",
+    "url": "https://arxiv.org/abs/2607.14145",
+    "title": "ToolAnchor: Anchoring Counterfactual Context to Boost Agentic Tool-use Capability (Liu / Bi / Zhou / Feng / Ma / Han / Lu) — names tool behavioral inertia (tool-trained agents fall back on familiar tools when new tools introduced); three-stage pipeline (teacher generates hypothetical counterfactual contexts at decision junctures; student rollouts verify effectiveness; successful interventions internalized via agentic post-training); evaluated on GAIA + BrowseComp + VDR-Bench with consistent competitive performance under expanded toolsets",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "hf-blog-2026-07-16-nvidia-nemotron-3-embed",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+    "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB — open-weight embedding collection with open training recipes; 8B-BF16 at 78.5% RTEB (leaderboard #1) + 75.5% MMTEB Retrieval; 1B-BF16 at 72.4% RTEB (27% error reduction vs predecessor); 1B-NVFP4 Blackwell-optimized; 32K context; explicitly targeted at RAG + agentic systems + code search + agent memory with quantitative claims about downstream agentic-token savings; available on HF + NVIDIA NIM + Baseten + DeepInfra + Friendli + OpenRouter",
+    "date_covered": "2026-07-17"
+  },
+  {
+    "id": "arxiv:2607.14573",
+    "url": "https://arxiv.org/abs/2607.14573",
+    "title": "Alipay-PIBench: Payment Integration Benchmark for Coding Agents (Ying / Cao / Ma / Dong / Chen / Song / Zhu) — 9 product-specific projects x 18 task instances organized into Basic (functional-completion) + Advanced (risk-aware hardening) tiers; deterministic static + unit + integration + E2E checks with LLM-assisted semantic assessment; evaluated 6 coding-agent models; mean RPR 68.58->91.37% with skill access; access to Alipay payment integration skills improved mean RPR by average +10.31pp; fifth skill-package-unlocks-bounded-domain-performance data point",
+    "date_covered": "2026-07-17"
+  },
+  {
     "id": "hf-blog-2026-07-15-thinkingmachines-inkling",
     "url": "https://huggingface.co/blog/thinkingmachines-inkling",
     "title": "Welcome Inkling by Thinking Machines (Burtenshaw, Merve, Cuenca, Roy Gosthipaty — HF launch post; Thinking Machines model) — open-source multimodal decoder-only MoE, 975B total / 41B active, 66 layers, 256 experts, hybrid attention (5:1 sliding-window : global), short conv + relative attention, 1M-token context, trained on 45T tokens across text+image+audio; Apache 2.0; day-one Transformers/SGLang/vLLM/TokenSpeed/Unsloth support with NVFP4 variant and 1-bit GGUF via Unsloth (UD-IQ1_S) at launch (retains ~74.2% of top-1% accuracy at ~86% smaller); benchmarks — SWE-Bench Verified 77.6%, SWE-Bench Pro Public 54.3%, AIME 2026 97.1%, GPQA Diamond 87.2%, MMMU Pro 73.3%, Charxiv RQ 78.1%, VoiceBench 91.4%, Global-MMLU-Lite 88.7%; first natively-audio ~1T-scale open-weight release",
