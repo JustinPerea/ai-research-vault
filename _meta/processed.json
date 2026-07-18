@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2607.14952",
+    "url": "https://arxiv.org/abs/2607.14952",
+    "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget (Zhou / K. Liu / Y. Zhou / Qiao / Gao / H. Zhang / I. Lu / Ho / L. Li / Lei / Cheng / Chiang / Zeng / D. Zhang / Yang / K. Chen / A. Chen / Ma / W. Zhang / Jin) - GRPO-based RL post-training execution framework with selective state retention + response replay; scoring + backward passes at 2.1M token positions on 8x H20 GPUs (groups 2-8); stress-tested to 4.46M positions; end-to-end validated across all 78 layers of GLM-5.2 on 32x H20; memory delta 0.21GB when doubling group size; models: Qwen3.6-27B + GLM-5.2; open source (github.com/MindLab-Research/longstraw); first training-side substrate for multi-million-token agentic trajectories",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.14777",
+    "url": "https://arxiv.org/abs/2607.14777",
+    "title": "SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning (Wu / Yang / Lu / Zhang / Shen / Feng / Luo / Lian / Zhang / Wen / Tao) - two-phase self-improvement: (1) policy analyzes own completed trajectories -> natural-language skill descriptions (reusable workflows / decisive observations / failure-avoidance rules); (2) re-scores actions under ordinary AND skill-augmented contexts producing dense token-level on-policy distillation signal combined with outcome rewards; hindsight supervision co-evolves with policy; consistent gains + better sample efficiency on text + vision agentic tasks; robust unseen-scenario generalization; GitHub released; sixth mechanism in harness-engineering pipeline (Handbook -> QD -> MemoHarness -> Compound -> Pairwise-Validator -> SEED)",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.14890",
+    "url": "https://arxiv.org/abs/2607.14890",
+    "title": "Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engineering for Verifiable Evidence-Gated Lifecycle Control (Huang / Hsia / Sun / Shi / W. Huang / White) - treats every agent lifecycle claim (reviewed / tested / ready-to-merge) as unverified proposition until backed by fresh + tracked-source-state-bound + mechanically verifiable evidence; unattended-loop engine 10/10 scenarios with zero false-DONE; local-key receipt bundles reject 18 tamper classes with zero false accepts; ablation reduces false-pass from 31->2 per 1800 injected cells (~1.6pp gain); self-application corpus 565 stories + 1007 review findings + 94.8% resolved; open-source implementation",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.14611",
+    "url": "https://arxiv.org/abs/2607.14611",
+    "title": "Bad Memory: Prompt Injection Attacks on Persistent Agentic Memory - evaluates prompt-injection payloads planted in memory files + behavioral preferences + knowledge bases against Anthropic Claude (Haiku 4.5 + Opus 4.7) and OpenAI Codex (GPT-5.2 + GPT-5.5); payloads already planted attack current and future sessions; success + persistence vary substantially across systems / models / adversarial goals / multi-session sequences; motivates defenses that protect memory updates without removing useful adaptation; first rigorous adversarial evaluation of persistent memory on production Claude + Codex stacks",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.15193",
+    "url": "https://arxiv.org/abs/2607.15193",
+    "title": "Plover: Steering GUI Agents through Plan-Centric Interaction (Venkatesan / Wen / Guo / Piazentin Ono / Ren / D. Liu) - planner-executor GUI-agent architecture where plans are persistent + inspectable + revisable artifacts (not hidden internal traces); natural-language guidance + screenshot-grounded interventions; step-local correction with progress preservation during repairs; formative study with 6 participants + benchmark failure-case repair + scenario workflow analyses; many autonomous failures become repairable when plans remain visible + interventions are localized; user-interventable state over fully autonomous execution",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.15105",
+    "url": "https://arxiv.org/abs/2607.15105",
+    "title": "Long-Context Fine-Tuning with Limited VRAM (Fedosov / Sazhin / Grinenko / Woernle) - combines Hierarchical Global Attention (HGA) + segment-wise backpropagation + tiered KV storage (active segment in VRAM; older KV pairs in RAM or NVMe); Qwen3-8B + 4-bit QLoRA on 16GB Quadro RTX 5000: training context 16,384 tokens (vs 2,048 dense = 8x); evaluation context up to 131,072 tokens; peak VRAM 15.28GB; throughput 217.75 vs 207.02 tok/s at 2K (marginally faster than dense); quality 2.7405 vs 2.7383 nat (statistical parity); PG19 dataset; first actionable path for agent-personalization fine-tuning on Apple-Silicon-class 16-40GB unified memory",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.14989",
+    "url": "https://arxiv.org/abs/2607.14989",
+    "title": "OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios (Shen + 15 co-authors) - 1,431 tasks across hierarchical taxonomy of 90 level-1 + 354 level-2 domains spanning B2C (ToC) + B2B (ToB) + enterprise (ToE) scenarios; four task-generation routes (DAG / DAG-S / Solver / Program synthesis); ten-dimensional capability taxonomy + eight compositional atomic difficulty factors; Claude-Sonnet-5 58.54% Pass@1 vs GPT-5.6-Sol 57.14% Pass@1 (~1.4pp delta); challenging 644-task subset for cost + contamination control; convergent evidence for capability-convergence + wrapper-matters thread",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "arxiv:2607.14713",
+    "url": "https://arxiv.org/abs/2607.14713",
+    "title": "Does Multi-Agent Debate Improve AI Feedback on Research Papers? (Havranek / Irsova) - pre-registered experiment with 44 meta-analysis authors ranking three AI-generated reports on their own papers (length + format controlled); single-pass beats mad-research by 0.66 rank points + paper-workshop by 0.57; paper-workshop consumes ~30x more tokens for worse result; real journal referee reports usually ranked #1 by authors but LAST by AI judges (direct AI-judge / human-preference calibration failure); first pre-registered adversarial test with domain-expert judges inverting the sign on multi-agent debate wins for expert-critique tasks",
+    "date_covered": "2026-07-18"
+  },
+  {
+    "id": "hf-blog-2026-07-15-allenai-shippy",
+    "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+    "title": "What building Shippy taught us about building agents (Ai2 Skylight team, HF blog 2026-07-15) - production case study of Shippy, live maritime-domain-awareness agent for 300+ government/NGO partners in 70+ countries, built on Claude Opus 4.6 + OpenClaw; three-layer architecture: (1) Soul + Skills + Config versioned in Docker (soul = system prompt with behavioral boundaries / skills = markdown capability files / config = model + runtime settings); (2) Deterministic CLI layer between agent and backend API handling auth + pagination + structured output + geometry encoding + collapses complex nested filters into typed commands + writes large results to JSON files rather than through shell; (3) Mothership = per-session isolated Kubernetes pods with scoped JWTs per pod (cross-tenant isolation across 70 countries); Harbor eval framework with weighted rubric scoring by subject-matter experts; OpenClaw + Harbor open source; explicit behavioral boundaries belong in prompts not fine-tuning",
+    "date_covered": "2026-07-18"
+  },
+  {
     "id": "arxiv:2607.14275",
     "url": "https://arxiv.org/abs/2607.14275",
     "title": "AI Agents Do Not Fail Alone: The Context Fails First (Bousetouane) — validates seven context-engineering dimensions (role clarity / guardrail coverage / instruction consistency / tool schema quality / grounding sufficiency / injection hardening / token efficiency) as independent leading indicators of agent reliability under LLM-held-constant experiments; ProofAgent-Harness multi-juror consensus scoring; each dimension maps to specific behavior (grounding->hallucination, guardrails->manipulation, tool-schema->tool-use, instruction consistency->instruction following); positions context measurement as auditable preflight signal / governance layer",
