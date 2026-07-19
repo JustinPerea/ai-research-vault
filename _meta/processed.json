@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2607.14642",
+    "url": "https://arxiv.org/abs/2607.14642",
+    "title": "MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers (Liu / Hu / Liao / Wang / Qian / Zhai / Feng / Ding / Wang) - first large-scale benchmark for MCP tool evolution; 123 MCP servers x 11 mutation operators (renames / deprecations / semantic drift / arg add-remove) x 12 SOTA models at Pass@1; GPT-5.4 -13.7pp and Claude-Sonnet-4-6 -14.4pp on evolved servers; frontier-agnostic fragility; extends ToolAnchor 'tool behavioral inertia' from training-time defense to production-eval frame",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.14277",
+    "url": "https://arxiv.org/abs/2607.14277",
+    "title": "Multi-Head Latent Control: A Unified Interface for LLM Agent Decision Making (Ghasemabadi / R. Chen / Rashidi / Niu) - two lightweight heads bolted onto frozen base: Capability Head (defer or handle) + Resolution Head (Clarify / Tool-use / Abstain / Direct-answer); latent-only training with no base weight modification; -90.7% large-model usage on AndroidWorld while preserving quality; -27-53% on other benchmarks; +158% relative tool-use score with 65.5% fewer missed tool-calls; works across language + VL",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.14327",
+    "url": "https://arxiv.org/abs/2607.14327",
+    "title": "PReM: Learning What to Preserve and When to Refresh for Context Compression (Yu / Shen / C. Zhou / Han / J. Liu / Su / Cheng / Zheng) - layer-wise KV memory + special memory token triggering dynamic refreshes during generation; Phase-Separated Refresh Training aligns memory selection with generation while keeping continuity across refresh cycles; beats strong baselines at 16x and 32x compression ratios on 32K contexts; orthogonal to Byte-Exact KV-Cache Grafting reload primitive",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.15275",
+    "url": "https://arxiv.org/abs/2607.15275",
+    "title": "RoboTTT: Context Scaling for Robot Policies (Y. Jiang / Chebotar / R. Zheng / F. Hu / Y. Ge / J. Wu / T. Dai / Reed / Fei-Fei / Zhu / Fan) - Test-Time Training integrated into Vision-Language-Action policy; scales visuomotor context to 8K timesteps (~3 OOM beyond SOTA) without increasing inference latency; fast weights updated via gradient descent during training + inference; training combines sequence action forcing with truncated BPTT; +87% overall vs single-step baseline; 8K-context model beats 1K-context same architecture by 62%; completes 10-stage 5-min assembly task baselines cannot start; NVIDIA",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "hf-blog-2026-07-15-ibm-model-routing",
+    "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+    "title": "Model Routing Is Simple. Until It Isn't. (Rizk / Shnarch / Tsay / Unuvar - IBM Research) - reframes routing as systems optimization not classification; CodeAct + AppWorld 417 tasks: Claude Sonnet $79 total ($0.19/task) vs GPT-4.1 $155 total ($0.37/task) driven by cache-read pricing not base cost; lightweight optimizer achieves 84% accuracy at $93/83s (21% cost reduction / 9% latency reduction vs Opus alone); router overhead ~6ms + 2KB per task; three overlooked dimensions: cost-beyond-pricing / complexity-beyond-difficulty / latency-depends-on-infrastructure",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.15161",
+    "url": "https://arxiv.org/abs/2607.15161",
+    "title": "On-Policy Delta Distillation OPD^2 (Heo / Hwang / Yun / D. Han) - distillation target is DELTA signal = difference between teacher model and its base model prior to instruction tuning (isolates the instruction-tuning improvement from base weights) rather than direct teacher imitation; consistent outperformance across math + science + code with shorter post-training cycles; code promised on GitHub",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.15232",
+    "url": "https://arxiv.org/abs/2607.15232",
+    "title": "In-Place Tokenizer Expansion for Pre-trained LLMs (Smith / Dakhran / Cabrera / S. Lee / Pak / Tadimeti / Seyde / Labonne / Amini / Lechner - Liquid AI) - upgrades a pretrained model's tokenizer by continuing existing BPE merges on multilingual corpora; most original tokens unchanged; new embeddings initialize as averages of source sub-token reps; two-stage adaptation restores performance; applied to LFM2-8B-A1B (8B MoE / 1B active) producing LFM2.5-8B-A1B with 128K vocab; Hindi 2.4x / Vietnamese 2.6x / Thai 4.0x fewer tokens; estimated 2.2-3.7x per-character decode speedup on reference devices",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.14618",
+    "url": "https://arxiv.org/abs/2607.14618",
+    "title": "PolyQ: Codesigning End-to-End Quantization Framework for Scalable Edge CPU LLM Inference (Oh / Jang / H. Chen / Nam / S. Yun / Masukawa / Imani - ICCAD 2026) - CPU-focused compiler + quantization codesign with activation-aware channel-wise bit allocation 2-16 bits within average-bit budget; compiler layout regularization reduces activation reorder traffic up to 70.8% via channel permutation + bit-homogeneous clustering; 2.4-32.1% perplexity improvement over prior methods at 3-bit on Falcon-H1-3B / Llama2-13B / Qwen3-32B (WikiText-2); stable 3-6 bit scaling; energy overhead <2% vs optimized LUT backends; validated on workstation + laptop + mobile CPUs",
+    "date_covered": "2026-07-19"
+  },
+  {
+    "id": "arxiv:2607.14661",
+    "url": "https://arxiv.org/abs/2607.14661",
+    "title": "SmartRAG: Native Graph-Based RAG for Mobile Device (Z. Jiang / M. Li / S. Liu / K. Li / R. Zhou / X. Deng / S. Wang / H. Dai) - four coordinated on-device modules Perception / Memory / Focus / Thinking; EvoNER = continually-learnable NER that incrementally expands its label inventory WITHOUT retraining core LLM; MRGraph = provenance-preserving KG with hybrid retrieval (graph traversal + lexical + semantic); backbone quantized 1.7B LLM; multi-hop QA competitive with models up to 18x larger on TriviaQA + NQ + HotpotQA + MultiHopQA; within practical memory + latency of commodity smartphones",
+    "date_covered": "2026-07-19"
+  },
+  {
     "id": "arxiv:2607.14952",
     "url": "https://arxiv.org/abs/2607.14952",
     "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget (Zhou / K. Liu / Y. Zhou / Qiao / Gao / H. Zhang / I. Lu / Ho / L. Li / Lei / Cheng / Chiang / Zeng / D. Zhang / Yang / K. Chen / A. Chen / Ma / W. Zhang / Jin) - GRPO-based RL post-training execution framework with selective state retention + response replay; scoring + backward passes at 2.1M token positions on 8x H20 GPUs (groups 2-8); stress-tested to 4.46M positions; end-to-end validated across all 78 layers of GLM-5.2 on 32x H20; memory delta 0.21GB when doubling group size; models: Qwen3.6-27B + GLM-5.2; open source (github.com/MindLab-Research/longstraw); first training-side substrate for multi-million-token agentic trajectories",
