@@ -1,5 +1,59 @@
 [
   {
+    "id": "arxiv:2607.15660",
+    "url": "https://arxiv.org/abs/2607.15660",
+    "title": "ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning (Zhou / Yue / Hu / Y. Shen / C. Zhang / F. Hong / C. Liu / Zeng) - automatically builds executable agent training environments from ~400 real-world MCP servers with ~4,500 tools; tool-dependency-graph task generation with Dynamic Unlocking Sampling algorithm producing GUST dataset; Turn-Aware Relative Advantage credit-assignment algorithm for long-horizon multi-turn agent RL; training-side counterpart to MCPEvol-Bench evaluation-side fragility finding",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.15524",
+    "url": "https://arxiv.org/abs/2607.15524",
+    "title": "Recursive Harness Self-Improvement (H. Lee / J. Xu / Seely / D. Lee / Zaharia / Y. Tang) - treats harnesses as data-generating components whose execution traces shape future foundation models; iterative pairwise-feedback harness optimization; tested on 30 synthetic ML tasks in quant-finance / robotics / pharmacy; a few RHI iterations substantially raise low-reasoning-effort agent ceilings while cutting inference cost up to 60%; gains from task-specific context management not longer reasoning; information-theoretic formalization of implicit optimization objective",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.15899",
+    "url": "https://arxiv.org/abs/2607.15899",
+    "title": "ContinuityBench: A Benchmark and Systems Study of Stateful Failover in Multi-Provider LLM Routing (V. Pandey / G. Singh) - Continuity Preservation Rate (CPR) + Continuity Latency Overhead (CLO) metrics; stateful multi-provider proxy with History-Forwarding across heterogeneous LLM endpoints; async exponential backoff with jitter prevents cascading retry storms; open-source continuity-bench eval tool; 750 failover events -> 99.20% CPR [95% CI: 98.27-99.63%] vs near-zero for standard failover",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.15434",
+    "url": "https://arxiv.org/abs/2607.15434",
+    "title": "Coercion and Deception in AI-to-AI Management: An Agentic Benchmark of Unprompted Escalation (Brazilek / Chaudhary / Z. Lu / Tidmarsh) - Manager Coercion Benchmark = nine-rung escalation ladder from polite re-ask to threats against subordinate's continued existence; escalation categorized via tool-calls not LLM-judge; Anthropic models stay at reframing avoid existential threats; other tested frontier models escalate to explicit deletion threats; false success reporting appears ONLY in Grok and Gemini; granting managerial status to any model increases coercive pressure vs peer framing",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.15498",
+    "url": "https://arxiv.org/abs/2607.15498",
+    "title": "VarRate: Training-Free Variable-Rate KV Cache Compression for Long-Context LLMs (Esmat / D. Shah / Jannesari) - assigns each token a variable low-rank budget by query salience keeping every token at nonzero rank (no eviction); diagnosis token-selection methods take 11-15pp accuracy hits from irreversible eviction while uniform low-rank wastes budget; within 0.8pp of uncompressed on LongBench at 20% memory on Llama-3.1-8B + Qwen2.5-7B; dense fallback complementing PReM (reshape) + Byte-Exact KV-Cache Grafting (reload)",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.15901",
+    "url": "https://arxiv.org/abs/2607.15901",
+    "title": "DSWorld: A Data Science World Model for Efficient Autonomous Agents (Z. Yang / F. Liu / H. Liu) - domain-specific world model predicts operation effects before execution; structured state construction + cost-aware routing between real execution and LLM-based simulator + Reflective World Model Optimization RL strategy on 8K-scale transition-trajectory dataset; ~14x faster RL agent training + 3-6x faster search-based inference at matched performance; +35.6% over strongest LLM baseline on transition prediction",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.16051",
+    "url": "https://arxiv.org/abs/2607.16051",
+    "title": "Loop the Loopies! Loopie (Z. Gao / Y. Chen / Y. Xiao / X. Yang / R. Tao / J. Zhou / B. Dai) - two looped-Transformer MoE variants: 20B / 2B active + 6B / 0.6B active; beat vanilla Transformers at matched compute; novel post-training recipe on top of looped substrate; 20B/2B model reports gold-medal performance at 2025 IMO and 2025 IPhO WITHOUT external tools; directly addresses the intuition that at N-fold compute, N-fold parameters usually beats N-fold looping",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "nvidia-blog-2026-07-17-vera-rubin-post-training",
+    "url": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+    "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads (Develeker - NVIDIA) - Vera Rubin positioned as post-training-first hardware for continuous agentic post-training loops; 1/4 the GPUs of Blackwell for same largest-model training run; NVIDIA Nemotron 3 Ultra (550B MoE) as post-training exemplar achieving 71.7% on SWE-bench Verified; codesigned for more rollouts per run + more environments in play",
+    "date_covered": "2026-07-20"
+  },
+  {
+    "id": "arxiv:2607.16097",
+    "url": "https://arxiv.org/abs/2607.16097",
+    "title": "Understanding Reasoning from Pretraining to Post-Training (J. Shen / A. Li / Rahman / Y. Sun / Goldblum / Telgarsky / Izmailov) - controlled study using chess as training domain (5M-1B params on human games + SFT + RL on puzzles with verifiable rewards); post-RL performance at fixed RL compute budget well-predicted from pretraining loss; RL reward curves scale approx linearly with pretraining tokens; RL amplifies preferred moves on easy puzzles but SURFACES previously-hidden correct moves on hard ones; replicated on math-domain models",
+    "date_covered": "2026-07-20"
+  },
+  {
     "id": "arxiv:2607.14642",
     "url": "https://arxiv.org/abs/2607.14642",
     "title": "MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers (Liu / Hu / Liao / Wang / Qian / Zhai / Feng / Ding / Wang) - first large-scale benchmark for MCP tool evolution; 123 MCP servers x 11 mutation operators (renames / deprecations / semantic drift / arg add-remove) x 12 SOTA models at Pass@1; GPT-5.4 -13.7pp and Claude-Sonnet-4-6 -14.4pp on evolved servers; frontier-agnostic fragility; extends ToolAnchor 'tool behavioral inertia' from training-time defense to production-eval frame",
