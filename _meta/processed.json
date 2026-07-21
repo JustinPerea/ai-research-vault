@@ -1,5 +1,65 @@
 [
   {
+    "id": "arxiv:2607.16716",
+    "url": "https://arxiv.org/abs/2607.16716",
+    "title": "RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts (Arya) - 24 case files across criminal/medical/financial domains, 50k-100k tokens each; six memory-intensive capabilities (multi-hop evidence chains + cascading invalidations + source-conflict resolution + counterfactual reasoning + temporal constraints + temporal fact retrieval); strongest non-Oracle system reaches only 22.4% accuracy; adversarial complement to LongMemEval/LoCoMo/HaluMem saturation",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.16621",
+    "url": "https://arxiv.org/abs/2607.16621",
+    "title": "MSCE: From Memory to Skills - Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents (Tang / Zhang / Zhuang / Wei / Zheng / Xie / Tan / Xiong / Q. Yang / Chung / Z. Li, EMNLP 2026) - training-free three-tier framework (grounded step traces + reusable procedural policies L2 + declarative environmental cognition); positive-gain L2 policies crystallized into callable skills retaining evidence links + applicability boundaries + decision guidance + verification rules + reliability estimates; novel reflection-weighted value backfilling primitive propagating sparse terminal feedback through dense local self-reflections; EvoAgentBench + LoCoMo",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.16851",
+    "url": "https://arxiv.org/abs/2607.16851",
+    "title": "AgentBrew: Lifelong Knowledge Brewing from Strong Teachers to Weak LLM Agents (Y. Jiang / C. Huang) - distills teacher experience into external memory WITHOUT weight updates or expert demos or ground-truth labels; failure-triggered Ralph Loop converts student failures into environment-validated teacher notes (environment validates NOT teacher); student-aware synthesis calibrates note complexity to weaker executor's operational capabilities; NO test-time teacher access; evaluated coding + math + tool-use",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.16900",
+    "url": "https://arxiv.org/abs/2607.16900",
+    "title": "Environment-free Synthetic Data Generation for API-Calling Agents (Seanie Lee / Chowdhury / C. Jiang / Cheng-Yu Hsieh / Ting-Yao Hu / Toshev / Tuzel / Vemulapalli, Apple) - trains API-calling agents from API specifications ALONE (no simulated environment / no live sandbox); LLM plays three roles (task generator + teacher agent + on-the-fly digital world model producing coherent synthetic API responses conditioned on task context+history); LLM judge filters trajectories; AppWorld + OfficeBench info-retrieval + state-changing tasks; strictly cheaper than ToolVerse's ~400-server harvest",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.18110",
+    "url": "https://arxiv.org/abs/2607.18110",
+    "title": "LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks (T. Ye / L. Dong / G. Chen / H. Zhu / X. Wu / S. Huang / F. Wei, Microsoft Research) - argues scalar reward compression discards textual feedback evaluator naturally produces; converts evaluator into coach that distills per-response assessment into transferable experiential knowledge for next on-policy rollout; consistent gains over rubric-based RL across policy families with better OOD generalization + reduced reward hacking",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.18171",
+    "url": "https://arxiv.org/abs/2607.18171",
+    "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications (K. Agarwal / Z. Chen / Y. Qin / Z. Gu / Rudra / Beidi Chen) - chain-of-program paradigm coding agents rewrite basic reference implementations into optimized multi-GPU deployments; intermediate representation captures dependencies + sequential interpretation validates + static analysis finds optimization sites + iterative implement-verify-benchmark loop under measurement constraints; up to ~70x overall latency reduction + 2.8x/3.6x throughput on B200/MI355X; 65% latency reduction for Qwen3-Omni text-to-audio vs EXPERT vLLM-Omni implementation",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.17715",
+    "url": "https://arxiv.org/abs/2607.17715",
+    "title": "C²KV: Compressed and Composable KV Cache Reuse for Efficient LLM Inference (Du / J. Chen / H. Tang / K. Liu / T. Lan / L. Qu / C. Niu / S. Liu / G. Chen / F. Wu, SIGKDD 2026) - unified framework jointly optimizing KV extraction + inference-time concatenation; lightweight sidecar Extractor with learnable compression tokens working across input positions; co-training strategy aligns extraction-time representations with downstream usage patterns; non-prefix reuse enabling KV library for MCP tool descriptions + RAG chunks + system prompts + instructions cached separately and composed per query; up to 17x inference speedup on long-context RAG + multi-document reasoning",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.16727",
+    "url": "https://arxiv.org/abs/2607.16727",
+    "title": "CART - Constraint-Anchored Reasoning Traces (Z. Cheng / W. Dai / J. Sun) - diagnoses error snowballing in SOTA open-source MLLMs: once first error occurs reasoning cascades into failure across all remaining steps in 65% of such cases; trains models to embed machine-checkable constraint assertions (object counts + relational predicates) inline with natural-language reasoning; dual-module verifier checks anchors against visual features + logical consistency + triggers backtracking on contradiction; snowball rate 0.65->0.14 with <=18% inference overhead; +4.6pp GQA; 89.1 POPE-all F1; 218K training instances (GQA + CLEVR-CoGenT + VCR) applied to LLaVA-NeXT + Qwen2-VL",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "arxiv:2607.16961",
+    "url": "https://arxiv.org/abs/2607.16961",
+    "title": "Lomekwi - Resource-Bounded Tool Discovery in LLM Agents (Klein-Seetharaman / D. Wang / A. Xu, COLT 2026 workshop) - separates tool use from tool discovery; three-component decomposition (curiosity = identifying tool needed / recognition = understanding creation process / efficiency = post-creation usage); applied to Voyager + related benchmarks; recognition ability INVERSELY scales with model size (larger models WORSE at recognizing how new tools should be constructed); replicated in combinatorial games + real-world task emulation",
+    "date_covered": "2026-07-21"
+  },
+  {
+    "id": "hf-mlx-2026-07-17-inkling-2bit",
+    "url": "https://huggingface.co/mlx-community/Inkling-mlx-2bit",
+    "title": "mlx-community/Inkling-mlx-2bit (2026-07-17 upload) - 975B total / 41B active MoE (256 experts, 6 active per token) at 2-bit affine group-64 quantization for routed experts + vision/audio matmuls; attention + embeddings + RMSNorms + router gate + short convs + relative-position bias kept BF16; ~315 GB weights; README explicitly confirms 'runs on 64 GB Macs via SSD expert-offload (slowly)'; first ~1T-scale open-weight release with an explicit M5 Max 64 GB path; text solid at 2-bit / image+audio recognizable but degraded",
+    "date_covered": "2026-07-21"
+  },
+  {
     "id": "arxiv:2607.15660",
     "url": "https://arxiv.org/abs/2607.15660",
     "title": "ToolVerse: Unlocking Massive Environments and Long-Horizon Tasks for Agentic Reinforcement Learning (Zhou / Yue / Hu / Y. Shen / C. Zhang / F. Hong / C. Liu / Zeng) - automatically builds executable agent training environments from ~400 real-world MCP servers with ~4,500 tools; tool-dependency-graph task generation with Dynamic Unlocking Sampling algorithm producing GUST dataset; Turn-Aware Relative Advantage credit-assignment algorithm for long-horizon multi-turn agent RL; training-side counterpart to MCPEvol-Bench evaluation-side fragility finding",
