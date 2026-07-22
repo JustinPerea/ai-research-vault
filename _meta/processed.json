@@ -1,5 +1,53 @@
 [
   {
+    "id": "google-blog-gemini-3-6-flash-2026-07-21",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "title": "Google DeepMind releases Gemini 3.6 Flash + 3.5 Flash-Lite + 3.5 Flash Cyber (Jul 21, 2026) - Flash 3.6 at $1.50/$7.50 per 1M in/out posts OSWorld-Verified 83.0% (from 78.4%), DeepSWE 49% (from 37%), MLE Bench 63.9% (from 49.7%), 17% fewer output tokens vs 3.5 Flash; Flash-Lite at $0.30/$2.50 posts 350 tok/s, Terminal-Bench 2.1 54% (from 31%), SWE-Bench Pro 54.2%, GDPval-AA v2 1,140 (from 642); both Flash variants ship computer-use as a built-in API tool; Flash Cyber gated to governments+trusted partners via CodeMender, tops CyberGym; Gemini 4 pre-training underway",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.18754",
+    "url": "https://arxiv.org/abs/2607.18754",
+    "title": "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents (Zhu / Ye / Han / Zhao / B. Li / W. Zhang / Tian / Tang / Lu / Zou / You / Ji, UIUC+collab, Jul 21, 2026) - full open-source stack (Python library + CLI + web console + agentic skill) with closed-loop Detect->Attribute->Recover->Rerun; DeepDebug does multi-turn root-cause diagnosis via global trajectory understanding + structure-guided investigation + cross-examination; opt-in Error Hub shares scrubbed failure-diagnosis-repair bundles as debugging memory; DeepDebug 28.8% exact agent-and-step attribution accuracy on qwen3.5-9b vs 21.7% strongest single-pass baseline on Who-and-When; on GAIA one rerun repairs 13 of 73 failed tasks (vs 4-6 for self-correction baselines) lifting accuracy 55.8% -> 63.6%",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.18785",
+    "url": "https://arxiv.org/abs/2607.18785",
+    "title": "SkillSight: Seeing Through Shared Descriptions for Accurate Skill Retrieval (Xiao / Ji / S. Li / X. Liu / Ma / Jie / C. Wang / Tashi / J. Yu, Jul 21, 2026) - training-free skill-retrieval calibration; diagnoses shared-background-pattern bias in skill descriptions; Semantic Background Calibration reduces similarity from shared patterns using IDF-identified generic tokens + Lexical Evidence Calibration downweights shared tokens to surface discriminative evidence; +20.21pp Recall@10 over baseline dense retrievers, +4.97pp end-to-end vs LLM Selection, up to 1,248x faster than Dense+Reranker baseline; SRA-Bench + SkillBench-Supp",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.18366",
+    "url": "https://arxiv.org/abs/2607.18366",
+    "title": "Operational Hallucination and Safety Drift in AI Agents (S. Yu / Carroll / Bentley, Jul 20, 2026) - formalizes two multi-turn agent failure modes: (1) Operational Hallucination = repetitive tool calls indicating flawed state perception producing livelocks EVEN in legitimate benign tasks; (2) Safety Drift = gradual erosion of initial alignment producing textual refusal followed by reconnaissance and unsafe execution; both persist across multiple SOTA LLMs; introduces declaration-action gap + livelock metrics; root cause = decoupling of reasoning context from execution state; proposes Action-Aware Supervision Layer (intent-action consistency + runtime state tracking + forced termination)",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.19257",
+    "url": "https://arxiv.org/abs/2607.19257",
+    "title": "Prompt Design at Scale (VeyraBench): How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in LLMs (Eliav, Jul 21, 2026) - controlled contamination-free sweep across 5 models; Experiment 1 (960 calls/model, N=10-160 instructions): perfect-response rate collapses to 0 by N=80 for every model, format, and placement; placement effects rival format effects at N=160; no consistent markdown advantage; Experiment 2 (5,520 calls/model, 2k-512k context): recall stays near ceiling through 64-128k then degrades sharply with 48-point spread at 128k; zero fabrication instances; sycophancy <=8.3%; refusal rate jumps 0% -> 79-90% near context limits (specific new failure mode - model gives up not fabricates); synthetic Book of Veyra corpus 8,780 unique named entities; VeyraBench harness+generator+results public on GitHub",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.18481",
+    "url": "https://arxiv.org/abs/2607.18481",
+    "title": "Search-on-Graph-R1: Training Large Language Models to Search Knowledge Graphs with Reinforcement Learning (J.A. Sun / H. Yu / Mo / Su / Hui / B. Liu / J.-Y. Nie, Jul 20, 2026) - internalizes graph navigation into 8B model via SFT+RL against live Search tool on Freebase; frontier teacher scaffolded with gold SPARQL so trajectories are grounded in KG by construction; on WebQSP+CWQ+GrailQA 8B student surpasses every frozen frontier-LLM system compared; strongest CWQ result of any system evaluated; no auxiliary modules or LLM judges at inference; RL reduces number of search operations vs SFT-only",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.19322",
+    "url": "https://arxiv.org/abs/2607.19322",
+    "title": "GAMUT: Two-Level Meta-Rubrics for Evaluating Open-Ended Generation - Benchmark for Factual Completeness (X. Chen / Feizollahi / Goodwin / Moon / Yih / Donmez / Damavandi / L. Dong, Meta AI, Jul 21, 2026) - benchmark for factual completeness (did the response include everything it should) as distinct from factual precision; 1,813 questions grounded in real wearable imagery across 10 domains; hierarchical rubrics auto-compile into flat binary checklists LLM-graded; best model 58.7% (Gemini 3.1 Pro) across 14 frontier+open-weight models; discriminative + judge-robust per expert human annotators; multimodal + text-only variants",
+    "date_covered": "2026-07-22"
+  },
+  {
+    "id": "arxiv:2607.18915",
+    "url": "https://arxiv.org/abs/2607.18915",
+    "title": "SSC-GRPO: Step-Level Self-Consistency Group Relative Policy Optimization for LLM (X. Hu / J. Hu / H. Chen / Q. Zhang / Shen / W. Ye / J. Zhao, Jul 21, 2026) - identifies Context-Sensitive Factual Hallucinations where model has correct fact but produces wrong output under contextual interference; standard outcome-only GRPO cannot diagnose because per-step correctness is invisible; SSC-GRPO assigns rewards per reasoning step by computing self-consistency across multiple rollouts of that step for fine-grained per-step feedback; SOTA on math reasoning + hallucination leaderboards",
+    "date_covered": "2026-07-22"
+  },
+  {
     "id": "arxiv:2607.16716",
     "url": "https://arxiv.org/abs/2607.16716",
     "title": "RECON: Benchmarking Agent Memory for Compositional Reasoning over Long Contexts (Arya) - 24 case files across criminal/medical/financial domains, 50k-100k tokens each; six memory-intensive capabilities (multi-hop evidence chains + cascading invalidations + source-conflict resolution + counterfactual reasoning + temporal constraints + temporal fact retrieval); strongest non-Oracle system reaches only 22.4% accuracy; adversarial complement to LongMemEval/LoCoMo/HaluMem saturation",
