@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.20064",
+    "url": "https://arxiv.org/abs/2607.20064",
+    "title": "PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning (Fox / Wang / Rosu / Dhingra, Duke NLP, Jul 22, 2026) - keeps complete structured interaction log + uses coding-agent search skills as retrieval; +18.0 pp over base coding agent averaged across frontier models; 76.1% pass@1 on ARC-AGI-3 matching specialized harnesses; 4.2-5.8x fewer tokens vs alternatives; 97.4% best@2 with Fable 5 at $1,750; code + logs on GitHub",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.19913",
+    "url": "https://arxiv.org/abs/2607.19913",
+    "title": "JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety (Xiong / Hao / He / Wang / L. Li, Jul 22, 2026) - foresight-oriented guard trained via multi-agent trajectory simulation + shared policy with anticipation task (forecast safety-relevant futures) + adjudication task (safety from observed prefix + anticipated future); Vanguard +15.9 pp average protection over baseline guards + +5.1 pp benign task completion (safety without over-blocking)",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.19356",
+    "url": "https://arxiv.org/abs/2607.19356",
+    "title": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents (Hossain / Nipu / Ornee / Rana / Yousefi) - structured-plan safety monitor with 4-way intervention policy (allow / block / request confirmation / request revision); F1 0.949 synthetic + 0.6406 4-class intervention accuracy + 27.3 pp over rule-only + F1 0.861 R-Judge + F1 0.881 NEXUS-Stress; median latency 0.205 ms + <0.1% agent-loop overhead; 0% ASR at 99% control-allow on IPI",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.19865",
+    "url": "https://arxiv.org/abs/2607.19865",
+    "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations (Jiang / Cao / Yan / Lu / Lin / S. Wang / Yin / X. Han / L. Sun, Jul 22, 2026) - deterministically verifiable evaluation framework with taxonomy of document operations at increasing complexity; frontier configurations still fail on highly coupled long-range tasks; three named failure patterns - long-term state tracking collapse + shallow semantic verification + destructive editing of structural metadata",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.20083",
+    "url": "https://arxiv.org/abs/2607.20083",
+    "title": "DynamicRubric: Co-Evolving LLM Evaluators and Policies (B. Wang / W. Su / H. Tian / Kong / T. Yang / T. Yao / Q. Pan / Y. Wu / Q. Ai / M. Zhang / Y. Liu, Tencent WeChat + Tsinghua, Jul 22, 2026) - response-set-conditioned evaluator generates weighted binary rubric items per candidate set + aggregates into response-level scores; theory - policy improvement is driven by RELATIVE score gaps between candidates not absolute quality; 8B backbone beats 70B reward model + 235B static rubric generator baselines; fully deployed at WeChat Search serving tens of millions of requests/day",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.19691",
+    "url": "https://arxiv.org/abs/2607.19691",
+    "title": "SLPO: Scaling Latent Reasoning via a Surrogate Policy (You / Z. Liu / Y. Li / W. Li, Jul 22, 2026) - brings outcome-reward RL to autoregressive latent (continuous-vector) reasoners via empirical surrogate policy density over latent transitions for trajectory-level credit assignment + correctness-supervised stopping head refined into variable-horizon policy; improves Pass@k under parallel sampling + allocates longer latent computation to harder instances with higher deterministic accuracy",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.20121",
+    "url": "https://arxiv.org/abs/2607.20121",
+    "title": "OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills (Q. Liu / T. Hui / K. Zhan / K. Zhang / N. Miao, Jul 22, 2026) - safety benchmark with 263 dangerous skills across 7 threat categories paired with user tasks + sandboxed evaluation environments; tested 3 CLI agent frameworks x 13 SOTA LLMs; even safest configurations execute unsafe actions in ~17% of cases; three failure patterns - failing to recognize risk + recognizing but acting before intervention + following skill instructions beyond user scope",
+    "date_covered": "2026-07-23"
+  },
+  {
+    "id": "arxiv:2607.19899",
+    "url": "https://arxiv.org/abs/2607.19899",
+    "title": "Harnessing Disagreement: Detecting Correlated Agreement Blindness in Multi-Agent Triage (McDonnell / Singh / Q.-V. Pham / Havlik / O'Hare, Jul 22, 2026) - identifies structural vulnerability - as base learners improve they converge and correlated failures concentrate where disagreement monitoring cant see them; 57.2% of errors occurred under agreement across 82,332 holdout samples; 90.6% of dangerous under-predictions evaded disagreement-based monitoring; ARAT (Random Forest + kNN + calibrated meta-model) reduced under-prediction 4.80% -> 1.70% via conservative override (-2.6 pp) + safety-flag gate (-0.5 pp)",
+    "date_covered": "2026-07-23"
+  },
+  {
     "id": "google-blog-gemini-3-6-flash-2026-07-21",
     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
     "title": "Google DeepMind releases Gemini 3.6 Flash + 3.5 Flash-Lite + 3.5 Flash Cyber (Jul 21, 2026) - Flash 3.6 at $1.50/$7.50 per 1M in/out posts OSWorld-Verified 83.0% (from 78.4%), DeepSWE 49% (from 37%), MLE Bench 63.9% (from 49.7%), 17% fewer output tokens vs 3.5 Flash; Flash-Lite at $0.30/$2.50 posts 350 tok/s, Terminal-Bench 2.1 54% (from 31%), SWE-Bench Pro 54.2%, GDPval-AA v2 1,140 (from 642); both Flash variants ship computer-use as a built-in API tool; Flash Cyber gated to governments+trusted partners via CodeMender, tops CyberGym; Gemini 4 pre-training underway",
