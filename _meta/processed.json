@@ -1,5 +1,53 @@
 [
   {
+    "id": "arxiv:2607.21461",
+    "url": "https://arxiv.org/abs/2607.21461",
+    "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research (Lu / C. Li / Luo / Z. Zhang / H. Wang / Xiao / Z. Liu / L. Xiong / J. Wang / S. Wang / X. Jiang / W. Li / Y. Hu / Qian / B. Yan / Z. Xia / Y. Shao / K. Liu / Z. Dou / D. He / C. Li / Q. Ye / Z. Wang / Z. Liu, BAAI+collab, 24 authors, Jul 23, 2026) - dual-loop self-improving deep-research agent - inner loop gathers evidence + drafts provisional answer; outer loop audits answer constraint-wise + rewrites search plan; also learns to autonomously compress interaction history preserving verified evidence; released at dense 4B and 122B-A10B MoE scales; substantially outperforms comparable-scale baselines on BrowseComp / WideSearch / DeepSearchQA / Humanity's Last Exam; #1 HF Daily Papers today (38 upvotes)",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.20911",
+    "url": "https://arxiv.org/abs/2607.20911",
+    "title": "Tencent WorkBuddy Bench: Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction (Cai / S. Chen / Fei / Mao / Xu + 31, Tencent WorkBuddy Bench Team, Jul 23, 2026) - four-subset coding-agent evaluation (Code repository-level + Web front-end + Office business workflows + Security red/blue-team); tasks reverse-engineered from real commits/PRs/business scenarios + rewritten to resist scraping; contamination controlled via dataset versioning rather than secrecy; deliberately avoids suite-wide averaging; tested on Claude Code + CodeBuddy Code with cross-model leaderboard; open release at workbuddybench.com + github.com/Tencent/workbuddy-bench + HF dataset",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.20709",
+    "url": "https://arxiv.org/abs/2607.20709",
+    "title": "NVIDIA NOOA: Native Python Object-Oriented Agents (Furgale / Klingler / Nolan / Staats / Di Lorenzo / Martinez Abad / Schuller / Dinu / Devoto / Berard / Kaplun / Sarafian / Roveri / Derczynski / Silveira Cabral, NVIDIA Labs, Jul 22, 2026) - agent-as-Python-object programming model - methods represent actions + fields store state + docstrings ARE prompts + type annotations ARE tool contracts; methods with '...' body completed by LLM-driven loop at call time; six model-facing capabilities unified in one substrate (typed I/O + pass-by-reference over live objects + code-as-action + programmable loop engineering + explicit object state + model-callable harness APIs); validated on SWE-bench Verified + Terminal-Bench 2.0 + ARC-AGI-3",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.20668",
+    "url": "https://arxiv.org/abs/2607.20668",
+    "title": "From Agent Failures to Text Policies: What Works and What Breaks (Ray / Goyal, Meta, Jul 22, 2026) - investigates whether TextGrad-style textual optimization extends to AI agents; empirically separates (a) do useful text policies exist and (b) can agents derive them from own experience; human-authored policies improve frozen 7B agent by +5.0 success points on TextWorldExpress; policies derived from agent experience do NOT reliably outperform fixed prompting even with richer traces + counterfactual evidence + iterative GEPA search; CONFLICT with harness-evolution / auto-authored-skill cluster (SEED / MSCE / AgentBrew / GEPA)",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.20145",
+    "url": "https://arxiv.org/abs/2607.20145",
+    "title": "SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD (D. Li + 64 co-authors, SLAI team, Jul 22, 2026) - first open case study of full-parameter continued pre-training + SFT on DeepSeek-V4 family on Huawei Ascend NPU (not GPU); hierarchical optimization framework (model parallelism + comm-compute coordination + kernel efficiency); MFU 34.22% (2.93x baseline); OR-specialized checkpoint hits 71.81% zero-shot Pass@1 on operations-research tasks beating GPT-5.4-Mini by +3.98 pp and base V4-Flash by +11.27 pp; specialization run used 10K high-quality SFT samples across 4 task categories",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.20734",
+    "url": "https://arxiv.org/abs/2607.20734",
+    "title": "LLMs Get Lost in Evolving User Intent (Tack / Laban / Neville, Jul 22, 2026) - framework converts static single-turn tasks into multi-turn conversations where user intent evolves iteratively (user reveals + revises + reshapes goal mid-conversation) while preserving original evaluation protocol; static-setting performance does NOT transfer to evolving-intent setting - substantial drops across model families; 20 pages / 10 figures suggests full family sweep inside; convergent with AppWorld-UL Claude Opus 4.7 48.6% success -> 35.7% compositional -> 21.3% scenario-level",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.21217",
+    "url": "https://arxiv.org/abs/2607.21217",
+    "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders (Peng / D. Huang / C. Zhang / C. Xu / C. Xiao / S. Hong / D. Lo / L. Qiu / X. Cao / J. He / Y. Cao, Jul 23, 2026) - retires fully-specified task evaluation for coding agents; three distinguishing elements - (1) tasks derive from real open-source repo with executable behavior (ground truth is actual repo not spec) + (2) User Agent simulates human without leaking implementation + (3) evaluation combines black-box tests with multi-dim diagnostics (functional correctness + semantic similarity + structural fidelity + design quality + interaction quality); pairs with WorkBuddy Bench as same-day convergent evidence that static coding-agent benchmarks structurally undercount capability gaps",
+    "date_covered": "2026-07-24"
+  },
+  {
+    "id": "arxiv:2607.21361",
+    "url": "https://arxiv.org/abs/2607.21361",
+    "title": "FedAgentKE: Federated Semantic Knowledge Evolution for Heterogeneous Agents (W. Li / J. Bai / Z. Song, Jul 23, 2026) - distributed agent frameworks collaboratively evolve transferable reasoning abstractions via iterative semantic knowledge distillation + aggregation + adaptation WITHOUT sharing raw reasoning trajectories; primitive is semantic-abstraction transfer not trajectory replay; consistent improvements under both cross-framework and cross-task settings; 9-page format; missing primitive in vault memory-sharing story (mem0 / LangMem / MemCon / Oracle Agent Memory / Shared Selective Persistent Memory all assume single-framework ownership); semantic-abstraction transfer boundary is also the privacy story for federated/cross-tenant deployment",
+    "date_covered": "2026-07-24"
+  },
+  {
     "id": "arxiv:2607.20064",
     "url": "https://arxiv.org/abs/2607.20064",
     "title": "PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning (Fox / Wang / Rosu / Dhingra, Duke NLP, Jul 22, 2026) - keeps complete structured interaction log + uses coding-agent search skills as retrieval; +18.0 pp over base coding agent averaged across frontier models; 76.1% pass@1 on ARC-AGI-3 matching specialized harnesses; 4.2-5.8x fewer tokens vs alternatives; 97.4% best@2 with Fable 5 at $1,750; code + logs on GitHub",
