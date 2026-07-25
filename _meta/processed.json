@@ -1,5 +1,47 @@
 [
   {
+    "id": "anthropic-news-2026-07-24-claude-opus-5",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "title": "Introducing Claude Opus 5 (Anthropic, Jul 24, 2026) — new frontier tier at claude-opus-5, same $5/$25 per M token pricing as Opus 4.8, Fast mode 2x price / ~2.5x speed; Anthropic-reported gains: Frontier-Bench v0.1 >2x Opus 4.8, ARC-AGI 3 3x next-best, CursorBench 3.2 within 0.5% of Fable 5 at half cost/task, Zapier AutomationBench ~1.5x pass rate at same cost, OSWorld 2.0 beats Fable 5 at ~1/3 cost, life-sciences +10.2 pp organic chem +7.7 pp protein sequence prediction vs Opus 4.8; positioned around extended agent operations + self-directed problem-solving + custom-tool construction + memory management; no independent benchmarks yet",
+    "date_covered": "2026-07-25"
+  },
+  {
+    "id": "arxiv:2607.21051",
+    "url": "https://arxiv.org/abs/2607.21051",
+    "title": "Sample-Efficient Learning from Agent Experience (Chenhui Gou / Haoqin Tu / Yunhao Fang / Jianfei Cai / Hamid Rezatofighi, Jul 23, 2026) — names Experience Distillation problem: internalize in-context learning gains from agent's own trajectories into weights without further environment interaction; two-stage recipe (ICL from interaction histories, then context distillation) retains >=64.8% of ICL gains after context is removed vs 3.8% for direct SFT on same trajectories, matches classical RL with >=9.6x fewer environment samples; evaluated on 749 curated software-engineering tasks + six text-adventure games",
+    "date_covered": "2026-07-25"
+  },
+  {
+    "id": "arxiv:2607.20488",
+    "url": "https://arxiv.org/abs/2607.20488",
+    "title": "Autonomous Topology Mutation: Safe Runtime Restructuring for Multi-Agent LLM Systems with Capability, State, and Shadow Invariants (Sidik / Levi / Kimhi) — first runtime team-mutation mechanism for multi-agent LLM frameworks; six-signal Bottleneck Index (queue depth + context thrash + tool-error rate + role entropy + retry-loop rate + cross-agent wait time) triggers factorization of overloaded agent into specialists with parent hot-swapped into coordinator; three safety invariants (capability monotonicity + state-routing completeness + shadow-before-live validation); 720 DeepSeek-V3 runs show code-task success 3.3%->61.7% + high-privacy memory exposure 2.0->0.0 events/task at <500 us p99 overhead; open-sourced implementation + harness + traces; abstract page reads 4 Jun 2026 submission but appears in July arxiv listing — treat as missed but highly relevant",
+    "date_covered": "2026-07-25"
+  },
+  {
+    "id": "arxiv:2607.20495",
+    "url": "https://arxiv.org/abs/2607.20495",
+    "title": "Workload-Aware Caching for Multi-Agent Systems (Mohamed / Haque / Khan / Sharma / Ge / Anwar) — caches intermediate agent outputs in DAG-structured multi-agent workflows (not KV cache, not tool results); eviction score combines recomputation cost + DAG dependency count + agent invocation frequency; up to 64.7% latency reduction vs uncached baseline + average 31.1% vs next-best finite-capacity baseline at accuracy parity; sits above C2KV token-level as agent-output-level caching layer",
+    "date_covered": "2026-07-25"
+  },
+  {
+    "id": "arxiv:2607.20501",
+    "url": "https://arxiv.org/abs/2607.20501",
+    "title": "MKEvolve: A Modular Multi-Agent Framework for Kernel Code Generation (Yoo / Saha / Zhu / Yu / Tang / Park) — iteratively co-evolves modular decomposition of complex PyTorch modules and LLM-generated Triton kernel for each submodule; decomposition itself refines by splitting/fusing across iterations while each subkernel improved via LLM-driven beam search; kernels become programmatic compositions of independently verified subkernels (configurable + interpretable + adaptable); improves both correctness and speedup over end-to-end direct synthesis baselines on KernelBench L2/L3 while reducing LLM token usage up to 35%",
+    "date_covered": "2026-07-25"
+  },
+  {
+    "id": "arxiv:2607.04763",
+    "url": "https://arxiv.org/abs/2607.04763",
+    "title": "Multi-Turn On-Policy Distillation with Prefix Replay / ReOPD (Baohao Liao / Hanze Dong / Christof Monz / Xinxing Xu / Li Dong / Furu Wei, MSR, Jul 6, 2026) — off-environment alternative to on-policy distillation that reuses pre-collected teacher trajectories as replayed prefixes: student acts at selected steps while teacher provides dense per-step supervision without new environment interactions; names prefix trap (more-on-policy prefix helps student relevance but queries teacher on histories where its target is unreliable — two-sided distribution shift); addresses with step-decaying sampling schedule emphasizing early lower-shift prefixes; preserves/improves OPD accuracy at zero tool calls during student training and >=4x faster per rollout on mathematical reasoning with Python + search environments",
+    "date_covered": "2026-07-25"
+  },
+  {
+    "id": "hf-blog-2026-07-23-pocket-35b",
+    "url": "https://huggingface.co/blog/FINAL-Bench/pocket",
+    "title": "POCKET-35B: Sub-2-bit Sparse MoE for CPU / Apple Silicon Inference (FINAL-Bench, HF blog 2026-07-23) — 34.66B sparse MoE / ~3B active per token from Darwin-36B-Opus (Qwen3.5-family MoE) base; MoE-aware mixed-precision quantization (attention + shared expert stays high precision, routing experts pushed sub-2-bit) cuts English perplexity degradation from +81% to +36% vs uniform quant; measured: Q4_K_M 21 GB weights / 32 GB RAM, Q2_K 13 GB / 16-24 GB RAM / ~20 tok/s 12-core AMD CPU, IQ1_M 8.2 GB / 16 GB RAM / 27.0 tok/s Xeon 16-thread, H100 197 tok/s but 0.41x Bonsai-27B Q1_0 prefill; MacBook M3 Pro 18 GB tested with Metal; iPhone claim in headline explicitly unmeasured by authors; Apache-2.0 + llama.cpp/LM Studio/Ollama/MLX",
+    "date_covered": "2026-07-25"
+  },
+  {
     "id": "arxiv:2607.21461",
     "url": "https://arxiv.org/abs/2607.21461",
     "title": "AREX: Towards a Recursively Self-Improving Agent for Deep Research (Lu / C. Li / Luo / Z. Zhang / H. Wang / Xiao / Z. Liu / L. Xiong / J. Wang / S. Wang / X. Jiang / W. Li / Y. Hu / Qian / B. Yan / Z. Xia / Y. Shao / K. Liu / Z. Dou / D. He / C. Li / Q. Ye / Z. Wang / Z. Liu, BAAI+collab, 24 authors, Jul 23, 2026) - dual-loop self-improving deep-research agent - inner loop gathers evidence + drafts provisional answer; outer loop audits answer constraint-wise + rewrites search plan; also learns to autonomously compress interaction history preserving verified evidence; released at dense 4B and 122B-A10B MoE scales; substantially outperforms comparable-scale baselines on BrowseComp / WideSearch / DeepSearchQA / Humanity's Last Exam; #1 HF Daily Papers today (38 upvotes)",
