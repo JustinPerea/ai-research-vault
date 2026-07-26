@@ -1,5 +1,29 @@
 [
   {
+    "id": "arxiv:2607.21557",
+    "url": "https://arxiv.org/abs/2607.21557",
+    "title": "OpenForgeRL: Train Harness-native Agents in Any Environment (Xiao Yu / Baolin Peng / Ruize Xu / Hao Zou / Qianhui Wu / Hao Cheng / Wenlin Yao / Nikhil Singh / Zhou Yu / Jianfeng Gao, MSR-heavy, Jul 23, 2026) — open-infra RL trainer that leaves harness (Claude Code / Codex / OpenClaw) unchanged; lightweight proxy intercepts model calls and records training data; Kubernetes orchestrator runs each rollout in isolated remote containers; ClawEval 31.7 pass@1 / 55.9 pass@3, QwenClawBench 33.7, OSWorld-Verified 37.7, Online-Mind2Web 63.0, WebVoyager 72.3; outperforms open baselines of similar size on nearly all benchmarks; CC-BY-4.0; authors' own caveat: RL enhances self-verification and tool use but error recovery remains weak — first open-infra recipe to invert the wrapper-matters-more-than-backbone thread by training the base FOR the harness rather than optimizing the harness",
+    "date_covered": "2026-07-26"
+  },
+  {
+    "id": "nvidia-developer-2026-07-24-modelexpress",
+    "url": "https://developer.nvidia.com/blog/modelexpress-distributing-model-artifacts-at-the-speed-of-light/",
+    "title": "NVIDIA ModelExpress: Distributing Model Artifacts at the Speed of Light (NVIDIA Dynamo team, 2026-07-24) — open-source (ai-dynamo/modelexpress) priority-based transfer stack for multi-hundred-GB-to-TB weight artifacts on cold starts, autoscales, rolling updates, RL refits; priority ladder: (1) P2P RDMA via NIXL GPU-to-GPU between compatible replicas; (2) ModelStreamer object-store to CPU to GPU; (3) GPUDirect Storage; (4) host-staged fallback; VMM arena registration collapses per-tensor to single registration call; atomic distributed caching; artifact transfer ships compiled kernel caches (Triton + DeepGEMM) alongside weights; receiver-driven RL refits from trainer ranks direct to serving replicas; DeepSeek-V4 Pro startup 8 min -> 1 min 44 s (~4.6x); weight + kernel cache transfer under 10 s for fresh replica; integrated with vLLM + SGLang + Dynamo + llm-d; transport-layer answer to the Vera Rubin post-training-first hardware framing",
+    "date_covered": "2026-07-26"
+  },
+  {
+    "id": "nvidia-developer-2026-07-23-nemotron-3-nano-prime-intellect",
+    "url": "https://developer.nvidia.com/blog/start-customizing-nvidia-nemotron-3-nano-with-prime-intellect-lab-in-minutes/",
+    "title": "NVIDIA Nemotron 3 Nano 30B-A3B + Prime Intellect Lab hosted post-training (NVIDIA + Prime Intellect, 2026-07-23) — third Nemotron 3 tier (after Ultra 550B + Super); Nemotron-Nano-30B-A3B-BF16 open weights on HF (page auth-gated 401 in this environment, specific benchmarks + license not surfaced); Prime Intellect Lab is hosted RL / LoRA post-training with OpenAI-compatible inference endpoints and no local-GPU requirement; direct M5-Max local-fit at Q4_K_M (~18 GB extrapolated) with ~46 GB headroom for KV cache; third 30B/A3B open MoE data point in vault (Soofi + Qwen3 + Nemotron-Nano) — parameter class settling as portable local-fit shape for 64 GB Macs; NVIDIA-native realization of the train-hosted-serve-local pattern that OpenForgeRL formalizes as research artifact",
+    "date_covered": "2026-07-26"
+  },
+  {
+    "id": "google-deepmind-blog-2026-07-21-gemini-3-5-flash-cyber-deepdive",
+    "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+    "title": "Google DeepMind Gemini 3.5 Flash Cyber dedicated deep-dive (Google DeepMind CodeMender / Big Sleep team, 2026-07-21) — follow-up to the Jul 21 trio announcement (previously covered 2026-07-22) with specific Big Sleep V8 numbers: 55 unique confirmed V8 JavaScript Engine issues vs 3.5 Flash 47 vs Claude Opus 4.6 36; competitive with significantly larger models on CyberGym; substantially outperforms mainline 3.5 Flash and Opus 4.6 on Big Sleep; significant improvements on Chrome's production commit scanning pipeline (production numbers not disclosed); positioned as cost-efficient alternative to large cybersecurity models; limited-access pilot for governments + trusted partners via CodeMender, general access via Gemini Enterprise Agent Platform; sharpens the vault's Cyber-tier tracking (GPT-5.5-Cyber 2026-06-22 + Flash Cyber 2026-07-21) — first head-to-head Flash-tier-beats-Opus row on a defensive-security task",
+    "date_covered": "2026-07-26"
+  },
+  {
     "id": "anthropic-news-2026-07-24-claude-opus-5",
     "url": "https://www.anthropic.com/news/claude-opus-5",
     "title": "Introducing Claude Opus 5 (Anthropic, Jul 24, 2026) — new frontier tier at claude-opus-5, same $5/$25 per M token pricing as Opus 4.8, Fast mode 2x price / ~2.5x speed; Anthropic-reported gains: Frontier-Bench v0.1 >2x Opus 4.8, ARC-AGI 3 3x next-best, CursorBench 3.2 within 0.5% of Fable 5 at half cost/task, Zapier AutomationBench ~1.5x pass rate at same cost, OSWorld 2.0 beats Fable 5 at ~1/3 cost, life-sciences +10.2 pp organic chem +7.7 pp protein sequence prediction vs Opus 4.8; positioned around extended agent operations + self-directed problem-solving + custom-tool construction + memory management; no independent benchmarks yet",
