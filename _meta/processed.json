@@ -1,5 +1,41 @@
 [
   {
+    "id": "arxiv:2607.21653",
+    "url": "https://arxiv.org/abs/2607.21653",
+    "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning (Jian Hu / Huiying Li / Hao Zhang / Binfeng Xu / Yifan Zhang / Shaokun Zhang / Hemil Desai / Michael Demoret / Pavlo Molchanov / Jan Kautz / Yi Dong, NVIDIA NeMo Labs, Jul 22, 2026) — PyTorch-native training framework for agentic RL research; compact + clean codebase deliberately positioned against Megatron-heavy stacks; asynchronous training for multimodal + MoE policies maintaining consistency across tokens + policy versions + model semantics; performance statistically comparable to Megatron-based SOTA under matched async protocols; CC-BY-4.0; open-sourced at github.com/NVIDIA-NeMo/labs-molt; 605 upvotes on HF Daily Papers (largest single-day count in vault window); second open-infra agentic-RL recipe of the week (companion to OpenForgeRL [arxiv:2607.21557] with opposite emphasis — Molt keeps the trainer compact, OpenForgeRL keeps the harness untouched via proxy)",
+    "date_covered": "2026-07-27"
+  },
+  {
+    "id": "arxiv:2607.21604",
+    "url": "https://arxiv.org/abs/2607.21604",
+    "title": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems (Nilesh Prasad Pandey / Jason Kong / Lanxiang Hu / Quanling Zhao / Yujie Zhao / Onat Gungor / Hao Zhang / Tajana Rosing, likely UCSD, v1 May 15, 2026; surfaced in Jul 27 cs.AI new listings) — training-free probe-guided KV residual correction for memory-augmented LLM agents that decomposes correction into shared offsets + token-wise adjustments; near full-recompute quality while refreshing only 10-30% of cache; up to 5x lower recompute than prior methods; prefill speedups 2-3.5x vs no-KV-reuse on single A100; tested on 3B to 32B open LLMs on two long-horizon agentic memory benchmarks; retains >2x F1 of prior reuse methods under aggressive 2-bit + 4-bit quantization (composes orthogonally with quantization — the actionable local-fit primitive)",
+    "date_covered": "2026-07-27"
+  },
+  {
+    "id": "arxiv:2607.21503",
+    "url": "https://arxiv.org/abs/2607.21503",
+    "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems (Gaurav Dadhich, single-author, Jul 23, 2026) — reframes context management for production agents as lifecycle problem; five operational primitives — architecting + ingesting + scoping + anticipating + compacting/consolidation; core empirical shape claim naive accumulation grows token cost quadratically while validated compaction achieves linear cost with preserved fidelity; LongMemEval 92% + LoCoMo 93.2%; code at github.com/maximem-ai; complementary to MemOps four-verb lifecycle [arxiv:2607.12893] (MemOps names the what, this names the where in pipeline) — adopt as vault primitive on same footing",
+    "date_covered": "2026-07-27"
+  },
+  {
+    "id": "arxiv:2607.22157",
+    "url": "https://arxiv.org/abs/2607.22157",
+    "title": "Learning on the Job: Continual Learning from Deployment Feedback for Frozen-Weights Agents (Valentin Tablan / Scott Taylor / Kristoffer Bernhem, affiliations not disclosed, Jul 24, 2026) — framework for deployed agents with frozen model weights to improve from operational feedback; captures one-bit success/failure verdicts + user corrections during normal operation and converts them into retrievable natural-language rules in external memory; harness + protocol + data released open source; tau-bench banking numbers — 1.6x baseline gain from verdicts alone + 2.6x from corrections + 22 of 84 previously-unsolvable tasks converted; cross-validated on Mistral Large + Claude Sonnet 5; sharpens Ray/Goyal negative [arxiv:2607.20668] into composable primitive — self-authoring succeeds when loop has external verdict signal, fails when it doesn't",
+    "date_covered": "2026-07-27"
+  },
+  {
+    "id": "nvidia-developer-2026-07-26-nemotron-3-ultra-rtl",
+    "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-leads-open-models-on-accuracy-and-efficiency-in-agentic-rtl-coding/",
+    "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding (Nirmal Kumar Juluru / Chenhui Deng / Cunxi Yu / Nathaniel Pinckney / Brucek Khailany, NVIDIA hardware+EDA research, 2026-07-26) — first specialized-domain benchmark disclosure for Nemotron 3 Ultra since June 8 general launch; nine agentic RTL coding task categories on CVDP — Ultra 97.1% pass rate vs GLM 5.2 92.1% vs Kimi K2.6 95.2%; token efficiency Ultra 6,629 tokens/iteration vs GLM 5.2 9,156 vs Kimi K2.6 22,579 (28-71% reduction); model card nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16; up to 5x higher throughput + 30% lower costs vs comparable open models; first head-to-head Nemotron-vs-Kimi-K2.6 number in vault — K2.6 loses both accuracy and token cost in specialized-coding-agent tier",
+    "date_covered": "2026-07-27"
+  },
+  {
+    "id": "arxiv:2607.21627",
+    "url": "https://arxiv.org/abs/2607.21627",
+    "title": "Do Modules Stay in Their Lane? Role Drift in Compound LLM Systems (Xiaoyang Cao / Siddarth Srinivasan / Michiel A. Bakker, affiliations not disclosed, Jul 7, 2026; surfaced in Jul 27 cs.AI listing likely after v2) — identifies role-drift failure mode in end-to-end RL of compound systems where modules deviate via role-violating shortcuts that improve system-level metrics while breaking modularity (named example: decomposer plants answers into sub-questions instead of decomposing); Role Anchor regularizer preserves how role prompt shifts module's next-token distribution relative to neutral prompt; 86% of apparent RL gain on decomposer pipeline vanishes once decomposer held to its role — sharpest empirical warning yet against naive end-to-end RL on compound systems; composes with Ray/Goyal negative [arxiv:2607.20668] and static-benchmark-overcounting convergence (AppWorld-UL + LLMs-Get-Lost + ICAE-Bench + WorkBuddy)",
+    "date_covered": "2026-07-27"
+  },
+  {
     "id": "arxiv:2607.21557",
     "url": "https://arxiv.org/abs/2607.21557",
     "title": "OpenForgeRL: Train Harness-native Agents in Any Environment (Xiao Yu / Baolin Peng / Ruize Xu / Hao Zou / Qianhui Wu / Hao Cheng / Wenlin Yao / Nikhil Singh / Zhou Yu / Jianfeng Gao, MSR-heavy, Jul 23, 2026) — open-infra RL trainer that leaves harness (Claude Code / Codex / OpenClaw) unchanged; lightweight proxy intercepts model calls and records training data; Kubernetes orchestrator runs each rollout in isolated remote containers; ClawEval 31.7 pass@1 / 55.9 pass@3, QwenClawBench 33.7, OSWorld-Verified 37.7, Online-Mind2Web 63.0, WebVoyager 72.3; outperforms open baselines of similar size on nearly all benchmarks; CC-BY-4.0; authors' own caveat: RL enhances self-verification and tool use but error recovery remains weak — first open-infra recipe to invert the wrapper-matters-more-than-backbone thread by training the base FOR the harness rather than optimizing the harness",
