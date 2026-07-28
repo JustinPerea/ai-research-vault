@@ -1,5 +1,47 @@
 [
   {
+    "id": "anthropic-news-2026-07-27-position-open-weights",
+    "url": "https://www.anthropic.com/news/position-open-weights-models",
+    "title": "Our position on open-weights models (Dario Amodei, Anthropic, Jul 27, 2026) — formal Anthropic statement breaking prior silence: 'Anthropic has never advocated for a ban on open-weights models' + models without dangerous capabilities are 'a public good'; endorses three targeted measures — (a) chip export controls to China, (b) crackdown on industrial-scale distillation by state-backed actors (via ToS + account-banning of abuse, distinct from banning open weights per se), (c) mandatory safety testing for ALL sufficiently capable models regardless of open/closed licensing on cyber + biological + alignment risks; cites Anthropic modular-training research + UK AI Security Institute open-weights irreversibility report + DOJ chip-smuggling cases + scaling laws; silent on Anthropic's own open-weight release plans; first-of-kind vault entry — formal frontier-lab open-weights policy position",
+    "date_covered": "2026-07-28"
+  },
+  {
+    "id": "arxiv:2607.24653",
+    "url": "https://arxiv.org/abs/2607.24653",
+    "title": "Kimi K3: Open Frontier Intelligence (Kimi Team, 400+ contributors, Moonshot AI, Jul 27, 2026) — 2.8T-parameter MoE with 104B activated parameters; 896 routed experts + 16 active per token; 1M-token context + native vision; architectural contributions Delta Attention + Attention Residuals + Stable LatentMoE for routing regularization; ~2.5x claimed improvement in overall scaling efficiency; RL post-training across general + agentic + coding domains; multiple reasoning-effort levels supported; self-positioned trailing Claude Fable 5 + GPT-5.6 Sol, ahead of other open + evaluated proprietary models; weights fully open-sourced; #5 HF Daily Papers Jul 28 (36 upvotes); largest openly-released frontier-class model to date; first credible open competitor to Claude Opus 5 / Fable 5 / GPT-5.6 Sol since DeepSeek-V4; NOT local-fit for M5 Max 64 GB (>700 GB at IQ1) — cloud-tier open model",
+    "date_covered": "2026-07-28"
+  },
+  {
+    "id": "arxiv:2607.22798",
+    "url": "https://arxiv.org/abs/2607.22798",
+    "title": "StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents (Yan Yang / Xiangru Jian / Ziyang Luo / Zirui Zhao / Yutong Dai / Ziji Shi / Hanshu Yan / Jun Hao Liew / Silvio Savarese / Junnan Li, Salesforce AI Research inferred, Jul 24, 2026) — code-first multi-agent computer-use harness; main agent uses code to touch files/backends/DOM directly + specialized GUI subagent handles only perception-required tasks; central thesis 'a screenshot is only a lossy rendering of the underlying program state; code can inspect and modify that state directly'; on OSWorld 2.0 Claude Opus 4.8 binary 20.6%->26.9% + partial 54.8%->61.6% at ~9x lower cost/task vs screenshot-only baseline; GUI subagent invoked for 28 of 108 tasks (1.1% of main-agent steps); code-only variant no-GUI-subagent hits only 45.9% partial — falling below screenshot baseline (confirms state-first + GUI-fallback split does the work); HF Daily Papers #4 (38 upvotes); actionable primitive — spend engineering budget on harness design, not model swap",
+    "date_covered": "2026-07-28"
+  },
+  {
+    "id": "arxiv:2607.24280",
+    "url": "https://arxiv.org/abs/2607.24280",
+    "title": "MAPD — From Proprietary to Open-Source: Multi-Agent Protocol Distillation in Agentic Search (Junlin Liu / Jiangwang Chen / Zixin Song / Shuaiyu Zhou / Chunji Lv / Hank Wu / Kailin Jiang / Jinyang Wu / Bohan Yu / Chenxi Zhou, Jul 27, 2026) — sidesteps that 'conventional logit-matching is precluded by hidden logits and mismatched tokenizers' when distilling closed frontier models into open students; offline multi-agent system decomposes queries + retrieves evidence + repairs searches + converts traces into structured JSON protocol containing task type + reasoning plans + grounding facts; normalized protocol becomes training target for privileged student policy branch; sidesteps tokenizer mismatch + style drift; 7 QA benchmarks — Qwen3-1.7B 39.4% avg + Qwen3-4B 44.4% avg; HF Daily Papers #2 (40 upvotes); third answer to 'turn expensive teacher-model interaction into reusable offline signal' alongside Experience Distillation [arxiv:2607.21051] + ReOPD [arxiv:2607.04763]",
+    "date_covered": "2026-07-28"
+  },
+  {
+    "id": "arxiv:2607.22562",
+    "url": "https://arxiv.org/abs/2607.22562",
+    "title": "SF-AMS — Strategic Forgetting for Structured Memory in LLM Agent (Ning Yang / Siqi Li / Miaoxin Shen / Yuan Zhou / Meng Zhang / Tong Li / Haijun Zhang, surfaced in Jul 28 cs.AI new listing) — frames memory management for LLM agents as utility-driven survival problem; memory units scored by usage redundancy + temporal signals; hierarchical structure prioritizes entity-consistent information over noise; replaces static retrieval (rank-by-similarity top-k) with active eviction/consolidation cycle; LoCoMo + LongMemEval-s — Qwen2.5-7B multi-hop +9.65 F1 + GPT-4o-mini temporal +6.91 F1 + open-domain +6.53 F1 all over strongest baseline; compared against LightMem + MemO + A-Mem; missing scoring rule between 'keep everything' (mem0 default) and 'compress-while-auditing' (AREX)",
+    "date_covered": "2026-07-28"
+  },
+  {
+    "id": "arxiv:2607.22575",
+    "url": "https://arxiv.org/abs/2607.22575",
+    "title": "Temporal Context Reinstatement Drives Episodic-Like Order Memory in Long-Context Language Models (Mathis Pink / Vy Ai Vo / Qinyuan Wu / Jianing Mu / Javier Turek / Uri Hasson / Kenneth A. Norman / Sebastian Michelmann / Alexander Huth / Mariya Toneva, Princeton + MPI-SWS + Intel + UT Austin cluster, surfaced in Jul 28 cs.AI new listing) — mechanistic interpretability study of long-context LLMs on temporal-order-memory tasks over full-length novel dataset; model performance relies on one-dimensional temporal code reinstated during retrieval by a SINGLE 'time-reinstatement' attention head; code operates as timeline-index — sequential position across extended text encoded numerically inside residual stream + one specific attention head responsible for reactivating that code on 'what happened after X' queries; aligns with human episodic-memory mechanisms; two operational consequences — (a) long-context episodic retrieval is single-head circuit not distributed magic + more fragile AND more amenable to targeted intervention than assumed + (b) mechanistic justification for temporal-signal weight in memory-scoring functions (SF-AMS / MemCon eviction scores)",
+    "date_covered": "2026-07-28"
+  },
+  {
+    "id": "arxiv:2607.23884",
+    "url": "https://arxiv.org/abs/2607.23884",
+    "title": "Comparative Study of MCP and A2A for Multi-Agent Systems (Ionut Predoaia / Tuong Manh Vu / Konstantinos Barmpis / Dimitris Kolovos / Antonio García-Domínguez, University of York inferred, Jul 26, 2026) — first formal side-by-side implementation of same software-engineering task under both MCP + A2A protocols; evaluated against industry-derived requirements — discoverability + messaging + conversations + async communication + observability + interoperability + access control; findings — MCP 'lightweight implementation model with lower coordination complexity' but requires explicit application-layer handling of conversational state; A2A 'richer native support for stateful multi-turn coordination through protocol-level abstractions' at higher implementation cost; explicit single-scenario empirical-experience-report disclaimer + no latency/throughput/code-size numbers + no universal recommendation; first academic reference behind the MCP-vs-A2A trade-off vault has reasoned about heuristically; concrete decision rule — MCP for single-user/single-session/mostly-stateless tool calls + A2A for persistent multi-agent conversations + long-running handoffs + async cross-session coordination; pairs with ATWZ [arxiv:2607.22917] filesystem-state layer for MCP-based teams",
+    "date_covered": "2026-07-28"
+  },
+  {
     "id": "arxiv:2607.21653",
     "url": "https://arxiv.org/abs/2607.21653",
     "title": "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning (Jian Hu / Huiying Li / Hao Zhang / Binfeng Xu / Yifan Zhang / Shaokun Zhang / Hemil Desai / Michael Demoret / Pavlo Molchanov / Jan Kautz / Yi Dong, NVIDIA NeMo Labs, Jul 22, 2026) — PyTorch-native training framework for agentic RL research; compact + clean codebase deliberately positioned against Megatron-heavy stacks; asynchronous training for multimodal + MoE policies maintaining consistency across tokens + policy versions + model semantics; performance statistically comparable to Megatron-based SOTA under matched async protocols; CC-BY-4.0; open-sourced at github.com/NVIDIA-NeMo/labs-molt; 605 upvotes on HF Daily Papers (largest single-day count in vault window); second open-infra agentic-RL recipe of the week (companion to OpenForgeRL [arxiv:2607.21557] with opposite emphasis — Molt keeps the trainer compact, OpenForgeRL keeps the harness untouched via proxy)",
