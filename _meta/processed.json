@@ -42,6 +42,558 @@
     "date_covered": "2026-08-28"
   },
   {
+    "id": "arxiv:2608.25593",
+    "url": "https://arxiv.org/abs/2608.25593",
+    "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
+    "date_covered": "2026-08-27"
+  },
+  {
+    "id": "arxiv:2608.24358",
+    "url": "https://arxiv.org/abs/2608.24358",
+    "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
+    "date_covered": "2026-08-27"
+  },
+  {
+    "id": "arxiv:2608.26005",
+    "url": "https://arxiv.org/abs/2608.26005",
+    "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
+    "date_covered": "2026-08-27"
+  },
+  {
+    "id": "arxiv:2608.23041",
+    "url": "https://arxiv.org/abs/2608.23041",
+    "title": "AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces",
+    "date_covered": "2026-08-26"
+  },
+  {
+    "id": "arxiv:2608.21500",
+    "url": "https://arxiv.org/abs/2608.21500",
+    "title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+    "date_covered": "2026-08-26"
+  },
+  {
+    "id": "arxiv:2608.23740",
+    "url": "https://arxiv.org/abs/2608.23740",
+    "title": "AgentRoom: Concurrent Multi-Agent Coding in a CRDT-Backed Shared Workspace",
+    "date_covered": "2026-08-26"
+  },
+  {
+    "id": "deepmind-blog-2026-08-26-gemini-3-5-transcribe",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+    "date_covered": "2026-08-26"
+  },
+  {
+    "id": "arxiv:2608.23035",
+    "url": "https://arxiv.org/abs/2608.23035",
+    "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+    "date_covered": "2026-08-25"
+  },
+  {
+    "id": "arxiv:2608.23552",
+    "url": "https://arxiv.org/abs/2608.23552",
+    "title": "Prime Agent: A Self-Improving RLM Harness",
+    "date_covered": "2026-08-25"
+  },
+  {
+    "id": "arxiv:2608.23283",
+    "url": "https://arxiv.org/abs/2608.23283",
+    "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
+    "date_covered": "2026-08-25"
+  },
+  {
+    "id": "arxiv:2608.20953",
+    "url": "https://arxiv.org/abs/2608.20953",
+    "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+    "date_covered": "2026-08-25"
+  },
+  {
+    "id": "openai-news-2026-08-25-jalapeno",
+    "url": "https://openai.com/index/jalapeno-first-results/",
+    "title": "Jalapeño's first results show industry-leading speed and efficiency in AI inference",
+    "date_covered": "2026-08-25"
+  },
+  {
+    "id": "arxiv:2608.20634",
+    "url": "https://arxiv.org/abs/2608.20634",
+    "title": "AgentMercury: Your Agent Can Synthesize Verifiable Environments for Business Scenarios at scale",
+    "date_covered": "2026-08-24"
+  },
+  {
+    "id": "arxiv:2608.16425",
+    "url": "https://arxiv.org/abs/2608.16425",
+    "title": "ParaTempo: Efficient Parallel Reasoning via Temporal Confidence",
+    "date_covered": "2026-08-24"
+  },
+  {
+    "id": "arxiv:2608.21134",
+    "url": "https://arxiv.org/abs/2608.21134",
+    "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+    "date_covered": "2026-08-24"
+  },
+  {
+    "id": "arxiv:2608.19880",
+    "url": "https://arxiv.org/abs/2608.19880",
+    "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+    "date_covered": "2026-08-21"
+  },
+  {
+    "id": "arxiv:2608.18580",
+    "url": "https://arxiv.org/abs/2608.18580",
+    "title": "FACET: Preserving Source Intent and Executable State in Terminal Task Synthesis",
+    "date_covered": "2026-08-21"
+  },
+  {
+    "id": "arxiv:2608.20202",
+    "url": "https://arxiv.org/abs/2608.20202",
+    "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+    "date_covered": "2026-08-21"
+  },
+  {
+    "id": "arxiv:2608.19758",
+    "url": "https://arxiv.org/abs/2608.19758",
+    "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+    "date_covered": "2026-08-21"
+  },
+  {
+    "id": "mistral-news-2026-08-20-agentic-search",
+    "url": "https://mistral.ai/news/agentic-search",
+    "title": "Agentic Search",
+    "date_covered": "2026-08-20"
+  },
+  {
+    "id": "arxiv:2608.19197",
+    "url": "https://arxiv.org/abs/2608.19197",
+    "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "date_covered": "2026-08-20"
+  },
+  {
+    "id": "arxiv:2608.18423",
+    "url": "https://arxiv.org/abs/2608.18423",
+    "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+    "date_covered": "2026-08-20"
+  },
+  {
+    "id": "arxiv:2608.18852",
+    "url": "https://arxiv.org/abs/2608.18852",
+    "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+    "date_covered": "2026-08-20"
+  },
+  {
+    "id": "arxiv:2608.15888",
+    "url": "https://arxiv.org/abs/2608.15888",
+    "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+    "date_covered": "2026-08-20"
+  },
+  {
+    "id": "arxiv:2608.14036",
+    "url": "https://arxiv.org/abs/2608.14036",
+    "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
+    "date_covered": "2026-08-19"
+  },
+  {
+    "id": "arxiv:2608.17310",
+    "url": "https://arxiv.org/abs/2608.17310",
+    "title": "Agentic ESOpt: Fine-Tuning Long-Horizon LLM Agents with Minimal GPU Requirements",
+    "date_covered": "2026-08-19"
+  },
+  {
+    "id": "arxiv:2608.16157",
+    "url": "https://arxiv.org/abs/2608.16157",
+    "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+    "date_covered": "2026-08-19"
+  },
+  {
+    "id": "arxiv:2608.17528",
+    "url": "https://arxiv.org/abs/2608.17528",
+    "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+    "date_covered": "2026-08-19"
+  },
+  {
+    "id": "arxiv:2608.15008",
+    "url": "https://arxiv.org/abs/2608.15008",
+    "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
+    "date_covered": "2026-08-19"
+  },
+  {
+    "id": "arxiv:2608.17597",
+    "url": "https://arxiv.org/abs/2608.17597",
+    "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+    "date_covered": "2026-08-19"
+  },
+  {
+    "id": "arxiv:2608.15089",
+    "url": "https://arxiv.org/abs/2608.15089",
+    "title": "StateM: Reaching 95.3% Raw Accuracy, or a $15 Frontier Run, on Terminal-Bench 2.1 via Harness Scaling",
+    "date_covered": "2026-08-18"
+  },
+  {
+    "id": "arxiv:2608.15930",
+    "url": "https://arxiv.org/abs/2608.15930",
+    "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+    "date_covered": "2026-08-18"
+  },
+  {
+    "id": "arxiv:2608.13900",
+    "url": "https://arxiv.org/abs/2608.13900",
+    "title": "Agentic Transaction: Towards ACID-Compliant Agent Systems",
+    "date_covered": "2026-08-18"
+  },
+  {
+    "id": "arxiv:2608.13987",
+    "url": "https://arxiv.org/abs/2608.13987",
+    "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+    "date_covered": "2026-08-17"
+  },
+  {
+    "id": "arxiv:2608.13667",
+    "url": "https://arxiv.org/abs/2608.13667",
+    "title": "Second Thought: Reasoning in Parallel as LLM Agents Act and Observe",
+    "date_covered": "2026-08-17"
+  },
+  {
+    "id": "arxiv:2608.16798",
+    "url": "https://arxiv.org/abs/2608.16798",
+    "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+    "date_covered": "2026-08-17"
+  },
+  {
+    "id": "arxiv:2608.15127",
+    "url": "https://arxiv.org/abs/2608.15127",
+    "title": "From LLM Inference to Agentic Workloads: Characterization and Implications for Serving Systems",
+    "date_covered": "2026-08-15"
+  },
+  {
+    "id": "arxiv:2608.12990",
+    "url": "https://arxiv.org/abs/2608.12990",
+    "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
+    "date_covered": "2026-08-14"
+  },
+  {
+    "id": "arxiv:2608.10538",
+    "url": "https://arxiv.org/abs/2608.10538",
+    "title": "SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models",
+    "date_covered": "2026-08-14"
+  },
+  {
+    "id": "arxiv:2608.13560",
+    "url": "https://arxiv.org/abs/2608.13560",
+    "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+    "date_covered": "2026-08-14"
+  },
+  {
+    "id": "google-blog-gemini-3-7-flash-2026-08-13",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "title": "Introducing Gemini 3.7 Flash",
+    "date_covered": "2026-08-13"
+  },
+  {
+    "id": "arxiv:2608.12307",
+    "url": "https://arxiv.org/abs/2608.12307",
+    "title": "AI4AI at Test-Time: Strong-to-Weak Capability Transfer via Harnesses",
+    "date_covered": "2026-08-13"
+  },
+  {
+    "id": "arxiv:2608.11274",
+    "url": "https://arxiv.org/abs/2608.11274",
+    "title": "Agent Safety Should Be a Runtime Contract",
+    "date_covered": "2026-08-13"
+  },
+  {
+    "id": "arxiv:2608.11878",
+    "url": "https://arxiv.org/abs/2608.11878",
+    "title": "ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents",
+    "date_covered": "2026-08-13"
+  },
+  {
+    "id": "arxiv:2608.11079",
+    "url": "https://arxiv.org/abs/2608.11079",
+    "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+    "date_covered": "2026-08-12"
+  },
+  {
+    "id": "arxiv:2608.10875",
+    "url": "https://arxiv.org/abs/2608.10875",
+    "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
+    "date_covered": "2026-08-11"
+  },
+  {
+    "id": "arxiv:2608.10692",
+    "url": "https://arxiv.org/abs/2608.10692",
+    "title": "SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information",
+    "date_covered": "2026-08-11"
+  },
+  {
+    "id": "arxiv:2608.11338",
+    "url": "https://arxiv.org/abs/2608.11338",
+    "title": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+    "date_covered": "2026-08-11"
+  },
+  {
+    "id": "arxiv:2608.13606",
+    "url": "https://arxiv.org/abs/2608.13606",
+    "title": "MobileMem: Learning from a Year of Mobile Experiences",
+    "date_covered": "2026-08-11"
+  },
+  {
+    "id": "arxiv:2608.06113",
+    "url": "https://arxiv.org/abs/2608.06113",
+    "title": "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds",
+    "date_covered": "2026-08-10"
+  },
+  {
+    "id": "arxiv:2608.09096",
+    "url": "https://arxiv.org/abs/2608.09096",
+    "title": "Evo-Bench: Can Language Models Improve Agent Harness?",
+    "date_covered": "2026-08-10"
+  },
+  {
+    "id": "arxiv:2608.09802",
+    "url": "https://arxiv.org/abs/2608.09802",
+    "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+    "date_covered": "2026-08-10"
+  },
+  {
+    "id": "arxiv:2608.09819",
+    "url": "https://arxiv.org/abs/2608.09819",
+    "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+    "date_covered": "2026-08-10"
+  },
+  {
+    "id": "arxiv:2608.08467",
+    "url": "https://arxiv.org/abs/2608.08467",
+    "title": "LLM within MCP Matters: Measuring Inefficient Resource Utilization Driven by LLMs",
+    "date_covered": "2026-08-09"
+  },
+  {
+    "id": "arxiv:2608.08466",
+    "url": "https://arxiv.org/abs/2608.08466",
+    "title": "Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses",
+    "date_covered": "2026-08-09"
+  },
+  {
+    "id": "arxiv:2608.08793",
+    "url": "https://arxiv.org/abs/2608.08793",
+    "title": "Evidence-Calibrated Runtime Reconstruction for Agent Skills Across Heterogeneous Coding Agents",
+    "date_covered": "2026-08-09"
+  },
+  {
+    "id": "arxiv:2608.08311",
+    "url": "https://arxiv.org/abs/2608.08311",
+    "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+    "date_covered": "2026-08-08"
+  },
+  {
+    "id": "arxiv:2608.08300",
+    "url": "https://arxiv.org/abs/2608.08300",
+    "title": "Mitigating Over-Personalization in LLMs via Structured Memory",
+    "date_covered": "2026-08-08"
+  },
+  {
+    "id": "arxiv:2608.08239",
+    "url": "https://arxiv.org/abs/2608.08239",
+    "title": "The Replay Gap: Static Evaluation of Model Switching in LLM Agents Scores the Wrong World",
+    "date_covered": "2026-08-08"
+  },
+  {
+    "id": "arxiv:2608.05784",
+    "url": "https://arxiv.org/abs/2608.05784",
+    "title": "Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay",
+    "date_covered": "2026-08-07"
+  },
+  {
+    "id": "arxiv:2608.06301",
+    "url": "https://arxiv.org/abs/2608.06301",
+    "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+    "date_covered": "2026-08-07"
+  },
+  {
+    "id": "arxiv:2608.07449",
+    "url": "https://arxiv.org/abs/2608.07449",
+    "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
+    "date_covered": "2026-08-07"
+  },
+  {
+    "id": "arxiv:2608.07169",
+    "url": "https://arxiv.org/abs/2608.07169",
+    "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+    "date_covered": "2026-08-07"
+  },
+  {
+    "id": "arxiv:2608.05466",
+    "url": "https://arxiv.org/abs/2608.05466",
+    "title": "Recursive Synthesis for Long-Horizon Terminal Tasks",
+    "date_covered": "2026-08-06"
+  },
+  {
+    "id": "arxiv:2608.06370",
+    "url": "https://arxiv.org/abs/2608.06370",
+    "title": "The Bitter Lesson of Tool Calling",
+    "date_covered": "2026-08-06"
+  },
+  {
+    "id": "arxiv:2608.06477",
+    "url": "https://arxiv.org/abs/2608.06477",
+    "title": "StepJack: Benchmarking Computer-Use Agent Safety Against Multi-Step Indirect Prompt Injection",
+    "date_covered": "2026-08-06"
+  },
+  {
+    "id": "arxiv:2608.03509",
+    "url": "https://arxiv.org/abs/2608.03509",
+    "title": "SkillJack: Persistent Skill Backdoors in Self-Evolving Agents",
+    "date_covered": "2026-08-05"
+  },
+  {
+    "id": "arxiv:2608.04828",
+    "url": "https://arxiv.org/abs/2608.04828",
+    "title": "Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?",
+    "date_covered": "2026-08-05"
+  },
+  {
+    "id": "arxiv:2608.04570",
+    "url": "https://arxiv.org/abs/2608.04570",
+    "title": "The Personalization Mirage: How LLMs Fabricate User Profiles, and Why Self-Monitoring Misleads",
+    "date_covered": "2026-08-05"
+  },
+  {
+    "id": "arxiv:2608.04746",
+    "url": "https://arxiv.org/abs/2608.04746",
+    "title": "Caching for the Future: Scrub Jay Episodic Memory Principles for Agent Memory Systems",
+    "date_covered": "2026-08-05"
+  },
+  {
+    "id": "arxiv:2608.05013",
+    "url": "https://arxiv.org/abs/2608.05013",
+    "title": "OneDayAgent: Towards a Long-Horizon Harness for Autonomous Agents",
+    "date_covered": "2026-08-04"
+  },
+  {
+    "id": "arxiv:2608.04003",
+    "url": "https://arxiv.org/abs/2608.04003",
+    "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+    "date_covered": "2026-08-04"
+  },
+  {
+    "id": "arxiv:2608.04289",
+    "url": "https://arxiv.org/abs/2608.04289",
+    "title": "SafeCommit: Certifying When Memory-Grounded Agents May Safely Act",
+    "date_covered": "2026-08-04"
+  },
+  {
+    "id": "mistral-news-2026-08-04-shieldstral",
+    "url": "https://mistral.ai/news/shieldstral/",
+    "title": "Introducing Shieldstral",
+    "date_covered": "2026-08-04"
+  },
+  {
+    "id": "arxiv:2608.03700",
+    "url": "https://arxiv.org/abs/2608.03700",
+    "title": "When Agents Learn to Be You: AntiSkillBench",
+    "date_covered": "2026-08-04"
+  },
+  {
+    "id": "arxiv:2608.01964",
+    "url": "https://arxiv.org/abs/2608.01964",
+    "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+    "date_covered": "2026-08-03"
+  },
+  {
+    "id": "arxiv:2608.01678",
+    "url": "https://arxiv.org/abs/2608.01678",
+    "title": "Progressive Agent Skill Generation via Reinforcement Learning (Skill-α)",
+    "date_covered": "2026-08-03"
+  },
+  {
+    "id": "arxiv:2608.02287",
+    "url": "https://arxiv.org/abs/2608.02287",
+    "title": "SKT: Skill-Use Training at Scale via Verified Synthetic Data Generation",
+    "date_covered": "2026-08-03"
+  },
+  {
+    "id": "arxiv:2608.02499",
+    "url": "https://arxiv.org/abs/2608.02499",
+    "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+    "date_covered": "2026-08-03"
+  },
+  {
+    "id": "arxiv:2607.29377",
+    "url": "https://arxiv.org/abs/2607.29377",
+    "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+    "date_covered": "2026-07-31"
+  },
+  {
+    "id": "arxiv:2608.00155",
+    "url": "https://arxiv.org/abs/2608.00155",
+    "title": "AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?",
+    "date_covered": "2026-07-31"
+  },
+  {
+    "id": "arxiv:2607.28227",
+    "url": "https://arxiv.org/abs/2607.28227",
+    "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+    "date_covered": "2026-07-30"
+  },
+  {
+    "id": "arxiv:2607.28272",
+    "url": "https://arxiv.org/abs/2607.28272",
+    "title": "MemHarness: Memory Is Reconstructed, Not Replayed",
+    "date_covered": "2026-07-30"
+  },
+  {
+    "id": "arxiv:2607.28802",
+    "url": "https://arxiv.org/abs/2607.28802",
+    "title": "Model or Harness? An Interaction-Centric Taxonomy for Localizing Agent Failures",
+    "date_covered": "2026-07-30"
+  },
+  {
+    "id": "anthropic-research-2026-07-30-cyber-evals",
+    "url": "https://www.anthropic.com/research/investigating-incidents-cybersecurity-evals",
+    "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+    "date_covered": "2026-07-30"
+  },
+  {
+    "id": "google-research-2026-07-30-science-one",
+    "url": "https://research.google/blog/science-one-framework-a-verifiable-autonomous-research-framework-via-chain-of-evidence/",
+    "title": "Science One Framework: A verifiable autonomous research framework via Chain-of-Evidence",
+    "date_covered": "2026-07-30"
+  },
+  {
+    "id": "arxiv:2607.26115",
+    "url": "https://arxiv.org/abs/2607.26115",
+    "title": "GPT-Red: Automated Red Teaming via Self-Play at Scale",
+    "date_covered": "2026-07-30"
+  },
+  {
+    "id": "arxiv:2607.26637",
+    "url": "https://arxiv.org/abs/2607.26637",
+    "title": "Filesystem-Based Memory for LLM Agents: Organization, Evolution, and Sustainability",
+    "date_covered": "2026-07-29"
+  },
+  {
+    "id": "arxiv:2607.24368",
+    "url": "https://arxiv.org/abs/2607.24368",
+    "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+    "date_covered": "2026-07-29"
+  },
+  {
+    "id": "arxiv:2607.27155",
+    "url": "https://arxiv.org/abs/2607.27155",
+    "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+    "date_covered": "2026-07-29"
+  },
+  {
+    "id": "arxiv:2607.26784",
+    "url": "https://arxiv.org/abs/2607.26784",
+    "title": "SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution",
+    "date_covered": "2026-07-29"
+  },
+  {
+    "id": "arxiv:2607.25431",
+    "url": "https://arxiv.org/abs/2607.25431",
+    "title": "CodeNib: A Multi-View Data System for Serving Repository Context to Coding Agents",
+    "date_covered": "2026-07-29"
+  },
+  {
     "id": "anthropic-news-2026-07-27-position-open-weights",
     "url": "https://www.anthropic.com/news/position-open-weights-models",
     "title": "Our position on open-weights models (Dario Amodei, Anthropic, Jul 27, 2026) — formal Anthropic statement breaking prior silence: 'Anthropic has never advocated for a ban on open-weights models' + models without dangerous capabilities are 'a public good'; endorses three targeted measures — (a) chip export controls to China, (b) crackdown on industrial-scale distillation by state-backed actors (via ToS + account-banning of abuse, distinct from banning open weights per se), (c) mandatory safety testing for ALL sufficiently capable models regardless of open/closed licensing on cyber + biological + alignment risks; cites Anthropic modular-training research + UK AI Security Institute open-weights irreversibility report + DOJ chip-smuggling cases + scaling laws; silent on Anthropic's own open-weight release plans; first-of-kind vault entry — formal frontier-lab open-weights policy position",
