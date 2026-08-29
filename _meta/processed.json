@@ -1,5 +1,41 @@
 [
   {
+    "id": "arxiv:2608.27311",
+    "url": "https://arxiv.org/abs/2608.27311",
+    "title": "Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification (Jinghan Xu / Yikai Zhang / Aili Chen / Weiyuan Li / Jiaqing Liang / Deqing Yang, submitted Aug 27, 2026) — HarnessLens: budget-aware automated harness evolution; derives candidate modifications from execution trajectories and selectively verifies on behavior-relevant tasks via an attributable-evidence gate (vs propose-and-verify scoring every candidate on a fixed task set); three agent harnesses × four benchmarks: +7.6–13.6% average held-out vs competing baselines at substantially less evaluation budget; github.com/jhxu5214/HarnessLens; the verification-budget layer on the WikiSkill / PILOT / JIT-Agent / AutoSaddler pile",
+    "date_covered": "2026-08-29"
+  },
+  {
+    "id": "arxiv:2608.27141",
+    "url": "https://arxiv.org/abs/2608.27141",
+    "title": "Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents (Chenhao Wu / Haoxuan Jia / Yang Liu / Yingguang Yang / Yuhan Lin / Chongyang Zhang / Hao Zheng / Yulin Huang / Jianshen Zhang / Yongzhi Qi / Shang Luo / Kefu Xu / Jifeng Zhu / Bin Chong, Aug 27, 2026) — trajectory-scoped monitors re-initialize safety state at episode boundaries; against fragmented cross-iteration attacks every trajectory-scoped monitor has TPR=FPR however expressive, while a monitor retaining cross-iteration state separates perfectly; geometrically decaying risk score insufficient (cooling-off is a constant independent of horizon N); LoopHarness restores persistent non-decaying loop-level safety state; under mediated commits and arbiter detection floor δ_M expected unauthorized irreversible actions bounded by B+m−1+m/δ_M (constant in N; B+m−1 term is model-free and survives a fully colluding verifier); Agent-SafetyBench paired clean/attacked + outer-state attack suite + per-module ablations + adaptive white-box red team",
+    "date_covered": "2026-08-29"
+  },
+  {
+    "id": "arxiv:2608.26991",
+    "url": "https://arxiv.org/abs/2608.26991",
+    "title": "ASIL: Replacing Screenshot-and-Click with Structured State and Semantic Actions (Rui Xie / Lu Chen, Aug 27, 2026) — Agent-Software Interaction Layer: structured JSON observations + code-executable semantic actions via deepest feasible access path per app; 15 applications, 300 single-app + 80 multi-app tasks; closed models above 80 success at fewer than five actions/task; repaired screenshot-and-click under 50-step budget 6.6 and 26.6 strict success (15.0 and 53.3 on easier OSWorld-comparable band); exceeds LibreOffice UNO API +28–38 strict points but only matches draw.io MCP content contract; small-scale SFT Qwen3.5-2B 58.0→72.1 and Qwen3.5-9B 66.6→80.4, resource-limited on-policy RL to 74.4 / 82.2; project page sharryxr.github.io/ASIL; application-layer restatement of StateAct",
+    "date_covered": "2026-08-29"
+  },
+  {
+    "id": "arxiv:2608.26480",
+    "url": "https://arxiv.org/abs/2608.26480",
+    "title": "Zero-Shot Self-Orchestration with Ledger-Based Control for Improved LLM Coding Performance (Victor Gao / Vida Khosrowshahi / Ali Khosrowshahi / Xihao Sun / Juhyun Lee / Simon / Lee, Aug 27, 2026) — manager–worker scaffold over shared filesystem workspace, no training, no per-benchmark tuning, vs same model single-pass; nine models (five open-weight 9B–~2.8T + four frontier closed) on 100 latest hard LiveCodeBench; conditional gains: Qwen3.8-27B +23.4, GPT-5.6-Luna +10.6, GPT-5.6-Terra +8.0 (five paired passes); Kimi-K3 +30.4 and MiniMax-M3 +11.0 with reasoning off (p<10^-4), +42/+12 single-pass at 128k cap; Qwen3.6-35B −1 to −9 reasoning off; Opus-5+manager 91% one-pass study high; manager ~3× tokens; Terra+manager 85.0 vs Fable 5 single-call 87.4 (p=0.59) at $11.71 vs $61.11 per 100-problem pass; Qwen-27B arm $51.75 self-hostable; recurring mechanisms context management (short worker calls + shared notes) and problem decomposition; cs.MA",
+    "date_covered": "2026-08-29"
+  },
+  {
+    "id": "arxiv:2608.26846",
+    "url": "https://arxiv.org/abs/2608.26846",
+    "title": "Evaluating Confidence-Gated Retrieval with Matched Trajectory Replay (Prateek Chhikara, Aug 27, 2026) — protocol holding candidate answer states, evidence, budgets, and action costs fixed to compare confidence-to-action maps; raw verbalized confidence vs post-hoc isotonic calibration; Mistral/GPT/Qwen on HotpotQA+MuSiQue (six pairs); at the same numerical commitment threshold calibration changes which questions agents commit to; committed-answer accuracy +up to 41pp across all six pairs; coverage drops and retrieval use rises; overall +up to 15pp HotpotQA and −up to 17pp MuSiQue (more selective operating point, not better answers or ranking); pre-retrieval calibration map holds at retrieval depths 1–2 and loses to raw confidence at depth 3 for all three models; additional evidence helps on average but p does not identify which episodes benefit from another retrieval; retrieval needs a separate value-of-information/utility estimate; sibling of Calibrated Enough (2026-08-28)",
+    "date_covered": "2026-08-29"
+  },
+  {
+    "id": "openai-news-2026-08-28-cursor-spacex",
+    "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+    "title": "Our decision on Cursor following its acquisition by SpaceX (OpenAI, Aug 28, 2026) — notified SpaceX of intent to wind down the contract providing OpenAI models to Cursor; proposed shutoff November 12, 2026 (maximum notice under the contract); change-of-control window after SpaceX closed Anysphere/Cursor acquisition; stated reason: cannot be confident SpaceX will use OpenAI technology within ToS, citing prior X contract breach post-Twitter acquisition and xAI ToS violation (Musk admitted under oath); will not provide future models to Cursor (Astra named); explicit respect for Cursor team/product; affected party is developers who rely on OpenAI models in Cursor; first-party OpenAI-in-Cursor supply-chain cutoff, not a model-quality claim",
+    "date_covered": "2026-08-29"
+  },
+  {
     "id": "arxiv:2608.27454",
     "url": "https://arxiv.org/abs/2608.27454",
     "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution (Liyan Tang / Cyrus Rashtchian / Chun-Sung Ferng / Andrew Tomkins / Da-Cheng Juan / Tu Vu, Google Research + Virginia Tech, submitted Aug 27, 2026) — three-layer workspace (immutable raw traces + compounding wiki of pattern pages/evolution log/skill-impact tracker + evolving SKILL.md tree); Inference Agent barred from wiki during training; Wiki Maintainer consolidates traces; Skill Proposer (ReAct) proposes one atomic create/patch; validation gating keeps skill only if val score rises; wiki never rolled back; five benchmarks (LiveMath / SealQA / SpreadsheetBench / OfficeQA / ALFWorld) × five models (Qwen-3.5-4B/9B, Qwen-3.6-27B, Gemma-4-31B, Gemini-3.5-Flash); WikiSkill avg 38.5/47.4/63.3/54.9/68.1 vs strongest prior skill-evolution method 35.2/42.3/53.3/49.1/56.1; scale complementarity +12.3/+17.5/+23.9 on Qwen 4B/9B/27B; Qwen-3.5-9B+WikiSkill 47.4 beats Qwen-3.6-27B no-skill 39.4; cross-model transfer sometimes beats self-evolved skills; ablation Skill-Proposer wiki access 48.7→63.7, Inference-Agent wiki access during training hurts; HF Daily Papers; native Anthropic SKILL.md format",
