@@ -1,5 +1,41 @@
 [
   {
+    "id": "arxiv:2608.27427",
+    "url": "https://arxiv.org/abs/2608.27427",
+    "title": "Persona–Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit (Yisen Xi, Independent Researcher Beijing, submitted Aug 27, 2026) — PES: persona (instructions/tone) in a permissive domain, execution faceless and audited in a restrictive domain, one employee identity, fail-closed contract bridge (status summaries out; data bodies stay except a graded DLP-masked E2 exception; identity continuous); MCP-with-ACL + deny/ask/allow + DLP + audit; FIA Workbench pilot, five decisions 2026-07-19→2026-08-17; mechanism check R=0.00 (0/5 execution-side re-validation under L1–L5 persona perturbation) on five model configs (deepseek-v4-flash / v4-pro / qwen3.8-max / kimi-k3 / glm-5.3); V2 isolation passed on four, qwen3.8-max 0/4 clean SOP non-convergence; pre-separation SOP path decoupled from persona by omission not construction (explicit injection changed execution 2/2); implementation not public; applicability only when multi-user + execution audit + persona churn hold jointly",
+    "date_covered": "2026-08-30"
+  },
+  {
+    "id": "arxiv:2608.27439",
+    "url": "https://arxiv.org/abs/2608.27439",
+    "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution (Junjie Zhang / Hui Liu / Kecheng Chen / Haoliang Li, City University of Hong Kong; Xianbo Mo / Changsheng Chen, Shenzhen MSU-BIT University, submitted Aug 27, 2026) — distills attack trajectories into a Markdown attack skill; tool-effectiveness profile + Deciding-Tool Attribution + validation ratchet (keep rewrite only if it strictly beats the incumbent on held-out val); targets Claude Code and Codex harnesses; ASB 80/40/280 + AgentHarm 40/20/148; MiniMax-M2.5 / DeepSeek-V4-Flash / Qwen3.5-35B; attacker GPT-4o mini, B=20, R=4; Claude Code MiniMax ASB 93.2 ASR vs FlipAttack 91.8 / RedCodeAgent 76.4, 1.8 tool calls vs No-Skill 77.5/3.0; Codex MiniMax ASB 92.8 vs FlipAttack 81.1; DeepSeek Claude Code AgentHarm 74.3 vs FlipAttack 67.9 (RedCodeAgent 37.5 hurt); ablation drop profile 93.2→76.9, drop trajectories 85.0, drop attribution 87.5; zero-shot MiniMax+Claude-Code skill to Codex 90.5 vs No-Skill 80.8, Qwen3-8B 89.7→95.3; Claude Code is an attack target in the tables",
+    "date_covered": "2026-08-30"
+  },
+  {
+    "id": "arxiv:2608.27266",
+    "url": "https://arxiv.org/abs/2608.27266",
+    "title": "Naive Prompt Optimization: Rethinking the Need for Complex Prompt Search (Yuan Chang / Xiaoqi Chen, Purdue University, submitted Aug 27, 2026) — single-lineage teacher rewrite from full rollout traces + rewards (not just scores like OPRO), no Pareto pool; student Qwen3-8B; teachers Qwen3-8B / DeepSeek-V4-Flash-preview-0424 / GPT-5.5; IFBench / HotpotQA comparable or better than GEPA at slightly fewer rollouts (3,500 vs 3,593; 6,800 vs 6,871) with larger reflection minibatches (50/10 and 40/20 vs GEPA 3); advantage widens with stronger teachers; prompts transfer verbatim, strongest within family (Qwen 8B→14B/32B; Llama-3.1-8B→70B), noisier cross-family; 22 TextArena games NPO≈GEPA, GRPO wins some games prompt-opt cannot; gold-answer overlap with HotpotQA val set stays negligible (training-set overlap grows as expected)",
+    "date_covered": "2026-08-30"
+  },
+  {
+    "id": "arxiv:2608.27449",
+    "url": "https://arxiv.org/abs/2608.27449",
+    "title": "SWE-Prime: Fewer Trajectories, Better Performance (Dewu Zheng / Yanlin Wang / Jianxing Yu / Zibin Zheng, Sun Yat-sen University; Ruizhe Ye / Yang Ye / Ensheng Shi / Xilin Liu / Yuchi Ma, Huawei Cloud; Hongyu Zhang, Chongqing University, submitted Aug 27, 2026) — two-stage SFT selection: trajectory (process quality + result quality + HDBSCAN representativeness) then semantic segments; loss only on selected segments, full sequence as context; pool 32,161 resolved of 67,074 SWE-rebench OpenHands trajectories (Qwen3-Coder-480B-A35B); 10% subset beats 100% resolved SFT, relative gains vs full resolved up to 24.2% SWE-Bench Verified and 12.2% SWE-Bench Pro; Table 1 Verified overall: Qwen3-30B-A3B-Instruct-2507 25.2 / 36.8 / 39.6 (raw / full SFT / SWE-Prime); GLM-4.7-Flash 40.4 / 41.4 / 51.4; Qwen3-Coder-30B-A3B 44.8 / 51.0 / 53.2; Stage 2 ablation drops those; Random-10% near-useless or negative; git-hacking / observe-edit-verify / adjacent-redundancy filters",
+    "date_covered": "2026-08-30"
+  },
+  {
+    "id": "arxiv:2608.27147",
+    "url": "https://arxiv.org/abs/2608.27147",
+    "title": "Thomson: Continual Learning of Frontier Models for SovereignAI (Shengzhuang Chen / Jerrod Parker / Yejin Bang / Andrew M. Bean / Nabeel Seedat / Stefan Winzeck / Daniil Glazko / Jannik Zgraggen / Fangyi Yu / Scott Arnott / Dietrich Trautmann / Luca Ciuffreda / Guglielmo Bonifazi / Davide Romano / Bradley Bell / Kirsty Fielding / Daniele Giofrè / Tom Zielund / Ipshita Chatterjee / Sneha Murthy Ghantasala / Manpreet Nanreh / John Scoville / Maciej Sakowicz / Wassim Seifeddine / Lukas Thede / Jonathan Richard Schwarz, Thomson Reuters + Imperial College London / DatologyAI / Lambda, submitted Aug 27, 2026) — Continual Learning on Qwen3.6-35B-A3B (Small, open-weight) and Qwen3.5-397B (Large, closed); weights huggingface.co/thomsonreuters/Thomson-1.0-Small (35B total / 3B activated, 262,144 context, BF16); value re-alignment (Fisher-routed directional ablation + Constitutional DPO) → 200B-token mid-training + model merge → two-stage DPO (no standalone SFT) → short- then long-context RL including planner–worker–reporter Deep Research; Small overall 74.6 vs Qwen3.6-35B 71.7 / Gemma4-31B 71.2 / Haiku 4.5 68.2; General Agent 85.8 vs Qwen 80.3; coding 37.4 vs 39.8 (forgetting); Terminal-Bench 2.1 40.5 vs 45.2; Political Neutrality 98.5 vs 78.5; Large overall 78.5 vs Opus 4.8 79.5, coding 39.9 vs 57.4; team ≤36, ≤368 B200s, three months, final Large training run conservatively under USD 450,000; ~1.63e23 FLOP / 35,207 B200 GPU-hours for Small",
+    "date_covered": "2026-08-30"
+  },
+  {
+    "id": "arxiv:2608.27455",
+    "url": "https://arxiv.org/abs/2608.27455",
+    "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes (Yufan Wu / Zhengyi Hu / Lang Wei / Ruichen Li / Qifan Yang / Ting Zhu, The Ohio State University; Yinghui He, Princeton University, submitted Aug 27, 2026) — CritBank from weaker same-family failures + critiques; CritICL-static (family profile) vs CritICL-dynamic (predict failure modes); Qwen2.5-72B-Instruct CritICL-static overall 59.2 vs 5-shot fixed 56.3 vs Consistency@5 59.0, 1 generation; Qwen2.5-32B static 49.8 vs Consistency@7 49.5; Llama-3.1-70B static 53.1 vs Consistency@5 51.3; MATH 72B static 84.0 vs Consistency@5 83.2 (bootstrap p=0.018); AMC/AIME deltas not significant; MATH token cost 32B CritICL-static 3768 vs Consistency@7 5440 vs Self-Reflection 7533; within-family Spearman 0.91 (Qwen aggregate→72B), cross-family much weaker; github.com/umwyf/CRITICL; HF Daily Papers",
+    "date_covered": "2026-08-30"
+  },
+  {
     "id": "arxiv:2608.27311",
     "url": "https://arxiv.org/abs/2608.27311",
     "title": "Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification (Jinghan Xu / Yikai Zhang / Aili Chen / Weiyuan Li / Jiaqing Liang / Deqing Yang, submitted Aug 27, 2026) — HarnessLens: budget-aware automated harness evolution; derives candidate modifications from execution trajectories and selectively verifies on behavior-relevant tasks via an attributable-evidence gate (vs propose-and-verify scoring every candidate on a fixed task set); three agent harnesses × four benchmarks: +7.6–13.6% average held-out vs competing baselines at substantially less evaluation budget; github.com/jhxu5214/HarnessLens; the verification-budget layer on the WikiSkill / PILOT / JIT-Agent / AutoSaddler pile",
