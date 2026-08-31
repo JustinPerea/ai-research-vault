@@ -1,5 +1,47 @@
 [
   {
+    "id": "arxiv:2608.28497",
+    "url": "https://arxiv.org/abs/2608.28497",
+    "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces (Ahmed Hereiz / Yingzhe Lyu / Hao Li / Bram Adams / Ahmed E. Hassan, Queen's SAIL, submitted Aug 28, 2026) — 1,926 GitHub marketplace repos, 8,351 plugins, 77,773 plugin-touching commits, search 2 Apr 2026; plugin-touching commits 8.8× Oct 2025→Mar 2026 (2,923→25,618); SE plugins 61.3%; 34.4% multi-component; skills 22× (1,776→39,287); feat 39.6% vs OSS 17.2%; Claude co-authors 34.9%; 74% of sampled docs commits are runtime SKILL.md (reclass 10.3%→1.7%); intra-skills script–Markdown Lift 1.37–1.58; 78% of 64 sampled co-change PRs functionally coupled; dataset github.com/SAILResearch/agentic_plugin_marketplace",
+    "date_covered": "2026-08-31"
+  },
+  {
+    "id": "arxiv:2608.28553",
+    "url": "https://arxiv.org/abs/2608.28553",
+    "title": "Logos: An Agent Harness on a Cross-Process Bus (Hanzhang Jia, Sussex; Liheng Zeng / Hao Cheng / Yi Gao / Bo Ma, Zhejiang Gongshang / Shanghai Shuyuan, submitted Aug 28, 2026) — ROS-like: plugin = process, only shared state = append-only transcript; 80/80 sessions resume with no repeated effect after kills at 4 tool-call-cycle boundaries; same-fault vs single-process: one fault interrupts every co-resident session vs one node; bus hop median 0.215 ms vs first token 177 ms; Table 1: MCP still keeps composition+session in the host; Logos moves composition/assembly out",
+    "date_covered": "2026-08-31"
+  },
+  {
+    "id": "arxiv:2608.28027",
+    "url": "https://arxiv.org/abs/2608.28027",
+    "title": "String: An Agentic OS Where Every App Is a Markdown File (Jookyung Song / Nojun Kwak / Simyung Chang, SNU & H1R.AI, submitted Aug 28, 2026) — SFMD; two verbs /open /act; resident interface 53 tokens vs full JSON schemas 103,518 (100 OpenAPI apps); SkillsBench 87 tasks String 51.8% vs skills 50.5%, 33.5% fewer tokens among completed episodes; staging wrong-action 28%→2%; disclosing one tier one turn early costs 11.6 / 23.3 pp; privilege follows provenance (local shell, remote HTTP only); github.com/string-os",
+    "date_covered": "2026-08-31"
+  },
+  {
+    "id": "arxiv:2608.28476",
+    "url": "https://arxiv.org/abs/2608.28476",
+    "title": "ContextPilot: Teaching Agents for Proactive Context Management via Fine-grained RL (Zhuoshi Pan / Qizhi Pei / Junru Lu / Honglin Lin / H. Vicky Zhao / Di Yin / Xing Sun, Tsinghua / Tencent Youtu / Shanghai AI Lab, submitted Aug 28, 2026) — tools: plan, memorize/readMemory, foldHistory/summarize/compress; ContextPilot-8B-RL avg 69.40 vs StateLM-8B-RL 65.85 (32K); Qwen3-8B w/o tools 128K avg 45.93; BrowseComp+ 54.18 vs 48.84 SFT; WebExplorer-8B avg 50.10 vs SUPO 49.09; working context ~8–10K vs ~30K linear; github.com/Tencent/ContextPilot; HF Daily 2026-08-31",
+    "date_covered": "2026-08-31"
+  },
+  {
+    "id": "arxiv:2608.28363",
+    "url": "https://arxiv.org/abs/2608.28363",
+    "title": "EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses (Tanmay Sah / Dolly Sah / Harshul Jain / Tanya Sah, Independent, submitted Aug 28, 2026) — 600 one-shot tasks → 197 capability-positive mutations fail recoverability; conventional repair 0/197 under L0; oracle L0 48/197, L1 191/197; exact-address grounding 0/48→38/48 (79.2%) on S0; L1 142/143 (99.3%) on S1; D0L1 rescues 180/197 (91.37%); fourth keep/drop beside WikiSkill never-rollback / RedEvoAgent incumbent-relative ratchet / HarnessLens behavior-relevant gate",
+    "date_covered": "2026-08-31"
+  },
+  {
+    "id": "arxiv:2608.28067",
+    "url": "https://arxiv.org/abs/2608.28067",
+    "title": "SEPO: Evidence-Grounded Prompt Optimization via Structural Editing (Xiaoyu Ma / Haoyue Liu / Yiwen Li / Jionghao Zhu / Zhichao Wang / Ye Chen / Xiaoying Tang, CUHK Shenzhen, submitted Aug 28, 2026) — local typed edits + edit-effect lineage of newly-fixed/broken examples; 14-task suite 2000 metric-call budget; 61.9% Llama-3.1-8B (+3.1 pp vs GEPA) / 73.3% Qwen3-8B (+2.2 pp); 2.9M opt tokens vs GEPA 4.1M; prompts >5× shorter; complementary to NPO whole-prompt rewrite",
+    "date_covered": "2026-08-31"
+  },
+  {
+    "id": "arxiv:2608.28411",
+    "url": "https://arxiv.org/abs/2608.28411",
+    "title": "LongPIBench: A Long-Context Benchmark for Prompt Injection (Yupei Liu, Penn State; Yuqi Jia / Neil Zhenqiang Gong, Duke; Jinyuan Jia, Penn State, submitted Aug 28, 2026) — four long-document scenarios including email summary; MetaSecAlign 8B ASR ~0 on short benches → 1.00 paper-review Combined; table 5 Ours no-defense 0.98, MetaSecAlign 0.78, PromptLocate 0.45 vs OPI/InjecAgent/AgentDojo ~0; Authority spoof strongest heuristic (Llama email 0.70, GPT-4o email 0.69); github.com/liu00222/LongPIBench",
+    "date_covered": "2026-08-31"
+  },
+  {
     "id": "arxiv:2608.27427",
     "url": "https://arxiv.org/abs/2608.27427",
     "title": "Persona–Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit (Yisen Xi, Independent Researcher Beijing, submitted Aug 27, 2026) — PES: persona (instructions/tone) in a permissive domain, execution faceless and audited in a restrictive domain, one employee identity, fail-closed contract bridge (status summaries out; data bodies stay except a graded DLP-masked E2 exception; identity continuous); MCP-with-ACL + deny/ask/allow + DLP + audit; FIA Workbench pilot, five decisions 2026-07-19→2026-08-17; mechanism check R=0.00 (0/5 execution-side re-validation under L1–L5 persona perturbation) on five model configs (deepseek-v4-flash / v4-pro / qwen3.8-max / kimi-k3 / glm-5.3); V2 isolation passed on four, qwen3.8-max 0/4 clean SOP non-convergence; pre-separation SOP path decoupled from persona by omission not construction (explicit injection changed execution 2/2); implementation not public; applicability only when multi-user + execution audit + persona churn hold jointly",
