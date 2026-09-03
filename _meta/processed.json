@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2609.02885",
+    "url": "https://arxiv.org/abs/2609.02885",
+    "title": "Discriminative World Models for Web Agents",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02786",
+    "url": "https://arxiv.org/abs/2609.02786",
+    "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02760",
+    "url": "https://arxiv.org/abs/2609.02760",
+    "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02750",
+    "url": "https://arxiv.org/abs/2609.02750",
+    "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02749",
+    "url": "https://arxiv.org/abs/2609.02749",
+    "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02459",
+    "url": "https://arxiv.org/abs/2609.02459",
+    "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02371",
+    "url": "https://arxiv.org/abs/2609.02371",
+    "title": "Diagnosing with Insights: Structured Analysis of Agent Failures via Behavioral Abstractions",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02302",
+    "url": "https://arxiv.org/abs/2609.02302",
+    "title": "Improving Evaluation Realism with Inference-Time Compute and Deployment Scaffolds",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02264",
+    "url": "https://arxiv.org/abs/2609.02264",
+    "title": "Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02253",
+    "url": "https://arxiv.org/abs/2609.02253",
+    "title": "APEx: Distillation of Agent Procedural Experience for Adaptive Deep Research Question Answering",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02246",
+    "url": "https://arxiv.org/abs/2609.02246",
+    "title": "LLM-as-a-Judge Is Not an Oracle: Why Self-Improving Agents Need Deterministic Guardrails",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02236",
+    "url": "https://arxiv.org/abs/2609.02236",
+    "title": "PGPO: Potential-Guided Policy Optimization for Multi-Turn Agentic Tasks",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02217",
+    "url": "https://arxiv.org/abs/2609.02217",
+    "title": "SkillGLoW: Procedural-Family Skill Consolidation for Self-Improving Agents on Long-Horizon Task Streams",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02292",
+    "url": "https://arxiv.org/abs/2609.02292",
+    "title": "SCX Router: Streaming Zero-Shot Model Selection with a Decoder-KV Classifier and a Real-World Task Ontology",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02129",
+    "url": "https://arxiv.org/abs/2609.02129",
+    "title": "Beyond Context Windows: Persistent Discovery Context for Data-Centric Agents",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02095",
+    "url": "https://arxiv.org/abs/2609.02095",
+    "title": "READY or Not: Reliable Enterprise Agent Deployment",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02094",
+    "url": "https://arxiv.org/abs/2609.02094",
+    "title": "MASkills: Continual Skills Optimization for Multi-Agent LLM Systems",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02074",
+    "url": "https://arxiv.org/abs/2609.02074",
+    "title": "CHIME: Credit-Aware Hierarchical Memory Evolution for Long-Horizon Agentic Planning",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02057",
+    "url": "https://arxiv.org/abs/2609.02057",
+    "title": "Monitoring Web Agents Without Internal Signals: Observable Trajectories and Key-Step Supervision",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02029",
+    "url": "https://arxiv.org/abs/2609.02029",
+    "title": "HeadWiseKV: Budgeted Per-Head Cache Residency for Hybrid Long-Context Language Models",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01992",
+    "url": "https://arxiv.org/abs/2609.01992",
+    "title": "ClaimReceipt: Verifying Evidence Sufficiency and Coverage in Agent Evaluations",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01985",
+    "url": "https://arxiv.org/abs/2609.01985",
+    "title": "When Agents Implement Systems: A Case Study in Defects, Detection, and Evaluation Rigor",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01962",
+    "url": "https://arxiv.org/abs/2609.01962",
+    "title": "Post-Training Ternarization of Qwen3-4B Capability, Effective Bit Budget, Storage Compression, and Deployment",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01873",
+    "url": "https://arxiv.org/abs/2609.01873",
+    "title": "Epistemic Sybil Resistance: Multiplying AI Agents Without Multiplying Evidence",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01861",
+    "url": "https://arxiv.org/abs/2609.01861",
+    "title": "Belief-Calibrated Optimization: An Explicit World Model for Agentic Optimization",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01852",
+    "url": "https://arxiv.org/abs/2609.01852",
+    "title": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01849",
+    "url": "https://arxiv.org/abs/2609.01849",
+    "title": "SSAKG 2.0: An Open-Source Package for Structural Associative Sequence Memory and Context-Based Retrieval",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01834",
+    "url": "https://arxiv.org/abs/2609.01834",
+    "title": "Architecting Conversational Data Systems for Stateless LLM APIs: The Hydration Proxy Pattern",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02737",
+    "url": "https://arxiv.org/abs/2609.02737",
+    "title": "Language Models Can Control Their Own Attention",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02417",
+    "url": "https://arxiv.org/abs/2609.02417",
+    "title": "Coverage, Not Targeting: A Structural Regime in Multi-Turn Agent Credit Assignment",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02272",
+    "url": "https://arxiv.org/abs/2609.02272",
+    "title": "PaperCompiler: Faithful Paper-to-Code Generation via Repository-Level Specification Compilation",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02293",
+    "url": "https://arxiv.org/abs/2609.02293",
+    "title": "SEAL: Reinforcing Global Safety in Mixture-of-Experts through Shared Expert ALignment",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02149",
+    "url": "https://arxiv.org/abs/2609.02149",
+    "title": "OmegaUse-SOP: SOP Engineering for Professional Computer Use from Human Demonstrations",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.02106",
+    "url": "https://arxiv.org/abs/2609.02106",
+    "title": "Git4Data: Database-Native Version Control for AI Agents",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01836",
+    "url": "https://arxiv.org/abs/2609.01836",
+    "title": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01818",
+    "url": "https://arxiv.org/abs/2609.01818",
+    "title": "Zeta-Lite: A Concurrent, Branchable In-Browser SQL Database for Agentic Memory",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01736",
+    "url": "https://arxiv.org/abs/2609.01736",
+    "title": "Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01693",
+    "url": "https://arxiv.org/abs/2609.01693",
+    "title": "Public-Sharing Labels and Verbatim Field Egress in an MCP-to-A2A Agent Configuration: A Controlled Multi-Model Study",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01660",
+    "url": "https://arxiv.org/abs/2609.01660",
+    "title": "How Fast Do Agents Rot? An Empirical Study of Long-Horizon Degradation in LLM Agents for Production Decision-Making",
+    "date_covered": "2026-09-03"
+  },
+  {
+    "id": "arxiv:2609.01608",
+    "url": "https://arxiv.org/abs/2609.01608",
+    "title": "WMLLM: Self-Evolving Optimization Agents via Predict-Then-Act World Modeling",
+    "date_covered": "2026-09-03"
+  },
+  {
     "id": "arxiv:2609.00749",
     "url": "https://arxiv.org/abs/2609.00749",
     "title": "ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents",
@@ -2175,12 +2415,6 @@
     "id": "arxiv:2607.01236",
     "url": "https://arxiv.org/abs/2607.01236",
     "title": "ProvenanceGuard: Detecting LLM Agent Misalignment via Traceable Evidence in Agent Context (Yining She / Yiliang Liang / Eunsuk Kang) \u2014 provenance-based misalignment detection replacing LLM-as-judge default; every proposed tool call must be supported by traceable evidence in agent context \u2014 if tool-call arguments can't be provenance-anchored to something in context, call is flagged as misaligned; multi-stage pipeline detects three misalignment types; on Agent-SafetyBench error rate on misaligned traces drops from 42.9% to 1.8%; on WorkBench 32.1% -> 17.3%; intervention burden on successful tasks drops from 30.5% to 12.8% (reduces false-positive interruptions on legitimate flows); tested across 10 backbone LLMs; no statistically significant increase in unnecessary interventions on aligned traces; fifth convergent instance of gate-before-commit design pattern in three weeks \u2014 audit primitive is evidence-provenance-in-context",
-    "date_covered": "2026-07-03"
-  },
-  {
-    "id": "arxiv:2607.02032",
-    "url": "https://arxiv.org/abs/2607.02032",
-    "title": "PACE: A Proxy for Agentic Capability Evaluation (Yueqi Song / Lintang Sutawika / Jiarui Liu / Lindia Tjuatja / Jiayi Geng / Yunze Xiao / Daniel Lee / Aditya Bharat Soni / Vincent Lo / Xiang Yue / Graham Neubig) \u2014 constructs proxy benchmarks from existing non-agentic evaluations to predict performance on costly agent benchmarks (SWE-Bench / GAIA / etc); two complementary selection strategies: target-relevance local selection (align with target benchmark distribution) + globally informative global selection (discriminate models across broad capability space); leave-one-out cross-validation MAE <4%, Spearman correlation >0.80, pairwise model-ranking accuracy ~85% at <1% of full agentic evaluation cost; evaluated across 4 target agentic benchmarks (including SWE-Bench and GAIA), 19 source non-agentic benchmarks, 14 models",
     "date_covered": "2026-07-03"
   },
   {
