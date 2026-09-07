@@ -1,5 +1,227 @@
 [
   {
+    "id": "arxiv:2609.04298",
+    "url": "https://arxiv.org/abs/2609.04298",
+    "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04495",
+    "url": "https://arxiv.org/abs/2609.04495",
+    "title": "Rethinking Indirect Prompt Injection as a Test-Time Search Problem",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04518",
+    "url": "https://arxiv.org/abs/2609.04518",
+    "title": "What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04579",
+    "url": "https://arxiv.org/abs/2609.04579",
+    "title": "Does the Selected Object Reach the Reader? Auditing Identity Handoffs in Grounded Language-Model Pipelines",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04611",
+    "url": "https://arxiv.org/abs/2609.04611",
+    "title": "$\u03c4^\u03c4$-Bench: An Environment for End-To-End, Realistic Agent Construction",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04665",
+    "url": "https://arxiv.org/abs/2609.04665",
+    "title": "Harness-agnostic detection and immunization of reward hacking in self-evolving language models",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04850",
+    "url": "https://arxiv.org/abs/2609.04850",
+    "title": "ElderBench: Benchmarking Autonomous Mobile Agents for Older Adults",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04865",
+    "url": "https://arxiv.org/abs/2609.04865",
+    "title": "CoSkill: Joint Reinforcement Learning of Reasoning and Meta-Skill Agents for Hierarchical Skill Evolution",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04869",
+    "url": "https://arxiv.org/abs/2609.04869",
+    "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04875",
+    "url": "https://arxiv.org/abs/2609.04875",
+    "title": "Forgetting Without Restarting: Execution-State Unlearning for Stateful LLM Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04915",
+    "url": "https://arxiv.org/abs/2609.04915",
+    "title": "Compact-Memory LLM Agents via Online Max-Member Clustering and Atom-Aware Packing",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05019",
+    "url": "https://arxiv.org/abs/2609.05019",
+    "title": "TROVE: Adaptive Agent Skill Orchestration via Trace-Grounded Route Validation and Editing",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05232",
+    "url": "https://arxiv.org/abs/2609.05232",
+    "title": "Substrate-Aware AI Agents: Execution Context as a First-Class Input",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05269",
+    "url": "https://arxiv.org/abs/2609.05269",
+    "title": "CONTINUITY: Security-Context Contracts for Composable LLM Agent Controls",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05339",
+    "url": "https://arxiv.org/abs/2609.05339",
+    "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05374",
+    "url": "https://arxiv.org/abs/2609.05374",
+    "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04442",
+    "url": "https://arxiv.org/abs/2609.04442",
+    "title": "GRACE: Graph-Grounded Reflective Agent Copilot Engine for Expert-in-the-Loop Knowledge Expansion",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04490",
+    "url": "https://arxiv.org/abs/2609.04490",
+    "title": "When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04513",
+    "url": "https://arxiv.org/abs/2609.04513",
+    "title": "Atlas: Optimizing Deployment of Compound AI Workflows on Heterogeneous Clusters",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04570",
+    "url": "https://arxiv.org/abs/2609.04570",
+    "title": "Dynamic Adaptation of the LLM Context for Generating Routines with Coupled Semantics",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04575",
+    "url": "https://arxiv.org/abs/2609.04575",
+    "title": "Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04629",
+    "url": "https://arxiv.org/abs/2609.04629",
+    "title": "SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04678",
+    "url": "https://arxiv.org/abs/2609.04678",
+    "title": "Train What You Deploy:Token-Faithful Post-Training of a Production Coding",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04715",
+    "url": "https://arxiv.org/abs/2609.04715",
+    "title": "PLUME: Parameter-Efficient Personalization of Large Language Models via Low-Rank User Modulation in Shared Subspaces",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04749",
+    "url": "https://arxiv.org/abs/2609.04749",
+    "title": "DCFA: Dual-view Causal-inspired Attribution for Failure Reasoning in LLM-based Multi-agent Systems",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04773",
+    "url": "https://arxiv.org/abs/2609.04773",
+    "title": "Persistent Teacher Anchoring for Tool-Using Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04801",
+    "url": "https://arxiv.org/abs/2609.04801",
+    "title": "Whose record is this? Diagnosing and authorizing record use in personalized multimodal models",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04898",
+    "url": "https://arxiv.org/abs/2609.04898",
+    "title": "RefactorPlatform: An Open-Source Harness for Controlled Evaluation of Repository-Scale Refactoring Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05228",
+    "url": "https://arxiv.org/abs/2609.05228",
+    "title": "ACE: Adaptive Calibration-Free Expert Skipping for MoE-based LLMs",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05241",
+    "url": "https://arxiv.org/abs/2609.05241",
+    "title": "Uncensored Open-weight Models: Redistribution as the Persistence Layer",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05261",
+    "url": "https://arxiv.org/abs/2609.05261",
+    "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05279",
+    "url": "https://arxiv.org/abs/2609.05279",
+    "title": "Testing Interchangeability in LLM Agent Teams",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.05395",
+    "url": "https://arxiv.org/abs/2609.05395",
+    "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04681",
+    "url": "https://arxiv.org/abs/2609.04681",
+    "title": "Beyond Code Generation: Reliability, Verification, and Cost Economics in the Agentic Software Development Lifecycle",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04778",
+    "url": "https://arxiv.org/abs/2609.04778",
+    "title": "Diffusion Language Models for Mobile Edge Agentic AI: Foundations, Applications, and Challenges",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04802",
+    "url": "https://arxiv.org/abs/2609.04802",
+    "title": "Linguistic Trajectory Encoding for Efficient Long-Horizon Spatial Memory in Embodied Agents",
+    "date_covered": "2026-09-07"
+  },
+  {
+    "id": "arxiv:2609.04894",
+    "url": "https://arxiv.org/abs/2609.04894",
+    "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
+    "date_covered": "2026-09-07"
+  },
+  {
     "id": "arxiv:2609.03340",
     "url": "https://arxiv.org/abs/2609.03340",
     "title": "Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory",
