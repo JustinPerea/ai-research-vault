@@ -1,5 +1,275 @@
 [
   {
+    "id": "arxiv:2609.05441",
+    "url": "https://arxiv.org/abs/2609.05441",
+    "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05446",
+    "url": "https://arxiv.org/abs/2609.05446",
+    "title": "AutoFyn Technical Report: Non-Parametric Expert Iteration for Long-Horizon Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08062",
+    "url": "https://arxiv.org/abs/2609.08062",
+    "title": "ResidualAuth: What Authorization State Must Language Agents Preserve under Revocable Delegation?",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06059",
+    "url": "https://arxiv.org/abs/2609.06059",
+    "title": "DAREBench: Deployment-Aware and Reliable Evaluation of Models as Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06783",
+    "url": "https://arxiv.org/abs/2609.06783",
+    "title": "AURA-Eval: Evaluation Framework for Acting Under Risk Awareness in LLM Agent Trajectories",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06792",
+    "url": "https://arxiv.org/abs/2609.06792",
+    "title": "Improving Proficiency and Efficiency of Android GUI Agents via Self-Generating Tool Actions",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.07131",
+    "url": "https://arxiv.org/abs/2609.07131",
+    "title": "AgentLeak: Cloning Stronger LLM Agent Capabilities onto Weaker Agents Beyond Skill Stealing",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05511",
+    "url": "https://arxiv.org/abs/2609.05511",
+    "title": "SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05527",
+    "url": "https://arxiv.org/abs/2609.05527",
+    "title": "Beyond \"AI Helps Humans\": Decision-Targeted Evaluation Design for Human-Agent Teams in the Agentic Era",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05553",
+    "url": "https://arxiv.org/abs/2609.05553",
+    "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05576",
+    "url": "https://arxiv.org/abs/2609.05576",
+    "title": "EnvCraft: Synthesizing Executable Environments in Agentic RL for Claw-like Agent",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05587",
+    "url": "https://arxiv.org/abs/2609.05587",
+    "title": "Agents Trust Tools Too Much: Measuring Reliance on Unreliable Tools",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05736",
+    "url": "https://arxiv.org/abs/2609.05736",
+    "title": "Beyond Prompts: Measuring and Optimizing LLM Tool-Agent Harnesses",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05824",
+    "url": "https://arxiv.org/abs/2609.05824",
+    "title": "Beyond Top-$k$ Skill Retrieval: Diversity-Aware Skill Routing for LLM Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05837",
+    "url": "https://arxiv.org/abs/2609.05837",
+    "title": "AgentBrew: Offline Tool-Use Agent Learning from Raw Real-World Trajectories",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06027",
+    "url": "https://arxiv.org/abs/2609.06027",
+    "title": "Evaluating Deep-Search Agents under Hierarchical Web Evidence Poisoning",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06815",
+    "url": "https://arxiv.org/abs/2609.06815",
+    "title": "Typed Federated Artifacts for the Agentic Web:Sharing Tool-Routing Knowledge Across Frozen,Heterogeneous LLM Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.07910",
+    "url": "https://arxiv.org/abs/2609.07910",
+    "title": "PRIMUS: Identity, Governance, and Verification for Multi-Agent Federations",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.07925",
+    "url": "https://arxiv.org/abs/2609.07925",
+    "title": "FrogNano: Training a 4B Coding Agent via Online Task Synthesis",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08228",
+    "url": "https://arxiv.org/abs/2609.08228",
+    "title": "SE-GoS: Self-Evolving Graph-of-Skills for Skill Library at Scale",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08558",
+    "url": "https://arxiv.org/abs/2609.08558",
+    "title": "Personalizing LLM Agent Memory Using Biometrics",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08599",
+    "url": "https://arxiv.org/abs/2609.08599",
+    "title": "Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08832",
+    "url": "https://arxiv.org/abs/2609.08832",
+    "title": "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08944",
+    "url": "https://arxiv.org/abs/2609.08944",
+    "title": "SkillAdam: Stable and Efficient Skill Evolution for Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.09115",
+    "url": "https://arxiv.org/abs/2609.09115",
+    "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.09133",
+    "url": "https://arxiv.org/abs/2609.09133",
+    "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.09134",
+    "url": "https://arxiv.org/abs/2609.09134",
+    "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05513",
+    "url": "https://arxiv.org/abs/2609.05513",
+    "title": "When and What to Teach: Budget-Aware Online Adaptation for Web Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05774",
+    "url": "https://arxiv.org/abs/2609.05774",
+    "title": "Inference-Time Graph Engineering for Multi-Agent LLM Workflows",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06052",
+    "url": "https://arxiv.org/abs/2609.06052",
+    "title": "SkillSpec: Intent-Masked Specification Reasoning for Agent Skill Correctness",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06063",
+    "url": "https://arxiv.org/abs/2609.06063",
+    "title": "Explaining AI Agents Through Execution Traces",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06124",
+    "url": "https://arxiv.org/abs/2609.06124",
+    "title": "SAP: State-Guided Data Synthesis with Argument Provenance for Multi-Turn Tool Use",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06972",
+    "url": "https://arxiv.org/abs/2609.06972",
+    "title": "AgentDrift: A Step-Labeled Benchmark of Injection-Hijacked LLM Agent Trajectories",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.07255",
+    "url": "https://arxiv.org/abs/2609.07255",
+    "title": "SkillAlign: Aligning Skill Interfaces for LLM-based Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.07712",
+    "url": "https://arxiv.org/abs/2609.07712",
+    "title": "APPSim-Bench: Bridging Real-world Apps and Reproducible Evaluation for Mobile GUI Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08015",
+    "url": "https://arxiv.org/abs/2609.08015",
+    "title": "From Version Conflicts to Decision Conflicts: Selective Revalidation for Long-Running AI Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08258",
+    "url": "https://arxiv.org/abs/2609.08258",
+    "title": "Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08273",
+    "url": "https://arxiv.org/abs/2609.08273",
+    "title": "MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08279",
+    "url": "https://arxiv.org/abs/2609.08279",
+    "title": "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08404",
+    "url": "https://arxiv.org/abs/2609.08404",
+    "title": "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08566",
+    "url": "https://arxiv.org/abs/2609.08566",
+    "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.05677",
+    "url": "https://arxiv.org/abs/2609.05677",
+    "title": "Who Maintains Agent Skills? A Longitudinal Study of Human-Governed, AI-Assisted Skill Maintenance",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.06250",
+    "url": "https://arxiv.org/abs/2609.06250",
+    "title": "It is Not Yet Another Tool: Creating and Deploying an Agentic AI Companion in a Security Operations Center",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.08589",
+    "url": "https://arxiv.org/abs/2609.08589",
+    "title": "The Unreliable Progress Bar: Can LLM Agents Reliably Report Task Progress Throughout Execution?",
+    "date_covered": "2026-09-09"
+  },
+  {
+    "id": "arxiv:2609.09153",
+    "url": "https://arxiv.org/abs/2609.09153",
+    "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+    "date_covered": "2026-09-09"
+  },
+  {
     "id": "arxiv:2609.04298",
     "url": "https://arxiv.org/abs/2609.04298",
     "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
