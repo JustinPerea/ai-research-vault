@@ -1,5 +1,197 @@
 [
   {
+    "id": "arxiv:2609.10144",
+    "url": "https://arxiv.org/abs/2609.10144",
+    "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09233",
+    "url": "https://arxiv.org/abs/2609.09233",
+    "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09565",
+    "url": "https://arxiv.org/abs/2609.09565",
+    "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09647",
+    "url": "https://arxiv.org/abs/2609.09647",
+    "title": "Black-Box Red Teaming of Agentic AI: A Taxonomy-Driven Framework for Automated Risk Discovery",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09774",
+    "url": "https://arxiv.org/abs/2609.09774",
+    "title": "Procedural Memory Under Change: Reuse and Interference in Controlled Web Tasks",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09875",
+    "url": "https://arxiv.org/abs/2609.09875",
+    "title": "AgentAudit: An Open, Extensible Framework for Full-Lifecycle Trust Evaluation of AI Agents",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09448",
+    "url": "https://arxiv.org/abs/2609.09448",
+    "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09646",
+    "url": "https://arxiv.org/abs/2609.09646",
+    "title": "RobustSGPO: Search-Space Control for Agent Harness Evolution",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09815",
+    "url": "https://arxiv.org/abs/2609.09815",
+    "title": "UnitBoost: Managing Compound LLM Systems with a Merge Operator, Not a Model",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10263",
+    "url": "https://arxiv.org/abs/2609.10263",
+    "title": "What Should an Agent Forget? Separating What Is Stored from What Is Used",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10413",
+    "url": "https://arxiv.org/abs/2609.10413",
+    "title": "Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10451",
+    "url": "https://arxiv.org/abs/2609.10451",
+    "title": "JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09395",
+    "url": "https://arxiv.org/abs/2609.09395",
+    "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09458",
+    "url": "https://arxiv.org/abs/2609.09458",
+    "title": "ContractEval: Query-Conditioned Execution Matching for Procedural Instruction Conformance",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09625",
+    "url": "https://arxiv.org/abs/2609.09625",
+    "title": "From State Synchronization to Cognitive Self-Evolution: An Operational Architecture for Cognitive Digital Twins",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09664",
+    "url": "https://arxiv.org/abs/2609.09664",
+    "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09853",
+    "url": "https://arxiv.org/abs/2609.09853",
+    "title": "The Era by Eon Benchmark: A Generated Enterprise Estate with Exact Ground Truth for Benchmarking LLM Agents",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10036",
+    "url": "https://arxiv.org/abs/2609.10036",
+    "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10315",
+    "url": "https://arxiv.org/abs/2609.10315",
+    "title": "TRACE: Training Reasoning Agents for Causal Exploration with Synthesized Rewards",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10441",
+    "url": "https://arxiv.org/abs/2609.10441",
+    "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09212",
+    "url": "https://arxiv.org/abs/2609.09212",
+    "title": "AgentHijack: Visual Patch Attacks on Multimodal Computer-Use Agents",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09476",
+    "url": "https://arxiv.org/abs/2609.09476",
+    "title": "From Fixed Keys to Readable Schemas: Small Language Models for Vehicle Agent Function Calls",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10522",
+    "url": "https://arxiv.org/abs/2609.10522",
+    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09404",
+    "url": "https://arxiv.org/abs/2609.09404",
+    "title": "An Experimental Evaluation of Multimodal Prompt Injection Attacks on Agentic AI Frameworks",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10248",
+    "url": "https://arxiv.org/abs/2609.10248",
+    "title": "A-JIT: Agentic Just-In-Time Software Construction",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.03247",
+    "url": "https://arxiv.org/abs/2609.03247",
+    "title": "Trust Me, I'm Your Developer: Self-Issued Authentication in Large Language Models",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09243",
+    "url": "https://arxiv.org/abs/2609.09243",
+    "title": "In RAG We Trust? Measuring Robustness of Retrieval-Augmented Generation Under Document Poisoning",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09219",
+    "url": "https://arxiv.org/abs/2609.09219",
+    "title": "Scores Alone Do Not Prove Discovery: The Discovery Certification Protocol for Auditing AI Research Agents",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09671",
+    "url": "https://arxiv.org/abs/2609.09671",
+    "title": "Introducing Consort: A Spec-First Agent Framework for Enforced, Test-Driven Development on Live Database Branches",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09768",
+    "url": "https://arxiv.org/abs/2609.09768",
+    "title": "Fine-Tuning a KV Cache Concatenation-Aware Model or Recomputing KV Caches? Why Not Both?",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.09789",
+    "url": "https://arxiv.org/abs/2609.09789",
+    "title": "Pairit: A Platform for Live Experiments on Human-AI Collaboration",
+    "date_covered": "2026-09-10"
+  },
+  {
+    "id": "arxiv:2609.10239",
+    "url": "https://arxiv.org/abs/2609.10239",
+    "title": "LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation",
+    "date_covered": "2026-09-10"
+  },
+  {
     "id": "arxiv:2609.05441",
     "url": "https://arxiv.org/abs/2609.05441",
     "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
