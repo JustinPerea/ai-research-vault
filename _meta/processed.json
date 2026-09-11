@@ -1,5 +1,185 @@
 [
   {
+    "id": "arxiv:2609.10750",
+    "url": "https://arxiv.org/abs/2609.10750",
+    "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10962",
+    "url": "https://arxiv.org/abs/2609.10962",
+    "title": "What a Random Draw from the MCP Registry Contains, and What Tool-Use Benchmarks Contain Instead",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11060",
+    "url": "https://arxiv.org/abs/2609.11060",
+    "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11294",
+    "url": "https://arxiv.org/abs/2609.11294",
+    "title": "Memory Compression for High-Fanout Agent Sandboxes",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11677",
+    "url": "https://arxiv.org/abs/2609.11677",
+    "title": "Ecdysis: Efficient and Effective Training of Runtime Harnesses for LLM Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11682",
+    "url": "https://arxiv.org/abs/2609.11682",
+    "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11911",
+    "url": "https://arxiv.org/abs/2609.11911",
+    "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10724",
+    "url": "https://arxiv.org/abs/2609.10724",
+    "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10824",
+    "url": "https://arxiv.org/abs/2609.10824",
+    "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10854",
+    "url": "https://arxiv.org/abs/2609.10854",
+    "title": "No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10892",
+    "url": "https://arxiv.org/abs/2609.10892",
+    "title": "DriftNet: A Dual-Head Trajectory Transformer for Detecting and Localizing Prompt Injection in LLM Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10964",
+    "url": "https://arxiv.org/abs/2609.10964",
+    "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11028",
+    "url": "https://arxiv.org/abs/2609.11028",
+    "title": "BenchShield: Formal Model-Backed Instrumentation for Reward Integrity in LLM-Agent Evaluation Infrastructure",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11030",
+    "url": "https://arxiv.org/abs/2609.11030",
+    "title": "The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11042",
+    "url": "https://arxiv.org/abs/2609.11042",
+    "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11308",
+    "url": "https://arxiv.org/abs/2609.11308",
+    "title": "2AM: Grounding Agent-Side Memory as Guidance for Steerable Action Models in Long-Horizon Manipulation",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11318",
+    "url": "https://arxiv.org/abs/2609.11318",
+    "title": "Mr.LHDR: A Benchmark for Multimodal Real-World Long-Horizon Deep Research Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11381",
+    "url": "https://arxiv.org/abs/2609.11381",
+    "title": "Agent-Integrated Software: Interaction Contracts and Continuous Assurance",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11709",
+    "url": "https://arxiv.org/abs/2609.11709",
+    "title": "When Agents Disagree: Bayesian Backward Reasoning as a Label-Free Anchor for Multi-Agent Collective Decision-Making",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10702",
+    "url": "https://arxiv.org/abs/2609.10702",
+    "title": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.10817",
+    "url": "https://arxiv.org/abs/2609.10817",
+    "title": "Tapes Together Strong: The Co-evolution of Computation and Cooperation",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11018",
+    "url": "https://arxiv.org/abs/2609.11018",
+    "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11152",
+    "url": "https://arxiv.org/abs/2609.11152",
+    "title": "terms.txt: A Consent and Compensation Protocol for Agentic Web Access",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11176",
+    "url": "https://arxiv.org/abs/2609.11176",
+    "title": "Debate-to-Skill: Capability-Bound Process Supervision for Industrial Query-to-Agent Annotation",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11180",
+    "url": "https://arxiv.org/abs/2609.11180",
+    "title": "SemVerBench: Benchmarking LLM Comprehension of Version-Constraint Resolution Semantics",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11243",
+    "url": "https://arxiv.org/abs/2609.11243",
+    "title": "Sci-MMR: Benchmarking Multi-Step Evidence-Grounded Scientific Reasoning in Multimodal Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11489",
+    "url": "https://arxiv.org/abs/2609.11489",
+    "title": "The Convention Gap: Towards Measuring Implicit Communication in Cooperative AI Evaluation",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11660",
+    "url": "https://arxiv.org/abs/2609.11660",
+    "title": "Autonomy, Social Norms, and Alignment: Towards a Developmental Framework for Autonomous Artificial Agents",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11737",
+    "url": "https://arxiv.org/abs/2609.11737",
+    "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
+    "date_covered": "2026-09-11"
+  },
+  {
+    "id": "arxiv:2609.11873",
+    "url": "https://arxiv.org/abs/2609.11873",
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "date_covered": "2026-09-11"
+  },
+  {
     "id": "arxiv:2609.10144",
     "url": "https://arxiv.org/abs/2609.10144",
     "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
