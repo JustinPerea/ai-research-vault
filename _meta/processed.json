@@ -1,5 +1,35 @@
 [
   {
+    "id": "arxiv:2609.10873",
+    "url": "https://arxiv.org/abs/2609.10873",
+    "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+    "date_covered": "2026-09-12"
+  },
+  {
+    "id": "arxiv:2609.11636",
+    "url": "https://arxiv.org/abs/2609.11636",
+    "title": "MAPLE: Memory-Augmented Planning with Language and Evolution",
+    "date_covered": "2026-09-12"
+  },
+  {
+    "id": "arxiv:2609.11190",
+    "url": "https://arxiv.org/abs/2609.11190",
+    "title": "Agentic Share-of-Search: A Multi-Agent AI System for Competitive Decision-Making in LLM-Mediated E-Commerce",
+    "date_covered": "2026-09-12"
+  },
+  {
+    "id": "arxiv:2609.11109",
+    "url": "https://arxiv.org/abs/2609.11109",
+    "title": "How AI Coders Discuss, Disagree, and Reach Consensus: Challenges and Opportunities for LLM-Based Qualitative Coding",
+    "date_covered": "2026-09-12"
+  },
+  {
+    "id": "arxiv:2609.10762",
+    "url": "https://arxiv.org/abs/2609.10762",
+    "title": "Beyond Static Guarantees: Measuring the Static-Pass Dynamic-Fail Gap in Security-Sensitive and LLM-Generated Python Code",
+    "date_covered": "2026-09-12"
+  },
+  {
     "id": "arxiv:2609.10750",
     "url": "https://arxiv.org/abs/2609.10750",
     "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
