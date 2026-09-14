@@ -1,5 +1,167 @@
 [
   {
+    "id": "arxiv:2609.11977",
+    "url": "https://arxiv.org/abs/2609.11977",
+    "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.11987",
+    "url": "https://arxiv.org/abs/2609.11987",
+    "title": "Harness or Model? Isolating the Harness Effect in Agentic Coding with a Contamination-Controlled Private Suite",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12162",
+    "url": "https://arxiv.org/abs/2609.12162",
+    "title": "Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12320",
+    "url": "https://arxiv.org/abs/2609.12320",
+    "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12322",
+    "url": "https://arxiv.org/abs/2609.12322",
+    "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12373",
+    "url": "https://arxiv.org/abs/2609.12373",
+    "title": "Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12394",
+    "url": "https://arxiv.org/abs/2609.12394",
+    "title": "BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12404",
+    "url": "https://arxiv.org/abs/2609.12404",
+    "title": "VRL-Bench: Benchmarking agents on computer control tasks under finite trial budgets",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12413",
+    "url": "https://arxiv.org/abs/2609.12413",
+    "title": "SoK: Rethinking Jailbreaking in the Era of Agentic AI: Attacks, Defenses, and Practical Consideration",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12436",
+    "url": "https://arxiv.org/abs/2609.12436",
+    "title": "LifeFuse-Mem: Lifecycle-Aware State Fusion Against Temporary Overwriting for Long-Term Memory",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12464",
+    "url": "https://arxiv.org/abs/2609.12464",
+    "title": "Beyond Vector Similarity: Hierarchical Context-Aware Graph RAG vs Standard RAG in Enterprise Code Migration",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12482",
+    "url": "https://arxiv.org/abs/2609.12482",
+    "title": "When Does AI Augment Work? A Workflow-Level Framework for Human-Agent Collaboration",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12578",
+    "url": "https://arxiv.org/abs/2609.12578",
+    "title": "From Collaboration to Capability: Internalizing Routed LLM Experts into Compact Reasoners",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12586",
+    "url": "https://arxiv.org/abs/2609.12586",
+    "title": "Reproducing and Evaluating the Generalizability of Subliminal Learning in Open-Weight Models",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12686",
+    "url": "https://arxiv.org/abs/2609.12686",
+    "title": "Residual Vector-based Reconstruction as Long-Context Recall Regardless of Context Window Size",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12742",
+    "url": "https://arxiv.org/abs/2609.12742",
+    "title": "Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12746",
+    "url": "https://arxiv.org/abs/2609.12746",
+    "title": "What Drives Recovery in Agentic Text-to-Cypher? LAST-CQ: An LLM Agent Self-Refinement Framework",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12808",
+    "url": "https://arxiv.org/abs/2609.12808",
+    "title": "K-Bench: A Benchmark for LLM Unlearning in Agentic Deployments",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.11258",
+    "url": "https://arxiv.org/abs/2609.11258",
+    "title": "SoulAuth: An Actor-native Identity Architecture and Rust Reference Implementation for Humans and Long-lived AI Actors",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12017",
+    "url": "https://arxiv.org/abs/2609.12017",
+    "title": "When Agent Metrics Measure Different Things: An Evidence-Grounded Audit of the Praxa AI Pipeline",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12039",
+    "url": "https://arxiv.org/abs/2609.12039",
+    "title": "Reality Is the Final Verifier: On Two Key Gaps in Agentic Software Engineering",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12486",
+    "url": "https://arxiv.org/abs/2609.12486",
+    "title": "Adaptive Agent Design",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12839",
+    "url": "https://arxiv.org/abs/2609.12839",
+    "title": "Evaluating Context Segmentation in Locally Deployable SLMs for Cybersecurity CTF Tasks",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12896",
+    "url": "https://arxiv.org/abs/2609.12896",
+    "title": "Behavior Quotient Learning for Low-Rank Adaptation of LLM Agents",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.12978",
+    "url": "https://arxiv.org/abs/2609.12978",
+    "title": "SeqMoE: Toward Full-Load Performance via Predictive and Graph-Compatible MoE Offloading",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.13005",
+    "url": "https://arxiv.org/abs/2609.13005",
+    "title": "Tasks over Application Manuals: Revealing Gaps in Long-Horizon Procedural Reasoning for Language Models",
+    "date_covered": "2026-09-14"
+  },
+  {
+    "id": "arxiv:2609.13076",
+    "url": "https://arxiv.org/abs/2609.13076",
+    "title": "MP-Bench: Evaluating Voice Agents as a Multiparty Conversation Participant",
+    "date_covered": "2026-09-14"
+  },
+  {
     "id": "arxiv:2609.10873",
     "url": "https://arxiv.org/abs/2609.10873",
     "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
