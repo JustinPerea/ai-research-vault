@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2609.15397",
+    "url": "https://arxiv.org/abs/2609.15397",
+    "title": "When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15364",
+    "url": "https://arxiv.org/abs/2609.15364",
+    "title": "RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15054",
+    "url": "https://arxiv.org/abs/2609.15054",
+    "title": "BusMA: A Bus Communication Substrate for Multi-Agent Systems",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15011",
+    "url": "https://arxiv.org/abs/2609.15011",
+    "title": "Semantic-TVM: Structure-Preserving Trustworthy Virtual Memory for Memory-Augmented and Tool-Using Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14767",
+    "url": "https://arxiv.org/abs/2609.14767",
+    "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14744",
+    "url": "https://arxiv.org/abs/2609.14744",
+    "title": "AcquireBound: Runtime Authorization for Resources Acquired by AI Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14138",
+    "url": "https://arxiv.org/abs/2609.14138",
+    "title": "LIMBO: Lifelong Inference-Time Memory and Budget Optimization for LLM Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13800",
+    "url": "https://arxiv.org/abs/2609.13800",
+    "title": "Do Not Restart: Residual Completion for Stateful Agent Handoffs",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13672",
+    "url": "https://arxiv.org/abs/2609.13672",
+    "title": "Recoverability as a System Primitive for Long-Horizon AI Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13667",
+    "url": "https://arxiv.org/abs/2609.13667",
+    "title": "GeoSkill:Experience-Driven Hierarchical Skill Learning with Collaborative Revision forGeospatialAgents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13548",
+    "url": "https://arxiv.org/abs/2609.13548",
+    "title": "AutoTailor: Automatic, User-Aligned Capability Selection and Adaptation for Web Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13491",
+    "url": "https://arxiv.org/abs/2609.13491",
+    "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13335",
+    "url": "https://arxiv.org/abs/2609.13335",
+    "title": "Bridging Thought and Action: Taming Long-Horizon Instability in Open-Source LLM Agents with a MetaTool-Enhanced ROS Framework",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15989",
+    "url": "https://arxiv.org/abs/2609.15989",
+    "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15983",
+    "url": "https://arxiv.org/abs/2609.15983",
+    "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15982",
+    "url": "https://arxiv.org/abs/2609.15982",
+    "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15820",
+    "url": "https://arxiv.org/abs/2609.15820",
+    "title": "AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15422",
+    "url": "https://arxiv.org/abs/2609.15422",
+    "title": "Empirical Evaluation of Task-Based Permission Scoping Architecture for AI Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15396",
+    "url": "https://arxiv.org/abs/2609.15396",
+    "title": "SkillLift: Learning Dense Rubrics from Sparse Oracles for Efficient Skill Evolution",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15293",
+    "url": "https://arxiv.org/abs/2609.15293",
+    "title": "Why LLM Agents Collapse Without Oversight: The Enforcement Gap as the Mechanism Behind Emergence World Failures",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15134",
+    "url": "https://arxiv.org/abs/2609.15134",
+    "title": "HazardAuditor: From Executable Threats to Safer Computer-Use Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15066",
+    "url": "https://arxiv.org/abs/2609.15066",
+    "title": "Salesforce Koa: An Enterprise Language Model for Agentic Tool Use",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.15009",
+    "url": "https://arxiv.org/abs/2609.15009",
+    "title": "CoMem: Collective-Individual Memory Synergy for Evolutionary Multi-Agent Systems",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14987",
+    "url": "https://arxiv.org/abs/2609.14987",
+    "title": "ActGuard: Pre-execution Action Auditing against Indirect Prompt Injection in LLM Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14976",
+    "url": "https://arxiv.org/abs/2609.14976",
+    "title": "MemRiskBench: Trace-Aware Risk-Preserving Evaluation for Long-Horizon LLM Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14780",
+    "url": "https://arxiv.org/abs/2609.14780",
+    "title": "The Stochastic Deputy: Structural Tenant Isolation for Tool-Using LLM Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14399",
+    "url": "https://arxiv.org/abs/2609.14399",
+    "title": "MOSCOPT: Mixture-of-Skills Collective Optimization for LLM Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14066",
+    "url": "https://arxiv.org/abs/2609.14066",
+    "title": "GraMRAG: Orchestrating Multi-Agent Multi-Step Reasoning via Graph Memory with Reinforcement Learning",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14060",
+    "url": "https://arxiv.org/abs/2609.14060",
+    "title": "AGENTQ: Quantization-Conditioned Backdoor Attacks on LLM Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.14003",
+    "url": "https://arxiv.org/abs/2609.14003",
+    "title": "Confuse the Model, Control the Flow: Understanding and Mitigating Privacy Leakage from LLM Agents with Information Flow Control",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13889",
+    "url": "https://arxiv.org/abs/2609.13889",
+    "title": "When Malicious Instructions Persist: Persistent Memory Poisoning Attack on Harness-Based Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13739",
+    "url": "https://arxiv.org/abs/2609.13739",
+    "title": "HarnessBandit: Joint Learnability-Transferability Scheduling for Multi-Harness Agentic Reinforcement Learning",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13731",
+    "url": "https://arxiv.org/abs/2609.13731",
+    "title": "Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13637",
+    "url": "https://arxiv.org/abs/2609.13637",
+    "title": "Identity Is More Than Recall: A Benchmark for Persistent Identity in Deployed AI Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13356",
+    "url": "https://arxiv.org/abs/2609.13356",
+    "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13353",
+    "url": "https://arxiv.org/abs/2609.13353",
+    "title": "SkillAtlas: An Attack Trace Library for Agent Skills",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13334",
+    "url": "https://arxiv.org/abs/2609.13334",
+    "title": "The Agentic Company OS: Substrate Inversion for Sustained Enterprise Agent Deployment",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13287",
+    "url": "https://arxiv.org/abs/2609.13287",
+    "title": "LLaDA-UI: Bringing Block-wise Diffusion to Vision-Language GUI Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.11999",
+    "url": "https://arxiv.org/abs/2609.11999",
+    "title": "Is Bash All You Need? An Empirical Study of Tool Interfaces for Enterprise Digital Worker Agents",
+    "date_covered": "2026-09-15"
+  },
+  {
+    "id": "arxiv:2609.13470",
+    "url": "https://arxiv.org/abs/2609.13470",
+    "title": "OrchSLM: Probing the Dynamics of Small Language Model Orchestration",
+    "date_covered": "2026-09-15"
+  },
+  {
     "id": "arxiv:2609.11977",
     "url": "https://arxiv.org/abs/2609.11977",
     "title": "Occamy-1.0: Open Pareto-frontier 35B Intelligence for Co-work",
