@@ -1,5 +1,221 @@
 [
   {
+    "id": "arxiv:2609.16215",
+    "url": "https://arxiv.org/abs/2609.16215",
+    "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16251",
+    "url": "https://arxiv.org/abs/2609.16251",
+    "title": "CADWorld: Computer-Use Benchmark for Long-Horizon Computer-Aided Design",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16305",
+    "url": "https://arxiv.org/abs/2609.16305",
+    "title": "BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16635",
+    "url": "https://arxiv.org/abs/2609.16635",
+    "title": "EchoPath: Execution-Level Replayable Memory for GUI Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16730",
+    "url": "https://arxiv.org/abs/2609.16730",
+    "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17010",
+    "url": "https://arxiv.org/abs/2609.17010",
+    "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17109",
+    "url": "https://arxiv.org/abs/2609.17109",
+    "title": "Shared-Prefix KV Reuse Across Standard LoRA Adapters: Quality and Serving Tradeoffs",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17475",
+    "url": "https://arxiv.org/abs/2609.17475",
+    "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16053",
+    "url": "https://arxiv.org/abs/2609.16053",
+    "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16461",
+    "url": "https://arxiv.org/abs/2609.16461",
+    "title": "Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16936",
+    "url": "https://arxiv.org/abs/2609.16936",
+    "title": "RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17274",
+    "url": "https://arxiv.org/abs/2609.17274",
+    "title": "After the Party: Governing What a Viral Agent-Skill Ecosystem Left Behind",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17527",
+    "url": "https://arxiv.org/abs/2609.17527",
+    "title": "Agentic Societies Need a Social Harness",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16487",
+    "url": "https://arxiv.org/abs/2609.16487",
+    "title": "Skill-based Agentic Evaluation for Real-time Data Science Tasks",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16760",
+    "url": "https://arxiv.org/abs/2609.16760",
+    "title": "Turn-level Multiscale Density Ratio Estimation for LLM Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17419",
+    "url": "https://arxiv.org/abs/2609.17419",
+    "title": "World Model Science: Self-Organized Criticality, Weak Chaos, and Metastable Belief Dynamics in Long-Horizon LLM Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17523",
+    "url": "https://arxiv.org/abs/2609.17523",
+    "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16051",
+    "url": "https://arxiv.org/abs/2609.16051",
+    "title": "\"Looking for Something Weird to Happen\": How Humans Sustain AI Agent Novelty Amid Semantic Collapse",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16073",
+    "url": "https://arxiv.org/abs/2609.16073",
+    "title": "The Immutable Past: Formalizing State Mutability and Conflict Resolution in Mutable RAG",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16096",
+    "url": "https://arxiv.org/abs/2609.16096",
+    "title": "Coaching Qwen3 Coder 30B to Think Like a CodeClash Arena Agent",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16302",
+    "url": "https://arxiv.org/abs/2609.16302",
+    "title": "Assurance Envelopes for Autonomous Coding Agents: Minimum-Cost Evidence for Software Change",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17221",
+    "url": "https://arxiv.org/abs/2609.17221",
+    "title": "Grounding SWE-Agent Decisions in Architecture-0 Design: Navigating Unknown Unknowns through Physical Mapping",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17306",
+    "url": "https://arxiv.org/abs/2609.17306",
+    "title": "Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17346",
+    "url": "https://arxiv.org/abs/2609.17346",
+    "title": "Where Should a Document Live: Context, Representations, or Parameters?",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17394",
+    "url": "https://arxiv.org/abs/2609.17394",
+    "title": "Coding Agents Have Converged: Why the SWE-bench Leaderboard Can No Longer Order Its Top Entries, and What to Measure Instead",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16245",
+    "url": "https://arxiv.org/abs/2609.16245",
+    "title": "Metacognitive Steering: Learning the Structure of Scientific Judgment",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16752",
+    "url": "https://arxiv.org/abs/2609.16752",
+    "title": "Beyond Episodic AI: Cognitive Field Networks for Biologically Inspired Persistent Cognition",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17008",
+    "url": "https://arxiv.org/abs/2609.17008",
+    "title": "FlexEE: Self-Speculative and KV-Compatible Early Exiting for Offloading-Aware LLM Inference",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17088",
+    "url": "https://arxiv.org/abs/2609.17088",
+    "title": "Interactive Memory Learning for Long-Term Conversations",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17107",
+    "url": "https://arxiv.org/abs/2609.17107",
+    "title": "Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17331",
+    "url": "https://arxiv.org/abs/2609.17331",
+    "title": "Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17416",
+    "url": "https://arxiv.org/abs/2609.17416",
+    "title": "Never Stop Thinking: Continuous-Time Language Agents",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.17496",
+    "url": "https://arxiv.org/abs/2609.17496",
+    "title": "Verifiable Social Reasoning for LLM Assistants",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16098",
+    "url": "https://arxiv.org/abs/2609.16098",
+    "title": "Universal Defenses for Tool-Integrated LLM Agents Against Adversarial Attacks",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16313",
+    "url": "https://arxiv.org/abs/2609.16313",
+    "title": "Cognitive Admission Control: Risk-Conditioned Assurance for Consequential Actions in Agentic Distributed Systems",
+    "date_covered": "2026-09-16"
+  },
+  {
+    "id": "arxiv:2609.16436",
+    "url": "https://arxiv.org/abs/2609.16436",
+    "title": "Interpreting and Steering LLM Agents for Social Simulations",
+    "date_covered": "2026-09-16"
+  },
+  {
     "id": "arxiv:2609.15397",
     "url": "https://arxiv.org/abs/2609.15397",
     "title": "When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary",
