@@ -1,5 +1,227 @@
 [
   {
+    "id": "arxiv:2609.19203",
+    "url": "https://arxiv.org/abs/2609.19203",
+    "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19519",
+    "url": "https://arxiv.org/abs/2609.19519",
+    "title": "An Architecture for Long-Horizon Agents: Levels, Ticks and Cascaded Intelligence",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20804",
+    "url": "https://arxiv.org/abs/2609.20804",
+    "title": "An Empirical Study of Harness Design for Coding Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20519",
+    "url": "https://arxiv.org/abs/2609.20519",
+    "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20474",
+    "url": "https://arxiv.org/abs/2609.20474",
+    "title": "How Do Agent Harnesses Create Value? Planning Information and Release Control in Stateful LLM Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19425",
+    "url": "https://arxiv.org/abs/2609.19425",
+    "title": "Closed-World Resolution Against Tool Hallucination in LLM Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20455",
+    "url": "https://arxiv.org/abs/2609.20455",
+    "title": "SkillAA: Attribution-Guided Skill-Graph Updating with Targeted Validation and Rollback",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19523",
+    "url": "https://arxiv.org/abs/2609.19523",
+    "title": "EconSkills: Studying Skill Transfer and Retrieval for Web Agents on Live Economic Data",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19680",
+    "url": "https://arxiv.org/abs/2609.19680",
+    "title": "FINSKILLOPS: A Self-Evolving Multi-Agent System for SEC Filing QA",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20089",
+    "url": "https://arxiv.org/abs/2609.20089",
+    "title": "UnifiedPlayers: Enhance Tool-Integrated Reasoning in Agentic Reinforcement Learning",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20754",
+    "url": "https://arxiv.org/abs/2609.20754",
+    "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19656",
+    "url": "https://arxiv.org/abs/2609.19656",
+    "title": "Self-Evolving Search Index",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20045",
+    "url": "https://arxiv.org/abs/2609.20045",
+    "title": "Correct Now, Insufficient Later: Auditing Update Sufficiency in Context Compression",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20130",
+    "url": "https://arxiv.org/abs/2609.20130",
+    "title": "AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19526",
+    "url": "https://arxiv.org/abs/2609.19526",
+    "title": "Self Improvement via Fast Tree-search",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20050",
+    "url": "https://arxiv.org/abs/2609.20050",
+    "title": "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19607",
+    "url": "https://arxiv.org/abs/2609.19607",
+    "title": "DeltaSelect: Affordable A/B Testing for Coding Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19587",
+    "url": "https://arxiv.org/abs/2609.19587",
+    "title": "Red-Teaming Auto Mode: Improving Blocking Classifiers Against Malign Coding Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20625",
+    "url": "https://arxiv.org/abs/2609.20625",
+    "title": "Chronicle: Cut-Point Replay for Regression Testing of LLM Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19759",
+    "url": "https://arxiv.org/abs/2609.19759",
+    "title": "Rethinking Multi-Agent Collaboration: When More Is Less",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19391",
+    "url": "https://arxiv.org/abs/2609.19391",
+    "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19892",
+    "url": "https://arxiv.org/abs/2609.19892",
+    "title": "ClashBench: Conflicts Leading Agents to Seize and Harm",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19947",
+    "url": "https://arxiv.org/abs/2609.19947",
+    "title": "Not All AI Agents Are Equal: Characterizing Resource and Performance Dynamics",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20301",
+    "url": "https://arxiv.org/abs/2609.20301",
+    "title": "AgentPProf: Semantic Profiler for Long Horizon AI Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20261",
+    "url": "https://arxiv.org/abs/2609.20261",
+    "title": "When AI Agents Commit: Cognitive Serializability Across Data, Evidence, Policy, and Authority",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20095",
+    "url": "https://arxiv.org/abs/2609.20095",
+    "title": "A Scalable Trust Discovery Architecture for the Internet of Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19843",
+    "url": "https://arxiv.org/abs/2609.19843",
+    "title": "A Dual-Process Perspective on Nudge Susceptibility in LLM-Based GUI Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19244",
+    "url": "https://arxiv.org/abs/2609.19244",
+    "title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19387",
+    "url": "https://arxiv.org/abs/2609.19387",
+    "title": "Do AI Agents Understand Computer Architecture?",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19610",
+    "url": "https://arxiv.org/abs/2609.19610",
+    "title": "SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19551",
+    "url": "https://arxiv.org/abs/2609.19551",
+    "title": "Continual Enterprise World Model Discovery in Dynamic Systems",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19654",
+    "url": "https://arxiv.org/abs/2609.19654",
+    "title": "Replan, Repair, or Edit? A Unified Empirical Evaluation of Travel Agents for Itinerary Revision under Resource Disruptions",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19897",
+    "url": "https://arxiv.org/abs/2609.19897",
+    "title": "TRACE: Accountable Agentic Retrieval for Source Discovery in Digital Archives",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20152",
+    "url": "https://arxiv.org/abs/2609.20152",
+    "title": "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20812",
+    "url": "https://arxiv.org/abs/2609.20812",
+    "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.20820",
+    "url": "https://arxiv.org/abs/2609.20820",
+    "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+    "date_covered": "2026-09-19"
+  },
+  {
+    "id": "arxiv:2609.19636",
+    "url": "https://arxiv.org/abs/2609.19636",
+    "title": "Reach or Solve? Attributing Agentic RL Gains with Checkpoint Handoffs",
+    "date_covered": "2026-09-19"
+  },
+  {
     "id": "arxiv:2609.16215",
     "url": "https://arxiv.org/abs/2609.16215",
     "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
