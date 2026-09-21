@@ -1,5 +1,197 @@
 [
   {
+    "id": "arxiv:2609.21940",
+    "url": "https://arxiv.org/abs/2609.21940",
+    "title": "AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.22086",
+    "url": "https://arxiv.org/abs/2609.22086",
+    "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.22068",
+    "url": "https://arxiv.org/abs/2609.22068",
+    "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21284",
+    "url": "https://arxiv.org/abs/2609.21284",
+    "title": "Authorization Revocation for Long-Running AI Agents: Root-Scoped Quiescence under Delegation and Asynchronous Execution",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21032",
+    "url": "https://arxiv.org/abs/2609.21032",
+    "title": "Scaling Discovery through Test-Time Communication",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21423",
+    "url": "https://arxiv.org/abs/2609.21423",
+    "title": "DENSE: Distilling Agent Trajectories into Evidence-Grounded Shortcut Trees for Self-Refinement",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21325",
+    "url": "https://arxiv.org/abs/2609.21325",
+    "title": "LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21192",
+    "url": "https://arxiv.org/abs/2609.21192",
+    "title": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.22067",
+    "url": "https://arxiv.org/abs/2609.22067",
+    "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21267",
+    "url": "https://arxiv.org/abs/2609.21267",
+    "title": "Efficient Benchmarking in Production: A Study of an Evolving LLM Agent",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.20971",
+    "url": "https://arxiv.org/abs/2609.20971",
+    "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21139",
+    "url": "https://arxiv.org/abs/2609.21139",
+    "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21666",
+    "url": "https://arxiv.org/abs/2609.21666",
+    "title": "Samsone: A Family of Open Small Audio Language Models for On-Device Inference",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21967",
+    "url": "https://arxiv.org/abs/2609.21967",
+    "title": "NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21562",
+    "url": "https://arxiv.org/abs/2609.21562",
+    "title": "GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21293",
+    "url": "https://arxiv.org/abs/2609.21293",
+    "title": "GameASG-Bench: Benchmarking Autonomous Software Generation for Game Development",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21190",
+    "url": "https://arxiv.org/abs/2609.21190",
+    "title": "SWE-Proof: Can Language Models Resolve Real-World Issues with Machine-Checked Proofs?",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.20886",
+    "url": "https://arxiv.org/abs/2609.20886",
+    "title": "BI-Agent and BI-Bench: Towards Automating End-to-End Business Intelligence",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21257",
+    "url": "https://arxiv.org/abs/2609.21257",
+    "title": "Verify, Don't Trust: Agentic Model Development for Video Discovery Retrieval at Scale",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21686",
+    "url": "https://arxiv.org/abs/2609.21686",
+    "title": "CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21713",
+    "url": "https://arxiv.org/abs/2609.21713",
+    "title": "TERMon: Detecting Persistent Behavioral Threats in Edge AI via Hardware-Native Ternary Runtime Monitor",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21573",
+    "url": "https://arxiv.org/abs/2609.21573",
+    "title": "Micro-Collaborative Poisoning: A Distributed Attack on RAG Systems",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21997",
+    "url": "https://arxiv.org/abs/2609.21997",
+    "title": "Bayesian Belief Layer for Controllable Opinion Dynamics in LLM Agents",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21349",
+    "url": "https://arxiv.org/abs/2609.21349",
+    "title": "From Memory to Behavior: A Behavior-Aware Role-Playing Framework for Social Media Influencers",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21857",
+    "url": "https://arxiv.org/abs/2609.21857",
+    "title": "Do Personality-Tuned LLMs Make Better Social Agents?",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21805",
+    "url": "https://arxiv.org/abs/2609.21805",
+    "title": "An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept Study with N of 1 Data",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21626",
+    "url": "https://arxiv.org/abs/2609.21626",
+    "title": "One Prompt Does Not Fit All: Self-Meta-Evolve for Personalized Information Extraction",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21924",
+    "url": "https://arxiv.org/abs/2609.21924",
+    "title": "What Should We Ask Next? Retrieval-Aware Question Learning under Partial Evidence",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21863",
+    "url": "https://arxiv.org/abs/2609.21863",
+    "title": "AutoRecLab: Describe the Experiment, Get the Code!",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21157",
+    "url": "https://arxiv.org/abs/2609.21157",
+    "title": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21386",
+    "url": "https://arxiv.org/abs/2609.21386",
+    "title": "AgentVidBench: A Multi-Hop Video Question Answering Benchmark for Evaluating MLLM Agents",
+    "date_covered": "2026-09-21"
+  },
+  {
+    "id": "arxiv:2609.21677",
+    "url": "https://arxiv.org/abs/2609.21677",
+    "title": "GUARD: Natural Forgetting in Large Reasoning Models via Guided Answer-Reasoning Distillation",
+    "date_covered": "2026-09-21"
+  },
+  {
     "id": "arxiv:2609.19203",
     "url": "https://arxiv.org/abs/2609.19203",
     "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
