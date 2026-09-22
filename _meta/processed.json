@@ -1,5 +1,233 @@
 [
   {
+    "id": "arxiv:2609.24974",
+    "url": "https://arxiv.org/abs/2609.24974",
+    "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24130",
+    "url": "https://arxiv.org/abs/2609.24130",
+    "title": "Self-Healing Harness for Runtime Oversight of Agent Self-Modification",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23986",
+    "url": "https://arxiv.org/abs/2609.23986",
+    "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22573",
+    "url": "https://arxiv.org/abs/2609.22573",
+    "title": "Zero-Trust Authorization and Discovery for Enterprise MCP",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22944",
+    "url": "https://arxiv.org/abs/2609.22944",
+    "title": "NostrAgent: A Decentralized Identity and Delegation Architecture for Sovereign Agentic Systems",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22218",
+    "url": "https://arxiv.org/abs/2609.22218",
+    "title": "Toollery: Scaling LLM Agents to Thousands of Skills and Tools",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22178",
+    "url": "https://arxiv.org/abs/2609.22178",
+    "title": "Beyond Task Completion: Training Capable and Safe Computer-Use Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24890",
+    "url": "https://arxiv.org/abs/2609.24890",
+    "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24927",
+    "url": "https://arxiv.org/abs/2609.24927",
+    "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22882",
+    "url": "https://arxiv.org/abs/2609.22882",
+    "title": "The Law of Stop: Interruptibility, Injunctions, and the Governance of Agentic AI",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23790",
+    "url": "https://arxiv.org/abs/2609.23790",
+    "title": "Total Cost of Agency: Exact Attribution of Memory Injection Cost in Multi-Agent LLM Workflows",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23058",
+    "url": "https://arxiv.org/abs/2609.23058",
+    "title": "LazyAgent: Demand-Driven Materialization and Physical Optimization of Agentic Programs",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22951",
+    "url": "https://arxiv.org/abs/2609.22951",
+    "title": "AgentRouter: Heterogeneous Model Routing for Cost-Optimal Multi-Step Agentic Workflows",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23121",
+    "url": "https://arxiv.org/abs/2609.23121",
+    "title": "MM-ContextFold: Context Folding for Multimodal Agentic Retrieval",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22247",
+    "url": "https://arxiv.org/abs/2609.22247",
+    "title": "CHART: A Harness-Rotation Curriculum for Harness-Robust Search Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24706",
+    "url": "https://arxiv.org/abs/2609.24706",
+    "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22195",
+    "url": "https://arxiv.org/abs/2609.22195",
+    "title": "The Situated Identity Test: Distinguishing Persistent Cognitive Identity from Persona Imitation",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24115",
+    "url": "https://arxiv.org/abs/2609.24115",
+    "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22712",
+    "url": "https://arxiv.org/abs/2609.22712",
+    "title": "Trustworthy Agentic AI: Failure Modes, Mitigation Strategies, and a Lifecycle Framework for Autonomous LLM Systems",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23512",
+    "url": "https://arxiv.org/abs/2609.23512",
+    "title": "AgentBetta: Verification-Driven Adaptive Configuration of an AI Nano-Agent through Selective Expansion and Verified Contraction",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24277",
+    "url": "https://arxiv.org/abs/2609.24277",
+    "title": "How Many Pixels Is a Digit Worth? Place-Aware Coordinate Entropy for GUI Agent Confidence Estimation",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22792",
+    "url": "https://arxiv.org/abs/2609.22792",
+    "title": "SelfOp: An Optimization Algorithm for Self-Improving Security Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22961",
+    "url": "https://arxiv.org/abs/2609.22961",
+    "title": "When Agentic Trust Crosses Organizational Boundaries: Structural Externalization and a Reference Model for Trust Evidence",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24971",
+    "url": "https://arxiv.org/abs/2609.24971",
+    "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24972",
+    "url": "https://arxiv.org/abs/2609.24972",
+    "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24259",
+    "url": "https://arxiv.org/abs/2609.24259",
+    "title": "MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24161",
+    "url": "https://arxiv.org/abs/2609.24161",
+    "title": "MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24662",
+    "url": "https://arxiv.org/abs/2609.24662",
+    "title": "DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22910",
+    "url": "https://arxiv.org/abs/2609.22910",
+    "title": "When Should a VLM Look? Paying Only for Visual Calls That Were Needed and Used",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24663",
+    "url": "https://arxiv.org/abs/2609.24663",
+    "title": "Beyond Endpoint Performance: Process-Level Evaluation of Self-Evolving Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23894",
+    "url": "https://arxiv.org/abs/2609.23894",
+    "title": "Connecting the Dots in Agentic AI Security: A Cross-Dimensional Threat Taxonomy, Evaluation Maturity, and Open Challenges",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24967",
+    "url": "https://arxiv.org/abs/2609.24967",
+    "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.23735",
+    "url": "https://arxiv.org/abs/2609.23735",
+    "title": "ScholarStack: Layered Research Asset Orchestration and Cross-Task Reuse for Scientific Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24362",
+    "url": "https://arxiv.org/abs/2609.24362",
+    "title": "VLM-in-Sandbox: Visual Workspaces for Agentic Visual Reasoning",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24755",
+    "url": "https://arxiv.org/abs/2609.24755",
+    "title": "Epi-Logic: A Conceptual Framework for Epistemic Runtime Control, Schema Validity Checking, and Controlled Accommodation in Autonomous AI Agents",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24831",
+    "url": "https://arxiv.org/abs/2609.24831",
+    "title": "GRUET: Quantifying Uncertainty of Agentic Reasoning-and-Acting Processes",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.22949",
+    "url": "https://arxiv.org/abs/2609.22949",
+    "title": "Beyond Single-Model Injection: A Threat Model and Defense Architecture for Prompt Injection in Multi-Agent Systems",
+    "date_covered": "2026-09-22"
+  },
+  {
+    "id": "arxiv:2609.24137",
+    "url": "https://arxiv.org/abs/2609.24137",
+    "title": "Data Agents: Agentic Data Systems",
+    "date_covered": "2026-09-22"
+  },
+  {
     "id": "arxiv:2609.21940",
     "url": "https://arxiv.org/abs/2609.21940",
     "title": "AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory",
