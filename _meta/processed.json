@@ -1,5 +1,293 @@
 [
   {
+    "id": "arxiv:2609.26891",
+    "url": "https://arxiv.org/abs/2609.26891",
+    "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27334",
+    "url": "https://arxiv.org/abs/2609.27334",
+    "title": "Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26836",
+    "url": "https://arxiv.org/abs/2609.26836",
+    "title": "Silent Failures in Agent-Tool Interaction: An Audit of ToolUniverse",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27273",
+    "url": "https://arxiv.org/abs/2609.27273",
+    "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26911",
+    "url": "https://arxiv.org/abs/2609.26911",
+    "title": "TwinCheck: Evidence-Grounded Negative-Twin Verification for Stateful Tool Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27871",
+    "url": "https://arxiv.org/abs/2609.27871",
+    "title": "Bounded Loops: Pre-Run Spend Bounds, Proved Termination, and Verified Completion for Agent Harnesses",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27279",
+    "url": "https://arxiv.org/abs/2609.27279",
+    "title": "EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27298",
+    "url": "https://arxiv.org/abs/2609.27298",
+    "title": "StateComp: Learning When to Compress History in Long Horizon Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27286",
+    "url": "https://arxiv.org/abs/2609.27286",
+    "title": "Memory Control Signals Emerge Before Action in Long Horizon Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27276",
+    "url": "https://arxiv.org/abs/2609.27276",
+    "title": "DRSR: Learning Set-Level Deletion Risk for Efficient Long-Horizon Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27332",
+    "url": "https://arxiv.org/abs/2609.27332",
+    "title": "Stable Geometry with Divergent Task Evidence for Efficient Long-Horizon Agent Compression",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27417",
+    "url": "https://arxiv.org/abs/2609.27417",
+    "title": "Emergi-PersonaOS: A Persona Agent Operating System for Situational Adaptation and Controllable Evolution",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27307",
+    "url": "https://arxiv.org/abs/2609.27307",
+    "title": "Learn How to Act from Your Own Interactions: On-Policy Self-Distillation for GUI Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27606",
+    "url": "https://arxiv.org/abs/2609.27606",
+    "title": "State-Grounded Conditioning: Wrapping User-Facing LLM Agents Where Direction Depends on Live State",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.28274",
+    "url": "https://arxiv.org/abs/2609.28274",
+    "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.28197",
+    "url": "https://arxiv.org/abs/2609.28197",
+    "title": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27087",
+    "url": "https://arxiv.org/abs/2609.27087",
+    "title": "Policy-as-Skill: Governed LLM Decision Support with Evidence, Deterministic Control, and Audit",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.28416",
+    "url": "https://arxiv.org/abs/2609.28416",
+    "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27869",
+    "url": "https://arxiv.org/abs/2609.27869",
+    "title": "Learning What to Activate: Combinatorial Capability Allocation for Long-Horizon Multimodal Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27284",
+    "url": "https://arxiv.org/abs/2609.27284",
+    "title": "Hunyuan-A13B Technical Report",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26900",
+    "url": "https://arxiv.org/abs/2609.26900",
+    "title": "Ajar: Measuring Open Privilege in Agent Defenses",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.28216",
+    "url": "https://arxiv.org/abs/2609.28216",
+    "title": "From Agent Output to Authorized Transition",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27571",
+    "url": "https://arxiv.org/abs/2609.27571",
+    "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26826",
+    "url": "https://arxiv.org/abs/2609.26826",
+    "title": "What Makes a Terminal-Bench Task Hard? Separating Genuine Hardness from Fake-Hardness on an Adjudicated Agentic Corpus",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27277",
+    "url": "https://arxiv.org/abs/2609.27277",
+    "title": "TimeEvo: Failure-Driven Self-Evolution of a Time Series Agent",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27035",
+    "url": "https://arxiv.org/abs/2609.27035",
+    "title": "Reinforcement Learning with Decomposed Subtasks",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27321",
+    "url": "https://arxiv.org/abs/2609.27321",
+    "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27490",
+    "url": "https://arxiv.org/abs/2609.27490",
+    "title": "WhatWorkedBench: Benchmarking Experimental Understanding in AI Agents",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27354",
+    "url": "https://arxiv.org/abs/2609.27354",
+    "title": "Constraint-Driven Context Engineering: Designing Domain Interfaces for AI Systems",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26853",
+    "url": "https://arxiv.org/abs/2609.26853",
+    "title": "COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26913",
+    "url": "https://arxiv.org/abs/2609.26913",
+    "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27150",
+    "url": "https://arxiv.org/abs/2609.27150",
+    "title": "Do We Need Complex Topology Control? Distinct-Peer Random Routing Improves Cost-Efficiency in Sparse Multi-Agent Debate",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27294",
+    "url": "https://arxiv.org/abs/2609.27294",
+    "title": "KITE: KV-Invariant Transformer Expansion for Efficient Agentic LLM Scaling",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27085",
+    "url": "https://arxiv.org/abs/2609.27085",
+    "title": "Crossflow: Prefill-Decode Elasticity for Agentic LLM Serving",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26828",
+    "url": "https://arxiv.org/abs/2609.26828",
+    "title": "Bridging LLM Serving and CXL-SSDs with Chunk-Aware KV Cache Management",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27037",
+    "url": "https://arxiv.org/abs/2609.27037",
+    "title": "Training Intelligent Voice Assistant Wakeup with Controllable Synthetic Conversations",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.28256",
+    "url": "https://arxiv.org/abs/2609.28256",
+    "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27105",
+    "url": "https://arxiv.org/abs/2609.27105",
+    "title": "Provably Complete Generalized Planning with LLMs",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27336",
+    "url": "https://arxiv.org/abs/2609.27336",
+    "title": "CART: Closed-Loop Adaptive Red Teaming for Large Language Models",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26952",
+    "url": "https://arxiv.org/abs/2609.26952",
+    "title": "Escaping Python Dependency Hell: A Hybrid Replay-and-Repair Pipeline for Python Dependency Resolution",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27385",
+    "url": "https://arxiv.org/abs/2609.27385",
+    "title": "Forecast Workflow Bench: Evaluating Language-Model Decisions with Budgeted Forecast Tools",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27855",
+    "url": "https://arxiv.org/abs/2609.27855",
+    "title": "Reachable Global Optimization in AI Systems: How Global Is Global?",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27814",
+    "url": "https://arxiv.org/abs/2609.27814",
+    "title": "LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27452",
+    "url": "https://arxiv.org/abs/2609.27452",
+    "title": "Issuer-Sovereign Agentic Payments",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.26927",
+    "url": "https://arxiv.org/abs/2609.26927",
+    "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27175",
+    "url": "https://arxiv.org/abs/2609.27175",
+    "title": "Self-Evolving Multimedia Verification through Memory Consolidation of Contestation Experiences",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.27374",
+    "url": "https://arxiv.org/abs/2609.27374",
+    "title": "Planned Test-Time Scaling with Coordinated Reasoning Paths",
+    "date_covered": "2026-09-24"
+  },
+  {
+    "id": "arxiv:2609.28322",
+    "url": "https://arxiv.org/abs/2609.28322",
+    "title": "Learning the Cost of Reliable Inference",
+    "date_covered": "2026-09-24"
+  },
+  {
     "id": "arxiv:2609.26760",
     "url": "https://arxiv.org/abs/2609.26760",
     "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
