@@ -1,5 +1,275 @@
 [
   {
+    "id": "arxiv:2609.28547",
+    "url": "https://arxiv.org/abs/2609.28547",
+    "title": "PAWS: Policy-driven Agentic World Simulation",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28575",
+    "url": "https://arxiv.org/abs/2609.28575",
+    "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28693",
+    "url": "https://arxiv.org/abs/2609.28693",
+    "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28765",
+    "url": "https://arxiv.org/abs/2609.28765",
+    "title": "Reinforcement Learning with Verifiable Rewards for Small Search Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28850",
+    "url": "https://arxiv.org/abs/2609.28850",
+    "title": "RECLAIM: Can Agents Reproduce the Claims of Machine Learning Papers?",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28919",
+    "url": "https://arxiv.org/abs/2609.28919",
+    "title": "Control the Harness, Control the Cost: Routing and Governing AI Coding Agents in the Enterprise",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29007",
+    "url": "https://arxiv.org/abs/2609.29007",
+    "title": "When Does Action Credit Need Updating?",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29015",
+    "url": "https://arxiv.org/abs/2609.29015",
+    "title": "MeshHeal: Two-Timescale Self-Healing for Gray Failures in Decentralized LLM Agent Networks",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29050",
+    "url": "https://arxiv.org/abs/2609.29050",
+    "title": "SLCA-GRPO: Resolving Cross-Segment Credit Misattribution in Tool-Calling RL",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29051",
+    "url": "https://arxiv.org/abs/2609.29051",
+    "title": "From Self-Distillation to Self-Practice: Privileged Information for Multi-Turn Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29144",
+    "url": "https://arxiv.org/abs/2609.29144",
+    "title": "Scope Before You Persist: Preventing Cross-Family Interference in Agent Memory",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29154",
+    "url": "https://arxiv.org/abs/2609.29154",
+    "title": "A Wrong Turn Does Not Ruin the Journey: Deviation-Guided Skill Self-Evolution for LLM Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29251",
+    "url": "https://arxiv.org/abs/2609.29251",
+    "title": "Policy as Code: A Coroutine-Bridge Harness for Fast-Reasoning Reliability on CAR-bench",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29508",
+    "url": "https://arxiv.org/abs/2609.29508",
+    "title": "Evaluation of Multi-Turn Consistency in LLM Agents: Survival Analysis and Failure-Rationale Taxonomy",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29522",
+    "url": "https://arxiv.org/abs/2609.29522",
+    "title": "Stale Does Not Mean Unsafe: Guard Precision for Tool-Using LLM Agents under Infrastructure State Races",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29545",
+    "url": "https://arxiv.org/abs/2609.29545",
+    "title": "ERRAND: Budgeted Maintenance of Agent Memory",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29578",
+    "url": "https://arxiv.org/abs/2609.29578",
+    "title": "PartHackBench: Certified Equal-Progress Stress Tests for Partial-Credit Tool-Agent Evaluation",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29626",
+    "url": "https://arxiv.org/abs/2609.29626",
+    "title": "iCoder-27B: Recursive AI-Led Development of Frontier Industrial Coding Model",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29661",
+    "url": "https://arxiv.org/abs/2609.29661",
+    "title": "Ingest-Time Fact Compilation for Cost-Efficient and Reliable Question Answering over Revised Corpora",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29735",
+    "url": "https://arxiv.org/abs/2609.29735",
+    "title": "C3M: Cross-Session Multimodal Memory Maintenance for Long-Horizon Tasks",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29773",
+    "url": "https://arxiv.org/abs/2609.29773",
+    "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29875",
+    "url": "https://arxiv.org/abs/2609.29875",
+    "title": "When Can Agents Forget Their Reasoning? ICLR for Long-Horizon Agent Context Compression",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29892",
+    "url": "https://arxiv.org/abs/2609.29892",
+    "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29921",
+    "url": "https://arxiv.org/abs/2609.29921",
+    "title": "Who Holds the Pen? Let Specifications, Not Agents, Sign Off",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30028",
+    "url": "https://arxiv.org/abs/2609.30028",
+    "title": "How does Adversarial Influence Scale in Multi-Agent Systems?",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30123",
+    "url": "https://arxiv.org/abs/2609.30123",
+    "title": "HEXIS: Compiling Skills into Extended Finite State Machines",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30137",
+    "url": "https://arxiv.org/abs/2609.30137",
+    "title": "Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30186",
+    "url": "https://arxiv.org/abs/2609.30186",
+    "title": "Jev-Mobile: Jev as an Executor for Mobile GUI Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28559",
+    "url": "https://arxiv.org/abs/2609.28559",
+    "title": "Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28585",
+    "url": "https://arxiv.org/abs/2609.28585",
+    "title": "Persistent Billable State: Denial-of-Wallet Attacks and Defenses in Tool-Calling LLM Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28613",
+    "url": "https://arxiv.org/abs/2609.28613",
+    "title": "Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.28915",
+    "url": "https://arxiv.org/abs/2609.28915",
+    "title": "On the Effectiveness of Kernel-Level Evidence for Agent Security",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29095",
+    "url": "https://arxiv.org/abs/2609.29095",
+    "title": "Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29309",
+    "url": "https://arxiv.org/abs/2609.29309",
+    "title": "DocuTeam: Mixed-Initiative Multi-Agent Discussions around Evolving Documents",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29421",
+    "url": "https://arxiv.org/abs/2609.29421",
+    "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29444",
+    "url": "https://arxiv.org/abs/2609.29444",
+    "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29547",
+    "url": "https://arxiv.org/abs/2609.29547",
+    "title": "When Agents Act Unwatched: The Reduced-Supervision Paradox in Agentic AI",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29647",
+    "url": "https://arxiv.org/abs/2609.29647",
+    "title": "AgentKernel: The Trust-Native Agentic Operating System",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29697",
+    "url": "https://arxiv.org/abs/2609.29697",
+    "title": "Understanding and Exploiting Initialization Anchoring Weakness in Feedback-Based Agent Planning",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29808",
+    "url": "https://arxiv.org/abs/2609.29808",
+    "title": "Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.29901",
+    "url": "https://arxiv.org/abs/2609.29901",
+    "title": "Working with Agentic `Teammates': When a New Organizational Actor Collides with the Human Ecosystem of Work",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30055",
+    "url": "https://arxiv.org/abs/2609.30055",
+    "title": "Era by Eon: Benchmarking Enterprise Agents on Hidden Knowledge",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30217",
+    "url": "https://arxiv.org/abs/2609.30217",
+    "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30219",
+    "url": "https://arxiv.org/abs/2609.30219",
+    "title": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Authority",
+    "date_covered": "2026-09-25"
+  },
+  {
+    "id": "arxiv:2609.30266",
+    "url": "https://arxiv.org/abs/2609.30266",
+    "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+    "date_covered": "2026-09-25"
+  },
+  {
     "id": "arxiv:2609.26891",
     "url": "https://arxiv.org/abs/2609.26891",
     "title": "Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity",
