@@ -1,5 +1,197 @@
 [
   {
+    "id": "arxiv:2609.30341",
+    "url": "https://arxiv.org/abs/2609.30341",
+    "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30887",
+    "url": "https://arxiv.org/abs/2609.30887",
+    "title": "From Tapping to Hopping: Augmenting Mobile GUI Agents with App-Native Deeplinks",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30797",
+    "url": "https://arxiv.org/abs/2609.30797",
+    "title": "HasMem: Hard-Origin Adaptively Softened Memory for Long-Term LLM Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31354",
+    "url": "https://arxiv.org/abs/2609.31354",
+    "title": "Mutable Transcripts: Mitigating Context Pollution through Editable Conversation State",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31395",
+    "url": "https://arxiv.org/abs/2609.31395",
+    "title": "ActKV: Efficient LLM Agents through Action-Guided KV Cache Management",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30967",
+    "url": "https://arxiv.org/abs/2609.30967",
+    "title": "MoMHa: Multi-Objective Optimization of LLM Harnesses over Accuracy, Safety, and Tokens",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31076",
+    "url": "https://arxiv.org/abs/2609.31076",
+    "title": "Up and Down the Abstraction Ladder: Code-Based Skills for Language Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30861",
+    "url": "https://arxiv.org/abs/2609.30861",
+    "title": "SkillEvoReg: Regularizing Agent Skill Evolution Against Overfitting",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30383",
+    "url": "https://arxiv.org/abs/2609.30383",
+    "title": "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30325",
+    "url": "https://arxiv.org/abs/2609.30325",
+    "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30662",
+    "url": "https://arxiv.org/abs/2609.30662",
+    "title": "LLM Parkinsonism: Executive-Control Failure, Token-Inefficient Persistence, and an Uncertainty-Aware Global Executive Control Architecture for Autonomous Language-Model Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30813",
+    "url": "https://arxiv.org/abs/2609.30813",
+    "title": "A Benchmark and Diagnostic Study of Epistemic Admission in Shared Agent Memory",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30558",
+    "url": "https://arxiv.org/abs/2609.30558",
+    "title": "Probing Stability-Plasticity Tradeoffs in Agent Memory through Cognitive Experimental Paradigms",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31430",
+    "url": "https://arxiv.org/abs/2609.31430",
+    "title": "Compress What You See, Not What You Say: Anchored Context Distillation for Latent-Observation Software Engineering Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31381",
+    "url": "https://arxiv.org/abs/2609.31381",
+    "title": "Completed Pairs Hide Capped Failures: A ReVerPi Case Study of Selective Context Projection",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30293",
+    "url": "https://arxiv.org/abs/2609.30293",
+    "title": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30604",
+    "url": "https://arxiv.org/abs/2609.30604",
+    "title": "The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31301",
+    "url": "https://arxiv.org/abs/2609.31301",
+    "title": "Beyond Approved Actions: Runtime Validation of Persistent Outcomes in Agent Workflows",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30725",
+    "url": "https://arxiv.org/abs/2609.30725",
+    "title": "Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31587",
+    "url": "https://arxiv.org/abs/2609.31587",
+    "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30345",
+    "url": "https://arxiv.org/abs/2609.30345",
+    "title": "Coding Agents Aren't Enough! Evaluating an Enterprise Security Brain for Agentic Cloud Investigations",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30328",
+    "url": "https://arxiv.org/abs/2609.30328",
+    "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30734",
+    "url": "https://arxiv.org/abs/2609.30734",
+    "title": "Learning What to Skip: Counterfactual Credit Assignment for Efficient Multi-Agent LLM Workflows",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31422",
+    "url": "https://arxiv.org/abs/2609.31422",
+    "title": "Towards Mitigating Fabricated Consensus: The Active Provenance Gate for Multi-Agent Debate Synthesis",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31318",
+    "url": "https://arxiv.org/abs/2609.31318",
+    "title": "AgentXploit: Autonomous Repository-to-Runtime Red-Teaming for AI Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30836",
+    "url": "https://arxiv.org/abs/2609.30836",
+    "title": "PTC-Decoder: Towards Intelligent SLMs on Offline Resource-Constrained Edge Devices",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31047",
+    "url": "https://arxiv.org/abs/2609.31047",
+    "title": "DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30471",
+    "url": "https://arxiv.org/abs/2609.30471",
+    "title": "CARGO: Context-Aware Retrieval-Gated Evaluation of Agentic AI in Production",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30614",
+    "url": "https://arxiv.org/abs/2609.30614",
+    "title": "Subjects, Not Authors: The Authorship Hazard in Agentic Dataspaces",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.31186",
+    "url": "https://arxiv.org/abs/2609.31186",
+    "title": "Evolutionary Safety of Recursive Self-Improving AI: Taxonomy, Risk Discovery, and Evaluation",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30971",
+    "url": "https://arxiv.org/abs/2609.30971",
+    "title": "SciHorizon-eLab: An Agentic Protocol-to-Task Compiler for Scalable Benchmarking of Scientific Embodied Agents",
+    "date_covered": "2026-09-28"
+  },
+  {
+    "id": "arxiv:2609.30291",
+    "url": "https://arxiv.org/abs/2609.30291",
+    "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+    "date_covered": "2026-09-28"
+  },
+  {
     "id": "arxiv:2609.28547",
     "url": "https://arxiv.org/abs/2609.28547",
     "title": "PAWS: Policy-driven Agentic World Simulation",
