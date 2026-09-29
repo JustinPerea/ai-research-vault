@@ -1,5 +1,263 @@
 [
   {
+    "id": "arxiv:2609.32166",
+    "url": "https://arxiv.org/abs/2609.32166",
+    "title": "PastForward: Faster On-Device GUI Agents via Computational Experience Reuse",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32600",
+    "url": "https://arxiv.org/abs/2609.32600",
+    "title": "CUA-SWE: When Computer-Use Agents Meet Visual Software Engineering",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32990",
+    "url": "https://arxiv.org/abs/2609.32990",
+    "title": "Certified Long-Horizon Code Agent Evolution via Validation-Gated Skill Optimization",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34649",
+    "url": "https://arxiv.org/abs/2609.34649",
+    "title": "Beyond Skill Evolution: Self-Evolving Context Management Policies for Long-Horizon Agent Harnesses",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32091",
+    "url": "https://arxiv.org/abs/2609.32091",
+    "title": "Memory as Middleware for Self-Improving AI Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32192",
+    "url": "https://arxiv.org/abs/2609.32192",
+    "title": "CoMemBench: Benchmarking Collaborative Memory Boundaries across Multi-Agent Workflow Topologies",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32731",
+    "url": "https://arxiv.org/abs/2609.32731",
+    "title": "SkillVine: Agent Skill Evolution via Branching Exploration",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32750",
+    "url": "https://arxiv.org/abs/2609.32750",
+    "title": "CUA-Sandbox: Efficient Environments for Computer-Use Agent Reinforcement Learning",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33123",
+    "url": "https://arxiv.org/abs/2609.33123",
+    "title": "Compositional Safety Failures in Harness Evolution: Identification and Runtime Monitoring",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33731",
+    "url": "https://arxiv.org/abs/2609.33731",
+    "title": "HTN Planning as a Coordination Layer for Multi-Server MCP Tool Orchestration",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33867",
+    "url": "https://arxiv.org/abs/2609.33867",
+    "title": "R$^2$ Flow: Recursive Self-Improvement via Recursive Skill Evolution",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34397",
+    "url": "https://arxiv.org/abs/2609.34397",
+    "title": "SkillFocus: Evolving Agent Skills via Capability Decomposition",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.35381",
+    "url": "https://arxiv.org/abs/2609.35381",
+    "title": "MCP Error Messages Written for Developers Hurt the Most Capable Agents Most",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32274",
+    "url": "https://arxiv.org/abs/2609.32274",
+    "title": "When Does a Skill Add Value? Task-Conditional Gain Prediction for Selective Skill Use",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32339",
+    "url": "https://arxiv.org/abs/2609.32339",
+    "title": "Enabling Timely Guidance before Skill Retrieval: Retaining Helpful Warm Tips in Agent Context",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32635",
+    "url": "https://arxiv.org/abs/2609.32635",
+    "title": "Trust the Brand, Lose Control: How Identity Hijacks LLM Agent Orchestration",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32965",
+    "url": "https://arxiv.org/abs/2609.32965",
+    "title": "Relic: From Multi-Agent Collaboration to Persistent Organizational Capability",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33153",
+    "url": "https://arxiv.org/abs/2609.33153",
+    "title": "What Does a Skill Actually Do? Estimands and Evaluation Validity for Tool and Skill Use in LLM Agents: A Critical Review",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34422",
+    "url": "https://arxiv.org/abs/2609.34422",
+    "title": "Coding Agent Memory Post-training: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via Reinforcement Learning",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.35557",
+    "url": "https://arxiv.org/abs/2609.35557",
+    "title": "The Compiler May Read It, the Agent May Not: Keeping Part of a Research Code Away from a Coding Agent",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32259",
+    "url": "https://arxiv.org/abs/2609.32259",
+    "title": "Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32423",
+    "url": "https://arxiv.org/abs/2609.32423",
+    "title": "PluginRSI: Recursive Improvement of Agent Harnesses with Reusable Plugins",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32495",
+    "url": "https://arxiv.org/abs/2609.32495",
+    "title": "Hearsay: Can an Auditor Trust the Record a Deployed Agent Harness Writes?",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32522",
+    "url": "https://arxiv.org/abs/2609.32522",
+    "title": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32574",
+    "url": "https://arxiv.org/abs/2609.32574",
+    "title": "CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32584",
+    "url": "https://arxiv.org/abs/2609.32584",
+    "title": "EMIR$^2$: Evolution-Aware Memory with Intent-Guided Multi-Round Retrieval",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33146",
+    "url": "https://arxiv.org/abs/2609.33146",
+    "title": "LiteEvo: Automated, Cost-Efficient Harness Evolution for Generalization to Unseen Tasks",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33268",
+    "url": "https://arxiv.org/abs/2609.33268",
+    "title": "LSTMem: Hierarchical Long Short-Term Online Memory for Large Language Models",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33822",
+    "url": "https://arxiv.org/abs/2609.33822",
+    "title": "Vestrum: Improving Agent Harnesses by Adapting Their Verification, Structure and Memory",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34132",
+    "url": "https://arxiv.org/abs/2609.34132",
+    "title": "From Attack Success to Attack Severity: Counterfactual Memory Attacks on LLM Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34242",
+    "url": "https://arxiv.org/abs/2609.34242",
+    "title": "Stashbird: Efficient Speaker-Indexed Memory for Conversational Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34438",
+    "url": "https://arxiv.org/abs/2609.34438",
+    "title": "Remember by Asking: Retrieval-Induced Memory Evolution for LLM Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34661",
+    "url": "https://arxiv.org/abs/2609.34661",
+    "title": "Codoku: Renewable Program-Reasoning Challenges for Frontier Coding Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.35366",
+    "url": "https://arxiv.org/abs/2609.35366",
+    "title": "Planarian: Managing Agent State with Statepoints",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33910",
+    "url": "https://arxiv.org/abs/2609.33910",
+    "title": "When Consent Outlives Context: Residual Authority Replay in Long-Lived Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32378",
+    "url": "https://arxiv.org/abs/2609.32378",
+    "title": "AuthorityLens: Rethinking LLM-Based Agent Systems Through the Lens of Authority",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32395",
+    "url": "https://arxiv.org/abs/2609.32395",
+    "title": "Memory as a cache: Exact context reuse and deletion by construction",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.32521",
+    "url": "https://arxiv.org/abs/2609.32521",
+    "title": "MemAgent: Learning to Manage Heterogeneous Memory Providers for LLM Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33244",
+    "url": "https://arxiv.org/abs/2609.33244",
+    "title": "ActiveMem: Dynamic Latent Memory Trees for Long-Horizon Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.34565",
+    "url": "https://arxiv.org/abs/2609.34565",
+    "title": "FlowState: Execution State as Memory for Long-Horizon LLM Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.35692",
+    "url": "https://arxiv.org/abs/2609.35692",
+    "title": "Report: Progressive Disclosure of Agent Skills",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.33646",
+    "url": "https://arxiv.org/abs/2609.33646",
+    "title": "Probe to Act: Elevating Browser-Use Agent via Active Visual Probing",
+    "date_covered": "2026-09-29"
+  },
+  {
+    "id": "arxiv:2609.35671",
+    "url": "https://arxiv.org/abs/2609.35671",
+    "title": "PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents",
+    "date_covered": "2026-09-29"
+  },
+  {
     "id": "arxiv:2609.30341",
     "url": "https://arxiv.org/abs/2609.30341",
     "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
