@@ -1,5 +1,257 @@
 [
   {
+    "id": "arxiv:2609.35875",
+    "url": "https://arxiv.org/abs/2609.35875",
+    "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36892",
+    "url": "https://arxiv.org/abs/2609.36892",
+    "title": "Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37544",
+    "url": "https://arxiv.org/abs/2609.37544",
+    "title": "How Can Recommendation Feedback Evolve Agent Memory?",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37898",
+    "url": "https://arxiv.org/abs/2609.37898",
+    "title": "Guide, Then Let Go: Gap-Adaptive Teacher Scheduling for Sparse-Reward Agentic RL",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37950",
+    "url": "https://arxiv.org/abs/2609.37950",
+    "title": "Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38147",
+    "url": "https://arxiv.org/abs/2609.38147",
+    "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36505",
+    "url": "https://arxiv.org/abs/2609.36505",
+    "title": "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36805",
+    "url": "https://arxiv.org/abs/2609.36805",
+    "title": "UpliftMem: Learning Set-Level Uplift for Agent Memory Retrieval",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36835",
+    "url": "https://arxiv.org/abs/2609.36835",
+    "title": "ARC-KV: Amortizing Anchor Search for Reconstruction-Based KV Cache Compaction",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37128",
+    "url": "https://arxiv.org/abs/2609.37128",
+    "title": "SkillCome: Group Contrast Skill Optimization with Dual Memory",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37834",
+    "url": "https://arxiv.org/abs/2609.37834",
+    "title": "Mixture of Self-Improving Branches For Agent Harness Optimization",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37902",
+    "url": "https://arxiv.org/abs/2609.37902",
+    "title": "You Cannot Pick a Provider From the Price List: Market-Aware Routing for Open-Weight LLM Inference",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38006",
+    "url": "https://arxiv.org/abs/2609.38006",
+    "title": "HARISSA: Inference-Time Self-Checks for Efficient and Safe Local Language Model Deployment",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38024",
+    "url": "https://arxiv.org/abs/2609.38024",
+    "title": "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38043",
+    "url": "https://arxiv.org/abs/2609.38043",
+    "title": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38143",
+    "url": "https://arxiv.org/abs/2609.38143",
+    "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36178",
+    "url": "https://arxiv.org/abs/2609.36178",
+    "title": "Targeting Pivotal Decisions for Credit Assignment in Agentic Reinforcement Learning",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36322",
+    "url": "https://arxiv.org/abs/2609.36322",
+    "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36580",
+    "url": "https://arxiv.org/abs/2609.36580",
+    "title": "SafeCoEvo: Co-Evolving Safety Harnesses and Guards for LLM Agents at Test-Time",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37953",
+    "url": "https://arxiv.org/abs/2609.37953",
+    "title": "Topological Coherence for Self-evolving Multi-agent Systems",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36556",
+    "url": "https://arxiv.org/abs/2609.36556",
+    "title": "MAADBench: The Refreshable Paradigm for Anomaly Detection in Multi-Agent Systems",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36855",
+    "url": "https://arxiv.org/abs/2609.36855",
+    "title": "When Upstream Messages Override Correct Answers: A Controlled Study of Multi-Agent LLM Collaboration",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36887",
+    "url": "https://arxiv.org/abs/2609.36887",
+    "title": "WEFT: Scaling Tool-Use Post-Training for General-Purpose Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37012",
+    "url": "https://arxiv.org/abs/2609.37012",
+    "title": "CADOC: Cache-Aware Dynamic Object Context for Long-Horizon Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37588",
+    "url": "https://arxiv.org/abs/2609.37588",
+    "title": "Rational Clarification by Assistive Agents via Value-of-Information Reasoning",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37590",
+    "url": "https://arxiv.org/abs/2609.37590",
+    "title": "FOCUS: Training-Free Decision-Preserving Context Compression for LLM Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37644",
+    "url": "https://arxiv.org/abs/2609.37644",
+    "title": "Beyond a single latent space: a dual-latent world model for long-horizon planning",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37743",
+    "url": "https://arxiv.org/abs/2609.37743",
+    "title": "ContextRender: From Execution Dependencies to Agent Context",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38093",
+    "url": "https://arxiv.org/abs/2609.38093",
+    "title": "Character Training for Risk-Averse Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38108",
+    "url": "https://arxiv.org/abs/2609.38108",
+    "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.35928",
+    "url": "https://arxiv.org/abs/2609.35928",
+    "title": "Prompted Identity Degrades Cooperation in Multi-Agent LLM Systems",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36393",
+    "url": "https://arxiv.org/abs/2609.36393",
+    "title": "Reward-rate Policy Gradient for Efficient Machine Learning Engineering Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36739",
+    "url": "https://arxiv.org/abs/2609.36739",
+    "title": "Frontier Autolab: Organizational Memory, Adversarial Dissent and Temporal Leakage in Multi-Agent LLM Firms Across Fifty Years of Technological Change",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36879",
+    "url": "https://arxiv.org/abs/2609.36879",
+    "title": "SKILLLITE: Evidence-Guided Malicious Skill Auditing with Compact LLMs",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37105",
+    "url": "https://arxiv.org/abs/2609.37105",
+    "title": "VACE: Validation-Gated Alternating Co-Evolution of Agent Models and Harnesses",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37567",
+    "url": "https://arxiv.org/abs/2609.37567",
+    "title": "Concealing LLM-Based Multi-Agent Topology via Phantom Structure Injection",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37864",
+    "url": "https://arxiv.org/abs/2609.37864",
+    "title": "AgentBug-Smith: Automatically Reproducing Real-World Harness Bugs in Agentic Systems",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.38021",
+    "url": "https://arxiv.org/abs/2609.38021",
+    "title": "Auditable Long-Term Memory: A Deterministic Retrieval Chain Measured at 479/475 of 500 on LongMemEval-S",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36319",
+    "url": "https://arxiv.org/abs/2609.36319",
+    "title": "StateTape: Action-Conditioned Evidence Lifecycle Modeling for Long-Horizon Coding Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36365",
+    "url": "https://arxiv.org/abs/2609.36365",
+    "title": "Engineering Simplicity: Simple Mechanism Interfaces Steer LLM Agents",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.37725",
+    "url": "https://arxiv.org/abs/2609.37725",
+    "title": "Context Language Models",
+    "date_covered": "2026-09-30"
+  },
+  {
+    "id": "arxiv:2609.36635",
+    "url": "https://arxiv.org/abs/2609.36635",
+    "title": "WitnessGym: Benchmarking Coding Agents on the Construction of Bug Witnesses",
+    "date_covered": "2026-09-30"
+  },
+  {
     "id": "arxiv:2609.32166",
     "url": "https://arxiv.org/abs/2609.32166",
     "title": "PastForward: Faster On-Device GUI Agents via Computational Experience Reuse",
