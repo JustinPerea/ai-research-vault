@@ -1,5 +1,257 @@
 [
   {
+    "id": "arxiv:2609.38288",
+    "url": "https://arxiv.org/abs/2609.38288",
+    "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38294",
+    "url": "https://arxiv.org/abs/2609.38294",
+    "title": "MoFlow: Multi-Objective Agentic Workflow Generation",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38372",
+    "url": "https://arxiv.org/abs/2609.38372",
+    "title": "Self-Evolving Harness on Multiple Tasks with the Agent as Its Own Optimizer",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38512",
+    "url": "https://arxiv.org/abs/2609.38512",
+    "title": "VAmoS Part Deux: Harder, More Realistic Voice-Agent Simulation",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38652",
+    "url": "https://arxiv.org/abs/2609.38652",
+    "title": "AgBench: Agentic AI Benchmarks for Personal AI Devices",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38712",
+    "url": "https://arxiv.org/abs/2609.38712",
+    "title": "Staying on Task: Testing the Foundations of Long-Horizon Agent Reliability",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38778",
+    "url": "https://arxiv.org/abs/2609.38778",
+    "title": "Action Conditioned Bisimulation For GUI Agent Memory",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38866",
+    "url": "https://arxiv.org/abs/2609.38866",
+    "title": "When Context Changes: Understanding Update Failures in LLMs",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38867",
+    "url": "https://arxiv.org/abs/2609.38867",
+    "title": "Talk2Agent: Benchmarking Voice Interfaces for Text Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38891",
+    "url": "https://arxiv.org/abs/2609.38891",
+    "title": "Consistent Plan-Act for Long-Horizon Agentic Tasks",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38912",
+    "url": "https://arxiv.org/abs/2609.38912",
+    "title": "Composing Task-specific Agent Harnesses at Test Time with Reusable Primitives",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39139",
+    "url": "https://arxiv.org/abs/2609.39139",
+    "title": "BELIEFRAG: Making Adaptive RAG State-Aware under Evolving Evidence",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39143",
+    "url": "https://arxiv.org/abs/2609.39143",
+    "title": "RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39148",
+    "url": "https://arxiv.org/abs/2609.39148",
+    "title": "Do Self-Evolving Skills Generalize to Held-Out Tasks?",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39149",
+    "url": "https://arxiv.org/abs/2609.39149",
+    "title": "Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39325",
+    "url": "https://arxiv.org/abs/2609.39325",
+    "title": "WorkGenesis: Building the Worlds That Teach Agents to Work",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39473",
+    "url": "https://arxiv.org/abs/2609.39473",
+    "title": "Beyond the Shadows of Plato's Cave: Evaluating False Memory in Autonomous Agents via Counterfactual Reasoning",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39903",
+    "url": "https://arxiv.org/abs/2609.39903",
+    "title": "OSWorld-Science: A Benchmark of Computer Use Agents for Learning and Using Scientific Software",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.40169",
+    "url": "https://arxiv.org/abs/2609.40169",
+    "title": "Learning from Research: Toward Lifelong Agent Harness Evolution",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.40303",
+    "url": "https://arxiv.org/abs/2609.40303",
+    "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.40330",
+    "url": "https://arxiv.org/abs/2609.40330",
+    "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38445",
+    "url": "https://arxiv.org/abs/2609.38445",
+    "title": "AIM: Agentic Idea Management for Automated Research",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39146",
+    "url": "https://arxiv.org/abs/2609.39146",
+    "title": "MADBench: Benchmarking the Security of Multi-Agent Debate",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.40285",
+    "url": "https://arxiv.org/abs/2609.40285",
+    "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38275",
+    "url": "https://arxiv.org/abs/2609.38275",
+    "title": "When Correct Memory Goes Wrong: Fuzzing Persistent Memory Use in LLM Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38349",
+    "url": "https://arxiv.org/abs/2609.38349",
+    "title": "MILO: Automated Harness Discovery via Orchestrated Multi-Agent Evolution",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38353",
+    "url": "https://arxiv.org/abs/2609.38353",
+    "title": "TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38593",
+    "url": "https://arxiv.org/abs/2609.38593",
+    "title": "Prompt2Skill: Unsupervised Skill Optimization From Natural Language Instructions",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38662",
+    "url": "https://arxiv.org/abs/2609.38662",
+    "title": "CollabFlow: Recursive Self-Improvement of Agent Collaboration",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38822",
+    "url": "https://arxiv.org/abs/2609.38822",
+    "title": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39065",
+    "url": "https://arxiv.org/abs/2609.39065",
+    "title": "Can Agents Trust Their Skills? Uncovering Unsafe Chains of Trust in Skill-Based LLM Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39284",
+    "url": "https://arxiv.org/abs/2609.39284",
+    "title": "EngramBench: A Capability-Grounded Benchmark for Skill-Evolution Harnesses",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39352",
+    "url": "https://arxiv.org/abs/2609.39352",
+    "title": "Hiding in Plain Sight: Decoupling Pretext from Actuation for Skill Poisoning in LLM Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39358",
+    "url": "https://arxiv.org/abs/2609.39358",
+    "title": "Working Around the Compute Ceiling: Byte-Exact Memory in Galahad Makes LLM Reading a One-Time Cost LLM Reading a One-Time Cost",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39450",
+    "url": "https://arxiv.org/abs/2609.39450",
+    "title": "ActionGuard: Tool Call Authorization under Poisoned Skills",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39607",
+    "url": "https://arxiv.org/abs/2609.39607",
+    "title": "Pretext: Defeating Malicious Skill Detection Frameworks for AI Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39976",
+    "url": "https://arxiv.org/abs/2609.39976",
+    "title": "Richard: Voice-First Mobile Interaction for Persistent Tasks",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39982",
+    "url": "https://arxiv.org/abs/2609.39982",
+    "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.40253",
+    "url": "https://arxiv.org/abs/2609.40253",
+    "title": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.40284",
+    "url": "https://arxiv.org/abs/2609.40284",
+    "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.38266",
+    "url": "https://arxiv.org/abs/2609.38266",
+    "title": "Janus: Evidence-Before-Effect Sagas and Offline-Verifiable Provenance for Agentic LLMs",
+    "date_covered": "2026-10-01"
+  },
+  {
+    "id": "arxiv:2609.39957",
+    "url": "https://arxiv.org/abs/2609.39957",
+    "title": "Learning When and How to Intervene: A Hindsight-Distilled Sentinel for Coding Agents",
+    "date_covered": "2026-10-01"
+  },
+  {
     "id": "arxiv:2609.35875",
     "url": "https://arxiv.org/abs/2609.35875",
     "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
