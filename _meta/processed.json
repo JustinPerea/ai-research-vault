@@ -2682,6 +2682,228 @@
     "date_covered": "2026-09-19"
   },
   {
+    "id": "arxiv:2609.17885",
+    "url": "https://arxiv.org/abs/2609.17885",
+    "title": "ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17983",
+    "url": "https://arxiv.org/abs/2609.17983",
+    "title": "Contiguity, Not Importance: Budgeted Repair of Stale KV Caches After Document Edits",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18063",
+    "url": "https://arxiv.org/abs/2609.18063",
+    "title": "The Other Half of the Memory Wall: Serving 35B MoEs from SSD with Trained Routing Prediction",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18128",
+    "url": "https://arxiv.org/abs/2609.18128",
+    "title": "Symbolic Temporal Supervision of LLM Agents Using Contracts",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18820",
+    "url": "https://arxiv.org/abs/2609.18820",
+    "title": "Compositional Policy Violations: When Step-Level Compliance Fails In Agentic AI Workflows",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17653",
+    "url": "https://arxiv.org/abs/2609.17653",
+    "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17817",
+    "url": "https://arxiv.org/abs/2609.17817",
+    "title": "Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18094",
+    "url": "https://arxiv.org/abs/2609.18094",
+    "title": "Agora: Git as Shared Memory for Collective AutoResearch",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18849",
+    "url": "https://arxiv.org/abs/2609.18849",
+    "title": "Ask the Tool, Don't Guess: Agent Tool Calls Hold Their Progress, and the Serving System Should Read It",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18864",
+    "url": "https://arxiv.org/abs/2609.18864",
+    "title": "ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.19059",
+    "url": "https://arxiv.org/abs/2609.19059",
+    "title": "MIRAGE: How Conversation State Shapes Historical Evidence Use in Multimodal Personal Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17984",
+    "url": "https://arxiv.org/abs/2609.17984",
+    "title": "TuiML: Machine Learning for AI Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17985",
+    "url": "https://arxiv.org/abs/2609.17985",
+    "title": "RideWay: Benchmarking Efficient Task Completion for Tool-Using Language Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18182",
+    "url": "https://arxiv.org/abs/2609.18182",
+    "title": "WFM: Wiki Foundation Model for Complex Agentic Reasoning",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18366",
+    "url": "https://arxiv.org/abs/2609.18366",
+    "title": "Bad Genius: Counterfactual-Guided Harness Evolution Beyond Task-Specific Shortcuts",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.19128",
+    "url": "https://arxiv.org/abs/2609.19128",
+    "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18120",
+    "url": "https://arxiv.org/abs/2609.18120",
+    "title": "PentestChain: A Cost-Aware, MCP-Orchestrated Framework for Automated Penetration Testing with Free-Tier LLMs",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.19125",
+    "url": "https://arxiv.org/abs/2609.19125",
+    "title": "Affora: A Design System for Agent-Friendly Interfaces",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17865",
+    "url": "https://arxiv.org/abs/2609.17865",
+    "title": "Do Frontier Models Seek Safety Evidence Before Acting?",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17708",
+    "url": "https://arxiv.org/abs/2609.17708",
+    "title": "Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18605",
+    "url": "https://arxiv.org/abs/2609.18605",
+    "title": "PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17921",
+    "url": "https://arxiv.org/abs/2609.17921",
+    "title": "Collaborative Memory for Multi-Agent VLM Systems",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17969",
+    "url": "https://arxiv.org/abs/2609.17969",
+    "title": "Memory Has Geometry: Non-Uniform Geometric Memory for Long-Horizon Personalized AI",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18283",
+    "url": "https://arxiv.org/abs/2609.18283",
+    "title": "Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18461",
+    "url": "https://arxiv.org/abs/2609.18461",
+    "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17688",
+    "url": "https://arxiv.org/abs/2609.17688",
+    "title": "CapMem: A Benchmark for Caption-Based Episodic Memory in Egocentric Video",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17695",
+    "url": "https://arxiv.org/abs/2609.17695",
+    "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18126",
+    "url": "https://arxiv.org/abs/2609.18126",
+    "title": "Designing Agentic AI Workflow Portfolios under Imperfect Selection and Compute Cost",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18123",
+    "url": "https://arxiv.org/abs/2609.18123",
+    "title": "AutoTuneBench: Trustworthy Measurement for Agent Auto-Tuning of LLM Serving Engines",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18272",
+    "url": "https://arxiv.org/abs/2609.18272",
+    "title": "Who Audits Whom, on What Substrate, with What Evidence? An Independence-Graded Audit Protocol for Agentic AI",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18460",
+    "url": "https://arxiv.org/abs/2609.18460",
+    "title": "Collective Loss of Control in LLM Agent Systems: An Epidemic Account of Mutation, Contagion, and Recovery",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18779",
+    "url": "https://arxiv.org/abs/2609.18779",
+    "title": "CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18842",
+    "url": "https://arxiv.org/abs/2609.18842",
+    "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18996",
+    "url": "https://arxiv.org/abs/2609.18996",
+    "title": "Compiled Agency: Coding Agents as Game AI Researchers -- from a Roguelike to StarCraft II and Civilization",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.17590",
+    "url": "https://arxiv.org/abs/2609.17590",
+    "title": "Evolutionary Ensemble Search: Council-Guided Program Evolution with Persistent Memory",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18805",
+    "url": "https://arxiv.org/abs/2609.18805",
+    "title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
+    "date_covered": "2026-09-17"
+  },
+  {
+    "id": "arxiv:2609.18909",
+    "url": "https://arxiv.org/abs/2609.18909",
+    "title": "Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking",
+    "date_covered": "2026-09-17"
+  },
+  {
     "id": "arxiv:2609.16215",
     "url": "https://arxiv.org/abs/2609.16215",
     "title": "Where Should the KV Cache Live? Placement Policies Across GPU, CPU, and SSD for Long-Lived Sessions",
