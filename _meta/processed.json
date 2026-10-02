@@ -2682,6 +2682,78 @@
     "date_covered": "2026-09-19"
   },
   {
+    "id": "arxiv:2609.19226",
+    "url": "https://arxiv.org/abs/2609.19226",
+    "title": "PAPC: Platform Mediation for Privacy-Propagation Externalities in AI-Mediated Workflows",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20082",
+    "url": "https://arxiv.org/abs/2609.20082",
+    "title": "MATCH: Model-Aware Tool Learning with Curriculum Scheduling and Hierarchically Gated Rewards",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20614",
+    "url": "https://arxiv.org/abs/2609.20614",
+    "title": "Inference-Engine Fingerprinting Attacks are Practical: Exploring Model-Driven Environmental Discovery, Exploitation, and Escape",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20822",
+    "url": "https://arxiv.org/abs/2609.20822",
+    "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20715",
+    "url": "https://arxiv.org/abs/2609.20715",
+    "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20784",
+    "url": "https://arxiv.org/abs/2609.20784",
+    "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.19830",
+    "url": "https://arxiv.org/abs/2609.19830",
+    "title": "Dual-Axis Policy Optimization for LLM Agents: Bayesian Feedback Attribution and Trajectory Mass Normalization",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.19504",
+    "url": "https://arxiv.org/abs/2609.19504",
+    "title": "For Your Eyes Only: Evaluating Coordination Between Isolated Language Model Instances",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20543",
+    "url": "https://arxiv.org/abs/2609.20543",
+    "title": "Language-model groups overstate consensus when replaying human deliberation on a reasoning task",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.19530",
+    "url": "https://arxiv.org/abs/2609.19530",
+    "title": "When Hiring Becomes Agent-Mediated: Evaluating Access and Recurrence in Two-Agent R\u00e9sum\u00e9 Screening",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.19315",
+    "url": "https://arxiv.org/abs/2609.19315",
+    "title": "GAVEL: Graph World Models for Verified and Efficient Long-Horizon LLM Task Planning",
+    "date_covered": "2026-09-18"
+  },
+  {
+    "id": "arxiv:2609.20077",
+    "url": "https://arxiv.org/abs/2609.20077",
+    "title": "Tailored to you: longitudinal effects of personalising language models",
+    "date_covered": "2026-09-18"
+  },
+  {
     "id": "arxiv:2609.17885",
     "url": "https://arxiv.org/abs/2609.17885",
     "title": "ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software",
