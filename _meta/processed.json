@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2610.02001",
+    "url": "https://arxiv.org/abs/2610.02001",
+    "title": "Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00074",
+    "url": "https://arxiv.org/abs/2610.00074",
+    "title": "K-Dense BYOK: An Open-Source AI Research Assistant That Runs Locally and Keeps a Hash-Chained Lab Notebook",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00948",
+    "url": "https://arxiv.org/abs/2610.00948",
+    "title": "GUI-HARVEST: Self-Improving GUI Agents through Evidence-Driven Harness Evolution",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01787",
+    "url": "https://arxiv.org/abs/2610.01787",
+    "title": "Not All Experience Belongs in the Weights: Component Routing for Self-Improving GUI Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00010",
+    "url": "https://arxiv.org/abs/2610.00010",
+    "title": "Heavy-Tailed Memory Traces in Long-Horizon Language Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00366",
+    "url": "https://arxiv.org/abs/2610.00366",
+    "title": "What Should an Agent Remember? Disentangling Retention from Retrieval in Bounded-Memory Evaluation",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00872",
+    "url": "https://arxiv.org/abs/2610.00872",
+    "title": "MemFit: Efficient Long-Term Agentic Memory",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01415",
+    "url": "https://arxiv.org/abs/2610.01415",
+    "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.02002",
+    "url": "https://arxiv.org/abs/2610.02002",
+    "title": "Mem++: Non-Destructive Memory for Long-Term Organizational LLM Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00238",
+    "url": "https://arxiv.org/abs/2610.00238",
+    "title": "CAVE-Mem: Boundary-Aware Experience Validation for Memory Search",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.02070",
+    "url": "https://arxiv.org/abs/2610.02070",
+    "title": "Causal Memory Policy: Making Memory Utility Identifiable by Intervening on Retrieval",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01118",
+    "url": "https://arxiv.org/abs/2610.01118",
+    "title": "Madeleine: Learning Involuntary Recall for Conversational Memory from Simulated Lives",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00094",
+    "url": "https://arxiv.org/abs/2610.00094",
+    "title": "Nous: Learning and Certifying Memory Decisions Before Source Calibration",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00015",
+    "url": "https://arxiv.org/abs/2610.00015",
+    "title": "From Proposal to Verified Effect: Praxa, an Evidence-Bound Harness for Governed AI Agent Execution",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00025",
+    "url": "https://arxiv.org/abs/2610.00025",
+    "title": "Measuring the Microtask Eligibility Gap: When Is an Off-the-Shelf SLM Enough for an Agent Harness?",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00906",
+    "url": "https://arxiv.org/abs/2610.00906",
+    "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00917",
+    "url": "https://arxiv.org/abs/2610.00917",
+    "title": "Finding the Right Fit: Model-Harness Interactions across Agent Tasks",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00972",
+    "url": "https://arxiv.org/abs/2610.00972",
+    "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00372",
+    "url": "https://arxiv.org/abs/2610.00372",
+    "title": "When Harnesses Lose the Signal: Causal Evaluation of Recovery in LLM Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.02200",
+    "url": "https://arxiv.org/abs/2610.02200",
+    "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01506",
+    "url": "https://arxiv.org/abs/2610.01506",
+    "title": "MCRI: A Four-Dimensional Framework for Analyzing and Evaluating Agent Skills",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01564",
+    "url": "https://arxiv.org/abs/2610.01564",
+    "title": "Chaining Skills to Hijack LLM Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01097",
+    "url": "https://arxiv.org/abs/2610.01097",
+    "title": "YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00797",
+    "url": "https://arxiv.org/abs/2610.00797",
+    "title": "Sapien: A Stateful Policy Engine for Autonomous AI Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00327",
+    "url": "https://arxiv.org/abs/2610.00327",
+    "title": "Actions with Receipts: Jointly Binding Claims, Evidence, and Execution for Replayable Tool-Agent Auditing",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01349",
+    "url": "https://arxiv.org/abs/2610.01349",
+    "title": "PACE: Provenance-Aware Capability Enforcement for Tool-Using LLM Agents",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00347",
+    "url": "https://arxiv.org/abs/2610.00347",
+    "title": "Authorization for Self-Modifying AI Agent Populations: Conserving Authority across Replacement, Forking, and Rollback",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00371",
+    "url": "https://arxiv.org/abs/2610.00371",
+    "title": "Deny Without Disabling: Authorization-Paired Evaluation and Control for Multi-Agent Systems",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01045",
+    "url": "https://arxiv.org/abs/2610.01045",
+    "title": "Empty Commitments: When Agents Promise What Their Runtime Cannot Deliver",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01138",
+    "url": "https://arxiv.org/abs/2610.01138",
+    "title": "Auditing Action Settlement in LLM Agent Environments: Order, Progress, and Replay",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00349",
+    "url": "https://arxiv.org/abs/2610.00349",
+    "title": "Fault-Tolerant Budget Conservation in Distributed Multi-Agent Delegation",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00583",
+    "url": "https://arxiv.org/abs/2610.00583",
+    "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01017",
+    "url": "https://arxiv.org/abs/2610.01017",
+    "title": "Pay for the Fault, Not the Flow: Label-Free In-Flow Multi-Agent Workflow Optimization",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01042",
+    "url": "https://arxiv.org/abs/2610.01042",
+    "title": "Beyond Final Accuracy: Auditing Communication in LLM Multi-Agent Systems",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.02036",
+    "url": "https://arxiv.org/abs/2610.02036",
+    "title": "Global Coherence: When Every Agent Is Right and the Team Is Still Wrong - A Local-to-Global Semantic Foundation for Multi-Agent Collaboration",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00430",
+    "url": "https://arxiv.org/abs/2610.00430",
+    "title": "Memetic Trojans: Social Contagions as Carriers of Adversarial Payloads in Agent Networks",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00710",
+    "url": "https://arxiv.org/abs/2610.00710",
+    "title": "ReLiveGym: Evaluating Long-Lived Agents over Weeks of Replayed Reality",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.01306",
+    "url": "https://arxiv.org/abs/2610.01306",
+    "title": "DAYJOB: A Benchmark for Long-Horizon Professional Work",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00651",
+    "url": "https://arxiv.org/abs/2610.00651",
+    "title": "Agent Evaluation Reliability: More Tasks Won't (Always) Fix An Agent Leaderboard",
+    "date_covered": "2026-10-02"
+  },
+  {
+    "id": "arxiv:2610.00648",
+    "url": "https://arxiv.org/abs/2610.00648",
+    "title": "Incident-Arena: Getting agents to the last nine of reliability",
+    "date_covered": "2026-10-02"
+  },
+  {
     "id": "arxiv:2609.38288",
     "url": "https://arxiv.org/abs/2609.38288",
     "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
