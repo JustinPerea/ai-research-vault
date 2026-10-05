@@ -1,5 +1,239 @@
 [
   {
+    "id": "arxiv:2610.02616",
+    "url": "https://arxiv.org/abs/2610.02616",
+    "title": "VERSE: Verified Self-Evolving Optimizer for Agent Harnesses",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03036",
+    "url": "https://arxiv.org/abs/2610.03036",
+    "title": "WebFovea: When the Model Is Right but the Click Is Wrong -- Reliable Round Trips for Vision-Based Web Agents on Live Websites",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03564",
+    "url": "https://arxiv.org/abs/2610.03564",
+    "title": "Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02858",
+    "url": "https://arxiv.org/abs/2610.02858",
+    "title": "Harness-Aware Distillation for Small Language Model Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02826",
+    "url": "https://arxiv.org/abs/2610.02826",
+    "title": "Scaling Trajectories for Complex Tasks through Recursive Self-Rewrite",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02405",
+    "url": "https://arxiv.org/abs/2610.02405",
+    "title": "When Terminal-Agent Training Stalls: Demystifying Data Generation and Verification Challenge",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03634",
+    "url": "https://arxiv.org/abs/2610.03634",
+    "title": "Credit Where It Matters: Dependency-Aware Policy Optimization for Terminal Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02267",
+    "url": "https://arxiv.org/abs/2610.02267",
+    "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03020",
+    "url": "https://arxiv.org/abs/2610.03020",
+    "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02472",
+    "url": "https://arxiv.org/abs/2610.02472",
+    "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02897",
+    "url": "https://arxiv.org/abs/2610.02897",
+    "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02736",
+    "url": "https://arxiv.org/abs/2610.02736",
+    "title": "TPBench: A Turning-Point Benchmark for Dialogue Compression",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02687",
+    "url": "https://arxiv.org/abs/2610.02687",
+    "title": "Decoupling Memory from Context: Structured Memory for Token-Efficient Test-Time Continual Learning",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02994",
+    "url": "https://arxiv.org/abs/2610.02994",
+    "title": "Sentry: Learning to Recover from LLM Agent Failures at Test Time",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02769",
+    "url": "https://arxiv.org/abs/2610.02769",
+    "title": "When History Fails to Become Experience: Action Calibration in Language Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02945",
+    "url": "https://arxiv.org/abs/2610.02945",
+    "title": "Continual Graph Memory for Mathematical Research Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02525",
+    "url": "https://arxiv.org/abs/2610.02525",
+    "title": "Learning What to Investigate Next: Meta-Reasoning for Long-Horizon Research Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03198",
+    "url": "https://arxiv.org/abs/2610.03198",
+    "title": "KV$^2$: A Self-Refining KV Cache",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02320",
+    "url": "https://arxiv.org/abs/2610.02320",
+    "title": "DeskForge: Dense Supervision from Desktop Environments for Computer-Use Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02932",
+    "url": "https://arxiv.org/abs/2610.02932",
+    "title": "When to Compile a Computer-Use Agent? Measuring Payback and Making Compilation Decisions for Token Efficiency",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03089",
+    "url": "https://arxiv.org/abs/2610.03089",
+    "title": "Securing Computer-Use Agents Against Branch Steering Attacks",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03574",
+    "url": "https://arxiv.org/abs/2610.03574",
+    "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02351",
+    "url": "https://arxiv.org/abs/2610.02351",
+    "title": "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02330",
+    "url": "https://arxiv.org/abs/2610.02330",
+    "title": "Choosing Before Acting: Comparative Value Estimation for Long-Horizon Tool-Use Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03213",
+    "url": "https://arxiv.org/abs/2610.03213",
+    "title": "Toward SLM-based agentic task-tool intent matching",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02670",
+    "url": "https://arxiv.org/abs/2610.02670",
+    "title": "LEAP: Learning Efficient Action Proposals For LLM Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03315",
+    "url": "https://arxiv.org/abs/2610.03315",
+    "title": "Lightweight, Rubric-Guided Trajectory Evaluation for Production AI Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02627",
+    "url": "https://arxiv.org/abs/2610.02627",
+    "title": "Lost in the Request: How Communication Variation Disrupts Retrieval and Action in Email Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02369",
+    "url": "https://arxiv.org/abs/2610.02369",
+    "title": "Automating the Application of HCI Principles: Skills for On-Demand UI Construction, the Human-AI Space to Think, and the Future of HCI",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02396",
+    "url": "https://arxiv.org/abs/2610.02396",
+    "title": "Inherit-MAS: Test-Time Evolution of Multi-Agent Systems through Workflow and Execution Inheritance",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02349",
+    "url": "https://arxiv.org/abs/2610.02349",
+    "title": "MIRROR: Multipath Quorum Integrity for LLM Multi-Agent Communication",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02951",
+    "url": "https://arxiv.org/abs/2610.02951",
+    "title": "Dynamic Expert Pruning for Multi-Agent Systems",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02569",
+    "url": "https://arxiv.org/abs/2610.02569",
+    "title": "Pincer: Resource Authorization for Agents using a Digital Twin",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02664",
+    "url": "https://arxiv.org/abs/2610.02664",
+    "title": "A GHOST in Long-Horizon Agents: Governance Hazard from Overlooked Safety Constraints across Turns",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03153",
+    "url": "https://arxiv.org/abs/2610.03153",
+    "title": "EvoRiskBench: An Evolving Benchmark for Runtime Security Risks in Workspace Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02920",
+    "url": "https://arxiv.org/abs/2610.02920",
+    "title": "HASTE: Evolving Agent Harnesses Against Emerging Attacks Using Sparse Evidence",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.03014",
+    "url": "https://arxiv.org/abs/2610.03014",
+    "title": "Beyond Predefined Sinks: Security-Aware Dependency Analysis for LLM Agents",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02456",
+    "url": "https://arxiv.org/abs/2610.02456",
+    "title": "SideKernel: A Usable microVM Sandbox for AI Coding Agents on macOS",
+    "date_covered": "2026-10-05"
+  },
+  {
+    "id": "arxiv:2610.02503",
+    "url": "https://arxiv.org/abs/2610.02503",
+    "title": "Compound AI System Reliability: A Failure Taxonomy and Resilience Pattern Catalog from 150 Production Incidents",
+    "date_covered": "2026-10-05"
+  },
+  {
     "id": "arxiv:2610.02001",
     "url": "https://arxiv.org/abs/2610.02001",
     "title": "Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks",
