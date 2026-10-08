@@ -1,5 +1,227 @@
 [
   {
+    "id": "arxiv:2610.09008",
+    "url": "https://arxiv.org/abs/2610.09008",
+    "title": "Whose Memory Is It? Scope-Aware Commit Rules for Long-Term LLM Memory",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10265",
+    "url": "https://arxiv.org/abs/2610.10265",
+    "title": "Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09348",
+    "url": "https://arxiv.org/abs/2610.09348",
+    "title": "Relevance Is Not Sufficiency: What Actually Closes the Evidence Gap in Long-Term Memory QA",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09193",
+    "url": "https://arxiv.org/abs/2610.09193",
+    "title": "Bookkeeping, Composition, or Unreachable Gold? Reading MemoryAgentBench's Conflict-Resolution Scores Against a Frozen Last-Write Resolver",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10091",
+    "url": "https://arxiv.org/abs/2610.10091",
+    "title": "ExperienceIndex: Artifact-Grounded Memory",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10071",
+    "url": "https://arxiv.org/abs/2610.10071",
+    "title": "HGP:An on-device personalized agent memory via hybrid graph storage",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10444",
+    "url": "https://arxiv.org/abs/2610.10444",
+    "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10507",
+    "url": "https://arxiv.org/abs/2610.10507",
+    "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09944",
+    "url": "https://arxiv.org/abs/2610.09944",
+    "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09088",
+    "url": "https://arxiv.org/abs/2610.09088",
+    "title": "RippleCP: Measuring Counterfactual Checkpoint Advantage in Coding Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.08875",
+    "url": "https://arxiv.org/abs/2610.08875",
+    "title": "An Empirical Study of Agent Skills' Downstream Utility",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10088",
+    "url": "https://arxiv.org/abs/2610.10088",
+    "title": "SkillSandbox: Skill Verification via Dynamic Scenario Synthesis",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09832",
+    "url": "https://arxiv.org/abs/2610.09832",
+    "title": "SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10164",
+    "url": "https://arxiv.org/abs/2610.10164",
+    "title": "UniSkill: Learning Actor-Aligned Skill Proposals for an Evolving Policy",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09197",
+    "url": "https://arxiv.org/abs/2610.09197",
+    "title": "FreeEvolve: Learning to Evolve Beyond Fixed Loops",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.08902",
+    "url": "https://arxiv.org/abs/2610.08902",
+    "title": "Agent Plasticity: Measuring Self-Improvement Through Experience",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09239",
+    "url": "https://arxiv.org/abs/2610.09239",
+    "title": "The Winner's Curse in LLM Self-Improvement Loops: Selection Noise, Lock-in, and Acceptance Rules",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.08900",
+    "url": "https://arxiv.org/abs/2610.08900",
+    "title": "Humanize: Judgement Engineering for Agentic Coding",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09858",
+    "url": "https://arxiv.org/abs/2610.09858",
+    "title": "Training Advisors for LLM Agents from Task Outcomes",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09115",
+    "url": "https://arxiv.org/abs/2610.09115",
+    "title": "From Uncertainty to Action: Learning to Steer LLM Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10126",
+    "url": "https://arxiv.org/abs/2610.10126",
+    "title": "Know the Shape, Find the Fault: Topology-Conditioned Diagnosis of Multi-Agent LLM Failures",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10468",
+    "url": "https://arxiv.org/abs/2610.10468",
+    "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.10062",
+    "url": "https://arxiv.org/abs/2610.10062",
+    "title": "Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09624",
+    "url": "https://arxiv.org/abs/2610.09624",
+    "title": "How Do Agentic LLMs Decide to Call Tools? A Tool-Call Vector Shaped by Suppression",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09037",
+    "url": "https://arxiv.org/abs/2610.09037",
+    "title": "When the Governor Becomes the Disturbance: Control-Generated Disturbance and Cost-Aware Backoff in Governed Tool-Using Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09021",
+    "url": "https://arxiv.org/abs/2610.09021",
+    "title": "Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09772",
+    "url": "https://arxiv.org/abs/2610.09772",
+    "title": "Decoupling Logic from Persona: Structural Immunity of Edge LLM Agents to Context Pollution",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09469",
+    "url": "https://arxiv.org/abs/2610.09469",
+    "title": "Secure-CUA: Controlling Untrusted Influence in Computer-Use Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09240",
+    "url": "https://arxiv.org/abs/2610.09240",
+    "title": "Adversarial Images Hijack Web Agents from Visual Grounding to Browser Execution",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.08871",
+    "url": "https://arxiv.org/abs/2610.08871",
+    "title": "CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09264",
+    "url": "https://arxiv.org/abs/2610.09264",
+    "title": "Package Hallucination Attacks on Coding Agents through Prompt Injection in Rule Files",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09027",
+    "url": "https://arxiv.org/abs/2610.09027",
+    "title": "Visual Memory Attacks Can Persist Through The KV Cache",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.08928",
+    "url": "https://arxiv.org/abs/2610.08928",
+    "title": "Multi-Aspect Runtime Verification for Simulation-Based V&V of LLM-Enabled Autonomous Agents",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09159",
+    "url": "https://arxiv.org/abs/2610.09159",
+    "title": "SpecGuard: Proving a Task Is Broken Before the Agent Cheats",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09581",
+    "url": "https://arxiv.org/abs/2610.09581",
+    "title": "Correct Answers, Unsupported Findings: Evidence Binding in Forensic Reconstruction of LLM Agent Logs",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09142",
+    "url": "https://arxiv.org/abs/2610.09142",
+    "title": "Finding Blind Spots in AppWorld and WorkArena Task Verifiers",
+    "date_covered": "2026-10-08"
+  },
+  {
+    "id": "arxiv:2610.09633",
+    "url": "https://arxiv.org/abs/2610.09633",
+    "title": "Coding-Agent Benchmarks Should Match Their Users' Task Flows",
+    "date_covered": "2026-10-08"
+  },
+  {
     "id": "arxiv:2610.07863",
     "url": "https://arxiv.org/abs/2610.07863",
     "title": "ReFold: Training-Free Reversible Inter-Turn Context Folding for Long-Horizon Agents",
