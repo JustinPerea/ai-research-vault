@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2610.10590",
+    "url": "https://arxiv.org/abs/2610.10590",
+    "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11007",
+    "url": "https://arxiv.org/abs/2610.11007",
+    "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11188",
+    "url": "https://arxiv.org/abs/2610.11188",
+    "title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11573",
+    "url": "https://arxiv.org/abs/2610.11573",
+    "title": "Memory Type Varies: Empowering LLM Agents for Long-Term Memory with Diverse Strategies",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11707",
+    "url": "https://arxiv.org/abs/2610.11707",
+    "title": "DeltaReplay: Task-Relative Memory Reuse for Mobile GUI Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12124",
+    "url": "https://arxiv.org/abs/2610.12124",
+    "title": "Use and Disuse: Intent-Structured Experience Consolidation for Memory and Learning in LLM Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10778",
+    "url": "https://arxiv.org/abs/2610.10778",
+    "title": "MemoWM: How World Models Change What Agents Need to Remember",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10845",
+    "url": "https://arxiv.org/abs/2610.10845",
+    "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11270",
+    "url": "https://arxiv.org/abs/2610.11270",
+    "title": "Gated Memory: Admission-Controlled Memory Formation for Conversational AI",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11287",
+    "url": "https://arxiv.org/abs/2610.11287",
+    "title": "REMORY: Learning Residual Memory for Context Compaction",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10629",
+    "url": "https://arxiv.org/abs/2610.10629",
+    "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11268",
+    "url": "https://arxiv.org/abs/2610.11268",
+    "title": "TaReD: Tool-Aware Recursive Decomposition for Long-Horizon Tasks",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11552",
+    "url": "https://arxiv.org/abs/2610.11552",
+    "title": "Safe, Persistent, and Evolving Agent Harness for Understanding Partially Observable Worlds",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11655",
+    "url": "https://arxiv.org/abs/2610.11655",
+    "title": "Harness Evolution Hits a Ceiling: When Weight Training Should Begin",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11647",
+    "url": "https://arxiv.org/abs/2610.11647",
+    "title": "One Skill Too Many: How Co-Installed Skills Conflict in Coding Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11650",
+    "url": "https://arxiv.org/abs/2610.11650",
+    "title": "SkillContrast: Difference-Guided Text Selection for Agent Skill Reranking",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11858",
+    "url": "https://arxiv.org/abs/2610.11858",
+    "title": "Trajectory-Guided Fault Localization for Agent Skill Evolution",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11030",
+    "url": "https://arxiv.org/abs/2610.11030",
+    "title": "NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10610",
+    "url": "https://arxiv.org/abs/2610.10610",
+    "title": "Code Understanding is a Bottleneck for Coding Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10619",
+    "url": "https://arxiv.org/abs/2610.10619",
+    "title": "TestJack: Should you trust the results in coding benchmarks? Agentic Coding Benchmarks Auditing via Evaluator Evolution",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10961",
+    "url": "https://arxiv.org/abs/2610.10961",
+    "title": "Cross-Provider Review as a Runtime Contract for Coding Agents: A Controlled Pilot and Fault-Injection Study",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11593",
+    "url": "https://arxiv.org/abs/2610.11593",
+    "title": "Runnable Commit Untangling for Coding Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11559",
+    "url": "https://arxiv.org/abs/2610.11559",
+    "title": "SWE-Journey: Towards More Realistic Evaluation of Coding Assistants through Long-Horizon, Multi-Turn Interaction",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11482",
+    "url": "https://arxiv.org/abs/2610.11482",
+    "title": "Evaluating Local Language Model Agents for Reproducible Data Engineering: An Empirical Software Engineering Study of Mobility Workflows",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11050",
+    "url": "https://arxiv.org/abs/2610.11050",
+    "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11600",
+    "url": "https://arxiv.org/abs/2610.11600",
+    "title": "Error-Propagation Modeling for Failure Attribution in LLM-Based Multi-Agent Systems",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12375",
+    "url": "https://arxiv.org/abs/2610.12375",
+    "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11334",
+    "url": "https://arxiv.org/abs/2610.11334",
+    "title": "ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10833",
+    "url": "https://arxiv.org/abs/2610.10833",
+    "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11613",
+    "url": "https://arxiv.org/abs/2610.11613",
+    "title": "AgentEvolver: System-Wide Self-Evolution Through Task Execution",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11464",
+    "url": "https://arxiv.org/abs/2610.11464",
+    "title": "Who Verifies the Verifier? Co-Evolving Inspectable Graders with Self-Improving Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11754",
+    "url": "https://arxiv.org/abs/2610.11754",
+    "title": "What Output-Only Review Cannot Verify: Study Contracts for Research Agents",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12061",
+    "url": "https://arxiv.org/abs/2610.12061",
+    "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12360",
+    "url": "https://arxiv.org/abs/2610.12360",
+    "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.11773",
+    "url": "https://arxiv.org/abs/2610.11773",
+    "title": "Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12292",
+    "url": "https://arxiv.org/abs/2610.12292",
+    "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10742",
+    "url": "https://arxiv.org/abs/2610.10742",
+    "title": "BRANCH: Bypassing Multi-Scanner AI Guardrails",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12445",
+    "url": "https://arxiv.org/abs/2610.12445",
+    "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.12056",
+    "url": "https://arxiv.org/abs/2610.12056",
+    "title": "Structure Tax: How Structured Output affects LLMs Performance",
+    "date_covered": "2026-10-09"
+  },
+  {
+    "id": "arxiv:2610.10786",
+    "url": "https://arxiv.org/abs/2610.10786",
+    "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+    "date_covered": "2026-10-09"
+  },
+  {
     "id": "arxiv:2610.09008",
     "url": "https://arxiv.org/abs/2610.09008",
     "title": "Whose Memory Is It? Scope-Aware Commit Rules for Long-Term LLM Memory",
