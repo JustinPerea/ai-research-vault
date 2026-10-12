@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2610.12593",
+    "url": "https://arxiv.org/abs/2610.12593",
+    "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12596",
+    "url": "https://arxiv.org/abs/2610.12596",
+    "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12598",
+    "url": "https://arxiv.org/abs/2610.12598",
+    "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12655",
+    "url": "https://arxiv.org/abs/2610.12655",
+    "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12789",
+    "url": "https://arxiv.org/abs/2610.12789",
+    "title": "EvoBelief: Falsifiable World Models for Self-Improving LLM Agents",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12813",
+    "url": "https://arxiv.org/abs/2610.12813",
+    "title": "VEPA: Verified Evolving Formal Policy for Lifelong LLM Agent Guardrails",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12822",
+    "url": "https://arxiv.org/abs/2610.12822",
+    "title": "Reward Hacking as a Transmissible Strategy in Multi-Agent Coding Systems",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12984",
+    "url": "https://arxiv.org/abs/2610.12984",
+    "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13000",
+    "url": "https://arxiv.org/abs/2610.13000",
+    "title": "Hindsight Structured Advice Distillation: Steering Executor Agents with Advisors Trained on Their Failures and Task Characteristics",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13058",
+    "url": "https://arxiv.org/abs/2610.13058",
+    "title": "Travel Back To Move Forward: Retrospective Exploration and Evolving for Long Horizon Agents",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13075",
+    "url": "https://arxiv.org/abs/2610.13075",
+    "title": "LongHarness: Advancing Agentic Reasoning over 100M-Token Corpora via Stateful Evidence Management",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13092",
+    "url": "https://arxiv.org/abs/2610.13092",
+    "title": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13128",
+    "url": "https://arxiv.org/abs/2610.13128",
+    "title": "Locate, Judge, Read: Role-Specialized Tool Agents over a Knowledge-Point Index for Open-Domain Multimodal Document QA",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13144",
+    "url": "https://arxiv.org/abs/2610.13144",
+    "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13152",
+    "url": "https://arxiv.org/abs/2610.13152",
+    "title": "Quality, Not Just Outcome: A Structural Scoring Framework for Selecting Coding-Agent Trajectories for Supervised Fine-Tuning",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13172",
+    "url": "https://arxiv.org/abs/2610.13172",
+    "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13194",
+    "url": "https://arxiv.org/abs/2610.13194",
+    "title": "JANUS: Enhancing Long-Horizon Autonomous Research with Co-Evolving World Models",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13267",
+    "url": "https://arxiv.org/abs/2610.13267",
+    "title": "Forgetting is Not Always Bad: A Neuro-Inspired Memory Repair Mechanism for Poisoned LLM Agents",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13356",
+    "url": "https://arxiv.org/abs/2610.13356",
+    "title": "SWE-Critix: Post-Training Generalist Verifiers for Assessing Coding-Agent Trajectories",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13416",
+    "url": "https://arxiv.org/abs/2610.13416",
+    "title": "Web$hell: A Unified Interface for Agentic Web Access",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13438",
+    "url": "https://arxiv.org/abs/2610.13438",
+    "title": "Rollout-Time Intervention: Unlocking Agentic Reinforcement Learning Beyond Policy Limits",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13494",
+    "url": "https://arxiv.org/abs/2610.13494",
+    "title": "Humanize MLE Agents: Multi-Agent Session Alternation Beyond Single-Agent Limits",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13632",
+    "url": "https://arxiv.org/abs/2610.13632",
+    "title": "Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13703",
+    "url": "https://arxiv.org/abs/2610.13703",
+    "title": "A Baseline Assessment for the Agentic Web Technology Stack",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13886",
+    "url": "https://arxiv.org/abs/2610.13886",
+    "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13889",
+    "url": "https://arxiv.org/abs/2610.13889",
+    "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12668",
+    "url": "https://arxiv.org/abs/2610.12668",
+    "title": "Recurrent Harness for Agentic Continual Learning",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12794",
+    "url": "https://arxiv.org/abs/2610.12794",
+    "title": "Meta-Reflective Evolution Effectively Improves Production AI Systems",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12849",
+    "url": "https://arxiv.org/abs/2610.12849",
+    "title": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13022",
+    "url": "https://arxiv.org/abs/2610.13022",
+    "title": "Don't Guess, Just Ask: Evaluating Interactive Requirement Clarification for Repository-Level Software Development",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13361",
+    "url": "https://arxiv.org/abs/2610.13361",
+    "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13395",
+    "url": "https://arxiv.org/abs/2610.13395",
+    "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13626",
+    "url": "https://arxiv.org/abs/2610.13626",
+    "title": "SWE-DeceptionBench: Benchmarking Deceptive Behaviors of LLMs Across the Software Development Lifecycle",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13755",
+    "url": "https://arxiv.org/abs/2610.13755",
+    "title": "Matched-Context Group Policy Optimization for LLM Agent Training",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12872",
+    "url": "https://arxiv.org/abs/2610.12872",
+    "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12666",
+    "url": "https://arxiv.org/abs/2610.12666",
+    "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13132",
+    "url": "https://arxiv.org/abs/2610.13132",
+    "title": "DP-MIND: Differentially private memory-guided Long context Inference",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13708",
+    "url": "https://arxiv.org/abs/2610.13708",
+    "title": "Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.12657",
+    "url": "https://arxiv.org/abs/2610.12657",
+    "title": "Kronecker Product Attention: Memory-Efficient KV Compression via Structured Factorization",
+    "date_covered": "2026-10-12"
+  },
+  {
+    "id": "arxiv:2610.13113",
+    "url": "https://arxiv.org/abs/2610.13113",
+    "title": "Continually Post-training Small Models via Synthetic Self-distillation",
+    "date_covered": "2026-10-12"
+  },
+  {
     "id": "arxiv:2610.10590",
     "url": "https://arxiv.org/abs/2610.10590",
     "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
