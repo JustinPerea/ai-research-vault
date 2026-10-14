@@ -1,5 +1,329 @@
 [
   {
+    "id": "arxiv:2610.15492",
+    "url": "https://arxiv.org/abs/2610.15492",
+    "title": "When Skills Remain But Access Fails: Factorized Skill Memory for Continual Skill Internalization",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18522",
+    "url": "https://arxiv.org/abs/2610.18522",
+    "title": "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14216",
+    "url": "https://arxiv.org/abs/2610.14216",
+    "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15481",
+    "url": "https://arxiv.org/abs/2610.15481",
+    "title": "SkillFusion: Towards Reliable Multi-Skill Composition for LLM Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18262",
+    "url": "https://arxiv.org/abs/2610.18262",
+    "title": "Encrypted Skills Can Become New Security Exploits If AI Agents Know How to Decipher",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17727",
+    "url": "https://arxiv.org/abs/2610.17727",
+    "title": "SkillScreen: High-Recall Screening of Malicious Agent Skills with Decision Models",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17860",
+    "url": "https://arxiv.org/abs/2610.17860",
+    "title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14118",
+    "url": "https://arxiv.org/abs/2610.14118",
+    "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15221",
+    "url": "https://arxiv.org/abs/2610.15221",
+    "title": "HarnessNet: Feedback-driven Hierarchical Joint Harness Evolution for Multi-agent Systems",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15150",
+    "url": "https://arxiv.org/abs/2610.15150",
+    "title": "Harmony Harness: Multi-Objective Self-Evolution of Agent Harnesses",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14224",
+    "url": "https://arxiv.org/abs/2610.14224",
+    "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16725",
+    "url": "https://arxiv.org/abs/2610.16725",
+    "title": "Trace-to-Architecture: Capability Bottleneck Diagnosis for Harness Revision",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18616",
+    "url": "https://arxiv.org/abs/2610.18616",
+    "title": "Knowledge Graphs as Files: An Agent Harness Where Tool Creation and Tool Use Co-Evolve",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18784",
+    "url": "https://arxiv.org/abs/2610.18784",
+    "title": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15093",
+    "url": "https://arxiv.org/abs/2610.15093",
+    "title": "TurnCost: Turns, Not Observations: Cache-Aware Loop Engineering for Coding Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18090",
+    "url": "https://arxiv.org/abs/2610.18090",
+    "title": "AM-Bench: Understanding Agents under Task Underspecification across Models and Harnesses",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17763",
+    "url": "https://arxiv.org/abs/2610.17763",
+    "title": "Memory Echo in Single-Agent Long-Term Memory: Lifecycle Evaluation and Provenance-Guided Mitigation",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18052",
+    "url": "https://arxiv.org/abs/2610.18052",
+    "title": "Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15642",
+    "url": "https://arxiv.org/abs/2610.15642",
+    "title": "Recall What Is Missing: Composing Evidence from Long-Term Agent Memory",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17544",
+    "url": "https://arxiv.org/abs/2610.17544",
+    "title": "Many Steps into One: Reasoning Contraction and the Limits of Safe Memory Reuse for LLM Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18684",
+    "url": "https://arxiv.org/abs/2610.18684",
+    "title": "Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17719",
+    "url": "https://arxiv.org/abs/2610.17719",
+    "title": "Keep Your Receipts: Trustworthy Cleanup of Agent-Built Knowledge Graphs",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15882",
+    "url": "https://arxiv.org/abs/2610.15882",
+    "title": "Engram Injection: A Study of Temporal Validity in Parametric Language-Model Memory",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17928",
+    "url": "https://arxiv.org/abs/2610.17928",
+    "title": "Learning How to Remember: Memory Modality Selection for GUI Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18014",
+    "url": "https://arxiv.org/abs/2610.18014",
+    "title": "LatentRemedy: Efficient Remedy For Non-Prefix KV Cache Reuse in Multi-Agent Systems",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15509",
+    "url": "https://arxiv.org/abs/2610.15509",
+    "title": "CacheLink: Functional KV Transport for Zero-Prefill Cross-Model Context Handoff",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17436",
+    "url": "https://arxiv.org/abs/2610.17436",
+    "title": "SchemaWeaver: Accelerating On-Device Mobile Agentic AI via Schema-Guided Parallel LLM Decoding",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14209",
+    "url": "https://arxiv.org/abs/2610.14209",
+    "title": "Should SLMs be in the Driver's Seat? A Study of Local Models as Interpreters in Cloud-Written Agent Programs",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17816",
+    "url": "https://arxiv.org/abs/2610.17816",
+    "title": "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14576",
+    "url": "https://arxiv.org/abs/2610.14576",
+    "title": "Iterate on an LLM, Serve on an SLM",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14659",
+    "url": "https://arxiv.org/abs/2610.14659",
+    "title": "RASSG: Repair-Aware Semantic Survival Gating for Streaming Tool Execution",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18007",
+    "url": "https://arxiv.org/abs/2610.18007",
+    "title": "Cost-Efficient Privacy Enforcement for Email-Generating LLM Agents under Strategic Information Requests",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16288",
+    "url": "https://arxiv.org/abs/2610.16288",
+    "title": "REVEAL: Reverse Engineering Agentic Latents from Frontier-Model Traces",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17710",
+    "url": "https://arxiv.org/abs/2610.17710",
+    "title": "Adaptive-Group Process Rewards for GUI Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14228",
+    "url": "https://arxiv.org/abs/2610.14228",
+    "title": "Latent World Action Model for GUI Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15765",
+    "url": "https://arxiv.org/abs/2610.15765",
+    "title": "A Decade in a Day: Synthesizing Agent-Native Interfaces from Human-Oriented Software Evolution",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16778",
+    "url": "https://arxiv.org/abs/2610.16778",
+    "title": "PrivacyGuard: Source-Linked Sanitization and Locally Resolvable PII References for Cloud GUI Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14334",
+    "url": "https://arxiv.org/abs/2610.14334",
+    "title": "Which Metadata Matters for LLM Tool Selection in MCP? Evidence from Controlled Factor-Level Interventions",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14956",
+    "url": "https://arxiv.org/abs/2610.14956",
+    "title": "MCPDisCo: Seesaw-Mitigated Tuning for MCP-Native Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.14774",
+    "url": "https://arxiv.org/abs/2610.14774",
+    "title": "ProgAgent: Learning Tool Orchestration through Programmatic Training",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16867",
+    "url": "https://arxiv.org/abs/2610.16867",
+    "title": "Davinci-Tool: Scaling Agentic Tool-Use Supervision with Verifiable Executable Environments",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16333",
+    "url": "https://arxiv.org/abs/2610.16333",
+    "title": "TRAP: Tool-result Replay Attack for Probing Misbinding in LLM Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18497",
+    "url": "https://arxiv.org/abs/2610.18497",
+    "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16838",
+    "url": "https://arxiv.org/abs/2610.16838",
+    "title": "Same Operation, Different Permission: Evaluating Whether Guardrails Honor Authorization",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16426",
+    "url": "https://arxiv.org/abs/2610.16426",
+    "title": "AuthGateBench: Benchmarking LLMs as Authorization Gate",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17301",
+    "url": "https://arxiv.org/abs/2610.17301",
+    "title": "The Agent Knew: Internal States Forecast Unauthorized Actions and Stop Them, and the Lies That Follow",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16145",
+    "url": "https://arxiv.org/abs/2610.16145",
+    "title": "Pollard: Governed Semantic Execution Trees for Framework-Independent AI Agent Control and Replay",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18614",
+    "url": "https://arxiv.org/abs/2610.18614",
+    "title": "Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.15529",
+    "url": "https://arxiv.org/abs/2610.15529",
+    "title": "Agent-Canary-Mas: End-to-End Evaluation of Protocol Risk in Long-Horizon Multi-Agent Systems",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.16039",
+    "url": "https://arxiv.org/abs/2610.16039",
+    "title": "When Agents Talk, Secrets Travel: Topology-Driven Leakage and Recipient-Conditioned Sanitization in Multi-Agent LLM Systems",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.18780",
+    "url": "https://arxiv.org/abs/2610.18780",
+    "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17418",
+    "url": "https://arxiv.org/abs/2610.17418",
+    "title": "Why Agentic Workflows Fail: A Taxonomy Derived from Literature and Empirical Data",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17633",
+    "url": "https://arxiv.org/abs/2610.17633",
+    "title": "Executable Prefix Values for Locating Agent Failures",
+    "date_covered": "2026-10-14"
+  },
+  {
+    "id": "arxiv:2610.17757",
+    "url": "https://arxiv.org/abs/2610.17757",
+    "title": "Instructions Are Evidence, Not Objectives: Measuring Outcome Alignment of Agents",
+    "date_covered": "2026-10-14"
+  },
+  {
     "id": "arxiv:2610.12593",
     "url": "https://arxiv.org/abs/2610.12593",
     "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
