@@ -1,5 +1,203 @@
 [
   {
+    "id": "arxiv:2610.20022",
+    "url": "https://arxiv.org/abs/2610.20022",
+    "title": "Memorizing Who, Knowing How: Benchmarking Personal and Procedural Memory for Persistent Assistants",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19366",
+    "url": "https://arxiv.org/abs/2610.19366",
+    "title": "Seeing, Maintaining, and Learning: The Evolution of Multimodal Agent Memory",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20399",
+    "url": "https://arxiv.org/abs/2610.20399",
+    "title": "Cortex: Consolidating Context into Parametric Memory",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20116",
+    "url": "https://arxiv.org/abs/2610.20116",
+    "title": "Maximising Transparency in Context Compaction Improves Retention of Facts and Commitments for Lightweight Coding Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19386",
+    "url": "https://arxiv.org/abs/2610.19386",
+    "title": "STRATA: Self-Maintaining Structured Experience Graphs for Self-Evolving Language Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19581",
+    "url": "https://arxiv.org/abs/2610.19581",
+    "title": "XferAgent: Cross-Agent Experience Transfer for Self-Improving LLM Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19951",
+    "url": "https://arxiv.org/abs/2610.19951",
+    "title": "AtomSearch: Evidence-Grounded Tree Search for Agent Skill Optimization",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20049",
+    "url": "https://arxiv.org/abs/2610.20049",
+    "title": "CoRedSkill: Stealthy Skill Composition Attacks via AST-Guided Injection",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19264",
+    "url": "https://arxiv.org/abs/2610.19264",
+    "title": "Beyond Maliciousness: Static and Runtime Attack-Surface Profiling of Agent Skills",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.18927",
+    "url": "https://arxiv.org/abs/2610.18927",
+    "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20344",
+    "url": "https://arxiv.org/abs/2610.20344",
+    "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19591",
+    "url": "https://arxiv.org/abs/2610.19591",
+    "title": "L3M: A Verifiable Harness and Runtime for Self-Extending and Self-Improving Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19382",
+    "url": "https://arxiv.org/abs/2610.19382",
+    "title": "ixi-sLM: On-Device sLM for AI Call Agent Service",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19345",
+    "url": "https://arxiv.org/abs/2610.19345",
+    "title": "When Is Smaller Greener? Right-Sizing Language Models for Agentic AI",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19148",
+    "url": "https://arxiv.org/abs/2610.19148",
+    "title": "Compiling Expert Procedures into Verified Programs: When a Small Model Is Enough",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19342",
+    "url": "https://arxiv.org/abs/2610.19342",
+    "title": "Why Do Agent Teams Fail Across Boundaries? A Failure Taxonomy for Agent-to-Agent Systems with Private States",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19051",
+    "url": "https://arxiv.org/abs/2610.19051",
+    "title": "Smart Alone, Blind Together: Why Accuracy Fails to CertifyTheory of Mind in Multi-Agent Teams",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19458",
+    "url": "https://arxiv.org/abs/2610.19458",
+    "title": "PFedMA: Who Should Join Next as Federated Multi-Agent Orchestration Evolves?",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20100",
+    "url": "https://arxiv.org/abs/2610.20100",
+    "title": "Task-State Governance: A Virtual Machine for Verifiable and Recoverable GUI Agent Execution",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19834",
+    "url": "https://arxiv.org/abs/2610.19834",
+    "title": "Teaching Agents in their Own Style: Blackbox Teacher Distillation for Web Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19376",
+    "url": "https://arxiv.org/abs/2610.19376",
+    "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20576",
+    "url": "https://arxiv.org/abs/2610.20576",
+    "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20003",
+    "url": "https://arxiv.org/abs/2610.20003",
+    "title": "What Coding Agents Leave Unsaid: Measuring Task-State Gaps Between Execution and Reports",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.20597",
+    "url": "https://arxiv.org/abs/2610.20597",
+    "title": "Co-Evolving Acting and Forecasting for Language Agents",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19843",
+    "url": "https://arxiv.org/abs/2610.19843",
+    "title": "LAGO: Language Agents with Reusable Growing Options",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19818",
+    "url": "https://arxiv.org/abs/2610.19818",
+    "title": "One Monitor Does Not Fit All: Formalism-Agnostic Runtime Verification for Agentic AI",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19422",
+    "url": "https://arxiv.org/abs/2610.19422",
+    "title": "AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19226",
+    "url": "https://arxiv.org/abs/2610.19226",
+    "title": "Agentic Self-Awareness: Aligning Knowing, Acting, and Holding",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19397",
+    "url": "https://arxiv.org/abs/2610.19397",
+    "title": "SERO: Learning from Executable Oracle Continuations for Long-Horizon Agentic Reinforcement Learning",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19507",
+    "url": "https://arxiv.org/abs/2610.19507",
+    "title": "Structure Before Intelligence: Gating What Agentic Scientific Workflows Release",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19820",
+    "url": "https://arxiv.org/abs/2610.19820",
+    "title": "ActionOPD: Distilling Decisions, Not Tokens",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.18933",
+    "url": "https://arxiv.org/abs/2610.18933",
+    "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
+    "date_covered": "2026-10-15"
+  },
+  {
+    "id": "arxiv:2610.19560",
+    "url": "https://arxiv.org/abs/2610.19560",
+    "title": "$\u03c4$-Emotion-Bench: Exposing the Interaction Fragility of LLM Agents through Real-World User Emotions",
+    "date_covered": "2026-10-15"
+  },
+  {
     "id": "arxiv:2610.15492",
     "url": "https://arxiv.org/abs/2610.15492",
     "title": "When Skills Remain But Access Fails: Factorized Skill Memory for Continual Skill Internalization",
