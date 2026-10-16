@@ -1,5 +1,227 @@
 [
   {
+    "id": "arxiv:2610.21203",
+    "url": "https://arxiv.org/abs/2610.21203",
+    "title": "Who May Release an Agent's Promise? Standing over Commitments in Multi-Party Chat",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21063",
+    "url": "https://arxiv.org/abs/2610.21063",
+    "title": "Approve What, Exactly? Effect Binding and Trusted Rendering for Agent Step-Up Authorization",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21091",
+    "url": "https://arxiv.org/abs/2610.21091",
+    "title": "MemComposer: Learning to Assemble Memories for LLM Agents via Reinforcement Learning",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21405",
+    "url": "https://arxiv.org/abs/2610.21405",
+    "title": "MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22209",
+    "url": "https://arxiv.org/abs/2610.22209",
+    "title": "Beyond Downstream QA: Rethinking How We Evaluate Agent Memory",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21170",
+    "url": "https://arxiv.org/abs/2610.21170",
+    "title": "MemScope: Evolving Agent Memory Architectures through Localized Code Repair",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21147",
+    "url": "https://arxiv.org/abs/2610.21147",
+    "title": "All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22273",
+    "url": "https://arxiv.org/abs/2610.22273",
+    "title": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21375",
+    "url": "https://arxiv.org/abs/2610.21375",
+    "title": "Memorilla: Latent Semantic Memory for LLMs",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21571",
+    "url": "https://arxiv.org/abs/2610.21571",
+    "title": "Rethinking the Role of Tool Graph Memory in Multi-Turn Tool Use",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20959",
+    "url": "https://arxiv.org/abs/2610.20959",
+    "title": "Same Context, Different Agents: A Behavioral Study of Semantic Layers, Orchestration and Compaction in Data Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22174",
+    "url": "https://arxiv.org/abs/2610.22174",
+    "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20845",
+    "url": "https://arxiv.org/abs/2610.20845",
+    "title": "Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20926",
+    "url": "https://arxiv.org/abs/2610.20926",
+    "title": "SkillNEO: Non-Elitist Evolutionary Optimization of Agent Skills",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21348",
+    "url": "https://arxiv.org/abs/2610.21348",
+    "title": "FedSkillGit: Federated Skill Evolution via Version Control",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22061",
+    "url": "https://arxiv.org/abs/2610.22061",
+    "title": "FAOPs: Normal Forms and an Algebra for AI Agent Workflows",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21218",
+    "url": "https://arxiv.org/abs/2610.21218",
+    "title": "AutoOnboarder: Autonomously Onboarding LLM Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21412",
+    "url": "https://arxiv.org/abs/2610.21412",
+    "title": "JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22289",
+    "url": "https://arxiv.org/abs/2610.22289",
+    "title": "Improving Environment-Agnostic Coding Agents: The Role of Scaffolding",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21098",
+    "url": "https://arxiv.org/abs/2610.21098",
+    "title": "ToolBottleneckBench: Measuring Tool-Agent Performance under Controlled Pressures and Fixed Harness Budgets",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21267",
+    "url": "https://arxiv.org/abs/2610.21267",
+    "title": "TRACER: Trajectory-Aware Tool Retrieval for LLM Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21463",
+    "url": "https://arxiv.org/abs/2610.21463",
+    "title": "Trajectory-Level Speculation with Semantic Verification for Tool-Using Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20939",
+    "url": "https://arxiv.org/abs/2610.20939",
+    "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22234",
+    "url": "https://arxiv.org/abs/2610.22234",
+    "title": "OS-Helix: Unifying GUI Interaction and Code Execution in Native Computer-Using Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22280",
+    "url": "https://arxiv.org/abs/2610.22280",
+    "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21088",
+    "url": "https://arxiv.org/abs/2610.21088",
+    "title": "Probe-and-Resume: When and How to Evaluate Agent Execution",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20780",
+    "url": "https://arxiv.org/abs/2610.20780",
+    "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22138",
+    "url": "https://arxiv.org/abs/2610.22138",
+    "title": "Believed but Not Said: Measuring Hidden Belief Collapse in Multi-Agent LLM Discussions",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22195",
+    "url": "https://arxiv.org/abs/2610.22195",
+    "title": "HTN-Orchestrate: A Hierarchical Task Network Framework for Multi-Agent Orchestration",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22316",
+    "url": "https://arxiv.org/abs/2610.22316",
+    "title": "Learning to Steer LLM Agents and Multi-Agent Systems",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21538",
+    "url": "https://arxiv.org/abs/2610.21538",
+    "title": "Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20776",
+    "url": "https://arxiv.org/abs/2610.20776",
+    "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.20941",
+    "url": "https://arxiv.org/abs/2610.20941",
+    "title": "Screwtape: Adversarial Transcript Editing for Monitor Red-Teaming",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22244",
+    "url": "https://arxiv.org/abs/2610.22244",
+    "title": "Language Is a Security Surface for Agent Guards",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.21109",
+    "url": "https://arxiv.org/abs/2610.21109",
+    "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22192",
+    "url": "https://arxiv.org/abs/2610.22192",
+    "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+    "date_covered": "2026-10-16"
+  },
+  {
+    "id": "arxiv:2610.22019",
+    "url": "https://arxiv.org/abs/2610.22019",
+    "title": "Priming Base Models for Agentic Post-Training: An Open Midtraining Recipe",
+    "date_covered": "2026-10-16"
+  },
+  {
     "id": "arxiv:2610.20022",
     "url": "https://arxiv.org/abs/2610.20022",
     "title": "Memorizing Who, Knowing How: Benchmarking Personal and Procedural Memory for Persistent Assistants",
