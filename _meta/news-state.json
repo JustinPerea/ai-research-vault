@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-17T06:13:51Z",
- "previous_run": null,
+ "last_run": "2026-10-18T06:15:28Z",
+ "previous_run": "2026-10-17T06:13:51Z",
  "seen": {
   "apple-developer-news:https://developer.apple.com/news/?id=92th7e5i": "2026-10-17",
   "apple-developer-news:https://developer.apple.com/news/?id=vvzx6cul": "2026-10-17",
@@ -10,6 +10,9 @@
   "openai-news:https://openai.com/index/benefit-street-partners": "2026-10-17",
   "openai-news:https://openai.com/index/itau-generative-ai": "2026-10-17",
   "openai-news:https://openai.com/index/stack-overflow-chatgpt-plugin": "2026-10-17",
+  "vercel-changelog:https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": "2026-10-18",
+  "vercel-changelog:https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway": "2026-10-18",
+  "vercel-changelog:https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway": "2026-10-18",
   "vercel-changelog:https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway": "2026-10-17",
   "vercel-changelog:https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free": "2026-10-17"
  }
