@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2610.22987",
+    "url": "https://arxiv.org/abs/2610.22987",
+    "title": "From Approval to Abuse: Privilege Escalation Attacks on Harness-Protected Coding Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23449",
+    "url": "https://arxiv.org/abs/2610.23449",
+    "title": "GatewayBench: Unified Capability and Security Evaluation Platform for MCP Gateways",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22869",
+    "url": "https://arxiv.org/abs/2610.22869",
+    "title": "MS-Eval: Benchmarking Sub-Agent Delegation and Orchestration in MCP-Intensive Working Scenarios",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22373",
+    "url": "https://arxiv.org/abs/2610.22373",
+    "title": "Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22688",
+    "url": "https://arxiv.org/abs/2610.22688",
+    "title": "Explore Separately, Adopt Selectively: Execution-Guided Tool Use over Large Tool Libraries",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23342",
+    "url": "https://arxiv.org/abs/2610.23342",
+    "title": "Robust Function Calling for LLM Agents Under Interface Drift",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23554",
+    "url": "https://arxiv.org/abs/2610.23554",
+    "title": "SkillBrowser: Selective Skill Exposure for Scalable Skill-Using Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23599",
+    "url": "https://arxiv.org/abs/2610.23599",
+    "title": "From Trajectories to Differentiated Skills: Cognitive Differentiation for Self-Improving Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22466",
+    "url": "https://arxiv.org/abs/2610.22466",
+    "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22791",
+    "url": "https://arxiv.org/abs/2610.22791",
+    "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22740",
+    "url": "https://arxiv.org/abs/2610.22740",
+    "title": "R$^2$Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22668",
+    "url": "https://arxiv.org/abs/2610.22668",
+    "title": "From Relevant Memories to Sufficient Evidence: Rethinking Memory Utilization in LLM Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23313",
+    "url": "https://arxiv.org/abs/2610.23313",
+    "title": "From Memory Hits to Answerable Evidence: Query-Conditioned Memory Compilation for Long-Term Agent Memory",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23266",
+    "url": "https://arxiv.org/abs/2610.23266",
+    "title": "Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23598",
+    "url": "https://arxiv.org/abs/2610.23598",
+    "title": "RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22897",
+    "url": "https://arxiv.org/abs/2610.22897",
+    "title": "When to Forget: Risk-Controlled Context Adaptation for Long-Horizon Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23574",
+    "url": "https://arxiv.org/abs/2610.23574",
+    "title": "Darwin-Claw: Environment-Adaptive Experience Consolidation for Recursively Self-Evolving Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23709",
+    "url": "https://arxiv.org/abs/2610.23709",
+    "title": "GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22672",
+    "url": "https://arxiv.org/abs/2610.22672",
+    "title": "Not All Graphs Are Maps: A Task-Agnostic Exploration Framework for Mobile GUI Navigation",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23307",
+    "url": "https://arxiv.org/abs/2610.23307",
+    "title": "MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency Injection",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22990",
+    "url": "https://arxiv.org/abs/2610.22990",
+    "title": "PersonaCUABench: Benchmarking Computer-Use Agents Serving Diverse Personas",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23012",
+    "url": "https://arxiv.org/abs/2610.23012",
+    "title": "Adaptation of Computer Use Agents to New Software with User Manuals",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22408",
+    "url": "https://arxiv.org/abs/2610.22408",
+    "title": "ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23362",
+    "url": "https://arxiv.org/abs/2610.23362",
+    "title": "Monitor-Validity Failures: LLM Safety Evidence Paths at Evolving Framework Boundaries",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22426",
+    "url": "https://arxiv.org/abs/2610.22426",
+    "title": "PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23194",
+    "url": "https://arxiv.org/abs/2610.23194",
+    "title": "OfficeTown: Generative Organizations for Evolving Agent Intelligence",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22915",
+    "url": "https://arxiv.org/abs/2610.22915",
+    "title": "Reward Engine: Reward-Centric Self-Evolution for Open-Ended Tool Agents",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22779",
+    "url": "https://arxiv.org/abs/2610.22779",
+    "title": "When Can You Trust an Agent's Own Verifier? Stress-Testing Counterfactual Rationale Verification Under Search Pressure and Oracle Access",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22469",
+    "url": "https://arxiv.org/abs/2610.22469",
+    "title": "Testing the Planning Claims of LLM-Based Agents against Formal Semantics",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22561",
+    "url": "https://arxiv.org/abs/2610.22561",
+    "title": "FRACTAL: A Self-Similar Multi-Agent Orchestration Architecture with Formal Communication, Convergence, and Depth Bounds",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23299",
+    "url": "https://arxiv.org/abs/2610.23299",
+    "title": "Optimist Deep Research: An Iterative, State-Centric Agent for Autonomous Literature Research",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23284",
+    "url": "https://arxiv.org/abs/2610.23284",
+    "title": "Annotrace: A Workbench for Step-Level Annotation of Agent Traces",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22511",
+    "url": "https://arxiv.org/abs/2610.22511",
+    "title": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23104",
+    "url": "https://arxiv.org/abs/2610.23104",
+    "title": "WebCoder: Scaling General Frontend Development with Artifact-Grounded Agentic Reinforcement Learning",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23048",
+    "url": "https://arxiv.org/abs/2610.23048",
+    "title": "Distill Until Divergence: Error-Truncated Hindsight Distillation for Agentic RL",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23181",
+    "url": "https://arxiv.org/abs/2610.23181",
+    "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23511",
+    "url": "https://arxiv.org/abs/2610.23511",
+    "title": "LocalIntent: Outcome-Specific Structured Generation for Backend-Compatible Smart Building Automation with Local LLMs",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23311",
+    "url": "https://arxiv.org/abs/2610.23311",
+    "title": "Self-Reflective Chain-of-Thought (SRCoT): Evidence-Based Text Generation via a Closed-Loop Retrieve--Reflect--Revise Pipeline on Edge LLMs",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.23006",
+    "url": "https://arxiv.org/abs/2610.23006",
+    "title": "Efficient CPU-GPU collaborative MoE inference via Adaptive Expert Assignment",
+    "date_covered": "2026-10-19"
+  },
+  {
+    "id": "arxiv:2610.22985",
+    "url": "https://arxiv.org/abs/2610.22985",
+    "title": "Prism Attention: Proposal-Refined Index Sharing Mechanism for Efficient LLMs Inference",
+    "date_covered": "2026-10-19"
+  },
+  {
     "id": "arxiv:2610.21203",
     "url": "https://arxiv.org/abs/2610.21203",
     "title": "Who May Release an Agent's Promise? Standing over Commitments in Multi-Party Chat",
