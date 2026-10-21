@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2610.28425",
+    "url": "https://arxiv.org/abs/2610.28425",
+    "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27377",
+    "url": "https://arxiv.org/abs/2610.27377",
+    "title": "REM: What to Store, When to Recall, What to Forget in Experience Memory for Coding Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27655",
+    "url": "https://arxiv.org/abs/2610.27655",
+    "title": "Does Multi-Agent Collaboration Pay When Agents Serve Users? Testing Agent Scaling in Dual-Control Settings",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27301",
+    "url": "https://arxiv.org/abs/2610.27301",
+    "title": "Evaluating Context Compaction on the Questions That Come Later",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28601",
+    "url": "https://arxiv.org/abs/2610.28601",
+    "title": "Evolving Agent Interfaces",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27620",
+    "url": "https://arxiv.org/abs/2610.27620",
+    "title": "Local Allow, Global Deny: Why Per-Action Authorization Does Not Compose in LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27548",
+    "url": "https://arxiv.org/abs/2610.27548",
+    "title": "Act on Your Behalf, Beyond Your Authorization: Benchmarking LLM Agent Authorization Alignment",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27465",
+    "url": "https://arxiv.org/abs/2610.27465",
+    "title": "Recoverability and Verifier Strength: Two Measured Preconditions for Unattended Agent Self-Improvement",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27406",
+    "url": "https://arxiv.org/abs/2610.27406",
+    "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27524",
+    "url": "https://arxiv.org/abs/2610.27524",
+    "title": "MemDev-Bench: Does Memory Help Code Agents?Benchmarking Memory Systems over Real Repository Histories",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27244",
+    "url": "https://arxiv.org/abs/2610.27244",
+    "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28093",
+    "url": "https://arxiv.org/abs/2610.28093",
+    "title": "ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27574",
+    "url": "https://arxiv.org/abs/2610.27574",
+    "title": "The Show-Up Attack: When Subagents Win Over Their Supervisor",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28397",
+    "url": "https://arxiv.org/abs/2610.28397",
+    "title": "MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27115",
+    "url": "https://arxiv.org/abs/2610.27115",
+    "title": "PROVISO: Provenance-Informed Action Selection for Secure LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27777",
+    "url": "https://arxiv.org/abs/2610.27777",
+    "title": "RITE: Evaluating End-to-End Resilience to Silent Tool Errors in E-Commerce Agentic Systems",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27435",
+    "url": "https://arxiv.org/abs/2610.27435",
+    "title": "Harness Self-Evolution for Long-Horizon Terminal Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27327",
+    "url": "https://arxiv.org/abs/2610.27327",
+    "title": "Unsupervised Tool Evolution for Coding Agents in Data-Lake Analytics",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28201",
+    "url": "https://arxiv.org/abs/2610.28201",
+    "title": "MaD-RSI: Model-as-Data for Recursive Self-Improvement of Agent Harnesses",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27610",
+    "url": "https://arxiv.org/abs/2610.27610",
+    "title": "Auditing the Product, Not the Recursion: The Evaluation Evidence Behind Recursive Self-Improvement Claims",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27157",
+    "url": "https://arxiv.org/abs/2610.27157",
+    "title": "Understanding the Benefits of Scaffolds through Computational Separations",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.26995",
+    "url": "https://arxiv.org/abs/2610.26995",
+    "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27400",
+    "url": "https://arxiv.org/abs/2610.27400",
+    "title": "ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27581",
+    "url": "https://arxiv.org/abs/2610.27581",
+    "title": "DuplexLedger: Benchmarking Transactional Memory in Full-Duplex Speech Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27645",
+    "url": "https://arxiv.org/abs/2610.27645",
+    "title": "CUA-Recovery: Benchmarking Error Recovery in Long-Horizon Computer-Use Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27954",
+    "url": "https://arxiv.org/abs/2610.27954",
+    "title": "Lost in Recovery: Demystifying Recovery Behavior of Computer-Use Agents via Goal-Oriented Action Replay",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27119",
+    "url": "https://arxiv.org/abs/2610.27119",
+    "title": "PORA: Learning When More Reasoning Pays Off for LLM Agents",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28409",
+    "url": "https://arxiv.org/abs/2610.28409",
+    "title": "Rewards for Budget-Aware Multi-Turn Agents That Adapt to Arbitrary Test-Time Constraints",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27307",
+    "url": "https://arxiv.org/abs/2610.27307",
+    "title": "Evolving Self-tuning Benchmarks for Long-Horizon Tool Use",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27480",
+    "url": "https://arxiv.org/abs/2610.27480",
+    "title": "Runtime Control for AI Agents: Closing the Evaluation--Execution Gap in Operational Workflows",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28484",
+    "url": "https://arxiv.org/abs/2610.28484",
+    "title": "Proof-Carrying Contracts: Commitments AI Agents Cannot Break",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28454",
+    "url": "https://arxiv.org/abs/2610.28454",
+    "title": "Toolflation: Seller Agents Distort Tool Markets Through Spontaneous Generative Engine Optimization",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27822",
+    "url": "https://arxiv.org/abs/2610.27822",
+    "title": "COMPASS: Routing via Capability-Oriented Model Profiling with Adaptive Search, Selection, and Tool Use",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27234",
+    "url": "https://arxiv.org/abs/2610.27234",
+    "title": "EGI-BENCH: An Enterprise General Intelligence Benchmark Suite",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.26935",
+    "url": "https://arxiv.org/abs/2610.26935",
+    "title": "How Intervention History Changes AI Agent Sabotage on Subsequent Tasks",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27714",
+    "url": "https://arxiv.org/abs/2610.27714",
+    "title": "When Does Experience Memory Help Closed-Loop LLM Driving Agents? A Controlled Evaluation with Resampled Warmup Pools, Token-Matched Fillers, and Audited Baselines",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27032",
+    "url": "https://arxiv.org/abs/2610.27032",
+    "title": "M-Plan: Comprehensive Planning For LLM Agents with Memory Arrangement",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.27817",
+    "url": "https://arxiv.org/abs/2610.27817",
+    "title": "Privacy-preserving inference on hosted models: a learned input-embedding transform for frozen Qwen3.8-27B",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28223",
+    "url": "https://arxiv.org/abs/2610.28223",
+    "title": "Local Inference of LLMs on Long Contexts: A Data Systems Perspective",
+    "date_covered": "2026-10-21"
+  },
+  {
+    "id": "arxiv:2610.28364",
+    "url": "https://arxiv.org/abs/2610.28364",
+    "title": "Context-Aware Prompt Injection Detection via Small Language Models in RAG Pipelines: nokast-secureRAG",
+    "date_covered": "2026-10-21"
+  },
+  {
     "id": "arxiv:2610.26632",
     "url": "https://arxiv.org/abs/2610.26632",
     "title": "When the harness decides success: state that cannot be re-observed",

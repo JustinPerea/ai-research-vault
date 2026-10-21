@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-20T06:22:28Z",
- "previous_run": "2026-10-19T06:15:46Z",
+ "last_run": "2026-10-21T06:22:51Z",
+ "previous_run": "2026-10-20T06:22:28Z",
  "seen": {
   "anthropic-news:public-benefit-fund": "2026-10-19",
   "apple-developer-news:https://developer.apple.com/news/?id=92th7e5i": "2026-10-17",
@@ -8,13 +8,24 @@
   "claude-code-releases:415177347": "2026-10-17",
   "claude-code-releases:416715237": "2026-10-19",
   "claude-code-releases:417677344": "2026-10-20",
+  "claude-code-releases:418781864": "2026-10-21",
+  "claude-code-releases:419073006": "2026-10-21",
+  "claude-platform:1daaa7ea43be1bb1": "2026-10-21",
+  "claude-platform:aae8a691730a4569": "2026-10-21",
+  "claude-platform:d1bc212bf338f934": "2026-10-21",
   "composio-changelog:https://docs.composio.dev/docs/changelog/2026/10/16.md": "2026-10-17",
+  "composio-changelog:https://docs.composio.dev/docs/changelog/2026/10/20.md": "2026-10-21",
+  "graphiti-releases:418673171": "2026-10-21",
   "langchain-blog:https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith": "2026-10-20",
   "openai-changelog:2026-10-16:ccae394e488f4798": "2026-10-17",
+  "openai-changelog:2026-10-20:43783173dc0d574b": "2026-10-21",
   "openai-news:https://openai.com/index/benefit-street-partners": "2026-10-17",
   "openai-news:https://openai.com/index/itau-generative-ai": "2026-10-17",
   "openai-news:https://openai.com/index/low-resource-programming-languages": "2026-10-20",
+  "openai-news:https://openai.com/index/openai-to-acquire-orchestra-bio": "2026-10-21",
   "openai-news:https://openai.com/index/stack-overflow-chatgpt-plugin": "2026-10-17",
+  "openai-news:https://openai.com/index/ted-taylor-restaurant": "2026-10-21",
+  "openai-news:https://openai.com/index/terminal-x": "2026-10-21",
   "vercel-changelog:https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity": "2026-10-18",
   "vercel-changelog:https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway": "2026-10-18",
   "vercel-changelog:https://vercel.com/changelog/elorian-ai-glimpse-now-available-on-ai-gateway": "2026-10-18",
@@ -22,6 +33,7 @@
   "vercel-changelog:https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free": "2026-10-20",
   "vercel-changelog:https://vercel.com/changelog/perplexity-decider-v1-2-models-now-available-on-ai-gateway": "2026-10-17",
   "vercel-changelog:https://vercel.com/changelog/reflection-ai-beam-now-available-on-ai-gateway-for-free": "2026-10-17",
-  "vercel-changelog:https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": "2026-10-20"
+  "vercel-changelog:https://vercel.com/changelog/updates-to-hobby-and-pro-terms-of-service": "2026-10-20",
+  "vercel-changelog:https://vercel.com/changelog/websocket-support-is-now-generally-available": "2026-10-21"
  }
 }
