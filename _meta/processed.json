@@ -1,5 +1,233 @@
 [
   {
+    "id": "arxiv:2610.29823",
+    "url": "https://arxiv.org/abs/2610.29823",
+    "title": "MemoryTax: The Bitter Lesson of Agent Memory",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28810",
+    "url": "https://arxiv.org/abs/2610.28810",
+    "title": "Combining Long-Term Memory and LLMs Comes at a High Cost: From Prompt Injection to Persistent Compromise",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28987",
+    "url": "https://arxiv.org/abs/2610.28987",
+    "title": "PerMIT: Securing Persistent Memory for LLM Agents via Machine-Checked Integrity Theorems and Scalable Community Trust",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28934",
+    "url": "https://arxiv.org/abs/2610.28934",
+    "title": "Back Up Before You Regret: Measuring Backup Awareness and Automating Backup in Coding Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29870",
+    "url": "https://arxiv.org/abs/2610.29870",
+    "title": "PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30026",
+    "url": "https://arxiv.org/abs/2610.30026",
+    "title": "What the Author Wrote, What the Agent Reads: Silent Cue Loss in Enterprise Document Ingestion",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28914",
+    "url": "https://arxiv.org/abs/2610.28914",
+    "title": "D-Skill: Distilling Teacher Knowledge through Agent Skills",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29178",
+    "url": "https://arxiv.org/abs/2610.29178",
+    "title": "Correlated Failures of AI Approval Monitors",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28667",
+    "url": "https://arxiv.org/abs/2610.28667",
+    "title": "Who Verifies the Builder? Toward Independent Assurance for Agent-Produced Software",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28679",
+    "url": "https://arxiv.org/abs/2610.28679",
+    "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29005",
+    "url": "https://arxiv.org/abs/2610.29005",
+    "title": "VeriEvolve: Evaluator-First Evolution for Tool-Using Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28815",
+    "url": "https://arxiv.org/abs/2610.28815",
+    "title": "Forging More Tasks into Better Harnesses: Agentic Harness Evolution via Successive Scale Racing",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30042",
+    "url": "https://arxiv.org/abs/2610.30042",
+    "title": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29458",
+    "url": "https://arxiv.org/abs/2610.29458",
+    "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29121",
+    "url": "https://arxiv.org/abs/2610.29121",
+    "title": "Recursive Self-Improvement on a Budget: Scoring Code Edits Before They Run",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30014",
+    "url": "https://arxiv.org/abs/2610.30014",
+    "title": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28834",
+    "url": "https://arxiv.org/abs/2610.28834",
+    "title": "Where Should a Stuck Agent Spend Its Next Tokens? Causal Attribution of Inference-Time Resources",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28763",
+    "url": "https://arxiv.org/abs/2610.28763",
+    "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29467",
+    "url": "https://arxiv.org/abs/2610.29467",
+    "title": "PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29249",
+    "url": "https://arxiv.org/abs/2610.29249",
+    "title": "MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29357",
+    "url": "https://arxiv.org/abs/2610.29357",
+    "title": "Memory-Centric Continual Learning for AI Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28982",
+    "url": "https://arxiv.org/abs/2610.28982",
+    "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28989",
+    "url": "https://arxiv.org/abs/2610.28989",
+    "title": "AgentPolicyForge: From Executable Environments to Policy Benchmarks and Adaptive Guards",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28966",
+    "url": "https://arxiv.org/abs/2610.28966",
+    "title": "Black-Box Red-Teaming of Multi-Agent Systems via Reinforcement Learning",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29822",
+    "url": "https://arxiv.org/abs/2610.29822",
+    "title": "UserSWE: Evaluating Coding Agents in Multi-Turn Conversations with Dynamic Users",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30047",
+    "url": "https://arxiv.org/abs/2610.30047",
+    "title": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30041",
+    "url": "https://arxiv.org/abs/2610.30041",
+    "title": "Robust Soft Skill Adaptation via Behavioral Localization in Tool-Using Agents",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30072",
+    "url": "https://arxiv.org/abs/2610.30072",
+    "title": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29139",
+    "url": "https://arxiv.org/abs/2610.29139",
+    "title": "Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28945",
+    "url": "https://arxiv.org/abs/2610.28945",
+    "title": "Self-Improving Agents with World Model Predictive Paths",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30074",
+    "url": "https://arxiv.org/abs/2610.30074",
+    "title": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28891",
+    "url": "https://arxiv.org/abs/2610.28891",
+    "title": "Fig: Automated Multiagent Behavior Elicitor",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28905",
+    "url": "https://arxiv.org/abs/2610.28905",
+    "title": "Hidden Messages Between Diffusion Language Model Agents: Causal Evidence for Latent Communication",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28909",
+    "url": "https://arxiv.org/abs/2610.28909",
+    "title": "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30108",
+    "url": "https://arxiv.org/abs/2610.30108",
+    "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.30017",
+    "url": "https://arxiv.org/abs/2610.30017",
+    "title": "GuideEvolve: Self-Evolving Agent Framework with Expert Guidance and 3Ts Mechanisms",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.28655",
+    "url": "https://arxiv.org/abs/2610.28655",
+    "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
+    "date_covered": "2026-10-22"
+  },
+  {
+    "id": "arxiv:2610.29733",
+    "url": "https://arxiv.org/abs/2610.29733",
+    "title": "SAKURA: Serving Attention Key-Value State Under Rate Adaptation for Private Image Editing on Phones",
+    "date_covered": "2026-10-22"
+  },
+  {
     "id": "arxiv:2610.28425",
     "url": "https://arxiv.org/abs/2610.28425",
     "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
