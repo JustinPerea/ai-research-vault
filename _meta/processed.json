@@ -1,5 +1,227 @@
 [
   {
+    "id": "arxiv:2610.30755",
+    "url": "https://arxiv.org/abs/2610.30755",
+    "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30485",
+    "url": "https://arxiv.org/abs/2610.30485",
+    "title": "Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30698",
+    "url": "https://arxiv.org/abs/2610.30698",
+    "title": "Governance-State Corruption in Long-Term Memory for LLM Agents: A Cross-Model Stress Test",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31272",
+    "url": "https://arxiv.org/abs/2610.31272",
+    "title": "Memory-Aware Reward Modeling: Learning Human Preferences for LLM Memory Use",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30989",
+    "url": "https://arxiv.org/abs/2610.30989",
+    "title": "ColaBench: Evaluating Memory-Guided Knowledge Acquisition in Personal Agents",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31314",
+    "url": "https://arxiv.org/abs/2610.31314",
+    "title": "When LLMs Forget What They Believe: Characterizing State Integrity Collapse in Long-Horizon Dialogues",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31307",
+    "url": "https://arxiv.org/abs/2610.31307",
+    "title": "Subgoal-aware Memory Graph for GUI Agent",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31355",
+    "url": "https://arxiv.org/abs/2610.31355",
+    "title": "Muffin - A Shared Memory Buffer for Asynchronous AI Agents",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30790",
+    "url": "https://arxiv.org/abs/2610.30790",
+    "title": "Agentic Knowledge-Model Co-Evolution via Consistency Regularization",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31401",
+    "url": "https://arxiv.org/abs/2610.31401",
+    "title": "HERD: Harness-Evolving Recursive Distillation for Continual Learning",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30151",
+    "url": "https://arxiv.org/abs/2610.30151",
+    "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30157",
+    "url": "https://arxiv.org/abs/2610.30157",
+    "title": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30867",
+    "url": "https://arxiv.org/abs/2610.30867",
+    "title": "Separate Field Scoring Protects Unused Tools When Agents Pool Tool-Use Experience",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31483",
+    "url": "https://arxiv.org/abs/2610.31483",
+    "title": "Training Small Language Models for Transferable Tool Selection",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31148",
+    "url": "https://arxiv.org/abs/2610.31148",
+    "title": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30491",
+    "url": "https://arxiv.org/abs/2610.30491",
+    "title": "What the Trace Shows and What the Label Says: Auditing Behavioral Detectors in Agent Evaluation",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31650",
+    "url": "https://arxiv.org/abs/2610.31650",
+    "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30573",
+    "url": "https://arxiv.org/abs/2610.30573",
+    "title": "Diagnosing Personalization Failures in Mobile GUI Agents",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31274",
+    "url": "https://arxiv.org/abs/2610.31274",
+    "title": "PointerBench: A Diagnostic Benchmark for Fine-Grained GUI Grounding",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31404",
+    "url": "https://arxiv.org/abs/2610.31404",
+    "title": "AgentPhishing: A Benchmark of LLM Email Agents Under Adaptive Attack",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30499",
+    "url": "https://arxiv.org/abs/2610.30499",
+    "title": "Can LLMs Improve Their Own Harness? A Controlled Study on ARC-AGI-3",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31461",
+    "url": "https://arxiv.org/abs/2610.31461",
+    "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31276",
+    "url": "https://arxiv.org/abs/2610.31276",
+    "title": "RIPPLE: Recovery Internalization through Process-Level Policy Learning and Effect-Aware Credit for Long-Horizon Agentic Coding",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30284",
+    "url": "https://arxiv.org/abs/2610.30284",
+    "title": "SWE-VERIFIER: Selective Verification for Cost-Efficient Coding Agents",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31118",
+    "url": "https://arxiv.org/abs/2610.31118",
+    "title": "ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31351",
+    "url": "https://arxiv.org/abs/2610.31351",
+    "title": "Automating Feature Flag Cleanup at Scale with Multi-Agent LLM Systems: An Industrial Experience at DoorDash",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30205",
+    "url": "https://arxiv.org/abs/2610.30205",
+    "title": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31376",
+    "url": "https://arxiv.org/abs/2610.31376",
+    "title": "Certified Execution Harness for Agentic AI: Safe and Least-Intrusive Petri-Net Supervisory Control Between Reasoning and Action",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31062",
+    "url": "https://arxiv.org/abs/2610.31062",
+    "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30738",
+    "url": "https://arxiv.org/abs/2610.30738",
+    "title": "AgentTriage: Replayable Security Diagnosis Across Heterogeneous Agent Runtimes",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30418",
+    "url": "https://arxiv.org/abs/2610.30418",
+    "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31593",
+    "url": "https://arxiv.org/abs/2610.31593",
+    "title": "Simulated Control Evals",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30769",
+    "url": "https://arxiv.org/abs/2610.30769",
+    "title": "LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31105",
+    "url": "https://arxiv.org/abs/2610.31105",
+    "title": "Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30429",
+    "url": "https://arxiv.org/abs/2610.30429",
+    "title": "RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.31280",
+    "url": "https://arxiv.org/abs/2610.31280",
+    "title": "Beyond Accuracy: Disentangling Decomposition from Typed-State Quality Assurance in Multi-Agent LLM Pipelines",
+    "date_covered": "2026-10-23"
+  },
+  {
+    "id": "arxiv:2610.30206",
+    "url": "https://arxiv.org/abs/2610.30206",
+    "title": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+    "date_covered": "2026-10-23"
+  },
+  {
     "id": "arxiv:2610.29823",
     "url": "https://arxiv.org/abs/2610.29823",
     "title": "MemoryTax: The Bitter Lesson of Agent Memory",
