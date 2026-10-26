@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-25T06:16:06Z",
- "previous_run": "2026-10-24T06:12:43Z",
+ "last_run": "2026-10-26T06:13:41Z",
+ "previous_run": "2026-10-25T06:16:06Z",
  "seen": {
   "anthropic-news:public-benefit-fund": "2026-10-19",
   "apple-developer-news:https://developer.apple.com/news/?id=92th7e5i": "2026-10-17",
@@ -42,6 +42,7 @@
   "composio-releases:420710956": "2026-10-23",
   "composio-releases:420711017": "2026-10-23",
   "graphiti-releases:418673171": "2026-10-21",
+  "langchain-blog:https://www.langchain.com/blog/components-building-company-harness": "2026-10-26",
   "langchain-blog:https://www.langchain.com/blog/context-engineering-deep-agents-remember": "2026-10-24",
   "langchain-blog:https://www.langchain.com/blog/context-engineering-starts-with-retrieval": "2026-10-24",
   "langchain-blog:https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith": "2026-10-20",

@@ -1,5 +1,209 @@
 [
   {
+    "id": "arxiv:2610.31710",
+    "url": "https://arxiv.org/abs/2610.31710",
+    "title": "Compact-Bench: Measuring What Context Compaction Costs Long-Horizon Coding Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31778",
+    "url": "https://arxiv.org/abs/2610.31778",
+    "title": "Benchmarks Are Surprisingly Compaction-Friendly",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31895",
+    "url": "https://arxiv.org/abs/2610.31895",
+    "title": "Knowing When to Stop: The Evidence-Action Gap in Coding Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32110",
+    "url": "https://arxiv.org/abs/2610.32110",
+    "title": "Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32555",
+    "url": "https://arxiv.org/abs/2610.32555",
+    "title": "Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31974",
+    "url": "https://arxiv.org/abs/2610.31974",
+    "title": "Agentic AI Defense: Decode-Time Provenance Binding for MCP",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31846",
+    "url": "https://arxiv.org/abs/2610.31846",
+    "title": "Don't Forget What You Just Learned: Self-Directed Repair Turns Agent Mistakes Into Lasting Lessons",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31789",
+    "url": "https://arxiv.org/abs/2610.31789",
+    "title": "Phronix: The Capability-Centric Learning Paradigm for Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32295",
+    "url": "https://arxiv.org/abs/2610.32295",
+    "title": "Lifelong Context Adaptation through Bidirectional Memory-Skill Learning",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32752",
+    "url": "https://arxiv.org/abs/2610.32752",
+    "title": "ActionRAG: Evidence-Refining Graph Diffusion for Long-Term Memory in LLM Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32483",
+    "url": "https://arxiv.org/abs/2610.32483",
+    "title": "When Agents Fail: Model or Harness--Who's to Blame?",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32285",
+    "url": "https://arxiv.org/abs/2610.32285",
+    "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32813",
+    "url": "https://arxiv.org/abs/2610.32813",
+    "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32429",
+    "url": "https://arxiv.org/abs/2610.32429",
+    "title": "Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32196",
+    "url": "https://arxiv.org/abs/2610.32196",
+    "title": "SWE-Shift: Evaluating Coding Agents in Evolving Workspaces",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32322",
+    "url": "https://arxiv.org/abs/2610.32322",
+    "title": "Beyond Gain: Measuring Skill Internalization for Agent Skill Retirement",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32412",
+    "url": "https://arxiv.org/abs/2610.32412",
+    "title": "LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31712",
+    "url": "https://arxiv.org/abs/2610.31712",
+    "title": "Reuse, Rewrite, or Reject: Evidence-Constrained Trace Reuse for Repeated Mobile GUI Control",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32536",
+    "url": "https://arxiv.org/abs/2610.32536",
+    "title": "IGG: A Benchmark for Interactive GUI Grounding under Visibility Constraints",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32223",
+    "url": "https://arxiv.org/abs/2610.32223",
+    "title": "Correct Answers, Closed Gates: SolveBind for GUI Agents at the Verification Barrier",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32024",
+    "url": "https://arxiv.org/abs/2610.32024",
+    "title": "BARC-Bench: Benign Asks, Risky Consequences",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31916",
+    "url": "https://arxiv.org/abs/2610.31916",
+    "title": "Permission to Retry: A Study of Authorization and Recovery in AI Agent Workflows",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31985",
+    "url": "https://arxiv.org/abs/2610.31985",
+    "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32060",
+    "url": "https://arxiv.org/abs/2610.32060",
+    "title": "Understanding Communication Failures in Multi-Agent LLM Systems",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31709",
+    "url": "https://arxiv.org/abs/2610.31709",
+    "title": "Mining the Design Space of Multi-Agent Workflows",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32253",
+    "url": "https://arxiv.org/abs/2610.32253",
+    "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31715",
+    "url": "https://arxiv.org/abs/2610.31715",
+    "title": "What Open-Source Projects Tell Their Coding Agents: A Census of AGENTS.md and CLAUDE.md",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32305",
+    "url": "https://arxiv.org/abs/2610.32305",
+    "title": "DMAIC-Bench: From Self-Reflection to Self-Restraint for Agents in Multi-Stage Analytical Tasks",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31972",
+    "url": "https://arxiv.org/abs/2610.31972",
+    "title": "Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32851",
+    "url": "https://arxiv.org/abs/2610.32851",
+    "title": "Reimagining Enterprise RAG for Multi-Agent Systems: A Knowledge Layer That Organizes Before It Retrieves",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32046",
+    "url": "https://arxiv.org/abs/2610.32046",
+    "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32477",
+    "url": "https://arxiv.org/abs/2610.32477",
+    "title": "CauProphet: Teaching Agents to Develop Causal Cognition like Humans",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.32332",
+    "url": "https://arxiv.org/abs/2610.32332",
+    "title": "4DMemory: Benchmarking Long-Horizon Spatiotemporal Memory with Harness-Augmented Agents",
+    "date_covered": "2026-10-26"
+  },
+  {
+    "id": "arxiv:2610.31945",
+    "url": "https://arxiv.org/abs/2610.31945",
+    "title": "Kolibri: A Sovereign European Model on the Pareto Frontier",
+    "date_covered": "2026-10-26"
+  },
+  {
     "id": "arxiv:2610.30755",
     "url": "https://arxiv.org/abs/2610.30755",
     "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
