@@ -1,5 +1,233 @@
 [
   {
+    "id": "arxiv:2610.37224",
+    "url": "https://arxiv.org/abs/2610.37224",
+    "title": "Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36114",
+    "url": "https://arxiv.org/abs/2610.36114",
+    "title": "Context Is a Pipeline, Not a Window: Information Attrition in LLM Agent Harnesses",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36153",
+    "url": "https://arxiv.org/abs/2610.36153",
+    "title": "Stratum: Repository Memory for Coding Agents Beyond the Context Window",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37461",
+    "url": "https://arxiv.org/abs/2610.37461",
+    "title": "Concordat: Typed Sessions for LLM Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36570",
+    "url": "https://arxiv.org/abs/2610.36570",
+    "title": "CASEL: Consequence-Aware Selective Execution for Reliable Long-Horizon Tool-Using Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36108",
+    "url": "https://arxiv.org/abs/2610.36108",
+    "title": "Log-To-Leak: Prompt Injection Attacks on Tool-Using LLM Agents via the Model Context Protocol",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37201",
+    "url": "https://arxiv.org/abs/2610.37201",
+    "title": "Does Your Generalist Skill Optimizer Really Incentivize Agentic Tasks? Rethinking Skill Optimization via Bipartite Attribution",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36308",
+    "url": "https://arxiv.org/abs/2610.36308",
+    "title": "When Retrieval Is Not Enough: Obsolete Facts in Agent Memory",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36405",
+    "url": "https://arxiv.org/abs/2610.36405",
+    "title": "kw-bench: Breaking Frontier Harnesses on Real-World Tasks",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.35959",
+    "url": "https://arxiv.org/abs/2610.35959",
+    "title": "AgentBaton: Efficient Model Collaboration in Agentic Tasks",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36967",
+    "url": "https://arxiv.org/abs/2610.36967",
+    "title": "Proactive Memory for Event-Driven LLM Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36713",
+    "url": "https://arxiv.org/abs/2610.36713",
+    "title": "From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36652",
+    "url": "https://arxiv.org/abs/2610.36652",
+    "title": "Remembering Is Not Enough: Refining Memories and Learning When to Use Them in Multi-Agent Systems",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.35966",
+    "url": "https://arxiv.org/abs/2610.35966",
+    "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37624",
+    "url": "https://arxiv.org/abs/2610.37624",
+    "title": "Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37482",
+    "url": "https://arxiv.org/abs/2610.37482",
+    "title": "From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36877",
+    "url": "https://arxiv.org/abs/2610.36877",
+    "title": "GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36874",
+    "url": "https://arxiv.org/abs/2610.36874",
+    "title": "AdaGround: Token-Normalized Adaptive Zooming with Verifier-in-the-Loop Refinement for GUI Grounding",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37567",
+    "url": "https://arxiv.org/abs/2610.37567",
+    "title": "Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36471",
+    "url": "https://arxiv.org/abs/2610.36471",
+    "title": "When to Intervene? An Empirical Study of Errors and Self-Recovery in LLM Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36544",
+    "url": "https://arxiv.org/abs/2610.36544",
+    "title": "Monitor Accuracy Isn't the Answer: A Decision-Value Framework for Evaluating AI Agent Restart Monitors",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36453",
+    "url": "https://arxiv.org/abs/2610.36453",
+    "title": "Correction or Manipulation? Measuring Epistemic Vigilance in LLM Agents Under User Pressure",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36435",
+    "url": "https://arxiv.org/abs/2610.36435",
+    "title": "Your Agent Acts Differently When You're Around: How User Presence Changes Agent Behavior in Negotiation",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36188",
+    "url": "https://arxiv.org/abs/2610.36188",
+    "title": "Skill Dreaming: Evolving Repository Skills through Pull Request Streams",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36826",
+    "url": "https://arxiv.org/abs/2610.36826",
+    "title": "When the Critic Falls Behind: Co-Evolving Rubrics and Harnesses for Continual Agent Self-Improvement",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36660",
+    "url": "https://arxiv.org/abs/2610.36660",
+    "title": "The View from Nowhere: Population-Centered Agent Evolution",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36077",
+    "url": "https://arxiv.org/abs/2610.36077",
+    "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37276",
+    "url": "https://arxiv.org/abs/2610.37276",
+    "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36774",
+    "url": "https://arxiv.org/abs/2610.36774",
+    "title": "Batching the Reflective Optimization Loop: Parallel Proposals Make GEPA Faster and Better",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36848",
+    "url": "https://arxiv.org/abs/2610.36848",
+    "title": "Evolving Agent Teams",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37571",
+    "url": "https://arxiv.org/abs/2610.37571",
+    "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.35930",
+    "url": "https://arxiv.org/abs/2610.35930",
+    "title": "Who Convinced Whom? Tracing How LLMs Change Their Minds in Multi-Agent Systems",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37242",
+    "url": "https://arxiv.org/abs/2610.37242",
+    "title": "Grounding LLM Agents in Business Processes: Process-Aware Knowledge Graphs for Reliable Multi-Step Service Invocation",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.37434",
+    "url": "https://arxiv.org/abs/2610.37434",
+    "title": "FeatureArc: Benchmarking Coding Agents on Evolving Features",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.35987",
+    "url": "https://arxiv.org/abs/2610.35987",
+    "title": "PROBE: Frontier Coding Agents Find Different Bugs Than Maintainers Fix",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36355",
+    "url": "https://arxiv.org/abs/2610.36355",
+    "title": "WAKMan: Workload Aware KVCache Manager",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36950",
+    "url": "https://arxiv.org/abs/2610.36950",
+    "title": "DCKV: Learned Transform Coding of the Prompt KV Cache in Hybrid Language Models",
+    "date_covered": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.36948",
+    "url": "https://arxiv.org/abs/2610.36948",
+    "title": "Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models",
+    "date_covered": "2026-10-28"
+  },
+  {
     "id": "arxiv:2610.34425",
     "url": "https://arxiv.org/abs/2610.34425",
     "title": "CTXAgent - Self-Controlled Context Management of LLM Agents",
