@@ -1,5 +1,245 @@
 [
   {
+    "id": "arxiv:2610.39264",
+    "url": "https://arxiv.org/abs/2610.39264",
+    "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37734",
+    "url": "https://arxiv.org/abs/2610.37734",
+    "title": "When Skills Tell Agents Not to Ask: A Large-Scale Study of Oversight Directives in Agent Skills",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39508",
+    "url": "https://arxiv.org/abs/2610.39508",
+    "title": "Compile Away Uncertainty: Self-Evolving Agent Skills via Programmatic Compilation",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38458",
+    "url": "https://arxiv.org/abs/2610.38458",
+    "title": "Tracekit Box: Running AI Agents in Micro-VMs Where Every Way Out Is Decided and Signed",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39109",
+    "url": "https://arxiv.org/abs/2610.39109",
+    "title": "PCM: A Proof-Carrying Message Protocol for Verifiable Multi-Agent Communication",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39282",
+    "url": "https://arxiv.org/abs/2610.39282",
+    "title": "What Does \"Now\" Mean to Your Computer-Use Agent? Stale Screenshots, Page Loads, and Which Check to Run Before a Click",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38573",
+    "url": "https://arxiv.org/abs/2610.38573",
+    "title": "CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39790",
+    "url": "https://arxiv.org/abs/2610.39790",
+    "title": "Long-Term Agent Memory through Complementary Curation and Consolidation",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38392",
+    "url": "https://arxiv.org/abs/2610.38392",
+    "title": "Masked Erosion: How Acceptance Gates Lose Redundant Safeguards in Self-Improving Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39122",
+    "url": "https://arxiv.org/abs/2610.39122",
+    "title": "Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38209",
+    "url": "https://arxiv.org/abs/2610.38209",
+    "title": "Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37738",
+    "url": "https://arxiv.org/abs/2610.37738",
+    "title": "Poisoned Skills: Propagating Jailbreaks Through Agent Markdown Files",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37901",
+    "url": "https://arxiv.org/abs/2610.37901",
+    "title": "Scan Before You Install: Detecting and Mitigating Local and Composite Vulnerabilities in Skills",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38147",
+    "url": "https://arxiv.org/abs/2610.38147",
+    "title": "SkillCT: A Multidimensional Benchmark and Execution-Free Baseline for Agent Skill Assessment",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39155",
+    "url": "https://arxiv.org/abs/2610.39155",
+    "title": "REALM: Identifying Minimal Task Assets for LLM Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38620",
+    "url": "https://arxiv.org/abs/2610.38620",
+    "title": "Think Before You Act: Decision Gate for LLM Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38867",
+    "url": "https://arxiv.org/abs/2610.38867",
+    "title": "Where You Inject Matters: The Trust Region Effect in LLM Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.40396",
+    "url": "https://arxiv.org/abs/2610.40396",
+    "title": "Understanding and Mitigating Role Spoofing in LLMs",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.40578",
+    "url": "https://arxiv.org/abs/2610.40578",
+    "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.40246",
+    "url": "https://arxiv.org/abs/2610.40246",
+    "title": "EnvOS: Auditing Computer-Use Agents When the World Moves On : Phenomenon-Based Task Construction, Certification, and Evidence-Based Evaluation",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39251",
+    "url": "https://arxiv.org/abs/2610.39251",
+    "title": "Where to Learn and How Far to Roll Out: Efficient Adaptive Training for GUI Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.40133",
+    "url": "https://arxiv.org/abs/2610.40133",
+    "title": "DynaRev: Benchmarking Web Agents under Dynamic Goal Revision",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37786",
+    "url": "https://arxiv.org/abs/2610.37786",
+    "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.40444",
+    "url": "https://arxiv.org/abs/2610.40444",
+    "title": "Prefix Executability: Evaluating Tool-Using Agents Beyond Final Success",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39377",
+    "url": "https://arxiv.org/abs/2610.39377",
+    "title": "AgentDecept: Benchmarking Deceptive Behavior in Tool-Using LLM Agents under Pressure",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39276",
+    "url": "https://arxiv.org/abs/2610.39276",
+    "title": "MemSteer: Turning User Histories into Supervision for Agent Memory Optimization",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38332",
+    "url": "https://arxiv.org/abs/2610.38332",
+    "title": "MUSE: Multi-Level Memory with Selective Runtime Injection for Scientific Coding Agents",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.40611",
+    "url": "https://arxiv.org/abs/2610.40611",
+    "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38210",
+    "url": "https://arxiv.org/abs/2610.38210",
+    "title": "GAAC: Lossless KV Compression for Bandwidth-Efficient LLM Inference on Personal Devices",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38095",
+    "url": "https://arxiv.org/abs/2610.38095",
+    "title": "Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37680",
+    "url": "https://arxiv.org/abs/2610.37680",
+    "title": "Artifact Distillation: Training-Free Transfer from Frontier to Small Language Models",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37700",
+    "url": "https://arxiv.org/abs/2610.37700",
+    "title": "The Coordination Tax and the Heterogeneity Dividend: Break-Even Conditions for Multi-Agent LLM Pipelines",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39193",
+    "url": "https://arxiv.org/abs/2610.39193",
+    "title": "Goal-Aware Dynamic Multi-Agent Collaboration for Long-Horizon Tasks",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38946",
+    "url": "https://arxiv.org/abs/2610.38946",
+    "title": "MAS-Loop: Beyond One-Shot Orchestration towards Self-Evolving Multi-Agent Systems",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.37935",
+    "url": "https://arxiv.org/abs/2610.37935",
+    "title": "SkillMem: Compact External Skill Memory for Latent Multi-Agent Reasoning",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39532",
+    "url": "https://arxiv.org/abs/2610.39532",
+    "title": "Judging Before Propagation: Task-Graph Contextual Integrity for Multi-Agent Privacy",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.39468",
+    "url": "https://arxiv.org/abs/2610.39468",
+    "title": "Soei: Structured Observability of Evidence and Intent for Multi-Agent AI Software Engineering",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38244",
+    "url": "https://arxiv.org/abs/2610.38244",
+    "title": "Precedent or Intent? What Coding Agents Follow When Evolving Existing Code",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38617",
+    "url": "https://arxiv.org/abs/2610.38617",
+    "title": "How Deterministic SAST and AI Security Agents Divide the Work: Coverage, Harness Policy and Cost in Snyk VulnBench 2.0",
+    "date_covered": "2026-10-31"
+  },
+  {
+    "id": "arxiv:2610.38126",
+    "url": "https://arxiv.org/abs/2610.38126",
+    "title": "Answer-Only Disclosure: Private-Context LLM Assistance over Web APIs with a Leakage Ledger",
+    "date_covered": "2026-10-31"
+  },
+  {
     "id": "arxiv:2610.37224",
     "url": "https://arxiv.org/abs/2610.37224",
     "title": "Spine: Compiling Subtask Trees into Structured Context for Long-Horizon Coding Agents",
