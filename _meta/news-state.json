@@ -1,6 +1,6 @@
 {
- "last_run": "2026-10-31T06:15:03Z",
- "previous_run": "2026-10-30T06:19:33Z",
+ "last_run": "2026-11-01T07:19:08Z",
+ "previous_run": "2026-10-31T06:15:03Z",
  "seen": {
   "anthropic-news:ai-for-science-expands-foundations-research-institutions": "2026-10-29",
   "anthropic-news:alignment-assessment-ukaisi": "2026-10-27",
@@ -129,6 +129,7 @@
   "openrouter-blog:https://openrouter.ai/blog/insights/claude-code-cost/": "2026-10-30",
   "openrouter-blog:https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/": "2026-10-30",
   "openrouter-blog:https://openrouter.ai/blog/insights/open-weight-vs-closed-weight-models/": "2026-10-31",
+  "openrouter-blog:https://openrouter.ai/blog/tutorials/ai-code-review/": "2026-11-01",
   "openrouter-blog:https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/": "2026-10-31",
   "openrouter-blog:https://openrouter.ai/blog/tutorials/claude-529-overloaded/": "2026-10-29",
   "openrouter-blog:https://openrouter.ai/blog/tutorials/claude-code-usage-limit/": "2026-10-29",
