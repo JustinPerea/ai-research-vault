@@ -1,5 +1,209 @@
 [
   {
+    "id": "arxiv:2610.40753",
+    "url": "https://arxiv.org/abs/2610.40753",
+    "title": "\"Shall We Approve?\" Consequence-Aware Approval for Autonomous Coding Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41397",
+    "url": "https://arxiv.org/abs/2610.41397",
+    "title": "Cross-Interface Authorization for AI Computer-Use Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41998",
+    "url": "https://arxiv.org/abs/2610.41998",
+    "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41056",
+    "url": "https://arxiv.org/abs/2610.41056",
+    "title": "Accept Changes, Reject Attacks: Robust Memory Management for LLM Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40959",
+    "url": "https://arxiv.org/abs/2610.40959",
+    "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41479",
+    "url": "https://arxiv.org/abs/2610.41479",
+    "title": "EvoMCP: Co-evolving MCP agents and training data",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40917",
+    "url": "https://arxiv.org/abs/2610.40917",
+    "title": "Towards Portable Specification of the Agent Harness",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41172",
+    "url": "https://arxiv.org/abs/2610.41172",
+    "title": "Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41040",
+    "url": "https://arxiv.org/abs/2610.41040",
+    "title": "Capability-Grounded Agentic Planning",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41564",
+    "url": "https://arxiv.org/abs/2610.41564",
+    "title": "Verify--Backtrack Loop: Structured Precondition Recovery for Long-Horizon Language Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41453",
+    "url": "https://arxiv.org/abs/2610.41453",
+    "title": "Evidence-Guided Recovery for AI Agents with Ambiguous Tool Outcomes and Partial Execution",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41129",
+    "url": "https://arxiv.org/abs/2610.41129",
+    "title": "When Should AI Agents Ask? Clarification Requests Under Limited Human Attention",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41378",
+    "url": "https://arxiv.org/abs/2610.41378",
+    "title": "Ask on Demand: Targeted Peer Communication for Parallel Agentic Systems",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41025",
+    "url": "https://arxiv.org/abs/2610.41025",
+    "title": "ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40927",
+    "url": "https://arxiv.org/abs/2610.40927",
+    "title": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40798",
+    "url": "https://arxiv.org/abs/2610.40798",
+    "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41272",
+    "url": "https://arxiv.org/abs/2610.41272",
+    "title": "ANGLER: Verifier-Grounded Benchmarking with an Adaptive Attacker for Web Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40714",
+    "url": "https://arxiv.org/abs/2610.40714",
+    "title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41401",
+    "url": "https://arxiv.org/abs/2610.41401",
+    "title": "When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40716",
+    "url": "https://arxiv.org/abs/2610.40716",
+    "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41307",
+    "url": "https://arxiv.org/abs/2610.41307",
+    "title": "Erase the Injected Region: Multimodal Prompt-Injection Defense with On-Policy Self-Distillation",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41435",
+    "url": "https://arxiv.org/abs/2610.41435",
+    "title": "BlindToChange: AI Agents Can Find Changes When Asked But Do They Look When Needed?",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41124",
+    "url": "https://arxiv.org/abs/2610.41124",
+    "title": "Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41291",
+    "url": "https://arxiv.org/abs/2610.41291",
+    "title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.42116",
+    "url": "https://arxiv.org/abs/2610.42116",
+    "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41482",
+    "url": "https://arxiv.org/abs/2610.41482",
+    "title": "KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40758",
+    "url": "https://arxiv.org/abs/2610.40758",
+    "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.40721",
+    "url": "https://arxiv.org/abs/2610.40721",
+    "title": "MetaVul: Agentic Harness Discovery for Vulnerability Detection",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.42141",
+    "url": "https://arxiv.org/abs/2610.42141",
+    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41604",
+    "url": "https://arxiv.org/abs/2610.41604",
+    "title": "Real Computation or Merely Naming? A Pre-Registered Mechanism Audit of 25 Cognitive-Architecture Modules in an LLM-Based Agent System",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41697",
+    "url": "https://arxiv.org/abs/2610.41697",
+    "title": "TSBPO: Tree-Structured Branching for Policy Optimization in Interactive Language Agents",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41909",
+    "url": "https://arxiv.org/abs/2610.41909",
+    "title": "Structure-Aware Skill Retrieval and Arbitration for Optimization Modeling",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.41072",
+    "url": "https://arxiv.org/abs/2610.41072",
+    "title": "LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale",
+    "date_covered": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.42066",
+    "url": "https://arxiv.org/abs/2610.42066",
+    "title": "The Knowledge Layer Model (KLM): Evidence-Visible AI Output, Routing Diagnostics, and Negative Results",
+    "date_covered": "2026-11-02"
+  },
+  {
     "id": "arxiv:2610.39264",
     "url": "https://arxiv.org/abs/2610.39264",
     "title": "Online Dense Reinforcement Learning with Planning-Grounding Agent for UI Navigation on Live IOS Apps",
