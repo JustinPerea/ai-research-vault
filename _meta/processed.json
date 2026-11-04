@@ -1,5 +1,233 @@
 [
   {
+    "id": "arxiv:2611.03930",
+    "url": "https://arxiv.org/abs/2611.03930",
+    "title": "What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04003",
+    "url": "https://arxiv.org/abs/2611.04003",
+    "title": "WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03743",
+    "url": "https://arxiv.org/abs/2611.03743",
+    "title": "EvoMemState: Evolving Memory State for Personal Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04867",
+    "url": "https://arxiv.org/abs/2611.04867",
+    "title": "One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04494",
+    "url": "https://arxiv.org/abs/2611.04494",
+    "title": "Spatial Memory for AR Glasses: Hierarchical Visual Acquisition and Source-Linked Recall",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04296",
+    "url": "https://arxiv.org/abs/2611.04296",
+    "title": "SEAM: Situated Executable Associative Memory for a Co-located Community",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.05306",
+    "url": "https://arxiv.org/abs/2611.05306",
+    "title": "You don't need long context",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03852",
+    "url": "https://arxiv.org/abs/2611.03852",
+    "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04169",
+    "url": "https://arxiv.org/abs/2611.04169",
+    "title": "Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04100",
+    "url": "https://arxiv.org/abs/2611.04100",
+    "title": "The Agent Board: Kanban for Machines; Durable Coordination for Agents That Outlive the Conversation",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.05139",
+    "url": "https://arxiv.org/abs/2611.05139",
+    "title": "Meta$^2$: Precomputing Reusable Knowledge for Online Harness Evolution in Long-Horizon Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04277",
+    "url": "https://arxiv.org/abs/2611.04277",
+    "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04952",
+    "url": "https://arxiv.org/abs/2611.04952",
+    "title": "Artifact-to-Capability: Diagnosing Breaks in Capability Formation of Self-Evolving Agents in a Controlled Environment",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.05108",
+    "url": "https://arxiv.org/abs/2611.05108",
+    "title": "From AutoResearch to Continual AutoResearch: Do Agents Learn Across Tasks?",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04035",
+    "url": "https://arxiv.org/abs/2611.04035",
+    "title": "Recursa: Toward Recursively Self-Improving Foundation Model Systems",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04180",
+    "url": "https://arxiv.org/abs/2611.04180",
+    "title": "Validation-Gated ML Pipeline Synthesis with Expert-Grounded Self-Evolving Skills",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04315",
+    "url": "https://arxiv.org/abs/2611.04315",
+    "title": "Drift No More: Spectral Locking for Long-Horizon Open-Weight Multi-Agent AI",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04321",
+    "url": "https://arxiv.org/abs/2611.04321",
+    "title": "ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04556",
+    "url": "https://arxiv.org/abs/2611.04556",
+    "title": "Inter-Agent Influence: Evaluating Persuasion, Deception, and Coercion in Multi-Agent Systems",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03662",
+    "url": "https://arxiv.org/abs/2611.03662",
+    "title": "MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03772",
+    "url": "https://arxiv.org/abs/2611.03772",
+    "title": "RuntimeTickets: Source-Grounded Security Obligations for Agent Skills",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.05088",
+    "url": "https://arxiv.org/abs/2611.05088",
+    "title": "LatentTriad: Pre-Action Risk Representations for Malicious Agent Skill Detection",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04393",
+    "url": "https://arxiv.org/abs/2611.04393",
+    "title": "Voluntary Servitude: Weaponized Safety Warning Mechanisms for Controlling AI Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03982",
+    "url": "https://arxiv.org/abs/2611.03982",
+    "title": "SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04182",
+    "url": "https://arxiv.org/abs/2611.04182",
+    "title": "When the Consumer Is an Agent: Execution-Grounded Service-Level Agreements",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04142",
+    "url": "https://arxiv.org/abs/2611.04142",
+    "title": "Interpretable Early Termination of Web Navigation Agents via Closed Sequential Pattern Mining",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.05263",
+    "url": "https://arxiv.org/abs/2611.05263",
+    "title": "JHiMA-WebRL: A Joint Hierarchical Multi-Agent Reinforcement Learning Framework for Long-Horizon Web Tasks",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04879",
+    "url": "https://arxiv.org/abs/2611.04879",
+    "title": "ScamWorld: An Interactive Environment for Evaluating Web Agents Against Online Fraud",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03754",
+    "url": "https://arxiv.org/abs/2611.03754",
+    "title": "The Web Doesn't Sit Still: Adversarial Self-Evolving Attacks on Search Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03723",
+    "url": "https://arxiv.org/abs/2611.03723",
+    "title": "EMBERS: Empirically Motivated Robustness Testing of Deep Research Systems via Defect-Guided Fuzzing",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04894",
+    "url": "https://arxiv.org/abs/2611.04894",
+    "title": "VisSearch-Bench: Evaluating Long Horizon Visual Search in Multimodal Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.03685",
+    "url": "https://arxiv.org/abs/2611.03685",
+    "title": "LOLPlay: Benchmarking Real-Time Visual Agents in League of Legends",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04507",
+    "url": "https://arxiv.org/abs/2611.04507",
+    "title": "Signals: Continuous Diagnostics of AI Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04399",
+    "url": "https://arxiv.org/abs/2611.04399",
+    "title": "Silent Instrument Errors Reorder Agent Leaderboards",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04466",
+    "url": "https://arxiv.org/abs/2611.04466",
+    "title": "From Watching to Steering: Enabling Human-Coding Agent Collaboration through Execution Traces",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04183",
+    "url": "https://arxiv.org/abs/2611.04183",
+    "title": "Agentic Path Maps: Exposing an Agent's Traversal Through the Garden of Forking Paths",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.04380",
+    "url": "https://arxiv.org/abs/2611.04380",
+    "title": "Twice as Fast, Until It Isn't: Quantized Serving of Mid-Size Open LLMs",
+    "date_covered": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2611.05345",
+    "url": "https://arxiv.org/abs/2611.05345",
+    "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
+    "date_covered": "2026-11-04"
+  },
+  {
     "id": "arxiv:2610.40753",
     "url": "https://arxiv.org/abs/2610.40753",
     "title": "\"Shall We Approve?\" Consequence-Aware Approval for Autonomous Coding Agents",
