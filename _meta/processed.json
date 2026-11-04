@@ -1,5 +1,257 @@
 [
   {
+    "id": "arxiv:2611.00779",
+    "url": "https://arxiv.org/abs/2611.00779",
+    "title": "Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00988",
+    "url": "https://arxiv.org/abs/2611.00988",
+    "title": "Pulse: Long-Horizon Tasks Need Streaming Personalization",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01718",
+    "url": "https://arxiv.org/abs/2611.01718",
+    "title": "Delivered, Not Used: Evaluating Agent Memory at Its Point of Use",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00060",
+    "url": "https://arxiv.org/abs/2611.00060",
+    "title": "Memorix: Managing Memory Selections for AI Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03289",
+    "url": "https://arxiv.org/abs/2611.03289",
+    "title": "Top-$k$ Retrieval Leaves Memory Value Undetermined",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02338",
+    "url": "https://arxiv.org/abs/2611.02338",
+    "title": "MemShift: Separating Detection from Repair in LLM-Derived Personal Memory",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02480",
+    "url": "https://arxiv.org/abs/2611.02480",
+    "title": "Chain on Demand: Deferred Evidence Organization for Long-Term Conversational Memory",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02612",
+    "url": "https://arxiv.org/abs/2611.02612",
+    "title": "Scalaris: A Scalable Enterprise Memory Architecture for Conversational AI Assistants",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00191",
+    "url": "https://arxiv.org/abs/2611.00191",
+    "title": "MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01700",
+    "url": "https://arxiv.org/abs/2611.01700",
+    "title": "MemHarmBench: Evaluating Cross-Session Prompt Injection in Memory-Persistent AI Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00518",
+    "url": "https://arxiv.org/abs/2611.00518",
+    "title": "Agentic Context Management for Multi-Turn Human-AI Conversations",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03223",
+    "url": "https://arxiv.org/abs/2611.03223",
+    "title": "Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00442",
+    "url": "https://arxiv.org/abs/2611.00442",
+    "title": "Fidelity Collapses with Table Size, Not Turn Count: Delivery Architecture in a Deployed Tool-Using Agent",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00544",
+    "url": "https://arxiv.org/abs/2611.00544",
+    "title": "Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01701",
+    "url": "https://arxiv.org/abs/2611.01701",
+    "title": "Just-in-Time Skill Retrieval via Long-Horizon State Tracking",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01386",
+    "url": "https://arxiv.org/abs/2611.01386",
+    "title": "Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02830",
+    "url": "https://arxiv.org/abs/2611.02830",
+    "title": "Think with Skills: Pseudocode Planning Before Execution for Advanced Reasoners",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03238",
+    "url": "https://arxiv.org/abs/2611.03238",
+    "title": "ScienceCUA: Resource-to-Skill Construction and Execution-Guided Skill Evolution for Scientific Computer Use Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01446",
+    "url": "https://arxiv.org/abs/2611.01446",
+    "title": "I-PTC: Interactive Programmatic Tool Calling for Stateful Tool-Augmented Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00463",
+    "url": "https://arxiv.org/abs/2611.00463",
+    "title": "Exo: An Architecture for Self-Improving Systems at Runtime",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02079",
+    "url": "https://arxiv.org/abs/2611.02079",
+    "title": "ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03219",
+    "url": "https://arxiv.org/abs/2611.03219",
+    "title": "Can Coding Agents Sustain Continual Evolution without Forgetting?",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03434",
+    "url": "https://arxiv.org/abs/2611.03434",
+    "title": "Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03178",
+    "url": "https://arxiv.org/abs/2611.03178",
+    "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00314",
+    "url": "https://arxiv.org/abs/2611.00314",
+    "title": "Decentralized Multi-Agent Coordination and Communication in Shared Codebases",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01265",
+    "url": "https://arxiv.org/abs/2611.01265",
+    "title": "Toward Bounding Coding-Agent Autonomy in Software Maintenance: A Pilot Study of Boundary Contracts",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01930",
+    "url": "https://arxiv.org/abs/2611.01930",
+    "title": "RECEIPT: Measuring and Repairing the Return Assumption of LLM Agents in Web Service Operations",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02950",
+    "url": "https://arxiv.org/abs/2611.02950",
+    "title": "Action Verification through Conjecture and Refutation for Language Model Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02978",
+    "url": "https://arxiv.org/abs/2611.02978",
+    "title": "CAREFUL-Bench: Effect-Aware, Judge-Free Evaluation of Multi-Turn LLM Function Calling",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02332",
+    "url": "https://arxiv.org/abs/2611.02332",
+    "title": "LEANGUARD: Lean-Verified Guardrails for Tool-Using Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01043",
+    "url": "https://arxiv.org/abs/2611.01043",
+    "title": "Dependable Agents Need Hard and Fuzzy Rules",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00386",
+    "url": "https://arxiv.org/abs/2611.00386",
+    "title": "Dependence-Aware Risk Assessment and Optimal Design of AI-Agent Safeguard Systems",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03555",
+    "url": "https://arxiv.org/abs/2611.03555",
+    "title": "MCP Tool Poisoning in Agentic AI Frameworks: A Cross-Framework Measurement Study",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01976",
+    "url": "https://arxiv.org/abs/2611.01976",
+    "title": "Beyond Prompt Injection: The Tool Update Gap in LLM Agent Security",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.01953",
+    "url": "https://arxiv.org/abs/2611.01953",
+    "title": "Step-Zero Attack: Agent Safety Before Observability",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03126",
+    "url": "https://arxiv.org/abs/2611.03126",
+    "title": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03634",
+    "url": "https://arxiv.org/abs/2611.03634",
+    "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03233",
+    "url": "https://arxiv.org/abs/2611.03233",
+    "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02368",
+    "url": "https://arxiv.org/abs/2611.02368",
+    "title": "Beyond Accuracy: How Quantization Affects Coding Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.02601",
+    "url": "https://arxiv.org/abs/2611.02601",
+    "title": "Parallelism-Aligned Pruning and Round-Aware Context Reuse for On-Device Multimodal Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.00610",
+    "url": "https://arxiv.org/abs/2611.00610",
+    "title": "Trail: Accurate Local Smart Home Control Using Decision Models",
+    "date_covered": "2026-11-03"
+  },
+  {
+    "id": "arxiv:2611.03092",
+    "url": "https://arxiv.org/abs/2611.03092",
+    "title": "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
+    "date_covered": "2026-11-03"
+  },
+  {
     "id": "arxiv:2611.03930",
     "url": "https://arxiv.org/abs/2611.03930",
     "title": "What Is This Memory Useful For? Measuring Task-Conditioned Utility in Long-Term Agent Memory",
