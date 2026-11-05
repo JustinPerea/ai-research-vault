@@ -1,5 +1,233 @@
 [
   {
+    "id": "arxiv:2611.06049",
+    "url": "https://arxiv.org/abs/2611.06049",
+    "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06445",
+    "url": "https://arxiv.org/abs/2611.06445",
+    "title": "SUMONE: A Simple and Efficient Summarizer for Plug-and-Play Agent Memory",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06500",
+    "url": "https://arxiv.org/abs/2611.06500",
+    "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05636",
+    "url": "https://arxiv.org/abs/2611.05636",
+    "title": "Route to Remember: Adaptive Memory Selection for LLM Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05391",
+    "url": "https://arxiv.org/abs/2611.05391",
+    "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06254",
+    "url": "https://arxiv.org/abs/2611.06254",
+    "title": "HarnessFlow: MCTS-Guided Harness Optimization for LLM Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06585",
+    "url": "https://arxiv.org/abs/2611.06585",
+    "title": "Signed, Sealed, Leaked: Trust Beyond Signature for MCP Toolchains",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05806",
+    "url": "https://arxiv.org/abs/2611.05806",
+    "title": "When File Ingestion Misleads Language Models: Measuring and Mitigating Divergences in Office Documents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05450",
+    "url": "https://arxiv.org/abs/2611.05450",
+    "title": "Towards Robust Long-Lived Agents: Benchmarking Experience Lifecycles in Evolving Environments",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06687",
+    "url": "https://arxiv.org/abs/2611.06687",
+    "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05512",
+    "url": "https://arxiv.org/abs/2611.05512",
+    "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05620",
+    "url": "https://arxiv.org/abs/2611.05620",
+    "title": "ViBench 2.0: A Benchmark for Long-Horizon Software Building",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06116",
+    "url": "https://arxiv.org/abs/2611.06116",
+    "title": "The Harness Is the Model: Agent Scaffolding Changes a Fixed LLM's Compliance with Banking Conduct Rules, Unevenly Across Models",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05662",
+    "url": "https://arxiv.org/abs/2611.05662",
+    "title": "Grounded but Not Immune: Confirmation Bias in Agent-as-a-judge",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05390",
+    "url": "https://arxiv.org/abs/2611.05390",
+    "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05632",
+    "url": "https://arxiv.org/abs/2611.05632",
+    "title": "Assurance-Conditioned Continuous Authorization for Autonomous AI Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05814",
+    "url": "https://arxiv.org/abs/2611.05814",
+    "title": "Learning When Human Decisions Matter: Executor-Relative Consultation Value for LLM Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06868",
+    "url": "https://arxiv.org/abs/2611.06868",
+    "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05709",
+    "url": "https://arxiv.org/abs/2611.05709",
+    "title": "Agents, Think Only When it Helps",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05445",
+    "url": "https://arxiv.org/abs/2611.05445",
+    "title": "LIBRA: Programmatic Induction of Executable Tool Libraries",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05791",
+    "url": "https://arxiv.org/abs/2611.05791",
+    "title": "FlyHash for LLM Agent Memory: An Empirical Validation and a New Application",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05753",
+    "url": "https://arxiv.org/abs/2611.05753",
+    "title": "Toward a Compositional Knowledge Architecture for a Shared Organizational Cortex",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.02216",
+    "url": "https://arxiv.org/abs/2611.02216",
+    "title": "Do agents need to sleep?",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06380",
+    "url": "https://arxiv.org/abs/2611.06380",
+    "title": "Does Context Compression Preserve Refusal Alignment?",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05903",
+    "url": "https://arxiv.org/abs/2611.05903",
+    "title": "EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06481",
+    "url": "https://arxiv.org/abs/2611.06481",
+    "title": "ArcRAG: Agentic Compositional Retrieval over Knowledge Graphs",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05953",
+    "url": "https://arxiv.org/abs/2611.05953",
+    "title": "Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06389",
+    "url": "https://arxiv.org/abs/2611.06389",
+    "title": "MA-Mesh: Resilient Multi-Agent Collaboration via Role-based Self-Healing",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06409",
+    "url": "https://arxiv.org/abs/2611.06409",
+    "title": "Zero-Shot Coordination among LLM Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05739",
+    "url": "https://arxiv.org/abs/2611.05739",
+    "title": "PersonaCodeBench: Evaluating Coding Agents in Persona-driven Human-Interactive Sessions",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06674",
+    "url": "https://arxiv.org/abs/2611.06674",
+    "title": "AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05650",
+    "url": "https://arxiv.org/abs/2611.05650",
+    "title": "Attributing Agent Failures to Their History Needs an Executed Counterfactual: Toward a Reporting Standard",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06803",
+    "url": "https://arxiv.org/abs/2611.06803",
+    "title": "Task-Efficient Agent Evaluation Using Cached Traces",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06662",
+    "url": "https://arxiv.org/abs/2611.06662",
+    "title": "Where Search Agents Go Off the Rails: Graph-Grounded Step-Level Verification",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05759",
+    "url": "https://arxiv.org/abs/2611.05759",
+    "title": "PAYWORTHY: Can LLMs Predict Which Freelance Jobs an AI Agent Will Complete?",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.06841",
+    "url": "https://arxiv.org/abs/2611.06841",
+    "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05392",
+    "url": "https://arxiv.org/abs/2611.05392",
+    "title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+    "date_covered": "2026-11-05"
+  },
+  {
+    "id": "arxiv:2611.05586",
+    "url": "https://arxiv.org/abs/2611.05586",
+    "title": "Anduin: A sybil-resistant agentic marketplace reputation system",
+    "date_covered": "2026-11-05"
+  },
+  {
     "id": "arxiv:2611.00779",
     "url": "https://arxiv.org/abs/2611.00779",
     "title": "Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks",
