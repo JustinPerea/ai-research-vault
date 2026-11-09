@@ -1,5 +1,209 @@
 [
   {
+    "id": "arxiv:2611.08644",
+    "url": "https://arxiv.org/abs/2611.08644",
+    "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09802",
+    "url": "https://arxiv.org/abs/2611.09802",
+    "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09721",
+    "url": "https://arxiv.org/abs/2611.09721",
+    "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09088",
+    "url": "https://arxiv.org/abs/2611.09088",
+    "title": "When Routine Operations Break Architectural Pattern Relationships in LLM Agent Harnesses",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08768",
+    "url": "https://arxiv.org/abs/2611.08768",
+    "title": "Conflux: Preventing Privilege Escalation with Principal Contexts and System-Level Evaluation",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09454",
+    "url": "https://arxiv.org/abs/2611.09454",
+    "title": "From LoRA to Language: Recovering Skill Documents from Adapters",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08811",
+    "url": "https://arxiv.org/abs/2611.08811",
+    "title": "I Think, Therefore I Attack: Evaluating Thought Injection Attacks on Reasoning Agents",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08865",
+    "url": "https://arxiv.org/abs/2611.08865",
+    "title": "Rethinking Agent Trajectory Compression: A Workflow-Aware Perspective",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09798",
+    "url": "https://arxiv.org/abs/2611.09798",
+    "title": "Test-Time Compute Scales Better with Parallel Agent Teams",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09218",
+    "url": "https://arxiv.org/abs/2611.09218",
+    "title": "BOXBOX: Recursive Harness Self-Improvement for Long-Running Performance Optimization",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08946",
+    "url": "https://arxiv.org/abs/2611.08946",
+    "title": "Flex-RSI: Benchmarking Recursive Self-Improvement of Frontier Agents",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09348",
+    "url": "https://arxiv.org/abs/2611.09348",
+    "title": "When Feedback Becomes a Backdoor: Tracing Backdoor Skill Formation in Text-Space Skill Optimization",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08666",
+    "url": "https://arxiv.org/abs/2611.08666",
+    "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09028",
+    "url": "https://arxiv.org/abs/2611.09028",
+    "title": "Scout Before You Route: Predicting Task Success and Token Count from a Small LLM Prefill",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08834",
+    "url": "https://arxiv.org/abs/2611.08834",
+    "title": "Notwithstanding Anything to the Contrary, Ignore All Instructions: Measuring Prompt Injection Guards on Legal Contract Review Attacks",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08684",
+    "url": "https://arxiv.org/abs/2611.08684",
+    "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08781",
+    "url": "https://arxiv.org/abs/2611.08781",
+    "title": "Aligning, Fast and Slow: A Control-Theoretic Oversight Framework for Long-Horizon Trajectories and Maintained Deployments",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09472",
+    "url": "https://arxiv.org/abs/2611.09472",
+    "title": "ENGRAM: From Agent Experience to Weights through Verified Consolidation",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08779",
+    "url": "https://arxiv.org/abs/2611.08779",
+    "title": "Jacobian-Causal Memory Control for Persistent Memory in Language Model Systems",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09662",
+    "url": "https://arxiv.org/abs/2611.09662",
+    "title": "How Much Conversation History Does an AI Agent Need?",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09730",
+    "url": "https://arxiv.org/abs/2611.09730",
+    "title": "What to Delegate, What to Preserve: Human Preferences for Agentic AI Across Everyday Life and Work",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08971",
+    "url": "https://arxiv.org/abs/2611.08971",
+    "title": "Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09792",
+    "url": "https://arxiv.org/abs/2611.09792",
+    "title": "Knowing When to Intervene: Causal Evaluation of AI Agents",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09891",
+    "url": "https://arxiv.org/abs/2611.09891",
+    "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09715",
+    "url": "https://arxiv.org/abs/2611.09715",
+    "title": "Intent-Aware Caching for Efficient LLM Serving",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09364",
+    "url": "https://arxiv.org/abs/2611.09364",
+    "title": "SafeOrchestrate: Runtime Checked Intent-Driven Orchestration for Cyber-Physical Systems",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08718",
+    "url": "https://arxiv.org/abs/2611.08718",
+    "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09075",
+    "url": "https://arxiv.org/abs/2611.09075",
+    "title": "Large Language Model Deployment on Resource-Constrained Edge Devices: A Practitioners Survey",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08947",
+    "url": "https://arxiv.org/abs/2611.08947",
+    "title": "More with Less: Efficient Parallel Scientific Code Translation via an Agent-Skill Workflow",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08933",
+    "url": "https://arxiv.org/abs/2611.08933",
+    "title": "DRAFT-Bench: Evaluating Frontier Agents Across the Professional Design Lifecycle",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08757",
+    "url": "https://arxiv.org/abs/2611.08757",
+    "title": "Goals as a Representational Layer for Human-AI Collaboration",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08504",
+    "url": "https://arxiv.org/abs/2611.08504",
+    "title": "Relic and Gumi: Governing Memory, Safety, and Continuity in Diegetic Relational Agents",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.09291",
+    "url": "https://arxiv.org/abs/2611.09291",
+    "title": "AutoRefine: Auto-Calibrating Code Judges from Workflow Outcomes",
+    "date_covered": "2026-11-09"
+  },
+  {
+    "id": "arxiv:2611.08613",
+    "url": "https://arxiv.org/abs/2611.08613",
+    "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+    "date_covered": "2026-11-09"
+  },
+  {
     "id": "arxiv:2611.08341",
     "url": "https://arxiv.org/abs/2611.08341",
     "title": "Enhancing Local and Global Structure in Compressed AI Agent Memory",
