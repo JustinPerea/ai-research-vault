@@ -1,5 +1,227 @@
 [
   {
+    "id": "arxiv:2611.12825",
+    "url": "https://arxiv.org/abs/2611.12825",
+    "title": "MaxIM: Maximally Informative Incremental Summarization via Reinforcement Learning",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12393",
+    "url": "https://arxiv.org/abs/2611.12393",
+    "title": "AutoBuddy: Evaluating Proactive, Always-On Agents on Task Discovery and Execution in a Simulated Workplace",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12300",
+    "url": "https://arxiv.org/abs/2611.12300",
+    "title": "Reconfigurable Action Theories: A Formal Foundation for Dynamically Composable Agent Harnesses",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12122",
+    "url": "https://arxiv.org/abs/2611.12122",
+    "title": "System Optimizations for Cost-Efficient Agent Harnesses",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12109",
+    "url": "https://arxiv.org/abs/2611.12109",
+    "title": "SkillDuet: Co-Evolving Models and Skills through Response Feedback",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11929",
+    "url": "https://arxiv.org/abs/2611.11929",
+    "title": "Can LLM Agents Organize Their Own Memory?",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11840",
+    "url": "https://arxiv.org/abs/2611.11840",
+    "title": "Correct Answers from Insufficient Histories: A Controlled Study of Agent Memory Evaluation",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11581",
+    "url": "https://arxiv.org/abs/2611.11581",
+    "title": "Same Error, Different Recovery: How Delivery Changes LLM Agent Behavior",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11560",
+    "url": "https://arxiv.org/abs/2611.11560",
+    "title": "LiveAsset: Learning Intent Assets from Corrective Interactions for Agent Runtime Control",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11348",
+    "url": "https://arxiv.org/abs/2611.11348",
+    "title": "Separation of Skilling Context for Standard Operating Procedure-based Agents",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11234",
+    "url": "https://arxiv.org/abs/2611.11234",
+    "title": "LoMASA: A Local Multi-Agent Sales Assistant with Confidence-Gated Delegation for B2B Quoting",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11064",
+    "url": "https://arxiv.org/abs/2611.11064",
+    "title": "GARP: Real-Time Generative Agents on Local Hardware in a Game Engine",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10884",
+    "url": "https://arxiv.org/abs/2611.10884",
+    "title": "Keeping LLM Agents on Procedure: Executable Finite-State Control for Long-Horizon Instruction Fidelity",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10628",
+    "url": "https://arxiv.org/abs/2611.10628",
+    "title": "Towards Identity-Preserving LLM Agents under Model Transition",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10238",
+    "url": "https://arxiv.org/abs/2611.10238",
+    "title": "CoRA-Bench: Evaluating Evidence Preservation by Context Selectors Under Token Budgets",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12872",
+    "url": "https://arxiv.org/abs/2611.12872",
+    "title": "HiVe-Mem: Interleaving Horizontal Memory Expansion and Vertical Evidence Composition for Multimodal Agents",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12386",
+    "url": "https://arxiv.org/abs/2611.12386",
+    "title": "Say Shibboleth: Fingerprinting the LLMs and Harnesses Behind Agentic Attacks",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.12125",
+    "url": "https://arxiv.org/abs/2611.12125",
+    "title": "CARE-PO: Controllable Tool-Call Efficiency for LLM Agents",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11971",
+    "url": "https://arxiv.org/abs/2611.11971",
+    "title": "Harness Matters: Measuring and Dissecting Security Resilience in Web Agents",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11720",
+    "url": "https://arxiv.org/abs/2611.11720",
+    "title": "ShadowBench-MCP: Measuring Shadow Invocations in MCP-Style Tool Routing",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11571",
+    "url": "https://arxiv.org/abs/2611.11571",
+    "title": "Treating the Model as an Untrusted Component: Deterministic Policy Enforcement, Human Approval and Taint Tracking Against Prompt Injection in Tool-Using Agents, with Validation on Open-Weights Models",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11539",
+    "url": "https://arxiv.org/abs/2611.11539",
+    "title": "PRISM: Causal Counterfactual Minimization of Agent Tool Privileges via Information Bottleneck Role Induction",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11509",
+    "url": "https://arxiv.org/abs/2611.11509",
+    "title": "Review the Episodes, Refine the Lessons: Simple Memory Evolution for Embodied Agents",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11499",
+    "url": "https://arxiv.org/abs/2611.11499",
+    "title": "JoMoHa: Joint Model--Harness Optimization with Reinforcement Learning",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11342",
+    "url": "https://arxiv.org/abs/2611.11342",
+    "title": "Agent Self-Improvement with Frozen Weights: The Added Value and Limits of Failure Traces",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11305",
+    "url": "https://arxiv.org/abs/2611.11305",
+    "title": "Least-Privilege Auditing of Agent Tool Calls with Intent Graphs and Reasoning-Guided Escalation",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11299",
+    "url": "https://arxiv.org/abs/2611.11299",
+    "title": "EASE-KV: Diagnosing the Gap Between Memory Availability and Effective Use",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11266",
+    "url": "https://arxiv.org/abs/2611.11266",
+    "title": "ErosionBench: Probing Alignment Decay in Enterprise Multi-Agent Systems",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.11216",
+    "url": "https://arxiv.org/abs/2611.11216",
+    "title": "Replay Fidelity in LLM Agent Evaluation: Randomness, Hidden State, and Test Oracles in AppWorld",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10982",
+    "url": "https://arxiv.org/abs/2611.10982",
+    "title": "Think or Remember: The Exchange Rate of Agentic Inference",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10542",
+    "url": "https://arxiv.org/abs/2611.10542",
+    "title": "When Experience Becomes a Backdoor: Poisoning Self-Evolving LLM Agents via Failure-Aware Task Optimization",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10469",
+    "url": "https://arxiv.org/abs/2611.10469",
+    "title": "Hibana: Fast Agentic Inference on Unified-Memory Devices",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10439",
+    "url": "https://arxiv.org/abs/2611.10439",
+    "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10395",
+    "url": "https://arxiv.org/abs/2611.10395",
+    "title": "The Limits of Information-Flow Control Enforcement for Agentic Systems",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10170",
+    "url": "https://arxiv.org/abs/2611.10170",
+    "title": "Where Did the Evidence Go? Diagnosing Proof-Set Loss in Long-Term Conversational Memory",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10040",
+    "url": "https://arxiv.org/abs/2611.10040",
+    "title": "SPRING-5: Measuring Tool Documentation Repair for LLM Agents by Efficiency",
+    "date_covered": "2026-11-10"
+  },
+  {
+    "id": "arxiv:2611.10022",
+    "url": "https://arxiv.org/abs/2611.10022",
+    "title": "How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill Use",
+    "date_covered": "2026-11-10"
+  },
+  {
     "id": "arxiv:2611.08644",
     "url": "https://arxiv.org/abs/2611.08644",
     "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
