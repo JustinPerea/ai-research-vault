@@ -1,5 +1,209 @@
 [
   {
+    "id": "arxiv:2611.14326",
+    "url": "https://arxiv.org/abs/2611.14326",
+    "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14320",
+    "url": "https://arxiv.org/abs/2611.14320",
+    "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.12953",
+    "url": "https://arxiv.org/abs/2611.12953",
+    "title": "Agent Architecture Cost-Success Trade-offs: A Controlled Evaluation across Enterprise-Style SOPs",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14009",
+    "url": "https://arxiv.org/abs/2611.14009",
+    "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13960",
+    "url": "https://arxiv.org/abs/2611.13960",
+    "title": "From Attack Surface to Defense Architecture: Compositional Security for Agentic Coding Harnesses",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13254",
+    "url": "https://arxiv.org/abs/2611.13254",
+    "title": "Dependable Long-Horizon LLM Agents: A Trajectory-Centered Empirical Study of Where Errors Enter and Which Controls Reach Them",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13615",
+    "url": "https://arxiv.org/abs/2611.13615",
+    "title": "Synapse-Control: Making Agent Experience Actionable with Lightweight Runtime Control",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14492",
+    "url": "https://arxiv.org/abs/2611.14492",
+    "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13144",
+    "url": "https://arxiv.org/abs/2611.13144",
+    "title": "Teaching the Harness: Student-Aware Skill Transfer for LLM Agents",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14017",
+    "url": "https://arxiv.org/abs/2611.14017",
+    "title": "Personalized Memory Rubrics: Learning What to Remember per User via Rubric-Guided Credit Assignment",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13412",
+    "url": "https://arxiv.org/abs/2611.13412",
+    "title": "Bursts That Outlast Themselves: Persistent Degradation in Prefix-Cached Agent Serving",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13015",
+    "url": "https://arxiv.org/abs/2611.13015",
+    "title": "From Questions to Decisions: Benchmarking How LLM Agents Acquire Decision-Relevant Information from Human Beings",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14019",
+    "url": "https://arxiv.org/abs/2611.14019",
+    "title": "Program-Aided Patchable Skill Evolution",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13183",
+    "url": "https://arxiv.org/abs/2611.13183",
+    "title": "AgentScript-Eval: Benchmarking LLMs and Agents for Code Generation in an Enterprise DSL",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13336",
+    "url": "https://arxiv.org/abs/2611.13336",
+    "title": "Veritas: A Verifier Generation Harness for Agent Tasks",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13410",
+    "url": "https://arxiv.org/abs/2611.13410",
+    "title": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14356",
+    "url": "https://arxiv.org/abs/2611.14356",
+    "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.12903",
+    "url": "https://arxiv.org/abs/2611.12903",
+    "title": "SELD: Detecting Silent Evidence Loss in Context Compression beyond the Answer",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14051",
+    "url": "https://arxiv.org/abs/2611.14051",
+    "title": "Can KV Cache Be Reused Across Model Updates? A DeepSeek-V4-Flash Case Study",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13946",
+    "url": "https://arxiv.org/abs/2611.13946",
+    "title": "TreeAgent: Structure-Aware Memory Agent for Processing Long Hierarchical Data",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13055",
+    "url": "https://arxiv.org/abs/2611.13055",
+    "title": "Beyond the Document: Compiled Context and Governed Agents for Any Work Product",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13135",
+    "url": "https://arxiv.org/abs/2611.13135",
+    "title": "Which Successes Make Good References? Action-Sequence Alignment for Multi-Turn On-Policy Distillation",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13246",
+    "url": "https://arxiv.org/abs/2611.13246",
+    "title": "ExpertCrowd-SWE: Measuring Frontier Coding Agents on Expert-Authored Engineering Tasks in Unfamiliar Codebases",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13541",
+    "url": "https://arxiv.org/abs/2611.13541",
+    "title": "Agent Benchmarks Stop Ranking Before They Run Out of Tasks",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14493",
+    "url": "https://arxiv.org/abs/2611.14493",
+    "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13127",
+    "url": "https://arxiv.org/abs/2611.13127",
+    "title": "Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13026",
+    "url": "https://arxiv.org/abs/2611.13026",
+    "title": "Repository-Context-Guided Image Understanding for Agentic Software Development",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13696",
+    "url": "https://arxiv.org/abs/2611.13696",
+    "title": "On Private Knowledge Retrieval and Private Inference for secure multi-agent systems",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13309",
+    "url": "https://arxiv.org/abs/2611.13309",
+    "title": "PegasusAI Studio: Legible Cyberinfrastructure and Accountable AI Agents for Scientific Workflows",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13196",
+    "url": "https://arxiv.org/abs/2611.13196",
+    "title": "From Process Models to Composable Agentic Workflows: Combining BPMN, Agents and Enterprise Knowledge",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13367",
+    "url": "https://arxiv.org/abs/2611.13367",
+    "title": "No finite rulebook can certify every safe program: an impossibility theorem for gatekeeping AI agents",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.13454",
+    "url": "https://arxiv.org/abs/2611.13454",
+    "title": "SafeRoute-MAS: Coverage-Aware and Risk-Calibrated Message Routing for Multi-Agent Scientific Reasoning",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14256",
+    "url": "https://arxiv.org/abs/2611.14256",
+    "title": "A Cross-Scenario Survey and Analysis of Self-Evolving Multimodal Agents",
+    "date_covered": "2026-11-11"
+  },
+  {
+    "id": "arxiv:2611.14418",
+    "url": "https://arxiv.org/abs/2611.14418",
+    "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+    "date_covered": "2026-11-11"
+  },
+  {
     "id": "arxiv:2611.12825",
     "url": "https://arxiv.org/abs/2611.12825",
     "title": "MaxIM: Maximally Informative Incremental Summarization via Reinforcement Learning",
