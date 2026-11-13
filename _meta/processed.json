@@ -1,5 +1,239 @@
 [
   {
+    "id": "arxiv:2611.16627",
+    "url": "https://arxiv.org/abs/2611.16627",
+    "title": "Folio: Recoverable Multi-Resolution Context Folding for Long-Horizon Language Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15729",
+    "url": "https://arxiv.org/abs/2611.15729",
+    "title": "DISCERN: Preserve at Write, Resolve at Read for Persistent LLM-Agent Memory",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15315",
+    "url": "https://arxiv.org/abs/2611.15315",
+    "title": "MIGRO: A Decoupled and Portable Long-Term Memory System for Language Models",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16492",
+    "url": "https://arxiv.org/abs/2611.16492",
+    "title": "Time and Space: A Dual-Axis, Evidence-Grounded Context Substrate for Personal Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15600",
+    "url": "https://arxiv.org/abs/2611.15600",
+    "title": "MemCredit: From Relevance to Utility for Decision-Time Memory in Long-Horizon Web Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.17316",
+    "url": "https://arxiv.org/abs/2611.17316",
+    "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15006",
+    "url": "https://arxiv.org/abs/2611.15006",
+    "title": "EvoX: Rethinking the Agent Harness as a Runtime Policy",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.14654",
+    "url": "https://arxiv.org/abs/2611.14654",
+    "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.14808",
+    "url": "https://arxiv.org/abs/2611.14808",
+    "title": "OverServe: Resource Amplification Attacks on SaaS Agents via Tool--Prompt Co-Design",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.17007",
+    "url": "https://arxiv.org/abs/2611.17007",
+    "title": "Skill Adapter: Personalized Modification and Online Routing of General-Purpose Skills",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15268",
+    "url": "https://arxiv.org/abs/2611.15268",
+    "title": "Knowledge in the Harness, Reliability in the Weights: Teacher-Free Co-Evolution of an LLM Agent",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15223",
+    "url": "https://arxiv.org/abs/2611.15223",
+    "title": "guardscope: Measuring Which Actions Runtime Controls Check in LLM Agent Systems",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15515",
+    "url": "https://arxiv.org/abs/2611.15515",
+    "title": "Incentive-Responsive Agents: A Principal-Agent Framework, Metric Suite, and Runtime Architecture for Long-Lived Personal AI Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16378",
+    "url": "https://arxiv.org/abs/2611.16378",
+    "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.17068",
+    "url": "https://arxiv.org/abs/2611.17068",
+    "title": "Discovering Effective Agent Memory Designs through Program Evolution",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16693",
+    "url": "https://arxiv.org/abs/2611.16693",
+    "title": "MobileProbe: Adaptive Security Evaluation of Mobile Agents via Trajectory-Aware Injection",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.14960",
+    "url": "https://arxiv.org/abs/2611.14960",
+    "title": "Termination Lag: Coding Agents Solve Early but Stop Late",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16289",
+    "url": "https://arxiv.org/abs/2611.16289",
+    "title": "Eliciting and Mitigating Specification Satisficing in Coding Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.14548",
+    "url": "https://arxiv.org/abs/2611.14548",
+    "title": "SideTaskBench: Measuring Unauthorized Side-Task Delivery in Coding Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15118",
+    "url": "https://arxiv.org/abs/2611.15118",
+    "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16591",
+    "url": "https://arxiv.org/abs/2611.16591",
+    "title": "Singularity-Bench: Can Agents Build Agents?",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.17294",
+    "url": "https://arxiv.org/abs/2611.17294",
+    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15276",
+    "url": "https://arxiv.org/abs/2611.15276",
+    "title": "Verify by Doing: Co-Evolving Agent Execution and Evaluation without External Feedback",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16526",
+    "url": "https://arxiv.org/abs/2611.16526",
+    "title": "Lost in Delegation: Studying the Effectiveness of Task Orchestration in Generative Search",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15521",
+    "url": "https://arxiv.org/abs/2611.15521",
+    "title": "DecArena: Evaluating Large-Scale Decentralized Multi-Agent Collaboration",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16493",
+    "url": "https://arxiv.org/abs/2611.16493",
+    "title": "ReA-Bench: Benchmarking Responsible Agent Auditing",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15097",
+    "url": "https://arxiv.org/abs/2611.15097",
+    "title": "GuardianAgentFlow: Multi-Agent Coordination for Web Privacy Protection",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15189",
+    "url": "https://arxiv.org/abs/2611.15189",
+    "title": "WordInferBench: Can Agents Infer How to Edit from Word Document Context?",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15309",
+    "url": "https://arxiv.org/abs/2611.15309",
+    "title": "Where Autonomy Belongs: A Separation of Powers for Agentic Program Evolution",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.17167",
+    "url": "https://arxiv.org/abs/2611.17167",
+    "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16414",
+    "url": "https://arxiv.org/abs/2611.16414",
+    "title": "Small Language Models for Inference-Capability Routing: Effects of Model Capacity and Prompt Optimization on Downstream Quality and Efficiency",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16485",
+    "url": "https://arxiv.org/abs/2611.16485",
+    "title": "Contain, Conform, Compare (Extended Version): A Red-Teamed Evaluation Kit for Small Coding Agents and the Full Record of Its Experiments",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15522",
+    "url": "https://arxiv.org/abs/2611.15522",
+    "title": "GHAgentCI: A Dataset of Coding-Agent Invocations in CI Workflow Histories",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16107",
+    "url": "https://arxiv.org/abs/2611.16107",
+    "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16487",
+    "url": "https://arxiv.org/abs/2611.16487",
+    "title": "HeMeR: Heterogeneous Memory Reconciliation for Embodied Agents via Structured KV Reuse",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.15178",
+    "url": "https://arxiv.org/abs/2611.15178",
+    "title": "HyperSkill: Training-Free Omnimodal GRPO via Hypergraph-Indexed Skill-Library Evolution",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16174",
+    "url": "https://arxiv.org/abs/2611.16174",
+    "title": "JudgeMix: Judge-Guided Mixed-Rollout Data Synthesis for LLM Agents",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.14545",
+    "url": "https://arxiv.org/abs/2611.14545",
+    "title": "metalSPARSE: A 2:4 Semi-Structured Sparse GEMV Kernel for Apple Silicon GPUs",
+    "date_covered": "2026-11-13"
+  },
+  {
+    "id": "arxiv:2611.16661",
+    "url": "https://arxiv.org/abs/2611.16661",
+    "title": "Reducing Batch Makespan for LLM Agent Workloads through Inference-Environment Coordination",
+    "date_covered": "2026-11-13"
+  },
+  {
     "id": "arxiv:2611.14326",
     "url": "https://arxiv.org/abs/2611.14326",
     "title": "When Should Agents Remember? Falsification-Gated Self-Evolution for LLM Agents",
