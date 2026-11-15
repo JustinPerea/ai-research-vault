@@ -9,11 +9,11 @@ Times are America/New_York and follow daylight saving. This file is updated when
 | Routine | Cron | When it runs |
 |---|---|---|
 | Nightly AI research vault | `CRON_TZ=America/New_York 0 21 * * *` | Every night, weekends included. The server may start it up to 15 minutes late (so about 9:00–9:15 pm ET). Digest date `D` is always the next calendar day. |
-| Digest deadline guard | `CRON_TZ=America/New_York 15 1 * * *` | 1:15 am ET every night. If `inbox/<today>.md` is missing, it commits that file (a full digest if arXiv has the listing, otherwise a stub) before 2:30 am. Vault file only; no site page, no podcast. |
+| Digest deadline guard | `CRON_TZ=America/New_York 15 1 * * *` | 1:15 am ET every night. If `inbox/<today>.md` is missing, it commits that file and `records/<today>.json` (a full digest if arXiv has the listing, otherwise a stub) before 2:30 am. Vault files only; no site page, no podcast. |
 | Morning catch-up | weekdays around 8:00 am ET | Creates an inbox file only when it is missing entirely, and finishes the site page and podcast for a real digest that lacks them. It never rewrites an existing inbox, stub or full. |
 | 8 pm overnight precheck | daily, around 8:00 pm ET | Checks only that GitHub and Gemini Notebook are signed in, and whether last night's audio shipped. It does not write a digest. |
 
-**Guarantee:** `inbox/D.md` is on `main` by 2:30 am ET on day `D`.
+**Guarantee:** `inbox/D.md` and `records/D.json` are on `main` by 2:30 am ET on day `D`.
 
 The vault commit lands first. The site page and audio come later and are soft-fail: a missing page or podcast does not hold up the inbox file.
 
@@ -105,7 +105,7 @@ If the state file is missing, the helper is passed `--since` set to the UTC comm
 
 Customer stories, case studies, events, and hiring posts are skipped. Apple App Review Guidelines changes and any vendor AI, privacy, or data notice are always kept. A source error is not fatal.
 
-### 4. Write `inbox/D.md`
+### 4. Write `inbox/D.md` and `records/D.json`
 
 YAML front matter, as on recent files such as `inbox/2026-11-11.md`:
 
@@ -132,9 +132,11 @@ Then these sections, in order:
 
 Kept paper ids are prepended onto `_meta/processed.json` and the claims ledger. News items are recorded only in `_meta/news-state.json`.
 
+The same run also writes `records/D.json`, the machine-readable twin of the paper items. See [Records schema](#records-schema). Metadata is gathered with `fetch_arxiv_meta.py`; fields are filled from the abstract only; `check_records.py` must pass before the commit. A stub day still writes the file, with an empty `records` list.
+
 ### 5. One vault commit
 
-A single commit on `main` of `inbox/D.md` plus `_meta/news-state.json` (and, for a full digest, the updated `_meta/processed.json` and `_meta/claims-ledger.md`). Message form: `digest: YYYY-MM-DD — <short headlines> (#N / listing M)`.
+A single commit on `main` of `inbox/D.md`, `records/D.json`, and `_meta/news-state.json` (and, for a full digest, the updated `_meta/processed.json` and `_meta/claims-ledger.md`). Message form: `digest: YYYY-MM-DD — <short headlines> (#N / listing M)`.
 
 Each inbox file is committed once. A stub is not later replaced by a full digest.
 
@@ -166,6 +168,60 @@ The smoke check confirms the live index row, basename-only `file`, news count, p
 
 On Justin's Mac, a 7:00 am ET job pulls the vault, and a 7:20 am ET launchd job `com.justinperea.ai-research-auto-promote` runs `/promote-digest` into Obsidian `Research/topics`. Promote commits typically land on this repo around 7:22–7:25 am ET (for example `007834f` at 7:22 am ET on 2026-11-15, for the 2026-11-13 items).
 
+## Records schema
+
+Starting with the 2026-11-16 digest, every commit of `inbox/D.md` also includes `records/D.json` in the same commit. A stub day still writes the file, with `"records": []` and `"items_count": 0`.
+
+The wrapper is:
+
+```json
+{"date": "D", "schema_version": 1, "source_listing": "https://arxiv.org/list/cs.AI/recent", "items_count": N, "records": [...]}
+```
+
+`items_count` equals both `records.length` and the inbox front matter `items_count`. The JSON Schema lives with the vault skill as `records.schema.json`. A run fills fields from the abstract only (`depth` is `"abstract"`), gathers metadata with `fetch_arxiv_meta.py`, and must pass `check_records.py` before the commit. `results[].value` is copied exactly as printed; when `depth` is `"abstract"`, it must be a verbatim substring of the abstract.
+
+### Fields
+
+One object per kept paper. Any field that cannot be filled from the fetched source is `null`. Do not invent values. `code_or_data` is `null` when no link is given, never an empty list.
+
+| Field | Type | Contents |
+|---|---|---|
+| `id` | string | arXiv id with version, e.g. `2611.16627v1` |
+| `title` | string | Title copied from arXiv |
+| `authors` | string[] | Full author list from arXiv, in order |
+| `link` | string | abs URL, preferably the versioned form that matches `id` |
+| `license` | string or null | License URL as printed on arXiv (export API `arxiv:license` when present, otherwise the abs-page `div.abs-license` href) |
+| `claim` | string or null | One sentence on what the paper says it shows |
+| `method_and_setup` | object or null | One object, `{"method": "...", "setup": "..."}`: what was built, and what it was tested on. Each key may be null. The whole object is null when neither can be filled. |
+| `results` | array or null | List of `{value, measures, location}`, copied exactly as printed. From the abstract unless the paper was read; `location` is `"abstract"` for now |
+| `limits` | string or null | What the authors say the work does not cover |
+| `code_or_data` | string[] or null | Released code or data URLs; null if none |
+| `applies_to` | tag[] | Closed vocabulary below; at least one tag |
+| `change_for_agents` | string or null | One concrete change an agent builder could make, written for any reader |
+| `why_it_matters_for_justin` | string | The "Why it matters for Justin's agents" line from the markdown, verbatim |
+| `action` | `try-now` \| `compare` \| `track` | Must match that paper's Action signal |
+| `depth` | `"abstract"` | schema_version 1 is abstract-only |
+
+### Tag vocabulary
+
+Closed set of 13 tags. Only these strings are allowed in `applies_to`:
+
+| Tag | Use for |
+|---|---|
+| `agents` | Agent systems in general, including personal / day-admin / on-device agents |
+| `memory` | Long-term or episodic memory, retrieval, write/read policy |
+| `context` | Context assembly, folding, compaction, KV/cache |
+| `computer-use` | Computer-use and GUI agents |
+| `tool-use` | Tool calling and tool policy (when it is not specifically MCP) |
+| `mcp` | Model Context Protocol |
+| `skills` | Skills / skill files |
+| `harness` | Agent harnesses and runtime scaffolding |
+| `multi-agent` | Multi-agent systems |
+| `persistence` | Persistence and identity across runtimes or model handoff |
+| `local-models` | Local / open-weight models |
+| `security` | Runtime guards, attacks, backdoors, isolation |
+| `evaluation` | Benchmarks, eval harnesses, scoring |
+
 ## Podcast
 
 Generated only for a real (non-stub) digest, and only after the site files exist in the personal-profile clone.
@@ -194,8 +250,8 @@ A podcast failure is reported as `Audio: no - <reason>`. Login wall, quota, or U
 
 ## Weekends, holidays, and failures
 
-- **Friday and Saturday evening runs, and arXiv holidays:** commit a stub with `items_count: 0` and the News and changelogs section. Skip the site page and the podcast.
-- **Late arXiv mailing (Sunday–Thursday evening):** the 9:00 pm run commits nothing. The 1:15 am guard commits `inbox/D.md` (full if the listing has appeared, otherwise a stub) before 2:30 am.
+- **Friday and Saturday evening runs, and arXiv holidays:** commit a stub with `items_count: 0` and the News and changelogs section, plus `records/D.json` with an empty `records` list. Skip the site page and the podcast.
+- **Late arXiv mailing (Sunday–Thursday evening):** the 9:00 pm run commits nothing. The 1:15 am guard commits `inbox/D.md` and `records/D.json` (full if the listing has appeared, otherwise a stub) before 2:30 am.
 - **One commit per inbox.** Never commit a stub first and replace it with the full digest later. (This was the failure mode on 2026-11-10 and 2026-11-13.)
 - **Vault is the hard gate.** Site and podcast are soft-fail.
 - **Podcast failure:** reported as `Audio: no - <reason>`.
@@ -221,6 +277,7 @@ Before 2026-11-13 the nightly ran at about 2:00 am ET. On 2026-11-13 the schedul
 
 ## Change log
 
+- **2026-11-15.** records/<date>.json added, same commit as inbox, starting with the 2026-11-16 digest.
 - **2026-11-15.** Nightly moved to 9:00 pm ET every night, including weekends (`CRON_TZ=America/New_York 0 21 * * *`). Added a 1:15 am ET deadline guard (`CRON_TZ=America/New_York 15 1 * * *`) so `inbox/D.md` is on `main` by 2:30 am ET. Friday and Saturday evenings, and arXiv holidays, commit a stub with `items_count: 0` and the news section. Each inbox is committed once; a stub is not later replaced by a full digest. Morning catch-up never rewrites an existing inbox. This file added.
 - **2026-11-13.** Nightly moved to Sunday–Thursday 8:30 pm ET at Justin's request. Digest named for the next-day listing date (a Thursday-evening run writes Friday's file). arXiv fetches are cache-busted, with the `Age` header logged, after false empty stubs from a stale CDN. That Sunday–Thursday window is why 2026-11-14 and 2026-11-15 were never written.
 - **2026-10-17.** News and changelogs section first appeared in the vault, with `_meta/news-state.json` (`6dcb584`, weekend stub `inbox/2026-10-17.md`). The 2026-10-16 digest has no news section.
