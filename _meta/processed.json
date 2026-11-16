@@ -1,5 +1,167 @@
 [
   {
+    "id": "arxiv:2611.17338",
+    "url": "https://arxiv.org/abs/2611.17338",
+    "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17339",
+    "url": "https://arxiv.org/abs/2611.17339",
+    "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17610",
+    "url": "https://arxiv.org/abs/2611.17610",
+    "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17632",
+    "url": "https://arxiv.org/abs/2611.17632",
+    "title": "Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17639",
+    "url": "https://arxiv.org/abs/2611.17639",
+    "title": "What LLM Agents See and What Users Say",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17662",
+    "url": "https://arxiv.org/abs/2611.17662",
+    "title": "Learn then Bet: Learning Interpretable Rules for Reliable Agent Intervention",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17696",
+    "url": "https://arxiv.org/abs/2611.17696",
+    "title": "Co-Sight Harness: Externalized Control Assets and Deterministic Enforcement for Long-Horizon Business Agents",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17797",
+    "url": "https://arxiv.org/abs/2611.17797",
+    "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17806",
+    "url": "https://arxiv.org/abs/2611.17806",
+    "title": "Can Agents Keep Up with Time? An Empirical Analysis of Temporal Adaptation After a Conversational Hiatus",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17814",
+    "url": "https://arxiv.org/abs/2611.17814",
+    "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17820",
+    "url": "https://arxiv.org/abs/2611.17820",
+    "title": "Aligning AI Teams",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17880",
+    "url": "https://arxiv.org/abs/2611.17880",
+    "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17933",
+    "url": "https://arxiv.org/abs/2611.17933",
+    "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17955",
+    "url": "https://arxiv.org/abs/2611.17955",
+    "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.18514",
+    "url": "https://arxiv.org/abs/2611.18514",
+    "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.18533",
+    "url": "https://arxiv.org/abs/2611.18533",
+    "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17381",
+    "url": "https://arxiv.org/abs/2611.17381",
+    "title": "ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17388",
+    "url": "https://arxiv.org/abs/2611.17388",
+    "title": "Time-Consistent Evaluation of Hierarchical Code Graphs for SWE Agents",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17440",
+    "url": "https://arxiv.org/abs/2611.17440",
+    "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17520",
+    "url": "https://arxiv.org/abs/2611.17520",
+    "title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17527",
+    "url": "https://arxiv.org/abs/2611.17527",
+    "title": "GraphScent: Calibrating Directional Relevance Signals for Bounded-Context Code Localization",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17753",
+    "url": "https://arxiv.org/abs/2611.17753",
+    "title": "Superfluid: Local AI Server for Distributed LLM Inference",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17780",
+    "url": "https://arxiv.org/abs/2611.17780",
+    "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17808",
+    "url": "https://arxiv.org/abs/2611.17808",
+    "title": "CarryOn: Learning What to Keep in Context for Long-Horizon LLM Agents",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.17883",
+    "url": "https://arxiv.org/abs/2611.17883",
+    "title": "Securing Multi-Agent Systems by Design",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.18471",
+    "url": "https://arxiv.org/abs/2611.18471",
+    "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+    "date_covered": "2026-11-16"
+  },
+  {
+    "id": "arxiv:2611.18513",
+    "url": "https://arxiv.org/abs/2611.18513",
+    "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+    "date_covered": "2026-11-16"
+  },
+  {
     "id": "arxiv:2611.16627",
     "url": "https://arxiv.org/abs/2611.16627",
     "title": "Folio: Recoverable Multi-Resolution Context Folding for Long-Horizon Language Agents",

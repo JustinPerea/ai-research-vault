@@ -1,0 +1,1048 @@
+{
+ "date": "2026-11-16",
+ "schema_version": 1,
+ "source_listing": "https://arxiv.org/list/cs.AI/recent",
+ "items_count": 27,
+ "records": [
+  {
+   "id": "2611.17338v1",
+   "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+   "authors": [
+    "Samarth Vinayaka"
+   ],
+   "link": "https://arxiv.org/abs/2611.17338v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Hard-filtering stale facts from LLM memory can lower accuracy when the staleness resolver errs, so deletion should be treated as cost-sensitive.",
+   "method_and_setup": {
+    "method": "Controlled sensitivity and paired targeted interventions on a memory filtering step (false-drop vs false-keep), plus a simple deployment-matched gate.",
+    "setup": "Three models; a frozen 102/102 calibration/test split."
+   },
+   "results": [
+    {
+     "value": "0.655 accuracy versus 0.641 for always hard-drop",
+     "measures": "deployment-matched gate vs always hard-drop on the frozen test split",
+     "location": "abstract"
+    },
+    {
+     "value": "-0.176 to -0.181",
+     "measures": "hard-drop accuracy change at the lowest tested resolver reliability",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Keep superseded facts (marked, not deleted) unless a validation on matched data shows false-drop risk is low.",
+   "why_it_matters_for_justin": "Do not delete 'stale' memories on a classifier's say-so in a day-admin agent; default to label-free retention unless you have validated query-critical false-drop risk.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17339v1",
+   "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+   "authors": [
+    "Shubhra Mittal",
+    "Gaurav Naresh Mittal"
+   ],
+   "link": "https://arxiv.org/abs/2611.17339v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Hallucination-detector rankings do not transfer across small quantized on-device models, and the cheap lexical baseline matches sampling-based detectors.",
+   "method_and_setup": {
+    "method": "Reproducible one-GPU audit of four detectors (token-margin calibration, lexical n-gram, semantic entropy, SelfCheckGPT-NLI).",
+    "setup": "Llama-3.2-3B-Instruct and Qwen2.5-3B-Instruct at 4-bit NF4 on a single Colab T4, closed-book TriviaQA."
+   },
+   "results": [
+    {
+     "value": "Spearman rho is -0.80",
+     "measures": "cross-model detector ranking agreement",
+     "location": "abstract"
+    },
+    {
+     "value": "0.69-0.89 AUROC on TriviaQA",
+     "measures": "detector AUROC on TriviaQA",
+     "location": "abstract"
+    },
+    {
+     "value": "0.46-0.59",
+     "measures": "AUROC under the TruthfulQA-Generation token-overlap labeler (labeler failure)",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "evaluation"
+   ],
+   "change_for_agents": "Choose the hallucination detector per deployed model and quantization using a small local validation set rather than a published ranking.",
+   "why_it_matters_for_justin": "If Mitamaton ever gates on-device model output with a hallucination detector, re-validate the choice per model; rankings from 7B-70B models do not transfer to 3B 4-bit.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17610v1",
+   "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+   "authors": [
+    "Seyed Mahmoud Sajjadi Mohammadabadi"
+   ],
+   "link": "https://arxiv.org/abs/2611.17610v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Multi-agent LLM gains mostly vanish once baselines are matched on sample count or compute.",
+   "method_and_setup": {
+    "method": "Meta-analysis with a six-dimension resource vector R, a four-category baseline ladder and multilevel random effects on the log-odds scale.",
+    "setup": "Nine primary empirical evaluations comprising 516 unique multi-agent configurations."
+   },
+   "results": [
+    {
+     "value": "average -0.042 in accuracy",
+     "measures": "multi-agent accuracy difference vs baselines matched on sample count or resource budget",
+     "location": "abstract"
+    },
+    {
+     "value": "74% of these comparable contrasts",
+     "measures": "share where multi-agent equals or falls below the baseline",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "evaluation"
+   ],
+   "change_for_agents": "Run a same-compute single-agent baseline (sampled, best-of-N) before adopting a multi-agent design.",
+   "why_it_matters_for_justin": "Before adding sub-agents to the Claude Code / MCP stack, compare against a best-of-N single agent at equal compute; coordination alone rarely pays.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17632v1",
+   "title": "Generated Evaluation Suites as Diversity-Driven Search for Real Agent Regressions",
+   "authors": [
+    "Pulkit Yadav"
+   ],
+   "link": "https://arxiv.org/abs/2611.17632v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Generated agent eval suites should be scored per cell and publish coverage, because the mean pass rate can miss or invert real regressions.",
+   "method_and_setup": {
+    "method": "Model suite generation as diversity-driven search over requirements x personas x scenario kinds; inject controlled defects and test detection.",
+    "setup": "7 injected defects in a tau^2-bench agent across two domains."
+   },
+   "results": [
+    {
+     "value": "5 of 20 draws",
+     "measures": "kind-diverse suite detecting the orchestration defect",
+     "location": "abstract"
+    },
+    {
+     "value": "at or below the detection threshold $θ= 0.10$",
+     "measures": "coverage ceiling for 4 of 5 traceable defects",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Publish per-scenario-cell results and coverage alongside the aggregate pass rate for generated agent evals.",
+   "why_it_matters_for_justin": "If you generate eval suites for an agent, score per cell and report coverage; a single mean pass rate can hide a removed tool.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17639v1",
+   "title": "What LLM Agents See and What Users Say",
+   "authors": [
+    "Yue Zhao",
+    "Angela Huyue Zhang",
+    "S. Alex Yang",
+    "Hua Wei",
+    "Xiyang Hu"
+   ],
+   "link": "https://arxiv.org/abs/2611.17639v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Safe agent writes need tool lookups that list or check competing records, and evaluations that vary what tools show.",
+   "method_and_setup": {
+    "method": "Presupposition-theory framing plus controlled variation of whether a search lists, counts or omits a second match and whether the user states a refutable claim.",
+    "setup": "36 earlier agents under a role-only prompt, newest Claude and GPT models, and a retail benchmark with an added same-name, same-zip customer."
+   },
+   "results": [
+    {
+     "value": "about a quarter of conversations",
+     "measures": "wrong-account writes when a lookup returned the same-name customer first",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "agents",
+    "security"
+   ],
+   "change_for_agents": "Return all matching records (or a disambiguating field check) from lookup tools before any destructive or write action.",
+   "why_it_matters_for_justin": "Make your MCP lookups list or check competing records instead of returning a count or the first hit; a day-admin agent that writes to the wrong contact is the failure.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17662v1",
+   "title": "Learn then Bet: Learning Interpretable Rules for Reliable Agent Intervention",
+   "authors": [
+    "You-Lin Chen",
+    "Xinyi Lisa Chen",
+    "Pedro Herrero-Vidal",
+    "Xiaojing Yu",
+    "Bingqing Song",
+    "Bin Xu"
+   ],
+   "link": "https://arxiv.org/abs/2611.17662v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A learned interpretable rule monitor with betting-based evidence can decide when to stop or assist an agent run with statistical validity guarantees.",
+   "method_and_setup": {
+    "method": "Learn an OR-of-AND monitor by stochastic local search; intervene when a fixed betting statistic crosses a threshold.",
+    "setup": "SWE-bench Lite with Ministral 3 8B."
+   },
+   "results": [
+    {
+     "value": "saves $34.46\\%$ of input-plus-output tokens",
+     "measures": "token savings from the learned monitor",
+     "location": "abstract"
+    },
+    {
+     "value": "from $18.33\\%$ to $21.59\\%$",
+     "measures": "output precision",
+     "location": "abstract"
+    },
+    {
+     "value": "$13.64\\%$",
+     "measures": "empirical false-positive rate",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "harness",
+    "local-models"
+   ],
+   "change_for_agents": "Replace fixed turn limits with a monitor calibrated on past trajectories for a target false-stop rate.",
+   "why_it_matters_for_justin": "Replaces turn limits and keyword filters in a long-running agent harness with a monitor that has a stated false-stop rate.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17696v1",
+   "title": "Co-Sight Harness: Externalized Control Assets and Deterministic Enforcement for Long-Horizon Business Agents",
+   "authors": [
+    "Luyao Wang",
+    "Xijun Zhu",
+    "Zhaohui Hao",
+    "Xiwen Zhang",
+    "Xingyu Wen",
+    "Weishan Li",
+    "Yuyang Liao",
+    "Yanqin Gao",
+    "Yongsheng Du",
+    "Lingjun Huang",
+    "Shaowei Zhao",
+    "Gang Li",
+    "Qifan Yu",
+    "Baoli Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.17696v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Long-horizon business workflows (200+ steps) can be made reliable without changing the model by externalizing control assets and enforcing them deterministically.",
+   "method_and_setup": {
+    "method": "Versioned control assets plus a state machine, acceptance gates and an independent trace auditor; assets updated only after regression check and human approval.",
+    "setup": "Three deployed workflows exceeding 200 steps; a 120-case end-to-end set on Domain A."
+   },
+   "results": [
+    {
+     "value": "50% to 100%",
+     "measures": "unattended completion on Domain A",
+     "location": "abstract"
+    },
+    {
+     "value": "440 to 159 minutes",
+     "measures": "end-to-end latency on Domain A",
+     "location": "abstract"
+    },
+    {
+     "value": "56% to 91.67%",
+     "measures": "retrieval recall on Domain A",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": [
+    "https://github.com/ZTE-AICloud/Co-Sight/tree/master/Co-Sight%20Harness"
+   ],
+   "applies_to": [
+    "harness",
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Put workflow definition and acceptance checks in versioned files enforced by a state machine rather than in the prompt.",
+   "why_it_matters_for_justin": "A concrete case for externalizing workflow state and acceptance gates outside the model, the same direction as skills plus hooks in Claude Code.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17797v1",
+   "title": "Vision-as-a-Tool: Visual Harness for Multimodal Agentic Coding",
+   "authors": [
+    "Haolin Yang",
+    "Wenshan Wu",
+    "Jin Jiang",
+    "Yu Cheng",
+    "Yan Xia",
+    "Ting Song",
+    "Yangyu Huang",
+    "Zhiliang Peng",
+    "Wenhui Wang",
+    "Hangbo Bao",
+    "Yuzhe Zhang",
+    "Wen-Da Wei",
+    "Tengchao Lv",
+    "Li Dong",
+    "Lei Cui",
+    "Furu Wei"
+   ],
+   "link": "https://arxiv.org/abs/2611.17797v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Offloading visual reasoning to callable MLLM tools improves visual fidelity for both text-only and multimodal coding agents.",
+   "method_and_setup": {
+    "method": "VHarness: a framework with five atomic actions that wrap general-purpose MLLMs as tools.",
+    "setup": "Image-to-HTML, Image-to-SVG and Image-to-3D generation tasks."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "harness"
+   ],
+   "change_for_agents": "Expose a vision model as a tool to a text-only coding agent for screenshot-to-code checks.",
+   "why_it_matters_for_justin": "Pattern for giving a text-only or local coding model eyes through a tool call instead of switching the whole agent to a multimodal model.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17806v1",
+   "title": "Can Agents Keep Up with Time? An Empirical Analysis of Temporal Adaptation After a Conversational Hiatus",
+   "authors": [
+    "Hongguan Su",
+    "Ming Wang",
+    "Shun Zhang",
+    "Yifan Wang",
+    "Rong Yin",
+    "Zhiming Ma",
+    "Mengzheng Yang",
+    "Peng Chen"
+   ],
+   "link": "https://arxiv.org/abs/2611.17806v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Agents can obtain the current time but often fail to use it; giving the computed date relation removes the error.",
+   "method_and_setup": {
+    "method": "Session-rekindling tasks that fix the earlier conversation and vary only the follow-up date and how temporal information reaches the agent.",
+    "setup": "Five model routes and five temporal-information conditions."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": [
+    "https://github.com/Adoreu2/session-rekindling-benchmark"
+   ],
+   "applies_to": [
+    "agents",
+    "memory",
+    "evaluation"
+   ],
+   "change_for_agents": "Precompute 'event X was N days ago' relations for stored dated records and put them in the context.",
+   "why_it_matters_for_justin": "Directly Mitamaton's failure mode: inject the computed relation between stored dates and now into context instead of just the current time.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17814v1",
+   "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+   "authors": [
+    "Yuechun Yu",
+    "Wenzheng Kong",
+    "Xiaofeng Mao",
+    "Jin Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.17814v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Governed continual self-training can adapt a production agent to demand drift and harness evolution without regressing accepted behavior.",
+   "method_and_setup": {
+    "method": "Reward-routed, entropy-prioritized data orchestration, governed reward evolution and governed checkpoint transitions.",
+    "setup": "A real production e-commerce agent (Yuancai, B2B procurement) compared with an autonomous post-training baseline."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "harness",
+    "skills"
+   ],
+   "change_for_agents": "Gate every model or prompt update on a cumulative set of previously accepted behaviors.",
+   "why_it_matters_for_justin": "Shows the harness (tools, skills, procedures) evolving under a model, and gates updates on a cumulative regression set, a pattern for any self-improving agent loop.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17820v1",
+   "title": "Aligning AI Teams",
+   "authors": [
+    "Siddarth Srinivasan",
+    "Morgan Jane Matthews",
+    "Jascha Sohl-Dickstein",
+    "Erik Jones"
+   ],
+   "link": "https://arxiv.org/abs/2611.17820v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Diffusion of responsibility explains the single-vs-team safety gap, and a safety lead or a published safety spec restores single-agent alignment behavior.",
+   "method_and_setup": {
+    "method": "Mechanism analysis and interventions on multi-agent LLM teams; release of the magelab framework.",
+    "setup": "Two software-engineering tasks (sepsis triage, a news recommender) and ten consulting-proposal generation tasks."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "security",
+    "agents"
+   ],
+   "change_for_agents": "Assign one agent explicit ownership of system-level safety checks and have the coordinator publish a safety spec.",
+   "why_it_matters_for_justin": "If you run multiple agents, name a safety owner or publish a safety spec from the coordinator; peer critique is not enough.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17880v1",
+   "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+   "authors": [
+    "Mike He",
+    "Ankush Desai",
+    "Sharad Malik",
+    "Aarti Gupta"
+   ],
+   "link": "https://arxiv.org/abs/2611.17880v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Verified hierarchical planning plus runtime enforcement reconciles safety and utility for tool-using LLM agents.",
+   "method_and_setup": {
+    "method": "Pre-execution formal verification of a structured plan, then runtime enforcement of specifications using the verified plan.",
+    "setup": "Multiple tool-use benchmarks."
+   },
+   "results": [
+    {
+     "value": "1.7 times the average task success rate of the best baselines",
+     "measures": "task success versus best baselines",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "security",
+    "agents"
+   ],
+   "change_for_agents": "Verify the whole plan against policy before the first tool call and use it to recover when a call is blocked.",
+   "why_it_matters_for_justin": "Blocking an unsafe tool call leaves an agent stranded; a verified plan gives it a legal way to continue.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17933v1",
+   "title": "OutfitterBench: Evaluating LLM Agents on Long-Horizon Resource Allocation and Commitment Coordination",
+   "authors": [
+    "Jie Huang",
+    "Yuecheng Hong",
+    "Yao Chen",
+    "Shengding Jiao",
+    "Xudong Liu",
+    "Qiang Ye"
+   ],
+   "link": "https://arxiv.org/abs/2611.17933v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Frontier LLM agents struggle to keep their own commitments feasible and to reassess resource allocations over long horizons.",
+   "method_and_setup": {
+    "method": "A 200-day business-management simulation benchmark.",
+    "setup": "Seven frontier LLMs, 46-product catalog, roughly 1,100 reservation requests."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": [
+    "https://github.com/adminblackjack/OutfitterBench"
+   ],
+   "applies_to": [
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Persist a commitments ledger and check each new decision against it.",
+   "why_it_matters_for_justin": "Tests the thing a day-admin agent does: keep its own prior commitments feasible while new requests arrive.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17955v1",
+   "title": "WebArena-Pro: A Heterogeneous, Multimodal, Reproducible Benchmark for Web Agents",
+   "authors": [
+    "Imene Kerboua",
+    "Fatemeh Pesaran Zadeh",
+    "Xing Han Lù",
+    "Weijian Qi",
+    "Alexander Miller",
+    "Junyi Song",
+    "Yunjia Tian",
+    "Dongjin Kang",
+    "Seyeon Choi",
+    "Marzia Nouri",
+    "Ewen Gueguen",
+    "Matteo Boglioni",
+    "Fengyuan Liu",
+    "Zeyi Liao",
+    "Mengqi Yuan",
+    "Yue Li",
+    "Alexandre Lacoste",
+    "Alexandre Drouin",
+    "Spandana Gella",
+    "Huan Sun",
+    "Gunhee Kim",
+    "Siva Reddy"
+   ],
+   "link": "https://arxiv.org/abs/2611.17955v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "WebArena-Pro offers the broadest reproducible, multimodal web-agent benchmark, with the best coding-agent harnesses at 62.3%.",
+   "method_and_setup": {
+    "method": "Human-validated, LLM-triaged tasks in isolated self-hosted apps with dedicated audio/video extraction actions.",
+    "setup": "300 tasks, 20 web apps, six domain categories."
+   },
+   "results": [
+    {
+     "value": "62.3%",
+     "measures": "best success rate (Codex with GPT 6.1 Sol and Claude Code with Claude Opus 5.5)",
+     "location": "abstract"
+    },
+    {
+     "value": "30.3%",
+     "measures": "strongest GenericAgent configurations (Gemini 3.1 Pro omni, Gemma4 31B)",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": [
+    "https://webarena-pro.github.io"
+   ],
+   "applies_to": [
+    "computer-use",
+    "evaluation"
+   ],
+   "change_for_agents": "Use a self-hosted, resettable web-app suite for regression-testing browser agents.",
+   "why_it_matters_for_justin": "A reproducible yardstick that includes Claude Code as a web agent and an open-weight Gemma4 31B datapoint at 30.3%.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.18514v1",
+   "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+   "authors": [
+    "Mohamed Aghzal",
+    "Mor Geva",
+    "Gregory J. Stein",
+    "Ziyu Yao"
+   ],
+   "link": "https://arxiv.org/abs/2611.18514v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Probes can predict web-agent action hallucinations but only partially explain them, and results are brittle to prompt format.",
+   "method_and_setup": {
+    "method": "Linear probe and activation steering plus circuit analysis.",
+    "setup": "Qwen2.5-7B-Instruct interacting with live websites."
+   },
+   "results": [
+    {
+     "value": "0.80 AUC",
+     "measures": "probe prediction of hallucinated actions before generation",
+     "location": "abstract"
+    },
+    {
+     "value": "corrects 85\\% of hallucinations",
+     "measures": "steering along the probe direction",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "computer-use",
+    "local-models",
+    "evaluation"
+   ],
+   "change_for_agents": "Probe a local agent model's hidden state to flag likely invalid actions before it emits them.",
+   "why_it_matters_for_justin": "A cheap pre-generation hallucination signal for a local 7B agent, but fragile to how actions are formatted.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.18533v1",
+   "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+   "authors": [
+    "Zelin He",
+    "Siyu Zhu",
+    "Jacob Helwig",
+    "Yujian Liu",
+    "Li An",
+    "Rohit Jain",
+    "Shiyu Chang",
+    "Alborz Geramifard"
+   ],
+   "link": "https://arxiv.org/abs/2611.18533v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "An agentic-RL harness can be learned from task data and evolved with the model instead of hand-written and fixed.",
+   "method_and_setup": {
+    "method": "Typed State blocks with learned Compression and Steering programs, verified by execution and replayed over past trajectories.",
+    "setup": "CodeSearch in depth, plus ALFWorld and BIRD SQL, models from 1.5B to 8B."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "context",
+    "local-models"
+   ],
+   "change_for_agents": "Make context compression and steering rules versioned programs that are tested on replayed trajectories.",
+   "why_it_matters_for_justin": "Context assembly and steering as evolvable programs is the harness-as-policy idea; relevant if you ever fine-tune a local model.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17381v1",
+   "title": "ProdPilot: A Layered Model Context Protocol System for Automated Production Readiness and Deployment of Vibe-Coded Projects",
+   "authors": [
+    "Muhammad Sudais Khalid",
+    "Muhammad Junaid Asif",
+    "Rehan Naveed Abbasi",
+    "Rana Fayyaz Ahmad"
+   ],
+   "link": "https://arxiv.org/abs/2611.17381v1",
+   "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+   "claim": "A deterministic, layered MCP server can make AI-built apps deployable with independent verification of every fix.",
+   "method_and_setup": {
+    "method": "Local MCP server with 50 rules, template, extraction and model-written fix classes, a bounded repair loop and a checker gate.",
+    "setup": "499 real repositories, 23 sample projects, 684 real deployments for the deployability model."
+   },
+   "results": [
+    {
+     "value": "0.909 ROC AUC",
+     "measures": "deployability model on held-out projects",
+     "location": "abstract"
+    },
+    {
+     "value": "25 of the 237 fixes",
+     "measures": "fixes rejected by independent verification after being reported as applied",
+     "location": "abstract"
+    },
+    {
+     "value": "82 seconds",
+     "measures": "gated project deployed, smoke-tested and connected to CI/CD",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "mcp",
+    "tool-use",
+    "security"
+   ],
+   "change_for_agents": "Verify every agent-reported fix with the same checker that flagged it before accepting it.",
+   "why_it_matters_for_justin": "A good MCP pattern: deterministic tools do the work and independently verify, the agent only fills the few gaps.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17388v1",
+   "title": "Time-Consistent Evaluation of Hierarchical Code Graphs for SWE Agents",
+   "authors": [
+    "Xianpeng",
+    "Sun",
+    "Tian Yu",
+    "Haonan Sun",
+    "Sheng Ma",
+    "Qincheng Zhang",
+    "Lifei Rao",
+    "Jie Li",
+    "Jian",
+    "Cao",
+    "Qi Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.17388v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A hierarchical dependency graph as context beats flat AST graphs and no augmentation for localizing post-cutoff pull requests.",
+   "method_and_setup": {
+    "method": "ServiceExplorer: deterministic Level-1 package/system and Level-2 module dependency graph, evaluated at four prompt granularities.",
+    "setup": "100 post-T0 pull requests, six foundation models, 7,200 paired evaluations."
+   },
+   "results": [
+    {
+     "value": "7,200 paired evaluations",
+     "measures": "number of paired evaluations",
+     "location": "abstract"
+    },
+    {
+     "value": "$+15.6\\%$ to $+86.2\\%$",
+     "measures": "relative F1 lift",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Give a coding agent a two-level package/module dependency map as context before it searches files.",
+   "why_it_matters_for_justin": "Hierarchical repo maps as context can substitute for a stronger model in Claude Code-style localization.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17440v1",
+   "title": "Interpreting Coding Agents Through Their Behavioral Trajectories",
+   "authors": [
+    "Ibragim Badertdinov",
+    "Alexander Golubev"
+   ],
+   "link": "https://arxiv.org/abs/2611.17440v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Solve rate hides large differences in coding-agent behavior, and behavioral profiles identify the agent stack.",
+   "method_and_setup": {
+    "method": "Rule-based parser mapping raw traces to high-level actions, audited against a six-model consensus on 500 events.",
+    "setup": "143,209 execution trajectories from 125 agent configurations spanning 117 unique models."
+   },
+   "results": [
+    {
+     "value": "143,209 execution trajectories",
+     "measures": "corpus size",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "harness",
+    "evaluation"
+   ],
+   "change_for_agents": "Log search/edit/test action mixes per agent config to see where harness changes shift behavior.",
+   "why_it_matters_for_justin": "Compare harness settings by behavior, not only pass rate, when tuning a Claude Code setup.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17520v1",
+   "title": "Only as Safe as the Weakest Agent: A Break That Appears Only When the System Is Multi-Agent",
+   "authors": [
+    "Keegan Wang",
+    "Anantika Mannby"
+   ],
+   "link": "https://arxiv.org/abs/2611.17520v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A multi-agent system's safety lands near its weakest agent, not its strongest orchestrator.",
+   "method_and_setup": {
+    "method": "Plant a forged record in files and compare orchestrators acting alone versus delegating to sub-agents, plus simulations over 18 models.",
+    "setup": "Unmodified Claude Code, Codex and a reference harness with their own sub-agent mechanisms."
+   },
+   "results": [
+    {
+     "value": "553/900",
+     "measures": "failures when a strong orchestrator delegated to a cheaper sub-agent (largest of four settings)",
+     "location": "abstract"
+    },
+    {
+     "value": "751/757 trials",
+     "measures": "aggregators repeating a corrupted sub-agent's error",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "security",
+    "harness"
+   ],
+   "change_for_agents": "Treat sub-agent outputs as untrusted and verify them against source before the orchestrator acts.",
+   "why_it_matters_for_justin": "Sub-agent delegation lowers system safety to the weakest reader; audit what cheap sub-agents read and what the orchestrator trusts.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17527v1",
+   "title": "GraphScent: Calibrating Directional Relevance Signals for Bounded-Context Code Localization",
+   "authors": [
+    "Ramesh Arvind Naagarajan"
+   ],
+   "link": "https://arxiv.org/abs/2611.17527v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Directional relevance asymmetry lets a training-free controller improve stateless code localization for local open-weight models.",
+   "method_and_setup": {
+    "method": "GraphScent propagates relation-conditioned log-likelihood ratios over Typed-AST multigraphs, with AST Ripple post-edit co-edit check.",
+    "setup": "Gemma 4 models, 211 real-world Python issues in 86 repositories, single consumer GPU."
+   },
+   "results": [
+    {
+     "value": "from 12.8 to 23.4 percent",
+     "measures": "exact localization on lexically hard targets at 31B",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "context",
+    "harness"
+   ],
+   "change_for_agents": "Prefer callers and enclosing scopes over callees when assembling bounded context for local code agents.",
+   "why_it_matters_for_justin": "Fits a local open-weight coding agent: stateless short views plus calibrated likelihood, instead of long multi-turn histories.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17753v1",
+   "title": "Superfluid: Local AI Server for Distributed LLM Inference",
+   "authors": [
+    "Prabod Rathnayaka",
+    "Isura Manchanayake",
+    "Srikandabala Kogul",
+    "Steve Siu",
+    "Fabian Waschkowski",
+    "Lukas Wesemann"
+   ],
+   "link": "https://arxiv.org/abs/2611.17753v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A local server can keep interactive latency low while many agents share a model, and pool heterogeneous machines into one endpoint.",
+   "method_and_setup": {
+    "method": "Isolated worker processes behind one scheduler with request priority, prompt sharing, durable token logging and fleet routing.",
+    "setup": "Qwen3.8-27B on Apple M5 Pro; six machines from three chip vendors with 64 simulated users; twelve Mac Studio M3 Ultras."
+   },
+   "results": [
+    {
+     "value": "1.5 s",
+     "measures": "first-token time for a chat sent while eight agents are working on Apple M5 Pro",
+     "location": "abstract"
+    },
+    {
+     "value": "291-612 s",
+     "measures": "first-token time on llama-server, Ollama and mlx_lm.server",
+     "location": "abstract"
+    },
+    {
+     "value": "10,656 tok/s",
+     "measures": "sustained on twelve Mac Studio M3 Ultras",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": [
+    "https://github.com/basecompute/superfluid"
+   ],
+   "applies_to": [
+    "local-models",
+    "agents",
+    "persistence"
+   ],
+   "change_for_agents": "Give interactive requests priority over background agent work in any shared local inference server.",
+   "why_it_matters_for_justin": "Directly relevant to a Mac-hosted local stack with several agents plus an interactive user; a 27B at typical quantization sits within 64 GB unified memory.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17780v1",
+   "title": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+   "authors": [
+    "Ibrahim Memon",
+    "Armin Karamzade",
+    "M. Hanif Jhaveri",
+    "Roy Fox"
+   ],
+   "link": "https://arxiv.org/abs/2611.17780v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A local one-pass model can offload a large share of agent text-to-SQL queries with no accuracy loss and lower API cost.",
+   "method_and_setup": {
+    "method": "Single forward pass predicting slot scores over a bounded grammar, up to 32 candidate plans, a trained validator, and a confidence cascade to the agent.",
+    "setup": "BIRD hidden test; 227 post-cutoff questions with Claude Opus 5.5; five SQL dialects zero-shot."
+   },
+   "results": [
+    {
+     "value": "68.03% execution accuracy",
+     "measures": "LuthorSQL alone on BIRD's hidden test set",
+     "location": "abstract"
+    },
+    {
+     "value": "cuts API cost by 33.3%",
+     "measures": "cascade with Claude Opus 5.5 at the same accuracy",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": [
+    "https://github.com/IAMIbrahimmemon/luthorsql"
+   ],
+   "applies_to": [
+    "local-models",
+    "tool-use",
+    "agents"
+   ],
+   "change_for_agents": "Route queries through a small local model first and escalate only when its confidence is low.",
+   "why_it_matters_for_justin": "A cascade template: a small local model handles easy calls and escalates uncertain ones to a hosted agent. Its 9 GB footprint fits easily in 64 GB.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17808v1",
+   "title": "CarryOn: Learning What to Keep in Context for Long-Horizon LLM Agents",
+   "authors": [
+    "Lihuan Li",
+    "Ruiyi Yang",
+    "Jiru Wang",
+    "Yifan Duan",
+    "Xiachong Lin",
+    "Hao Xue",
+    "Yang Song",
+    "Flora Salim"
+   ],
+   "link": "https://arxiv.org/abs/2611.17808v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A learned, source-linked context manager beats summarization, pruning and history selection on long-horizon tool tasks.",
+   "method_and_setup": {
+    "method": "Compact execution state plus source-linked evidence, learned selector and adaptive retention; new metrics S_alpha and normalized cost per success.",
+    "setup": "AppWorld, OfficeBench and Tau2 Telecom with three LLM Actors."
+   },
+   "results": [
+    {
+     "value": "75.7% macro-averaged task success",
+     "measures": "CarryOn average over the three benchmarks",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Keep a compact state plus pointers to original evidence rather than rewriting history into a summary.",
+   "why_it_matters_for_justin": "Source-linked evidence plus compact state is a middle path between summaries that lose details and full histories.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.17883v1",
+   "title": "Securing Multi-Agent Systems by Design",
+   "authors": [
+    "Xilong Wang",
+    "Xiaoxing Chen",
+    "Neil Gong"
+   ],
+   "link": "https://arxiv.org/abs/2611.17883v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Semantic-similarity-based secure aggregation defends multi-agent systems against optimized malicious responses.",
+   "method_and_setup": {
+    "method": "Optimization-based attack with a surrogate multi-agent system; SecMAS aggregation by semantic similarity.",
+    "setup": "Evaluations against existing aggregation rules, untargeted and targeted attacks, adaptive variants."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "security"
+   ],
+   "change_for_agents": "Aggregate sub-agent answers by agreement of a large consistent subset rather than trusting any single response.",
+   "why_it_matters_for_justin": "If you aggregate several agents' answers, majority-style rules can be attacked by one malicious agent; semantic-consistency aggregation is a cheap defence.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.18471v1",
+   "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+   "authors": [
+    "Disha Sheshanarayana",
+    "Sai Linisha Reddy Goli"
+   ],
+   "link": "https://arxiv.org/abs/2611.18471v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "LLM verifier judgments are unstable when execution evidence crosses abstraction boundaries, and restoring provenance recovers most failures.",
+   "method_and_setup": {
+    "method": "Construct matched native, abstracted and restored views of frozen executions, holding task, trajectory, outcome and verifier fixed.",
+    "setup": "Four agent-evaluation benchmarks, seven verifier backbones, four verification protocols, three abstraction boundaries."
+   },
+   "results": [
+    {
+     "value": "about 31%",
+     "measures": "transport failure under macro abstraction and delegation",
+     "location": "abstract"
+    },
+    {
+     "value": "85.5%",
+     "measures": "transport failures recovered by restoring execution provenance",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "evaluation",
+    "agents",
+    "context"
+   ],
+   "change_for_agents": "Pass execution provenance, not just the compacted summary, to LLM verifiers.",
+   "why_it_matters_for_justin": "If your harness compacts history or delegates, an LLM judge sees less; keep provenance available to the verifier.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.18513v1",
+   "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+   "authors": [
+    "Mohammed Efaz",
+    "Udo Bub",
+    "Itilekha Podder"
+   ],
+   "link": "https://arxiv.org/abs/2611.18513v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A progress-bounded local retrieval assistant prevents spoiler leakage while mid-sized local models match larger ones.",
+   "method_and_setup": {
+    "method": "Hybrid retrieval (vector similarity, BM25, summary embeddings) restricted to the reader's current position.",
+    "setup": "Classical English books; quantitative comprehension metrics and LLM judging; local models from 2b to 5b+."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "agents",
+    "context"
+   ],
+   "change_for_agents": "Scope retrieval for an on-device assistant by a boundary (position, permission) before ranking.",
+   "why_it_matters_for_justin": "A position-bounded retrieval pattern: scope what a local assistant may see to what the user has reached, relevant to privacy-scoped on-device agents.",
+   "action": "compare",
+   "depth": "abstract"
+  }
+ ]
+}
