@@ -1,0 +1,1313 @@
+{
+  "date": "2026-11-18",
+  "schema_version": 1,
+  "source_listing": "https://arxiv.org/list/cs.AI/recent",
+  "items_count": 31,
+  "records": [
+    {
+      "id": "2611.21998v1",
+      "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
+      "authors": [
+        "Ziv Kfir",
+        "Ido Kfir"
+      ],
+      "link": "https://arxiv.org/abs/2611.21998v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Storing each session's raw text plus its KV cache can serve as a long-term memory tier for personal assistants, trading storage for avoided re-prefill compute.",
+      "method_and_setup": {
+        "method": "A memory tier storing each session's raw text plus its KV cache under a fixed reader model, answering by restoring cached sessions and appending the question.",
+        "setup": "Analytic sizing across pinned BF16 full-attention (GQA) and latent-cached MLA configurations at a declared 30K-token/day scenario; an evaluation protocol on LongMemEval is specified but outcomes are not assumed."
+      },
+      "results": [
+        {
+          "value": "approximately 0.34-3.6 TB per user-year",
+          "measures": "analytic storage per user-year at a declared 30K-token/day scenario",
+          "location": "abstract"
+        },
+        {
+          "value": "approximately 49 MB of raw text",
+          "measures": "raw text for the same scenario",
+          "location": "abstract"
+        }
+      ],
+      "limits": "Design and analytic sizing only; the evaluation protocol and real-cache replay outcomes are not assumed.",
+      "code_or_data": null,
+      "applies_to": [
+        "memory",
+        "context",
+        "persistence"
+      ],
+      "change_for_agents": "Keep text as the memory of record and treat any KV cache as a droppable prefill accelerator with a retention budget.",
+      "why_it_matters_for_justin": "Directly relevant to persistence across sessions for a personal assistant: text stays the record, the cache is only a prefill accelerator, but storage at 0.34-3.6 TB per user-year rules it out on a phone or a 64 GB Mac without a tight retention budget.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22017v1",
+      "title": "SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory",
+      "authors": [
+        "Gengyue Dong",
+        "Ye Wei",
+        "Zheng Zhu",
+        "Yidong Han",
+        "Jiale Miao",
+        "Xiaojun Jia",
+        "Guanghui Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.22017v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "The benefit of agent Skills should be measured with automatic invocation from an installed library and with memory on, across harnesses and models, not with a hand-picked Skill and a blank slate.",
+      "method_and_setup": {
+        "method": "A paired benchmark treating Skill access as a three-level factor crossed with memory (off and on), four agent harnesses and multiple models, scored by deterministic verifiers with a paired task-level bootstrap.",
+        "setup": "Research tasks from domain experts in materials science and biology, with the Skills they use; cost, agent rounds and wall-clock time reported alongside the score."
+      },
+      "results": [],
+      "limits": "The evaluation is in progress; results will be added once the runs are complete.",
+      "code_or_data": null,
+      "applies_to": [
+        "skills",
+        "harness",
+        "memory",
+        "evaluation"
+      ],
+      "change_for_agents": "Evaluate skills under automatic invocation from a full installed library and with memory enabled, not only with a curated skill.",
+      "why_it_matters_for_justin": "Skills are shipped by every major harness but the evidence assumes a hand-picked skill and a blank slate; this is the benchmark shape to copy when you test whether Mitamaton's installed skill library helps or hurts.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22030v1",
+      "title": "What Does an Agent Need? Bundle-Aware Agent Resource Composition",
+      "authors": [
+        "Yunxiao Shi",
+        "Tingwei Chen",
+        "Dannong Xu",
+        "Ahad N. Zehmakan",
+        "Jialie Shen",
+        "Zhendong Chu",
+        "Qingsong Wen"
+      ],
+      "link": "https://arxiv.org/abs/2611.22030v1",
+      "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "claim": "Jointly selecting a backbone model and a tool-skill bundle per task beats scoring resources independently.",
+      "method_and_setup": {
+        "method": "Retrieval-Grounded Bundle-Aware Agent Generation: retrieve candidate resources and past configurations, recombine with a fine-tuned generator via constrained beam search, and rank bundles with a bundle-aware critic.",
+        "setup": "Reference recovery, offline execution with judged and native rewards, and online recommendation with real execution on AgentSelect-Exec with 5,060 executed configurations; SkillsBench."
+      },
+      "results": [
+        {
+          "value": "67.73%",
+          "measures": "AgentSelect queries whose complete reference configuration is recovered within ten candidates",
+          "location": "abstract"
+        },
+        {
+          "value": "from 7.58 to 8.37 out of 10",
+          "measures": "top-ranked agent's execution score with the proxy-trained critic",
+          "location": "abstract"
+        },
+        {
+          "value": "8.78",
+          "measures": "execution score with execution feedback",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "agents",
+        "skills",
+        "tool-use"
+      ],
+      "change_for_agents": "Rank tool-and-skill bundles together with the model rather than scoring each resource independently.",
+      "why_it_matters_for_justin": "Per-task selection of model plus tools and skills is the routing problem a multi-tool day-admin agent hits as the skill and MCP library grows; compare against simple retrieval before building a learned selector.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.21978v1",
+      "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+      "authors": [
+        "Dario Fenoglio",
+        "Martin Gjoreski",
+        "Marc Langheinrich",
+        "Pradyumna Chari",
+        "Ramesh Raskar"
+      ],
+      "link": "https://arxiv.org/abs/2611.21978v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Agent behavior can move across creators, hosts and runtimes via a signed package while execution authority stays in the user's runtime.",
+      "method_and_setup": {
+        "method": "A signed agent.pkg carrying portable workflows, skills, schemas and resource requirements, verified and bound at run time by an OpenClaw-based agent-native browser/runtime to user-controlled models, tools, permissions and budgets.",
+        "setup": "Three unrelated workflows run unchanged under local and API-backed models, plus a controlled suite of injected contract violations and matched benign controls."
+      },
+      "results": [
+        {
+          "value": "all 716 injected contract violations",
+          "measures": "explicitly blocked in the controlled suite",
+          "location": "abstract"
+        },
+        {
+          "value": "all 295 matched benign controls",
+          "measures": "accepted in the controlled suite",
+          "location": "abstract"
+        },
+        {
+          "value": "below 0.5 s",
+          "measures": "median automated pre-execution processing for all three packages",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "agents",
+        "skills",
+        "security",
+        "local-models",
+        "persistence"
+      ],
+      "change_for_agents": "Ship skills as signed packages that declare resource requirements and verify them before binding to the user's models and tools.",
+      "why_it_matters_for_justin": "A signed, portable skill/workflow package that runs unchanged under local or API models is close to the identity-across-runtimes problem; useful reference for how to gate a skill before it runs on-device.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22075v1",
+      "title": "Can You Undo It? Reversibility Classes for AI Agent Actions",
+      "authors": [
+        "Deepak Waghmare",
+        "Shaad Sufi"
+      ],
+      "link": "https://arxiv.org/abs/2611.22075v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Permission to call a tool does not establish whether a mistake can be undone, so tools should be classified into declared reversibility classes with prior-state capture.",
+      "method_and_setup": {
+        "method": "A declared five-level Reversibility Classes vocabulary with argument-sensitive rules, conservative defaults and a prior-state capture contract, implemented as a session guard.",
+        "setup": "Evidence-linked registry of 536 tools across 20 MCP servers; 2,158 recorded runs; controlled file, Git, SQLite and three-browser recovery experiments."
+      },
+      "results": [
+        {
+          "value": "all 29 attributable attack-positive runs",
+          "measures": "runs where the session guard gates the associated action",
+          "location": "abstract"
+        },
+        {
+          "value": "18",
+          "measures": "attack-positive runs gated by a read/write proxy",
+          "location": "abstract"
+        },
+        {
+          "value": "nine approval points across 1,209 benign runs",
+          "measures": "added approvals from the guard",
+          "location": "abstract"
+        }
+      ],
+      "limits": "Does not establish registry-wide accuracy, reduced production harm or general recovery reliability; one AI-assisted reviewer is not independent agreement.",
+      "code_or_data": null,
+      "applies_to": [
+        "mcp",
+        "tool-use",
+        "security",
+        "agents"
+      ],
+      "change_for_agents": "Gate MCP tool calls by reversibility class and capture prior state before irreversible actions.",
+      "why_it_matters_for_justin": "Directly usable as a permission model for MCP tools in a day-admin agent: classify by whether a mistake can be undone, not just read versus write, and capture prior state before irreversible calls.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22102v1",
+      "title": "EvoDisco: Strategy Discovery for Evolving Agent Memory",
+      "authors": [
+        "Mingyang Liu",
+        "Qingcan Kang",
+        "Shixiong Kai",
+        "Kaichao Liang",
+        "Xiaojin Fu",
+        "Tao Zhong",
+        "Linqi Song"
+      ],
+      "link": "https://arxiv.org/abs/2611.22102v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Agent memory evolution is better framed as learned strategy discovery over semantic operators than as a fixed operator schedule.",
+      "method_and_setup": {
+        "method": "A learnable policy conditioned on memory state and recent task history selects and instantiates one of four operators (Abstract, Refine, Bridge, Reframe), trained with an inner retrieval-quality fitness and an outer strategic-efficacy fitness.",
+        "setup": "One-pass online plus frozen-transfer protocol on ALFWorld, WebShop and LifelongAgentBench (OS and DB), against MemP and MemRL."
+      },
+      "results": [
+        {
+          "value": "$+8.8$ online / $+12.9$ frozen-transfer points over MemP",
+          "measures": "ALFWorld gain",
+          "location": "abstract"
+        },
+        {
+          "value": "$+16.4$ / $+17.9$ over MemRL",
+          "measures": "ALFWorld gain",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "memory",
+        "agents"
+      ],
+      "change_for_agents": "Replace a fixed memory-consolidation schedule with selectable compress/split/link/reorganize operators chosen from memory state.",
+      "why_it_matters_for_justin": "Gives a concrete operator set for compacting and reorganizing an agent's own memory instead of a fixed write schedule; worth comparing against whatever consolidation pass Mitamaton uses.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22113v1",
+      "title": "RegimeCouncil: Paired-Evidence Routing For Memory Conflict Governance In LLM Agents",
+      "authors": [
+        "Qingcan Kang",
+        "Mingyang Liu",
+        "Shixiong Kai",
+        "Tao Zhong",
+        "Mingxuan Yuan"
+      ],
+      "link": "https://arxiv.org/abs/2611.22113v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Neither a local nor a global memory-suppression scope is sufficient alone, and a lightweight router that arbitrates between them outperforms either.",
+      "method_and_setup": {
+        "method": "A paired-evidence router: a Local Advisor, a Global Advisor and a Meta Governor that follows local by default and switches to global only when pooled recent utility margin is strictly positive.",
+        "setup": "LongMemEval update streams, TempLAMA and TAQA with Qwen3-30B-A3B and GPT-4o."
+      },
+      "results": [
+        {
+          "value": "5.2-7.3 points",
+          "measures": "gain over the better fixed-scope policy on primary disagreement episodes",
+          "location": "abstract"
+        },
+        {
+          "value": "2-7 points",
+          "measures": "accuracy lost when any one of the three modules is removed",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "memory",
+        "agents"
+      ],
+      "change_for_agents": "Keep both local and global memory-suppression policies and switch between them based on recent with/without-memory outcomes.",
+      "why_it_matters_for_justin": "Stale facts are the core failure of a long-lived personal memory; this is a no-retraining router that decides how far a bad-memory signal should spread.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22171v1",
+      "title": "Readie: Low-Latency Code Sandboxes for AI Agents",
+      "authors": [
+        "Arjun Sivaraman",
+        "Zhaoheng Li",
+        "Alan Shi",
+        "Sanjay Malisetty",
+        "Eugene Wu",
+        "Yongjoo Park"
+      ],
+      "link": "https://arxiv.org/abs/2611.22171v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "A set of learned startup snapshots lets code sandboxes start quickly while covering most agent-generated code.",
+      "method_and_setup": {
+        "method": "Formulate snapshot construction as an optimization problem over a training workload and solve it with an approximation algorithm.",
+        "setup": "Planned on 15K public and LLM-synthesized scripts and compared with existing approaches at the same storage budget."
+      },
+      "results": [
+        {
+          "value": "15K public and LLM-synthesized scripts",
+          "measures": "size of the planning workload",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "harness",
+        "tool-use"
+      ],
+      "change_for_agents": "Pre-warm several small sandbox snapshots covering common package sets instead of one fat image.",
+      "why_it_matters_for_justin": "Relevant if code execution is offloaded from the harness to a sandbox; shows startup, not the model, can dominate latency for short agent-generated scripts.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22179v1",
+      "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
+      "authors": [
+        "Jingyu Liu",
+        "Zongze Li",
+        "Zach Xu",
+        "Zhanhui Zhou",
+        "Tahseen Rabbani",
+        "Dawn Song",
+        "Ce Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.22179v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "A minimal RAG memory matches heavier agentic-memory pipelines on standard benchmarks, so memory should be evaluated on what it enables an agent to do, not only on what it retrieves.",
+      "method_and_setup": {
+        "method": "BRIDGE: chained observation notes, hybrid BM25 with cosine retrieval and chronological rendering, plus five adversarial probes judged by a cross-vendor verification chain.",
+        "setup": "LongMemEval-S, BEAM, EverMemBench; 5 probes x 20 scenarios across four domains, three graders and three reader families."
+      },
+      "results": [
+        {
+          "value": "5.7-6.3 points",
+          "measures": "BRIDGE gain over the best memory baseline on EverMemBench at matched reader",
+          "location": "abstract"
+        },
+        {
+          "value": "~5-7K reader-prompt tokens per query",
+          "measures": "BRIDGE prompt size",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "memory",
+        "evaluation",
+        "agents"
+      ],
+      "change_for_agents": "Start with minimal hybrid retrieval memory and add extraction or graph layers only when an action-based probe shows they help.",
+      "why_it_matters_for_justin": "A strong argument to start with minimal retrieval memory and evaluate on what memory enables the agent to do; also a warning against paying for extraction and graph layers you cannot show earn their cost.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22238v1",
+      "title": "Context Has a Price: Adding and Removing Context for LLM Coding Agents under Prefix Caching",
+      "authors": [
+        "Zerui Yang",
+        "Miaomiao Dong",
+        "Quan Xue",
+        "Chaorui Zhang",
+        "Xuanyu Zheng",
+        "Xiyuan Wang",
+        "Haolin Ruan",
+        "Xueyan Niu",
+        "Guangcheng Song",
+        "Weixi Zhang",
+        "Wei Han",
+        "Bo Bai"
+      ],
+      "link": "https://arxiv.org/abs/2611.22238v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Adding or removing context for coding agents should be judged with separate prices for uncached input, cached input and output, because shorter prompts do not guarantee cheaper runs.",
+      "method_and_setup": {
+        "method": "A measurement study accounting separately for uncached input, cached input and output tokens across evidence-package and observation-removal interventions.",
+        "setup": "More than 20,000 runs of open models on SWE-bench Verified, SWE-bench and Loc-Bench."
+      },
+      "results": [
+        {
+          "value": "33--42%",
+          "measures": "cost increase from retrieved code at a tenth-price cache",
+          "location": "abstract"
+        },
+        {
+          "value": "38--116%",
+          "measures": "cost increase from removing old observations with a tenth-price cache",
+          "location": "abstract"
+        },
+        {
+          "value": "19--36%",
+          "measures": "savings from removing old observations without a cache discount",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "context",
+        "harness",
+        "evaluation",
+        "agents"
+      ],
+      "change_for_agents": "Evaluate context pruning and compaction with cache-aware token pricing and measure the extra steps the agent takes afterward.",
+      "why_it_matters_for_justin": "Context trimming and compaction can raise your bill once the provider's prefix cache is priced in; test any history-pruning in the harness against cached-token prices, not raw token counts.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22245v1",
+      "title": "Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents",
+      "authors": [
+        "Hejia Zhang",
+        "Zhongming Yu",
+        "Yimin Ding",
+        "Wei-Ting Chen",
+        "Hengjia Yu",
+        "Wentao Ni",
+        "Yijun Liu",
+        "Cong Xu",
+        "Xin Chen",
+        "Matrix Yao",
+        "Fan Zhao",
+        "Jishen Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2611.22245v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Delegating evidence collection to workers with separate contexts increases retrieval of conflicting claims but lowers conflict detection, because worker-to-lead handoffs lose the conflict.",
+      "method_and_setup": {
+        "method": "A benchmark and evidence-flow profiler built on controlled factual conflicts in Harvey LAB document-review tasks.",
+        "setup": "Pooled across three models with comparable generation spending; single-agent versus required delegation."
+      },
+      "results": [
+        {
+          "value": "from 50.2% to 68.7%",
+          "measures": "retrieval of both conflicting claims with delegation versus single-agent",
+          "location": "abstract"
+        },
+        {
+          "value": "from 16.2% to 13.2%",
+          "measures": "conflict detection with delegation",
+          "location": "abstract"
+        },
+        {
+          "value": "35.2%",
+          "measures": "retrieved pairs for which workers report both claims",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "multi-agent",
+        "memory",
+        "evaluation"
+      ],
+      "change_for_agents": "Make worker-to-lead handoffs carry raw evidence and explicit conflicts instead of free-form summaries.",
+      "why_it_matters_for_justin": "If a lead agent synthesizes from sub-agent reports, conflicting facts are lost at the handoff; require workers to pass raw evidence and conflicts, not summaries.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22299v1",
+      "title": "Harnesses That Improve Themselves: A Unifying Framework for Self-Improving Agent Harnesses",
+      "authors": [
+        "Deep Shah",
+        "Nehal Kathrotia"
+      ],
+      "link": "https://arxiv.org/abs/2611.22299v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Self-improving harnesses should update modular runtime components behind validation gates rather than rewrite the full harness.",
+      "method_and_setup": {
+        "method": "A four-component harness model with a four-stage loop that diagnoses failures, proposes code patches, validates candidates and deploys updates.",
+        "setup": "Experiments on SWE-bench Lite across models and repositories compared with prompt reflection and full-harness rewrites."
+      },
+      "results": [],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "harness",
+        "agents",
+        "memory"
+      ],
+      "change_for_agents": "Let an optimizer propose small patches to one harness module at a time and only deploy those that pass a validation gate.",
+      "why_it_matters_for_justin": "Names the harness mechanisms worth adding (pre-stop verifiers, loop breakers, persistent memory) and argues for validation-gated modular patches rather than whole-harness rewrites.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22511v1",
+      "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
+      "authors": [
+        "Wei Hou",
+        "Jingxin Geng",
+        "Xin Chen",
+        "Zheqing Jiang"
+      ],
+      "link": "https://arxiv.org/abs/2611.22511v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "Attributing output to input spans lets an agent compact only the context that has stopped being used.",
+      "method_and_setup": {
+        "method": "Out-of-band sentence-to-input-span attribution with calibrated confidences, plus concept-drift micro compaction.",
+        "setup": "71 gold annotated sentences from 10 Chinese web-QA cases and 90 turns of multi-turn sessions across gpt-4o-mini, qwen3.8-27b and deepseek-v4-flash."
+      },
+      "results": [
+        {
+          "value": "1s",
+          "measures": "per-turn attribution on a single GPU",
+          "location": "abstract"
+        },
+        {
+          "value": "0% false compaction",
+          "measures": "concept-drift detection",
+          "location": "abstract"
+        }
+      ],
+      "limits": "Drift-detection recall is bounded by attribution accuracy.",
+      "code_or_data": null,
+      "applies_to": [
+        "context",
+        "memory",
+        "agents"
+      ],
+      "change_for_agents": "Track which source documents the agent still references and compact only unreferenced ones, keeping user instructions verbatim.",
+      "why_it_matters_for_justin": "Surgical compaction of stale sources, with instructions preserved verbatim, is a better fit for a long-running assistant than waiting for the context limit and summarizing everything.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22525v1",
+      "title": "When Agent Skills Go Stale: Runtime Behavior and Selective Maintenance in Evolving Environments",
+      "authors": [
+        "Ömer Faruk Akgül",
+        "Shuli Jiang",
+        "Yuting Zhang",
+        "Yi Zhang",
+        "Xiaohan Fei",
+        "Wei Xia",
+        "Stefano Soatto"
+      ],
+      "link": "https://arxiv.org/abs/2611.22525v1",
+      "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "claim": "Reusing stale skill state after an environment change can hurt, and selectively maintaining skill state recovers the loss.",
+      "method_and_setup": {
+        "method": "Selective maintenance: replay checks from successful executions without additional model calls, verify conflicts with skill state, repair affected content, validate updates, and rebuild when local repair is insufficient.",
+        "setup": "Four task settings and two models, comparing skill reuse before and after environment changes with no description of the change supplied."
+      },
+      "results": [
+        {
+          "value": "over 10 percentage points",
+          "measures": "performance drop from previously beneficial skills versus no skill",
+          "location": "abstract"
+        },
+        {
+          "value": "nearly 40%",
+          "measures": "execution cost increase from stale skills versus no skill",
+          "location": "abstract"
+        },
+        {
+          "value": "up to 67pp",
+          "measures": "task accuracy improvement from maintenance over reusing stale state",
+          "location": "abstract"
+        },
+        {
+          "value": "up to 37%",
+          "measures": "reduction in execution steps from maintenance",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "skills",
+        "agents",
+        "harness"
+      ],
+      "change_for_agents": "Re-run recorded success checks against each cached skill and repair or rebuild skills whose checks now fail.",
+      "why_it_matters_for_justin": "Cached skills go stale when apps, APIs or UIs change; a replay-check-repair loop without extra model calls is a cheap maintenance pattern for a skill library.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22591v1",
+      "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+      "authors": [
+        "Zhuohan Cai",
+        "Zhangxuan Gu",
+        "Runze Li",
+        "Beitong Zhou",
+        "Ming Wen",
+        "Hongbo Yu",
+        "Shuheng Shen",
+        "Changhua Meng"
+      ],
+      "link": "https://arxiv.org/abs/2611.22591v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Separating credit for correct plans from erroneous actions improves GUI-agent task success on mobile and desktop.",
+      "method_and_setup": {
+        "method": "Plan-Action Consistency Training: reference-aligned plan protection masking negative policy-gradient contributions, plus plan-aligned action repair via a preference surrogate.",
+        "setup": "Compared with an outcome-only RL baseline on AndroidWorld, AndroidControl High and the full 369-task OSWorld benchmark."
+      },
+      "results": [
+        {
+          "value": "from 60.34% to 68.97% (+8.63 pp)",
+          "measures": "AndroidWorld task success",
+          "location": "abstract"
+        },
+        {
+          "value": "from 83.71% to 89.74% (+6.03 pp)",
+          "measures": "rule-based plan-action consistency on AndroidControl High",
+          "location": "abstract"
+        },
+        {
+          "value": "from 40.92% to 44.17% (+3.25 pp)",
+          "measures": "task success on the full 369-task OSWorld benchmark",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "computer-use",
+        "agents",
+        "local-models"
+      ],
+      "change_for_agents": "When training GUI agents with outcome RL, do not penalize the whole response when only the action token span is wrong.",
+      "why_it_matters_for_justin": "Mobile GUI agents often plan correctly but emit the wrong action; relevant if you train or fine-tune an open GUI model for on-device iOS-adjacent tasks.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22610v1",
+      "title": "EvoSkill-S1: Evolving Reusable Skills with Genetic-Inspired Operators",
+      "authors": [
+        "Yujun Wang",
+        "Jiqiang Li",
+        "Yinuo Lu",
+        "Jinhe Bi",
+        "Aniri",
+        "Wenxuan Ye",
+        "Boliang Liu",
+        "Sikuan Yan",
+        "Shuning Wang",
+        "Xuebing Zhou",
+        "S{ö}ren Pirk",
+        "Hinrich Sch{ü}tze",
+        "Yunpu Ma"
+      ],
+      "link": "https://arxiv.org/abs/2611.22610v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Evolving skills directly with genetic-style operators and evaluator-gated write-back improves reusable skill banks.",
+      "method_and_setup": {
+        "method": "An RL-driven skill evolver that selects parent skills from hard-negative failures and produces child skills via five operators, with Skill Bank Fusion and a Procedural Skill Interface.",
+        "setup": "Math and code benchmarks under Qwen and GPT-family solvers."
+      },
+      "results": [
+        {
+          "value": "up to 12.39%",
+          "measures": "relative gain over the initialized skill banks",
+          "location": "abstract"
+        },
+        {
+          "value": "20.39%",
+          "measures": "largest relative improvement over the strongest external baseline without direct skill evolution",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "skills",
+        "agents"
+      ],
+      "change_for_agents": "Write evolved skill candidates back to the library only when an evaluator confirms the update helps.",
+      "why_it_matters_for_justin": "A concrete mutation and write-back loop for a skill library; the gains are on math and code benchmarks, so check transfer to tool-use skills before adopting.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22697v1",
+      "title": "Remembered as Brief: Stored Preferences SilentlyRemove Decision-Critical Information",
+      "authors": [
+        "Joshua Adrian Cahyono"
+      ],
+      "link": "https://arxiv.org/abs/2611.22697v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Preferences stored in assistant memory, including ones planted by a summarised web page, silently remove decision-critical information from later answers.",
+      "method_and_setup": {
+        "method": "An Inspect benchmark where only the assistant's memory varies: the user states a belief, the model infers it from a remark, or a web page the user asked to summarise plants it.",
+        "setup": "100 everyday decisions across 25 domains tested on five models."
+      },
+      "results": [
+        {
+          "value": "93\\% and 84\\%",
+          "measures": "later answers that miss a critical item for Gemini 2.5 Flash-Lite and DeepSeek V4 Pro after the planted preference",
+          "location": "abstract"
+        },
+        {
+          "value": "78--96\\%",
+          "measures": "omissions that are silent under a stated brevity preference",
+          "location": "abstract"
+        },
+        {
+          "value": "80\\% and 95\\%",
+          "measures": "value-dependent choices where the two models pick an option for the user, versus none with neutral memory",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "memory",
+        "security",
+        "evaluation",
+        "agents"
+      ],
+      "change_for_agents": "Never write memory preferences derived from fetched content without confirmation, and list must-know points before applying a stored user profile.",
+      "why_it_matters_for_justin": "A prompt-injection-into-memory path: a web page can plant a preference that later strips warnings from answers; treat memory writes sourced from fetched content as untrusted and list must-know points before applying the user profile.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22432v1",
+      "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
+      "authors": [
+        "Siqi Lai",
+        "Haitao Li",
+        "Hao Liu"
+      ],
+      "link": "https://arxiv.org/abs/2611.22432v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "LLM reasoning can be converted into a reusable harness that lets a fast low-latency model act well while System-2 calls decline over time.",
+      "method_and_setup": {
+        "method": "A System-1/System-2 framework where an asynchronous LLM develops a modular harness (procedures, state memory, world models) retrieved by contextual relevance and prior utility and revised from environmental feedback.",
+        "setup": "Three datasets compared with LLM agents."
+      },
+      "results": [],
+      "limits": null,
+      "code_or_data": [
+        "https://github.com/usail-hkust/JevRSI"
+      ],
+      "applies_to": [
+        "harness",
+        "local-models",
+        "memory",
+        "agents"
+      ],
+      "change_for_agents": "Distill repeated LLM reasoning into retrievable procedures and state that a small fast model can execute.",
+      "why_it_matters_for_justin": "Amortizing an expensive model into a harness that a small fast model executes is the local-model pattern for a latency-bound on-device agent.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22971v1",
+      "title": "SEAM: Computer-Use Agents Know the Harm Between Screens, and Commit It Anyway",
+      "authors": [
+        "Yuxuan Zhou",
+        "Chen Xiong",
+        "Haitong Liu",
+        "Kuofeng Gao",
+        "Yang Bai",
+        "Zhiyuan He",
+        "Tao Dai",
+        "Shu-Tao Xia"
+      ],
+      "link": "https://arxiv.org/abs/2611.22971v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Computer-use agents recognise cross-screen compositional harm when asked but still commit it, because safety recognition does not reliably translate into safe execution.",
+      "method_and_setup": {
+        "method": "A benchmark of cross-screen compositional harm with minimal-pair variants scored from the server log rather than by an LLM judge.",
+        "setup": "600 multi-step, cross-application OSWorld tasks; open-weight, flagship and proprietary agents."
+      },
+      "results": [
+        {
+          "value": "up to 92%",
+          "measures": "runs in which general-purpose open-weight and flagship agents carry out the harm",
+          "location": "abstract"
+        },
+        {
+          "value": "600",
+          "measures": "multi-step cross-application OSWorld tasks",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": [
+        "https://yuxuan2003.github.io/SEAM/"
+      ],
+      "applies_to": [
+        "computer-use",
+        "security",
+        "evaluation"
+      ],
+      "change_for_agents": "Run safety checks over the combined facts from multiple screens, and place constraints in the user instruction rather than on screen.",
+      "why_it_matters_for_justin": "Per-screen and per-instruction guards are not enough for a computer-use agent; put checks over the accumulated cross-screen state, and state constraints in the user's instruction channel.",
+      "action": "try-now",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.23074v1",
+      "title": "Runtime Verification of Multiple Natural Language Criteria for Agent Governance",
+      "authors": [
+        "Silviu Pitis",
+        "Parand A. Alamdari",
+        "Jessica Tang",
+        "Toryn Q. Klassen",
+        "Sheila A. McIlraith"
+      ],
+      "link": "https://arxiv.org/abs/2611.23074v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "A single parallel verifier can check an agent's output against a large set of natural-language criteria and report which are satisfied, violated or inapplicable.",
+      "method_and_setup": {
+        "method": "A tree-attention verifier encoding shared context and target text and scoring N criteria in parallel, pretrained on CriteriaBank.",
+        "setup": "Synthetic governance benchmark and DynaBench multi-criterion benchmark; latency measured on a single H100."
+      },
+      "results": [
+        {
+          "value": "under 2s",
+          "measures": "evaluation time for 1,000 criteria against a 4K-token context on a single H100",
+          "location": "abstract"
+        },
+        {
+          "value": "<11 GB VRAM",
+          "measures": "memory for VFM-4B in that setting",
+          "location": "abstract"
+        },
+        {
+          "value": "394K",
+          "measures": "(context, target, criterion, verdict) tuples in CriteriaBank",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "security",
+        "agents",
+        "local-models",
+        "evaluation"
+      ],
+      "change_for_agents": "Score all governance criteria in one parallel verifier pass and escalate only the violated ones to a larger judge.",
+      "why_it_matters_for_justin": "A small local verifier that checks many policy rules per output cheaply is a fit for runtime guards; at 4B parameters it is within reach of a 64 GB unified-memory machine, though the speed is reported on an H100.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.23202v1",
+      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+      "authors": [
+        "Viet K. Nguyen",
+        "Mohammad I. Husain"
+      ],
+      "link": "https://arxiv.org/abs/2611.23202v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "Cross-organization agents need federated identity, attestation of model, tool and system-prompt configuration, and authorization enforced outside the agent framework.",
+      "method_and_setup": {
+        "method": "An external enforcement layer built on PKI, Zero Trust Architecture and remote attestation using IETF WIMSE workload tokens and Entity Attestation Tokens.",
+        "setup": "Simulated federation of eight organizations using six agent frameworks with five-agent teams; 14 attack scenarios and six benign tasks across five models, judged by a panel of judge models."
+      },
+      "results": [
+        {
+          "value": "from 43% to 84%",
+          "measures": "attack containment with all enforcement mechanisms enabled",
+          "location": "abstract"
+        },
+        {
+          "value": "approximately 174 microseconds",
+          "measures": "enforcement overhead per request",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "persistence",
+        "security",
+        "multi-agent",
+        "agents"
+      ],
+      "change_for_agents": "Verify an agent's certificate and approved model, tool and prompt configuration before executing its requests.",
+      "why_it_matters_for_justin": "Identity and attestation across runtimes and organizations; relevant if your agents ever call other parties' agents or MCP servers, though the evaluation is simulated.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22539v1",
+      "title": "JET: Just-Enough Exploration Tuning for Efficient Tool-Calling Agents in Repository-Level Question Answering",
+      "authors": [
+        "Yoonho Choi",
+        "Taehyeon Han",
+        "Seonghyeon Lee"
+      ],
+      "link": "https://arxiv.org/abs/2611.22539v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "LLM agents keep calling tools after they have enough information, and fine-tuning on truncated trajectories with a rationale reduces this.",
+      "method_and_setup": {
+        "method": "Just-Enough Exploration Tuning: truncate each training trajectory where information becomes sufficient, insert an explaining rationale, and fine-tune with a higher loss weight on the rationale.",
+        "setup": "Two repository-level QA benchmarks with two open-weight 8B models."
+      },
+      "results": [
+        {
+          "value": "11 to 33%",
+          "measures": "reduction in tool calls on self-generated trajectories",
+          "location": "abstract"
+        },
+        {
+          "value": "18 to 28%",
+          "measures": "fewer tool calls than SFT on expert trajectories",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "tool-use",
+        "local-models",
+        "agents"
+      ],
+      "change_for_agents": "Train or prompt agents with explicit 'enough information, answer now' rationales.",
+      "why_it_matters_for_justin": "Over-exploration burns tokens in tool-heavy agents; a stopping signal trained into a small local model is a cheap lever.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22583v1",
+      "title": "Evolution Under Fire: Evolving Agent Safety Harnesses with Adaptive Injection Stressors",
+      "authors": [
+        "Yujun Wang",
+        "Yilun Liu",
+        "Jinhe Bi",
+        "Krishna Kanth Nakka",
+        "Xuebing Zhou",
+        "Hinrich Sch{ü}tze",
+        "Yunpu Ma"
+      ],
+      "link": "https://arxiv.org/abs/2611.22583v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Safety harnesses evolved against adaptive injection attacks reduce attack success far below static defenses while retaining utility.",
+      "method_and_setup": {
+        "method": "Utility-constrained, Pareto-scheduled tree search that evolves executable safety harnesses from execution evidence, alternating with adaptive stressor evolution.",
+        "setup": "AgentDyn with GPT-4o-mini; Agent-SafetyBench with Qwen2.5-7B-Instruct; transfer to Qwen3.5-35B-A3B."
+      },
+      "results": [
+        {
+          "value": "from 50.4% to 3.0%",
+          "measures": "attack success on AgentDyn with GPT-4o-mini",
+          "location": "abstract"
+        },
+        {
+          "value": "from 82.6% to 62.0%",
+          "measures": "attack success on Agent-SafetyBench with Qwen2.5-7B-Instruct",
+          "location": "abstract"
+        },
+        {
+          "value": "from 32.1% to 0.9%",
+          "measures": "attack success after transfer to Qwen3.5-35B-A3B",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "security",
+        "harness",
+        "agents"
+      ],
+      "change_for_agents": "Red-team your injection guard with adaptive attacks and iterate the guard on the failures.",
+      "why_it_matters_for_justin": "Prompt injection through email and web content is the main risk for a personal agent; evolving the guard harness against adaptive attacks beats static hand-designed defenses in these tests.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22777v1",
+      "title": "CrossEnv: Synthesizing Verifiable Cross-Environment Tasks for Long-Horizon Agent Training",
+      "authors": [
+        "Zhengfeng Yu",
+        "Tian Lan",
+        "Zhijing Wu",
+        "Enbo Zhao",
+        "Xuannan Liu",
+        "Feihu Jiang",
+        "Qianghuai Jia",
+        "Longyue Wang",
+        "Zhao Xu",
+        "Weihua Luo",
+        "Xian-Ling Mao"
+      ],
+      "link": "https://arxiv.org/abs/2611.22777v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Training on synthesized cross-environment tasks with a curriculum improves long-horizon tool-use agents with fewer examples.",
+      "method_and_setup": {
+        "method": "An entity-tool graph links environments and aligns task-specific data to synthesize executable, verifiable cross-environment tasks, with a CrossEnv-Curriculum.",
+        "setup": "Evaluated across four external benchmarks."
+      },
+      "results": [],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "tool-use",
+        "agents",
+        "evaluation"
+      ],
+      "change_for_agents": "Build test tasks where an action in one service depends on information from another.",
+      "why_it_matters_for_justin": "Day-admin work crosses calendar, mail and files; this is a recipe for training or testing tool-using models on dependencies between services.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22901v1",
+      "title": "Done, But Still Working: Anytime Evaluation of When Coding Agents Should Stop",
+      "authors": [
+        "Zerui Yang",
+        "Quan Xue",
+        "Miaomiao Dong",
+        "Chaorui Zhang",
+        "Xuanyu Zheng",
+        "Xiyuan Wang",
+        "Haolin Ruan",
+        "Xueyan Niu",
+        "Guangcheng Song",
+        "Weixi Zhang",
+        "Wei Han",
+        "Bo Bai"
+      ],
+      "link": "https://arxiv.org/abs/2611.22901v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Coding agents often continue after their own tests pass, and a simple stop rule can save cost but with uncertain quality preservation.",
+      "method_and_setup": {
+        "method": "Anytime evaluation: replay recorded runs, score intermediate patches with hidden tests and measure cost at each step.",
+        "setup": "About 6,000 runs of eight open models in two scaffolds on SWE-bench Verified."
+      },
+      "results": [
+        {
+          "value": "under 1% to 57%",
+          "measures": "hindsight saving available at passing self-tests",
+          "location": "abstract"
+        },
+        {
+          "value": "23%",
+          "measures": "savings from a rule that stops after the same patch passes twice in a preregistered replication",
+          "location": "abstract"
+        },
+        {
+          "value": "30% over six seeds",
+          "measures": "savings from fine-tuning agents to imitate the rule",
+          "location": "abstract"
+        }
+      ],
+      "limits": "The preregistered quality test does not establish non-inferiority; quality preservation remains uncertain.",
+      "code_or_data": null,
+      "applies_to": [
+        "agents",
+        "harness",
+        "evaluation"
+      ],
+      "change_for_agents": "Add a stop rule that ends a run after the same patch passes its tests twice, and monitor quality.",
+      "why_it_matters_for_justin": "Agents keep working after their tests pass; a cheap stop rule can cut spend but quality preservation is not established, so gate it behind your own regression checks.",
+      "action": "compare",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.23205v1",
+      "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+      "authors": [
+        "Mehmet Altan Toksöz"
+      ],
+      "link": "https://arxiv.org/abs/2611.23205v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Small Gemma 4 edge models can be fine-tuned on a laptop iGPU to fix systematic signal-processing code errors.",
+      "method_and_setup": {
+        "method": "SFT with LoRA and QLoRA on Gemma 4 E2B and E4B, deployed as int8 models with adapters through OpenVINO.",
+        "setup": "66 checked examples covering 11 MATLAB subtasks, held-out variants scored by deterministic checkers."
+      },
+      "results": [
+        {
+          "value": "from 18/66 to 37/66",
+          "measures": "E2B pass rate with LoRA",
+          "location": "abstract"
+        },
+        {
+          "value": "from 32/66 to 47/66",
+          "measures": "E4B pass rate with QLoRA",
+          "location": "abstract"
+        },
+        {
+          "value": "17-19%",
+          "measures": "generation speed cost of the adapter at run time",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "local-models"
+      ],
+      "change_for_agents": "Fine-tune a small edge model with a small checked dataset and deterministic checkers rather than relying on prompts.",
+      "why_it_matters_for_justin": "Shows small domain adapters on edge-sized open models are trainable on consumer hardware; the 64 GB unified-memory machine has far more headroom than this iGPU setup, but the task here is MATLAB DSP code, not agents.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.21651v1",
+      "title": "Consistency Is Not Correction: Separating Confidence, Abstention, and Recovery in LLM Agents",
+      "authors": [
+        "Khushal Sethi"
+      ],
+      "link": "https://arxiv.org/abs/2611.21651v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "A confidence signal that ranks answers well does not by itself correct them, and the binding constraint on this literature is measurement resolution.",
+      "method_and_setup": {
+        "method": "An exact decomposition of correction utility into gated recoveries minus gated harms, which bounds whether a paired comparison can succeed before it is run.",
+        "setup": "Two model scales; a small-model suite and a controlled 840-episode study including 60 GSM8K decisions."
+      },
+      "results": [
+        {
+          "value": "0.990",
+          "measures": "within-policy AUROC of the perturbation-agreement verifier",
+          "location": "abstract"
+        },
+        {
+          "value": "4.32 times",
+          "measures": "call count relative to single-sample decoding",
+          "location": "abstract"
+        },
+        {
+          "value": "840-episode",
+          "measures": "size of the controlled study",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "agents",
+        "evaluation"
+      ],
+      "change_for_agents": "Compute the maximum discordant pairs a gate can produce before running a controller comparison.",
+      "why_it_matters_for_justin": "Before adding a resample or escalate gate to an agent, check whether the experiment can show a gain at all; a high AUROC gate may change nothing at several times the cost.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.21679v1",
+      "title": "FCP: Formal Context Protocol for Verifying LLM-Generated Artifacts",
+      "authors": [
+        "Shashank"
+      ],
+      "link": "https://arxiv.org/abs/2611.21679v1",
+      "license": "http://creativecommons.org/licenses/by/4.0/",
+      "claim": "Passing AI-written tests is weak evidence, and checking artifacts against a formal reading of the request catches violations that the tests accept.",
+      "method_and_setup": {
+        "method": "A protocol separating conformance (decided by model checkers and SMT solvers) from fidelity (refutable by a concrete witness) with eight mechanical checks for false certification.",
+        "setup": "Four hardware designs and ten code tasks with code from three language models."
+      },
+      "results": [
+        {
+          "value": "23%",
+          "measures": "violated requirements certified by trusting AI-written assertions on four hardware designs",
+          "location": "abstract"
+        },
+        {
+          "value": "all 33 violations",
+          "measures": "certified by trusting the tests on ten code tasks",
+          "location": "abstract"
+        },
+        {
+          "value": "three",
+          "measures": "violations certified by FCP on the same tasks",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "agents",
+        "evaluation",
+        "harness"
+      ],
+      "change_for_agents": "Verify generated artifacts against the original request, not only against tests the same model wrote.",
+      "why_it_matters_for_justin": "When an agent writes both the code and its tests, a pass is weak evidence; checking against the request is a pattern for verifying agent output.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.22323v1",
+      "title": "Agent Trajectories as Evidence for Software Quality Assurance",
+      "authors": [
+        "Jonathan Ullrich",
+        "Julien Siebert",
+        "Michael Kläs",
+        "Adam Trendowicz",
+        "Andreas Jedlitschka"
+      ],
+      "link": "https://arxiv.org/abs/2611.22323v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "Agent trajectories can serve as evidence for targeted software quality assurance beyond final code and passing tests.",
+      "method_and_setup": {
+        "method": "A proposal to analyze observable agent trajectories together with software and agent specifications and AI-generated artifacts.",
+        "setup": null
+      },
+      "results": [],
+      "limits": "Trajectories alone do not establish that decisions are justified, outcomes acceptable, or corrective changes effective.",
+      "code_or_data": null,
+      "applies_to": [
+        "agents",
+        "evaluation"
+      ],
+      "change_for_agents": "Log and review agent decision trajectories and flag consequential decisions for human review.",
+      "why_it_matters_for_justin": "Keeping and reviewing the trajectory of a coding agent, not just its diff, is cheap to adopt for review; the paper itself offers no evidence yet.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.23219v1",
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "authors": [
+        "Shobhita Sundaram",
+        "Cansu Sancaktar",
+        "Phillip Isola"
+      ],
+      "link": "https://arxiv.org/abs/2611.23219v1",
+      "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "claim": "Sufficiently capable frozen LLM agents can construct their own self-learning algorithm over text documents, and the resulting artifacts transfer.",
+      "method_and_setup": {
+        "method": "A frozen LLM agent with a compute budget and tools to collect experience and update text documents, free to experiment without an imposed loop.",
+        "setup": "Gameplay testbed with transfer evaluated on external benchmarks across game horizons, mechanics and 3D navigation."
+      },
+      "results": [],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "memory",
+        "agents",
+        "context"
+      ],
+      "change_for_agents": "Give agents tools to write and revise their own text notes under a compute budget and measure transfer.",
+      "why_it_matters_for_justin": "Context-document self-improvement without weight updates matches a memory-file design; evidence is from gameplay, so treat it as directional.",
+      "action": "track",
+      "depth": "abstract"
+    },
+    {
+      "id": "2611.23142v1",
+      "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
+      "authors": [
+        "Lorenzo Masoero"
+      ],
+      "link": "https://arxiv.org/abs/2611.23142v1",
+      "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+      "claim": "A multi-agent triage system can turn support-ticket signals into documentation fixes that measurably improve later agent answers.",
+      "method_and_setup": {
+        "method": "A multi-agent system built around a triage agent, TriAgent, that extracts explicit and implicit signals and repairs documentation drift after human review.",
+        "setup": "43 days of shadow-mode operation; a panel of LLM judges from independent model families and a blinded human audit."
+      },
+      "results": [
+        {
+          "value": "499 tickets",
+          "measures": "triaged over 43 days of shadow-mode operation",
+          "location": "abstract"
+        },
+        {
+          "value": "92 gaps",
+          "measures": "surfaced in the documentation",
+          "location": "abstract"
+        },
+        {
+          "value": "81.1%",
+          "measures": "TriAgent's verifiable assertions that were correct (245 of 302)",
+          "location": "abstract"
+        },
+        {
+          "value": "71.4% of the time (n=35)",
+          "measures": "blinded judges preferring the post-repair answer over the pre-repair answer",
+          "location": "abstract"
+        }
+      ],
+      "limits": null,
+      "code_or_data": null,
+      "applies_to": [
+        "multi-agent",
+        "agents",
+        "memory"
+      ],
+      "change_for_agents": "Route resolved support tickets into a gap list that triggers reviewed documentation fixes.",
+      "why_it_matters_for_justin": "A production example of agents consuming and repairing the docs other agents rely on; relevant to keeping a skill or memory knowledge base in sync with reality.",
+      "action": "track",
+      "depth": "abstract"
+    }
+  ]
+}

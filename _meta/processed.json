@@ -1,5 +1,191 @@
 [
   {
+    "id": "arxiv:2611.21998",
+    "url": "https://arxiv.org/abs/2611.21998",
+    "title": "KV-LTM: Persistent Per-Session KV Caches as Long-Term Memory for Personal Assistants",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22017",
+    "url": "https://arxiv.org/abs/2611.22017",
+    "title": "SkillBuffBench: Measuring What Agent Skills Contribute across Harnesses, Models, Skill Access Modes and Memory",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22030",
+    "url": "https://arxiv.org/abs/2611.22030",
+    "title": "What Does an Agent Need? Bundle-Aware Agent Resource Composition",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.21978",
+    "url": "https://arxiv.org/abs/2611.21978",
+    "title": "WebAgents: Unbundling Agent Creation, Hosting, and Execution for an Agent-Native Web",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22075",
+    "url": "https://arxiv.org/abs/2611.22075",
+    "title": "Can You Undo It? Reversibility Classes for AI Agent Actions",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22102",
+    "url": "https://arxiv.org/abs/2611.22102",
+    "title": "EvoDisco: Strategy Discovery for Evolving Agent Memory",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22113",
+    "url": "https://arxiv.org/abs/2611.22113",
+    "title": "RegimeCouncil: Paired-Evidence Routing For Memory Conflict Governance In LLM Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22171",
+    "url": "https://arxiv.org/abs/2611.22171",
+    "title": "Readie: Low-Latency Code Sandboxes for AI Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22179",
+    "url": "https://arxiv.org/abs/2611.22179",
+    "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22238",
+    "url": "https://arxiv.org/abs/2611.22238",
+    "title": "Context Has a Price: Adding and Removing Context for LLM Coding Agents under Prefix Caching",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22245",
+    "url": "https://arxiv.org/abs/2611.22245",
+    "title": "Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22299",
+    "url": "https://arxiv.org/abs/2611.22299",
+    "title": "Harnesses That Improve Themselves: A Unifying Framework for Self-Improving Agent Harnesses",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22511",
+    "url": "https://arxiv.org/abs/2611.22511",
+    "title": "LMLineage: Content Lineage and Context Governance for LLM Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22525",
+    "url": "https://arxiv.org/abs/2611.22525",
+    "title": "When Agent Skills Go Stale: Runtime Behavior and Selective Maintenance in Evolving Environments",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22591",
+    "url": "https://arxiv.org/abs/2611.22591",
+    "title": "PACT: Plan-Action Consistency Training by Preserving Correct Plans and Repairing Actions in GUI Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22610",
+    "url": "https://arxiv.org/abs/2611.22610",
+    "title": "EvoSkill-S1: Evolving Reusable Skills with Genetic-Inspired Operators",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22697",
+    "url": "https://arxiv.org/abs/2611.22697",
+    "title": "Remembered as Brief: Stored Preferences SilentlyRemove Decision-Critical Information",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22432",
+    "url": "https://arxiv.org/abs/2611.22432",
+    "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22971",
+    "url": "https://arxiv.org/abs/2611.22971",
+    "title": "SEAM: Computer-Use Agents Know the Harm Between Screens, and Commit It Anyway",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.23074",
+    "url": "https://arxiv.org/abs/2611.23074",
+    "title": "Runtime Verification of Multiple Natural Language Criteria for Agent Governance",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.23202",
+    "url": "https://arxiv.org/abs/2611.23202",
+    "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22539",
+    "url": "https://arxiv.org/abs/2611.22539",
+    "title": "JET: Just-Enough Exploration Tuning for Efficient Tool-Calling Agents in Repository-Level Question Answering",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22583",
+    "url": "https://arxiv.org/abs/2611.22583",
+    "title": "Evolution Under Fire: Evolving Agent Safety Harnesses with Adaptive Injection Stressors",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22777",
+    "url": "https://arxiv.org/abs/2611.22777",
+    "title": "CrossEnv: Synthesizing Verifiable Cross-Environment Tasks for Long-Horizon Agent Training",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22901",
+    "url": "https://arxiv.org/abs/2611.22901",
+    "title": "Done, But Still Working: Anytime Evaluation of When Coding Agents Should Stop",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.23205",
+    "url": "https://arxiv.org/abs/2611.23205",
+    "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.21651",
+    "url": "https://arxiv.org/abs/2611.21651",
+    "title": "Consistency Is Not Correction: Separating Confidence, Abstention, and Recovery in LLM Agents",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.21679",
+    "url": "https://arxiv.org/abs/2611.21679",
+    "title": "FCP: Formal Context Protocol for Verifying LLM-Generated Artifacts",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.22323",
+    "url": "https://arxiv.org/abs/2611.22323",
+    "title": "Agent Trajectories as Evidence for Software Quality Assurance",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.23219",
+    "url": "https://arxiv.org/abs/2611.23219",
+    "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+    "date_covered": "2026-11-18"
+  },
+  {
+    "id": "arxiv:2611.23142",
+    "url": "https://arxiv.org/abs/2611.23142",
+    "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
+    "date_covered": "2026-11-18"
+  },
+  {
     "id": "arxiv:2611.17338",
     "url": "https://arxiv.org/abs/2611.17338",
     "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
