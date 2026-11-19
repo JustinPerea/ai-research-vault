@@ -1,0 +1,1041 @@
+{
+ "date": "2026-11-19",
+ "schema_version": 1,
+ "source_listing": "https://arxiv.org/list/cs.AI/recent",
+ "items_count": 30,
+ "records": [
+  {
+   "id": "2611.23375v1",
+   "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+   "authors": [
+    "Alán Aspuru-Guzik",
+    "Varinia Bernales"
+   ],
+   "link": "https://arxiv.org/abs/2611.23375v1",
+   "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+   "claim": "Here we introduce a theory of software thermodynamics.",
+   "method_and_setup": {
+    "method": "Here we introduce a theory of software thermodynamics.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "80 per cent",
+     "measures": "About 80 per cent of the tokens of a successful run are generated in model calls that leave the requested change where it was, and we call these tokens heat.",
+     "location": "abstract"
+    },
+    {
+     "value": "22 per cent",
+     "measures": "The free energy of a change, which we estimate by analogy with the equality of Jarzynski, is 14 to 22 per cent of the mean cost of a successful coding run.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Log tokens per model call that leave the requested change unchanged and track them as waste.",
+   "why_it_matters_for_justin": "Gives a way to see how much of a coding agent run token spend is wasted retries; useful when budgeting Claude Code runs.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23476v1",
+   "title": "GUARD: Stabilizing Recursive Self-Improvement with Regret Guidance",
+   "authors": [
+    "Minghe Zhang",
+    "Xuetao Kang",
+    "Yifei Ming",
+    "Yanfei Chen",
+    "Han Yu",
+    "Yufan Zhuang",
+    "Chen-Yu Lee"
+   ],
+   "link": "https://arxiv.org/abs/2611.23476v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "We introduce GUARD (Grader-free Unsupervised Environment Design [UED] with Adaptive Rule Distillation), a closed-loop framework for reference-free continual harness evolution.",
+   "method_and_setup": {
+    "method": "We introduce GUARD (Grader-free Unsupervised Environment Design [UED] with Adaptive Rule Distillation), a closed-loop framework for reference-free continual harness evolution.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "memory",
+    "skills"
+   ],
+   "change_for_agents": "Only promote a harness edit when it fixes new failures without breaking previously mastered self-checks.",
+   "why_it_matters_for_justin": "Directly relevant to editing skills and memory files without regressions or memory bloat; the gating idea could guard my own skill/memory edits.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23509v1",
+   "title": "GRAFT: Execution-Guided Genetic Recombination for Agent Design",
+   "authors": [
+    "Sevda Ebrahimi",
+    "Mohammed Saidul Islam",
+    "Xiaodan Zhu",
+    "Elham Dolatabadi"
+   ],
+   "link": "https://arxiv.org/abs/2611.23509v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "We introduce Execution Guided Genetic Recombination for Agent Design (GRAFT), which uses aggregate fitness for selection and survival and parent-specific execution evidence to guide semantic crossover with integrated mutation.",
+   "method_and_setup": {
+    "method": "We introduce Execution Guided Genetic Recombination for Agent Design (GRAFT), which uses aggregate fitness for selection and survival and parent-specific execution evidence to guide semantic crossover with integrated mutation.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "82.0%",
+     "measures": "It achieves a mean test accuracy of 82.0%, exceeding the strongest baseline by 9.8% points.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "multi-agent",
+    "harness"
+   ],
+   "change_for_agents": "Feed samples of successful and failed runs, not just a score, to whatever proposes your next agent design.",
+   "why_it_matters_for_justin": "Search over agent architectures guided by per-run execution evidence; mostly research, but shows failed-run feedback beats aggregate score alone.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23564v1",
+   "title": "LProp: Propagating Latent Uncertainty through Evidence-Conditioned Belief Revision in LLM Agents",
+   "authors": [
+    "Kaiwen Shi",
+    "Zheyuan Zhang",
+    "Weixiang Sun",
+    "Han Bao",
+    "Colby Nelson",
+    "Yanfang Ye"
+   ],
+   "link": "https://arxiv.org/abs/2611.23564v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We introduce Latent Uncertainty, a latent-space estimator that preserves uncertainty-relevant information without lengthy descriptions.",
+   "method_and_setup": {
+    "method": "We introduce Latent Uncertainty, a latent-space estimator that preserves uncertainty-relevant information without lengthy descriptions.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "context"
+   ],
+   "change_for_agents": "Carry uncertainty with intermediate agent judgments and revise it when new evidence arrives.",
+   "why_it_matters_for_justin": "Relevant to multi-step agents passing tentative judgments downstream as facts; a latent uncertainty approach, not yet something to adopt.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23588v1",
+   "title": "ARISE: Practical Self-Evolving Memory for Accurate and Cost-Efficient Enterprise Agents",
+   "authors": [
+    "Jiangyun Zhang",
+    "Zhou Tang",
+    "Kristen Surrao",
+    "Zhiyu Chen",
+    "Albert Guan",
+    "Tor Nitayanont",
+    "Yupei Zhang",
+    "Roopali Singh",
+    "Yunkai Xiao",
+    "Shreya Pandit",
+    "Julia Huang",
+    "Shayan Ali Akbar",
+    "Erwin Cornejo",
+    "Yuan Li",
+    "Yi Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.23588v1",
+   "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "claim": "We propose ARISE (Agent Refinement through Iterative Self-Evaluation), a practical memory architecture in which the agent's memory evolves from its own failures without updating model weights, tools, or workflow logic.",
+   "method_and_setup": {
+    "method": "We propose ARISE (Agent Refinement through Iterative Self-Evaluation), a practical memory architecture in which the agent's memory evolves from its own failures without updating model weights, tools, or workflow logic.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "4.0%",
+     "measures": "ARISE-Teacher uses 4.0% fewer model calls and 5.2% fewer output tokens at comparable per-task cost (-1.0%).",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Accept a new memory rule only if held-out accuracy rises.",
+   "why_it_matters_for_justin": "Memory that learns from failures as retrievable micro notes plus consolidated rules, with a held-out accuracy gate, without touching weights or tools; maps onto an agent memory file workflow.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23611v1",
+   "title": "RefinementGuard: Counterexample-Directed Semantic Qualification for Hidden Agent-Tool Execution",
+   "authors": [
+    "Adhyayan Veer Singh",
+    "Fanjiang Ye",
+    "Yuke Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.23611v1",
+   "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "claim": "We introduce RefinementGuard: translation validation for hidden, effectful agent-tool lowerings, coupled to artifact-bound, fail-closed runtime admission.",
+   "method_and_setup": {
+    "method": "We introduce RefinementGuard: translation validation for hidden, effectful agent-tool lowerings, coupled to artifact-bound, fail-closed runtime admission.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "49/100",
+     "measures": "Among 100 activated, non-equivalent development/qualification faults adjudicated by one human, parent-semantic validation rejects 49/100 (operator-cluster bootstrap 95% CI [33.7%, 64.8%]).",
+     "location": "abstract"
+    },
+    {
+     "value": "100/100",
+     "measures": "The objective is selective admission, not maximum mutation rejection: exact equality rejects 100/100 faults but also all 60 valid variants, whereas obligation-based validation accepts 60/60; its 51 re",
+     "location": "abstract"
+    },
+    {
+     "value": "38/56",
+     "measures": "On a frozen disjoint input split, the held-out B2-B3 result is localization-only because 21 patch mutants fail structurally; B3 rejects 38/56 localization defects.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "tool-use",
+    "harness"
+   ],
+   "change_for_agents": "Validate a rewritten tool-call graph against a reference on isolated state before letting it run, and fail closed.",
+   "why_it_matters_for_justin": "Relevant to tool runtimes that rewrite agent operations into parallel graphs; shows validating the lowering before admitting it.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23751v1",
+   "title": "Thinking Fast, Anywhere: One System-1 for the Decision Points of Any Agent Workflow",
+   "authors": [
+    "Rui Li",
+    "Liyang He",
+    "Zheng Zhang",
+    "Zhenya Huang",
+    "Qi Liu"
+   ],
+   "link": "https://arxiv.org/abs/2611.23751v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We present AnyS1, a framework that turns human-authored procedural skills, whose instructions naturally specify where choices arise and which options apply, into a shared, domain-general source of decision points.",
+   "method_and_setup": {
+    "method": "We present AnyS1, a framework that turns human-authored procedural skills, whose instructions naturally specify where choices arise and which options apply, into a shared, domain-general source of decision points.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "91%",
+     "measures": "Across three unseen benchmarks and distinct System-2 model families, AnyS1 preserves task reliability while cutting episode cost by 75-91% and model-call time by 63-92% relative to an uncompiled Syste",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "agents",
+    "local-models"
+   ],
+   "change_for_agents": "Use skill instructions to find enumerable decision points and send them to a small model.",
+   "why_it_matters_for_justin": "Uses skills as the source of decision points to route cheap steps to a small model; relevant to cutting cost of skill-driven agents.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23810v1",
+   "title": "Continual Tool-Space Extension Learning for Multimodal Agents",
+   "authors": [
+    "Jinbae Seo",
+    "Jungin Park",
+    "Hyunsung Jang",
+    "Namkoo Ha",
+    "Jiyoung Lee",
+    "Kwanghoon Sohn"
+   ],
+   "link": "https://arxiv.org/abs/2611.23810v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "This work proposes COTEX, continual tool-space extension learning, that adds new tools at efficient adapter-level cost.",
+   "method_and_setup": {
+    "method": "This work proposes COTEX, continual tool-space extension learning, that adds new tools at efficient adapter-level cost.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "agents"
+   ],
+   "change_for_agents": "Add new tools through small adapters instead of retraining the whole agent.",
+   "why_it_matters_for_justin": "Adding new tools to an agent at adapter-level cost without retraining everything; mainly multimodal, so low direct relevance.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23817v1",
+   "title": "Metrics-in-the-Loop: Complexity Feedback Reshapes Agent-Written Code",
+   "authors": [
+    "Nicolas Chapados",
+    "Jean-François Gagné",
+    "Nouha Dziri"
+   ],
+   "link": "https://arxiv.org/abs/2611.23817v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We introduce metrics-in-the-loop, an inference-time intervention that gives agents in-flight feedback: cheap, automatically computed code metrics injected into the agent's context during the trajectory.",
+   "method_and_setup": {
+    "method": "We introduce metrics-in-the-loop, an inference-time intervention that gives agents in-flight feedback: cheap, automatically computed code metrics injected into the agent's context during the trajectory.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "harness",
+    "context"
+   ],
+   "change_for_agents": "Inject automatically computed code metrics into the agent context during the run.",
+   "why_it_matters_for_justin": "Cheap code metrics injected into the agent context mid-trajectory is something a Claude Code hook could do today.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23990v1",
+   "title": "SCAFFOLD: Toward Warrant-Preserving Evidence Transport for Reusable LLM-Agent Skills",
+   "authors": [
+    "Nami Cho",
+    "Shailja Gupta"
+   ],
+   "link": "https://arxiv.org/abs/2611.23990v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "The paper sharpens this position through Warrant-Preserving Evidence Transport (WPET), a proposed discipline for deciding which historical evidence remains admissible after context change.",
+   "method_and_setup": {
+    "method": "The paper sharpens this position through Warrant-Preserving Evidence Transport (WPET), a proposed discipline for deciding which historical evidence remains admissible after context change.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "memory",
+    "context"
+   ],
+   "change_for_agents": "Record the context an observation was made in and re-check it before reusing it in a skill.",
+   "why_it_matters_for_justin": "Raises when evidence recorded in a skill or memory stays valid after context changes; a position paper, relevant to stale skill files.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24324v1",
+   "title": "Reducing Inference Cost of Coding Agents with Timeout Cascades",
+   "authors": [
+    "Boxi Zhou",
+    "German Sviridov",
+    "Dmitrii Ustiugov",
+    "Haris Javaid"
+   ],
+   "link": "https://arxiv.org/abs/2611.24324v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We evaluate 36 popular large and small open-weight models released since 2024 on a software engineering benchmark, and find that recent small models are closing the accuracy gap compared to their large counterparts.",
+   "method_and_setup": {
+    "method": "We evaluate 36 popular large and small open-weight models released since 2024 on a software engineering benchmark, and find that recent small models are closing the accuracy gap compared to their large counterparts.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "33%",
+     "measures": "Following this observation, we show that by utilizing a hybrid inference strategy that tries a small model first and escalates to a large one only when needed, we can achieve up to 33% reduction in to",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Try a cheap small model first with a timeout, and escalate to a larger model only on failure.",
+   "why_it_matters_for_justin": "Small open-weight models closing the gap on SWE tasks and a timeout-cascade idea matter for running local coding agents on 64 GB.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24347v1",
+   "title": "automodel: A Skill for Agentic Model Discovery",
+   "authors": [
+    "Marco Virgolin",
+    "Harry Desmond",
+    "Ester Bergantin",
+    "Giorgio Morales",
+    "John W. Sheppard",
+    "Luigi Romano",
+    "Alessandro Lucantonio"
+   ],
+   "link": "https://arxiv.org/abs/2611.24347v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We present automodel, an agent skill for general model discovery.",
+   "method_and_setup": {
+    "method": "We present automodel, an agent skill for general model discovery.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": [
+    "https://github.com/unlayer-ai/automodel"
+   ],
+   "applies_to": [
+    "skills",
+    "agents"
+   ],
+   "change_for_agents": "Package model discovery as an agent skill rather than a hand-run search.",
+   "why_it_matters_for_justin": "An agent skill for finding models; a concrete skill-file example to learn from or install.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24357v1",
+   "title": "Semantic Context Handoff with On-Demand Evidence for Long-Horizon Agents",
+   "authors": [
+    "Guolong Zheng",
+    "Chen Hou",
+    "Xu Yang",
+    "Jianshan Zhang",
+    "Tao Huang"
+   ],
+   "link": "https://arxiv.org/abs/2611.24357v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We introduce Semantic Context Handoff (SCH), whose central abstraction is state--evidence separation: a compact semantic state carries the agent's current interpretation, while supporting action--observation evidence remains separately addressable and can re-enter context when later execution makes it relevant, without separate summarization or retrieval-model calls.",
+   "method_and_setup": {
+    "method": "We introduce Semantic Context Handoff (SCH), whose central abstraction is state--evidence separation: a compact semantic state carries the agent's current interpretation, while supporting action--observation evidence remains separately addressable and can re-enter context when later execution makes it relevant, without separate summarization or retrieval-model calls.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "86.9%",
+     "measures": "In the complete-system comparison, SCH achieves 86.9% Pass@1 while using 43% fewer tokens and 41% less wall-clock time than the strongest baseline by task performance.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Hand off a compact semantic state and keep raw action/observation evidence retrievable on demand.",
+   "why_it_matters_for_justin": "State/evidence separation for handing context between steps or sessions fits long-horizon agent handoffs.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24379v1",
+   "title": "MoE-Context: Show the Model Only What It Needs",
+   "authors": [
+    "Vedant Navale"
+   ],
+   "link": "https://arxiv.org/abs/2611.24379v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "AI agents read their whole history at every step.",
+   "method_and_setup": {
+    "method": "AI agents read their whole history at every step.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "local-models"
+   ],
+   "change_for_agents": "Mask irrelevant context blocks in the KV cache rather than deleting and re-prefilling.",
+   "why_it_matters_for_justin": "Hides context blocks by masking over a single KV cache instead of removing them; relevant to local inference and context assembly.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24422v1",
+   "title": "Resolution as Attention for Efficient Agent Memory Perception",
+   "authors": [
+    "Siqi Xiang",
+    "Zhipeng Xu",
+    "Shengrui Liu",
+    "Zulong Chen",
+    "Chunyan Miao",
+    "Shijian Lu"
+   ],
+   "link": "https://arxiv.org/abs/2611.24422v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Motivated by this insight, we propose Resolution as Attention (RAA), a memory perception mechanism that uses visual resolution as a means of attention allocation across interaction histories.",
+   "method_and_setup": {
+    "method": "Motivated by this insight, we propose Resolution as Attention (RAA), a memory perception mechanism that uses visual resolution as a means of attention allocation across interaction histories.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "50%",
+     "measures": "Experiments across multiple tasks and backbones show that RAA reduces token consumption by over 50% without compromising task performance.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "context",
+    "agents"
+   ],
+   "change_for_agents": "Show past interactions at lower resolution unless they are relevant to the next decision.",
+   "why_it_matters_for_justin": "Renders past interactions as images at variable resolution to cut tokens by over 50%; an unusual memory compression idea for multimodal agents.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24880v1",
+   "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+   "authors": [
+    "Yuzhuo Li",
+    "Pasan Gunawardena",
+    "Yunwei Li"
+   ],
+   "link": "https://arxiv.org/abs/2611.24880v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "To address this gap, a systematic evaluation framework is presented in this paper.",
+   "method_and_setup": {
+    "method": "To address this gap, a systematic evaluation framework is presented in this paper.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "agents"
+   ],
+   "change_for_agents": "Measure local agent deployment cost against hosted before choosing.",
+   "why_it_matters_for_justin": "A measured local-agent deployment in a niche domain; useful as a data point on local deployment cost.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23283v1",
+   "title": "When Single Agent Is Enough: Rethinking Multi-Agent Systems for Automated Code Review",
+   "authors": [
+    "Jiawei Li",
+    "Hoa Khanh Dam",
+    "Iftekhar Ahmed"
+   ],
+   "link": "https://arxiv.org/abs/2611.23283v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Prior work has proposed techniques for Review Comment Generation (RCG) and Code Refinement (CR), with recent Multi-Agent (MA) approaches achieving state-of-the-art results by coordinating agents specialized in different quality dimensions.",
+   "method_and_setup": {
+    "method": "Prior work has proposed techniques for Review Comment Generation (RCG) and Code Refinement (CR), with recent Multi-Agent (MA) approaches achieving state-of-the-art results by coordinating agents specialized in different quality dimensions.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Baseline a single agent before adding multi-agent coordination.",
+   "why_it_matters_for_justin": "Checks whether multi-agent coordination beats a single agent for code review; relevant to when not to use multi-agent.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23305v1",
+   "title": "Dependency Fabrication in Repository Deployment Agents",
+   "authors": [
+    "Robin Matter",
+    "Salman Toor"
+   ],
+   "link": "https://arxiv.org/abs/2611.23305v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "On MinimalSetupAgent, which was built for this report, mitigations proposed in the reward-hacking literature were most effective when the agent received a direct rule and had a clear way to stop and report the problem.",
+   "method_and_setup": {
+    "method": "On MinimalSetupAgent, which was built for this report, mitigations proposed in the reward-hacking literature were most effective when the agent received a direct rule and had a clear way to stop and report the problem.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "security",
+    "evaluation"
+   ],
+   "change_for_agents": "Give agents an explicit rule and a clear stop-and-report path for unresolvable dependencies.",
+   "why_it_matters_for_justin": "Fabricated dependencies in repository-deployment agents, with mitigations that worked when the agent had a direct rule and a way to stop and report.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23309v1",
+   "title": "Repository-Grounded Rubrics for Execution-Free Evaluation of Coding Agents",
+   "authors": [
+    "Matej Gerek",
+    "Danylo Zahorulko",
+    "Samuel Budai",
+    "Chris Rupley",
+    "Thierry Donneau-Golencer"
+   ],
+   "link": "https://arxiv.org/abs/2611.23309v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We adapt agentic rubrics, introduced for selecting among candidate patches, into an execution-free measure of how far a patch satisfies a task's requirements.",
+   "method_and_setup": {
+    "method": "We adapt agentic rubrics, introduced for selecting among candidate patches, into an execution-free measure of how far a patch satisfies a task's requirements.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Grade patches against repository-grounded rubrics when you cannot run tests.",
+   "why_it_matters_for_justin": "Execution-free rubric scoring of patches is a cheap way to grade coding agent output.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23353v1",
+   "title": "Idempotency Is Not Recovery: A Fault-Injection Study of Language-Model Agent Tool Actions",
+   "authors": [
+    "Song Xu"
+   ],
+   "link": "https://arxiv.org/abs/2611.23353v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "We study these failure modes in a controlled agent runtime combining authorization, an action ledger, target-side idempotency, reconciliation, and evidence sealing.",
+   "method_and_setup": {
+    "method": "We study these failure modes in a controlled agent runtime combining authorization, an action ledger, target-side idempotency, reconciliation, and evidence sealing.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "0/200",
+     "measures": "In 200 known original crash and replay pairs, the full configuration recorded 0/200 repeated effects versus 117/200 for each simpler baseline.",
+     "location": "abstract"
+    },
+    {
+     "value": "170/170",
+     "measures": "A ledger-related ablation had 170/170 orphaned effects versus 0/170 and 200/300 recovery successes versus 300/300 for the full configuration.",
+     "location": "abstract"
+    },
+    {
+     "value": "100/100",
+     "measures": "Disabling reconciliation left 100/100 known post-effect crash outcomes ambiguous despite no observed duplicates.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "persistence",
+    "tool-use",
+    "security"
+   ],
+   "change_for_agents": "Keep an action ledger and reconcile after failures instead of relying on idempotent retries alone.",
+   "why_it_matters_for_justin": "Idempotency is not recovery: directly relevant to an agent taking real actions (action ledger, reconciliation) for a day-admin agent.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23629v1",
+   "title": "The Value Semantics Layer: Enabling Machine-Understandable Databases for Agentic AI",
+   "authors": [
+    "Jalal Mahmud",
+    "Eser Kandogan"
+   ],
+   "link": "https://arxiv.org/abs/2611.23629v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics.",
+   "method_and_setup": {
+    "method": "Existing metadata systems expose schemas, catalogs, lineage, and governance information, but provide limited support for representing operational semantics.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "tool-use"
+   ],
+   "change_for_agents": "Expose value semantics of database columns to the planner as persistent metadata.",
+   "why_it_matters_for_justin": "Persistent planner-visible value semantics for databases; relevant to agents querying app data (e.g. Supabase).",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23651v1",
+   "title": "Safe Personal RSI: Evaluating and Repairing Personal-Agent Updates",
+   "authors": [
+    "Jiapeng Pei",
+    "Yuhang Yao",
+    "Sitan Liu",
+    "Hanxin Chen",
+    "Hao Li",
+    "Guogeng Li",
+    "Jiapei Liu",
+    "Ruijie Chen",
+    "Hongshan Lin",
+    "Yang Mo",
+    "Tianyu Shi",
+    "Shangding Gu"
+   ],
+   "link": "https://arxiv.org/abs/2611.23651v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "We study Safe Personal RSI, an update-evaluation component developed for Kicker.",
+   "method_and_setup": {
+    "method": "We study Safe Personal RSI, an update-evaluation component developed for Kicker.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "10.7%",
+     "measures": "In repair confirmation, an admitted GPT-5.6 Luna repair reduces attack violations from 10.7% to 0% and increases safe task completion from 89.7% to 100%; a broad handwritten authority rule matches the",
+     "location": "abstract"
+    },
+    {
+     "value": "69.0%",
+     "measures": "Under stronger attacks, a repair transferred from Qwen2.5-7B-Instruct to Qwen3-14B reduces violations from 69.0% to 17.9% and increases safe task completion from 19.5% to 64.4%.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "persistence",
+    "harness"
+   ],
+   "change_for_agents": "Evaluate each personal-agent self-update against a regression set and repair before applying.",
+   "why_it_matters_for_justin": "Evaluating and repairing personal-agent updates before they ship is close to Mitamaton-style personal agents.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23716v1",
+   "title": "Learning through Discernment: when a small language model learns from user feedback on the job, and when it decays",
+   "authors": [
+    "Sirisilp Kongsilp"
+   ],
+   "link": "https://arxiv.org/abs/2611.23716v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We study a small model (Qwen3 0.6B and 1.7B) with a LoRA adapter, fine-tuned each night on the attempts a judge accepts, over 127 lives of up to a year on WebShop and $τ^2$-bench.",
+   "method_and_setup": {
+    "method": "We study a small model (Qwen3 0.6B and 1.7B) with a LoRA adapter, fine-tuned each night on the attempts a judge accepts, over 127 lives of up to a year on WebShop and $τ^2$-bench.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "80%",
+     "measures": "When the user cannot see the outcome ($τ^2$-bench), the sense read reactions correctly, yet 80% of its lessons were failures the customer had thanked.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Fine-tune a small adapter nightly on judge-accepted attempts.",
+   "why_it_matters_for_justin": "Nightly LoRA on a 0.6B/1.7B model from accepted attempts: a local-model continual-learning pattern.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.23946v1",
+   "title": "How Complete Must an Environment Be to Train a Capable GUI Agent?",
+   "authors": [
+    "Jingxing Wang",
+    "Teng Wang",
+    "Xingyu Lou",
+    "Zihan Guo",
+    "Jun Wang",
+    "Weiwen Liu",
+    "Weinan Zhang",
+    "Jianghao Lin"
+   ],
+   "link": "https://arxiv.org/abs/2611.23946v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Graphical user interface (GUI) agents are widely trained in executable GUI environments.",
+   "method_and_setup": {
+    "method": "Graphical user interface (GUI) agents are widely trained in executable GUI environments.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "51.61%",
+     "measures": "Pruning unneeded features instead raises success from 51.61% to 56.13%, entirely on tasks whose environments it left unchanged.",
+     "location": "abstract"
+    },
+    {
+     "value": "55.48%",
+     "measures": "It outperforms Full in the full environment (55.48% versus 51.61% success) with lower construction cost.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "computer-use",
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Keep reward and data coverage complete and prune other environment features.",
+   "why_it_matters_for_justin": "Shows what a GUI-agent training environment can drop; relevant to mobile/computer-use agents.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24025v1",
+   "title": "Intent Contracts: Taking Tools Away from Agents",
+   "authors": [
+    "Ziyuan Wang",
+    "Genliang Zhu",
+    "Xiaobo Chen",
+    "Chu Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.24025v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "We evaluate benign over-reach with one pair of models, not adversarial planners.",
+   "method_and_setup": {
+    "method": "We evaluate benign over-reach with one pair of models, not adversarial planners.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "27/30",
+     "measures": "When the planner adds work the user never asked for, contracts complete the user's task in 27/30 runs and the intent-visible reviewer in 16/30, because a reviewer can only refuse a whole command.",
+     "location": "abstract"
+    },
+    {
+     "value": "49%",
+     "measures": "They are indistinguishable from blind review, and once the benchmark's environment terms are clarified, every condition that changes state hits a wrong target in 40-49% of those runs.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "tool-use",
+    "agents"
+   ],
+   "change_for_agents": "Grant only the tools a declared intent needs.",
+   "why_it_matters_for_justin": "Removing tools from agents via intent contracts maps directly to scoping MCP/tool permissions per task.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24313v1",
+   "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
+   "authors": [
+    "Stavros Damianakis",
+    "Konstantinos Psounis"
+   ],
+   "link": "https://arxiv.org/abs/2611.24313v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "We present AutoPI, an adaptive red teamer designed to find many different ways to break a target, not just to break it often.",
+   "method_and_setup": {
+    "method": "We present AutoPI, an adaptive red teamer designed to find many different ways to break a target, not just to break it often.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "90%",
+     "measures": "On AgentDojo, AutoPI finds a successful injection against Qwen3.6-35B in all six classes of the taxonomy and for more than 90% of its techniques.",
+     "location": "abstract"
+    },
+    {
+     "value": "20%",
+     "measures": "Against Claude Haiku 5.5, the most robust target we evaluate, it achieves between 20% and 50% higher ASR and between 25% and 400% higher class-level coverage than recent state-of-the-art adaptive red ",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Red-team for diversity of attack types, not only attack success rate.",
+   "why_it_matters_for_justin": "Adaptive taxonomy-guided red teaming for agents finds diverse breaks; useful for testing a tool-using agent.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24362v1",
+   "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+   "authors": [
+    "Lipeng He",
+    "Yihan Wang",
+    "Jiawen Zhang",
+    "N. Asokan"
+   ],
+   "link": "https://arxiv.org/abs/2611.24362v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "However, we show that achieving high ASR during red-teaming does not guarantee robustness gains from subsequent adversarial training.",
+   "method_and_setup": {
+    "method": "However, we show that achieving high ASR during red-teaming does not guarantee robustness gains from subsequent adversarial training.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "agents"
+   ],
+   "change_for_agents": "Do not use attack success rate alone to choose red-team data for hardening.",
+   "why_it_matters_for_justin": "High attack success in red-teaming does not guarantee robustness after adversarial training; matters for how to harden agents.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24491v1",
+   "title": "Probing agent overeagerness in realistic settings with continuation audits",
+   "authors": [
+    "Sean Lim",
+    "Clement Neo"
+   ],
+   "link": "https://arxiv.org/abs/2611.24491v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "We introduce Continuation Audits, a pipeline that grounds the auditor on a prefix drawn from a real coding-agent transcript and directs it to continue the trajectory toward a seeded behaviour.",
+   "method_and_setup": {
+    "method": "We introduce Continuation Audits, a pipeline that grounds the auditor on a prefix drawn from a real coding-agent transcript and directs it to continue the trajectory toward a seeded behaviour.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "security",
+    "evaluation"
+   ],
+   "change_for_agents": "Audit agents by continuing real transcript prefixes toward a seeded behaviour.",
+   "why_it_matters_for_justin": "Continuation audits probe reckless agent actions from real transcript prefixes, usable with open-weight models.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24636v1",
+   "title": "Clover-35B-A3B-Preview Technical Report",
+   "authors": [
+    "DiffuSpace Technical Team"
+   ],
+   "link": "https://arxiv.org/abs/2611.24636v1",
+   "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "claim": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation.",
+   "method_and_setup": {
+    "method": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "680 tokens/s",
+     "measures": "On internal agent workloads, it reaches a reported generation speed of 680 tokens/s using one NVIDIA GB300 GPU at BF16 precision and batch size one.",
+     "location": "abstract"
+    },
+    {
+     "value": "90.37%",
+     "measures": "On an internal set of 500 groups, joint prediction raises question accuracy from 90.37% to 93.88% and all-correct group accuracy from 65.4% to 77.0%.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "agents"
+   ],
+   "change_for_agents": "Watch for open weights and runtime support before testing it locally.",
+   "why_it_matters_for_justin": "A 35B/3B-active diffusion language model with strong agent benchmark numbers; fit on 64 GB unified memory depends on quantization and diffusion runtime support, not stated in the abstract.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.24924v1",
+   "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+   "authors": [
+    "Jiahang Lin",
+    "Jiahao Chen",
+    "Yiding Wang",
+    "Shichun Liu",
+    "Chengjun Pan",
+    "Shihan Dou",
+    "Honglin Guo",
+    "Yuyang Hu",
+    "Changhao Jiang",
+    "Zhenhua Han",
+    "Hang Yan",
+    "Qi Zhang",
+    "Tao Gui",
+    "Xuanjing Huang"
+   ],
+   "link": "https://arxiv.org/abs/2611.24924v1",
+   "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "claim": "We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered loop that brings real-world engineering practices into harness evolution.",
+   "method_and_setup": {
+    "method": "We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered loop that brings real-world engineering practices into harness evolution.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "21.9%",
+     "measures": "Empirically, on held-out tasks, AHE-Beta raises pass@1 from 21.9% to 33.3% while using 40.8% fewer tokens than Base Harness, and achieves higher pass@1 than Claude Code, Meta-Harness, and AHE.",
+     "location": "abstract"
+    },
+    {
+     "value": "15.8%",
+     "measures": "Without further evolution, the gains transfer to GLM-5.3 and DeepSeek-V4.1-Flash with pass@1 improvements of 15.8% and 5.3% over Base Harness.",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "agents",
+    "multi-agent"
+   ],
+   "change_for_agents": "Drive harness changes from simulated multi-turn user requirements, not only benchmark scores.",
+   "why_it_matters_for_justin": "Evolving agent harnesses from simulated user requirements rather than benchmark scores fits Claude Code harness/skill tuning.",
+   "action": "compare",
+   "depth": "abstract"
+  }
+ ]
+}
