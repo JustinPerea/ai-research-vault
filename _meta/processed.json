@@ -1,5 +1,179 @@
 [
   {
+    "id": "arxiv:2611.26910",
+    "url": "https://arxiv.org/abs/2611.26910",
+    "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26912",
+    "url": "https://arxiv.org/abs/2611.26912",
+    "title": "Self-Evolving Beyond Human-Crafted Experience for EDA Scripting",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26966",
+    "url": "https://arxiv.org/abs/2611.26966",
+    "title": "Keep the Process, Change the Supplier: Runtime Governance for Tool-Using AI Agents",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26975",
+    "url": "https://arxiv.org/abs/2611.26975",
+    "title": "Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26976",
+    "url": "https://arxiv.org/abs/2611.26976",
+    "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference via Output-Channel Grouping on Mobile NPUs",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27046",
+    "url": "https://arxiv.org/abs/2611.27046",
+    "title": "Actions Speak Louder than Words: Stateful Privacy Sniffing of LLM Agents via Behavioral Covert Channels in Web Interactions",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27116",
+    "url": "https://arxiv.org/abs/2611.27116",
+    "title": "CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26722",
+    "url": "https://arxiv.org/abs/2611.26722",
+    "title": "TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27860",
+    "url": "https://arxiv.org/abs/2611.27860",
+    "title": "Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27895",
+    "url": "https://arxiv.org/abs/2611.27895",
+    "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27780",
+    "url": "https://arxiv.org/abs/2611.27780",
+    "title": "Search-RSI: Expanding Search Worlds Along Multimodal Agents' Capability Frontier",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27159",
+    "url": "https://arxiv.org/abs/2611.27159",
+    "title": "From Acting to Learning: Experience Selection toward Continually Learning Agents",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27294",
+    "url": "https://arxiv.org/abs/2611.27294",
+    "title": "HookEvo: A Framework for Coordinated Plugin Evolution on Hook-Enabled Agent Runtimes",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27222",
+    "url": "https://arxiv.org/abs/2611.27222",
+    "title": "Bel: Step-Level Policy Improvement of Visual Agents Without Training",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26897",
+    "url": "https://arxiv.org/abs/2611.26897",
+    "title": "ProbeAgent: Principled Diagnosis of Agent Failures in Verifiable Environments",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26957",
+    "url": "https://arxiv.org/abs/2611.26957",
+    "title": "Tracking and Limiting Unsupported Claim Propagation in Multi-Agent LLM Systems: A Provenance-Aware Framework",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26980",
+    "url": "https://arxiv.org/abs/2611.26980",
+    "title": "Contexture: Runtime Context Eviction for High-Throughput Agent Serving",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26983",
+    "url": "https://arxiv.org/abs/2611.26983",
+    "title": "Privacy Protection in Self-Evolving Personal Agents: Persistent Memory and Cross-Carrier Transfer",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27090",
+    "url": "https://arxiv.org/abs/2611.27090",
+    "title": "Exercised, Rarely Recovered: What Public Reports Say About Recovery in 50 AI Agent Harnesses and Runtimes",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27095",
+    "url": "https://arxiv.org/abs/2611.27095",
+    "title": "Epistemic Guard: Out-of-Process MCP Receipt Proxying, Post-Turn Prose Supervision, and Provenance-Gated Memory for Tool-Using Autonomous Agents",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27139",
+    "url": "https://arxiv.org/abs/2611.27139",
+    "title": "Do Senior Agents Do Their Job? Measuring Role Integrity in How LLM Agents Use Subordinate Material",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27216",
+    "url": "https://arxiv.org/abs/2611.27216",
+    "title": "Correct Precedents Induce Policy Violations in On-Device LLM Agents",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27443",
+    "url": "https://arxiv.org/abs/2611.27443",
+    "title": "Learning When to Ask: Advisor-Aware Post-Training for SLM Agents",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27286",
+    "url": "https://arxiv.org/abs/2611.27286",
+    "title": "Belief-State Management Meets Rubric Rewards for Agentic Forecasting",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27106",
+    "url": "https://arxiv.org/abs/2611.27106",
+    "title": "Schema-Validated LLM Workflows: A Benchmark Protocol and Comparative Evaluation Across Six Python Implementations",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27689",
+    "url": "https://arxiv.org/abs/2611.27689",
+    "title": "Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27381",
+    "url": "https://arxiv.org/abs/2611.27381",
+    "title": "VMSA: Video Memory Skill Agent for Long Video Understanding",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.27529",
+    "url": "https://arxiv.org/abs/2611.27529",
+    "title": "Fix Where It Fails: Root-Cause-Guided Agentic Harness Optimization for Scene Graph Generation",
+    "date_covered": "2026-11-23"
+  },
+  {
+    "id": "arxiv:2611.26942",
+    "url": "https://arxiv.org/abs/2611.26942",
+    "title": "CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory",
+    "date_covered": "2026-11-23"
+  },
+  {
     "id": "arxiv:2611.25380",
     "url": "https://arxiv.org/abs/2611.25380",
     "title": "Beyond Weight Updates: Evolving Agent Harnesses for Domain Specialization",
