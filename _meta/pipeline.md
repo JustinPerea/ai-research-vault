@@ -9,8 +9,8 @@ Times are America/New_York and follow daylight saving. This file is updated when
 | Routine | Cron | When it runs |
 |---|---|---|
 | Nightly AI research vault | `CRON_TZ=America/New_York 0 21 * * *` | Every night, weekends included. The server may start it up to 15 minutes late (so about 9:00–9:15 pm ET). Digest date `D` is always the next calendar day. |
-| Digest deadline guard | `CRON_TZ=America/New_York 15 1 * * *` | 1:15 am ET every night. If `inbox/<today>.md` is missing, it commits that file and `records/<today>.json` (a full digest if arXiv has the listing, otherwise a stub) before 2:30 am. Vault files only; no site page, no podcast. |
-| Morning catch-up | weekdays around 8:00 am ET | Creates an inbox file only when it is missing entirely, and finishes the site page and podcast for a real digest that lacks them. It never rewrites an existing inbox, stub or full. |
+| Digest deadline guard | `CRON_TZ=America/New_York 15 1 * * *` | 1:15 am ET every night. If `inbox/<today>.md` is missing, it commits that file and `records/<today>.json` (a full digest from the cs.AI + cs.CL + cs.LG pool plus hf-daily if arXiv has the listing, otherwise a stub) before 2:30 am. A zero-listing stub on an arXiv announcement day is marked provisional in its Sources checked so a later run replaces it. Vault files only; no site page, no podcast. |
+| Morning catch-up | weekdays around 8:00 am ET | Creates an inbox file when it is missing, and **replaces a provisional zero-listing stub** (an announcement-day stub with `listing_count: 0`) with the full digest once arXiv's listing for that day is up, in one commit whose message includes `replaces provisional zero-listing stub`. Then finishes the site page and podcast for a real digest that lacks them. It never rewrites a full digest or a weekend/holiday stub. |
 | 8 pm overnight precheck | daily, around 8:00 pm ET | Checks only that GitHub and Gemini Notebook are signed in, and whether last night's audio shipped. It does not write a digest. |
 
 **Guarantee:** `inbox/D.md` and `records/D.json` are on `main` by 2:30 am ET on day `D`.
@@ -30,11 +30,11 @@ No run has finished yet under the 9:00 pm ET schedule, so a typical finish time 
 
 ## Steps, in order
 
-Cloud-only, against `JustinPerea/ai-research-vault`. The run does not invent URLs, arXiv IDs, numbers, or quotes. If `inbox/D.md` already exists on `main` (stub or full), the nightly and the guard skip it.
+Cloud-only, against `JustinPerea/ai-research-vault`. The run does not invent URLs, arXiv IDs, numbers, or quotes. If `inbox/D.md` already exists on `main` as a full digest or a weekend/holiday stub, every run skips it. The one exception is a provisional zero-listing stub (see [Weekends, holidays, and failures](#weekends-holidays-and-failures)), which the morning catch-up or any later run on `D` replaces.
 
-### 1. Fetch arXiv cs.AI and the news feeds, in parallel
+### 1. Fetch the candidate pool (arXiv cs.AI, cs.CL, cs.LG and Hugging Face Daily Papers) and the news feeds, in parallel
 
-The candidate paper list comes from the official cs.AI listing, not from a `submittedDate` export query:
+The announcement day and its date come from the official cs.AI listing, not from a `submittedDate` export query:
 
 - `https://arxiv.org/list/cs.AI/recent` (one-day view: `https://arxiv.org/list/cs.AI/new`)
 - One announcement day: the listing arXiv announces at 8:00 pm ET (Sunday–Thursday evenings), dated the next calendar day. At 9:00 pm ET a heading dated tomorrow is the current listing, not a missing one.
@@ -44,11 +44,15 @@ The candidate paper list comes from the official cs.AI listing, not from a `subm
 
 **Always fetch fresh.** arXiv's list pages are behind a CDN that can serve copies hours old (this caused false "no new cs.AI day" stubs on 2026-11-10, 2026-11-12, and 2026-11-13). Every `/new`, `/recent`, and `/catchup` fetch adds a unique cache-busting query parameter (for example `&_=<unix seconds>`) and a `Cache-Control: no-cache` header, and logs the `Age` header in Sources checked. If the heading is older than expected, the run refetches with a new cache-buster a few times before concluding anything.
 
-Hugging Face Daily Papers is allowed only as a second arXiv list. Each hit must still appear on that day's cs.AI listing and pass the stack filter.
+**Candidate pool (since 2026-11-25):**
+
+- **arXiv:** the same announcement day's new submissions plus cross-lists for **cs.AI, cs.CL and cs.LG** (`/list/<cat>/new` or the `/recent` day-block, fresh fetches, paginated, replacements skipped; for a past day, `https://arxiv.org/catchup/<cat>/D`). Deduped by arXiv id. `listing_count` is the number of unique ids across the three lists; per-category counts go in Sources checked.
+- **Hugging Face Daily Papers (`hf-daily`):** the HF daily page for the listing date (`https://huggingface.co/papers/date/D`, or `https://huggingface.co/api/daily_papers?date=D`; if `D` has no entries yet, the most recent earlier day, named in Sources checked). The top 10 by upvotes are candidates. Any of them that passes the stack filter is kept even when it is not on the three listings, tagged `Source: arXiv (hf-daily)`. Papers outside the top 10 are never admitted through HF.
+- **Curated accounts:** listed in [`_meta/curated-accounts.md`](curated-accounts.md) (starting with `dair_ai` and `_akhaliq`). A recent post by one of them about a paper is a reason to keep a borderline paper (noted in that item), never a reason to drop a paper or to add one that fails the filter outright. Optional: if X lookups fail, the signal is skipped and Sources checked says so.
 
 ### 2. Stack-filter and rank
 
-The listing is the universe. The digest is not every paper on that page.
+The candidate pool (all three listings plus the hf-daily top 10) is the universe, and the same filter applies to every source. The digest is not every paper in the pool.
 
 A paper is kept only if the title and abstract are about building or evaluating **agent systems** in this lane:
 
@@ -64,9 +68,11 @@ Judgment is from title plus abstract, not title keywords alone. When unsure, the
 
 There is no numeric score in the current skill, and **alphaXiv is not used as a rank assist**. After the keep/drop decision, each kept item gets an action signal: `try-now`, `compare`, or `track`.
 
-Target size is a readable day, roughly 15–40 items. If more than about 40 still pass, all that pass are kept (no cap). If fewer than about 8 pass, borderline agent/memory/tool abstracts are re-read.
+Target size is a readable day, roughly 15–40 items. The wider pool pushes this up; if more than about 45 still pass, borderline calls are tightened (the podcast caps at 45 sources), but a clear stack paper is never dropped. If fewer than about 8 pass, borderline agent/memory/tool abstracts are re-read.
 
-Listing total vs kept vs dropped is logged in Sources checked.
+A curated-account mention can tip a borderline paper to keep; it never drops a paper.
+
+Listing totals per category, unique total vs kept vs dropped, hf-daily hits and curated-account rescues are logged in Sources checked.
 
 ### 3. News and changelogs
 
@@ -113,7 +119,7 @@ YAML front matter, as on recent files such as `inbox/2026-11-11.md`:
 date: YYYY-MM-DD
 type: research-digest
 tags: [ai-research, daily-digest]
-sources_checked: [arxiv-cs.AI-recent, huggingface-daily-papers, news-changelogs]
+sources_checked: [arxiv-cs.AI-recent, arxiv-cs.CL-new, arxiv-cs.LG-new, hf-daily, news-changelogs]
 items_count: N
 news_count: K
 listing_count: M
@@ -128,7 +134,7 @@ Then these sections, in order:
 - `## Local-model corner` — only when an included paper is a real open-weight drop; otherwise omitted
 - `## News and changelogs` — required on every digest, including empty stubs. Bullets, newest first. `news_count` is the number of bullets (0 for the empty-day line).
 - `## Conflicts & open questions` — required
-- `## Sources checked` — listing totals (new vs cross-list vs replacements skipped), kept vs dropped, Hugging Face extras, fetch failures, and one line for news (window start, items per source, errors)
+- `## Sources checked` — listing totals per category (new vs cross-list vs replacements skipped), unique total, kept vs dropped, hf-daily date and hits, curated-account rescues, fetch failures, and one line for news (window start, items per source, errors)
 
 Kept paper ids are prepended onto `_meta/processed.json` and the claims ledger. News items are recorded only in `_meta/news-state.json`.
 
@@ -138,7 +144,7 @@ The same run also writes `records/D.json`, the machine-readable twin of the pape
 
 A single commit on `main` of `inbox/D.md`, `records/D.json`, and `_meta/news-state.json` (and, for a full digest, the updated `_meta/processed.json` and `_meta/claims-ledger.md`). Message form: `digest: YYYY-MM-DD — <short headlines> (#N / listing M)`.
 
-Each inbox file is committed once. A stub is not later replaced by a full digest.
+Each inbox file is committed once, with one exception: a provisional zero-listing stub is replaced by the full digest in a single later commit (same files, message includes `replaces provisional zero-listing stub`). Full digests and weekend/holiday stubs are never replaced.
 
 ### 6. Public site page
 
@@ -251,8 +257,9 @@ A podcast failure is reported as `Audio: no - <reason>`. Login wall, quota, or U
 ## Weekends, holidays, and failures
 
 - **Friday and Saturday evening runs, and arXiv holidays:** commit a stub with `items_count: 0` and the News and changelogs section, plus `records/D.json` with an empty `records` list. Skip the site page and the podcast.
-- **Late arXiv mailing (Sunday–Thursday evening):** the 9:00 pm run commits nothing. The 1:15 am guard commits `inbox/D.md` and `records/D.json` (full if the listing has appeared, otherwise a stub) before 2:30 am.
-- **One commit per inbox.** Never commit a stub first and replace it with the full digest later. (This was the failure mode on 2026-11-10 and 2026-11-13.)
+- **Late arXiv mailing (Sunday–Thursday evening):** the 9:00 pm run commits nothing. The 1:15 am guard commits `inbox/D.md` and `records/D.json` (full if the listing has appeared, otherwise a stub) before 2:30 am. A stub written this way has `listing_count: 0` on an announcement day and is **provisional**; the guard says so in its Sources checked.
+- **Provisional stubs:** the morning catch-up (or any later run on `D`) replaces a provisional zero-listing stub with the full digest once arXiv's listing for `D` is up, using `https://arxiv.org/catchup/<cat>/D` for the past day. One commit; the message includes `replaces provisional zero-listing stub`. The stub's news bullets are kept, and `_meta/news-state.json` is not advanced past a window a later digest already covered.
+- **One commit per inbox, except provisional stubs.** Full digests and weekend/holiday stubs are never rewritten. Before 2026-11-25 no stub was ever replaced (that rule followed the stale-CDN stubs on 2026-11-10 and 2026-11-13); since 2026-11-25 a provisional zero-listing stub on an announcement day is replaced as above.
 - **Vault is the hard gate.** Site and podcast are soft-fail.
 - **Podcast failure:** reported as `Audio: no - <reason>`.
 - **Two GitHub auth failures in a row** pause the routine.
@@ -277,6 +284,7 @@ Before 2026-11-13 the nightly ran at about 2:00 am ET. On 2026-11-13 the schedul
 
 ## Change log
 
+- **2026-11-25.** Approved by Justin (four rule changes). (1) A stub with `listing_count: 0` on an arXiv announcement day is provisional: the morning catch-up or any later run that day replaces it with the full digest in one commit whose message says `replaces provisional zero-listing stub`. (2) Hugging Face Daily Papers top 10 by upvotes: any that passes the stack filter is kept even if it is not on the listings, as `Source: arXiv (hf-daily)`. (3) The candidate pool widens from cs.AI to cs.AI, cs.CL and cs.LG (new submissions plus cross-lists, deduped), with the same stack filter. (4) A post by a curated account (`_meta/curated-accounts.md`: dair_ai, _akhaliq) is a reason to keep a borderline paper, never to drop one. Routines updated to match: the nightly and guard use the wider pool, the guard marks zero-listing announcement-day stubs as provisional, and the morning catch-up replaces them. First applied to the 2026-11-24 rerun, which replaced the provisional stub `ca9eec3`.
 - **2026-11-15.** records/<date>.json added, same commit as inbox, starting with the 2026-11-16 digest.
 - **2026-11-15.** Nightly moved to 9:00 pm ET every night, including weekends (`CRON_TZ=America/New_York 0 21 * * *`). Added a 1:15 am ET deadline guard (`CRON_TZ=America/New_York 15 1 * * *`) so `inbox/D.md` is on `main` by 2:30 am ET. Friday and Saturday evenings, and arXiv holidays, commit a stub with `items_count: 0` and the news section. Each inbox is committed once; a stub is not later replaced by a full digest. Morning catch-up never rewrites an existing inbox. This file added.
 - **2026-11-13.** Nightly moved to Sunday–Thursday 8:30 pm ET at Justin's request. Digest named for the next-day listing date (a Thursday-evening run writes Friday's file). arXiv fetches are cache-busted, with the `Age` header logged, after false empty stubs from a stale CDN. That Sunday–Thursday window is why 2026-11-14 and 2026-11-15 were never written.
