@@ -1,5 +1,275 @@
 [
   {
+    "id": "arxiv:2611.29847",
+    "url": "https://arxiv.org/abs/2611.29847",
+    "title": "MobileGrail: Learning Compact Guardrails for On-Device deployable Mobile GUI Agent Safety",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28244",
+    "url": "https://arxiv.org/abs/2611.28244",
+    "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30715",
+    "url": "https://arxiv.org/abs/2611.30715",
+    "title": "Skill-Composer: Requirement-Driven Skill Selection from Multiple Marketplaces",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29290",
+    "url": "https://arxiv.org/abs/2611.29290",
+    "title": "Which Failure Does an Intervention Repair? When Agent Interventions Help, and Where Self-Evolving Skills Stall",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29062",
+    "url": "https://arxiv.org/abs/2611.29062",
+    "title": "HyperHarness: Learning to Generate Personalized Agent Harnesses from User Histories",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28706",
+    "url": "https://arxiv.org/abs/2611.28706",
+    "title": "SkillLens: An Interactive Human-LLM System for Diagnosing and Refining Agent Skills",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28341",
+    "url": "https://arxiv.org/abs/2611.28341",
+    "title": "When Tools Fail, Agents Fabricate: Silent Failure and Verification-First Oversight in Tool-Using LLM Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30259",
+    "url": "https://arxiv.org/abs/2611.30259",
+    "title": "Attributing Security Outcomes in LLM-Agent Evaluations: The Role of Content-Free State",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30034",
+    "url": "https://arxiv.org/abs/2611.30034",
+    "title": "STUN-Bench: Truly Unseen Tools for Evaluating Shared Tool Experience",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29977",
+    "url": "https://arxiv.org/abs/2611.29977",
+    "title": "Conartist: Adaptive Agentic Red-Teaming of Computer-Using Agents against Multi-Step Prompt Injection",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28298",
+    "url": "https://arxiv.org/abs/2611.28298",
+    "title": "Language Model Harnesses can be Compositional Generalizers",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28231",
+    "url": "https://arxiv.org/abs/2611.28231",
+    "title": "Evaluating Memanto on DolphinBench for AI Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30412",
+    "url": "https://arxiv.org/abs/2611.30412",
+    "title": "DMC-5: Dual-Model Collaboration with Cache-aware Context Compression for Long-horizon Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28671",
+    "url": "https://arxiv.org/abs/2611.28671",
+    "title": "The Evaluation Substrate Matters: Benchmarking Multi-Agent Serving Substrates",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29274",
+    "url": "https://arxiv.org/abs/2611.29274",
+    "title": "MetaSkill: Reusable Problem-Solving Methods for Adaptive Skill Orchestration in LLM Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29268",
+    "url": "https://arxiv.org/abs/2611.29268",
+    "title": "Benchmarking Web Agent Defenses Against Adaptive Visual Prompt Injection",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28947",
+    "url": "https://arxiv.org/abs/2611.28947",
+    "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29619",
+    "url": "https://arxiv.org/abs/2611.29619",
+    "title": "Wactorz: Self-Writing LLM Agents That Discover, Repair, and Migrate at the Edge",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28469",
+    "url": "https://arxiv.org/abs/2611.28469",
+    "title": "Automated Safety Analysis for Agentic Workflows",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30624",
+    "url": "https://arxiv.org/abs/2611.30624",
+    "title": "Oops!... I Parsed It Again: Tool-Call Smuggling Against LLM Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30962",
+    "url": "https://arxiv.org/abs/2611.30962",
+    "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30750",
+    "url": "https://arxiv.org/abs/2611.30750",
+    "title": "SchemaCaps: When a Compatible Tool Update Silently Widens an AI Agent's Authority",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30745",
+    "url": "https://arxiv.org/abs/2611.30745",
+    "title": "Intent-Conditioned Argument Mediation for Tool-Using LLM Agents: Blocking Trusted-but-Unauthorized Arguments",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30287",
+    "url": "https://arxiv.org/abs/2611.30287",
+    "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29306",
+    "url": "https://arxiv.org/abs/2611.29306",
+    "title": "DoppelVet: Comparative Safety Verification for Self-Evolving Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28374",
+    "url": "https://arxiv.org/abs/2611.28374",
+    "title": "Taking the PULSE of Enterprise Workflows: Evaluating Persistent Project-State Understanding",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.31105",
+    "url": "https://arxiv.org/abs/2611.31105",
+    "title": "LiveLoRA: Exact KV Cache Migration Across LoRA Updates for LLM Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29519",
+    "url": "https://arxiv.org/abs/2611.29519",
+    "title": "Layer-Level Control of Language Model Execution in Agent Frameworks",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29004",
+    "url": "https://arxiv.org/abs/2611.29004",
+    "title": "Consumer-Time Validity in Stateful AI Runtimes: Verifying Recovered State and Deferred Authority",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30230",
+    "url": "https://arxiv.org/abs/2611.30230",
+    "title": "Composing Independently Distilled Memory and Retrieval Policies for Long-Term Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29155",
+    "url": "https://arxiv.org/abs/2611.29155",
+    "title": "ContextFact: Remembering Facts in Context for Long-Term Conversational Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28454",
+    "url": "https://arxiv.org/abs/2611.28454",
+    "title": "When a Permitted Action Completes a Forbidden Workflow: Designing Consequence-Oriented Approval for LLM Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28026",
+    "url": "https://arxiv.org/abs/2611.28026",
+    "title": "REMORA: A Voice-First Memory Assistant for Grounded Personal Recall and Independent Living",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.28202",
+    "url": "https://arxiv.org/abs/2611.28202",
+    "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29449",
+    "url": "https://arxiv.org/abs/2611.29449",
+    "title": "Detectable Epistemic Attack Layers: A Coverage Theorem and Standardized Harness for Conversation-History Integrity",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.31063",
+    "url": "https://arxiv.org/abs/2611.31063",
+    "title": "From Local Errors to System Failures: Modeling and Benchmarking Error Propagation in Multi-Agent LLM Systems",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30190",
+    "url": "https://arxiv.org/abs/2611.30190",
+    "title": "Same Executions, Different Gaps: Judgment Rules in Web-Agent Evaluation",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30500",
+    "url": "https://arxiv.org/abs/2611.30500",
+    "title": "Why Calibrated BM25 Filtering Barely Reduced Context on LongMemEval",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29727",
+    "url": "https://arxiv.org/abs/2611.29727",
+    "title": "Admitted Is Not Effective: Lessons from a Notary-Gated Retrospective Loop in an Agentic Pipeline",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.29807",
+    "url": "https://arxiv.org/abs/2611.29807",
+    "title": "Blind to What They Can Fix: A Detection Gap in Self-Improving Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.31198",
+    "url": "https://arxiv.org/abs/2611.31198",
+    "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.30494",
+    "url": "https://arxiv.org/abs/2611.30494",
+    "title": "Revisiting LLMs as Context Engineers",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.31027",
+    "url": "https://arxiv.org/abs/2611.31027",
+    "title": "ComputeWise: Measuring and Fixing GPU Waste by AI Research Agents",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.12164",
+    "url": "https://arxiv.org/abs/2611.12164",
+    "title": "Let the Fixer Decide: Training a Code Localizer from the Fixer's Likelihood",
+    "date_covered": "2026-11-24"
+  },
+  {
+    "id": "arxiv:2611.31201",
+    "url": "https://arxiv.org/abs/2611.31201",
+    "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+    "date_covered": "2026-11-24"
+  },
+  {
     "id": "arxiv:2611.31284",
     "url": "https://arxiv.org/abs/2611.31284",
     "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
