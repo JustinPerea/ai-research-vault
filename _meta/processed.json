@@ -1,5 +1,191 @@
 [
   {
+    "id": "arxiv:2611.31284",
+    "url": "https://arxiv.org/abs/2611.31284",
+    "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31424",
+    "url": "https://arxiv.org/abs/2611.31424",
+    "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31427",
+    "url": "https://arxiv.org/abs/2611.31427",
+    "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31457",
+    "url": "https://arxiv.org/abs/2611.31457",
+    "title": "Taxi: Analyzing Agents at (Real) Scale",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31480",
+    "url": "https://arxiv.org/abs/2611.31480",
+    "title": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31522",
+    "url": "https://arxiv.org/abs/2611.31522",
+    "title": "One Step, Four Clocks: How GUI Agents Fall Out of Step",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31554",
+    "url": "https://arxiv.org/abs/2611.31554",
+    "title": "Agent Recovery Gone Wrong: Measuring Harm Beyond Duplicate Calls",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31756",
+    "url": "https://arxiv.org/abs/2611.31756",
+    "title": "TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31794",
+    "url": "https://arxiv.org/abs/2611.31794",
+    "title": "AGL-SKILL: Coding Harnesses as Agentic Optimizers",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31938",
+    "url": "https://arxiv.org/abs/2611.31938",
+    "title": "CAPE: Coordinating Calibration and Search for Tool-Use Policies",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32085",
+    "url": "https://arxiv.org/abs/2611.32085",
+    "title": "ExpGuard: Guarding Long-Horizon LLM Agents against Corrupted Experience",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32088",
+    "url": "https://arxiv.org/abs/2611.32088",
+    "title": "From Memory Access to Evidence Sufficiency: Diagnosing and Addressing Demand--Evidence Misalignment",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32365",
+    "url": "https://arxiv.org/abs/2611.32365",
+    "title": "The Control-Flow Tax: Specialized Decision Routing for LLM Agent Workflows",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32480",
+    "url": "https://arxiv.org/abs/2611.32480",
+    "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32946",
+    "url": "https://arxiv.org/abs/2611.32946",
+    "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.33022",
+    "url": "https://arxiv.org/abs/2611.33022",
+    "title": "RecordRoute: Auditing Agent Failures with Localization-Guided Diagnosis",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.33098",
+    "url": "https://arxiv.org/abs/2611.33098",
+    "title": "Delegent: A Multi-Agent Harness That Reduces Cost without Sacrificing Performance",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31258",
+    "url": "https://arxiv.org/abs/2611.31258",
+    "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31265",
+    "url": "https://arxiv.org/abs/2611.31265",
+    "title": "SD-Cache: Learnable Memory Consolidation with State-Guided Dynamic Caching",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31307",
+    "url": "https://arxiv.org/abs/2611.31307",
+    "title": "When Successful Collaboration Becomes an Attack Surface: Insider Memory Poisoning in Multi-Agent Systems",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31318",
+    "url": "https://arxiv.org/abs/2611.31318",
+    "title": "Scoring Recovery-Time Agent Security: Proposals, Effects, and Retry Instructions",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31338",
+    "url": "https://arxiv.org/abs/2611.31338",
+    "title": "Per-Attack Blocking Hides Catalog Vulnerability: A Weakest-Link Analysis of Tool Manifests",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31541",
+    "url": "https://arxiv.org/abs/2611.31541",
+    "title": "Where Agent Defenses Fail: A Case Study of Policy Compositions and Measurement Limits",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31582",
+    "url": "https://arxiv.org/abs/2611.31582",
+    "title": "LatentLens: Rethinking Latent Interface in Multi-Agent Systems",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31739",
+    "url": "https://arxiv.org/abs/2611.31739",
+    "title": "Where is the Interface for the AI Harness?",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31800",
+    "url": "https://arxiv.org/abs/2611.31800",
+    "title": "Learning Compact State Abstractions for LLM Agents",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32009",
+    "url": "https://arxiv.org/abs/2611.32009",
+    "title": "Calm Agent: Reframing Agent Interaction around Intermittent Human Attention",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32018",
+    "url": "https://arxiv.org/abs/2611.32018",
+    "title": "Structure-Aware Transformers for Hierarchical Authorization in Personal AI Agents",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32194",
+    "url": "https://arxiv.org/abs/2611.32194",
+    "title": "LLM Agent Authorization Across Context Compaction",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.32195",
+    "url": "https://arxiv.org/abs/2611.32195",
+    "title": "When Answering Is Administering: Permission Replies That Rewrite Coding-Agent Policy",
+    "date_covered": "2026-11-25"
+  },
+  {
+    "id": "arxiv:2611.31962",
+    "url": "https://arxiv.org/abs/2611.31962",
+    "title": "Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion",
+    "date_covered": "2026-11-25"
+  },
+  {
     "id": "arxiv:2611.26910",
     "url": "https://arxiv.org/abs/2611.26910",
     "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",

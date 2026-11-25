@@ -1,0 +1,1112 @@
+{
+ "date": "2026-11-25",
+ "schema_version": 1,
+ "source_listing": "https://arxiv.org/list/cs.AI/recent",
+ "items_count": 31,
+ "records": [
+  {
+   "id": "2611.31284v1",
+   "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+   "authors": [
+    "Marcelo Fernandez"
+   ],
+   "link": "https://arxiv.org/abs/2611.31284v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Impossibility results plus an irreducibility theorem show governance of multi-agent systems cannot collapse allocation, atomicity, state and drift layers without loss.",
+   "method_and_setup": {
+    "method": "Analytical constructions and empirical ablations over four dimensions: temporal, state, behavioral, population.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "security",
+    "agents"
+   ],
+   "change_for_agents": "Keep admission control for which subagents may act separate from execution-time guards.",
+   "why_it_matters_for_justin": "Frames who-gets-to-act as a first-class design constraint for any multi-agent harness.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31424v1",
+   "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+   "authors": [
+    "Yi Han",
+    "Zhen Sun",
+    "Zhijie Deng",
+    "Yini Huang",
+    "Yangyang Zheng",
+    "Dongyi Zhang",
+    "Xinlei He"
+   ],
+   "link": "https://arxiv.org/abs/2611.31424v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Attackers can use benign interaction evidence in later attacks without first poisoning the benign conversation.",
+   "method_and_setup": {
+    "method": "Red-teaming framework selecting evidence across 2 dimensions with 3 policies and an Urgency/Priority matrix with 4 rewriting strategies.",
+    "setup": "Evaluated on AgentDojo and InjecAgent."
+   },
+   "results": [
+    {
+     "value": "67.4% ASR",
+     "measures": "attack success rate on AgentDojo",
+     "location": "abstract"
+    },
+    {
+     "value": "87.3%",
+     "measures": "attack success rate on InjecAgent",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "tool-use",
+    "context"
+   ],
+   "change_for_agents": "Do not let earlier benign turns justify a later unauthorized tool action; authorize against policy, not conversation evidence.",
+   "why_it_matters_for_justin": "Your agent's own conversation history is attack material; Mitamaton should treat prior-turn content as untrusted when authorizing actions.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31427v1",
+   "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+   "authors": [
+    "Chaeeun Lee",
+    "Hossein A. Rahmani",
+    "Aryo Pradipta Gema",
+    "Kexin Xu",
+    "Emine Yilmaz",
+    "Pasquale Minervini",
+    "T. Ian Simpson",
+    "Chen Jin",
+    "Amrutha Saseendran"
+   ],
+   "link": "https://arxiv.org/abs/2611.31427v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Agentic gains need both task knowledge and competence at the target harness interface; training on one without the other gives little.",
+   "method_and_setup": {
+    "method": "Multi-harness distillation plus harness rehearsal (traces with minimal task knowledge exercising the target interface); on-policy RL compared with distillation.",
+    "setup": "Four reasoning and agentic benchmarks; BFCL V3 multi-turn with Qwen3-4B."
+   },
+   "results": [
+    {
+     "value": "8.5% and 32.5% respectively, versus 58.8% together",
+     "measures": "BFCL V3 multi-turn accuracy with Qwen3-4B: cross-harness task supervision or rehearsal alone vs. combined",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "tool-use",
+    "local-models"
+   ],
+   "change_for_agents": "When fine-tuning a small tool-using model, add rehearsal traces on the exact harness format you deploy.",
+   "why_it_matters_for_justin": "If you fine-tune a local model for tool use, the harness format matters as much as task data; rehearse the target interface.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31457v1",
+   "title": "Taxi: Analyzing Agents at (Real) Scale",
+   "authors": [
+    "Guy Dar"
+   ],
+   "link": "https://arxiv.org/abs/2611.31457v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Clustering plus full SQL access, guided by a coding agent, makes agent trajectories analyzable at scale.",
+   "method_and_setup": {
+    "method": "Taxi clusters steps into a taxonomy, exposes SQL access, adds Jev-style decision models for semantic routing and built-in evaluators and daily reports.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "harness",
+    "evaluation"
+   ],
+   "change_for_agents": "Store agent steps in a queryable table and cluster them to find recurring failure modes.",
+   "why_it_matters_for_justin": "A pattern for debugging Claude Code / Mitamaton traces: cluster steps into a taxonomy, then query with SQL.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31480v1",
+   "title": "Evaluating Frontier-Model Agent Skills with Open-Weight Models in a Science Gateway",
+   "authors": [
+    "Komal Thareja",
+    "Mats Rynge",
+    "Anirban Mandal",
+    "Ewa Deelman"
+   ],
+   "link": "https://arxiv.org/abs/2611.31480v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Skills written for a frontier model need adaptation for open-weight models, and a harness that drives the real gateway can find the needed edits.",
+   "method_and_setup": {
+    "method": "Evaluation harness drives the real PegasusAI Studio gateway as a user would, scores built workflows and feeds recurring failures back to the frontier model.",
+    "setup": "21 open-weight models on 17 tasks."
+   },
+   "results": [
+    {
+     "value": "21 open-weight models on 17 tasks",
+     "measures": "scale of the evaluation",
+     "location": "abstract"
+    },
+    {
+     "value": "0.76 on workflow building against 0.82 for Claude",
+     "measures": "repeated-trial workflow-building score of the best open-weight model vs. Claude",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "local-models",
+    "evaluation"
+   ],
+   "change_for_agents": "Run your skills against a local open-weight model in an automated harness and feed failures back into the skill text.",
+   "why_it_matters_for_justin": "Concrete data on how skills written for Claude degrade on open-weight models and how to repair them; relevant to a local-model skill stack.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31522v1",
+   "title": "One Step, Four Clocks: How GUI Agents Fall Out of Step",
+   "authors": [
+    "Zhanwen Chen",
+    "Tianchun Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.31522v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "GUI agents can choose correct actions yet fail when interfaces change during deliberation, and latency alone does not explain it.",
+   "method_and_setup": {
+    "method": "ChronotopeGym with Paused, Replay and Live execution; Chronotope controller keeps compact interaction history and selectively keeps, updates or redecides pending actions.",
+    "setup": "Five tasks; compared with Agent S3 using a 27B model."
+   },
+   "results": [
+    {
+     "value": "from 0% to 100%",
+     "measures": "success on Moving Balloon when updating a pending click",
+     "location": "abstract"
+    },
+    {
+     "value": "85.5%",
+     "measures": "median end-to-end latency reduction vs. Agent S3 for a 27B model",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "computer-use",
+    "evaluation",
+    "local-models"
+   ],
+   "change_for_agents": "Before executing a GUI action decided earlier, re-check whether the screen changed and update or replace it.",
+   "why_it_matters_for_justin": "Latency is not the only GUI-agent failure; stale actions matter. Relevant to any computer-use loop on iOS or desktop.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31554v1",
+   "title": "Agent Recovery Gone Wrong: Measuring Harm Beyond Duplicate Calls",
+   "authors": [
+    "Artem Trofimov",
+    "Boris Novikov"
+   ],
+   "link": "https://arxiv.org/abs/2611.31554v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A substantial share of agent recoveries after partial execution harm external state, and repeated-call detection misses most of it.",
+   "method_and_setup": {
+    "method": "Measured on recorded AppWorld trajectories; also piloted two sources of operation identity for an idempotency contract.",
+    "setup": "Stratified random sample of 200 candidate episodes across ten models; small pilot of 17 episodes with one local model."
+   },
+   "results": [
+    {
+     "value": "24.6%",
+     "measures": "stratification-weighted estimate of confirmed partial executions followed by a harmful recovery",
+     "location": "abstract"
+    },
+    {
+     "value": "75% of duplications but only 41% of all harm",
+     "measures": "share found by a rule searching for repeated calls",
+     "location": "abstract"
+    }
+   ],
+   "limits": "Idempotency pilot is small (17 episodes, one local model).",
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "security",
+    "evaluation"
+   ],
+   "change_for_agents": "Derive operation identity from call content for idempotency instead of trusting model-issued identifiers.",
+   "why_it_matters_for_justin": "Retrying a block after a partial write often duplicates, deletes or wrongly writes; Mitamaton needs idempotency on writes.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31756v1",
+   "title": "TACT-Bench: Testing Adaptive Conversational Threats against Tool-Use Agents",
+   "authors": [
+    "Ilia Hashemi Rad",
+    "Feijie Wu",
+    "Haoyu Wang",
+    "Jing Gao"
+   ],
+   "link": "https://arxiv.org/abs/2611.31756v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Policy-governed tool-use agents need a benchmark that tests both resisting unauthorized requests and finishing legitimate work in the same interaction.",
+   "method_and_setup": {
+    "method": "TACT-Base and TACT-TrustPrime tasks, hidden policy, response-adaptive escalation, plus Paired Selective Trustworthiness metric.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "security",
+    "evaluation"
+   ],
+   "change_for_agents": "Evaluate agents on matched adversarial and benign task pairs, not refusal rate alone.",
+   "why_it_matters_for_justin": "Gives a way to test Mitamaton for both unauthorized actions and overcautious refusals.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31794v1",
+   "title": "AGL-SKILL: Coding Harnesses as Agentic Optimizers",
+   "authors": [
+    "Ryan Tsui",
+    "Yuge Zhang",
+    "Yuqing Yang"
+   ],
+   "link": "https://arxiv.org/abs/2611.31794v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A coding agent without guidance substantially improves every target and outperforms published skill-optimization methods.",
+   "method_and_setup": {
+    "method": "Coding harness used as the optimizer of skills (reusable workflows, code, prompts).",
+    "setup": "Five benchmarks."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "harness",
+    "evaluation"
+   ],
+   "change_for_agents": "Point a coding agent at a skill file with a measurable score and let it iterate.",
+   "why_it_matters_for_justin": "Let Claude Code itself iterate on your SKILL.md files against a scoring metric.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31938v1",
+   "title": "CAPE: Coordinating Calibration and Search for Tool-Use Policies",
+   "authors": [
+    "Jiahao Wang",
+    "Xiaoxuan Chen",
+    "Aijun Yang",
+    "Xiaohua Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.31938v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Coordinating calibration and search yields tool-use policies faster than eager exact search.",
+   "method_and_setup": {
+    "method": "CAPE keeps an executable policy at all times, directs calibration to calls that can improve it, and certifies optimality when bounds meet.",
+    "setup": "CSV and JSON workflows built from 64 requests."
+   },
+   "results": [
+    {
+     "value": "502 of 504 compilations",
+     "measures": "compilations reaching the independently computed optimum",
+     "location": "abstract"
+    },
+    {
+     "value": "22.0% less compilation time",
+     "measures": "vs. eager exact search",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "evaluation"
+   ],
+   "change_for_agents": "Probe a tool's hidden parsing settings with a few cheap calls before committing to a call plan.",
+   "why_it_matters_for_justin": "Relevant for tools whose parsing config the agent cannot inspect; narrow but concrete.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32085v1",
+   "title": "ExpGuard: Guarding Long-Horizon LLM Agents against Corrupted Experience",
+   "authors": [
+    "Yuzhou Chen",
+    "Licheng Pan",
+    "Zhixuan Chu",
+    "Yunsheng Lu",
+    "Yichen Sun",
+    "Han Zheng",
+    "Yan Wang",
+    "Bingyu Zhu",
+    "Haiwen Hong",
+    "Longtao Huang",
+    "Kui Ren"
+   ],
+   "link": "https://arxiv.org/abs/2611.32085v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Corrupted experience can persist across tasks, and retrieval-triggered risk assessment with repair can guard against it.",
+   "method_and_setup": {
+    "method": "Task-conditioned heterogeneous graph over experience semantics, provenance and execution dependencies; matched counterfactual replays for risk labels; online repair at inference.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "security",
+    "agents"
+   ],
+   "change_for_agents": "Score a stored experience's risk at retrieval time using provenance, not only relevance.",
+   "why_it_matters_for_justin": "Directly relevant to any agent that writes reusable experience into memory.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32088v1",
+   "title": "From Memory Access to Evidence Sufficiency: Diagnosing and Addressing Demand--Evidence Misalignment",
+   "authors": [
+    "Shiyao Liu",
+    "Yixing Fan",
+    "Ruqing Zhang",
+    "Xiaohui Yan",
+    "Jiafeng Guo",
+    "Xueqi Cheng"
+   ],
+   "link": "https://arxiv.org/abs/2611.32088v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Memory retrieval failures come from demand-evidence misalignment, and typed demands guiding retrieval improve answers.",
+   "method_and_setup": {
+    "method": "MemPath interventional diagnosis framework and BiDE-Mem, which represents questions as typed demands and organizes evidence with provenance.",
+    "setup": "LoCoMo and LongMemEval, with Qwen-Reader evaluations."
+   },
+   "results": [
+    {
+     "value": "6.23 percentage points",
+     "measures": "accuracy gain on LoCoMo over Mnemis",
+     "location": "abstract"
+    },
+    {
+     "value": "91.80%",
+     "measures": "accuracy on LongMemEval",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "evaluation"
+   ],
+   "change_for_agents": "Decompose a question into typed constraints (fact, relation, time, state) and retrieve until each is covered.",
+   "why_it_matters_for_justin": "Retrieval relevance is not evidence sufficiency; a design cue for Mitamaton's memory reader.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32365v1",
+   "title": "The Control-Flow Tax: Specialized Decision Routing for LLM Agent Workflows",
+   "authors": [
+    "Zhikai Cheng",
+    "Shuanghu Wang",
+    "Li Jiang"
+   ],
+   "link": "https://arxiv.org/abs/2611.32365v1",
+   "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+   "claim": "Specialized decision routing cuts the cost of agent control flow where cheap general routers can raise it.",
+   "method_and_setup": {
+    "method": "Jev, a specialized System 1 decision model, controls finite actions while Sol generates documents.",
+    "setup": "Four software tasks, 480 valid runs; 100 reviewed retail states."
+   },
+   "results": [
+    {
+     "value": "42.5%",
+     "measures": "share of baseline reference cost spent on control-flow routing on the initial task",
+     "location": "abstract"
+    },
+    {
+     "value": "49.6%",
+     "measures": "mean cost reduction on the initial task",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "harness",
+    "local-models"
+   ],
+   "change_for_agents": "Measure how much of your agent's spend goes to deciding what to do and route those decisions to a small model.",
+   "why_it_matters_for_justin": "Control-flow decisions can be a large share of agent cost; a small local router may cut it.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32480v1",
+   "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
+   "authors": [
+    "Yuxuan Liu",
+    "Chongyang Du",
+    "Yuhao Zhang",
+    "Jiahe Guo",
+    "Kawai Chung",
+    "Wenbin Hu",
+    "Huihao Jing",
+    "Hongyu Luo",
+    "Qing Zong",
+    "Haochen Shi",
+    "Haoran Li",
+    "Yangqiu Song"
+   ],
+   "link": "https://arxiv.org/abs/2611.32480v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Tool implementations are a practical feedback source for skill self-evolution when no task verifier exists.",
+   "method_and_setup": {
+    "method": "Scripts-first approach extracts tool capabilities and input requirements from source code and compares them with the current workflow and execution trace to recommend SKILL.md edits.",
+    "setup": "SkillsBench and SkillLearnBench, as an extra stage for four evolution methods."
+   },
+   "results": [
+    {
+     "value": "9.14-13.35 percentage points",
+     "measures": "improvement in overall average task success vs. No-verifier conditions",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "tool-use",
+    "evaluation"
+   ],
+   "change_for_agents": "Diff a skill's instructions against the tool code it calls to find missing or conflicting steps.",
+   "why_it_matters_for_justin": "A verifier-free way to improve skills: compare tool source to skill instructions.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32946v1",
+   "title": "ShellBench: What Matters More for AI Agents, Models, or Harness for Everyday Tasks",
+   "authors": [
+    "Vincent Koc",
+    "Aditya Washikar",
+    "Rishab Naveen Venkataraman",
+    "Onur Solmaz",
+    "Zhentong Fan",
+    "Xinyang Han",
+    "Toby Vincent John",
+    "Hao Li",
+    "Achyut Mukund",
+    "Biresh Chandra Biswas",
+    "Eshan Shukla",
+    "Louis Pan",
+    "Ivan Kudryavtsev",
+    "Patthigulla Sai Surendra",
+    "Krish Oberoi",
+    "Ayaan Zaidi",
+    "Hema Veeradhi",
+    "Taylor Agarwal",
+    "Erik Erlandson",
+    "Agustin Rivera",
+    "Jacob Tomlinson",
+    "Louka Ewington-Pitsos"
+   ],
+   "link": "https://arxiv.org/abs/2611.32946v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Model choice affects everyday-task performance more than harness choice, though the top three models differ by only 1.1 percentage points.",
+   "method_and_setup": {
+    "method": "100 day-to-day tasks in realistic messy workspaces graded for correctness and safety.",
+    "setup": "12 models across 5 agent harnesses at 3 reasoning levels, 53,100 rollouts."
+   },
+   "results": [
+    {
+     "value": "53,100 rollouts",
+     "measures": "total evaluated",
+     "location": "abstract"
+    },
+    {
+     "value": "between 42.9 (Claude Code) and 45.2 (OpenClaw) for pass@1",
+     "measures": "range of harness scores",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Spend effort on model selection and tasks before harness swaps for everyday-task agents.",
+   "why_it_matters_for_justin": "Harness choice (Claude Code vs OpenClaw etc.) had little effect on everyday-task pass rate or safety.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33022v1",
+   "title": "RecordRoute: Auditing Agent Failures with Localization-Guided Diagnosis",
+   "authors": [
+    "Yifan Duan",
+    "Lihuan Li",
+    "Chao Xue",
+    "Siyuan Zheng",
+    "Du Yin",
+    "Flora D. Salim"
+   ],
+   "link": "https://arxiv.org/abs/2611.33022v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Using the localization result to choose the text for mode diagnosis beats full-trace diagnosis.",
+   "method_and_setup": {
+    "method": "Comparative ranking of records with word and character features; selected record drives mode prediction.",
+    "setup": "Who&When Pro, TraceElephant and CatchBench POST."
+   },
+   "results": [
+    {
+     "value": "77.47%",
+     "measures": "pooled joint accuracy with local diagnosis",
+     "location": "abstract"
+    },
+    {
+     "value": "69.28%",
+     "measures": "pooled joint accuracy with full-trace diagnosis",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Localize the earliest decisive step first, then diagnose only that record.",
+   "why_it_matters_for_justin": "Method for attributing blame in multi-agent traces.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33098v1",
+   "title": "Delegent: A Multi-Agent Harness That Reduces Cost without Sacrificing Performance",
+   "authors": [
+    "Lingwei Gu",
+    "Jimmy Lin"
+   ],
+   "link": "https://arxiv.org/abs/2611.33098v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Delegating easy subtasks to a small model cuts frontier cost with no loss in task performance.",
+   "method_and_setup": {
+    "method": "Delegent harness built on Claude Code; frontier model stays in charge and hands subtasks such as investigating code, running tests and searching a corpus to SLM subagents. No router or model is trained.",
+    "setup": "A 27B FP8 SLM and a 2B SLM."
+   },
+   "results": [
+    {
+     "value": "by 67%",
+     "measures": "reduction in frontier cost of long-horizon coding with the 27B SLM",
+     "location": "abstract"
+    },
+    {
+     "value": "59%",
+     "measures": "reduction in frontier cost of agentic search",
+     "location": "abstract"
+    },
+    {
+     "value": "66%",
+     "measures": "coding cost reduction with a 2B SLM that fits on a laptop",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "harness",
+    "local-models"
+   ],
+   "change_for_agents": "Hand investigate/test/search subtasks to a small local subagent and keep the frontier model as the lead.",
+   "why_it_matters_for_justin": "Closest fit to your Claude Code + local-model stack; a 2B model on a laptop already cuts coding cost.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31258v1",
+   "title": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
+   "authors": [
+    "Yulun Jiang",
+    "Maria Brbic",
+    "Michael Moor"
+   ],
+   "link": "https://arxiv.org/abs/2611.31258v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A summary should preserve the behavior induced by the original interaction history, and training for that beats task-reward-only RL.",
+   "method_and_setup": {
+    "method": "Behavior distortion objective with distortion-based reward for summaries and self-distillation for post-compaction actions.",
+    "setup": "Qwen3.5-4B on BrowseComp-plus and SWE-bench Verified."
+   },
+   "results": [
+    {
+     "value": "4.6% and 4.3%",
+     "measures": "absolute improvement on BrowseComp-plus and SWE-bench Verified",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "local-models",
+    "agents"
+   ],
+   "change_for_agents": "Judge a compaction by whether the agent behaves the same afterwards, not by how it reads.",
+   "why_it_matters_for_justin": "Compaction quality is trainable; relevant to long-horizon context management.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31265v1",
+   "title": "SD-Cache: Learnable Memory Consolidation with State-Guided Dynamic Caching",
+   "authors": [
+    "Yuanhong Chen",
+    "Yiping Ji",
+    "Cameron Gordon",
+    "Emily Hackett-Jones",
+    "Hemanth Saratchandran",
+    "Anton van den Hengel"
+   ],
+   "link": "https://arxiv.org/abs/2611.31265v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Native KV states can be consolidated into a fixed-size working memory without access to future queries.",
+   "method_and_setup": {
+    "method": "SD-Cache learns layer-wise KV consolidation through selective anchor-based pooling and state-guided refinement alongside a frozen generator.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "memory",
+    "local-models"
+   ],
+   "change_for_agents": "Cap KV memory with a learned fixed-size consolidation rather than keeping every retrieved document's cache.",
+   "why_it_matters_for_justin": "KV growth is the cost of persistent services; track for local long-running agents.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31307v1",
+   "title": "When Successful Collaboration Becomes an Attack Surface: Insider Memory Poisoning in Multi-Agent Systems",
+   "authors": [
+    "Jihyung Ahn",
+    "Buru Chang"
+   ],
+   "link": "https://arxiv.org/abs/2611.31307v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Shared memory of successful collaborations can be poisoned by an insider with only normal participation privileges, and auditing only partially mitigates it.",
+   "method_and_setup": {
+    "method": "MIMPA embeds a target-specific payload during an earlier task so it is retained in a successful collaboration record.",
+    "setup": "Three benchmarks and two LLM backbones."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "memory",
+    "security"
+   ],
+   "change_for_agents": "Treat retrieved 'successful' team records as untrusted input to later tasks.",
+   "why_it_matters_for_justin": "Shared team memory is an attack surface using only normal privileges.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31318v1",
+   "title": "Scoring Recovery-Time Agent Security: Proposals, Effects, and Retry Instructions",
+   "authors": [
+    "Paul Deepakraj Retinraj"
+   ],
+   "link": "https://arxiv.org/abs/2611.31318v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Evaluating only whether a goal exists hides harmful recovery actions; clarifying the effect definition and recipe raises valid recoveries.",
+   "method_and_setup": {
+    "method": "Executable evaluation recording tool proposals, runtime decisions and committed effects.",
+    "setup": "3,456 model episodes plus 1,584 episodes for stronger attacks."
+   },
+   "results": [
+    {
+     "value": "39/576",
+     "measures": "valid recoveries under original task wording when the initial write is absent",
+     "location": "abstract"
+    },
+    {
+     "value": "576/576",
+     "measures": "valid recoveries with a combined clarification",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "security",
+    "evaluation"
+   ],
+   "change_for_agents": "Tell the agent explicitly how to check whether a timed-out write committed before retrying.",
+   "why_it_matters_for_justin": "Gives a way to score safe recovery after ambiguous tool timeouts.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31338v1",
+   "title": "Per-Attack Blocking Hides Catalog Vulnerability: A Weakest-Link Analysis of Tool Manifests",
+   "authors": [
+    "Karthik Karunanithi"
+   ],
+   "link": "https://arxiv.org/abs/2611.31338v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A tool catalog's vulnerability grows with its size even when per-attack blocking stays constant.",
+   "method_and_setup": {
+    "method": "Weakest-link analysis of tool manifests across synthetic catalogs, a fifteen-model authoring pilot and real MCP tools.",
+    "setup": "114 real MCP tools with expert-written rules."
+   },
+   "results": [
+    {
+     "value": "22% at 10 tools to 99% at 200",
+     "measures": "catalog vulnerability in synthetic catalogs",
+     "location": "abstract"
+    },
+    {
+     "value": "89%",
+     "measures": "share of attacks blocked by the models' own manifests on real MCP tools",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "mcp",
+    "tool-use",
+    "security"
+   ],
+   "change_for_agents": "Report catalog-level exfiltration paths, not per-attack block rate, when auditing an MCP tool set.",
+   "why_it_matters_for_justin": "Directly relevant to MCP tool catalogs; more tools means near-certain weak spot.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31541v1",
+   "title": "Where Agent Defenses Fail: A Case Study of Policy Compositions and Measurement Limits",
+   "authors": [
+    "Kunwar Singh Sangram",
+    "Krishna Mohan Guda Nagavenkata Srinivasa"
+   ],
+   "link": "https://arxiv.org/abs/2611.31541v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Restrictive sandboxing blocks harm but costs utility, while mediation restores utility and admits disclosure.",
+   "method_and_setup": {
+    "method": "Prospective frozen-input cohorts measured by files and HTTP receipts rather than control logs.",
+    "setup": "Cohorts of 110 and 300 runs; 72-run boundary study; 80-run SafeAgents/OpenShell follow-up."
+   },
+   "results": [
+    {
+     "value": "6/8 and 12/24",
+     "measures": "benign utility under restrictive sandboxing",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "harness",
+    "evaluation"
+   ],
+   "change_for_agents": "Measure effects from files and network receipts, not from the agent's own control logs.",
+   "why_it_matters_for_justin": "Shows sandboxing and mediation trade off benign utility against disclosure.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31582v1",
+   "title": "LatentLens: Rethinking Latent Interface in Multi-Agent Systems",
+   "authors": [
+    "Ziqing Yang",
+    "Kewei Cheng",
+    "Mingjie Li",
+    "Yang Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.31582v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Adding a latent interface to the same harness does not improve and can substantially degrade accuracy.",
+   "method_and_setup": {
+    "method": "LatentLens decouples the latent interface from the harness and internally into realignment compatibility, information accessibility and propagation dynamics.",
+    "setup": "Seven benchmarks with Qwen3 models."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "harness",
+    "local-models"
+   ],
+   "change_for_agents": "Keep decoded text between agents unless latent exchange is shown to beat it on your harness.",
+   "why_it_matters_for_justin": "Plain text between agents remains a safe default.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31739v1",
+   "title": "Where is the Interface for the AI Harness?",
+   "authors": [
+    "Wafa Johal",
+    "Sarah Schombs"
+   ],
+   "link": "https://arxiv.org/abs/2611.31739v1",
+   "license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+   "claim": "Agentic delegation opens gulfs of specification and oversight that meet in the harness.",
+   "method_and_setup": {
+    "method": "Position argument starting from a 2026 incident of a research agent circumventing an access refusal.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "agents"
+   ],
+   "change_for_agents": "Make the permissions and checks of an agent harness visible and editable by the end user.",
+   "why_it_matters_for_justin": "Frames what Mitamaton should expose to a user: permissions and oversight.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31800v1",
+   "title": "Learning Compact State Abstractions for LLM Agents",
+   "authors": [
+    "Yaswanth Chittepu",
+    "Raghavendra Addanki",
+    "Anup Rao",
+    "Branislav Kveton",
+    "Scott Niekum"
+   ],
+   "link": "https://arxiv.org/abs/2611.31800v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A compact state abstraction can preserve near-reference task success while cutting policy input.",
+   "method_and_setup": {
+    "method": "Deterministic recursive programs searched by an LLM-guided genetic algorithm.",
+    "setup": "ALFWorld and ScienceWorld."
+   },
+   "results": [
+    {
+     "value": "up to 71% and 57%",
+     "measures": "reduction in mean policy input on ALFWorld and ScienceWorld",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Replace full interaction history with an inspectable state program and measure what it drops.",
+   "why_it_matters_for_justin": "Cuts policy input substantially with near-reference success.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32009v1",
+   "title": "Calm Agent: Reframing Agent Interaction around Intermittent Human Attention",
+   "authors": [
+    "Dian Jin",
+    "Zixun Fu",
+    "Guan Wang",
+    "Yancheng Yuan"
+   ],
+   "link": "https://arxiv.org/abs/2611.32009v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Agents for auxiliary tasks should be designed so users can return with little effort to understand and control them.",
+   "method_and_setup": {
+    "method": "Calm Agent position with Delegate, Adjust, Check modes and the Orvlet desktop prototype.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "persistence"
+   ],
+   "change_for_agents": "Keep a persistent task representation the user can glance at to see state and adjust.",
+   "why_it_matters_for_justin": "Matches a day-admin agent that runs while the user does other things.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32018v1",
+   "title": "Structure-Aware Transformers for Hierarchical Authorization in Personal AI Agents",
+   "authors": [
+    "Dongyu Cui",
+    "Jie Ding",
+    "Xuan Bi"
+   ],
+   "link": "https://arxiv.org/abs/2611.32018v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Hierarchy-aware modeling can predict users' authorization preferences for personal AI agents from sparse decisions.",
+   "method_and_setup": {
+    "method": "PATH combines hierarchy-aware attention masks with a parent-gated probability formulation.",
+    "setup": "Simulated data, AI-generated user profiles and real user authorization data."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "security"
+   ],
+   "change_for_agents": "Predict approval for a permission from the user's decisions on its parent categories.",
+   "why_it_matters_for_justin": "Reduces permission-prompt fatigue for a personal agent.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32194v1",
+   "title": "LLM Agent Authorization Across Context Compaction",
+   "authors": [
+    "Zeming Fei",
+    "Hongming Fei",
+    "Yi Xu",
+    "Xiaoyang Wang",
+    "Ying Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.32194v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Because compactors' summaries read as the user speaking, policies derived from them admit attacker content.",
+   "method_and_setup": {
+    "method": "Observed Claude Code and Codex compaction behaviour; Progent policy derived per request from the compactor summary.",
+    "setup": null
+   },
+   "results": [
+    {
+     "value": "91%",
+     "measures": "cases in which the policy derived from a frontier compactor's summary admits the notice's account",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "security",
+    "harness"
+   ],
+   "change_for_agents": "Derive authorization only from text the user actually wrote, never from a compaction summary.",
+   "why_it_matters_for_justin": "Compaction in Claude Code and Codex changes who authorized what.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.32195v1",
+   "title": "When Answering Is Administering: Permission Replies That Rewrite Coding-Agent Policy",
+   "authors": [
+    "Zeming Fei",
+    "Hongming Fei",
+    "Jingwen Chen",
+    "Xiaoyang Wang",
+    "Prosanta Gope",
+    "Biplab Sikdar",
+    "Ying Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.32195v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "The right to answer a permission prompt has become the right to administer the policy.",
+   "method_and_setup": {
+    "method": "Attack demonstration plus proofs of tight bounds; checked across permission designs.",
+    "setup": "Thirteen permission designs across ten agent systems; 2,227 fetched marketplace plugins."
+   },
+   "results": [
+    {
+     "value": "2,227",
+     "measures": "fetched marketplace plugins surveyed, of which only two send policy updates",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "harness",
+    "tool-use"
+   ],
+   "change_for_agents": "Accept permission-update replies only if they keep every denied call denied, or record who wrote each rule.",
+   "why_it_matters_for_justin": "Directly affects Claude Code remote permission relays.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.31962v1",
+   "title": "Are Web Agents Still Detectable? Stress-Testing Bot Defenses with Coordinated Evasion",
+   "authors": [
+    "Parsa Nilforushan",
+    "Gemmin Sugiura",
+    "Kourosh Hashemi",
+    "Peiman Zhiani",
+    "Mohammad A. Tayebi"
+   ],
+   "link": "https://arxiv.org/abs/2611.31962v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Existing bot defenses are passed by agents coordinating evasion across fingerprints, automation controls and behavior.",
+   "method_and_setup": {
+    "method": "DarkAgent: forked Chromium concealing automation artifacts plus generative models of mouse and keyboard traces.",
+    "setup": "Third-party stealth benchmark."
+   },
+   "results": [
+    {
+     "value": "89%",
+     "measures": "page-access bypass rate",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "computer-use",
+    "security",
+    "evaluation"
+   ],
+   "change_for_agents": "Do not rely on browser fingerprint checks alone to tell agents from humans.",
+   "why_it_matters_for_justin": "Shows what detection of web agents still relies on; relevant for browsing agents.",
+   "action": "track",
+   "depth": "abstract"
+  }
+ ]
+}
