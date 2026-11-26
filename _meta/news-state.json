@@ -1,6 +1,6 @@
 {
- "last_run": "2026-11-25T06:10:59Z",
- "previous_run": "2026-11-24T06:06:15Z",
+ "last_run": "2026-11-26T06:02:19Z",
+ "previous_run": "2026-11-25T06:10:59Z",
  "seen": {
   "anthropic-news:ai-for-science-expands-foundations-research-institutions": "2026-10-29",
   "anthropic-news:alignment-assessment-ukaisi": "2026-10-27",
@@ -109,6 +109,7 @@
   "composio-changelog:https://docs.composio.dev/docs/changelog/2026/11/12.md": "2026-11-13",
   "composio-changelog:https://docs.composio.dev/docs/changelog/2026/11/17.md": "2026-11-18",
   "composio-changelog:https://docs.composio.dev/docs/changelog/2026/11/20.md": "2026-11-21",
+  "composio-changelog:https://docs.composio.dev/docs/changelog/2026/11/25.md": "2026-11-26",
   "composio-releases:419773131": "2026-10-22",
   "composio-releases:420086240": "2026-10-22",
   "composio-releases:420087627": "2026-10-22",
@@ -122,6 +123,7 @@
   "composio-releases:430882003": "2026-11-02",
   "composio-releases:447003507": "2026-11-17",
   "composio-releases:453056072": "2026-11-21",
+  "composio-releases:458640110": "2026-11-26",
   "gemini-changelog:2026-10-26:925e9df665fde8a8": "2026-10-27",
   "gemini-changelog:2026-10-27:562fa848bde67fbb": "2026-10-28",
   "gemini-changelog:2026-10-30:4edeacd7d9fec7ef": "2026-10-31",
@@ -445,6 +447,7 @@
   "vercel-changelog:https://vercel.com/changelog/vercel-tracing-is-now-generally-available": "2026-11-07",
   "vercel-changelog:https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway": "2026-10-29",
   "vercel-changelog:https://vercel.com/changelog/websocket-support-is-now-generally-available": "2026-10-21",
-  "vercel-changelog:https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel": "2026-11-10"
+  "vercel-changelog:https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel": "2026-11-10",
+  "vercel-changelog:https://vercel.com/changelog/workflows-speculative-execution": "2026-11-26"
  }
 }

@@ -1,0 +1,1108 @@
+{
+ "date": "2026-11-26",
+ "schema_version": 1,
+ "source_listing": "https://arxiv.org/list/cs.AI/recent",
+ "items_count": 31,
+ "records": [
+  {
+   "id": "2611.33757v1",
+   "title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+   "authors": [
+    "Tianze Xia",
+    "Zimo Wang",
+    "Heng Tong",
+    "Zhaoxiang Liu",
+    "Shiguo Lian",
+    "Fan Huang",
+    "Wenyu Liu",
+    "Yunchao Wei",
+    "Xinggang Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.33757v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Harness intervention policies evolved from success-failure contrasts transfer across benchmarks instead of overfitting the evolution set.",
+   "method_and_setup": {
+    "method": "Evolves harness intervention policies from same-task success-failure contrasts with cross-task replay and independent semantic selection.",
+    "setup": "300 source trajectories from outside the test distribution; cross-benchmark evaluation over multiple models and harnesses."
+   },
+   "results": [
+    {
+     "value": "76.4% on DeepSWE v1.1",
+     "measures": "state-of-the-art score",
+     "location": "abstract"
+    },
+    {
+     "value": "95.5% on Terminal-Bench 2.1",
+     "measures": "state-of-the-art score",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "harness",
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Evolve harness checks from paired success/failure runs and validate them on a held-out task distribution before keeping them.",
+   "why_it_matters_for_justin": "Harness policies learned from few trajectories that survive a distribution shift are directly usable for the Claude Code / MCP harness.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33822v1",
+   "title": "MetaDecomp: Adaptive Task Decomposition via Meta-Learned Procedural Memory",
+   "authors": [
+    "Ziyi Wang",
+    "Yixiao He",
+    "Yichen Wu",
+    "Ruite Lu",
+    "Jiayu Wang",
+    "Ying Wei"
+   ],
+   "link": "https://arxiv.org/abs/2611.33822v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Meta-learned procedural memory with abstract progress states lets small-model language agents decompose long tasks better and cheaper than ReAct.",
+   "method_and_setup": {
+    "method": "In-context meta-learning framework; outer loop builds procedural memory as DAGs between abstract states, inner loop refines decomposition from feedback.",
+    "setup": "ALFWorld and ScienceWorld over three seeds."
+   },
+   "results": [
+    {
+     "value": "86.3% success rate on ALFWorld with Qwen3-4B",
+     "measures": "success rate",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "agents",
+    "local-models"
+   ],
+   "change_for_agents": "Store reusable procedures as state-to-state graphs and let the agent revise the plan from environment feedback.",
+   "why_it_matters_for_justin": "A 4B local model reaching 86.3% on ALFWorld with procedural memory fits a small on-device planner design.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33943v1",
+   "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
+   "authors": [
+    "Haozhe Zhang",
+    "Zhen Long"
+   ],
+   "link": "https://arxiv.org/abs/2611.33943v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "SkillsBench's skill-lift numbers are partly artifacts of grader dependence, placeholder skills and run noise, so per-task harm from skills is not established.",
+   "method_and_setup": {
+    "method": "Source-code audit of SkillsBench plus noise-aware reanalysis of public trials with multiple-testing correction.",
+    "setup": "7,554 public trials forming 1,421 paired (configuration, task) cells."
+   },
+   "results": [
+    {
+     "value": "18.7 pp",
+     "measures": "overall average lift for the full set",
+     "location": "abstract"
+    },
+    {
+     "value": "74.6 pp",
+     "measures": "average lift on the three tasks with grader or definition issues",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "evaluation"
+   ],
+   "change_for_agents": "Do not gate or drop skills on per-task lift from at most three runs per cell; run more repeats first.",
+   "why_it_matters_for_justin": "Before pruning skills in your own skill library based on small-run deltas, check the noise floor.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34147v1",
+   "title": "Letting Models Manage Their Own Context: Where We Stand",
+   "authors": [
+    "Alessio Devoto",
+    "Avinash Vem",
+    "Tara Safavi",
+    "Sanjay Kariyappa",
+    "Yu-Hsuan Tseng",
+    "Paul Furgale",
+    "Ricardo Silveira Cabral"
+   ],
+   "link": "https://arxiv.org/abs/2611.34147v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Letting models decide when and what to compact through a context API beats harness-triggered compaction, especially at tight budgets.",
+   "method_and_setup": {
+    "method": "Models given a context API inside NVIDIA's open source agent harness, compared against harness-managed compaction.",
+    "setup": "Document research and ML engineering tasks, context budgets from 8K to 512K tokens."
+   },
+   "results": [
+    {
+     "value": "GPT 6.1 nearly triples its score at a 32K budget",
+     "measures": "score on OfficeQA Pro v2",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "context",
+    "harness",
+    "agents"
+   ],
+   "change_for_agents": "Expose a compact/drop-context tool to the model rather than auto-summarizing when the window fills.",
+   "why_it_matters_for_justin": "Direct input to how Claude Code-style harnesses and Mitamaton should handle context pressure.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34466v1",
+   "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+   "authors": [
+    "Yurun Chen",
+    "Biao Yi",
+    "Qihang Yu",
+    "Keting Yin",
+    "Shengyu Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.34466v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Computer-use agents do markedly worse when tasks originate from first-person wearable context than from explicit computer instructions.",
+   "method_and_setup": {
+    "method": "Benchmark built from first-person recordings with three interaction settings.",
+    "setup": "Over 74 hours of real-world first-person recordings, 693 tasks."
+   },
+   "results": [
+    {
+     "value": "26.3% lower",
+     "measures": "average success rate in Online Ego Use versus Computer-Use",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "computer-use",
+    "evaluation",
+    "agents"
+   ],
+   "change_for_agents": "Test computer-use agents on tasks inferred from ambient context, not only explicit instructions.",
+   "why_it_matters_for_justin": "Relevant to proactive iOS/wearable-triggered agent tasks.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34576v1",
+   "title": "Procedure Inference as Memory: Learning Recruiter Decision Procedures from OKF-Structured Episodes in Multi-Session Hiring Assistants",
+   "authors": [
+    "Praveen Kumar Bodigutla",
+    "Yizhi Zhang",
+    "Sai Vivek Kanaparthy",
+    "Arup De"
+   ],
+   "link": "https://arxiv.org/abs/2611.34576v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "An indexed episodic memory with lineage retrieval beats full-history context and conversation search for inferring evolving preferences, with fewer tokens.",
+   "method_and_setup": {
+    "method": "OKF-indexed episodic memory organizing interactions and retrieving related events through their lineage.",
+    "setup": "Multi-session hiring-assistant evaluation versus no memory, full history and conversation search."
+   },
+   "results": [
+    {
+     "value": "0.93-0.95",
+     "measures": "low-priority preference F1 at medium and high preference overlap",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "agents"
+   ],
+   "change_for_agents": "Index episodes with lineage links and navigate the index instead of replaying full history.",
+   "why_it_matters_for_justin": "A concrete alternative to full-history context for a day-admin agent's long-term preferences.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34624v1",
+   "title": "HoMe: Toward Practical Harness Optimization of Memory Systems for AI Assistants",
+   "authors": [
+    "Yifei Xu",
+    "Li Yu",
+    "Zhaoyang Liu",
+    "Ce Wang",
+    "Sen Huang",
+    "Yanyan Shen",
+    "Yun Lin",
+    "Linpeng Huang",
+    "Hong Mei"
+   ],
+   "link": "https://arxiv.org/abs/2611.34624v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Optimizing the harness of a long-running assistant's memory system is mostly manual, and unrestricted editing alone does not ensure structural improvements.",
+   "method_and_setup": {
+    "method": "HoMe: harness optimization for memory systems covering construction, maintenance, retrieval and answer generation.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "harness",
+    "agents"
+   ],
+   "change_for_agents": "Treat memory construction, maintenance and retrieval code as an optimizable harness with structural constraints.",
+   "why_it_matters_for_justin": "Targets exactly the memory write/read policy tuning that persistent assistants need.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34762v1",
+   "title": "TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination",
+   "authors": [
+    "Jinkun Zhao",
+    "Wenjun Wu"
+   ],
+   "link": "https://arxiv.org/abs/2611.34762v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Agents hallucinate against their own retrieved memory through memory-ignoring, memory-misapplying and version confusion, which weight-side steering and editing can address.",
+   "method_and_setup": {
+    "method": "Five open models studied; TASK Memory adds activation steering and knowledge editing to text memory.",
+    "setup": "Five open models."
+   },
+   "results": [
+    {
+     "value": "up to 46% of queries",
+     "measures": "memory-ignoring where the model returns to a stale fact in its weights",
+     "location": "abstract"
+    },
+    {
+     "value": "53% of answers",
+     "measures": "assert the superseded value when both versions remain stored",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "local-models",
+    "agents"
+   ],
+   "change_for_agents": "When a fact is revised, delete or mark the superseded version instead of storing both.",
+   "why_it_matters_for_justin": "Memory stores with revised facts need supersession handling; open local models show the failure.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33184v1",
+   "title": "Semantic Density Does Not Predict Agent-Memory Collapse",
+   "authors": [
+    "Saksham Gupta",
+    "Yash Choudhary",
+    "Arpit Upadhyay"
+   ],
+   "link": "https://arxiv.org/abs/2611.33184v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Memory-store statistics like semantic density do not warn before agent-memory accuracy collapses.",
+   "method_and_setup": {
+    "method": "Registered geometry, retrieval and graph statistics used to train classifiers applied unchanged to held-out runs.",
+    "setup": "805 snapshots from 13 memory methods across six environments; PropWorld runs of up to 5,000 crafting tasks."
+   },
+   "results": [
+    {
+     "value": "56.9%",
+     "measures": "of checkpoints from size-limited stores with stable accuracy falsely flagged",
+     "location": "abstract"
+    },
+    {
+     "value": "18%",
+     "measures": "of checkpoints detected after task success fell to zero",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "evaluation"
+   ],
+   "change_for_agents": "Monitor held-out task accuracy of a memory store, not embedding statistics, to detect degradation.",
+   "why_it_matters_for_justin": "Cheap store-statistic health checks for agent memory are not reliable.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33519v1",
+   "title": "PRECEPT: Security Self-Improvement of Coding Agents via Evolving Principles",
+   "authors": [
+    "Keyan Guo",
+    "Rupam Patir",
+    "Haipeng Cai",
+    "Hongxin Hu"
+   ],
+   "link": "https://arxiv.org/abs/2611.33519v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Coding agents reintroduce fixed vulnerability classes in new sessions about as often as agents that never saw them, and evolving principles reduce this.",
+   "method_and_setup": {
+    "method": "PRECEPT evolves security principles for coding agents.",
+    "setup": "14 task sequences with Codex, Claude Code and Qwen Code."
+   },
+   "results": [
+    {
+     "value": "26.7%",
+     "measures": "reintroduced the same vulnerability class in a new session",
+     "location": "abstract"
+    },
+    {
+     "value": "97.1%",
+     "measures": "secure working code for PRECEPT's weakest agent on unseen task families",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "agents",
+    "harness"
+   ],
+   "change_for_agents": "Carry distilled security principles across sessions instead of relying on per-session fixes.",
+   "why_it_matters_for_justin": "Claude Code sessions forget security fixes; persistent principles are a harness-level fix.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33605v1",
+   "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+   "authors": [
+    "Boyang Ma",
+    "Jinku Li",
+    "Hao Wu",
+    "Sheng Gao",
+    "Man Zhou",
+    "Minghui Xu",
+    "Yue Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.33605v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Agent replanning after tool failure can silently drop the security protections of the original workflow.",
+   "method_and_setup": {
+    "method": "ARGUS enforcement preventing protection-loss during recovery of tool and Skill workflows.",
+    "setup": "864-run evaluation."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "tool-use",
+    "skills"
+   ],
+   "change_for_agents": "Check that a recovery plan keeps every guard of the original workflow before executing it.",
+   "why_it_matters_for_justin": "Replanning after tool failures is a guard-bypass path for Mitamaton.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33893v1",
+   "title": "When Are Parallel Subagents Effective for Coding? An Empirical Study on Repository Construction",
+   "authors": [
+    "Zhiheng Lyu",
+    "Chengyu Yin",
+    "Lingming Zhang"
+   ],
+   "link": "https://arxiv.org/abs/2611.33893v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Parallel subagents add only a small hidden-test gain on repository construction at much higher cost.",
+   "method_and_setup": {
+    "method": "Single agent versus main agent delegating to parallel subagents.",
+    "setup": "Repository-construction tasks from NL2Repo and ProgramBench."
+   },
+   "results": [
+    {
+     "value": "about 1 to 5 percentage points",
+     "measures": "hidden-test pass rate gain from parallel subagents",
+     "location": "abstract"
+    },
+    {
+     "value": "up to 3.8x",
+     "measures": "cost of a single agent",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "harness",
+    "evaluation"
+   ],
+   "change_for_agents": "Prefer a self-check prompt over spawning parallel subagents unless measured gain justifies cost.",
+   "why_it_matters_for_justin": "Cost-gates subagent delegation in Claude Code workflows.",
+   "action": "try-now",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33926v1",
+   "title": "Connecting AI Agents to Live Discrete Element Simulations via the Model Context Protocol",
+   "authors": [
+    "Yusong Han",
+    "Ryosuke Uzuoka",
+    "Kyohei Ueda"
+   ],
+   "link": "https://arxiv.org/abs/2611.33926v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "An MCP server lets a general-purpose agent operate a discrete element engine while the simulation runs.",
+   "method_and_setup": {
+    "method": "MCP server and bridge for commercial and open-source engines; agent reads, changes or stops a running model.",
+    "setup": "Released as itasca-mcp and yade-mcp."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "mcp",
+    "tool-use",
+    "agents"
+   ],
+   "change_for_agents": "Make long-running tools MCP-driven so the agent can inspect and modify state mid-run.",
+   "why_it_matters_for_justin": "A pattern for long-running tool jobs over MCP.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34188v1",
+   "title": "MINE: A Training-Free Defense against Indirect Prompt Injection via Mutual Information and Embedding Variance",
+   "authors": [
+    "Truong Phan",
+    "Ngoc-Quan Pham",
+    "Dat Quoc Nguyen"
+   ],
+   "link": "https://arxiv.org/abs/2611.34188v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A training-free defense against indirect prompt injection works by maximizing relevance using mutual information and embedding variance rather than detecting attacks.",
+   "method_and_setup": {
+    "method": "MINE, training-free defense; new LC-Inj-SQuAD long-context benchmark.",
+    "setup": "Average of 4,032 words per context."
+   },
+   "results": [
+    {
+     "value": "4,032 words",
+     "measures": "average context length in LC-Inj-SQuAD",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "context"
+   ],
+   "change_for_agents": "Rank context by relevance to the query to dilute injected instructions.",
+   "why_it_matters_for_justin": "A cheap retrieval-side defense to compare against guard prompts.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34278v1",
+   "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+   "authors": [
+    "Manit Baser",
+    "Vyoman Jain",
+    "Rachel Yeo Hui Min",
+    "Xianglin Yang",
+    "Meenatchi Sundaram Muthu Selva Annamalai",
+    "Dinil Mon Divakaran"
+   ],
+   "link": "https://arxiv.org/abs/2611.34278v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Cross-model KV-cache handoffs undermine safety alignment and prompt-injection defenses, and a target-side cache guard mitigates this.",
+   "method_and_setup": {
+    "method": "Chasm framework with three attack surfaces; lightweight target-side cache guard.",
+    "setup": "Cross-model KV cache transfer with a learned mapper."
+   },
+   "results": [
+    {
+     "value": "0.4%",
+     "measures": "benchmark prompt injections followed natively",
+     "location": "abstract"
+    },
+    {
+     "value": "44.2%",
+     "measures": "followed when transferred through a mapper",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "multi-agent",
+    "context"
+   ],
+   "change_for_agents": "Do not hand off KV caches across models without a guard on the receiving side.",
+   "why_it_matters_for_justin": "Warns against latent handoff between agent models.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34398v1",
+   "title": "When Skills Fail to Compose: Compatibility and Retention in Language Models",
+   "authors": [
+    "Yan Lin",
+    "Zhongliang Guo",
+    "Jingyu Sun",
+    "Qiyan Zhao",
+    "Ruihong Zeng",
+    "Ying Chen",
+    "Zhengtao Yao",
+    "Yan Wen",
+    "Kunyu Peng",
+    "Yuxia Wang"
+   ],
+   "link": "https://arxiv.org/abs/2611.34398v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Independently learned soft-prompt skills do not compose in one call.",
+   "method_and_setup": {
+    "method": "Independently learned soft-prompt skills on frozen language models, identities and order supplied.",
+    "setup": "Four digit-task bases and three record-editing models."
+   },
+   "results": [
+    {
+     "value": "at most 7.6%",
+     "measures": "mean composition accuracy in one call",
+     "location": "abstract"
+    },
+    {
+     "value": "88.2% to 100%",
+     "measures": "over two calls with explicit intermediate output",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "evaluation"
+   ],
+   "change_for_agents": "Compose skills with an explicit intermediate output between calls.",
+   "why_it_matters_for_justin": "Skill chains should pass explicit intermediates.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34327v1",
+   "title": "MeterRouter: Budget-Aware Dynamic Routing for Multi-Agent Systems",
+   "authors": [
+    "Yue Xu",
+    "Leikun Yin",
+    "Ruiming Min",
+    "Yufeng Lai",
+    "Justin Andrew Johnson",
+    "Sitao Luan",
+    "Xiaotong Shen"
+   ],
+   "link": "https://arxiv.org/abs/2611.34327v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Budget-aware routing of agents across a model pool matches the strongest multi-agent system at much lower cost.",
+   "method_and_setup": {
+    "method": "MeterRouter dynamic routing for multi-agent systems.",
+    "setup": "Five benchmarks, three-tier LLM pool."
+   },
+   "results": [
+    {
+     "value": "82% lower cost",
+     "measures": "than the strongest MAS router",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "agents"
+   ],
+   "change_for_agents": "Route each agent role to a cheaper model tier under a spend budget.",
+   "why_it_matters_for_justin": "Cost control across subagent roles.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34400v1",
+   "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+   "authors": [
+    "Wei Chen",
+    "Xiaodong Lu",
+    "Weihao Shen",
+    "Gongxun Li",
+    "Xingyu Guo",
+    "Qihang Sun",
+    "Fuwei Zhang",
+    "Zhao Zhang",
+    "Yikun Ban",
+    "Shuang Li",
+    "Deqing Wang",
+    "Fuzhen Zhuang"
+   ],
+   "link": "https://arxiv.org/abs/2611.34400v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "A benchmark for self-evolving agents across long interdependent task streams under persistence conditions.",
+   "method_and_setup": {
+    "method": "EvoLink-Bench with L1 knowledge and L2 task-capability levels.",
+    "setup": "Five agent frameworks, three backbone configurations, three persistence conditions."
+   },
+   "results": [
+    {
+     "value": "19,635",
+     "measures": "scored task slots",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "evaluation",
+    "persistence",
+    "agents"
+   ],
+   "change_for_agents": "Evaluate agents with persistence on and off across a task stream.",
+   "why_it_matters_for_justin": "Benchmark for persistence of learned state.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34440v1",
+   "title": "vSFT: Learning to Verbally Tune Agents at Test Time",
+   "authors": [
+    "Qishuai Wen",
+    "Rui Chen",
+    "Haiwen Li",
+    "Zhiyuan Huang",
+    "Qiwen Gu",
+    "Bingjie Gao",
+    "Geng Li",
+    "Jing Tang",
+    "Xiangxiang Chu",
+    "Chun-Guang Li"
+   ],
+   "link": "https://arxiv.org/abs/2611.34440v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Verbal supervised fine-tuning gives dense feedback at test time and beats GRPO and Reflexion on ALFWorld and WebShop.",
+   "method_and_setup": {
+    "method": "vSFT conjoining natural-language feedback with supervised fine-tuning.",
+    "setup": "Qwen3-4B on ALFWorld and WebShop."
+   },
+   "results": [
+    {
+     "value": "8.7% and 13.9%",
+     "measures": "success-rate gains over GRPO and Reflexion on ALFWorld",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "local-models"
+   ],
+   "change_for_agents": "Tune a small agent at test time from verbal feedback instead of RL rollouts.",
+   "why_it_matters_for_justin": "Test-time tuning for a small local agent.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34875v1",
+   "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+   "authors": [
+    "Aakash Goel",
+    "Benjamin Steenhoek",
+    "Yu Hu"
+   ],
+   "link": "https://arxiv.org/abs/2611.34875v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Agent patches change more lines than developers' but extra edits are mostly tests and docs on SWE-bench Verified.",
+   "method_and_setup": {
+    "method": "Analysis of unneeded edits across 18 frontier models.",
+    "setup": "7,660 GitHub Copilot CLI trajectories on SWE-bench Verified and DeepSWE."
+   },
+   "results": [
+    {
+     "value": "61%",
+     "measures": "extra edits that add tests on SWE-bench Verified",
+     "location": "abstract"
+    },
+    {
+     "value": "58%",
+     "measures": "extra edits that are code on DeepSWE",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Judge patch size by edit necessity, not line count.",
+   "why_it_matters_for_justin": "Interpreting coding-agent diffs.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33174v1",
+   "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+   "authors": [
+    "Junhong Huang",
+    "Xin Tong",
+    "Jun Xia"
+   ],
+   "link": "https://arxiv.org/abs/2611.33174v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "A deterministic provenance-preserving memory indexing avoids generative LLM calls to rewrite history.",
+   "method_and_setup": {
+    "method": "MGMem long-horizon agent memory framework.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "agents",
+    "persistence"
+   ],
+   "change_for_agents": "Index memory without LLM rewriting to keep builds cheap and traceable.",
+   "why_it_matters_for_justin": "Deterministic memory with provenance is attractive for on-device agents.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33612v1",
+   "title": "Failure Broadens, Success Sharpens: Continual Adaptation of Tool-Use Agents Across Diverse Tasks with Dual-Polarity Memory",
+   "authors": [
+    "Tianmai M. Zhang",
+    "Hoda Shajari",
+    "Amr Hendy",
+    "Xiaohu Liu",
+    "Piyush Behre",
+    "Omar Zia Khan",
+    "Ankur Gupta"
+   ],
+   "link": "https://arxiv.org/abs/2611.33612v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Memory from local failures broadens and from successes sharpens tool-use agent adaptation.",
+   "method_and_setup": {
+    "method": "DualPM retrieval-free dual-polarity memory with periodic consolidation.",
+    "setup": "Heterogeneous streams of multi-domain tool-use tasks."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "tool-use",
+    "agents"
+   ],
+   "change_for_agents": "Keep reflections from both successes and failures and consolidate periodically under a capacity cap.",
+   "why_it_matters_for_justin": "Memory maintenance recipe for tool-use agents.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33648v1",
+   "title": "PRIOR: Pre-Call Reasoning in SFT and Its Influence on Tool-Use Retention under RL",
+   "authors": [
+    "Kaiwen Hu",
+    "Hyunin Lee",
+    "Joseph Suh",
+    "Serina Chang",
+    "Shuai Shao",
+    "Yong Zhang",
+    "Namyong Park",
+    "Xiaoqiang Luo",
+    "Luke Simon",
+    "Somayeh Sojoudi"
+   ],
+   "link": "https://arxiv.org/abs/2611.33648v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "The tool-call depth of SFT data affects whether tool use is retained during RL.",
+   "method_and_setup": {
+    "method": "Low, Medium and High SFT datasets with matched token budgets; PRIOR pre-call reasoning.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "tool-use",
+    "local-models"
+   ],
+   "change_for_agents": "Include pre-call reasoning in SFT data for tool use that survives RL.",
+   "why_it_matters_for_justin": "Guides fine-tuning of local tool-calling models.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33318v1",
+   "title": "What Must LLM Agents Communicate? From Information Loss to Communication Failures",
+   "authors": [
+    "Yi-Yun Chu",
+    "Xiaobin Shen"
+   ],
+   "link": "https://arxiv.org/abs/2611.33318v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Teams of LLM agents can collectively hold all needed information yet fail through insufficient communication.",
+   "method_and_setup": {
+    "method": "Study of three requirements for effective communication.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "agents"
+   ],
+   "change_for_agents": "Check that messages between agents convey sufficient information.",
+   "why_it_matters_for_justin": "Inter-agent message design.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34132v1",
+   "title": "Agent-as-a-Verifier: From Scores to Evidence for General Verification",
+   "authors": [
+    "Yuxuan Sun",
+    "Hao",
+    "Chen",
+    "Nagarajan Natarajan",
+    "Sushrut Karmalkar",
+    "Niranjani Prasad",
+    "Amit Sharma",
+    "Hongxiang Fan"
+   ],
+   "link": "https://arxiv.org/abs/2611.34132v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "An agent that gathers evidence verifies outputs better than scalar score verifiers.",
+   "method_and_setup": {
+    "method": "Agent-as-a-Verifier replaces scalar reward prediction with evidence-gathering.",
+    "setup": "Terminal-Bench 2.1."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "evaluation"
+   ],
+   "change_for_agents": "Use an evidence-gathering verifier agent instead of a scalar judge.",
+   "why_it_matters_for_justin": "Verifier agents for harness checks.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33402v1",
+   "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+   "authors": [
+    "Siddharth Arya",
+    "Kshitij Jain"
+   ],
+   "link": "https://arxiv.org/abs/2611.33402v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Partial routing delegates parts of a task to cheaper models and beats the lead alone.",
+   "method_and_setup": {
+    "method": "Trace-tuned partial routing with a lead model and delegation.",
+    "setup": "Held-out tasks from ViBench and Terminal-Bench 4.0."
+   },
+   "results": [
+    {
+     "value": "70.2 to 78.5",
+     "measures": "ViBench score with delta = 0.75, at 19% lower cost",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "multi-agent",
+    "harness",
+    "agents"
+   ],
+   "change_for_agents": "Delegate sub-steps to cheaper models rather than routing whole tasks.",
+   "why_it_matters_for_justin": "Cost-saving delegation pattern.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33385v1",
+   "title": "Poisoning Self-Evolving Security Policies in LLM Agents",
+   "authors": [
+    "Aymen Noor",
+    "Honglu Jiang"
+   ],
+   "link": "https://arxiv.org/abs/2611.33385v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Self-evolving security policies can be poisoned to cause over-refusal.",
+   "method_and_setup": {
+    "method": "Poisoning attack on learned reusable defense policies.",
+    "setup": "Ten Nemotron runs; transferred to gpt-oss-120b."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "security",
+    "agents"
+   ],
+   "change_for_agents": "Review learned security policies before they are adopted.",
+   "why_it_matters_for_justin": "Self-learned guards are an attack surface.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34635v1",
+   "title": "ZeroHero: Training Small Language Agents from Scratch",
+   "authors": [
+    "Nikita Sorokin",
+    "Zoya Volovikova",
+    "Alexey Skrynnik",
+    "Aleksandr Panov"
+   ],
+   "link": "https://arxiv.org/abs/2611.34635v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Small agents under 50M parameters can be trained from scratch on expert LLM trajectories.",
+   "method_and_setup": {
+    "method": "ZeroHero pretraining on successful expert responses.",
+    "setup": "Each SLA has fewer than 50 million parameters."
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "local-models",
+    "agents"
+   ],
+   "change_for_agents": "Distill an expert LLM's successful trajectories into a tiny specialized agent.",
+   "why_it_matters_for_justin": "Tiny on-device specialist agents.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33735v1",
+   "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+   "authors": [
+    "Yuyang Jin",
+    "Bingfeng Pi",
+    "Jiamei Sun",
+    "Wei Jin",
+    "Dongyang Wang",
+    "Yunpeng Li",
+    "Yan Bai",
+    "Lei Zuo"
+   ],
+   "link": "https://arxiv.org/abs/2611.33735v1",
+   "license": "http://creativecommons.org/licenses/by/4.0/",
+   "claim": "Intent-guided device/cloud routing for AI glasses cuts latency and tokens while keeping quality.",
+   "method_and_setup": {
+    "method": "JOVE ICE handles simple device control on device.",
+    "setup": "Three public benchmarks."
+   },
+   "results": [
+    {
+     "value": "approximately 13%",
+     "measures": "reduction in time to first token",
+     "location": "abstract"
+    },
+    {
+     "value": "over 11%",
+     "measures": "reduction in token usage",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "agents",
+    "local-models"
+   ],
+   "change_for_agents": "Handle simple device-control intents locally and send the rest to the cloud.",
+   "why_it_matters_for_justin": "Maps to iOS on-device routing.",
+   "action": "compare",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.34907v1",
+   "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+   "authors": [
+    "Shaoteng Liu",
+    "Shuai Yang",
+    "Wei Huang",
+    "Luozhou Wang",
+    "Song Han",
+    "Yukang Chen"
+   ],
+   "link": "https://arxiv.org/abs/2611.34907v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "An LLM agent can keep text and image entity memory for real-time video generation with about 1% extra time.",
+   "method_and_setup": {
+    "method": "Memory agent on separate GPUs prefilling the generator's attention sink.",
+    "setup": "LongStory-Online benchmark of 25 stories (857 shots)."
+   },
+   "results": [
+    {
+     "value": "26.3 points",
+     "measures": "persistent-state accuracy gain over LongLive-2.0",
+     "location": "abstract"
+    }
+   ],
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "memory",
+    "agents",
+    "context"
+   ],
+   "change_for_agents": "Run memory updates asynchronously so the main loop never waits on them.",
+   "why_it_matters_for_justin": "Async memory agent pattern.",
+   "action": "track",
+   "depth": "abstract"
+  },
+  {
+   "id": "2611.33707v1",
+   "title": "P-FedSkill: A Personalized Federated Skill Learning Framework under Task Heterogeneity",
+   "authors": [
+    "Zehang Lin",
+    "Jiayi Ji",
+    "Rongrong Ji"
+   ],
+   "link": "https://arxiv.org/abs/2611.33707v1",
+   "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+   "claim": "Personalized skill selection beats similarity-based skill sharing across clients with heterogeneous tasks.",
+   "method_and_setup": {
+    "method": "P-FedSkill: local skill extraction, personalized skill selection, task-aware skill routing.",
+    "setup": null
+   },
+   "results": null,
+   "limits": null,
+   "code_or_data": null,
+   "applies_to": [
+    "skills",
+    "agents"
+   ],
+   "change_for_agents": "Share skills across clients by task-outcome contribution rather than similarity.",
+   "why_it_matters_for_justin": "Skill sharing without sharing trajectories.",
+   "action": "track",
+   "depth": "abstract"
+  }
+ ]
+}

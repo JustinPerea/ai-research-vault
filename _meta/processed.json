@@ -1,5 +1,191 @@
 [
   {
+    "id": "arxiv:2611.33757",
+    "url": "https://arxiv.org/abs/2611.33757",
+    "title": "TransHarness: From Benchmark Overfitting to Transferable Harness Evolution",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33822",
+    "url": "https://arxiv.org/abs/2611.33822",
+    "title": "MetaDecomp: Adaptive Task Decomposition via Meta-Learned Procedural Memory",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33943",
+    "url": "https://arxiv.org/abs/2611.33943",
+    "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34147",
+    "url": "https://arxiv.org/abs/2611.34147",
+    "title": "Letting Models Manage Their Own Context: Where We Stand",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34466",
+    "url": "https://arxiv.org/abs/2611.34466",
+    "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34576",
+    "url": "https://arxiv.org/abs/2611.34576",
+    "title": "Procedure Inference as Memory: Learning Recruiter Decision Procedures from OKF-Structured Episodes in Multi-Session Hiring Assistants",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34624",
+    "url": "https://arxiv.org/abs/2611.34624",
+    "title": "HoMe: Toward Practical Harness Optimization of Memory Systems for AI Assistants",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34762",
+    "url": "https://arxiv.org/abs/2611.34762",
+    "title": "TASK Memory: Beyond Text-Only Memory with Activation Steering and Knowledge Editing against Memory Hallucination",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33184",
+    "url": "https://arxiv.org/abs/2611.33184",
+    "title": "Semantic Density Does Not Predict Agent-Memory Collapse",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33519",
+    "url": "https://arxiv.org/abs/2611.33519",
+    "title": "PRECEPT: Security Self-Improvement of Coding Agents via Evolving Principles",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33605",
+    "url": "https://arxiv.org/abs/2611.33605",
+    "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33893",
+    "url": "https://arxiv.org/abs/2611.33893",
+    "title": "When Are Parallel Subagents Effective for Coding? An Empirical Study on Repository Construction",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33926",
+    "url": "https://arxiv.org/abs/2611.33926",
+    "title": "Connecting AI Agents to Live Discrete Element Simulations via the Model Context Protocol",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34188",
+    "url": "https://arxiv.org/abs/2611.34188",
+    "title": "MINE: A Training-Free Defense against Indirect Prompt Injection via Mutual Information and Embedding Variance",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34278",
+    "url": "https://arxiv.org/abs/2611.34278",
+    "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34398",
+    "url": "https://arxiv.org/abs/2611.34398",
+    "title": "When Skills Fail to Compose: Compatibility and Retention in Language Models",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34327",
+    "url": "https://arxiv.org/abs/2611.34327",
+    "title": "MeterRouter: Budget-Aware Dynamic Routing for Multi-Agent Systems",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34400",
+    "url": "https://arxiv.org/abs/2611.34400",
+    "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34440",
+    "url": "https://arxiv.org/abs/2611.34440",
+    "title": "vSFT: Learning to Verbally Tune Agents at Test Time",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34875",
+    "url": "https://arxiv.org/abs/2611.34875",
+    "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33174",
+    "url": "https://arxiv.org/abs/2611.33174",
+    "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33612",
+    "url": "https://arxiv.org/abs/2611.33612",
+    "title": "Failure Broadens, Success Sharpens: Continual Adaptation of Tool-Use Agents Across Diverse Tasks with Dual-Polarity Memory",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33648",
+    "url": "https://arxiv.org/abs/2611.33648",
+    "title": "PRIOR: Pre-Call Reasoning in SFT and Its Influence on Tool-Use Retention under RL",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33318",
+    "url": "https://arxiv.org/abs/2611.33318",
+    "title": "What Must LLM Agents Communicate? From Information Loss to Communication Failures",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34132",
+    "url": "https://arxiv.org/abs/2611.34132",
+    "title": "Agent-as-a-Verifier: From Scores to Evidence for General Verification",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33402",
+    "url": "https://arxiv.org/abs/2611.33402",
+    "title": "Partial Routing: Trace-Tuned Delegation for Resource-Efficient Agentic Workflows",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33385",
+    "url": "https://arxiv.org/abs/2611.33385",
+    "title": "Poisoning Self-Evolving Security Policies in LLM Agents",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34635",
+    "url": "https://arxiv.org/abs/2611.34635",
+    "title": "ZeroHero: Training Small Language Agents from Scratch",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33735",
+    "url": "https://arxiv.org/abs/2611.33735",
+    "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.34907",
+    "url": "https://arxiv.org/abs/2611.34907",
+    "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+    "date_covered": "2026-11-26"
+  },
+  {
+    "id": "arxiv:2611.33707",
+    "url": "https://arxiv.org/abs/2611.33707",
+    "title": "P-FedSkill: A Personalized Federated Skill Learning Framework under Task Heterogeneity",
+    "date_covered": "2026-11-26"
+  },
+  {
     "id": "arxiv:2611.29847",
     "url": "https://arxiv.org/abs/2611.29847",
     "title": "MobileGrail: Learning Compact Guardrails for On-Device deployable Mobile GUI Agent Safety",
